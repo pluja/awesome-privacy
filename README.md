@@ -3,6 +3,8 @@
 
 * [Search Engines](#search-engines)
 * [Photo Storage](#photo-storage)
+* [Social Networks](#social-networks)
+  * [Instagram](#instagram)
 
 ## Search Engines
 
@@ -34,7 +36,12 @@
 ## Gmail / Outlook
 ## Android
 ## Android TV
-## Instagram
+## Social Networks
+### Instagram
+Don't use instagram (or at least the official client). Instagram is a very privacy-invasive, censoring, biased and manipulation tool. Instead Use:
+* [Pixelfed](https://pixelfed.org/) - Decentralized, federated and Open Source alternative to Instagram with posts, videos, stories, tags, etc.
+* [Barinsta](http://barinsta.austinhuang.me/) - The beautiful, open source, and privacy-friendly alternative Instagram client for Android.
+
 ## Whatsapp
 ## Facebook
 ## Twitter
