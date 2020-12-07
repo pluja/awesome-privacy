@@ -3,6 +3,7 @@
 
 * [Search Engines](#search-engines)
 * [Photo Storage](#photo-storage)
+* [Cloud Storage](#cloud-storage)
 * [Social Networks](#social-networks)
   * [Instagram](#instagram)
   * [Youtube](#youtube)
@@ -33,7 +34,19 @@
 * [Photostructure](https://photostructure.com/) - Self-hosted photo library that makes browsing and sharing a lifetime of memories delightful.
 * [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control. It has a [*Photos*](https://github.com/nextcloud/photos) plugin to help you organize and visualize your photos.
 
-## Google Drive
+## Cloud Storage
+<img width="16" src="misc/forbidden.png"> </img> **AVOID**
+* Google Drive
+* Dropbox
+* OneDrive
+
+<img width="16" src="misc/check.png"> </img>  **Instead use:**
+* [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control.
+
+**Other useful tools**:
+* [Cryptomator](https://cryptomator.org) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
+* [Syncthing](https://syncthing.net/) - Continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.
+
 ## Google Maps
 ## Gmail / Outlook
 ## Android
