@@ -17,11 +17,11 @@
 * [SearX](https://searx.me/) - Privacy-respecting metasearch engine.
 
 ## Photo storage
-**DON'T USE / AVOID:**
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **AVOID**
 * Google Photos
 * Amazon Photos
 
-**Instead use:**
+![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **Instead use:**
 * [Stingle Photos](https://stingle.org/) - Open source solution that provides strong security, privacy and encryption to backup your photos.
 * [Crypt.ee](https://crypt.ee/) - A private and encrypted place for all your photos, documents, notes and more.
 * [Photoprism](https://photoprism.app) - Feature rich server-based application for browsing, organizing and sharing your personal photo collection. The most similar to Google Photos.
