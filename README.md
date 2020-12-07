@@ -8,6 +8,7 @@
   * [Instagram](#instagram)
   * [Youtube](#youtube)
 * [Instant Messaging](#instant-messaging)
+* [Video conferencing](#video-conferencing)
 
 ## Search Engines
 
@@ -102,6 +103,20 @@
 #### Worth mentioning
 * [Berty](https://berty.tech/) - Not released yet.
 * [Telegram](https://telegram.org/) - Not fully open source. No E2E encryption by default on chats.
+
+## Video Conferencing
+<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+* ZOOM
+* Skype
+* Google Meet
+* Whatsapp
+* Instagram
+* Discord
+
+<img width="16" src="misc/check.png"> </img>  **Instead use:**
+* [Jitsi Meet](https://meet.jit.si/) - More secure, more flexible, and completely free video conferencing. **No account needed, no installation needed**
+* [Jami](https://jami.net/) - P2P audio and video conferences.
+* [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton is a web conferencing system designed for online learning.
 
 ## Facebook
 ## Twitter
