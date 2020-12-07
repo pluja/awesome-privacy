@@ -47,6 +47,8 @@
 * [Barinsta](http://barinsta.austinhuang.me/) - The beautiful, open source, and privacy-friendly alternative Instagram client for Android.
 
 ## Instant Messaging
+**Check out [this site](https://www.securemessagingapps.com/) for comparisons*
+
 <img width="16" src="misc/forbidden.png"> </img> **AVOID**:
 * Whatsapp
 * Instagram DM
