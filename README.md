@@ -46,7 +46,7 @@
 * [Pixelfed](https://pixelfed.org/) - Decentralized, federated and Open Source alternative to Instagram with posts, videos, stories, tags, etc.
 * [Barinsta](http://barinsta.austinhuang.me/) - The beautiful, open source, and privacy-friendly alternative Instagram client for Android.
 
-## Youtube
+### Youtube
 <img width="16" src="misc/forbidden.png"> </img> Don't use YouTube (or at least the official client). Youtube is very privacy invasive, it generates a very accurate profile based on your interests. Also it is a [radicalization tool](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization) which shows [biased content to users](https://arxiv.org/pdf/1908.08313.pdf) in order to get more engadgement and to get them to watch more and more content creating an [adiction](https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883). It never shows you [alternative opinions](https://arxiv.org/pdf/1908.08313.pdf) to your ideology/bias. Youtube censors a lot. Youtube collects a LOT of your data: interesnts, free time, ideology, likes, dislikes, music taste, etc...
 
 <img width="16" src="misc/check.png"> </img> **Instead Use:**
