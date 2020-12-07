@@ -88,13 +88,16 @@
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 * [Signal](https://signal.org/) - Extreme focus on privacy, combined with all of the features you expect. Strong encryption by design.
- * [Molly](https://github.com/mollyim/mollyim-android) - Signal-compatible fork client with some security enhancements.
+  * [Molly](https://github.com/mollyim/mollyim-android) - Signal-compatible fork client with some security enhancements.
 * [Element](https://element.io/) - All-in-one secure chat app for teams, friends and organisations. Keeps conversations in your control, safe from data-mining and ads. Talk to everyone through the open global Matrix network, protected by proper end-to-end encryption.
 * [Jabber / XMPP](https://xmpp.org/) - The universal messaging standard. Tried and tested. Independent. Privacy-focused.
- * [Conversations](https://conversations.im/) - Jabber/XMPP client for Android 4.0+ smartphones that has been optimized to provide a unique mobile experience
- * [AstraChat](https://astrachat.com/)
+  * [Conversations](https://conversations.im/) - Jabber/XMPP client for Android 4.0+ smartphones that has been optimized to provide a unique mobile experience
+  * [AstraChat](https://astrachat.com/) - Another XMPP client.
 * [Session](https://getsession.org/) - Extreme focus on privacy. Blockchain technology.
-* [Status](https://status.im/)
+* [Status](https://status.im/) - Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.
+* [Tox](https://tox.chat/) - Tox is easy-to-use software that connects you with friends and family without anyone else listening in. 
+* [Briar](https://briarproject.org/) - Peer-to-peer encrypted messaging and forums.
+* [DeltaChat](https://delta.chat/) - Chat over encrypted e-mail.
 
 #### Worth mentioning
 * [Berty](https://berty.tech/) - Not released yet.
