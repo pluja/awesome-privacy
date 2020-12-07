@@ -38,7 +38,9 @@
 ## Android TV
 ## Social Networks
 ### Instagram
-Don't use instagram (or at least the official client). Instagram is a very privacy-invasive, censoring, biased and manipulation tool. Instead Use:
+<img width="16" src="misc/forbidden.png"> </img> Don't use instagram (or at least the official client). Instagram is a very privacy-invasive, censoring, biased and manipulation tool. 
+
+<img width="16" src="misc/check.png"> </img> Instead Use:
 * [Pixelfed](https://pixelfed.org/) - Decentralized, federated and Open Source alternative to Instagram with posts, videos, stories, tags, etc.
 * [Barinsta](http://barinsta.austinhuang.me/) - The beautiful, open source, and privacy-friendly alternative Instagram client for Android.
 
