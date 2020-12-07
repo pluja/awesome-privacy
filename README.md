@@ -2,6 +2,7 @@
 <p align="center">List of free,open source and privacy respecting services and alternatives to privative services.</p>
 
 * [Search Engines](#search-engines)
+* [Photo Storage](#photo-storage)
 
 ## Search Engines
 
