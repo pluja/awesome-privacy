@@ -5,6 +5,7 @@
 * [Photo Storage](#photo-storage)
 * [Social Networks](#social-networks)
   * [Instagram](#instagram)
+* [Instant Messaging](#instant-messaging)
 
 ## Search Engines
 
