@@ -5,7 +5,7 @@
 * [Photo Storage](#photo-storage)
 * [Social Networks](#social-networks)
   * [Instagram](#instagram)
-  * [Youtube)(#youtube)
+  * [Youtube](#youtube)
 * [Instant Messaging](#instant-messaging)
 
 ## Search Engines
