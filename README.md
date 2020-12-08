@@ -52,8 +52,21 @@
 * [Cryptomator](https://cryptomator.org) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
 * [Syncthing](https://syncthing.net/) - Continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.
 
-## Google Maps
-## Gmail / Outlook
+## Maps / Navigation
+<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+* Google Maps
+* Apple Maps
+* Yandex Maps
+* Bing Maps
+* Waze
+* Sygic
+* HERE WeGo
+
+<img width="16" src="misc/check.png"> </img> **Instead Use:**
+* [Open Street Map (OSM)](https://www.openstreetmap.org/) - OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.
+  * [OSMAnd](https://osmand.net/) - Android/iOS Navigation app using OSM. It is a feature-rich app with all you expect.
+
+## Mail Services
 
 ## Operating Systems
 ### Android
