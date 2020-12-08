@@ -9,6 +9,9 @@
   * [Youtube](#youtube)
 * [Instant Messaging](#instant-messaging)
 * [Video conferencing](#video-conferencing)
+* [Operating Systems](#operating-systems)
+  * [Android](#android)
+  * [Android TV](#android-tv)
 * [Uncategorized](#uncategorized)
 
 ## Search Engines
@@ -51,8 +54,29 @@
 
 ## Google Maps
 ## Gmail / Outlook
-## Android
-## Android TV
+
+## Operating Systems
+### Android
+<img width="16" src="misc/forbidden.png"> </img> Try to avoid using Google Android or any Android that has been modified and tuned by any manufacturer such as Xiaomi, Huawei, Samsung, etc. Android is an Open Source project - [AOSP - Android Open Source Project]() - and it has many versions that will respect the user privacy and data and won't share it with private servers from manufacturers or service providers.
+
+<img width="16" src="misc/check.png"> </img> **Instead Use:**
+
+#### Android app compatibility
+* [GrapheneOS](https://grapheneos.org/) - GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility. 
+* [CalyxOS](https://calyxos.org/) - CalyxOS lets you have your cake and eat it too, with  "Privacy by Design".
+* [LineageOS](https://lineageos.org/) - A free and open-source operating system for various devices, based on the Android mobile platform.
+* [Replicant](https://www.replicant.us/) - A free software mobile operating system putting the emphasis on freedom and privacy/security.
+
+#### Based on Linux
+* [UBPorts](https://www.ubports.com/) - Ubuntu Touch is the touch-friendly mobile version of Ubuntu.
+
+### Smart TV
+<img width="16" src="misc/forbidden.png"> </img> Don't use Android TV, LG WebOS or any other privacy-invasive common TV OS that comes preinstalled with your TV.
+
+<img width="16" src="misc/check.png"> </img> **Instead Use:**
+* [Kodi](https://kodi.tv/) - It is an entertainment hub that brings all your digital media together into a beautiful and user friendly package. It is 100% free and open source, very customisable and runs on a wide variety of devices.
+* [Jellyfin](https://jellyfin.org/) - Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
+* [OSMC](https://osmc.tv/) - OSMC is a free and open source media center built for the people, by the people.
 
 ## Social Networks
 ### Instagram
