@@ -92,6 +92,7 @@
 * [Kodi](https://kodi.tv/) - It is an entertainment hub that brings all your digital media together into a beautiful and user friendly package. It is 100% free and open source, very customisable and runs on a wide variety of devices.
 * [Jellyfin](https://jellyfin.org/) - Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
 * [OSMC](https://osmc.tv/) - OSMC is a free and open source media center built for the people, by the people.
+* [RaspberryCast](https://github.com/vincelwt/RaspberryCast) - Transform your Raspberry Pi into a streaming device. Cast videos from mobile devices or computers to your TV.
 
 ## Social Networks
 ### Instagram
@@ -107,6 +108,7 @@
 <img width="16" src="misc/check.png"> </img> **Instead Use:**
 * [Peertube](https://joinpeertube.org/en/) - A free, open and decentralized alternative to video platforms.
 * [LBRY](https://lbry.tv/) - LBRY is a secure, open, and community-run digital marketplace. Enjoy the latest content from your favorite creators - as a user, not a product.
+* [DTube](https://github.com/dtube/dtube) - A full-featured video sharing website, decentralized.
 
 <img width="16" src="misc/check.png"> </img> **Privacy respecting Youtube clients:**
 - [Yotter](https://github.com/ytorg/yotter) - Youtube and Twitter with privacy. Never share any of your data to Youtube, yet be able to watch Youtube videos.
