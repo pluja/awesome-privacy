@@ -14,6 +14,7 @@
 * [Operating Systems](#operating-systems)
   * [Android](#android)
   * [Android TV](#android-tv)
+* [Cloaking](#cloaking)
 * [Uncategorized](#uncategorized)
 
 ## Search Engines
@@ -160,6 +161,16 @@
 * [Jitsi Meet](https://meet.jit.si/) - More secure, more flexible, and completely free video conferencing. **No account needed, no installation needed**
 * [Jami](https://jami.net/) - P2P audio and video conferences.
 * [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton is a web conferencing system designed for online learning.
+
+## Cloaking
+
+### Images
+* [Fawkes](https://github.com/Shawn-Shan/fawkes) - privacy preserving tool against facial recognition systems.
+  * [CloakMe](https://github.com/pluja/CloakMe) - Web interface for Fawkes algorithm.
+
+### Text
+* [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords ([repo](https://github.com/kurolabs/stegcloak)).
+
 
 ## Facebook
 ## Twitter
