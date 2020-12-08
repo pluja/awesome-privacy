@@ -9,6 +9,7 @@
   * [Youtube](#youtube)
 * [Instant Messaging](#instant-messaging)
 * [Video conferencing](#video-conferencing)
+* [Uncategorized](#uncategorized)
 
 ## Search Engines
 
