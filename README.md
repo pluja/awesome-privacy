@@ -123,4 +123,7 @@
 ## Amazon
 ## Microsoft
 ## Reddit
+## Uncategorized
+* [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban
+* [Hetty](https://github.com/dstotijn/hetty) - Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
 
