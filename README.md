@@ -14,6 +14,7 @@
 * [Operating Systems](#operating-systems)
   * [Android](#android)
   * [Android TV](#android-tv)
+* [Analytics](#analytics)
 * [Cloaking](#cloaking)
 * [Uncategorized](#uncategorized)
 
@@ -143,6 +144,7 @@
 * [Tox](https://tox.chat/) - Tox is easy-to-use software that connects you with friends and family without anyone else listening in. 
 * [Briar](https://briarproject.org/) - Peer-to-peer encrypted messaging and forums.
 * [DeltaChat](https://delta.chat/) - Chat over encrypted e-mail.
+* [Tinfoil Chat](https://github.com/maqp/tfc) - Onion-routed, endpoint secure messaging system.
 
 #### Worth mentioning
 * [Berty](https://berty.tech/) - Not released yet.
@@ -161,9 +163,16 @@
 * [Jitsi Meet](https://meet.jit.si/) - More secure, more flexible, and completely free video conferencing. **No account needed, no installation needed**
 * [Jami](https://jami.net/) - P2P audio and video conferences.
 * [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton is a web conferencing system designed for online learning.
+* [PeerCalls](https://peercalls.com/) - Group peer to peer video calls for everyone written in Go and TypeScript.
+
+## Analytics
+<img width="16" src="misc/forbidden.png"> </img> Avoid any analytics service that comes from Google, Facebook, Microsoft or any privative service. These kind of analytics hurt the users privacy.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use:**
+* [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy.
+* [Plausible](https://plausible.io/) - Simple and privacy-friendly alternative to Google Analytics
 
 ## Cloaking
-
 ### Images
 * [Fawkes](https://github.com/Shawn-Shan/fawkes) - privacy preserving tool against facial recognition systems.
   * [CloakMe](https://github.com/pluja/CloakMe) - Web interface for Fawkes algorithm.
