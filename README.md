@@ -111,6 +111,7 @@
 <img width="16" src="misc/check.png"> </img> **Privacy respecting Youtube clients:**
 - [Yotter](https://github.com/ytorg/yotter) - Youtube and Twitter with privacy. Never share any of your data to Youtube, yet be able to watch Youtube videos.
 - [Invidious](https://github.com/iv-org/invidious) - Alternative and privacy respecting Youtube frontend.
+- [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend)
 - [NewPipe](https://newpipe.net/) - Alternative android Youtube app. No account needed, privacy respecting. **Shares IP with Youtube**
 
 #### Worth mentioning:
