@@ -4,6 +4,7 @@
 * [Search Engines](#search-engines)
 * [Photo Storage](#photo-storage)
 * [Cloud Storage](#cloud-storage)
+* [Maps / Navigation](#maps--navigation)
 * [Social Networks](#social-networks)
   * [Instagram](#instagram)
   * [Youtube](#youtube)
