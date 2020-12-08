@@ -1,7 +1,7 @@
 ---
 name: New Service Proposal
 about: Suggest a service to be listed.
-title: "[NSP]"
+title: "[NSP] Service name"
 labels: ''
 assignees: ''
 
