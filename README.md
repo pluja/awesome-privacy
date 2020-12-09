@@ -285,6 +285,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Subsonic](http://www.subsonic.org/pages/index.jsp) - Your complete, personal music streamer.
 * [Koel](https://koel.dev/) - a personal music streaming server that works.
 * [Nuclear](https://nuclear.js.org/) - Modern music player focused on streaming from free sources.
+* [Navidrome](https://navidrome.org/) - Lightweight, fast and self-contained personal music streamer.
 
 #### Podcasts
 * [Antennapod](https://antennapod.org/) - The Open Podcast Player
