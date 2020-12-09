@@ -116,6 +116,12 @@ Remember: Without strong encryption, you will be spied on systematically by lots
   * [OSMAnd](https://osmand.net/) - Android/iOS Navigation app using OSM. It is a feature-rich app with all you expect.
 
 ## Mail Services
+<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+* Google Mail
+
+<img width="16" src="misc/check.png"> </img> **Instead Use:**
+* [Posteo](https://posteo.de/en) - classic email with encrypted storage, including calendars, contact books and alias-addresses. Supports classic protocols like IMAP/SMTP, caldav and carddav
+* [Mailbox](https://mailbox.org) - similar to Posteo both in feature set as well as privacy, security and ethics
 
 ## Operating Systems
 ### Android
