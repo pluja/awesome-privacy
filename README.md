@@ -9,6 +9,7 @@
 * [Social Networks](#social-networks)
   * [Instagram](#instagram)
   * [Youtube](#youtube)
+  * [Twitter](#twitter)
 * [Instant Messaging](#instant-messaging)
 * [Password Managers](#password-managers)
 * [Video conferencing](#video-conferencing)
@@ -121,6 +122,13 @@
 
 #### Worth mentioning:
 - [Piped](https://github.com/TeamPiped) - Work in progress.
+
+### Twitter
+<img width="16" src="misc/forbidden.png"> </img> Avoid using Twitter official app / website. It tracks users and creates user profiles based on what they follow, retweet and like. Twitter harms and vulnerates users privacy with their policies.
+
+<img width="16" src="misc/check.png"> </img> **Instead Use:**
+* [Nitter](https://github.com/zedeus/nitter/wiki/Instances) - Nitter is a free and open source alternative Twitter front-end focused on privacy.
+* [Yotter](https://github.com/ytorg/yotter) - Twitter with privacy with a simple yet beautiful UI.
 
 ## Instant Messaging
 **Check out [this site](https://www.securemessagingapps.com/) for comparisons*
