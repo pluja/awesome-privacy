@@ -10,6 +10,7 @@
   * [Instagram](#instagram)
   * [Youtube](#youtube)
   * [Twitter](#twitter)
+  * [Reddit](#reddit)
 * [Instant Messaging](#instant-messaging)
 * [Password Managers](#password-managers)
 * [Video conferencing](#video-conferencing)
@@ -129,6 +130,18 @@
 <img width="16" src="misc/check.png"> </img> **Instead Use:**
 * [Nitter](https://github.com/zedeus/nitter/wiki/Instances) - Nitter is a free and open source alternative Twitter front-end focused on privacy.
 * [Yotter](https://github.com/ytorg/yotter) - Twitter with privacy with a simple yet beautiful UI.
+
+### Reddit
+<img width="16" src="misc/forbidden.png"> </img> Try to avoid using Reddit or at least avoid their official clients as they are plenty of trackers, ads and share unnecessary user data with their servers.
+
+<img width="16" src="misc/check.png"> </img> **Reddit alternatives:**
+* [Lemmy](https://join.lemmy.ml/) - A federated and open alternative to reddit in rust.
+* [Aether](https://getaether.net/) - Peer-to-peer ephemeral public communities.
+
+<img width="16" src="misc/check.png"> </img> **Privacy respecting Reddit clients:**
+* [Teddit](https://teddit.net/) - Alternative Reddit front-end focused on privacy
+* [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) - A beautiful Reddit client for Android.
+* [Slide](https://github.com/ccrama/Slide) - Slide is an open sourced, ad free Reddit browser for Android and iOS.
 
 ## Instant Messaging
 **Check out [this site](https://www.securemessagingapps.com/) for comparisons*
