@@ -87,6 +87,8 @@
 * [CalyxOS](https://calyxos.org/) - CalyxOS lets you have your cake and eat it too, with  "Privacy by Design".
 * [LineageOS](https://lineageos.org/) - A free and open-source operating system for various devices, based on the Android mobile platform.
 * [Replicant](https://www.replicant.us/) - A free software mobile operating system putting the emphasis on freedom and privacy/security.
+* [/e/](https://e.foundation/) - A fork of LineageOS. /e/ is presented as privacy software that does not contain proprietary Google apps or services.
+
 
 #### Based on Linux
 * [UBPorts](https://www.ubports.com/) - Ubuntu Touch is the touch-friendly mobile version of Ubuntu.
