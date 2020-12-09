@@ -11,6 +11,7 @@
   * [Youtube](#youtube)
   * [Twitter](#twitter)
   * [Reddit](#reddit)
+* [Teamworking and Communication Tools](#teamworking-tools)
 * [Instant Messaging](#instant-messaging)
 * [Password Managers](#password-managers)
 * [Video conferencing](#video-conferencing)
@@ -142,6 +143,19 @@
 * [Teddit](https://teddit.net/) - Alternative Reddit front-end focused on privacy
 * [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) - A beautiful Reddit client for Android.
 * [Slide](https://github.com/ccrama/Slide) - Slide is an open sourced, ad free Reddit browser for Android and iOS.
+
+## Teamworking Tools
+<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+* Slack
+* Google Hangouts
+* Microsoft Teams
+* Discord
+
+<img width="16" src="misc/check.png"> </img>  **Instead use:**
+* [Zulip](https://zulip.com/) - Chat for distributed teams.
+* [Twake](https://twake.app/) - Work in a team faster. Twake covers all of your organizational needs through a single platform.
+* [RocketChat](https://rocket.chat/) - Control your communication, manage your data, and have your own collaboration platform to improve team productivity.
+* [Nextcloud Talk](https://nextcloud.com/talk/) - Keep conversations private with Nextcloud Talk.
 
 ## Instant Messaging
 **Check out [this site](https://www.securemessagingapps.com/) for comparisons*
