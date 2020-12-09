@@ -95,6 +95,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 * [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control.
+* [MEGA](https://mega.nz/) - MEGA provides free cloud storage with convenient and powerful always-on privacy.
 
 **Other useful tools**:
 * [Cryptomator](https://cryptomator.org) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
