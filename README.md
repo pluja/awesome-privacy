@@ -10,6 +10,7 @@
   * [Instagram](#instagram)
   * [Youtube](#youtube)
 * [Instant Messaging](#instant-messaging)
+* [Password Managers](#password-managers)
 * [Video conferencing](#video-conferencing)
 * [Operating Systems](#operating-systems)
   * [Android](#android)
@@ -149,6 +150,15 @@
 #### Worth mentioning
 * [Berty](https://berty.tech/) - Not released yet.
 * [Telegram](https://telegram.org/) - Not fully open source. No E2E encryption by default on chats.
+
+## Password Managers
+<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+* Lastpass
+* Dashlane
+
+<img width="16" src="misc/check.png"> </img>  **Instead use:**
+* [Bitwarden](https://bitwarden.com) - An open source cloud based password manager
+* [KeepassDX](https://www.keepassdx.com/)
 
 ## Video Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **AVOID**:
