@@ -6,6 +6,7 @@
 * [Photo Storage](#photo-storage)
 * [Photo Management](#photo-management)
 * [Cloud Storage](#cloud-storage)
+* [Encryption](#encryption)
 * [Maps / Navigation](#maps--navigation)
 * [Social Networks](#social-networks)
   * [Instagram](#instagram)
@@ -65,6 +66,14 @@
 * [PocketPaint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
 * [Scrambled Exif](https://gitlab.com/juanitobananas/scrambled-exif) - Remove Exif data from pictures before sharing them.
 * [ImagePipe](https://codeberg.org/Starfish/Imagepipe) - Reduces image size and removes exif-tags when sharing images on android devices.
+
+## Encryption
+Remember: Without strong encryption, you will be spied on systematically by lots of people.
+
+* [Veracrypt](https://www.veracrypt.fr/en/Home.html) - VeraCrypt is a free open source disk encryption software for Windows, Mac OSX and Linux.
+* [Hat.sh](https://hat.sh/) - A Free, Fast, Secure and Serverless File Encryption.
+* [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
+* [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
 
 ## Cloud Storage
 <img width="16" src="misc/forbidden.png"> </img> **AVOID**
