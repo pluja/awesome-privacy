@@ -4,6 +4,7 @@
 
 * [Search Engines](#search-engines)
 * [Photo Storage](#photo-storage)
+* [Photo Management](#photo-management)
 * [Cloud Storage](#cloud-storage)
 * [Maps / Navigation](#maps--navigation)
 * [Social Networks](#social-networks)
@@ -16,6 +17,9 @@
 * [Password Managers](#password-managers)
 * [Video conferencing](#video-conferencing)
 * [Media Streaming Platforms](#media-streaming-platforms)
+  * [Video/Audio](#video-audio)
+  * [Audio](#audio)
+  * [Podcasts](#podcasts)
 * [Operating Systems](#operating-systems)
   * [Android](#android)
   * [Android TV](#android-tv)
@@ -47,6 +51,17 @@
 * [Photoprism](https://photoprism.app) - Feature rich server-based application for browsing, organizing and sharing your personal photo collection. The most similar to Google Photos.
 * [Photostructure](https://photostructure.com/) - Self-hosted photo library that makes browsing and sharing a lifetime of memories delightful.
 * [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control. It has a [*Photos*](https://github.com/nextcloud/photos) plugin to help you organize and visualize your photos.
+
+## Photo management
+
+<img width="16" src="misc/check.png"> </img>  **Instead use:**
+#### Desktop:
+* [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
+
+#### Android:
+* [PocketPaint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
+* [Scrambled Exif](https://gitlab.com/juanitobananas/scrambled-exif) - Remove Exif data from pictures before sharing them.
+* [ImagePipe](https://codeberg.org/Starfish/Imagepipe) - Reduces image size and removes exif-tags when sharing images on android devices.
 
 ## Cloud Storage
 <img width="16" src="misc/forbidden.png"> </img> **AVOID**
@@ -231,6 +246,9 @@
 * [Koel](https://koel.dev/) - a personal music streaming server that works.
 * [Nuclear](https://nuclear.js.org/) - Modern music player focused on streaming from free sources.
 
+#### Podcasts
+* [Antennapod](https://antennapod.org/) - The Open Podcast Player
+
 ## Analytics
 <img width="16" src="misc/forbidden.png"> </img> Avoid any analytics service that comes from Google, Facebook, Microsoft or any privative service. These kind of analytics hurt the users privacy.
 
@@ -246,13 +264,8 @@
 ### Text
 * [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords ([repo](https://github.com/kurolabs/stegcloak)).
 
-
-## Facebook
-## Twitter
-## Amazon
-## Microsoft
-## Reddit
 ## Uncategorized
+* [Skymap](https://skymaponline.net/) - Open online planetarium program.
 * [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban
 * [Hetty](https://github.com/dstotijn/hetty) - Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
 
