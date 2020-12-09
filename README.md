@@ -53,6 +53,9 @@
 * [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control. It has a [*Photos*](https://github.com/nextcloud/photos) plugin to help you organize and visualize your photos.
 
 ## Photo management
+<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+* Adobe Photoshop / Illustrator / Lightroom
+* VSCO
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 #### Desktop:
