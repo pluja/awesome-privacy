@@ -95,6 +95,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 * [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control.
+* [Seafile](https://www.seafile.com/en/home/) - High performance file syncing and sharing. It includes a Wiki, WYSIWYG editing and other knowledge management features.
 
 **Other useful tools**:
 * [Cryptomator](https://cryptomator.org) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
@@ -212,6 +213,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Twake](https://twake.app/) - Work in a team faster. Twake covers all of your organizational needs through a single platform.
 * [RocketChat](https://rocket.chat/) - Control your communication, manage your data, and have your own collaboration platform to improve team productivity.
 * [Nextcloud Talk](https://nextcloud.com/talk/) - Keep conversations private with Nextcloud Talk.
+* [Mattermost](https://mattermost.com/) - Open-source Slack alternative.
 
 ## Instant Messaging
 **Check out [this site](https://www.securemessagingapps.com/) for comparisons*
@@ -285,6 +287,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Subsonic](http://www.subsonic.org/pages/index.jsp) - Your complete, personal music streamer.
 * [Koel](https://koel.dev/) - a personal music streaming server that works.
 * [Nuclear](https://nuclear.js.org/) - Modern music player focused on streaming from free sources.
+* [Navidrome](https://navidrome.org/) - Lightweight, fast and self-contained personal music streamer.
 
 #### Podcasts
 * [Antennapod](https://antennapod.org/) - The Open Podcast Player
