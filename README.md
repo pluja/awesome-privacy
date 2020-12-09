@@ -7,6 +7,7 @@
 * [Photo Management](#photo-management)
 * [Cloud Storage](#cloud-storage)
 * [Encryption](#encryption)
+* [File sharing](#file-sharing)
 * [Maps / Navigation](#maps--navigation)
 * [Social Networks](#social-networks)
   * [Instagram](#instagram)
@@ -74,6 +75,17 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Hat.sh](https://hat.sh/) - A Free, Fast, Secure and Serverless File Encryption.
 * [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
 * [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
+
+## File Sharing
+<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+* WeTransfer
+* SendAnywhere
+
+<img width="16" src="misc/check.png"> </img> **Instead Use:**
+* [Lufi](https://framagit.org/fiat-tux/hat-softwares/lufi) - Let's Upload that FIle — File sharing software.
+* [Croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another.
+* [Dat-cp](https://github.com/tom-james-watson/dat-cp) - Copy files between hosts on a network using the peer-to-peer Dat network.
+* [QRcp](https://github.com/claudiodangelis/qrcp) - Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
 
 ## Cloud Storage
 <img width="16" src="misc/forbidden.png"> </img> **AVOID**
@@ -156,7 +168,14 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 ### Twitter
 <img width="16" src="misc/forbidden.png"> </img> Avoid using Twitter official app / website. It tracks users and creates user profiles based on what they follow, retweet and like. Twitter harms and vulnerates users privacy with their policies.
 
-<img width="16" src="misc/check.png"> </img> **Instead Use:**
+<img width="16" src="misc/check.png"> </img> **Alternatives to Twitter:**
+**Federated social networks**: A federated social network isn’t a single website like Twitter or Facebook, it's a network of thousands of communities operated by different organizations and individuals that provide a seamless social media experience.
+
+* [Pleroma](https://pleroma.social/) - Pleroma is a free, federated social networking server built on open protocols.
+  * [Soapbox](https://gitlab.com/soapbox-pub/soapbox-fe) - A frontend for Pleroma with a focus on custom branding and ease of use.
+* [Mastodon](https://joinmastodon.org/) - Free, federated microblogging social network built on open protocols.
+
+<img width="16" src="misc/check.png"> </img> **Alternative Twitter Frontends:**
 * [Nitter](https://github.com/zedeus/nitter/wiki/Instances) - Nitter is a free and open source alternative Twitter front-end focused on privacy.
 * [Yotter](https://github.com/ytorg/yotter) - Twitter with privacy with a simple yet beautiful UI.
 
