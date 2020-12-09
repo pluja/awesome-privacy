@@ -251,7 +251,10 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 * [Bitwarden](https://bitwarden.com) - An open source cloud based password manager
-* [KeepassDX](https://www.keepassdx.com/)
+* [KeepassXC](https://keepassxc.org/) - Securely store passwords using industry standard encryption, no sync just storage.
+  * [KeepassDX](https://www.keepassdx.com/) for Android.
+  * [Strongbox](https://strongboxsafe.com/) for iOS.
+  * [KeeWeb](https://keeweb.info/) for Web and other platforms.
 
 ## Video Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **AVOID**:
