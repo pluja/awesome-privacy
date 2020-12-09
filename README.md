@@ -99,6 +99,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 **Other useful tools**:
 * [Cryptomator](https://cryptomator.org) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
 * [Syncthing](https://syncthing.net/) - Continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.
+* [Rclone](https://rclone.org/) - Rclone is a command line program to manage files on cloud storage. It is a feature rich alternative to cloud vendors' web storage interfaces and like the tools listed above enables encryption for encrypting files in the cloud. 
 
 ## Maps / Navigation
 <img width="16" src="misc/forbidden.png"> </img> **AVOID**:
