@@ -15,6 +15,7 @@
 * [Instant Messaging](#instant-messaging)
 * [Password Managers](#password-managers)
 * [Video conferencing](#video-conferencing)
+* [Media Streaming Platforms](#media-streaming-platforms)
 * [Operating Systems](#operating-systems)
   * [Android](#android)
   * [Android TV](#android-tv)
@@ -209,6 +210,26 @@
 * [Jami](https://jami.net/) - P2P audio and video conferences.
 * [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton is a web conferencing system designed for online learning.
 * [PeerCalls](https://peercalls.com/) - Group peer to peer video calls for everyone written in Go and TypeScript.
+
+## Media Streaming Platforms
+<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+* Amazon Prime Video
+* Netflix
+* Disney+
+* Plex
+* Spotify
+* Soundcloud
+
+<img width="16" src="misc/check.png"> </img>  **Instead use:**
+#### Video/Audio:
+* [Jellyfin](https://jellyfin.org/) - Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
+* [Streamio](https://www.stremio.com/) - Stremio is a modern media center that's a one-stop solution for your video entertainment.
+
+#### Audio:
+* [Funkwhale](https://funkwhale.audio/) - A social platform to enjoy and share music (Soundcloud alternative)
+* [Subsonic](http://www.subsonic.org/pages/index.jsp) - Your complete, personal music streamer.
+* [Koel](https://koel.dev/) - a personal music streaming server that works.
+* [Nuclear](https://nuclear.js.org/) - Modern music player focused on streaming from free sources.
 
 ## Analytics
 <img width="16" src="misc/forbidden.png"> </img> Avoid any analytics service that comes from Google, Facebook, Microsoft or any privative service. These kind of analytics hurt the users privacy.
