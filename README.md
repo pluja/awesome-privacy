@@ -131,7 +131,9 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 #### Based on Linux
 * [UBPorts](https://www.ubports.com/) - Ubuntu Touch is the touch-friendly mobile version of Ubuntu.
-
+* [postmarketOS](https://postmarketos.org/) - Touch optimised and pre-configured version of Alpine Linux.
+* [PureOS](https://www.pureos.net/) - Operating system developed by purism for the Librem 5.
+ 
 ### Smart TV
 <img width="16" src="misc/forbidden.png"> </img> Don't use Android TV, LG WebOS or any other privacy-invasive common TV OS that comes preinstalled with your TV.
 
@@ -159,6 +161,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 <img width="16" src="misc/check.png"> </img> **Instead Use:**
 * [Peertube](https://joinpeertube.org/en/) - A free, open and decentralized alternative to video platforms.
 * [LBRY](https://lbry.tv/) - LBRY is a secure, open, and community-run digital marketplace. Enjoy the latest content from your favorite creators - as a user, not a product.
+* [Odysee](https://odysee.com/) - Odysee is a video platform backed by the creators of lbry and uses the lbry blockchain protocol.
 * [DTube](https://github.com/dtube/dtube) - A full-featured video sharing website, decentralized.
 
 <img width="16" src="misc/check.png"> </img> **Privacy respecting Youtube clients:**
