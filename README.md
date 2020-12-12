@@ -195,6 +195,8 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 <img width="16" src="misc/check.png"> </img> **Reddit alternatives:**
 * [Lemmy](https://join.lemmy.ml/) - A federated and open alternative to reddit in rust.
 * [Aether](https://getaether.net/) - Peer-to-peer ephemeral public communities.
+* [SaidIt](https://saidit.net/) - Open source Reddit clone.
+* [Ruqqus](https://ruqqus.com) - Open source Reddit alternative without censorship.
 
 <img width="16" src="misc/check.png"> </img> **Privacy respecting Reddit clients:**
 * [Teddit](https://teddit.net/) - Alternative Reddit front-end focused on privacy
