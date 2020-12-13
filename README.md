@@ -313,6 +313,16 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 ### Text
 * [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords ([repo](https://github.com/kurolabs/stegcloak)).
 
+## Office
+
+<img width="16" src="misc/forbidden.png"> </img> **AVOID**
+* Microsoft
+* Google Docs
+
+<img width="16" src="misc/check.png"> </img>  **Instead use:**
+* [LibreOffice](https://www.libreoffice.org/) - Free and open source offline office
+* [OnlyOffice](https://www.onlyoffice.com/) - Free and open source online office for collaboration
+
 ## Uncategorized
 * [Skymap](https://skymaponline.net/) - Open online planetarium program.
 * [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban
