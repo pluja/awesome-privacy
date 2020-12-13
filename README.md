@@ -25,6 +25,7 @@
 * [Operating Systems](#operating-systems)
   * [Android](#android-1)
   * [Smart TV](#smart-tv)
+  * [PC](#PC)
 * [Analytics](#analytics)
 * [Cloaking](#cloaking)
 * [Office](#office)
@@ -144,6 +145,12 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Jellyfin](https://jellyfin.org/) - Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
 * [OSMC](https://osmc.tv/) - OSMC is a free and open source media center built for the people, by the people.
 * [RaspberryCast](https://github.com/vincelwt/RaspberryCast) - Transform your Raspberry Pi into a streaming device. Cast videos from mobile devices or computers to your TV.
+
+### PC
+<img width="16" src="misc/forbidden.png"> </img> Don't use MS Windows.
+
+<img width="16" src="misc/check.png"> </img> **Instead Use:**
+* [GNU/Linux](https://www.linux.com/what-is-linux/) - GNU/Linux is a family of mostly free and open source Operating Systems mostly developed by the community. If you don't know where to start, [Linux-Mint(Cinnamon)](https://linuxmint.com/edition.php?id=281) is a beginner friendly Distribution. If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). If you want to install Linux but keep your current operating System, you can set up [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
 
 ## Social Networks
 ### Instagram
