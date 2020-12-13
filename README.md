@@ -27,6 +27,7 @@
   * [Smart TV](#smart-tv)
 * [Analytics](#analytics)
 * [Cloaking](#cloaking)
+* [Office](#office)
 * [Uncategorized](#uncategorized)
 
 ## Search Engines
@@ -316,7 +317,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 ## Office
 
 <img width="16" src="misc/forbidden.png"> </img> **AVOID**
-* Microsoft
+* Microsoft Office
 * Google Docs
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
