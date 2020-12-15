@@ -7,7 +7,7 @@
 * [Photo Management](#photo-management)
 * [Cloud Storage](#cloud-storage)
 * [Encryption](#encryption)
-* [File sharing](#file-sharing)
+* [File management / sharing](#file-sharing)
 * [Maps / Navigation](#maps--navigation)
 * [Social Networks](#social-networks)
   * [Instagram](#instagram)
@@ -89,6 +89,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another.
 * [Dat-cp](https://github.com/tom-james-watson/dat-cp) - Copy files between hosts on a network using the peer-to-peer Dat network.
 * [QRcp](https://github.com/claudiodangelis/qrcp) - Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
+* [Paperless](https://github.com/the-paperless-project/paperless) - Scan, index, and archive all of your paper documents.
 
 ## Cloud Storage
 <img width="16" src="misc/forbidden.png"> </img> **AVOID**
