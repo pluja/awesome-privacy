@@ -76,7 +76,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 * [Veracrypt](https://www.veracrypt.fr/en/Home.html) - VeraCrypt is a free open source disk encryption software for Windows, Mac OSX and Linux.
 * [Hat.sh](https://hat.sh/) - A Free, Fast, Secure and Serverless File Encryption.
-* [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
+* [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud servic
 * [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
 
 ## File Sharing
@@ -89,6 +89,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another.
 * [Dat-cp](https://github.com/tom-james-watson/dat-cp) - Copy files between hosts on a network using the peer-to-peer Dat network.
 * [QRcp](https://github.com/claudiodangelis/qrcp) - Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
+* [Snapdrop](https://snapdrop.net/) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
 * [Paperless](https://github.com/the-paperless-project/paperless) - Scan, index, and archive all of your paper documents.
 
 ## Cloud Storage
