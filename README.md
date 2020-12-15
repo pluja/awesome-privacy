@@ -139,7 +139,8 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [UBPorts](https://www.ubports.com/) - Ubuntu Touch is the touch-friendly mobile version of Ubuntu.
 * [postmarketOS](https://postmarketos.org/) - Touch optimised and pre-configured version of Alpine Linux.
 * [PureOS](https://www.pureos.net/) - Operating system developed by purism for the Librem 5.
- 
+* [Plasma Mobile](https://www.plasma-mobile.org/) - Plasma, in your pocket. Privacy-respecting, open source and secure phone ecosystem.
+
 ### Smart TV
 <img width="16" src="misc/forbidden.png"> </img> Don't use Android TV, LG WebOS or any other privacy-invasive common TV OS that comes preinstalled with your TV.
 
