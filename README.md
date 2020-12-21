@@ -211,6 +211,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Ruqqus](https://ruqqus.com) - Open source Reddit alternative without censorship.
 
 <img width="16" src="misc/check.png"> </img> **Privacy respecting Reddit clients:**
+* [Libreddit](https://libredd.it) - Private Reddit front-end written in Rust 
 * [Teddit](https://teddit.net/) - Alternative Reddit front-end focused on privacy
 * [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) - A beautiful Reddit client for Android.
 * [Slide](https://github.com/ccrama/Slide) - Slide is an open sourced, ad free Reddit browser for Android and iOS.
