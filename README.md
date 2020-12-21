@@ -277,6 +277,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
   * [KeepassDX](https://www.keepassdx.com/) for Android.
   * [Strongbox](https://strongboxsafe.com/) for iOS.
   * [KeeWeb](https://keeweb.info/) for Web and other platforms.
+* [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
 
 ## Video Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **AVOID**:
