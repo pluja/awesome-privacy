@@ -14,6 +14,7 @@
   * [Youtube](#youtube)
   * [Twitter](#twitter)
   * [Reddit](#reddit)
+  * [Streaming Platforms (Twitch)](#streaming-platforms)
 * [Teamworking and Communication Tools](#teamworking-tools)
 * [Instant Messaging](#instant-messaging)
 * [Password Managers](#password-managers)
@@ -215,6 +216,12 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Teddit](https://teddit.net/) - Alternative Reddit front-end focused on privacy
 * [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) - A beautiful Reddit client for Android.
 * [Slide](https://github.com/ccrama/Slide) - Slide is an open sourced, ad free Reddit browser for Android and iOS.
+
+### Streaming Platforms
+<img width="16" src="misc/forbidden.png"> </img>  Avoid using platforms as Twitch, Patreon, Youtube as they are very privacy-invasive with your viewers (and you!). Instead, you can try using some self-hosted platforms that do take care of everyone's privacy.
+
+<img width="16" src="misc/check.png"> </img> **Alternatives:**
+- [Owncast](https://github.com/owncast/owncast) - Take control over your live stream video by running it yourself. Streaming + chat out of the box.
 
 ## Teamworking Tools
 <img width="16" src="misc/forbidden.png"> </img> **AVOID**:
