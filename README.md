@@ -10,6 +10,7 @@
 * [File management / sharing](#file-sharing)
 * [Maps / Navigation](#maps--navigation)
 * [Translation](#translation)
+* [Android Keyboard](#android-keyboard)
 * [Social Networks](#social-networks)
   * [Instagram](#instagram)
   * [Youtube](#youtube)
@@ -133,6 +134,17 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Libretranslate](https://libretranslate.com/) - Open Source Machine Translation - 100% Self-Hosted. No Limits. No Ties to Proprietary Services.
 * [Apertium](https://apertium.org/) - A free/open-source machine translation platform.
 * [Softcatala](https://www.softcatala.org/traductor/) - Open Source Translation tool - Only Catalan/Spanish/English/French.
+
+
+## Android Keyboard
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+* GBoard (Google)
+* SwiftKey
+
+<img width="16" src="misc/check.png"> </img> **Instead Use:**
+* [OpenBoard](https://github.com/dslul/openboard) - 100% FOSS keyboard, based on AOSP.
+* [FlorisBoard](https://github.com/florisboard/florisboard) - An open-source keyboard for Android. Currently in alpha/early-beta stage.
+* [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
 
 ## Mail Services
 
