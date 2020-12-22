@@ -9,6 +9,7 @@
 * [Encryption](#encryption)
 * [File management / sharing](#file-sharing)
 * [Maps / Navigation](#maps--navigation)
+* [Translation](#translation)
 * [Social Networks](#social-networks)
   * [Instagram](#instagram)
   * [Youtube](#youtube)
@@ -109,7 +110,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Rclone](https://rclone.org/) - Rclone is a command line program to manage files on cloud storage. It is a feature rich alternative to cloud vendors' web storage interfaces and like the tools listed above enables encryption for encrypting files in the cloud. 
 
 ## Maps / Navigation
-<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
 * Google Maps
 * Apple Maps
 * Yandex Maps
@@ -121,6 +122,17 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 <img width="16" src="misc/check.png"> </img> **Instead Use:**
 * [Open Street Map (OSM)](https://www.openstreetmap.org/) - OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.
   * [OSMAnd](https://osmand.net/) - Android/iOS Navigation app using OSM. It is a feature-rich app with all you expect.
+
+## Translation
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+* Google Translate
+* DeepL
+* Bing Translator
+
+<img width="16" src="misc/check.png"> </img> **Instead Use:**
+* [Libretranslate](https://libretranslate.com/) - Open Source Machine Translation - 100% Self-Hosted. No Limits. No Ties to Proprietary Services.
+* [Apertium](https://apertium.org/) - A free/open-source machine translation platform.
+* [Softcatala](https://www.softcatala.org/traductor/) - Open Source Translation tool - Only Catalan/Spanish/English/French.
 
 ## Mail Services
 
