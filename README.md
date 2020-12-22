@@ -180,6 +180,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 **Alternative Instagram clients**:
 * [Barinsta](http://barinsta.austinhuang.me/) - The beautiful, open source, and privacy-friendly alternative Instagram client for Android.
+* [Bibliogram](https://bibliogram.art/) - Watch Instagram's public profile in a friendlier page that loads faster, gives downloadable images, eliminates ads and doesn't urge you to sign up.
 
 ### Youtube
 <img width="16" src="misc/forbidden.png"> </img> Don't use YouTube (or at least the official client). Youtube is very privacy invasive, it generates a very accurate profile based on your interests. Also it is a [radicalization tool](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization) which shows [biased content to users](https://arxiv.org/pdf/1908.08313.pdf) in order to get more engadgement and to get them to watch more and more content creating an [adiction](https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883). It never shows you [alternative opinions](https://arxiv.org/pdf/1908.08313.pdf) to your ideology/bias. Youtube censors a lot. Youtube collects a LOT of your data: interesnts, free time, ideology, likes, dislikes, music taste, etc...
