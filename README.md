@@ -68,6 +68,7 @@
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 #### Desktop:
 * [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
+* [Krita](https://github.com/KDE/krita) - Krita is a free and open source digital painting application
 
 #### Android:
 * [PocketPaint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
