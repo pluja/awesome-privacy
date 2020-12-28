@@ -332,7 +332,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 * [OpenFoodFacts](https://world.openfoodfacts.org/) - Open Food Facts is a food products database made by everyone, for everyone. You can use it to make better food choices.
  * [OFF Apps](https://world.openfoodfacts.org/open-food-facts-mobile-app)
 * [Drip](https://bloodyhealth.gitlab.io/) - Menstrual cycle and fertility tracking. Everything you enter stays on your device.
-* [log28[(https://github.com/wildeyedskies/log28) - a (very) simple no-frills period tracker for Android.
+* [log28](https://github.com/wildeyedskies/log28) - a (very) simple no-frills period tracker for Android.
 
 ## Media Streaming Platforms
 <img width="16" src="misc/forbidden.png"> </img> **AVOID**:
