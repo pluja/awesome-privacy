@@ -21,6 +21,7 @@
 * [Instant Messaging](#instant-messaging)
 * [Password Managers](#password-managers)
 * [Video conferencing](#video-conferencing)
+* [Fitness and Health](#fitness-and-health)
 * [Media Streaming Platforms](#media-streaming-platforms)
   * [Video/Audio](#video-audio)
   * [Audio](#audio)
@@ -319,6 +320,19 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Jami](https://jami.net/) - P2P audio and video conferences.
 * [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton is a web conferencing system designed for online learning.
 * [PeerCalls](https://peercalls.com/) - Group peer to peer video calls for everyone written in Go and TypeScript.
+
+## Fitness and Health
+<img width="16" src="misc/forbidden.png"> </img> Your health is a **very** important piece of your **private data** and you should care **a lot** about it. Also, health related data is one of the most greeded. Please don't use apps from Google, Fitbit, Huawei, Xiaomi or any company that seeks the gathering of your personal data. 
+
+If you need an app for **menstrual cycle tracking** please don't use any apps like Clue, Period Tracker, etc. Those cute pink apps are greedy for your menstrual cycle and intimate life data and will sell it for sure, protect your private life. Check the list below and you will find nice alternatives.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use:**
+* [wger](https://wger.de/en/software/features) - A free, open source, self-hosted web application that manages your exercises, workouts and nutrition.
+* [Fitotrack](https://codeberg.org/jannis/FitoTrack) - A privacy oriented fitness tracker for Android.
+* [OpenFoodFacts](https://world.openfoodfacts.org/) - Open Food Facts is a food products database made by everyone, for everyone. You can use it to make better food choices.
+ * [OFF Apps](https://world.openfoodfacts.org/open-food-facts-mobile-app)
+* [Drip](https://bloodyhealth.gitlab.io/) - Menstrual cycle and fertility tracking. Everything you enter stays on your device.
+* [log28[(https://github.com/wildeyedskies/log28) - a (very) simple no-frills period tracker for Android.
 
 ## Media Streaming Platforms
 <img width="16" src="misc/forbidden.png"> </img> **AVOID**:
