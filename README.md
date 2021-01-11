@@ -96,6 +96,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [QRcp](https://github.com/claudiodangelis/qrcp) - Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
 * [Snapdrop](https://snapdrop.net/) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
 * [Paperless](https://github.com/the-paperless-project/paperless) - Scan, index, and archive all of your paper documents.
+* [Tresorit](https://send.tresorit.com/) - Free, End-to-end encrypted alternative for file sending. Up to 5GB.
 
 ## Cloud Storage
 <img width="16" src="misc/forbidden.png"> </img> **AVOID**
