@@ -54,7 +54,7 @@
 
 #### Android / iOS
 * [Bromite](https://www.bromite.org/) - Android
-* [Vanadium)(https://vanadium.app/) - Privacy and security enhanced releases of Chromium for GrapheneOS.
+* [Vanadium](https://vanadium.app/) - Privacy and security enhanced releases of Chromium for GrapheneOS.
 * [Ungoogled Chromium](https://ungoogled-software.github.io/) - Android
 * [Privacy Browser](https://www.stoutner.com/privacy-browser/) - Android
 * [Firefox](https://www.mozilla.org/en-US/firefox/mobile/) - Android/iOS
