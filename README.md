@@ -3,6 +3,8 @@
 <p align="center"><a href="https://github.com/pluja/awesome-privacy/blob/main/misc/ABOUT.md"> About </a> </p>
 
 * [Search Engines](#search-engines)
+* [Web Browser](#web-browser)
+    * [Browser Sync](#browser-sync)
 * [Photo Storage](#photo-storage)
 * [Photo Management](#photo-management)
 * [Cloud Storage](#cloud-storage)
@@ -47,6 +49,27 @@
 * [Whoogle Search](https://github.com/benbusby/whoogle-search) - A self-hosted, ad-free, privacy-respecting Google metasearch engine.
 * [Qwant](https://www.qwant.com/) - A privacy oriented search engine made in France with no tracking.
 * [SearX](https://searx.me/) - Privacy-respecting metasearch engine.
+
+## Web Browser
+
+#### Android / iOS
+* [Bromite](https://www.bromite.org/) - Android
+* [Vanadium)(https://vanadium.app/) - Privacy and security enhanced releases of Chromium for GrapheneOS.
+* [Ungoogled Chromium](https://ungoogled-software.github.io/) - Android
+* [Privacy Browser](https://www.stoutner.com/privacy-browser/) - Android
+* [Firefox](https://www.mozilla.org/en-US/firefox/mobile/) - Android/iOS
+* [Tor Browser](https://www.torproject.org/) - Android/iOS
+* [SnowHaze](https://snowhaze.com/en/index.html) - iOS
+
+#### Desktop
+* [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* [Ungoogled Chromium](https://ungoogled-software.github.io/)
+* [Tor Browser](https://www.torproject.org/)
+
+> Controversial yet a good option: [Brave](https://brave.com/) - Android/iOS
+
+### Browser Sync
+* [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
 
 ## Photo storage
 <img width="16" src="misc/forbidden.png"> </img> **AVOID**
