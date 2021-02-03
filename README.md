@@ -407,6 +407,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 * [LibreOffice](https://www.libreoffice.org/) - Free and open source offline office
 * [OnlyOffice](https://www.onlyoffice.com/) - Free and open source online office for collaboration
+* [Cryptpad](https://cryptpad.fr/) - Collaboration suite, encrypted and open-source.
 
 ## Databases
 * [CondensationDB](https://condensationdb.com/) - Condensation is an open-source zero trust, distributed database enabling to build modern applications while ensuring data ownership and security.
