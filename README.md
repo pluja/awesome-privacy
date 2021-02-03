@@ -35,12 +35,13 @@
 * [Analytics](#analytics)
 * [Cloaking](#cloaking)
 * [Office](#office)
+* [Payments](#payments)
 * [Databases](#databases)
 * [Uncategorized](#uncategorized)
 
 ## Search Engines
 
-<img width="16" src="misc/forbidden.png"> </img> **AVOID**
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
 * Google Search
 * Yahoo Search
 * Bing
@@ -73,7 +74,7 @@
 * [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
 
 ## Photo storage
-<img width="16" src="misc/forbidden.png"> </img> **AVOID**
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
 * Google Photos
 * Amazon Photos
 
@@ -86,7 +87,7 @@
 * [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control. It has a [*Photos*](https://github.com/nextcloud/photos) plugin to help you organize and visualize your photos.
 
 ## Photo management
-<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
 * Adobe Photoshop / Illustrator / Lightroom
 * VSCO
 
@@ -109,7 +110,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
 
 ## File Sharing
-<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
 * WeTransfer
 * SendAnywhere
 
@@ -122,7 +123,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Paperless](https://github.com/the-paperless-project/paperless) - Scan, index, and archive all of your paper documents.
 
 ## Cloud Storage
-<img width="16" src="misc/forbidden.png"> </img> **AVOID**
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
 * Google Drive
 * Dropbox
 * OneDrive
@@ -275,7 +276,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Owncast](https://github.com/owncast/owncast) - Take control over your live stream video by running it yourself. Streaming + chat out of the box.
 
 ## Teamworking Tools
-<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
 * Slack
 * Google Hangouts
 * Microsoft Teams
@@ -291,7 +292,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 ## Instant Messaging
 **Check out [this site](https://www.securemessagingapps.com/) for comparisons*
 
-<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
 * Whatsapp
 * Instagram DM
 * Facebook Messenger
@@ -318,7 +319,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Telegram](https://telegram.org/) - Not fully open source. No E2E encryption by default on chats.
 
 ## Password Managers
-<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
 * Lastpass
 * Dashlane
 
@@ -331,7 +332,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
 
 ## Video Conferencing
-<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
 * ZOOM
 * Skype
 * Google Meet
@@ -359,7 +360,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 * [log28](https://github.com/wildeyedskies/log28) - a (very) simple no-frills period tracker for Android.
 
 ## Media Streaming Platforms
-<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
 * Amazon Prime Video
 * Netflix
 * Disney+
@@ -400,7 +401,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ## Office
 
-<img width="16" src="misc/forbidden.png"> </img> **AVOID**
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
 * Microsoft Office
 * Google Docs
 
@@ -408,6 +409,21 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 * [LibreOffice](https://www.libreoffice.org/) - Free and open source offline office
 * [OnlyOffice](https://www.onlyoffice.com/) - Free and open source online office for collaboration
 * [Cryptpad](https://cryptpad.fr/) - Collaboration suite, encrypted and open-source.
+
+## Payments
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+* Visa / Mastercard
+* Paypal
+* WeChat
+* <insertBigTechHere>Pay
+* Bank payments (wire, sepa, etc)
+   
+<img width="16" src="misc/check.png"> </img>  **Instead use:**
+* [Monero](https://www.getmonero.org/) - Monero is cash for a connected world. It’s fast, private, untraceable and secure.
+* Cash - Use person-to-person payments using physical notes and coins.
+
+**USE WITH CAUTION**:
+* [Bitcoin](https://bitcoin.org) - Bitcoin is not anonymous nor private. Bitcoin is traceable, transparent and pseudonymous. You need to be really careful when using Bitcoin so you don't leave any traces that can later be used against you to harm your privacy. [See aantonop's video](https://yewtu.be/watch?v=JN1Bowgcle8).
 
 ## Databases
 * [CondensationDB](https://condensationdb.com/) - Condensation is an open-source zero trust, distributed database enabling to build modern applications while ensuring data ownership and security.
