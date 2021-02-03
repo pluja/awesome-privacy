@@ -415,7 +415,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 * Visa / Mastercard
 * Paypal
 * WeChat
-* <insertBigTechHere>Pay
+* _insertBigTechHere_Pay
 * Bank payments (wire, sepa, etc)
    
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
