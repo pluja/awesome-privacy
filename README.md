@@ -37,6 +37,7 @@
 * [Office](#office)
 * [Payments](#payments)
 * [Databases](#databases)
+* [Utilities](#utilities)
 * [Uncategorized](#uncategorized)
 
 ## Search Engines
@@ -428,6 +429,9 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ## Databases
 * [CondensationDB](https://condensationdb.com/) - Condensation is an open-source zero trust, distributed database enabling to build modern applications while ensuring data ownership and security.
+
+## Utilities
+* [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 
 ## Uncategorized
 * [Skymap](https://skymaponline.net/) - Open online planetarium program.
