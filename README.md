@@ -115,6 +115,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * SendAnywhere
 
 <img width="16" src="misc/check.png"> </img> **Instead Use:**
+* [Blaze](https://blaze.now.sh/) - A fast, p2p and radically different way to transfer files.
 * [Lufi](https://framagit.org/fiat-tux/hat-softwares/lufi) - Let's Upload that FIle — File sharing software.
 * [Croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another.
 * [Dat-cp](https://github.com/tom-james-watson/dat-cp) - Copy files between hosts on a network using the peer-to-peer Dat network.
