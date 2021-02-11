@@ -303,7 +303,9 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * Google Hangouts / Chat
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
-## Decentralized:
+### Decentralized:
+No single point of control or failure. A decentralized network operated by different servers from different volunteers arount the globe. You choose where your data stays or you can self-host your own server. Somewhat more complex protocols (because of federation between servers) and some extra metadata is added to the messages (without compromising privacy).
+
 * [Matrix (Protocol)](https://matrix.org/) - An open network for secure, decentralized communication.
    * [Element](https://element.io/) - All-in-one secure chat app for teams, friends and organisations. Keeps conversations in your control, safe from data-mining and ads. End-to-end encryption.
 * [Jabber / XMPP (Protocol)](https://xmpp.org/) - The universal and open messaging standard. Tried and tested. Independent. Privacy-focused. E2E encrypted.
@@ -312,19 +314,23 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [DeltaChat](https://delta.chat/) - Chat over encrypted e-mail.
 * [Session](https://getsession.org/) - Extreme focus on privacy. Blockchain technology.
 
-## Centralized
+### Centralized:
+The service is in charge of running the servers that allow users to communicate. Single point of failure and control, but still 100% safe and trustworthy if the protocols and code are open and audited.
+
 * [Threema](https://threema.ch/en) - The messenger that puts security and privacy first. Pay once, chat forever. No collection of user data. Open Source.
 * [Signal](https://signal.org/) - Extreme focus on privacy, combined with all of the features you expect. Strong encryption by design. 100% Open Source.
   * [Molly](https://github.com/mollyim/mollyim-android) - Signal-compatible fork client with some security enhancements.
 * [Status](https://status.im/) - Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.
 
-## P2P
+### P2P:
+No servers involved. Everything goes directly from one peer to the other peer. No point of failure or control. The features are reduced because of the lack of server, messaging can be slower. Best option for critical chats.
+
 * [Tox](https://tox.chat/) - Tox is easy-to-use software that connects you with friends and family without anyone else listening in. 
 * [Briar](https://briarproject.org/) - Peer-to-peer encrypted messaging and forums.
 * [Tinfoil Chat](https://github.com/maqp/tfc) - Onion-routed, endpoint secure messaging system.
 
 #### Worth mentioning
-* [Berty](https://berty.tech/) - Not released yet.
+* [Berty](https://berty.tech/) - Not released yet. The privacy-first messaging app that works with or without internet access, cellular data or trust in the network.
 * [Telegram](https://telegram.org/) - Not fully open source. No E2E encryption by default on chats.
 
 ## Password Managers
