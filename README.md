@@ -303,17 +303,24 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * Google Hangouts / Chat
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
-* [Signal](https://signal.org/) - Extreme focus on privacy, combined with all of the features you expect. Strong encryption by design.
-  * [Molly](https://github.com/mollyim/mollyim-android) - Signal-compatible fork client with some security enhancements.
-* [Element](https://element.io/) - All-in-one secure chat app for teams, friends and organisations. Keeps conversations in your control, safe from data-mining and ads. Talk to everyone through the open global Matrix network, protected by proper end-to-end encryption.
-* [Jabber / XMPP](https://xmpp.org/) - The universal messaging standard. Tried and tested. Independent. Privacy-focused.
+## Decentralized:
+* [Matrix (Protocol)](https://matrix.org/) - An open network for secure, decentralized communication.
+   * [Element](https://element.io/) - All-in-one secure chat app for teams, friends and organisations. Keeps conversations in your control, safe from data-mining and ads. End-to-end encryption.
+* [Jabber / XMPP (Protocol)](https://xmpp.org/) - The universal and open messaging standard. Tried and tested. Independent. Privacy-focused. E2E encrypted.
   * [Conversations](https://conversations.im/) - Jabber/XMPP client for Android 4.0+ smartphones that has been optimized to provide a unique mobile experience
   * [AstraChat](https://astrachat.com/) - Another XMPP client.
+* [DeltaChat](https://delta.chat/) - Chat over encrypted e-mail.
 * [Session](https://getsession.org/) - Extreme focus on privacy. Blockchain technology.
+
+## Centralized
+* [Threema](https://threema.ch/en) - The messenger that puts security and privacy first. Pay once, chat forever. No collection of user data. Open Source.
+* [Signal](https://signal.org/) - Extreme focus on privacy, combined with all of the features you expect. Strong encryption by design. 100% Open Source.
+  * [Molly](https://github.com/mollyim/mollyim-android) - Signal-compatible fork client with some security enhancements.
 * [Status](https://status.im/) - Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.
+
+## P2P
 * [Tox](https://tox.chat/) - Tox is easy-to-use software that connects you with friends and family without anyone else listening in. 
 * [Briar](https://briarproject.org/) - Peer-to-peer encrypted messaging and forums.
-* [DeltaChat](https://delta.chat/) - Chat over encrypted e-mail.
 * [Tinfoil Chat](https://github.com/maqp/tfc) - Onion-routed, endpoint secure messaging system.
 
 #### Worth mentioning
