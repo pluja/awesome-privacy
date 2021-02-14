@@ -176,6 +176,12 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
 
 ## Mail Services
+<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+* Google Mail
+
+<img width="16" src="misc/check.png"> </img> **Instead Use:**
+* [Posteo](https://posteo.de/en) - classic email with encrypted storage, including calendars, contact books and alias-addresses. Supports classic protocols like IMAP/SMTP, caldav and carddav
+* [Mailbox](https://mailbox.org) - similar to Posteo both in feature set as well as privacy, security and ethics
 
 ## Operating Systems
 ### Android
