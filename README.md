@@ -18,7 +18,7 @@
   * [Youtube](#youtube)
   * [Twitter](#twitter)
   * [Reddit](#reddit)
-  * [Music Streaming (Spotify, Apple Music...](#music-streaming)
+  * [Music Streaming (Spotify, Apple Music...)](#music-streaming)
   * [Streaming Platforms (Twitch)](#streaming-platforms)
 * [Teamworking and Communication Tools](#teamworking-tools)
 * [Instant Messaging](#instant-messaging)
@@ -177,6 +177,16 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
 
 ## Mail Services
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+* Gmail
+* Outlook
+* Yandex Mail
+* Yahoo! Mail
+
+<img width="16" src="misc/check.png"> </img> **Instead Use:**
+* [Tutanota](https://tutanota.com/) - Secure email for everybody. Open Source.
+
+[LIST INCOMPLETE -]
 
 ## Operating Systems
 ### Android
@@ -307,7 +317,7 @@ These services really compromise your privacy, they gather a lot of data from th
 **Other music streaming projects**:
 * [Freezer](https://git.rip/freezer)
 
-### Streaming Platforms
+### Streaming Platforms (Twitch)
 <img width="16" src="misc/forbidden.png"> </img>  Avoid using platforms as Twitch, Patreon, Youtube as they are very privacy-invasive with your viewers (and you!). Instead, you can try using some self-hosted platforms that do take care of everyone's privacy.
 
 <img width="16" src="misc/check.png"> </img> **Alternatives:**
