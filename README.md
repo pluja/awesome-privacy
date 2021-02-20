@@ -18,6 +18,7 @@
   * [Youtube](#youtube)
   * [Twitter](#twitter)
   * [Reddit](#reddit)
+  * [Music Streaming (Spotify, Apple Music...](#music-streaming)
   * [Streaming Platforms (Twitch)](#streaming-platforms)
 * [Teamworking and Communication Tools](#teamworking-tools)
 * [Instant Messaging](#instant-messaging)
@@ -270,6 +271,41 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Teddit](https://teddit.net/) - Alternative Reddit front-end focused on privacy
 * [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) - A beautiful Reddit client for Android.
 * [Slide](https://github.com/ccrama/Slide) - Slide is an open sourced, ad free Reddit browser for Android and iOS.
+
+### Music Streaming
+<img width="16" src="misc/forbidden.png"> </img> **AVOID**:
+* Spotify
+* Deezer
+* Apple Music
+* Tidal
+
+These services really compromise your privacy, they gather a lot of data from the music you listen such as:
+* Mood
+* Free / Work time
+* Friends
+* Ideology
+* Sex
+* Age
+* Location
+...
+
+<img width="16" src="misc/check.png"> </img> **Privacy respecting Music Streaming services:**
+* [FunkWhale](https://funkwhale.audio/)
+* [Koel](https://koel.dev/) - a personal music streaming server that works.
+* [Nuclear](https://nuclear.js.org/) - Modern music player focused on streaming from free sources.
+* [Ampache](http://ampache.org/) - A web based audio/video streaming application and file manager.
+* [Jellyfin](https://jellyfin.org/) - Jellyfin is the volunteer-built media solution that puts you in control of your media.
+
+**Spotify Alternative clients:**
+ > These clients, although will have less tracking, still DO NOT protect your privacy at all as you will still be streaming from Spotify servers from you own **premium (paid, identified)** account.
+ 
+ \* Premium required.
+* [Spot](https://github.com/xou816/spot) - Native Spotify client built in GTK and Rust.
+* [psst](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI.
+* [ncspot](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+
+**Other music streaming projects**:
+* [Freezer](https://git.rip/freezer)
 
 ### Streaming Platforms
 <img width="16" src="misc/forbidden.png"> </img>  Avoid using platforms as Twitch, Patreon, Youtube as they are very privacy-invasive with your viewers (and you!). Instead, you can try using some self-hosted platforms that do take care of everyone's privacy.
