@@ -18,7 +18,7 @@
   * [Youtube](#youtube)
   * [Twitter](#twitter)
   * [Reddit](#reddit)
-  * [Streaming Platforms (Twitch)](#streaming-platforms)
+  * [Streaming Platforms (Twitch)](#streaming-platforms-twitch)
 * [Teamworking and Communication Tools](#teamworking-tools)
 * [Instant Messaging](#instant-messaging)
 * [Password Managers](#password-managers)
