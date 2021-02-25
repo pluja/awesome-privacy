@@ -36,6 +36,7 @@
 * [Cloaking](#cloaking)
 * [Office](#office)
 * [Payments](#payments)
+* [Personal Finances](#personal-finances)
 * [Databases](#databases)
 * [Utilities](#utilities)
 * [Uncategorized](#uncategorized)
@@ -461,6 +462,19 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 **USE WITH CAUTION**:
 * [Bitcoin](https://bitcoin.org) - Bitcoin is not anonymous nor private. Bitcoin is traceable, transparent and pseudonymous. You need to be really careful when using Bitcoin so you don't leave any traces that can later be used against you to harm your privacy. [See aantonop's video](https://yewtu.be/watch?v=JN1Bowgcle8).
+
+## Personal Finances
+### FIAT
+* [ProExpense](https://github.com/arduia/ProExpense/) - A simple free finance note to safely record daily expenses.
+* [IHateMoney](https://ihatemoney.org/) - Manage your shared expenses, easily
+* [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - A group/shared budget manager inspired by the great IHateMoney.
+   * [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and [IHateMoney] servers.
+
+### CRYPTO
+<img width="16" src="misc/forbidden.png"> </img> Avoid using any exchange portfolio tracking or any app like Blockfolio as they **do not** respect your privacy in any way.
+
+<img width="16" src="misc/check.png"> </img> Instead use Rotki, an awesome, feature-rich and open source app:
+* [Rotki](https://github.com/rotki/rotki) - An awesome portfolio tracking, analytics, accounting and tax reporting application that protects your privacy.
 
 ## Databases
 * [CondensationDB](https://condensationdb.com/) - Condensation is an open-source zero trust, distributed database enabling to build modern applications while ensuring data ownership and security.
