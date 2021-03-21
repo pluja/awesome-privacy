@@ -22,6 +22,7 @@
 * [Teamworking and Communication Tools](#teamworking-tools)
 * [Instant Messaging](#instant-messaging)
 * [Password Managers](#password-managers)
+* [Notes and Tasks](#notes)
 * [Video conferencing](#video-conferencing)
 * [Fitness and Health](#fitness-and-health)
 * [Media Streaming Platforms](#media-streaming-platforms)
@@ -357,6 +358,15 @@ No servers involved. Everything goes directly from one peer to the other peer. N
   * [Strongbox](https://strongboxsafe.com/) for iOS.
   * [KeeWeb](https://keeweb.info/) for Web and other platforms.
 * [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
+
+## Notes
+<img width="16" src="misc/forbidden.png"> </img> **Avoid** using Google Keep, Evernote, Squid, Notion...
+
+<img width="16" src="misc/check.png"> </img>  **Instead use:**
+* [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
+* [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
+* [Simplenote](https://simplenote.com/) - The simplest way to keep notes.
+* [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
 
 ## Video Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
