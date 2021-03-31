@@ -166,6 +166,9 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Apertium](https://apertium.org/) - A free/open-source machine translation platform.
 * [Softcatala](https://www.softcatala.org/traductor/) - Open Source Translation tool - Only Catalan/Spanish/English/French.
 
+<img width="16" src="misc/check.png"> </img> **Alternative Google Translate frontends**:
+* [Lingva](https://github.com/TheDavidDelta/lingva-translate) - Alternative front-end for Google Translate.
+
 
 ## Android Keyboard
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
