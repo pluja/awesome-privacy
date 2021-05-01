@@ -257,6 +257,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Invidious](https://github.com/iv-org/invidious) - Alternative and privacy respecting Youtube frontend.
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend)
 - [NewPipe](https://newpipe.net/) - Alternative android Youtube app. No account needed, privacy respecting. **Shares IP with Youtube**
+    - [NewPipe x Sponsorblock](https://github.com/polymorphicshade/NewPipe) - NewPipe fork that incorporates Sponsorblock.
 
 #### Worth mentioning:
 - [Piped](https://github.com/TeamPiped) - Work in progress.
