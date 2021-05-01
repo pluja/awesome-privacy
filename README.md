@@ -82,8 +82,12 @@
 * Amazon Photos
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
+
+### Third-party:
 * [Stingle Photos](https://stingle.org/) - Open source solution that provides strong security, privacy and encryption to backup your photos.
 * [Crypt.ee](https://crypt.ee/) - A private and encrypted place for all your photos, documents, notes and more.
+
+### Self-hosted:
 * [Photoprism](https://photoprism.app) - Feature rich server-based application for browsing, organizing and sharing your personal photo collection. The most similar to Google Photos.
 * [Photoview](https://photoview.github.io/) - Photo gallery for self-hosted personal servers with Facial Recognition.
 * [Photostructure](https://photostructure.com/) - Self-hosted photo library that makes browsing and sharing a lifetime of memories delightful.
