@@ -496,6 +496,10 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 * [Rotki](https://github.com/rotki/rotki) - An awesome portfolio tracking, analytics, accounting and tax reporting application that protects your privacy.
 
 ## Databases
+<img width="16" src="misc/forbidden.png"> </img> Avoid using privative databases which you don't control such as Google Firebase.
+
+<img width="16" src="misc/check.png"> </img> Instead use:
+* [Supabase](https://supabase.io/) - The Open Source Firebase Alternative.
 * [CondensationDB](https://condensationdb.com/) - Condensation is an open-source zero trust, distributed database enabling to build modern applications while ensuring data ownership and security.
 
 ## Utilities
