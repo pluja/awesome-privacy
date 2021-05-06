@@ -54,6 +54,7 @@
 * [Whoogle Search](https://github.com/benbusby/whoogle-search) - A self-hosted, ad-free, privacy-respecting Google metasearch engine.
 * [Qwant](https://www.qwant.com/) - A privacy oriented search engine made in France with no tracking.
 * [SearX](https://searx.me/) - Privacy-respecting metasearch engine.
+* [Mojeek](https://mojeek.com) - Independent and unbiased search results with no user tracking in UK's greenest data centre.
 
 ## Web Browser
 
