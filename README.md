@@ -511,3 +511,13 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 * [Skymap](https://skymaponline.net/) - Open online planetarium program.
 * [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban
 * [Hetty](https://github.com/dstotijn/hetty) - Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
+
+## 2FA/HOTP/TOTP
+<img width="16" src="misc/forbidden.png"> </img> Avoid using apps that won't let you export your keys **easily**.
+* Authy
+* Google Authenticator
+
+<img width="16" src="misc/check.png"> </img> Instead use:
+* [Aegis](https://getaegis.app/) - A free, secure and open source app for Android to manage your 2-step verification tokens. Supports variety of imports from other apps (Google Authenticator, Authy etc.), vault encryption and exporting keys (plaintext or encrypted).
+* [andOTP](https://github.com/andOTP/andOTP) - Open source two-factor authentication for Android.
+* [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator.
