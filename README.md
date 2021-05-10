@@ -41,6 +41,7 @@
 * [Databases](#databases)
 * [Utilities](#utilities)
 * [Uncategorized](#uncategorized)
+* [2FA](#2fa)
 
 ## Search Engines
 
@@ -513,7 +514,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 * [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban
 * [Hetty](https://github.com/dstotijn/hetty) - Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
 
-## 2FA/HOTP/TOTP
+## 2FA
 <img width="16" src="misc/forbidden.png"> </img> Avoid using apps that won't let you export your keys **easily**.
 * Authy
 * Google Authenticator
