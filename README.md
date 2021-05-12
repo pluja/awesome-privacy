@@ -13,12 +13,13 @@
 * [Maps / Navigation](#maps--navigation)
 * [Translation](#translation)
 * [Android Keyboard](#android-keyboard)
-* [Social Networks](#social-networks)
+* [Social Networks and Other Platforms](#social-networks)
   * [Instagram](#instagram)
   * [Youtube](#youtube)
   * [Twitter](#twitter)
   * [Reddit](#reddit)
   * [Streaming Platforms (Twitch)](#streaming-platforms-twitch)
+  * [Wikipedia](#wikipedia)
 * [Teamworking and Communication Tools](#teamworking-tools)
 * [Instant Messaging](#instant-messaging)
 * [Password Managers](#password-managers)
@@ -301,6 +302,12 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 <img width="16" src="misc/check.png"> </img> **Alternatives:**
 - [Owncast](https://github.com/owncast/owncast) - Take control over your live stream video by running it yourself. Streaming + chat out of the box.
+
+### Wikipedia
+<img width="16" src="misc/forbidden.png"> </img> Read more about the issue with Wikipedia on the [Wikiless manifesto](https://codeberg.org/orenom/wikiless#why-i-should-use-wikiless-instead-of-wikipedia)
+
+<img width="16" src="misc/check.png"> </img> **Alternatives:**
+- [Wikiless](https://codeberg.org/orenom/wikiless) - A free open source alternative Wikipedia front-end focused on privacy
 
 ## Teamworking Tools
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
