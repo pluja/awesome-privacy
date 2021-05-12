@@ -36,6 +36,7 @@
 * [Analytics](#analytics)
 * [Cloaking](#cloaking)
 * [Office](#office)
+* [Fonts](#fonts)
 * [Payments](#payments)
 * [Personal Finances](#personal-finances)
 * [Databases](#databases)
@@ -484,6 +485,13 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 **USE WITH CAUTION**:
 * [Bitcoin](https://bitcoin.org) - Bitcoin is not anonymous nor private. Bitcoin is traceable, transparent and pseudonymous. You need to be really careful when using Bitcoin so you don't leave any traces that can later be used against you to harm your privacy. [See aantonop's video](https://yewtu.be/watch?v=JN1Bowgcle8).
+
+## Fonts
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+* Google Fonts
+
+<img width="16" src="misc/check.png"> </img>  **Instead use:**
+* [OpenFoundry](https://open-foundry.com/)
 
 ## Personal Finances
 ### FIAT
