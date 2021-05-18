@@ -1,4 +1,4 @@
-<p align="center"><img width="500" src="misc/awesomeprivacy.png"> </img></p> 
+<p align="center"><img width="500" src="misc/awesomeprivacy.png"> </img></p>
 <p align="center">List of free,open source and privacy respecting services and alternatives to privative services.</p>
 <p align="center"><a href="https://github.com/pluja/awesome-privacy/blob/main/misc/ABOUT.md"> About </a> </p>
 
@@ -97,7 +97,10 @@
 * [LibrePhotos](https://github.com/LibrePhotos/librephotos) - Active [OwnPhotos](https://github.com/hooram/ownphotos) fork. Self hosted alternative to Google Photos.
 * [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control. It has a [*Photos*](https://github.com/nextcloud/photos) plugin to help you organize and visualize your photos.
 
-## Photo management
+### Local:
+* [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
+
+## Photo edition and management
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
 * Adobe Photoshop / Illustrator / Lightroom
 * VSCO
@@ -106,6 +109,8 @@
 #### Desktop:
 * [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
 * [Krita](https://github.com/KDE/krita) - Krita is a free and open source digital painting application
+* [Czkawka](https://github.com/qarmin/czkawka) - Multi functional app to find duplicates and similar images etc.
+* [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
 
 #### Android:
 * [PocketPaint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
@@ -148,7 +153,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 **Other useful tools**:
 * [Cryptomator](https://cryptomator.org) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
 * [Syncthing](https://syncthing.net/) - Continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.
-* [Rclone](https://rclone.org/) - Rclone is a command line program to manage files on cloud storage. It is a feature rich alternative to cloud vendors' web storage interfaces and like the tools listed above enables encryption for encrypting files in the cloud. 
+* [Rclone](https://rclone.org/) - Rclone is a command line program to manage files on cloud storage. It is a feature rich alternative to cloud vendors' web storage interfaces and like the tools listed above enables encryption for encrypting files in the cloud.
 
 ## Maps / Navigation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
@@ -197,9 +202,13 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * Yahoo! Mail
 
 <img width="16" src="misc/check.png"> </img> **Instead Use:**
+* [ProtonMail](https://protonmail.com/) - Secure Email. Based in Switzerland.
 * [Tutanota](https://tutanota.com/) - Secure email for everybody. Open Source.
+* [RiseUp](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
 
-[LIST INCOMPLETE -]
+### Mail clients:
+* [FairEmail](https://github.com/M66B/FairEmail) - Fully featured, open source, privacy friendly email app for Android.
+* [K9](https://k9mail.app/) - Open Source Email App for Android.
 
 ## Operating Systems
 ### Android
@@ -208,7 +217,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 <img width="16" src="misc/check.png"> </img> **Instead Use:**
 
 #### Android app compatibility
-* [GrapheneOS](https://grapheneos.org/) - GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility. 
+* [GrapheneOS](https://grapheneos.org/) - GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility.
 * [CalyxOS](https://calyxos.org/) - CalyxOS lets you have your cake and eat it too, with  "Privacy by Design".
 * [LineageOS](https://lineageos.org/) - A free and open-source operating system for various devices, based on the Android mobile platform.
 * [Replicant](https://www.replicant.us/) - A free software mobile operating system putting the emphasis on freedom and privacy/security.
@@ -292,7 +301,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Ruqqus](https://ruqqus.com) - Open source Reddit alternative without censorship.
 
 <img width="16" src="misc/check.png"> </img> **Privacy respecting Reddit clients:**
-* [Libreddit](https://libredd.it) - Private Reddit front-end written in Rust 
+* [Libreddit](https://libredd.it) - Private Reddit front-end written in Rust
 * [Teddit](https://teddit.net/) - Alternative Reddit front-end focused on privacy
 * [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) - A beautiful Reddit client for Android.
 * [Slide](https://github.com/ccrama/Slide) - Slide is an open sourced, ad free Reddit browser for Android and iOS.
@@ -357,7 +366,7 @@ The service is in charge of running the servers that allow users to communicate.
 ### P2P:
 No servers involved. Everything goes directly from one peer to the other peer. No point of failure or control. The features are reduced because of the lack of server, messaging can be slower. Best option for critical chats.
 
-* [Tox](https://tox.chat/) - Tox is easy-to-use software that connects you with friends and family without anyone else listening in. 
+* [Tox](https://tox.chat/) - Tox is easy-to-use software that connects you with friends and family without anyone else listening in.
 * [Briar](https://briarproject.org/) - Peer-to-peer encrypted messaging and forums.
 * [Tinfoil Chat](https://github.com/maqp/tfc) - Onion-routed, endpoint secure messaging system.
 
@@ -404,7 +413,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 * [PeerCalls](https://peercalls.com/) - Group peer to peer video calls for everyone written in Go and TypeScript.
 
 ## Fitness and Health
-<img width="16" src="misc/forbidden.png"> </img> Your health is a **very** important piece of your **private data** and you should care **a lot** about it. Also, health related data is one of the most greeded. Please don't use apps from Google, Fitbit, Huawei, Xiaomi or any company that seeks the gathering of your personal data. 
+<img width="16" src="misc/forbidden.png"> </img> Your health is a **very** important piece of your **private data** and you should care **a lot** about it. Also, health related data is one of the most greeded. Please don't use apps from Google, Fitbit, Huawei, Xiaomi or any company that seeks the gathering of your personal data.
 
 If you need an app for **menstrual cycle tracking** please don't use any apps like Clue, Period Tracker, etc. Those cute pink apps are greedy for your menstrual cycle and intimate life data and will sell it for sure, protect your private life. Check the list below and you will find nice alternatives.
 
@@ -440,7 +449,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 **Spotify Alternative clients:**
  > These clients, although will have less tracking, still DO NOT protect your privacy at all as you will still be streaming from Spotify servers from you own **premium (paid, identified)** account.
- 
+
  \* Premium required.
 * [Spot](https://github.com/xou816/spot) - Native Spotify client built in GTK and Rust.
 * [psst](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI.
@@ -458,6 +467,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 * [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy.
 * [Plausible](https://plausible.io/) - Simple and privacy-friendly alternative to Google Analytics
+* [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
 
 ## Cloaking
 ### Images
@@ -486,7 +496,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 * WeChat
 * _insertBigTechHere_Pay
 * Bank payments (wire, sepa, etc)
-   
+
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 * [Monero](https://www.getmonero.org/) - Monero is cash for a connected world. It’s fast, private, untraceable and secure.
 * Cash - Use person-to-person payments using physical notes and coins.
