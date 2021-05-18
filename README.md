@@ -6,7 +6,7 @@
 * [Web Browser](#web-browser)
     * [Browser Sync](#browser-sync)
 * [Photo Storage](#photo-storage)
-* [Photo Management](#photo-management)
+* [Photo Management](#photo-edition-and-management)
 * [Cloud Storage](#cloud-storage)
 * [Encryption](#encryption)
 * [File management / sharing](#file-sharing)
