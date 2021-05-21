@@ -21,18 +21,19 @@
 - [Maps and Navigation](#maps-and-navigation)
 - [Translation](#translation)
 - [Android Keyboard](#android-keyboard)
-- [Social Networks and Other Platforms](#social-networks)
+- [Social Networks and Platforms](#social-networks-and-platforms)
   - [Instagram](#instagram)
   - [YouTube](#YouTube)
   - [Twitter](#twitter)
   - [Reddit](#reddit)
   - [Streaming Platforms (Twitch)](#streaming-platforms-twitch)
   - [Wikipedia](#wikipedia)
-- [Teamworking and Communication Tools](#teamworking-tools)
+- [Teamworking Tools](#teamworking-tools)
 - [Instant Messaging](#instant-messaging)
 - [Password Managers](#password-managers)
-- [Notes and Tasks](#notes)
-- [Video conferencing](#video-conferencing)
+- [Mail Services](#mail-services)
+- [Notes and Tasks](#notes-and-tasks)
+- [Video Conferencing](#video-conferencing)
 - [Fitness and Health](#fitness-and-health)
 - [Media Streaming Platforms](#media-streaming-platforms)
   - [Video/Audio](#video-audio)
@@ -211,56 +212,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [FlorisBoard](https://github.com/florisboard/florisboard) - An open-source keyboard for Android. Currently in alpha/early-beta stage.
 - [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
 
-## Mail Services
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Gmail
-- Outlook
-- Yandex Mail
-- Yahoo! Mail
-
-<img width="16" src="misc/check.png"> </img> **Instead use**
-- [ProtonMail](https://protonmail.com/) - Secure Email. Based in Switzerland.
-- [Tutanota](https://tutanota.com/) - Secure email for everybody. Open Source.
-- [RiseUp](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
-
-### Mail clients
-- [FairEmail](https://github.com/M66B/FairEmail) - Fully featured, open source, privacy friendly email app for Android.
-- [K9](https://k9mail.app/) - Open Source Email App for Android.
-
-## Operating Systems
-### Android
-<img width="16" src="misc/forbidden.png"> </img> Try to avoid using Google Android or any Android that has been modified and tuned by any manufacturer such as Xiaomi, Huawei, Samsung, etc. Android is an Open Source project - [AOSP - Android Open Source Project]() - and it has many versions that will respect the user privacy and data and won't share it with private servers from manufacturers or service providers.
-
-<img width="16" src="misc/check.png"> </img> **Instead use**
-
-#### Android app compatibility
-- [GrapheneOS](https://grapheneos.org/) - GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility.
-- [CalyxOS](https://calyxos.org/) - CalyxOS lets you have your cake and eat it too, with  "Privacy by Design".
-- [LineageOS](https://lineageos.org/) - A free and open-source operating system for various devices, based on the Android mobile platform.
-- [Replicant](https://www.replicant.us/) - A free software mobile operating system putting the emphasis on freedom and privacy/security.
-
-#### Based on Linux
-- [UBPorts](https://www.ubports.com/) - Ubuntu Touch is the touch-friendly mobile version of Ubuntu.
-- [postmarketOS](https://postmarketos.org/) - Touch optimised and pre-configured version of Alpine Linux.
-- [PureOS](https://www.pureos.net/) - Operating system developed by purism for the Librem 5.
-- [Plasma Mobile](https://www.plasma-mobile.org/) - Plasma, in your pocket. Privacy-respecting, open source and secure phone ecosystem.
-- [mobian](https://mobian-project.org/) - Debian for mobile.
-### Smart TV
-<img width="16" src="misc/forbidden.png"> </img> Don't use Android TV, LG WebOS or any other privacy-invasive common TV OS that comes preinstalled with your TV.
-
-<img width="16" src="misc/check.png"> </img> **Instead use**
-- [Kodi](https://kodi.tv/) - It is an entertainment hub that brings all your digital media together into a beautiful and user friendly package. It is 100% free and open source, very customisable and runs on a wide variety of devices.
-- [Jellyfin](https://jellyfin.org/) - Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
-- [OSMC](https://osmc.tv/) - OSMC is a free and open source media center built for the people, by the people.
-- [RaspberryCast](https://github.com/vincelwt/RaspberryCast) - Transform your Raspberry Pi into a streaming device. Cast videos from mobile devices or computers to your TV.
-
-### PC
-<img width="16" src="misc/forbidden.png"> </img> Don't use MS Windows.
-
-<img width="16" src="misc/check.png"> </img> **Instead use**
-- [GNU/Linux](https://www.linux.com/what-is-linux/) - GNU/Linux is a family of mostly free and open source Operating Systems mostly developed by the community. If you don't know where to start, [Linux-Mint(Cinnamon)](https://linuxmint.com/edition.php?id=281) is a beginner friendly Distribution. If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). If you want to install Linux but keep your current operating System, you can set up [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
-
-## Social Networks
+## Social Networks and Platforms
 ### Instagram
 <img width="16" src="misc/forbidden.png"> </img> Don't use instagram (or at least the official client). Instagram is a very privacy-invasive app with biased results and feeds based on user profiles, it is also used as a manipulation tool and has a lot of censorship going against free speech. Lastly, it has an addictive and toxic ui-design.
 
@@ -333,7 +285,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 <img width="16" src="misc/forbidden.png"> </img> Read more about the issue with Wikipedia on the [Wikiless manifesto](https://codeberg.org/orenom/wikiless#why-i-should-use-wikiless-instead-of-wikipedia)
 
 <img width="16" src="misc/check.png"> </img> **Alternatives:**
-- [Wikiless](https://wikiless.org/) - A free open source alternative Wikipedia front-end focused on privacy [Source Code](https://codeberg.org/orenom/wikiless)
+- [Wikiless](https://wikiless.org/) - A free open source alternative Wikipedia front-end focused on privacy [Source Code](https://codeberg.org/orenom/wikiless).
 
 ## Teamworking Tools
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -405,7 +357,23 @@ No servers involved. Everything goes directly from one peer to the other peer. N
   - [KeeWeb](https://keeweb.info/) for Web and other platforms.
 - [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
 
-## Notes
+## Mail Services
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- Gmail
+- Outlook
+- Yandex Mail
+- Yahoo! Mail
+
+<img width="16" src="misc/check.png"> </img> **Instead use**
+- [ProtonMail](https://protonmail.com/) - Secure Email. Based in Switzerland.
+- [Tutanota](https://tutanota.com/) - Secure email for everybody. Open Source.
+- [RiseUp](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
+
+### Clients
+- [FairEmail](https://github.com/M66B/FairEmail) - Fully featured, open source, privacy friendly email app for Android.
+- [K9](https://k9mail.app/) - Open Source Email App for Android.
+
+## Notes and Tasks
 <img width="16" src="misc/forbidden.png"> </img> **Avoid** using Google Keep, Evernote, Squid, Notion, etc.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
@@ -428,6 +396,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Jami](https://jami.net/) - P2P audio and video conferences.
 - [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton is a web conferencing system designed for online learning.
 - [PeerCalls](https://peercalls.com/) - Group peer to peer video calls for everyone written in Go and TypeScript.
+
 
 ## Fitness and Health
 <img width="16" src="misc/forbidden.png"> </img> Your health is a **very** important piece of your **private data** and you should care **a lot** about it. Also, health related data is one of the most greeded. Please don't use apps from Google, Fitbit, Huawei, Xiaomi or any company that seeks the gathering of your personal data.
@@ -457,7 +426,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Streamio](https://www.stremio.com/) - Stremio is a modern media center that's a one-stop solution for your video entertainment.
 
 #### Audio
-- [Funkwhale](https://funkwhale.audio/) - A social platform to enjoy and share music (Soundcloud alternative)
+- [Funkwhale](https://funkwhale.audio/) - A social platform to enjoy and share music (Soundcloud alternative).
 - [Subsonic](https://www.subsonic.org/pages/index.jsp) - Your complete, personal music streamer.
 - [Ampache](https://ampache.org/) - A web based audio/video streaming application and file manager.
 - [Koel](https://koel.dev/) - a personal music streaming server that works.
@@ -476,7 +445,40 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Freezer](https://git.rip/freezer)
 
 #### Podcasts
-- [Antennapod](https://antennapod.org/) - The Open Podcast Player
+- [Antennapod](https://antennapod.org/) - The Open Podcast Player.
+
+## Operating Systems
+### Android
+<img width="16" src="misc/forbidden.png"> </img> Try to avoid using Google Android or any Android that has been modified and tuned by any manufacturer such as Xiaomi, Huawei, Samsung, etc. Android is an Open Source project - [AOSP - Android Open Source Project]() - and it has many versions that will respect the user privacy and data and won't share it with private servers from manufacturers or service providers.
+
+<img width="16" src="misc/check.png"> </img> **Instead use**
+
+#### Android app compatibility
+- [GrapheneOS](https://grapheneos.org/) - GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility.
+- [CalyxOS](https://calyxos.org/) - CalyxOS lets you have your cake and eat it too, with  "Privacy by Design".
+- [LineageOS](https://lineageos.org/) - A free and open-source operating system for various devices, based on the Android mobile platform.
+- [Replicant](https://www.replicant.us/) - A free software mobile operating system putting the emphasis on freedom and privacy/security.
+
+#### Based on Linux
+- [UBPorts](https://www.ubports.com/) - Ubuntu Touch is the touch-friendly mobile version of Ubuntu.
+- [postmarketOS](https://postmarketos.org/) - Touch optimised and pre-configured version of Alpine Linux.
+- [PureOS](https://www.pureos.net/) - Operating system developed by purism for the Librem 5.
+- [Plasma Mobile](https://www.plasma-mobile.org/) - Plasma, in your pocket. Privacy-respecting, open source and secure phone ecosystem.
+- [mobian](https://mobian-project.org/) - Debian for mobile.
+### Smart TV
+<img width="16" src="misc/forbidden.png"> </img> Don't use Android TV, LG WebOS or any other privacy-invasive common TV OS that comes preinstalled with your TV.
+
+<img width="16" src="misc/check.png"> </img> **Instead use**
+- [Kodi](https://kodi.tv/) - It is an entertainment hub that brings all your digital media together into a beautiful and user friendly package. It is 100% free and open source, very customisable and runs on a wide variety of devices.
+- [Jellyfin](https://jellyfin.org/) - Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
+- [OSMC](https://osmc.tv/) - OSMC is a free and open source media center built for the people, by the people.
+- [RaspberryCast](https://github.com/vincelwt/RaspberryCast) - Transform your Raspberry Pi into a streaming device. Cast videos from mobile devices or computers to your TV.
+
+### PC
+<img width="16" src="misc/forbidden.png"> </img> Don't use MS Windows.
+
+<img width="16" src="misc/check.png"> </img> **Instead use**
+- [GNU/Linux](https://www.linux.com/what-is-linux/) - GNU/Linux is a family of mostly free and open source Operating Systems mostly developed by the community. If you don't know where to start, [Linux-Mint(Cinnamon)](https://linuxmint.com/edition.php?id=281) is a beginner friendly Distribution. If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). If you want to install Linux but keep your current operating System, you can set up [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
 
 ## Analytics
 <img width="16" src="misc/forbidden.png"> </img> Avoid any analytics service that comes from Google, Facebook, Microsoft or any privative service. These kind of analytics hurt the users privacy.
