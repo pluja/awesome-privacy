@@ -82,7 +82,7 @@
 ### Browser Sync
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
 
-## Photo storage
+## Photo Storage
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Google Photos
 - Amazon Photos
