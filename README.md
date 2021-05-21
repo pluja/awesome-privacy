@@ -1,7 +1,7 @@
 <p align="center"><img width="500" src="misc/awesomeprivacy.png"> </img></p>
 <p align="center"><img src="https://awesome.re/badge-flat2.svg"></p>
 <p align="center">List of free,open source and privacy respecting services and alternatives to privative services.</p>
-<p align="center"><a href="https://github.com/pluja/awesome-privacy/blob/main/misc/ABOUT.md"> About </a> </p>
+<p align="center"><a href="https://github.com/pluja/awesome-privacy/blob/main/misc/ABOUT.md"> About </a> | <a href="https://github.com/pluja/awesome-privacy/blob/main/misc/CONTRIBUTING.md"> Contributing </a> </p>
 
 * [Search Engines](#search-engines)
 * [Web Browser](#web-browser)
@@ -10,6 +10,7 @@
 * [Photo Management](#photo-edition-and-management)
 * [Cloud Storage](#cloud-storage)
 * [Encryption](#encryption)
+* [2FA](#2fa)
 * [File management / sharing](#file-sharing)
 * [Maps / Navigation](#maps--navigation)
 * [Translation](#translation)
@@ -44,7 +45,6 @@
 * [Databases](#databases)
 * [Utilities](#utilities)
 * [Uncategorized](#uncategorized)
-* [2FA](#2fa)
 
 ## Search Engines
 
