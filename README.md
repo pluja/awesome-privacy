@@ -56,7 +56,7 @@
 - Bing
 - Yandex
 
-<img width="16" src="misc/check.png"> </img>  **Instead use:**
+<img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Whoogle Search](https://github.com/benbusby/whoogle-search) - A self-hosted, ad-free, privacy-respecting Google metasearch engine.
 - [Qwant](https://www.qwant.com/) - A privacy oriented search engine made in France with no tracking.
 - [SearX](https://searx.me/) - Privacy-respecting metasearch engine.
@@ -87,7 +87,7 @@
 - Google Photos
 - Amazon Photos
 
-<img width="16" src="misc/check.png"> </img>  **Instead use:**
+<img width="16" src="misc/check.png"> </img>  **Instead use**
 
 ### Third-party:
 - [Stingle Photos](https://stingle.org/) - Open source solution that provides strong security, privacy and encryption to backup your photos.
@@ -104,11 +104,11 @@
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
 
 ## Photo edition and management
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Adobe Photoshop / Illustrator / Lightroom
 - VSCO
 
-<img width="16" src="misc/check.png"> </img>  **Instead use:**
+<img width="16" src="misc/check.png"> </img>  **Instead use**
 #### Desktop:
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
 - [Krita](https://github.com/KDE/krita) - Krita is a free and open source digital painting application
@@ -129,11 +129,11 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
 
 ## File Sharing
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - WeTransfer
 - SendAnywhere
 
-<img width="16" src="misc/check.png"> </img> **Instead Use:**
+<img width="16" src="misc/check.png"> </img> **Instead use**
 - [Blaze](https://blaze.now.sh/) - A fast, p2p and radically different way to transfer files.
 - [Send](https://gitlab.com/timvisee/send) - Simple, private file sharing. (Mozilla Send Fork)
 - [Lufi](https://framagit.org/fiat-tux/hat-softwares/lufi) - Let's Upload that FIle — File sharing software.
@@ -149,17 +149,17 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - Dropbox
 - OneDrive
 
-<img width="16" src="misc/check.png"> </img>  **Instead use:**
+<img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control.
 - [Seafile](https://www.seafile.com/en/home/) - High performance file syncing and sharing. It includes a Wiki, WYSIWYG editing and other knowledge management features.
 
-**Other useful tools**:
+**Other useful tools**
 - [Cryptomator](https://cryptomator.org) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
 - [Syncthing](https://syncthing.net/) - Continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.
 - [Rclone](https://rclone.org/) - Rclone is a command line program to manage files on cloud storage. It is a feature rich alternative to cloud vendors' web storage interfaces and like the tools listed above enables encryption for encrypting files in the cloud.
 
 ## Maps / Navigation
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Google Maps
 - Apple Maps
 - Yandex Maps
@@ -168,43 +168,43 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - Sygic
 - HERE WeGo
 
-<img width="16" src="misc/check.png"> </img> **Instead Use:**
+<img width="16" src="misc/check.png"> </img> **Instead use**
 - [Open Street Map (OSM)](https://www.openstreetmap.org/) - OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.
   - [OSMAnd](https://osmand.net/) - Android/iOS Navigation app using OSM. It is a feature-rich app with all you expect.
 
 ## Translation
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Google Translate
 - DeepL
 - Bing Translator
 
-<img width="16" src="misc/check.png"> </img> **Instead Use:**
+<img width="16" src="misc/check.png"> </img> **Instead use**
 - [Libretranslate](https://libretranslate.com/) - Open Source Machine Translation - 100% Self-Hosted. No Limits. No Ties to Proprietary Services.
 - [Apertium](https://apertium.org/) - A free/open-source machine translation platform.
 - [Softcatala](https://www.softcatala.org/traductor/) - Open Source Translation tool - Only Catalan/Spanish/English/French.
 
-<img width="16" src="misc/check.png"> </img> **Alternative Google Translate frontends**:
+<img width="16" src="misc/check.png"> </img> **Alternative Google Translate frontends**
 - [Lingva](https://github.com/TheDavidDelta/lingva-translate) - Alternative front-end for Google Translate.
 
 
 ## Android Keyboard
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - GBoard (Google)
 - SwiftKey
 
-<img width="16" src="misc/check.png"> </img> **Instead Use:**
+<img width="16" src="misc/check.png"> </img> **Instead use**
 - [OpenBoard](https://github.com/dslul/openboard) - 100% FOSS keyboard, based on AOSP.
 - [FlorisBoard](https://github.com/florisboard/florisboard) - An open-source keyboard for Android. Currently in alpha/early-beta stage.
 - [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
 
 ## Mail Services
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Gmail
 - Outlook
 - Yandex Mail
 - Yahoo! Mail
 
-<img width="16" src="misc/check.png"> </img> **Instead Use:**
+<img width="16" src="misc/check.png"> </img> **Instead use**
 - [ProtonMail](https://protonmail.com/) - Secure Email. Based in Switzerland.
 - [Tutanota](https://tutanota.com/) - Secure email for everybody. Open Source.
 - [RiseUp](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
@@ -217,7 +217,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 ### Android
 <img width="16" src="misc/forbidden.png"> </img> Try to avoid using Google Android or any Android that has been modified and tuned by any manufacturer such as Xiaomi, Huawei, Samsung, etc. Android is an Open Source project - [AOSP - Android Open Source Project]() - and it has many versions that will respect the user privacy and data and won't share it with private servers from manufacturers or service providers.
 
-<img width="16" src="misc/check.png"> </img> **Instead Use:**
+<img width="16" src="misc/check.png"> </img> **Instead use**
 
 #### Android app compatibility
 - [GrapheneOS](https://grapheneos.org/) - GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility.
@@ -234,7 +234,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 ### Smart TV
 <img width="16" src="misc/forbidden.png"> </img> Don't use Android TV, LG WebOS or any other privacy-invasive common TV OS that comes preinstalled with your TV.
 
-<img width="16" src="misc/check.png"> </img> **Instead Use:**
+<img width="16" src="misc/check.png"> </img> **Instead use**
 - [Kodi](https://kodi.tv/) - It is an entertainment hub that brings all your digital media together into a beautiful and user friendly package. It is 100% free and open source, very customisable and runs on a wide variety of devices.
 - [Jellyfin](https://jellyfin.org/) - Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
 - [OSMC](https://osmc.tv/) - OSMC is a free and open source media center built for the people, by the people.
@@ -243,26 +243,26 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 ### PC
 <img width="16" src="misc/forbidden.png"> </img> Don't use MS Windows.
 
-<img width="16" src="misc/check.png"> </img> **Instead Use:**
+<img width="16" src="misc/check.png"> </img> **Instead use**
 - [GNU/Linux](https://www.linux.com/what-is-linux/) - GNU/Linux is a family of mostly free and open source Operating Systems mostly developed by the community. If you don't know where to start, [Linux-Mint(Cinnamon)](https://linuxmint.com/edition.php?id=281) is a beginner friendly Distribution. If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). If you want to install Linux but keep your current operating System, you can set up [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
 
 ## Social Networks
 ### Instagram
 <img width="16" src="misc/forbidden.png"> </img> Don't use instagram (or at least the official client). Instagram is a very privacy-invasive app with biased results and feeds based on user profiles, it is also used as a manipulation tool and has a lot of censorship going against free speech. Lastly, it has an addictive and toxic ui-design.
 
-<img width="16" src="misc/check.png"> </img> **Instead Use:**
+<img width="16" src="misc/check.png"> </img> **Instead use**
 
-**Alternatives to Instagram**:
+**Alternatives to Instagram**
 - [Pixelfed](https://pixelfed.org/) - Decentralized, federated and Open Source alternative to Instagram with posts, videos, stories, tags, etc.
 
-**Alternative Instagram clients**:
+**Alternative Instagram clients**
 - [Barinsta](https://barinsta.austinhuang.me/) - The beautiful, open source, and privacy-friendly alternative Instagram client for Android.
 - [Bibliogram](https://bibliogram.art/) - Watch Instagram's public profile in a friendlier page that loads faster, gives downloadable images, eliminates ads and doesn't urge you to sign up.
 
 ### YouTube
 <img width="16" src="misc/forbidden.png"> </img> Don't use YouTube (or at least the official client). YouTube is very privacy invasive, it generates a very accurate profile based on your interests. Also it is a [radicalization tool](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization) which shows [biased content to users](https://arxiv.org/pdf/1908.08313.pdf) in order to get more engadgement and to get them to watch more and more content creating an [adiction](https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883). It never shows you [alternative opinions](https://arxiv.org/pdf/1908.08313.pdf) to your ideology/bias. YouTube censors a lot. YouTube collects a LOT of your data: interesnts, free time, ideology, likes, dislikes, music taste, etc...
 
-<img width="16" src="misc/check.png"> </img> **Instead Use:**
+<img width="16" src="misc/check.png"> </img> **Instead use**
 - [Peertube](https://joinpeertube.org/en/) - A free, open and decentralized alternative to video platforms.
 - [LBRY](https://lbry.tv/) - LBRY is a secure, open, and community-run digital marketplace. Enjoy the latest content from your favorite creators - as a user, not a product.
 - [Odysee](https://odysee.com/) - Odysee is a video platform backed by the creators of lbry and uses the lbry blockchain protocol.
@@ -322,13 +322,13 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Wikiless](https://wikiless.org/) - A free open source alternative Wikipedia front-end focused on privacy [Source Code](https://codeberg.org/orenom/wikiless)
 
 ## Teamworking Tools
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Slack
 - Google Hangouts
 - Microsoft Teams
 - Discord
 
-<img width="16" src="misc/check.png"> </img>  **Instead use:**
+<img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Zulip](https://zulip.com/) - Chat for distributed teams.
 - [Twake](https://twake.app/) - Work in a team faster. Twake covers all of your organizational needs through a single platform.
 - [RocketChat](https://rocket.chat/) - Control your communication, manage your data, and have your own collaboration platform to improve team productivity.
@@ -338,7 +338,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 ## Instant Messaging
 **Check out [this site](https://www.securemessagingapps.com/) for comparisons*
 
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Whatsapp
 - Instagram DM
 - Facebook Messenger
@@ -346,7 +346,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - Zoom
 - Google Hangouts / Chat
 
-<img width="16" src="misc/check.png"> </img>  **Instead use:**
+<img width="16" src="misc/check.png"> </img>  **Instead use**
 ### Decentralized:
 No single point of control or failure. A decentralized network operated by different servers from different volunteers arount the globe. You choose where your data stays or you can self-host your own server. Somewhat more complex protocols (because of federation between servers) and some extra metadata is added to the messages (without compromising privacy).
 
@@ -378,11 +378,11 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Telegram](https://telegram.org/) - Not fully open source. No E2E encryption by default on chats.
 
 ## Password Managers
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Lastpass
 - Dashlane
 
-<img width="16" src="misc/check.png"> </img>  **Instead use:**
+<img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Bitwarden](https://bitwarden.com) - An open source cloud based password manager
   - [vaultwarden](https://github.com/dani-garcia/vaultwarden/) - Unofficial Bitwarden compatible self-hosted server, formerly known as bitwarden_rs.
 - [KeepassXC](https://keepassxc.org/) - Securely store passwords using industry standard encryption, no sync just storage.
@@ -394,14 +394,14 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 ## Notes
 <img width="16" src="misc/forbidden.png"> </img> **Avoid** using Google Keep, Evernote, Squid, Notion...
 
-<img width="16" src="misc/check.png"> </img>  **Instead use:**
+<img width="16" src="misc/check.png"> </img>  **Instead use**
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
 - [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
 - [Simplenote](https://simplenote.com/) - The simplest way to keep notes.
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
 
 ## Video Conferencing
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - ZOOM
 - Skype
 - Google Meet
@@ -409,7 +409,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - Instagram
 - Discord
 
-<img width="16" src="misc/check.png"> </img>  **Instead use:**
+<img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Jitsi Meet](https://meet.jit.si/) - More secure, more flexible, and completely free video conferencing. **No account needed, no installation needed**
 - [Jami](https://jami.net/) - P2P audio and video conferences.
 - [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton is a web conferencing system designed for online learning.
@@ -420,7 +420,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 
 If you need an app for **menstrual cycle tracking** please don't use any apps like Clue, Period Tracker, etc. Those cute pink apps are greedy for your menstrual cycle and intimate life data and will sell it for sure, protect your private life. Check the list below and you will find nice alternatives.
 
-<img width="16" src="misc/check.png"> </img>  **Instead use:**
+<img width="16" src="misc/check.png"> </img>  **Instead use**
 - [wger](https://wger.de/en/software/features) - A free, open source, self-hosted web application that manages your exercises, workouts and nutrition.
 - [Fitotrack](https://codeberg.org/jannis/FitoTrack) - A privacy oriented fitness tracker for Android.
 - [OpenFoodFacts](https://world.openfoodfacts.org/) - Open Food Facts is a food products database made by everyone, for everyone. You can use it to make better food choices.
@@ -429,7 +429,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [log28](https://github.com/wildeyedskies/log28) - a (very) simple no-frills period tracker for Android.
 
 ## Media Streaming Platforms
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Amazon Prime Video
 - Netflix
 - Disney+
@@ -437,7 +437,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - Spotify
 - Soundcloud
 
-<img width="16" src="misc/check.png"> </img>  **Instead use:**
+<img width="16" src="misc/check.png"> </img>  **Instead use**
 #### Video/Audio:
 - [Jellyfin](https://jellyfin.org/) - Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
 - [Streamio](https://www.stremio.com/) - Stremio is a modern media center that's a one-stop solution for your video entertainment.
@@ -458,7 +458,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [psst](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI.
 - [ncspot](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
 
-**Other music streaming projects**:
+**Other music streaming projects**
 - [Freezer](https://git.rip/freezer)
 
 #### Podcasts
@@ -467,7 +467,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 ## Analytics
 <img width="16" src="misc/forbidden.png"> </img> Avoid any analytics service that comes from Google, Facebook, Microsoft or any privative service. These kind of analytics hurt the users privacy.
 
-<img width="16" src="misc/check.png"> </img>  **Instead use:**
+<img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy.
 - [Plausible](https://plausible.io/) - Simple and privacy-friendly alternative to Google Analytics
 - [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
@@ -487,7 +487,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - Microsoft Office
 - Google Docs
 
-<img width="16" src="misc/check.png"> </img>  **Instead use:**
+<img width="16" src="misc/check.png"> </img>  **Instead use**
 - [LibreOffice](https://www.libreoffice.org/) - Free and open source offline office
 - [OnlyOffice](https://www.onlyoffice.com/) - Free and open source online office for collaboration
 - [Cryptpad](https://cryptpad.fr/) - Collaboration suite, encrypted and open-source.
@@ -500,18 +500,18 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - _insertBigTechHere_Pay
 - Bank payments (wire, sepa, etc)
 
-<img width="16" src="misc/check.png"> </img>  **Instead use:**
+<img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Monero](https://www.getmonero.org/) - Monero is cash for a connected world. It’s fast, private, untraceable and secure.
 - Cash - Use person-to-person payments using physical notes and coins.
 
-**USE WITH CAUTION**:
+**USE WITH CAUTION**
 - [Bitcoin](https://bitcoin.org) - Bitcoin is not anonymous nor private. Bitcoin is traceable, transparent and pseudonymous. You need to be really careful when using Bitcoin so you don't leave any traces that can later be used against you to harm your privacy. [See aantonop's video](https://yewtu.be/watch?v=JN1Bowgcle8).
 
 ## Fonts
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Google Fonts
 
-<img width="16" src="misc/check.png"> </img>  **Instead use:**
+<img width="16" src="misc/check.png"> </img>  **Instead use**
 - [OpenFoundry](https://open-foundry.com/)
 
 ## Personal Finances
@@ -530,7 +530,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 ## Databases
 <img width="16" src="misc/forbidden.png"> </img> Avoid using privative databases which you don't control such as Google Firebase.
 
-<img width="16" src="misc/check.png"> </img> Instead use:
+<img width="16" src="misc/check.png"> </img> Instead use
 - [Supabase](https://supabase.io/) - The Open Source Firebase Alternative.
 - [CondensationDB](https://condensationdb.com/) - Condensation is an open-source zero trust, distributed database enabling to build modern applications while ensuring data ownership and security.
 
@@ -547,7 +547,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - Authy
 - Google Authenticator
 
-<img width="16" src="misc/check.png"> </img> Instead use:
+<img width="16" src="misc/check.png"> </img> Instead use
 - [Aegis](https://getaegis.app/) - A free, secure and open source app for Android to manage your 2-step verification tokens. Supports variety of imports from other apps (Google Authenticator, Authy etc.), vault encryption and exporting keys (plaintext or encrypted).
 - [andOTP](https://github.com/andOTP/andOTP) - Open source two-factor authentication for Android.
 - [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator.
