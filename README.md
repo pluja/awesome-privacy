@@ -4,6 +4,7 @@
 <p align="center">List of free,open source and privacy respecting services and alternatives to privative services.</p>
 <p align="center"><a href="https://github.com/pluja/awesome-privacy/blob/main/misc/ABOUT.md"> About </a> | <a href="https://github.com/pluja/awesome-privacy/blob/main/misc/CONTRIBUTING.md"> Contributing </a> | <a href="https://github.com/pluja/awesome-privacy/blob/main/misc/QUOTES.md"> Quotes </a> </p>
 
+## Contents
 * [Search Engines](#search-engines)
 * [Web Browser](#web-browser)
     * [Browser Sync](#browser-sync)
