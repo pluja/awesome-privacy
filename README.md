@@ -36,7 +36,7 @@
 - [Video Conferencing](#video-conferencing)
 - [Fitness and Health](#fitness-and-health)
 - [Media Streaming Platforms](#media-streaming-platforms)
-  - [Video/Audio](#video-audio)
+  - [Video and Audio](#video-and-audio)
   - [Audio](#audio)
   - [Podcasts](#podcasts)
 - [Operating Systems](#operating-systems)
@@ -421,7 +421,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - Soundcloud
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
-#### Video/Audio
+#### Video and Audio
 - [Jellyfin](https://jellyfin.org/) - Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
 - [Streamio](https://www.stremio.com/) - Stremio is a modern media center that's a one-stop solution for your video entertainment.
 
