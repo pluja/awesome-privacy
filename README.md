@@ -254,7 +254,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 * [Pixelfed](https://pixelfed.org/) - Decentralized, federated and Open Source alternative to Instagram with posts, videos, stories, tags, etc.
 
 **Alternative Instagram clients**:
-* [Barinsta](http://barinsta.austinhuang.me/) - The beautiful, open source, and privacy-friendly alternative Instagram client for Android.
+* [Barinsta](https://barinsta.austinhuang.me/) - The beautiful, open source, and privacy-friendly alternative Instagram client for Android.
 * [Bibliogram](https://bibliogram.art/) - Watch Instagram's public profile in a friendlier page that loads faster, gives downloadable images, eliminates ads and doesn't urge you to sign up.
 
 ### Youtube
@@ -442,8 +442,8 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 #### Audio:
 * [Funkwhale](https://funkwhale.audio/) - A social platform to enjoy and share music (Soundcloud alternative)
-* [Subsonic](http://www.subsonic.org/pages/index.jsp) - Your complete, personal music streamer.
-* [Ampache](http://ampache.org/) - A web based audio/video streaming application and file manager.
+* [Subsonic](https://www.subsonic.org/pages/index.jsp) - Your complete, personal music streamer.
+* [Ampache](https://ampache.org/) - A web based audio/video streaming application and file manager.
 * [Koel](https://koel.dev/) - a personal music streaming server that works.
 * [Nuclear](https://nuclear.js.org/) - Modern music player focused on streaming from free sources.
 * [Navidrome](https://navidrome.org/) - Lightweight, fast and self-contained personal music streamer.
