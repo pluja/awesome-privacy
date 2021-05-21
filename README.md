@@ -260,7 +260,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Bibliogram](https://bibliogram.art/) - Watch Instagram's public profile in a friendlier page that loads faster, gives downloadable images, eliminates ads and doesn't urge you to sign up.
 
 ### YouTube
-<img width="16" src="misc/forbidden.png"> </img> Don't use YouTube (or at least the official client). YouTube is very privacy invasive, it generates a very accurate profile based on your interests. Also it is a [radicalization tool](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization) which shows [biased content to users](https://arxiv.org/pdf/1908.08313.pdf) in order to get more engadgement and to get them to watch more and more content creating an [adiction](https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883). It never shows you [alternative opinions](https://arxiv.org/pdf/1908.08313.pdf) to your ideology/bias. YouTube censors a lot. YouTube collects a LOT of your data: interesnts, free time, ideology, likes, dislikes, music taste, etc...
+<img width="16" src="misc/forbidden.png"> </img> Don't use YouTube (or at least the official client). YouTube is very privacy invasive, it generates a very accurate profile based on your interests. Also it is a [radicalization tool](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization) which shows [biased content to users](https://arxiv.org/pdf/1908.08313.pdf) in order to get more engadgement and to get them to watch more and more content creating an [adiction](https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883). It never shows you [alternative opinions](https://arxiv.org/pdf/1908.08313.pdf) to your ideology/bias. YouTube censors a lot. YouTube collects a LOT of your data: interesnts, free time, ideology, likes, dislikes, music taste, etc.
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 - [Peertube](https://joinpeertube.org/en/) - A free, open and decentralized alternative to video platforms.
@@ -283,7 +283,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 <img width="16" src="misc/check.png"> </img> **Alternatives to Twitter:**
 
-> **Federated social networks**: A federated social network isn’t a single website like Twitter or Facebook, it's a network of thousands of communities operated by different organizations and individuals that provide a seamless social media experience.
+> **Federated social networks**: A federated social network isn't a single website like Twitter or Facebook, it's a network of thousands of communities operated by different organizations and individuals that provide a seamless social media experience.
 
 - [Pleroma](https://pleroma.social/) - Pleroma is a free, federated social networking server built on open protocols.
   - [Soapbox](https://gitlab.com/soapbox-pub/soapbox-fe) - A frontend for Pleroma with a focus on custom branding and ease of use.
@@ -336,7 +336,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Mattermost](https://mattermost.com/) - Open-source Slack alternative.
 
 ## Instant Messaging
-**Check out [this site](https://www.securemessagingapps.com/) for comparisons*
+**Check out [this site](https://www.securemessagingapps.com/) for comparisons*.
 
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Whatsapp
@@ -353,7 +353,7 @@ No single point of control or failure. A decentralized network operated by diffe
 - [Matrix (Protocol)](https://matrix.org/) - An open network for secure, decentralized communication.
    - [Element](https://element.io/) - All-in-one secure chat app for teams, friends and organisations. Keeps conversations in your control, safe from data-mining and ads. End-to-end encryption.
 - [Jabber / XMPP (Protocol)](https://xmpp.org/) - The universal and open messaging standard. Tried and tested. Independent. Privacy-focused. E2E encrypted.
-  - [Conversations](https://conversations.im/) - Jabber/XMPP client for Android 4.0+ smartphones that has been optimized to provide a unique mobile experience
+  - [Conversations](https://conversations.im/) - Jabber/XMPP client for Android 4.0+ smartphones that has been optimized to provide a unique mobile experience.
   - [AstraChat](https://astrachat.com/) - Another XMPP client.
 - [DeltaChat](https://delta.chat/) - Chat over encrypted e-mail.
 - [Session](https://getsession.org/) - Extreme focus on privacy. Blockchain technology.
@@ -392,7 +392,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
 
 ## Notes
-<img width="16" src="misc/forbidden.png"> </img> **Avoid** using Google Keep, Evernote, Squid, Notion...
+<img width="16" src="misc/forbidden.png"> </img> **Avoid** using Google Keep, Evernote, Squid, Notion, etc.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
@@ -501,7 +501,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - Bank payments (wire, sepa, etc)
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
-- [Monero](https://www.getmonero.org/) - Monero is cash for a connected world. It’s fast, private, untraceable and secure.
+- [Monero](https://www.getmonero.org/) - Monero is cash for a connected world. It's fast, private, untraceable and secure.
 - Cash - Use person-to-person payments using physical notes and coins.
 
 **USE WITH CAUTION**
@@ -519,7 +519,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [ProExpense](https://github.com/arduia/ProExpense/) - A simple free finance note to safely record daily expenses.
 - [IHateMoney](https://ihatemoney.org/) - Manage your shared expenses, easily
 - [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - A group/shared budget manager inspired by the great IHateMoney.
-   - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and [IHateMoney] servers.
+   - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and [IHateMoney](https://ihatemoney.org/) servers.
 
 ### CRYPTO
 <img width="16" src="misc/forbidden.png"> </img> Avoid using any exchange portfolio tracking or any app like Blockfolio as they **do not** respect your privacy in any way.
