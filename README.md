@@ -51,10 +51,10 @@
 ## Search Engines
 
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-* Google Search
-* Yahoo Search
-* Bing
-* Yandex
+- Google Search
+- Yahoo Search
+- Bing
+- Yandex
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 - [Whoogle Search](https://github.com/benbusby/whoogle-search) - A self-hosted, ad-free, privacy-respecting Google metasearch engine.
@@ -84,8 +84,8 @@
 
 ## Photo storage
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-* Google Photos
-* Amazon Photos
+- Google Photos
+- Amazon Photos
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 
@@ -105,8 +105,8 @@
 
 ## Photo edition and management
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
-* Adobe Photoshop / Illustrator / Lightroom
-* VSCO
+- Adobe Photoshop / Illustrator / Lightroom
+- VSCO
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 #### Desktop:
@@ -130,8 +130,8 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 ## File Sharing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
-* WeTransfer
-* SendAnywhere
+- WeTransfer
+- SendAnywhere
 
 <img width="16" src="misc/check.png"> </img> **Instead Use:**
 - [Blaze](https://blaze.now.sh/) - A fast, p2p and radically different way to transfer files.
@@ -145,9 +145,9 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 ## Cloud Storage
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-* Google Drive
-* Dropbox
-* OneDrive
+- Google Drive
+- Dropbox
+- OneDrive
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 - [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control.
@@ -160,13 +160,13 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 ## Maps / Navigation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
-* Google Maps
-* Apple Maps
-* Yandex Maps
-* Bing Maps
-* Waze
-* Sygic
-* HERE WeGo
+- Google Maps
+- Apple Maps
+- Yandex Maps
+- Bing Maps
+- Waze
+- Sygic
+- HERE WeGo
 
 <img width="16" src="misc/check.png"> </img> **Instead Use:**
 - [Open Street Map (OSM)](https://www.openstreetmap.org/) - OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.
@@ -174,9 +174,9 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 ## Translation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
-* Google Translate
-* DeepL
-* Bing Translator
+- Google Translate
+- DeepL
+- Bing Translator
 
 <img width="16" src="misc/check.png"> </img> **Instead Use:**
 - [Libretranslate](https://libretranslate.com/) - Open Source Machine Translation - 100% Self-Hosted. No Limits. No Ties to Proprietary Services.
@@ -189,8 +189,8 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 ## Android Keyboard
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
-* GBoard (Google)
-* SwiftKey
+- GBoard (Google)
+- SwiftKey
 
 <img width="16" src="misc/check.png"> </img> **Instead Use:**
 - [OpenBoard](https://github.com/dslul/openboard) - 100% FOSS keyboard, based on AOSP.
@@ -199,10 +199,10 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 ## Mail Services
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
-* Gmail
-* Outlook
-* Yandex Mail
-* Yahoo! Mail
+- Gmail
+- Outlook
+- Yandex Mail
+- Yahoo! Mail
 
 <img width="16" src="misc/check.png"> </img> **Instead Use:**
 - [ProtonMail](https://protonmail.com/) - Secure Email. Based in Switzerland.
@@ -323,10 +323,10 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 ## Teamworking Tools
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
-* Slack
-* Google Hangouts
-* Microsoft Teams
-* Discord
+- Slack
+- Google Hangouts
+- Microsoft Teams
+- Discord
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 - [Zulip](https://zulip.com/) - Chat for distributed teams.
@@ -339,12 +339,12 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 **Check out [this site](https://www.securemessagingapps.com/) for comparisons*
 
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
-* Whatsapp
-* Instagram DM
-* Facebook Messenger
-* Skype
-* Zoom
-* Google Hangouts / Chat
+- Whatsapp
+- Instagram DM
+- Facebook Messenger
+- Skype
+- Zoom
+- Google Hangouts / Chat
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 ### Decentralized:
@@ -379,8 +379,8 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 
 ## Password Managers
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
-* Lastpass
-* Dashlane
+- Lastpass
+- Dashlane
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 - [Bitwarden](https://bitwarden.com) - An open source cloud based password manager
@@ -402,12 +402,12 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 
 ## Video Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
-* ZOOM
-* Skype
-* Google Meet
-* Whatsapp
-* Instagram
-* Discord
+- ZOOM
+- Skype
+- Google Meet
+- Whatsapp
+- Instagram
+- Discord
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 - [Jitsi Meet](https://meet.jit.si/) - More secure, more flexible, and completely free video conferencing. **No account needed, no installation needed**
@@ -430,12 +430,12 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ## Media Streaming Platforms
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
-* Amazon Prime Video
-* Netflix
-* Disney+
-* Plex
-* Spotify
-* Soundcloud
+- Amazon Prime Video
+- Netflix
+- Disney+
+- Plex
+- Spotify
+- Soundcloud
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 #### Video/Audio:
@@ -484,8 +484,8 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 ## Office
 
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-* Microsoft Office
-* Google Docs
+- Microsoft Office
+- Google Docs
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 - [LibreOffice](https://www.libreoffice.org/) - Free and open source offline office
@@ -494,22 +494,22 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ## Payments
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-* Visa / Mastercard
-* Paypal
-* WeChat
-* _insertBigTechHere_Pay
-* Bank payments (wire, sepa, etc)
+- Visa / Mastercard
+- Paypal
+- WeChat
+- _insertBigTechHere_Pay
+- Bank payments (wire, sepa, etc)
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 - [Monero](https://www.getmonero.org/) - Monero is cash for a connected world. It’s fast, private, untraceable and secure.
-* Cash - Use person-to-person payments using physical notes and coins.
+- Cash - Use person-to-person payments using physical notes and coins.
 
 **USE WITH CAUTION**:
 - [Bitcoin](https://bitcoin.org) - Bitcoin is not anonymous nor private. Bitcoin is traceable, transparent and pseudonymous. You need to be really careful when using Bitcoin so you don't leave any traces that can later be used against you to harm your privacy. [See aantonop's video](https://yewtu.be/watch?v=JN1Bowgcle8).
 
 ## Fonts
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
-* Google Fonts
+- Google Fonts
 
 <img width="16" src="misc/check.png"> </img>  **Instead use:**
 - [OpenFoundry](https://open-foundry.com/)
@@ -544,8 +544,8 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ## 2FA
 <img width="16" src="misc/forbidden.png"> </img> Avoid using apps that won't let you export your keys **easily**.
-* Authy
-* Google Authenticator
+- Authy
+- Google Authenticator
 
 <img width="16" src="misc/check.png"> </img> Instead use:
 - [Aegis](https://getaegis.app/) - A free, secure and open source app for Android to manage your 2-step verification tokens. Supports variety of imports from other apps (Google Authenticator, Authy etc.), vault encryption and exporting keys (plaintext or encrypted).
