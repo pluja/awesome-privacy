@@ -1,4 +1,5 @@
 <p align="center"><img width="500" src="misc/awesomeprivacy.png"> </img></p>
+<p align="center"><img src="https://awesome.re/badge-flat2.svg"></p>
 <p align="center">List of free,open source and privacy respecting services and alternatives to privative services.</p>
 <p align="center"><a href="https://github.com/pluja/awesome-privacy/blob/main/misc/ABOUT.md"> About </a> </p>
 
