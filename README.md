@@ -13,7 +13,7 @@
 - [Web Browser](#web-browser)
     - [Browser Sync](#browser-sync)
 - [Photo Storage](#photo-storage)
-- [Photo Management](#photo-edition-and-management)
+- [Photo Edition and Management](#photo-edition-and-management)
 - [Cloud Storage](#cloud-storage)
 - [Encryption](#encryption)
 - [2FA](#2fa)
@@ -107,7 +107,7 @@
 ### Local
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
 
-## Photo edition and management
+## Photo Edition and Management
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Adobe Photoshop / Illustrator / Lightroom
 - VSCO
@@ -488,8 +488,8 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 ## Office
 
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Microsoft Office
-- Google Docs
+- Microsoft Office.
+- Google Docs.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [LibreOffice](https://www.libreoffice.org/) - Free and open source offline office
