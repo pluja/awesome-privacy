@@ -17,8 +17,8 @@
 - [Cloud Storage](#cloud-storage)
 - [Encryption](#encryption)
 - [2FA](#2fa)
-- [File management / sharing](#file-sharing)
-- [Maps / Navigation](#maps--navigation)
+- [File Management and Sharing](#file-management-and-sharing)
+- [Maps and Navigation](#maps-and-navigation)
 - [Translation](#translation)
 - [Android Keyboard](#android-keyboard)
 - [Social Networks and Other Platforms](#social-networks)
@@ -124,29 +124,6 @@
 - [Scrambled Exif](https://gitlab.com/juanitobananas/scrambled-exif) - Remove Exif data from pictures before sharing them.
 - [ImagePipe](https://codeberg.org/Starfish/Imagepipe) - Reduces image size and removes exif-tags when sharing images on android devices.
 
-## Encryption
-Remember: Without strong encryption, you will be spied on systematically by lots of people.
-
-- [Veracrypt](https://www.veracrypt.fr/en/Home.html) - VeraCrypt is a free open source disk encryption software for Windows, macOS and Linux.
-- [Hat.sh](https://hat.sh/) - A Free, Fast, Secure and Serverless File Encryption.
-- [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud servic
-- [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
-
-## File Sharing
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- WeTransfer
-- SendAnywhere
-
-<img width="16" src="misc/check.png"> </img> **Instead use**
-- [Blaze](https://blaze.now.sh/) - A fast, p2p and radically different way to transfer files.
-- [Send](https://gitlab.com/timvisee/send) - Simple, private file sharing. (Mozilla Send Fork)
-- [Lufi](https://framagit.org/fiat-tux/hat-softwares/lufi) - Let's Upload that FIle — File sharing software.
-- [Croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another.
-- [Dat-cp](https://github.com/tom-james-watson/dat-cp) - Copy files between hosts on a network using the peer-to-peer Dat network.
-- [QRcp](https://github.com/claudiodangelis/qrcp) - Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
-- [Snapdrop](https://snapdrop.net/) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
-- [Paperless](https://github.com/the-paperless-project/paperless) - Scan, index, and archive all of your paper documents.
-
 ## Cloud Storage
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Google Drive
@@ -162,7 +139,40 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Syncthing](https://syncthing.net/) - Continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.
 - [Rclone](https://rclone.org/) - Rclone is a command line program to manage files on cloud storage. It is a feature rich alternative to cloud vendors' web storage interfaces and like the tools listed above enables encryption for encrypting files in the cloud.
 
-## Maps / Navigation
+## Encryption
+Remember: Without strong encryption, you will be spied on systematically by lots of people.
+
+- [Veracrypt](https://www.veracrypt.fr/en/Home.html) - VeraCrypt is a free open source disk encryption software for Windows, macOS and Linux.
+- [Hat.sh](https://hat.sh/) - A Free, Fast, Secure and Serverless File Encryption.
+- [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud servic
+- [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
+
+## 2FA
+<img width="16" src="misc/forbidden.png"> </img> Avoid using apps that won't let you export your keys **easily**.
+- Authy
+- Google Authenticator
+
+<img width="16" src="misc/check.png"> </img> Instead use
+- [Aegis](https://getaegis.app/) - A free, secure and open source app for Android to manage your 2-step verification tokens. Supports variety of imports from other apps (Google Authenticator, Authy etc.), vault encryption and exporting keys (plaintext or encrypted).
+- [andOTP](https://github.com/andOTP/andOTP) - Open source two-factor authentication for Android.
+- [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator.
+
+## File Management and Sharing
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- WeTransfer
+- SendAnywhere
+
+<img width="16" src="misc/check.png"> </img> **Instead use**
+- [Blaze](https://blaze.now.sh/) - A fast, p2p and radically different way to transfer files.
+- [Send](https://gitlab.com/timvisee/send) - Simple, private file sharing. (Mozilla Send Fork)
+- [Lufi](https://framagit.org/fiat-tux/hat-softwares/lufi) - Let's Upload that FIle — File sharing software.
+- [Croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another.
+- [Dat-cp](https://github.com/tom-james-watson/dat-cp) - Copy files between hosts on a network using the peer-to-peer Dat network.
+- [QRcp](https://github.com/claudiodangelis/qrcp) - Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
+- [Snapdrop](https://snapdrop.net/) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
+- [Paperless](https://github.com/the-paperless-project/paperless) - Scan, index, and archive all of your paper documents.
+
+## Maps and Navigation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Google Maps
 - Apple Maps
@@ -545,13 +555,3 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Skymap](https://skymaponline.net/) - Open online planetarium program.
 - [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban
 - [Hetty](https://github.com/dstotijn/hetty) - Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
-
-## 2FA
-<img width="16" src="misc/forbidden.png"> </img> Avoid using apps that won't let you export your keys **easily**.
-- Authy
-- Google Authenticator
-
-<img width="16" src="misc/check.png"> </img> Instead use
-- [Aegis](https://getaegis.app/) - A free, secure and open source app for Android to manage your 2-step verification tokens. Supports variety of imports from other apps (Google Authenticator, Authy etc.), vault encryption and exporting keys (plaintext or encrypted).
-- [andOTP](https://github.com/andOTP/andOTP) - Open source two-factor authentication for Android.
-- [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator.
