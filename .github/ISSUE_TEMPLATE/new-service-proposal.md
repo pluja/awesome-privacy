@@ -1,7 +1,7 @@
 ---
-name: New Service Proposal
-about: Suggest a service to be listed.
-title: "[NSP] Service name"
+name: New Service / Section
+about: Suggest a service or section to be listed.
+title: "Add [Service Name]/[Section Name]"
 labels: ''
 assignees: ''
 
