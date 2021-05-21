@@ -89,18 +89,18 @@
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 
-### Third-party:
+### Third-party
 - [Stingle Photos](https://stingle.org/) - Open source solution that provides strong security, privacy and encryption to backup your photos.
 - [Crypt.ee](https://crypt.ee/) - A private and encrypted place for all your photos, documents, notes and more.
 
-### Self-hosted:
+### Self-hosted
 - [Photoprism](https://photoprism.app) - Feature rich server-based application for browsing, organizing and sharing your personal photo collection. The most similar to Google Photos.
 - [Photoview](https://photoview.github.io/) - Photo gallery for self-hosted personal servers with Facial Recognition.
 - [Photostructure](https://photostructure.com/) - Self-hosted photo library that makes browsing and sharing a lifetime of memories delightful.
 - [LibrePhotos](https://github.com/LibrePhotos/librephotos) - Active [OwnPhotos](https://github.com/hooram/ownphotos) fork. Self hosted alternative to Google Photos.
 - [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control. It has a [*Photos*](https://github.com/nextcloud/photos) plugin to help you organize and visualize your photos.
 
-### Local:
+### Local
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
 
 ## Photo edition and management
@@ -109,13 +109,13 @@
 - VSCO
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
-#### Desktop:
+#### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
 - [Krita](https://github.com/KDE/krita) - Krita is a free and open source digital painting application
 - [Czkawka](https://github.com/qarmin/czkawka) - Multi functional app to find duplicates and similar images etc.
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
 
-#### Android:
+#### Android
 - [PocketPaint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
 - [Scrambled Exif](https://gitlab.com/juanitobananas/scrambled-exif) - Remove Exif data from pictures before sharing them.
 - [ImagePipe](https://codeberg.org/Starfish/Imagepipe) - Reduces image size and removes exif-tags when sharing images on android devices.
@@ -209,7 +209,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Tutanota](https://tutanota.com/) - Secure email for everybody. Open Source.
 - [RiseUp](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
 
-### Mail clients:
+### Mail clients
 - [FairEmail](https://github.com/M66B/FairEmail) - Fully featured, open source, privacy friendly email app for Android.
 - [K9](https://k9mail.app/) - Open Source Email App for Android.
 
@@ -275,7 +275,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [NewPipe](https://newpipe.net/) - Alternative android YouTube app. No account needed, privacy respecting. **Shares IP with YouTube**
     - [NewPipe x Sponsorblock](https://github.com/polymorphicshade/NewPipe) - NewPipe fork that incorporates Sponsorblock.
 
-#### Worth mentioning:
+#### Worth mentioning
 - [Piped](https://github.com/TeamPiped) - Work in progress.
 
 ### Twitter
@@ -347,7 +347,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - Google Hangouts / Chat
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
-### Decentralized:
+### Decentralized
 No single point of control or failure. A decentralized network operated by different servers from different volunteers arount the globe. You choose where your data stays or you can self-host your own server. Somewhat more complex protocols (because of federation between servers) and some extra metadata is added to the messages (without compromising privacy).
 
 - [Matrix (Protocol)](https://matrix.org/) - An open network for secure, decentralized communication.
@@ -358,7 +358,7 @@ No single point of control or failure. A decentralized network operated by diffe
 - [DeltaChat](https://delta.chat/) - Chat over encrypted e-mail.
 - [Session](https://getsession.org/) - Extreme focus on privacy. Blockchain technology.
 
-### Centralized:
+### Centralized
 The service is in charge of running the servers that allow users to communicate. Single point of failure and control, but still 100% safe and trustworthy if the protocols and code are open and audited.
 
 - [Threema](https://threema.ch/en) - The messenger that puts security and privacy first. Pay once, chat forever. No collection of user data. Open Source client.
@@ -366,7 +366,7 @@ The service is in charge of running the servers that allow users to communicate.
   - [Molly](https://github.com/mollyim/mollyim-android) - Signal-compatible fork client with some security enhancements.
 - [Status](https://status.im/) - Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.
 
-### P2P:
+### P2P
 No servers involved. Everything goes directly from one peer to the other peer. No point of failure or control. The features are reduced because of the lack of server, messaging can be slower. Best option for critical chats.
 
 - [Tox](https://tox.chat/) - Tox is easy-to-use software that connects you with friends and family without anyone else listening in.
@@ -438,11 +438,11 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - Soundcloud
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
-#### Video/Audio:
+#### Video/Audio
 - [Jellyfin](https://jellyfin.org/) - Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
 - [Streamio](https://www.stremio.com/) - Stremio is a modern media center that's a one-stop solution for your video entertainment.
 
-#### Audio:
+#### Audio
 - [Funkwhale](https://funkwhale.audio/) - A social platform to enjoy and share music (Soundcloud alternative)
 - [Subsonic](https://www.subsonic.org/pages/index.jsp) - Your complete, personal music streamer.
 - [Ampache](https://ampache.org/) - A web based audio/video streaming application and file manager.
@@ -450,7 +450,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Nuclear](https://nuclear.js.org/) - Modern music player focused on streaming from free sources.
 - [Navidrome](https://navidrome.org/) - Lightweight, fast and self-contained personal music streamer.
 
-**Spotify Alternative clients:**
+**Spotify Alternative clients**
  > These clients, although will have less tracking, still DO NOT protect your privacy at all as you will still be streaming from Spotify servers from you own **premium (paid, identified)** account.
 
  \* Premium required.
