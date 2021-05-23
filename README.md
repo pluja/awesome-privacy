@@ -105,7 +105,7 @@
 ### Third-party
 - [Stingle Photos](https://stingle.org/) - Open source solution that provides strong security, privacy and encryption to backup your photos.
 - [Crypt.ee](https://crypt.ee/) - A private and encrypted place for all your photos, documents, notes and more.
-- [Ente](https://ente.io/) - eEncrypted backups for your photos, videos and memories.
+- [Ente](https://ente.io/) - Encrypted backups for your photos, videos and memories.
 
 ### Local
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
