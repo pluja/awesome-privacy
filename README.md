@@ -560,6 +560,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 <img width="16" src="misc/check.png"> </img> Instead use
 - [Supabase](https://supabase.io/) - The Open Source Firebase Alternative.
+- [Appwrite](https://appwrite.io/) - Secure Open-Source Backend Server for Web, Mobile & Flutter Developers.
 - [CondensationDB](https://condensationdb.com/) - Condensation is an open-source zero trust, distributed database enabling to build modern applications while ensuring data ownership and security.
 
 ## Utilities
