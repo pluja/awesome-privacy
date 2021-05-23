@@ -95,16 +95,17 @@
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 
-### Third-party
-- [Stingle Photos](https://stingle.org/) - Open source solution that provides strong security, privacy and encryption to backup your photos.
-- [Crypt.ee](https://crypt.ee/) - A private and encrypted place for all your photos, documents, notes and more.
-
 ### Self-hosted
 - [Photoprism](https://photoprism.app) - Feature rich server-based application for browsing, organizing and sharing your personal photo collection. The most similar to Google Photos.
 - [Photoview](https://photoview.github.io/) - Photo gallery for self-hosted personal servers with Facial Recognition.
 - [Photostructure](https://photostructure.com/) - Self-hosted photo library that makes browsing and sharing a lifetime of memories delightful.
 - [LibrePhotos](https://github.com/LibrePhotos/librephotos) - Active [OwnPhotos](https://github.com/hooram/ownphotos) fork. Self hosted alternative to Google Photos.
 - [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control. It has a [*Photos*](https://github.com/nextcloud/photos) plugin to help you organize and visualize your photos.
+
+### Third-party
+- [Stingle Photos](https://stingle.org/) - Open source solution that provides strong security, privacy and encryption to backup your photos.
+- [Crypt.ee](https://crypt.ee/) - A private and encrypted place for all your photos, documents, notes and more.
+- [Ente](https://ente.io/) - eEncrypted backups for your photos, videos and memories.
 
 ### Local
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
