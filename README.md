@@ -34,6 +34,7 @@
 - [Mail Services](#mail-services)
 - [Notes and Tasks](#notes-and-tasks)
 - [Video Conferencing](#video-conferencing)
+- [Remote Access and Control](#remote-access-and-control)
 - [Fitness and Health](#fitness-and-health)
 - [Media Streaming Platforms](#media-streaming-platforms)
   - [Video and Audio](#video-and-audio)
@@ -397,6 +398,16 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton is a web conferencing system designed for online learning.
 - [PeerCalls](https://peercalls.com/) - Group peer to peer video calls for everyone written in Go and TypeScript.
 
+## Remote Access and Control
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- TeamViewer
+- AnyDesk
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [RustDesk](https://rustdesk.com/) - Open-source remote desktop client software, written in Rust. Works out of the box, full control of your data, with no concerns about security.
+- [screego](https://screego.net/) - Screen sharing for developers.
+- [Remmina](https://remmina.org/) - Remote access screen and file sharing to your desktop (RDP).
+- [UltraVNC](https://www.uvnc.com/) - UltraVNC is a powerful, easy to use and free - remote pc access softwares - that can display the screen of another computer (via internet or network) on your own screen.
 
 ## Fitness and Health
 <img width="16" src="misc/forbidden.png"> </img> Your health is a **very** important piece of your **private data** and you should care **a lot** about it. Also, health related data is one of the most greeded. Please don't use apps from Google, Fitbit, Huawei, Xiaomi or any company that seeks the gathering of your personal data.
