@@ -281,9 +281,10 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 <img width="16" src="misc/check.png"> </img> **Alternatives:**
 - [Owncast](https://github.com/owncast/owncast) - Take control over your live stream video by running it yourself. Streaming + chat out of the box.
+- [livego](https://github.com/gwuhaolin/livego) - Live video streaming server in golang.
 
 ### Wikipedia
-<img width="16" src="misc/forbidden.png"> </img> Read more about the issue with Wikipedia on the [Wikiless manifesto](https://codeberg.org/orenom/wikiless#why-i-should-use-wikiless-instead-of-wikipedia)
+<img width="16" src="misc/forbidden.png"> </img> Read more about the issue with Wikipedia on the [Wikiless manifesto](https://codeberg.org/orenom/wikiless#why-i-should-use-wikiless-instead-of-wikipedia).
 
 <img width="16" src="misc/check.png"> </img> **Alternatives:**
 - [Wikiless](https://wikiless.org/) - A free open source alternative Wikipedia front-end focused on privacy [Source Code](https://codeberg.org/orenom/wikiless).
@@ -350,7 +351,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - Dashlane
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
-- [Bitwarden](https://bitwarden.com) - An open source cloud based password manager
+- [Bitwarden](https://bitwarden.com) - An open source cloud based password manager.
   - [vaultwarden](https://github.com/dani-garcia/vaultwarden/) - Unofficial Bitwarden compatible self-hosted server, formerly known as bitwarden_rs.
 - [KeepassXC](https://keepassxc.org/) - Securely store passwords using industry standard encryption, no sync just storage.
   - [KeepassDX](https://www.keepassdx.com/) for Android.
@@ -393,7 +394,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - Discord
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
-- [Jitsi Meet](https://meet.jit.si/) - More secure, more flexible, and completely free video conferencing. **No account needed, no installation needed**
+- [Jitsi Meet](https://meet.jit.si/) - More secure, more flexible, and completely free video conferencing. **No account needed, no installation needed**.
 - [Jami](https://jami.net/) - P2P audio and video conferences.
 - [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton is a web conferencing system designed for online learning.
 - [PeerCalls](https://peercalls.com/) - Group peer to peer video calls for everyone written in Go and TypeScript.
@@ -496,7 +497,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy.
-- [Plausible](https://plausible.io/) - Simple and privacy-friendly alternative to Google Analytics
+- [Plausible](https://plausible.io/) - Simple and privacy-friendly alternative to Google Analytics.
 - [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
 
 ## Cloaking
@@ -515,8 +516,8 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - Google Docs.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
-- [LibreOffice](https://www.libreoffice.org/) - Free and open source offline office
-- [OnlyOffice](https://www.onlyoffice.com/) - Free and open source online office for collaboration
+- [LibreOffice](https://www.libreoffice.org/) - Free and open source offline office.
+- [OnlyOffice](https://www.onlyoffice.com/) - Free and open source online office for collaboration.
 - [Cryptpad](https://cryptpad.fr/) - Collaboration suite, encrypted and open-source.
 
 ## Fonts
@@ -544,7 +545,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 ## Personal Finances
 ### FIAT
 - [ProExpense](https://github.com/arduia/ProExpense/) - A simple free finance note to safely record daily expenses.
-- [IHateMoney](https://ihatemoney.org/) - Manage your shared expenses, easily
+- [IHateMoney](https://ihatemoney.org/) - Manage your shared expenses, easily.
 - [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - A group/shared budget manager inspired by the great IHateMoney.
    - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and [IHateMoney](https://ihatemoney.org/) servers.
 
@@ -566,5 +567,5 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ## Uncategorized
 - [Skymap](https://skymaponline.net/) - Open online planetarium program.
-- [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban
+- [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban.
 - [Hetty](https://github.com/dstotijn/hetty) - Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
