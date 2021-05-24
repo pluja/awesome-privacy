@@ -384,7 +384,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
 - [Simplenote](https://simplenote.com/) - The simplest way to keep notes.
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
-- [LogSeq](https://logseq.com/) - A privacy-first alternative to Workflowy
+- [Logseq](https://logseq.com/) - A privacy-first alternative to Workflowy
 
 ## Video Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
