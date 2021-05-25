@@ -80,11 +80,11 @@
 - [SnowHaze](https://snowhaze.com/en/index.html) - iOS
 
 #### Desktop
-- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Open Source, independent browser. It needs some [hardening](https://privacytools.io/browsers/#addons) and [tweaking](https://privacytools.io/browsers/#about_config) to achieve great privacy.
 - [Ungoogled Chromium](https://ungoogled-software.github.io/)
 - [Tor Browser](https://www.torproject.org/)
 
-> Controversial option: [Brave](https://brave.com/) - Android/iOS. [Read more info on this related discussion.](https://libredd.it/r/privacytoolsIO/comments/gytwmd/brave_browser_privacytoolsio_and_the_negativity/)
+> Controversial option: [Brave](https://brave.com/) - Android/iOS. [Read more info on this related discussion](https://libredd.it/r/privacytoolsIO/comments/gytwmd/brave_browser_privacytoolsio_and_the_negativity/) and [this blog post](https://aspenuwu.me/blog/dont-use-brave/).
 
 ### Browser Sync
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
