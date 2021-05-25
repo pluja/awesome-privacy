@@ -203,6 +203,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 <img width="16" src="misc/check.png"> </img> **Alternative Google Translate frontends**
 - [Lingva](https://github.com/TheDavidDelta/lingva-translate) - Alternative front-end for Google Translate.
+- [Simplytranslate](https://git.sr.ht/~metalune/simplytranslate_web) - Alternative front-end for Google Translate and LibreTranslate. [demo site](https://translate.metalune.xyz/).
 
 
 ## Android Keyboard
