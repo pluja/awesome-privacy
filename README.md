@@ -160,6 +160,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Aegis](https://getaegis.app/) - A free, secure and open source app for Android to manage your 2-step verification tokens. Supports variety of imports from other apps (Google Authenticator, Authy etc.), vault encryption and exporting keys (plaintext or encrypted).
 - [andOTP](https://github.com/andOTP/andOTP) - Open source two-factor authentication for Android.
 - [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator.
+- [RavioOTP](https://github.com/raivo-otp/) - A native, lightweight and secure one-time-password (OTP) solution for **iOS** users.
 
 ## File Management and Sharing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -234,7 +235,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 - [Peertube](https://joinpeertube.org/en/) - A free, open and decentralized alternative to video platforms.
-    - [SimpleerTube](https://simpleertube.metalune.xyz/) - A simple frontend for PeerTube with SepiaSearch [Source](https://git.sr.ht/~metalune/simpleweb_peertube). 
+    - [SimpleerTube](https://simpleertube.metalune.xyz/) - A simple frontend for PeerTube with SepiaSearch [Source](https://git.sr.ht/~metalune/simpleweb_peertube).
 - [LBRY](https://lbry.tv/) - LBRY is a secure, open, and community-run digital marketplace. Enjoy the latest content from your favorite creators - as a user, not a product.
 - [Odysee](https://odysee.com/) - Odysee is a video platform backed by the creators of lbry and uses the lbry blockchain protocol.
 - [DTube](https://github.com/dtube/dtube) - A full-featured video sharing website, decentralized.
