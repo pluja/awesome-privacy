@@ -5,7 +5,7 @@
 		<img src="https://awesome.re/badge-flat2.svg" alt="Awesome">
 	</a>
 </p>
-<p align="center">List of free,open source and privacy respecting services and alternatives to privative services.</p>
+<p align="center">List of free, open source and privacy respecting services and alternatives to privative services.</p>
 <p align="center"><a href="https://github.com/pluja/awesome-privacy/blob/main/misc/ABOUT.md"> About </a> | <a href="https://github.com/pluja/awesome-privacy/blob/main/misc/Contributing.md"> Contributing </a> | <a href="https://github.com/pluja/awesome-privacy/blob/main/misc/QUOTES.md"> Quotes </a> </p>
 
 ## Contents
@@ -66,6 +66,7 @@
 - [Whoogle Search](https://github.com/benbusby/whoogle-search) - A self-hosted, ad-free, privacy-respecting Google metasearch engine.
 - [Qwant](https://www.qwant.com/) - A privacy oriented search engine made in France with no tracking.
 - [SearX](https://searx.me/) - Privacy-respecting metasearch engine.
+- [DuckDuckGo](https://duckduckgo.com) - A privacy respecting search engine.
 
 ## Web Browser
 
@@ -377,13 +378,14 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [K9](https://k9mail.app/) - Open Source Email App for Android.
 
 ## Notes and Tasks
-<img width="16" src="misc/forbidden.png"> </img> **Avoid** using Google Keep, Evernote, Squid, Notion, etc.
+<img width="16" src="misc/forbidden.png"> </img> **Avoid** using Google Keep, Evernote, Squid, Notion, Onenote, etc.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
 - [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
 - [Simplenote](https://simplenote.com/) - The simplest way to keep notes.
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
+- [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation capabilities.
 - [Logseq](https://logseq.com/) - A privacy-first alternative to Workflowy
 
 ## Video Conferencing
@@ -546,6 +548,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ## Personal Finances
 ### FIAT
+- [My Expenses](https://github.com/mtotschnig/MyExpenses) - Featureful GPL licenced Android Expense Tracking App.
 - [ProExpense](https://github.com/arduia/ProExpense/) - A simple free finance note to safely record daily expenses.
 - [IHateMoney](https://ihatemoney.org/) - Manage your shared expenses, easily.
 - [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - A group/shared budget manager inspired by the great IHateMoney.
