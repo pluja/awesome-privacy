@@ -378,13 +378,14 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [K9](https://k9mail.app/) - Open Source Email App for Android.
 
 ## Notes and Tasks
-<img width="16" src="misc/forbidden.png"> </img> **Avoid** using Google Keep, Evernote, Squid, Notion, etc.
+<img width="16" src="misc/forbidden.png"> </img> **Avoid** using Google Keep, Evernote, Squid, Notion, Onenote, etc.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
 - [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
 - [Simplenote](https://simplenote.com/) - The simplest way to keep notes.
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
+- [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation capabilities.
 
 ## Video Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
