@@ -52,6 +52,7 @@
 - [Personal Finances](#personal-finances)
 - [Databases](#databases)
 - [Utilities](#utilities)
+- [Developer Tools](#developer-tools)
 - [Uncategorized](#uncategorized)
 
 ## Search Engines
@@ -576,6 +577,9 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
+
+## Developer Tools
+- [Beekeeper Studio](https://www.beekeeper-studio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
 
 ## Uncategorized
 - [Skymap](https://skymaponline.net/) - Open online planetarium program.
