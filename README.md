@@ -646,6 +646,7 @@ With email aliases, you can finally create a different identity for each website
 
 **Alternatives to Instagram**
 - [Pixelfed](https://pixelfed.org/) - Decentralized, federated and Open Source alternative to Instagram with posts, videos, stories, tags, etc.
+- [Haven](https://havenweb.org/) - Self-hosted (or paid), Open Source private blogging platform.  Markdown editing, supports images, video, and private RSS.
 
 **Alternative Instagram clients**
 - [Barinsta](https://codeberg.org/avalos/barinsta) - Android instagram alternative client with enhanced privacy features (Your requests will be sent to instagram).
