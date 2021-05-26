@@ -391,6 +391,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Simplenote](https://simplenote.com/) - The simplest way to keep notes.
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation capabilities.
+- [Logseq](https://logseq.com/) - A privacy-first alternative to Workflowy.
 
 ## Video Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
