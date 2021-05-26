@@ -508,6 +508,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy.
 - [Plausible](https://plausible.io/) - Simple and privacy-friendly alternative to Google Analytics.
 - [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
+- [Aurora](https://useaurora.app/) - 100% Cookie-Free Open Website Analytics. Collect Anonymous Data. Make your Audience Happy Now!
 
 ## Cloaking
 ### Images
