@@ -547,6 +547,8 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Monero](https://www.getmonero.org/) - Monero is cash for a connected world. It's fast, private, untraceable and secure.
+- [ZCash](https://z.cash/) - The OG privacy coin.
+- [MobileCoin](https://www.mobilecoin.com/) - Faster than Monero or ZCash, with all the same privacy guarantees. 
 - Cash - Use person-to-person payments using physical notes and coins.
 
 **USE WITH CAUTION**
