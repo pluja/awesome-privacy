@@ -377,6 +377,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [ProtonMail](https://protonmail.com/) - Secure Email. Based in Switzerland.
 - [Tutanota](https://tutanota.com/) - Secure email for everybody. Open Source.
 - [RiseUp](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
+- [Posteo](https://posteo.de) - Ad-free and anonymous email service based in Germany.
 
 ### Clients
 - [FairEmail](https://github.com/M66B/FairEmail) - Fully featured, open source, privacy friendly email app for Android.
