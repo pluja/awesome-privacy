@@ -379,8 +379,13 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [RiseUp](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
 
 ### Clients
+
+#### Android / iOS
 - [FairEmail](https://github.com/M66B/FairEmail) - Fully featured, open source, privacy friendly email app for Android.
 - [K9](https://k9mail.app/) - Open Source Email App for Android.
+
+#### Desktop
+- [Thunderbird](https://www.thunderbird.net) - A free customizable open source email client.
 
 ## Notes and Tasks
 <img width="16" src="misc/forbidden.png"> </img> **Avoid** using Google Keep, Evernote, Squid, Notion, Onenote, etc.
