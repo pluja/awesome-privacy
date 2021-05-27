@@ -509,7 +509,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Plausible](https://plausible.io/) - Simple and privacy-friendly alternative to Google Analytics.
 - [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
 - [Aurora](https://useaurora.app/) - 100% Cookie-Free Open Website Analytics. Collect Anonymous Data. Make your Audience Happy Now!
-- [Nullitics](https://nullitics.com/) - Zero-effort analytics for 1€, also open-source.
+- [Nullitics](https://nullitics.com/) - Zero-effort analytics, also open-source.
 
 ## Cloaking
 ### Images
