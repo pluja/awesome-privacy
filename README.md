@@ -226,6 +226,9 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
 
 ## Social Networks and Platforms
+
+> Note: Alternative clients will share your IP with the service as they make direct requests.
+
 ### Instagram
 <img width="16" src="misc/forbidden.png"> </img> Don't use instagram (or at least the official client). Instagram is a very privacy-invasive app with biased results and feeds based on user profiles, it is also used as a manipulation tool and has a lot of censorship going against free speech. Lastly, it has an addictive and toxic ui-design.
 
@@ -248,11 +251,11 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Odysee](https://odysee.com/) - Odysee is a video platform backed by the creators of lbry and uses the lbry blockchain protocol.
 - [DTube](https://github.com/dtube/dtube) - A full-featured video sharing website, decentralized.
 
-<img width="16" src="misc/check.png"> </img> **Privacy respecting YouTube clients:**
+<img width="16" src="misc/check.png"> </img> **YouTube alternative clients:**
 - [Yotter](https://github.com/ytorg/yotter) - YouTube and Twitter with privacy. Never share any of your data to YouTube, yet be able to watch YouTube videos.
 - [Invidious](https://github.com/iv-org/invidious) - Alternative and privacy respecting YouTube frontend.
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend)
-- [NewPipe](https://newpipe.net/) - Alternative android YouTube app. No account needed, privacy respecting. **Shares IP with YouTube**
+- [NewPipe](https://newpipe.net/) - Alternative android YouTube app. No account needed, privacy respecting.
     - [NewPipe x Sponsorblock](https://github.com/polymorphicshade/NewPipe) - NewPipe fork that incorporates Sponsorblock.
 
 #### Worth mentioning
