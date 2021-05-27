@@ -579,7 +579,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 
 ## Developer Tools
-- [Beekeeper Studio](https://www.beekeeper-studio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+- [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
 
 ## Uncategorized
 - [Skymap](https://skymaponline.net/) - Open online planetarium program.
