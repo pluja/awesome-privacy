@@ -387,6 +387,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
+- [Bangle.io](https://bangle.io) - A free alternative to Notion that takes markdown notes saved right in your computer  
 - [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
 - [Simplenote](https://simplenote.com/) - The simplest way to keep notes.
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
