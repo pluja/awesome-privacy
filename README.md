@@ -267,6 +267,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Nitter](https://github.com/zedeus/nitter/wiki/Instances) - Nitter is a free and open source alternative Twitter front-end focused on privacy.
 - [Yotter](https://github.com/ytorg/yotter) - Twitter with privacy with a simple yet beautiful UI.
 - [Fritter](https://github.com/jonjomckay/fritter/) - A free, open-source Twitter/Nitter client for Android and iOS.
+- [Twidere](https://github.com/TwidereProject/Twidere-Android) - Material Design ready and feature rich Twitter/Mastodon/Fanfou app for Android. 
 
 ### Reddit
 <img width="16" src="misc/forbidden.png"> </img> Try to avoid using Reddit or at least avoid their official clients as they are plenty of trackers, ads and share unnecessary user data with their servers.
