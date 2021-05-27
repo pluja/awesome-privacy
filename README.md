@@ -13,7 +13,7 @@
 - [Web Browser](#web-browser)
     - [Browser Sync](#browser-sync)
 - [Photo Storage](#photo-storage)
-- [Photo Edition and Management](#photo-edition-and-management)
+- [Photo Editing and Management](#photo-editing-and-management)
 - [Cloud Storage](#cloud-storage)
 - [Encryption](#encryption)
 - [2FA](#2fa)
@@ -111,7 +111,7 @@
 ### Local
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
 
-## Photo Edition and Management
+## Photo Editing and Management
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Adobe Photoshop / Illustrator / Lightroom
 - VSCO
@@ -423,7 +423,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [screego](https://screego.net/) - Screen sharing for developers.
 - [Remmina](https://remmina.org/) - Remote access screen and file sharing to your desktop (RDP).
 - [UltraVNC](https://www.uvnc.com/) - UltraVNC is a powerful, easy to use and free - remote pc access softwares - that can display the screen of another computer (via internet or network) on your own screen.
-- [MeshCentral](https://meshcentral.com/) - The open source, multi-platform, self-hosted, feature packed web site for remote device management. 
+- [MeshCentral](https://meshcentral.com/) - The open source, multi-platform, self-hosted, feature packed web site for remote device management.
 
 ## Fitness and Health
 <img width="16" src="misc/forbidden.png"> </img> Your health is a **very** important piece of your **private data** and you should care **a lot** about it. Also, health related data is one of the most greeded. Please don't use apps from Google, Fitbit, Huawei, Xiaomi or any company that seeks the gathering of your personal data.
