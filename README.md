@@ -547,6 +547,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Monero](https://www.getmonero.org/) - Monero is cash for a connected world. It's fast, private, untraceable and secure.
+- [Pivx Shield](https://www.pivx.org/) - Proof-of-Stake coin, with SHIELD transactions, gives users private, anonymous, nearly instant payments. 
 - Cash - Use person-to-person payments using physical notes and coins.
 
 **USE WITH CAUTION**
