@@ -128,6 +128,7 @@
 - [Krita](https://github.com/KDE/krita) - Krita is a free and open source digital painting application
 - [Czkawka](https://github.com/qarmin/czkawka) - Multi functional app to find duplicates and similar images etc.
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
+- [Darktable](https://www.darktable.org/) - Open source photography workflow application and raw developer.
 
 #### Android
 - [PocketPaint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
