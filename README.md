@@ -418,6 +418,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [screego](https://screego.net/) - Screen sharing for developers.
 - [Remmina](https://remmina.org/) - Remote access screen and file sharing to your desktop (RDP).
 - [UltraVNC](https://www.uvnc.com/) - UltraVNC is a powerful, easy to use and free - remote pc access softwares - that can display the screen of another computer (via internet or network) on your own screen.
+- [MeshCentral](https://meshcentral.com/) - The open source, multi-platform, self-hosted, feature packed web site for remote device management. 
 
 ## Fitness and Health
 <img width="16" src="misc/forbidden.png"> </img> Your health is a **very** important piece of your **private data** and you should care **a lot** about it. Also, health related data is one of the most greeded. Please don't use apps from Google, Fitbit, Huawei, Xiaomi or any company that seeks the gathering of your personal data.
