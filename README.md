@@ -566,6 +566,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 <img width="16" src="misc/check.png"> </img> Instead use Rotki, an awesome, feature-rich and open source app:
 - [Rotki](https://github.com/rotki/rotki) - An awesome portfolio tracking, analytics, accounting and tax reporting application that protects your privacy.
+- [pivx2bitcoin](https://pivx2bitcoin.com) - Awesome private crypto swap. No accounts, no signups, no JavaScript, no tracking, no analytics. Tor and VPN friendly, too.
 
 ## Databases
 <img width="16" src="misc/forbidden.png"> </img> Avoid using privative databases which you don't control such as Google Firebase.
