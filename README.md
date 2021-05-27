@@ -27,6 +27,7 @@
 - [Maps and Navigation](#maps-and-navigation)
 - [Translation](#translation)
 - [Android Keyboard](#android-keyboard)
+- [Android App Store](#android-app-store)
 - [Social Networks and Platforms](#social-networks-and-platforms)
   - [Instagram](#instagram)
   - [YouTube](#youtube)
@@ -224,6 +225,19 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [OpenBoard](https://github.com/dslul/openboard) - 100% FOSS keyboard, based on AOSP.
 - [FlorisBoard](https://github.com/florisboard/florisboard) - An open-source keyboard for Android. Currently in alpha/early-beta stage.
 - [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
+
+## Android App Store
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- Google Play Store
+- Amazon Appstore
+
+
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [F-droid](https://f-droid.org/) - F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.
+- [Aurora Store](https://auroraoss.com/download/#aurora-store) - Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind
+- [Aurora Droid](https://auroraoss.com/download/#aurora-droid) - Aurora Droid is a FOSS client for F-Droid
+- [FossDroid](https://fossdroid.com/) - Fossdroid's aim is to promote free and open source apps on the Android platform: the newest, the trendiest and the most popular ones.
 
 ## Social Networks and Platforms
 
