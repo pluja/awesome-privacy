@@ -173,7 +173,6 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Send](https://gitlab.com/timvisee/send) - Simple, private file sharing. (Mozilla Send Fork)
 - [Lufi](https://framagit.org/fiat-tux/hat-softwares/lufi) - Let's Upload that FIle — File sharing software.
 - [Croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another.
-- [file.coffee](https://file.coffee) - Easy, secure, drag-and-drop file sharing
 - [Dat-cp](https://github.com/tom-james-watson/dat-cp) - Copy files between hosts on a network using the peer-to-peer Dat network.
 - [QRcp](https://github.com/claudiodangelis/qrcp) - Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
 - [Snapdrop](https://snapdrop.net/) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
