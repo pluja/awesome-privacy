@@ -477,8 +477,6 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [psst](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI.
 - [ncspot](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
 
-**Other music streaming projects**
-- [Freezer](https://git.rip/freezer)
 
 #### Podcasts
 - [Antennapod](https://antennapod.org/) - The Open Podcast Player.
