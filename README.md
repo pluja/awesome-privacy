@@ -254,6 +254,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Yotter](https://github.com/ytorg/yotter) - YouTube and Twitter with privacy. Never share any of your data to YouTube, yet be able to watch YouTube videos.
 - [Invidious](https://github.com/iv-org/invidious) - Alternative and privacy respecting YouTube frontend.
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend)
+- [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - Alternative android YouTube app on F-Droid. No account needed, privacy respecting. No ads.
 - [NewPipe](https://newpipe.net/) - Alternative android YouTube app. No account needed, privacy respecting.
     - [NewPipe x Sponsorblock](https://github.com/polymorphicshade/NewPipe) - NewPipe fork that incorporates Sponsorblock.
 
