@@ -574,6 +574,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - Google Fonts
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Velvetyne](https://www.velvetyne.fr/)
 - [OpenFoundry](https://open-foundry.com/)
 
 ## Payments
