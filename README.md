@@ -480,6 +480,9 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 **Other music streaming projects**
 - [Freezer](https://git.rip/freezer)
 
+**Deezer Alternative clients**
+- [dzr](https://github.com/yne/dzr) - Command line Deezer player for Linux, BSD, Android+Termux
+
 #### Podcasts
 - [Antennapod](https://antennapod.org/) - The Open Podcast Player.
 
