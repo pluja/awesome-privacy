@@ -231,13 +231,13 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - Google Play Store
 - Amazon Appstore
 
-
-
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [F-droid](https://f-droid.org/) - F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.
-- [Aurora Store](https://auroraoss.com/download/#aurora-store) - Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind
-- [Aurora Droid](https://auroraoss.com/download/#aurora-droid) - Aurora Droid is a FOSS client for F-Droid
-- [FossDroid](https://fossdroid.com/) - Fossdroid's aim is to promote free and open source apps on the Android platform: the newest, the trendiest and the most popular ones.
+- [FossDroid](https://fossdroid.com/) - Fossdroid's aim is to promote free and open source apps on the Android platform: newest, trendiest and the most popular ones.
+- [Aurora Droid](https://auroraoss.com/download/#aurora-droid) - Aurora Droid is a FOSS client for F-Droid.
+
+### Alternative Google Play Store clients
+- [Aurora Store](https://auroraoss.com/download/#aurora-store) - Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.
 
 ## Social Networks and Platforms
 
