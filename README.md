@@ -75,7 +75,7 @@
 - [Qwant](https://www.qwant.com/) - A privacy oriented search engine made in France with no tracking.
 - [SearX](https://searx.me/) - Privacy-respecting metasearch engine.
 - [DuckDuckGo](https://duckduckgo.com) - A privacy respecting search engine.
-- [Swisscows](https://swisscows.com) - 100 % anonymous, own servers in the swiss alps (no cloud provider), everything is located outside of the EU and US.
+- [Swisscows](https://swisscows.com) - 100 % anonymous, child-friendly, own servers in the swiss alps (no cloud provider), everything is located outside of the EU and US.
 
 ## Web Browser
 
