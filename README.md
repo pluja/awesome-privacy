@@ -92,7 +92,7 @@
 - [Ungoogled Chromium](https://ungoogled-software.github.io/)
 - [Tor Browser](https://www.torproject.org/)
 
-> Controversial but good for privacy and protection against browser fingerprinting: [Brave](https://brave.com/) - Android/iOS. [Read more info on this related discussion](https://libredd.it/r/privacytoolsIO/comments/gytwmd/brave_browser_privacytoolsio_and_the_negativity/) and [the Wikipedia page](https://en.wikipedia.org/wiki/Brave_(web_browser)#Controversies).
+> Controversial but good for privacy and protection against browser fingerprinting: [Brave](https://brave.com/) - Android/iOS/Desktop. [Read more info on this related discussion](https://libredd.it/r/privacytoolsIO/comments/gytwmd/brave_browser_privacytoolsio_and_the_negativity/) and [the Wikipedia page](https://en.wikipedia.org/wiki/Brave_(web_browser)#Controversies).
 
 ### Browser Sync
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
