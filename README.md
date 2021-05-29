@@ -27,6 +27,7 @@
 - [Maps and Navigation](#maps-and-navigation)
 - [Translation](#translation)
 - [Android Keyboard](#android-keyboard)
+- [Android App Store](#android-app-store)
 - [Social Networks and Platforms](#social-networks-and-platforms)
   - [Instagram](#instagram)
   - [YouTube](#youtube)
@@ -58,6 +59,7 @@
 - [Personal Finances](#personal-finances)
 - [Databases](#databases)
 - [Utilities](#utilities)
+- [Developer Tools](#developer-tools)
 - [Uncategorized](#uncategorized)
 
 ## Search Engines
@@ -199,6 +201,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 <img width="16" src="misc/check.png"> </img> **Instead use**
 - [Open Street Map (OSM)](https://www.openstreetmap.org/) - OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.
   - [OSMAnd](https://osmand.net/) - Android/iOS Navigation app using OSM. It is a feature-rich app with all you expect.
+- [Qwant Maps](https://www.qwant.com/maps/) - An OpenStreetMap-based private Google Maps alternative.
 
 ## Translation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -226,6 +229,19 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [FlorisBoard](https://github.com/florisboard/florisboard) - An open-source keyboard for Android. Currently in alpha/early-beta stage.
 - [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
 
+## Android App Store
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- Google Play Store
+- Amazon Appstore
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [F-droid](https://f-droid.org/) - F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.
+- [FossDroid](https://fossdroid.com/) - Fossdroid's aim is to promote free and open source apps on the Android platform: newest, trendiest and the most popular ones.
+- [Aurora Droid](https://auroraoss.com/download/#aurora-droid) - Aurora Droid is a FOSS client for F-Droid.
+
+### Alternative Google Play Store clients
+- [Aurora Store](https://auroraoss.com/download/#aurora-store) - Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.
+
 ## Social Networks and Platforms
 
 > Note: Alternative clients will share your IP with the service as they make direct requests.
@@ -248,16 +264,16 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 <img width="16" src="misc/check.png"> </img> **Instead use**
 - [Peertube](https://joinpeertube.org/en/) - A free, open and decentralized alternative to video platforms.
     - [SimpleerTube](https://simpleertube.metalune.xyz/) - A simple frontend for PeerTube with SepiaSearch [Source](https://git.sr.ht/~metalune/simpleweb_peertube).
-- [LBRY](https://lbry.tv/) - LBRY is a secure, open, and community-run digital marketplace. Enjoy the latest content from your favorite creators - as a user, not a product.
 - [Odysee](https://odysee.com/) - Odysee is a video platform backed by the creators of lbry and uses the lbry blockchain protocol.
 - [DTube](https://github.com/dtube/dtube) - A full-featured video sharing website, decentralized.
 
 <img width="16" src="misc/check.png"> </img> **YouTube alternative clients:**
 - [Yotter](https://github.com/ytorg/yotter) - YouTube and Twitter with privacy. Never share any of your data to YouTube, yet be able to watch YouTube videos.
 - [Invidious](https://github.com/iv-org/invidious) - Alternative and privacy respecting YouTube frontend.
-- [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend)
-- [NewPipe](https://newpipe.net/) - Alternative android YouTube app. No account needed, privacy respecting.
+- [NewPipe](https://newpipe.net/) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
     - [NewPipe x Sponsorblock](https://github.com/polymorphicshade/NewPipe) - NewPipe fork that incorporates Sponsorblock.
+- [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
+- [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend).
 
 #### Worth mentioning
 - [Piped](https://github.com/TeamPiped) - Work in progress.
@@ -479,7 +495,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [ncspot](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
 
 **Other music streaming projects**
-- [Freezer](https://git.rip/freezer)
+- [Freezer](https://freezer.life/) - [Source Code](https://git.freezer.life/).
 
 #### Podcasts
 - [Antennapod](https://antennapod.org/) - The Open Podcast Player.
@@ -593,6 +609,9 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
+
+## Developer Tools
+- [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
 
 ## Uncategorized
 - [Skymap](https://skymaponline.net/) - Open online planetarium program.
