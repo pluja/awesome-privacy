@@ -314,7 +314,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 **Check out [this site](https://www.securemessagingapps.com/) for comparisons*.
 
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- WhatAapp
+- WhatsApp
 - Instagram DM
 - Facebook Messenger
 - Skype
@@ -558,7 +558,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [ProExpense](https://github.com/arduia/ProExpense/) - A simple free finance note to safely record daily expenses.
 - [IHateMoney](https://ihatemoney.org/) - Manage your shared expenses, easily.
 - [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - A group/shared budget manager inspired by the great IHateMoney.
-   - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud, Cospend and [IHateMoney](https://ihatemoney.org/) servers.
+   - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and [IHateMoney](https://ihatemoney.org/) servers.
 
 ### CRYPTO
 <img width="16" src="misc/forbidden.png"> </img> Avoid using any exchange portfolio tracking or any app like Blockfolio as they **do not** respect your privacy in any way.
