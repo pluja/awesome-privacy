@@ -300,7 +300,6 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Lemmy](https://join.lemmy.ml/) - A federated and open alternative to reddit in rust.
 - [Aether](https://getaether.net/) - Peer-to-peer ephemeral public communities.
 - [SaidIt](https://saidit.net/) - Open source Reddit clone.
-- [Ruqqus](https://github.com/ruqqus/ruqqus) - Open source Reddit alternative without censorship. [See relevant issue: #78](https://github.com/pluja/awesome-privacy/issues/78).
 
 <img width="16" src="misc/check.png"> </img> **Privacy respecting Reddit clients:**
 - [Libreddit](https://libredd.it) - Private Reddit front-end written in Rust
