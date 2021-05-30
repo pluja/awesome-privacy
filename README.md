@@ -92,7 +92,7 @@
 - [Ungoogled Chromium](https://ungoogled-software.github.io/)
 - [Tor Browser](https://www.torproject.org/)
 
-> Controversial option: [Brave](https://brave.com/) - Android/iOS. [Read more info on this related discussion](https://libredd.it/r/privacytoolsIO/comments/gytwmd/brave_browser_privacytoolsio_and_the_negativity/) and [this blog post](https://aspenuwu.me/blog/dont-use-brave/).
+> Controversial option: [Brave](https://brave.com/) - Android/iOS. [Read more info on this related discussion](https://libredd.it/r/privacytoolsIO/comments/gytwmd/brave_browser_privacytoolsio_and_the_negativity/) and [the Wikipedia page](https://en.wikipedia.org/wiki/Brave_(web_browser)#Controversies).
 
 ### Browser Sync
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
