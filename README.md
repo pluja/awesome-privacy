@@ -132,7 +132,7 @@
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
 
 #### Android
-- [PocketPaint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
+- [Pocket Paint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
 - [Scrambled Exif](https://gitlab.com/juanitobananas/scrambled-exif) - Remove Exif data from pictures before sharing them.
 - [ImagePipe](https://codeberg.org/Starfish/Imagepipe) - Reduces image size and removes exif-tags when sharing images on android devices.
 
