@@ -428,6 +428,7 @@ With email aliases , you can finally create a different identity for each websit
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation capabilities.
 - [Logseq](https://logseq.com/) - A privacy-first alternative to WorkFlowy.
+- [Vikunja](https://vikunja.cloud) - The open-source to-do app to organize your life.
 
 ## Video Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
