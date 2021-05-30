@@ -156,7 +156,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 - [Veracrypt](https://www.veracrypt.fr/en/Home.html) - VeraCrypt is a free open source disk encryption software for Windows, macOS and Linux.
 - [Hat.sh](https://hat.sh/) - A Free, Fast, Secure and Serverless File Encryption.
-- [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud servic
+- [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
 - [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
 - [Picocrypt](https://github.com/HACKERALERT/Picocrypt/) - A very small (hence "Pico"), very simple, yet very secure file encryption tool.
 
@@ -246,7 +246,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 > Note: Alternative clients will share your IP with the service as they make direct requests.
 
 ### Instagram
-<img width="16" src="misc/forbidden.png"> </img> Don't use instagram (or at least the official client). Instagram is a very privacy-invasive app with biased results and feeds based on user profiles, it is also used as a manipulation tool and has a lot of censorship going against free speech. Lastly, it has an addictive and toxic ui-design.
+<img width="16" src="misc/forbidden.png"> </img> Don't use Instagram (or at least the official client). Instagram is a very privacy-invasive app with biased results and feeds based on user profiles, it is also used as a manipulation tool and has a lot of censorship going against free speech. Lastly, it has an addictive and toxic UI design.
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 
@@ -258,7 +258,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Bibliogram](https://bibliogram.art/) - Watch Instagram's public profile in a friendlier page that loads faster, gives downloadable images, eliminates ads and doesn't urge you to sign up.
 
 ### YouTube
-<img width="16" src="misc/forbidden.png"> </img> Don't use YouTube (or at least the official client). YouTube is very privacy invasive, it generates a very accurate profile based on your interests. Also it is a [radicalization tool](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization) which shows [biased content to users](https://arxiv.org/pdf/1908.08313.pdf) in order to get more engadgement and to get them to watch more and more content creating an [adiction](https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883). It never shows you [alternative opinions](https://arxiv.org/pdf/1908.08313.pdf) to your ideology/bias. YouTube censors a lot. YouTube collects a LOT of your data: interesnts, free time, ideology, likes, dislikes, music taste, etc.
+<img width="16" src="misc/forbidden.png"> </img> Don't use YouTube (or at least the official client). YouTube is very privacy invasive, it generates a very accurate profile based on your interests. Also it is a [radicalization tool](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization) which shows [biased content to users](https://arxiv.org/pdf/1908.08313.pdf) in order to get more engagement and to get them to watch more and more content creating an [addiction](https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883). It never shows you [alternative opinions](https://arxiv.org/pdf/1908.08313.pdf) to your ideology/bias. YouTube censors a lot. YouTube collects a LOT of your data: interests, free time, ideology, likes, dislikes, music taste, etc.
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 - [Peertube](https://joinpeertube.org/en/) - A free, open and decentralized alternative to video platforms.
@@ -278,7 +278,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Piped](https://github.com/TeamPiped) - Work in progress.
 
 ### Twitter
-<img width="16" src="misc/forbidden.png"> </img> Avoid using Twitter official app / website. It tracks users and creates user profiles based on what they follow, retweet and like. Twitter harms and vulnerates users privacy with their policies.
+<img width="16" src="misc/forbidden.png"> </img> Avoid using Twitter official app / website. It tracks users and creates user profiles based on what they follow, retweet and like. Twitter harms and violates user privacy with their policies.
 
 <img width="16" src="misc/check.png"> </img> **Alternatives to Twitter:**
 
@@ -297,7 +297,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 <img width="16" src="misc/forbidden.png"> </img> Try to avoid using Reddit or at least avoid their official clients as they are plenty of trackers, ads and share unnecessary user data with their servers.
 
 <img width="16" src="misc/check.png"> </img> **Reddit alternatives:**
-- [Lemmy](https://join.lemmy.ml/) - A federated and open alternative to reddit in rust.
+- [Lemmy](https://join.lemmy.ml/) - A federated and open alternative to Reddit in Rust.
 - [Aether](https://getaether.net/) - Peer-to-peer ephemeral public communities.
 - [SaidIt](https://saidit.net/) - Open source Reddit clone.
 
@@ -338,7 +338,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 **Check out [this site](https://www.securemessagingapps.com/) for comparisons*.
 
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Whatsapp
+- WhatsApp
 - Instagram DM
 - Facebook Messenger
 - Skype
@@ -347,7 +347,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 ### Decentralized
-No single point of control or failure. A decentralized network operated by different servers from different volunteers arount the globe. You choose where your data stays or you can self-host your own server. Somewhat more complex protocols (because of federation between servers) and some extra metadata is added to the messages (without compromising privacy).
+No single point of control or failure. A decentralized network operated by different servers from different volunteers around the globe. You choose where your data stays or you can self-host your own server. Somewhat more complex protocols (because of federation between servers) and some extra metadata is added to the messages (without compromising privacy).
 
 - [Matrix (Protocol)](https://matrix.org/) - An open network for secure, decentralized communication.
    - [Element](https://element.io/) - All-in-one secure chat app for teams, friends and organisations. Keeps conversations in your control, safe from data-mining and ads. End-to-end encryption.
@@ -378,7 +378,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 
 ## Password Managers
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Lastpass
+- LastPass
 - Dashlane
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
@@ -419,7 +419,7 @@ With email aliases , you can finally create a different identity for each websit
 - [Anonaddy](https://github.com/anonaddy/anonaddy)
 
 ## Notes and Tasks
-<img width="16" src="misc/forbidden.png"> </img> **Avoid** using Google Keep, Evernote, Squid, Notion, Onenote, etc.
+<img width="16" src="misc/forbidden.png"> </img> **Avoid** using Google Keep, Evernote, Squid, Notion, OneNote, etc.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
@@ -427,14 +427,14 @@ With email aliases , you can finally create a different identity for each websit
 - [Simplenote](https://simplenote.com/) - The simplest way to keep notes.
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation capabilities.
-- [Logseq](https://logseq.com/) - A privacy-first alternative to Workflowy.
+- [Logseq](https://logseq.com/) - A privacy-first alternative to WorkFlowy.
 
 ## Video Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - ZOOM
 - Skype
 - Google Meet
-- Whatsapp
+- WhatsApp
 - Instagram
 - Discord
 
@@ -457,7 +457,7 @@ With email aliases , you can finally create a different identity for each websit
 - [MeshCentral](https://meshcentral.com/) - The open source, multi-platform, self-hosted, feature packed web site for remote device management.
 
 ## Fitness and Health
-<img width="16" src="misc/forbidden.png"> </img> Your health is a **very** important piece of your **private data** and you should care **a lot** about it. Also, health related data is one of the most greeded. Please don't use apps from Google, Fitbit, Huawei, Xiaomi or any company that seeks the gathering of your personal data.
+<img width="16" src="misc/forbidden.png"> </img> Your health is a **very** important piece of your **private data** and you should care **a lot** about it. Also, health related data is among the most coveted. Please don't use apps from Google, Fitbit, Huawei, Xiaomi or any company that seeks the gathering of your personal data.
 
 If you need an app for **menstrual cycle tracking** please don't use any apps like Clue, Period Tracker, etc. Those cute pink apps are greedy for your menstrual cycle and intimate life data and will sell it for sure, protect your private life. Check the list below and you will find nice alternatives.
 
@@ -476,15 +476,15 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - Disney+
 - Plex
 - Spotify
-- Soundcloud
+- SoundCloud
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 #### Video and Audio
 - [Jellyfin](https://jellyfin.org/) - Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
-- [Streamio](https://www.stremio.com/) - Stremio is a modern media center that's a one-stop solution for your video entertainment.
+- [Stremio](https://www.stremio.com/) - Stremio is a modern media center that's a one-stop solution for your video entertainment.
 
 #### Audio
-- [Funkwhale](https://funkwhale.audio/) - A social platform to enjoy and share music (Soundcloud alternative).
+- [Funkwhale](https://funkwhale.audio/) - A social platform to enjoy and share music (SoundCloud alternative).
 - [Subsonic](https://www.subsonic.org/pages/index.jsp) - Your complete, personal music streamer.
 - [Ampache](https://ampache.org/) - A web based audio/video streaming application and file manager.
 - [Koel](https://koel.dev/) - a personal music streaming server that works.
@@ -536,10 +536,10 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 <img width="16" src="misc/forbidden.png"> </img> Don't use MS Windows.
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
-- [GNU/Linux](https://www.linux.com/what-is-linux/) - GNU/Linux is a family of mostly free and open source Operating Systems mostly developed by the community. If you don't know where to start, [Linux-Mint(Cinnamon)](https://linuxmint.com/edition.php?id=281) is a beginner friendly Distribution. If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). If you want to install Linux but keep your current operating System, you can set up [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
+- [GNU/Linux](https://www.linux.com/what-is-linux/) - GNU/Linux is a family of mostly free and open source Operating Systems mostly developed by the community. If you don't know where to start, [Linux Mint (Cinnamon)](https://linuxmint.com/edition.php?id=281) is a beginner friendly distribution. If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). If you want to install Linux but keep your current operating System, you can set up [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
 
 ## Analytics
-<img width="16" src="misc/forbidden.png"> </img> Avoid any analytics service that comes from Google, Facebook, Microsoft or any privative service. These kind of analytics hurt the users privacy.
+<img width="16" src="misc/forbidden.png"> </img> Avoid any analytics service that comes from Google, Facebook, Microsoft or any private service. These kind of analytics hurt user privacy.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy.
@@ -582,7 +582,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - Paypal
 - WeChat
 - _insertBigTechHere_Pay
-- Bank payments (wire, sepa, etc)
+- Bank payments (wire, SEPA, etc)
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Monero](https://www.getmonero.org/) - Monero is cash for a connected world. It's fast, private, untraceable and secure.
@@ -609,8 +609,8 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 <img width="16" src="misc/forbidden.png"> </img> Avoid using privative databases which you don't control such as Google Firebase.
 
 <img width="16" src="misc/check.png"> </img> Instead use
-- [Supabase](https://supabase.io/) - The Open Source Firebase Alternative.
-- [Appwrite](https://appwrite.io/) - Secure Open-Source Backend Server for Web, Mobile & Flutter Developers.
+- [Supabase](https://supabase.io/) - Open source Firebase alternative.
+- [Appwrite](https://appwrite.io/) - Secure open-source backend server for web, mobile & Flutter developers.
 - [CondensationDB](https://condensationdb.com/) - Condensation is an open-source zero trust, distributed database enabling to build modern applications while ensuring data ownership and security.
 
 ## Utilities
