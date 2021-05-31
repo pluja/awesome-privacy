@@ -243,14 +243,16 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Aurora Store](https://auroraoss.com/download/#aurora-store) - Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.
 
 ## Android Launcher
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+Third party launchers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
 
-
-- [Lawnchair](https://lawnchair.app/) - No clever tagline needed
-- [OpenLauncher](https://github.com/OpenLauncherTeam/openlauncher) - Customizable and Open Source Launcher for Android
-- [KISS](https://kisslauncher.com/) - Lightning fast, open-source, < 200kb Android launcher
-- [Olauncher](https://github.com/tanujnotes/Olauncher) - Minimal AF (ad-free) launcher app for Android. Available at Play Store and F-Droid.
-- [Simple App Launcher](https://github.com/SimpleMobileTools/Simple-App-Launcher) - A simple holder for favourite apps for quick & easy app launcher icon management
-- [Rootless Pixel Launcher](https://github.com/amirzaidi/Launcher3) - The Launcher3 fork known as "Rootless Pixel Launcher"
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Lawnchair](https://lawnchair.app/) - No clever tagline needed.
+- [OpenLauncher](https://github.com/OpenLauncherTeam/openlauncher) - Customizable and Open Source Launcher for Android.
+- [KISS](https://kisslauncher.com/) - Lightning fast, open-source, < 200kb Android launcher.
+- [Olauncher](https://github.com/tanujnotes/Olauncher) - Minimal AF (ad-free) launcher app for Android.
+- [Simple App Launcher](https://github.com/SimpleMobileTools/Simple-App-Launcher) - A simple holder for favourite apps for quick & easy app launcher icon management.
+- [Rootless Pixel Launcher](https://github.com/amirzaidi/Launcher3) - The Launcher3 fork known as "Rootless Pixel Launcher".
 
 
 ## Social Networks and Platforms
