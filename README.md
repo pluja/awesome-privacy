@@ -244,6 +244,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 ## Android Launcher
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
 Third party launchers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
