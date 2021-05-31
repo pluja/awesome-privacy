@@ -196,6 +196,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - Waze
 - Sygic
 - HERE WeGo
+- Petal Maps
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 - [Open Street Map (OSM)](https://www.openstreetmap.org/) - OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.
