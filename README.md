@@ -598,6 +598,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [IHateMoney](https://ihatemoney.org/) - Manage your shared expenses, easily.
 - [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - A group/shared budget manager inspired by the great IHateMoney.
    - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and [IHateMoney](https://ihatemoney.org/) servers.
+- [GnuCash](https://gnucash.org/) - GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X and Microsoft Windows.
 
 ### CRYPTO
 <img width="16" src="misc/forbidden.png"> </img> Avoid using any exchange portfolio tracking or any app like Blockfolio as they **do not** respect your privacy in any way.
