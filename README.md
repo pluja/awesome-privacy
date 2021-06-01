@@ -118,6 +118,7 @@
 
 ### Local
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
+- [Monument](https://getmonument.com/) - Smart photo storage and organization.
 
 ## Photo Editing and Management
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
