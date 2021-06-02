@@ -28,6 +28,7 @@
 - [Translation](#translation)
 - [Android Keyboard](#android-keyboard)
 - [Android App Store](#android-app-store)
+- [Android Launcher](#android-launcher)
 - [Social Networks and Platforms](#social-networks-and-platforms)
   - [Instagram](#instagram)
   - [YouTube](#youtube)
@@ -197,11 +198,13 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - Waze
 - Sygic
 - HERE WeGo
+- Petal Maps
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 - [Open Street Map (OSM)](https://www.openstreetmap.org/) - OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.
   - [OSMAnd](https://osmand.net/) - Android/iOS Navigation app using OSM. It is a feature-rich app with all you expect.
 - [Qwant Maps](https://www.qwant.com/maps/) - An OpenStreetMap-based private Google Maps alternative.
+- [Organic Maps](https://organicmaps.app/) - Great offline maps for hikers and cyclists.
 
 ## Translation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -241,6 +244,20 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 ### Alternative Google Play Store clients
 - [Aurora Store](https://auroraoss.com/download/#aurora-store) - Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.
+
+## Android Launcher
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+Third party launchers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Lawnchair](https://lawnchair.app/) - No clever tagline needed.
+- [OpenLauncher](https://github.com/OpenLauncherTeam/openlauncher) - Customizable and Open Source Launcher for Android.
+- [KISS](https://kisslauncher.com/) - Lightning fast, open-source, < 200kb Android launcher.
+- [Olauncher](https://github.com/tanujnotes/Olauncher) - Minimal AF (ad-free) launcher app for Android.
+- [Simple App Launcher](https://github.com/SimpleMobileTools/Simple-App-Launcher) - A simple holder for favourite apps for quick & easy app launcher icon management.
+- [Rootless Pixel Launcher](https://github.com/amirzaidi/Launcher3) - The Launcher3 fork known as "Rootless Pixel Launcher".
+
 
 ## Social Networks and Platforms
 
@@ -550,6 +567,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
 - [Aurora](https://useaurora.app/) - 100% Cookie-Free Open Website Analytics. Collect Anonymous Data. Make your Audience Happy Now!
 - [Nullitics](https://nullitics.com/) - Zero-effort open-source cheap analytics.
+- [Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
 
 ## Cloaking
 ### Images
