@@ -80,9 +80,9 @@
 
 #### Desktop
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+  - [LibreWolf](https://librewolf-community.gitlab.io/) - Privacy-focused Firefox fork.
 - [Ungoogled Chromium](https://ungoogled-software.github.io/)
 - [Tor Browser](https://www.torproject.org/)
-- [LibreWolf](https://librewolf-community.gitlab.io/)
 
 > Controversial yet a good option: [Brave](https://brave.com/) - Android/iOS
 
