@@ -131,6 +131,7 @@
 - [Krita](https://github.com/KDE/krita) - Krita is a free and open source digital painting application
 - [Czkawka](https://github.com/qarmin/czkawka) - Multi functional app to find duplicates and similar images etc.
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
+- [Inkscape](https://inkscape.org/) - Inkscape is a free and open-source vector graphics editor used to create vector images.
 
 #### Android
 - [Pocket Paint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
@@ -445,6 +446,8 @@ With email aliases , you can finally create a different identity for each websit
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation capabilities.
 - [Logseq](https://logseq.com/) - A privacy-first alternative to WorkFlowy.
+- [Nextcloud Notes](https://github.com/nextcloud/notes/) - The Notes app is a distraction free notes taking app for Nextcloud.
+  - [Nextcloud Notes for Android](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
 
 ## Video Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
