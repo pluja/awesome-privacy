@@ -430,7 +430,7 @@ With email aliases , you can finally create a different identity for each websit
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation capabilities.
 - [Logseq](https://logseq.com/) - A privacy-first alternative to WorkFlowy.
 - [Nextcloud Notes](https://github.com/nextcloud/notes/) - The Notes app is a distraction free notes taking app for Nextcloud.
-- [Nextcloud Notes for Android](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
+  - [Nextcloud Notes for Android](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
 
 ## Video Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
