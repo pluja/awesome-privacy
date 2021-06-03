@@ -589,6 +589,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [LibreOffice](https://www.libreoffice.org/) - Free and open source offline office.
 - [OnlyOffice](https://www.onlyoffice.com/) - Free and open source online office for collaboration.
 - [Cryptpad](https://cryptpad.fr/) - Collaboration suite, encrypted and open-source.
+- [Etherpad](https://etherpad.org/) - Highly customizable open source online editor providing collaborative editing in really real-time.
 
 ## Fonts
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
