@@ -148,7 +148,7 @@
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control.
 - [Seafile](https://www.seafile.com/en/home/) - High performance file syncing and sharing. It includes a Wiki, WYSIWYG editing and other knowledge management features.
-- [Mega](https://mega.io) - Mega offers an good Encryption, and is partly open source
+- [Mega](https://mega.nz) - Mega offers an good Encryption, and is partly open source
 
 **Other useful tools**
 - [Cryptomator](https://cryptomator.org) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
