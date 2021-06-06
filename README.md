@@ -53,6 +53,7 @@
   - [Smart TV](#smart-tv)
   - [PC](#PC)
 - [Analytics](#analytics)
+- [Captchas](#captchas)
 - [Cloaking](#cloaking)
 - [Office](#office)
 - [Fonts](#fonts)
@@ -573,6 +574,17 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Aurora](https://useaurora.app/) - 100% Cookie-Free Open Website Analytics. Collect Anonymous Data. Make your Audience Happy Now!
 - [Nullitics](https://nullitics.com/) - Zero-effort open-source cheap analytics.
 - [Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
+
+## Captchas
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+Google captchas use cookies to track users and rank their IPs.
+
+- Google reCAPTCHA
+
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [DoomCaptcha](https://github.com/vivirenremoto/doomcaptcha) - Captchas don't have to be boring [READ THE DISCLAIMER ON PROJECT'S WEBSITE](https://vivirenremoto.github.io/doomcaptcha/).
 
 ## Cloaking
 ### Images
