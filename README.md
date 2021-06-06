@@ -18,6 +18,7 @@
 - [Search Engines](#search-engines)
 - [Web Browser](#web-browser)
     - [Browser Sync](#browser-sync)
+    - [WebView](#webview)
 - [Photo Storage](#photo-storage)
 - [Photo Editing and Management](#photo-editing-and-management)
 - [Cloud Storage](#cloud-storage)
@@ -99,6 +100,10 @@
 
 ### Browser Sync
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
+
+### WebView
+- [Bromite WebView](https://www.bromite.org/system_web_view) - Bromite WebView is a version of Android System WebView with support for ad blocking and enhanced privacy.
+  - [WebView Switcher](https://github.com/Magisk-Modules-Repo/bromitewebview) - A tool for installing Bromite WebView on android 10+
 
 ## Photo Storage
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
