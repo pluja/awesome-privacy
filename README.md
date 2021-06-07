@@ -18,6 +18,7 @@
 - [Search Engines](#search-engines)
 - [Web Browser](#web-browser)
     - [Browser Sync](#browser-sync)
+    - [WebView](#webview)
 - [Photo Storage](#photo-storage)
 - [Photo Editing and Management](#photo-editing-and-management)
 - [Cloud Storage](#cloud-storage)
@@ -25,9 +26,11 @@
 - [2FA](#2fa)
 - [File Management and Sharing](#file-management-and-sharing)
 - [Maps and Navigation](#maps-and-navigation)
+- [Location tracking](#location-tracking)
 - [Translation](#translation)
 - [Android Keyboard](#android-keyboard)
 - [Android App Store](#android-app-store)
+- [Android Launcher](#android-launcher)
 - [Social Networks and Platforms](#social-networks-and-platforms)
   - [Instagram](#instagram)
   - [YouTube](#youtube)
@@ -52,6 +55,7 @@
   - [Smart TV](#smart-tv)
   - [PC](#PC)
 - [Analytics](#analytics)
+- [Captchas](#captchas)
 - [Cloaking](#cloaking)
 - [Office](#office)
 - [Fonts](#fonts)
@@ -89,6 +93,7 @@
 
 #### Desktop
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Open Source, independent browser. It needs some [hardening](https://privacytools.io/browsers/#addons) and [tweaking](https://privacytools.io/browsers/#about_config) to achieve great privacy.
+  - [LibreWolf](https://librewolf-community.gitlab.io/) - Privacy-focused Firefox fork.
 - [Ungoogled Chromium](https://ungoogled-software.github.io/)
 - [Tor Browser](https://www.torproject.org/)
 
@@ -97,15 +102,21 @@
 ### Browser Sync
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
 
+### WebView
+- [Bromite WebView](https://www.bromite.org/system_web_view) - Bromite WebView is a version of Android System WebView with support for ad blocking and enhanced privacy.
+  - [WebView Switcher](https://github.com/Magisk-Modules-Repo/bromitewebview) - A tool for installing Bromite WebView on android 10+
+
 ## Photo Storage
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Google Photos
+    - [Google Photos Takeout Helper](https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper) - Script that organizes the Google Takeout messy archive into one big chronological folder. Use this script to get out of Google Photos :).
 - Amazon Photos
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 
 ### Self-hosted
 - [Photoprism](https://photoprism.app) - Feature rich server-based application for browsing, organizing and sharing your personal photo collection. The most similar to Google Photos.
+- [Pigallery2](http://bpatrik.github.io/pigallery2/) - A self-hosted directory-first photo gallery website.
 - [Photoview](https://photoview.github.io/) - Photo gallery for self-hosted personal servers with Facial Recognition.
 - [Photostructure](https://photostructure.com/) - Self-hosted photo library that makes browsing and sharing a lifetime of memories delightful.
 - [LibrePhotos](https://github.com/LibrePhotos/librephotos) - Active [OwnPhotos](https://github.com/hooram/ownphotos) fork. Self hosted alternative to Google Photos.
@@ -130,6 +141,7 @@
 - [Krita](https://github.com/KDE/krita) - Krita is a free and open source digital painting application
 - [Czkawka](https://github.com/qarmin/czkawka) - Multi functional app to find duplicates and similar images etc.
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
+- [Inkscape](https://inkscape.org/) - Inkscape is a free and open-source vector graphics editor used to create vector images.
 
 #### Android
 - [Pocket Paint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
@@ -186,6 +198,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Snapdrop](https://snapdrop.net/) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
 - [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) - A supercharged version of paperless: scan, index and archive all your physical documents.
   - [Paperless](https://github.com/the-paperless-project/paperless) - [Now archived] Scan, index, and archive all of your paper documents.
+- [OnionShare](https://github.com/micahflee/onionshare) - An open source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network.
 
 ## Maps and Navigation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -196,11 +209,30 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - Waze
 - Sygic
 - HERE WeGo
+- Petal Maps
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 - [Open Street Map (OSM)](https://www.openstreetmap.org/) - OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.
   - [OSMAnd](https://osmand.net/) - Android/iOS Navigation app using OSM. It is a feature-rich app with all you expect.
 - [Qwant Maps](https://www.qwant.com/maps/) - An OpenStreetMap-based private Google Maps alternative.
+- [Organic Maps](https://organicmaps.app/) - Great offline maps for hikers and cyclists.
+
+## Location tracking
+
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+- Google location history.
+- Google FindMyDevice.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+
+### Tracking
+- [Nextcloud Phonetrack](https://apps.nextcloud.com/apps/phonetrack) - Nextcloud app to track location history with an [Android app](https://gitlab.com/eneiluj/phonetrack-android) ([other apps also supported](https://gitlab.com/eneiluj/phonetrack-oc/-/wikis/userdoc#logging-methods)). Supports caching positions offline and sending them to the server in batches. The first-party app has good battery saving options.
+- [OwnTracks](https://owntracks.org/) - Location tracking for displaying the current location only (limited location history functionality).
+- [Traccar](https://www.traccar.org/) - Location tracking software made for dedicated GPS logging devices.
+
+### Find My Device
+- [Find My Device](https://gitlab.com/Nulide/findmydevice) - Find your Android Device via SMS.
 
 ## Translation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -240,6 +272,20 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 ### Alternative Google Play Store clients
 - [Aurora Store](https://auroraoss.com/download/#aurora-store) - Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.
+
+## Android Launcher
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+Third party launchers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Lawnchair](https://lawnchair.app/) - No clever tagline needed.
+- [OpenLauncher](https://github.com/OpenLauncherTeam/openlauncher) - Customizable and Open Source Launcher for Android.
+- [KISS](https://kisslauncher.com/) - Lightning fast, open-source, < 200kb Android launcher.
+- [Olauncher](https://github.com/tanujnotes/Olauncher) - Minimal AF (ad-free) launcher app for Android.
+- [Simple App Launcher](https://github.com/SimpleMobileTools/Simple-App-Launcher) - A simple holder for favourite apps for quick & easy app launcher icon management.
+- [Rootless Pixel Launcher](https://github.com/amirzaidi/Launcher3) - The Launcher3 fork known as "Rootless Pixel Launcher".
+
 
 ## Social Networks and Platforms
 
@@ -419,7 +465,13 @@ With email aliases , you can finally create a different identity for each websit
 - [Anonaddy](https://github.com/anonaddy/anonaddy)
 
 ## Notes and Tasks
-<img width="16" src="misc/forbidden.png"> </img> **Avoid** using Google Keep, Evernote, Squid, Notion, OneNote, etc.
+<img width="16" src="misc/forbidden.png"> </img> **Avoid** 
+- Google Keep
+    - [Google Keep Exporter](https://github.com/vHanda/google-keep-exporter) -  Convert your Google Keep notes into a standard markdown + YAML header format.
+- Evernote
+- Squid
+- Notion
+- OneNote
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
@@ -428,6 +480,8 @@ With email aliases , you can finally create a different identity for each websit
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation capabilities.
 - [Logseq](https://logseq.com/) - A privacy-first alternative to WorkFlowy.
+- [Nextcloud Notes](https://github.com/nextcloud/notes/) - The Notes app is a distraction free notes taking app for Nextcloud.
+  - [Nextcloud Notes for Android](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
 - [Vikunja](https://vikunja.io) - The open-source to-do app to organize your life.
 
 ## Video Conferencing
@@ -503,6 +557,9 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 **Other music streaming projects**
 - [Freezer](https://freezer.life/) - [Source Code](https://git.freezer.life/).
 
+**Deezer Alternative clients**
+- [dzr](https://github.com/yne/dzr) - Command line Deezer player for Linux, BSD, Android+Termux
+
 #### Podcasts
 - [Antennapod](https://antennapod.org/) - The Open Podcast Player.
 
@@ -548,6 +605,18 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
 - [Aurora](https://useaurora.app/) - 100% Cookie-Free Open Website Analytics. Collect Anonymous Data. Make your Audience Happy Now!
 - [Nullitics](https://nullitics.com/) - Zero-effort open-source cheap analytics.
+- [Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
+
+## Captchas
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+Google captchas use cookies to track users and rank their IPs.
+
+- Google reCAPTCHA
+
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [DoomCaptcha](https://github.com/vivirenremoto/doomcaptcha) - Captchas don't have to be boring [READ THE DISCLAIMER ON PROJECT'S WEBSITE](https://vivirenremoto.github.io/doomcaptcha/).
 
 ## Cloaking
 ### Images
@@ -568,6 +637,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [LibreOffice](https://www.libreoffice.org/) - Free and open source offline office.
 - [OnlyOffice](https://www.onlyoffice.com/) - Free and open source online office for collaboration.
 - [Cryptpad](https://cryptpad.fr/) - Collaboration suite, encrypted and open-source.
+- [Etherpad](https://etherpad.org/) - Highly customizable open source online editor providing collaborative editing in really real-time.
 
 ## Fonts
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -599,6 +669,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [IHateMoney](https://ihatemoney.org/) - Manage your shared expenses, easily.
 - [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - A group/shared budget manager inspired by the great IHateMoney.
    - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and [IHateMoney](https://ihatemoney.org/) servers.
+- [GnuCash](https://gnucash.org/) - GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X and Microsoft Windows.
 
 ### CRYPTO
 <img width="16" src="misc/forbidden.png"> </img> Avoid using any exchange portfolio tracking or any app like Blockfolio as they **do not** respect your privacy in any way.
