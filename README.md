@@ -222,12 +222,17 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 
 - Google location history.
+- Google FindMyDevice.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 
+### Tracking
 - [Nextcloud Phonetrack](https://apps.nextcloud.com/apps/phonetrack) - Nextcloud app to track location history with an [Android app](https://gitlab.com/eneiluj/phonetrack-android) ([other apps also supported](https://gitlab.com/eneiluj/phonetrack-oc/-/wikis/userdoc#logging-methods)). Supports caching positions offline and sending them to the server in batches. The first-party app has good battery saving options.
 - [OwnTracks](https://owntracks.org/) - Location tracking for displaying the current location only (limited location history functionality).
 - [Traccar](https://www.traccar.org/) - Location tracking software made for dedicated GPS logging devices.
+
+### Find My Device
+- [Find My Device](https://gitlab.com/Nulide/findmydevice) - Find your Android Device via SMS.
 
 ## Translation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
