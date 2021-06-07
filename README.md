@@ -26,6 +26,7 @@
 - [2FA](#2fa)
 - [File Management and Sharing](#file-management-and-sharing)
 - [Maps and Navigation](#maps-and-navigation)
+- [Location tracking](#location-tracking)
 - [Translation](#translation)
 - [Android Keyboard](#android-keyboard)
 - [Android App Store](#android-app-store)
@@ -53,7 +54,6 @@
   - [Android](#android-1)
   - [Smart TV](#smart-tv)
   - [PC](#PC)
-- [Location tracking](#location-tracking)
 - [Analytics](#analytics)
 - [Captchas](#captchas)
 - [Cloaking](#cloaking)
@@ -216,6 +216,18 @@ Remember: Without strong encryption, you will be spied on systematically by lots
   - [OSMAnd](https://osmand.net/) - Android/iOS Navigation app using OSM. It is a feature-rich app with all you expect.
 - [Qwant Maps](https://www.qwant.com/maps/) - An OpenStreetMap-based private Google Maps alternative.
 - [Organic Maps](https://organicmaps.app/) - Great offline maps for hikers and cyclists.
+
+## Location tracking
+
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+- Google location history.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+
+- [Nextcloud Phonetrack](https://apps.nextcloud.com/apps/phonetrack) - Nextcloud app to track location history with an [Android app](https://gitlab.com/eneiluj/phonetrack-android) ([other apps also supported](https://gitlab.com/eneiluj/phonetrack-oc/-/wikis/userdoc#logging-methods)). Supports caching positions offline and sending them to the server in batches. The first-party app has good battery saving options.
+- [OwnTracks](https://owntracks.org/) - Location tracking for displaying the current location only (limited location history functionality).
+- [Traccar](https://www.traccar.org/) - Location tracking software made for dedicated GPS logging devices.
 
 ## Translation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -577,18 +589,6 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 - [GNU/Linux](https://www.linux.com/what-is-linux/) - GNU/Linux is a family of mostly free and open source Operating Systems mostly developed by the community. If you don't know where to start, [Linux Mint (Cinnamon)](https://linuxmint.com/edition.php?id=281) is a beginner friendly distribution. If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). If you want to install Linux but keep your current operating System, you can set up [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
-
-## Location tracking
-
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**
-
-- Google location history
-
-<img width="16" src="misc/check.png"> </img>  **Instead use**
-
-- [Nextcloud Phonetrack](https://apps.nextcloud.com/apps/phonetrack) - Nextcloud app to track location history with an [Android app](https://gitlab.com/eneiluj/phonetrack-android) ([other apps also supported](https://gitlab.com/eneiluj/phonetrack-oc/-/wikis/userdoc#logging-methods)). Supports caching positions offline and sending them to the server in batches. The first-party app has good battery saving options.
-- [OwnTracks](https://owntracks.org/) - Location tracking for displaying the current location only (limited location history functionality).
-- [Traccar](https://www.traccar.org/) - Location tracking software made for dedicated GPS logging devices.
 
 ## Analytics
 <img width="16" src="misc/forbidden.png"> </img> Avoid any analytics service that comes from Google, Facebook, Microsoft or any private service. These kind of analytics hurt user privacy.
