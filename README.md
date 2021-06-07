@@ -447,7 +447,13 @@ With email aliases , you can finally create a different identity for each websit
 - [Anonaddy](https://github.com/anonaddy/anonaddy)
 
 ## Notes and Tasks
-<img width="16" src="misc/forbidden.png"> </img> **Avoid** using Google Keep, Evernote, Squid, Notion, OneNote, etc.
+<img width="16" src="misc/forbidden.png"> </img> **Avoid** 
+- Google Keep
+    - [Google Keep Exporter](https://github.com/vHanda/google-keep-exporter) -  Convert your Google Keep notes into a standard markdown + YAML header format.
+- Evernote
+- Squid
+- Notion
+- OneNote
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
