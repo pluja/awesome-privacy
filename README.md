@@ -108,6 +108,7 @@
 ## Photo Storage
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Google Photos
+    - [Google Photos Takeout Helper](https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper) - Script that organizes the Google Takeout messy archive into one big chronological folder. Use this script to get out of Google Photos :).
 - Amazon Photos
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
