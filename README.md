@@ -482,6 +482,7 @@ With email aliases , you can finally create a different identity for each websit
 - [Logseq](https://logseq.com/) - A privacy-first alternative to WorkFlowy.
 - [Nextcloud Notes](https://github.com/nextcloud/notes/) - The Notes app is a distraction free notes taking app for Nextcloud.
   - [Nextcloud Notes for Android](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
+- [Vikunja](https://vikunja.io) - The open-source to-do app to organize your life.
 
 ## Video Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
