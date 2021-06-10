@@ -76,7 +76,7 @@
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Whoogle Search](https://github.com/benbusby/whoogle-search) - A self-hosted, ad-free, privacy-respecting Google metasearch engine.
-- [StartPage](https://startpage.com) - ad-free, privacy-respecting Google metasearch engine.
+- [Start Page](https://startpage.com) - A privacy-respecting Google metasearch engine.
 - [Qwant](https://www.qwant.com/) - A privacy oriented search engine made in France with no tracking.
 - [SearX](https://searx.me/) - Privacy-respecting metasearch engine.
 - [DuckDuckGo](https://duckduckgo.com) - A privacy respecting search engine.
