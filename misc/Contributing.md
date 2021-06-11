@@ -1,5 +1,13 @@
 # Contributing Guide
 
+## Requirements for a service to be listed:
+
+- [x] Clear privacy-oriented / own your data policy.
+- [x] No user-tracking on project website. Only tracking listed under [Analytics](https://github.com/pluja/awesome-privacy#analytics) allowed.
+- [x] Open source code is very valuable since it allows you to trust in the project (you can review the code) and not just trust the words. But some service without Open Source code may be added if there is special trust from community and has a good history privacy-wise.
+
+> Every project will need investigation. And of course all listings / additions / PRs and issues are open to discussion as I am human and I may make mistakes.
+
 ## Pull Requests
 
 If you are familiar you can add a *section* or a *service* yourself via **pull request**. This is the better way.
