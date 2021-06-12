@@ -54,6 +54,7 @@
   - [Android](#android-1)
   - [Smart TV](#smart-tv)
   - [PC](#PC)
+- [Automation](#automation)
 - [Analytics](#analytics)
 - [Captchas](#captchas)
 - [Cloaking](#cloaking)
@@ -595,6 +596,12 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 - [GNU/Linux](https://www.linux.com/what-is-linux/) - GNU/Linux is a family of mostly free and open source Operating Systems mostly developed by the community. If you don't know where to start, [Linux Mint (Cinnamon)](https://linuxmint.com/edition.php?id=281) is a beginner friendly distribution. If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). If you want to install Linux but keep your current operating System, you can set up [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
+
+## Automation
+<img width="16" src="misc/forbidden.png"> </img> Avoid Zapier.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [n8n](https://n8n.io/) - Workflow automation tool that can be self-hosted.
 
 ## Analytics
 <img width="16" src="misc/forbidden.png"> </img> Avoid any analytics service that comes from Google, Facebook, Microsoft or any private service. These kind of analytics hurt user privacy.
