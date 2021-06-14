@@ -182,6 +182,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [andOTP](https://github.com/andOTP/andOTP) - Open source two-factor authentication for Android.
 - [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator.
 - [RavioOTP](https://github.com/raivo-otp/) - A native, lightweight and secure one-time-password (OTP) solution for **iOS** users.
+- [Authenticator Pro](https://github.com/jamie-mh/AuthenticatorPro) - 📱 Two-Factor Authentication (2FA) client for Android + Wear OS
 
 ## File Management and Sharing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
