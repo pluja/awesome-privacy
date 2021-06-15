@@ -523,6 +523,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
     - [OFF Apps](https://world.openfoodfacts.org/open-food-facts-mobile-app)
 - [Drip](https://bloodyhealth.gitlab.io/) - Menstrual cycle and fertility tracking. Everything you enter stays on your device.
 - [log28](https://github.com/wildeyedskies/log28) - a (very) simple no-frills period tracker for Android.
+- [OpenTracks](https://github.com/OpenTracksApp/OpenTracks) - OpenTracks is a sport tracking application that completely respects your privacy.
 
 ## Media Streaming Platforms
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
