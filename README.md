@@ -338,8 +338,9 @@ Third party launchers found on the play store. They may contain ads/trackers and
 
 <img width="16" src="misc/check.png"> </img> **Alternative Twitter Frontends:**
 - [Nitter](https://github.com/zedeus/nitter/wiki/Instances) - Nitter is a free and open source alternative Twitter front-end focused on privacy.
+	- [Feetter](https://github.com/pluja/Feetter) - Create and manage Nitter feeds.
+	- [Fritter](https://github.com/jonjomckay/fritter/) - A free, open-source Nitter client for Android and iOS.
 - [Yotter](https://github.com/ytorg/yotter) - Twitter with privacy with a simple yet beautiful UI.
-- [Fritter](https://github.com/jonjomckay/fritter/) - A free, open-source Twitter/Nitter client for Android and iOS.
 
 ### Reddit
 <img width="16" src="misc/forbidden.png"> </img> Try to avoid using Reddit or at least avoid their official clients as they are plenty of trackers, ads and share unnecessary user data with their servers.
