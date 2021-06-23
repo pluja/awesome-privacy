@@ -260,6 +260,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [OpenBoard](https://github.com/dslul/openboard) - 100% FOSS keyboard, based on AOSP.
 - [FlorisBoard](https://github.com/florisboard/florisboard) - An open-source keyboard for Android. Currently in alpha/early-beta stage.
 - [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
+- [Hacker's Keyboard](https://github.com/klausw/hackerskeyboard) is an older keyboard, but still works at least from Android 2.3 through Android 10 and has a good Dvorak layout.
 
 ## Android App Store
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -394,6 +395,7 @@ Third party launchers found on the play store. They may contain ads/trackers and
 - Skype
 - Zoom
 - Google Hangouts / Chat
+- Clubhouse ([lawyers say you could get sued](https://businessradiox.com/podcast/one-minute-interviews/brian-inkster/))
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 ### Decentralized
@@ -424,7 +426,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 
 #### Worth mentioning
 - [Berty](https://berty.tech/) - Not released yet. The privacy-first messaging app that works with or without internet access, cellular data or trust in the network.
-- [Telegram](https://telegram.org/) - Not fully open source. No E2E encryption by default on chats.
+- [Telegram](https://telegram.org/) - Not fully open source (clients are, server isn't). No E2E encryption by default on chats.
 
 ## Password Managers
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -599,7 +601,8 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 <img width="16" src="misc/forbidden.png"> </img> Don't use MS Windows.
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
-- [GNU/Linux](https://www.linux.com/what-is-linux/) - GNU/Linux is a family of mostly free and open source Operating Systems mostly developed by the community. If you don't know where to start, [Linux Mint (Cinnamon)](https://linuxmint.com/edition.php?id=281) is a beginner friendly distribution. If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). If you want to install Linux but keep your current operating System, you can set up [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
+- [GNU/Linux](https://www.linux.com/what-is-linux/) - GNU/Linux is a family of mostly free and open source Operating Systems mostly developed by the community. If you don't know where to start, [Linux Mint (Cinnamon)](https://linuxmint.com/edition.php?id=281) is a beginner friendly distribution. If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). If you want to install Linux but keep your current operating system, you can set up [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
+- Another alternative is BSD (e.g. FreeBSD with the desktop-installer package), although you might find it slightly less beginner-friendly than GNU/Linux.
 
 ## Analytics
 <img width="16" src="misc/forbidden.png"> </img> Avoid any analytics service that comes from Google, Facebook, Microsoft or any private service. These kind of analytics hurt user privacy.
@@ -646,7 +649,7 @@ Google captchas use cookies to track users and rank their IPs.
 
 ## Fonts
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Google Fonts
+- Google Fonts (unless you self-host them)
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Velvetyne](https://www.velvetyne.fr/)
@@ -695,6 +698,7 @@ Google captchas use cookies to track users and rank their IPs.
 
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+- GNU Emacs
 
 ## Uncategorized
 - [Skymap](https://skymaponline.net/) - Open online planetarium program.
