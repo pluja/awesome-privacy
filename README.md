@@ -621,6 +621,7 @@ Google captchas use cookies to track users and rank their IPs.
 - Google reCAPTCHA
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
+- [hCaptcha](https://www.hcaptcha.com/) - Stop more bots. Start protecting user privacy.
 - [DoomCaptcha](https://github.com/vivirenremoto/doomcaptcha) - Captchas don't have to be boring [READ THE DISCLAIMER ON PROJECT'S WEBSITE](https://vivirenremoto.github.io/doomcaptcha/).
 
 ## Cloaking
