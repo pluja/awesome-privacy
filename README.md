@@ -577,6 +577,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 #### Android app compatibility
 - [GrapheneOS](https://grapheneos.org/) - GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility.
 - [CalyxOS](https://calyxos.org/) - CalyxOS lets you have your cake and eat it too, with  "Privacy by Design".
+- [DivestOS](https://divestos.org) - DivestOS strives to prolong device life, enhance user privacy, and provide modest security to many devices.
 - [LineageOS](https://lineageos.org/) - A free and open-source operating system for various devices, based on the Android mobile platform.
 - [Replicant](https://www.replicant.us/) - A free software mobile operating system putting the emphasis on freedom and privacy/security.
 
