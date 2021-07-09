@@ -79,6 +79,7 @@
 - [Qwant](https://www.qwant.com/) - A privacy oriented search engine made in France with no tracking.
 - [SearX](https://searx.me/) - Privacy-respecting metasearch engine.
 - [DuckDuckGo](https://duckduckgo.com) - A privacy respecting search engine.
+- [Brave Search](https://search.brave.com) - A privacy respecting search engine with its own index, which doesn't rely on search engines like Google or Bing.
 
 ## Web Browser
 
