@@ -55,6 +55,7 @@
   - [Smart TV](#smart-tv)
   - [PC](#PC)
 - [Analytics](#analytics)
+- [Advertising](#advertising)
 - [Captchas](#captchas)
 - [Cloaking](#cloaking)
 - [Office](#office)
@@ -614,6 +615,12 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Nullitics](https://nullitics.com/) - Zero-effort open-source cheap analytics.
 - [Ackee](https://ackee.electerious.com/) - Self-hosted website analytics.
 - [Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
+
+## Advertising
+<img width="16" src="misc/forbidden.png"> </img> **Avoid** any advertising service that comes from big tech corporations like Google Ads, Facebook/Intsagram Ads, and Bing Ads. These services aggregate and exploit user data by microtargeting specific users.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [EthicalAds](https://ethicalads.io) - Content targeted advertising which doesn't track or store any user data.
 
 ## Captchas
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
