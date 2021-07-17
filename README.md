@@ -318,15 +318,13 @@ Third party launchers found on the play store. They may contain ads/trackers and
 - [DTube](https://github.com/dtube/dtube) - A full-featured video sharing website, decentralized.
 
 <img width="16" src="misc/check.png"> </img> **YouTube alternative clients:**
-- [Yotter](https://github.com/ytorg/yotter) - YouTube and Twitter with privacy. Never share any of your data to YouTube, yet be able to watch YouTube videos.
+- [Piped](https://github.com/TeamPiped) - Alternative Youtube frontend.
 - [Invidious](https://github.com/iv-org/invidious) - Alternative and privacy respecting YouTube frontend.
+- [Yotter](https://github.com/ytorg/yotter) - YouTube and Twitter with privacy. Never share any of your data to YouTube, yet be able to watch YouTube videos.
 - [NewPipe](https://newpipe.net/) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
     - [NewPipe x Sponsorblock](https://github.com/polymorphicshade/NewPipe) - NewPipe fork that incorporates Sponsorblock.
 - [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend).
-
-#### Worth mentioning
-- [Piped](https://github.com/TeamPiped) - Work in progress.
 
 ### Twitter
 <img width="16" src="misc/forbidden.png"> </img> Avoid using Twitter official app / website. It tracks users and creates user profiles based on what they follow, retweet and like. Twitter harms and violates user privacy with their policies.
