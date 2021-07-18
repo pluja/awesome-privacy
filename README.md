@@ -318,7 +318,7 @@ Third party launchers found on the play store. They may contain ads/trackers and
 - [DTube](https://github.com/dtube/dtube) - A full-featured video sharing website, decentralized.
 
 <img width="16" src="misc/check.png"> </img> **YouTube alternative clients:**
-- [Piped](https://github.com/TeamPiped) - Alternative Youtube frontend.
+- [Piped](https://github.com/TeamPiped/Piped) - An alternative privacy-friendly YouTube frontend which is efficient by design.
 - [Invidious](https://github.com/iv-org/invidious) - Alternative and privacy respecting YouTube frontend.
 - [Yotter](https://github.com/ytorg/yotter) - YouTube and Twitter with privacy. Never share any of your data to YouTube, yet be able to watch YouTube videos.
 - [NewPipe](https://newpipe.net/) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
