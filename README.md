@@ -463,11 +463,14 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Thunderbird](https://www.thunderbird.net) - A free customizable open source email client.
 
 ### Email Alias Services (Anonymous Forwarding)
+With email aliases , you can finally create a different identity for each website. Defend against spams, phishing and data breach. 
 
-With email aliases , you can finally create a different identity for each website. Defend against spams, phishing and data breach. You can choose self-hosting any of the following options or you can also use their own platform as a service.
-
+Services with self-hosting options:
 - [Simplelogin](https://github.com/simple-login/app)
 - [Anonaddy](https://github.com/anonaddy/anonaddy)
+
+Services without self-hosting:
+- [MailMask](https://github.com/HSchuette/mailmask) - Create forwarding addresses for free, without an account.
 
 ## Notes and Tasks
 <img width="16" src="misc/forbidden.png"> </img> **Avoid** 
