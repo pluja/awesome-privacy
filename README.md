@@ -64,6 +64,7 @@
 - [Databases](#databases)
 - [Utilities](#utilities)
 - [Developer Tools](#developer-tools)
+- [Domain Registrar](#domain-registrar)
 - [Uncategorized](#uncategorized)
 
 ## Search Engines
@@ -697,6 +698,12 @@ Google captchas use cookies to track users and rank their IPs.
 
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+
+## Domain Registrar
+<img width="16" src="misc/forbidden.png"> </img> Avoid using domain registrars who are privacy invasive. 
+
+<img width="16" src="misc/check.png"> </img> Instead use
+- [Njalla](https://njal.la) - Privacy-aware domain service, sitting in between the domain service registrations and you, acting like a privacy shield.
 
 ## Uncategorized
 - [Skymap](https://skymaponline.net/) - Open online planetarium program.
