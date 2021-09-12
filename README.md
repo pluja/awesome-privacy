@@ -465,7 +465,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 
 ### Email Alias Services (Anonymous Forwarding)
 
-With email aliases , you can finally create a different identity for each website. Defend against spams, phishing and data breach. You can choose self-hosting any of the following options or you can also use their own platform as a service.
+With email aliases, you can finally create a different identity for each website. Defend against spams, phishing and data breach. You can choose self-hosting any of the following options or you can also use their own platform as a service.
 
 - [Simplelogin](https://github.com/simple-login/app)
 - [Anonaddy](https://github.com/anonaddy/anonaddy)
