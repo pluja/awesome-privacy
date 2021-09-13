@@ -381,10 +381,15 @@ Third party launchers found on the play store. They may contain ads/trackers and
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Zulip](https://zulip.com/) - Chat for distributed teams.
+- [Revolt](https://revolt.chat/) - User-first chat platform built with modern web technologies.
 - [Twake](https://twake.app/) - Work in a team faster. Twake covers all of your organizational needs through a single platform.
 - [RocketChat](https://rocket.chat/) - Control your communication, manage your data, and have your own collaboration platform to improve team productivity.
 - [Nextcloud Talk](https://nextcloud.com/talk/) - Keep conversations private with Nextcloud Talk.
 - [Mattermost](https://mattermost.com/) - Open-source Slack alternative.
+
+**Alternative Discord clients:**
+> Your IP and messages will still be shared and belong to Discord and they are not encrypted.
+- [Aliucord](https://github.com/Aliucord/Aliucord) - Discord Android app mod inspired by desktop Discord client mods [without Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
 
 ## Instant Messaging
 **Check out [this site](https://www.securemessagingapps.com/) for comparisons*.
@@ -505,8 +510,9 @@ With email aliases, you can finally create a different identity for each website
 - [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton is a web conferencing system designed for online learning.
 - [PeerCalls](https://peercalls.com/) - Group peer to peer video calls for everyone written in Go and TypeScript.
 
-<img width="16" src="misc/check.png"> </img> **Alternative Discord clients:**
-- [Aliucord](https://github.com/Aliucord/Aliucord) - Discord Android app mod inspired by desktop Discord client mods [without Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
+**Alternative Discord clients:**
+> Your IP and messages will still be shared and belong to Discord and they are not encrypted.
+- [Aulicord](https://github.com/Aliucord/Aliucord) - Discord Android app mod inspired by desktop Discord client mods [without Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
 
 ## Remote Access and Control
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
