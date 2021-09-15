@@ -327,6 +327,8 @@ Third party launchers found on the play store. They may contain ads/trackers and
     - [NewPipe x Sponsorblock](https://github.com/polymorphicshade/NewPipe) - NewPipe fork that incorporates Sponsorblock.
 - [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend).
+- [youtube-local](https://github.com/user234683/youtube-local) - Browser-based client for watching YouTube anonymously and with greater page performance.
+- [yt-local](https://git.sr.ht/~heckyel/yt-local) - (Fork of youtube-local) Browser-based client for watching YouTube anonymously without forcing JavaScript.
 
 ### Twitter
 <img width="16" src="misc/forbidden.png"> </img> Avoid using Twitter official app / website. It tracks users and creates user profiles based on what they follow, retweet and like. Twitter harms and violates user privacy with their policies.
