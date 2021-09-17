@@ -90,7 +90,7 @@
 - [Ungoogled Chromium](https://ungoogled-software.github.io/) - Android
 - [Privacy Browser](https://www.stoutner.com/privacy-browser/) - Android
 - [Firefox](https://www.mozilla.org/en-US/firefox/mobile/) - Android/iOS
-    - [Mull](https://gitlab.com/divested-mobile/mull-fenix) - Privacy hardened fork of Firefox for Android, with proprietary blobs removed.
+    - [Mull](https://f-droid.org/en/packages/us.spotco.fennec_dos/) - Privacy hardened fork of Firefox for Android, with proprietary blobs removed.
 - [Tor Browser](https://www.torproject.org/) - Android/iOS
 - [SnowHaze](https://snowhaze.com/en/index.html) - iOS
 
