@@ -53,7 +53,7 @@
 - [Operating Systems](#operating-systems)
   - [Android](#android-1)
   - [Smart TV](#smart-tv)
-  - [PC](#PC)
+  - [PC / MacOS](#pc--macos)
 - [Analytics](#analytics)
 - [Captchas](#captchas)
 - [Cloaking](#cloaking)
