@@ -608,11 +608,13 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [OSMC](https://osmc.tv/) - OSMC is a free and open source media center built for the people, by the people.
 - [RaspberryCast](https://github.com/vincelwt/RaspberryCast) - Transform your Raspberry Pi into a streaming device. Cast videos from mobile devices or computers to your TV.
 
-### PC
-<img width="16" src="misc/forbidden.png"> </img> Don't use MS Windows.
+### PC / MacOS
+<img width="16" src="misc/forbidden.png"> </img> Don't use MS Windows or MacOS.
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 - [GNU/Linux](https://www.linux.com/what-is-linux/) - GNU/Linux is a family of mostly free and open source Operating Systems mostly developed by the community. If you don't know where to start, [Linux Mint (Cinnamon)](https://linuxmint.com/edition.php?id=281) is a beginner friendly distribution. If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). If you want to install Linux but keep your current operating System, you can set up [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
+
+- [ReactOS](https://reactos.org/) - ReactOS is an operating system able to run Windows software, Windows drivers that looks-like Windows and is free and open source.
 
 ## Analytics
 <img width="16" src="misc/forbidden.png"> </img> Avoid any analytics service that comes from Google, Facebook, Microsoft or any private service. These kind of analytics hurt user privacy.
