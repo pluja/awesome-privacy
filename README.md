@@ -64,6 +64,7 @@
 - [Databases](#databases)
 - [Utilities](#utilities)
 - [Developer Tools](#developer-tools)
+  - [IDEs](#ides)
 - [Domain Registrar](#domain-registrar)
 - [Uncategorized](#uncategorized)
 
@@ -711,6 +712,13 @@ Google captchas use cookies to track users and rank their IPs.
 
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+
+### IDEs
+<img width="16" src="misc/forbidden.png"> </img> Avoid using privative IDEs that are full of trackers and telemetry.
+
+<img width="16" src="misc/check.png"> </img> Instead use
+- [Neovim](https://neovim.io/) - Hyperextensible Vim-based text editor.
+- [VSCodium](https://vscodium.com/) - Free/Libre Open Source Software Binaries of VSCode. Vscode source code is open source (MIT-licensed), but the product available for download (Visual Studio Code) is licensed under [this not-FLOSS license](https://code.visualstudio.com/license) and contains telemetry/tracking.
 
 ## Domain Registrar
 <img width="16" src="misc/forbidden.png"> </img> Avoid using domain registrars who are privacy invasive. 
