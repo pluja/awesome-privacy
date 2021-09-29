@@ -277,6 +277,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 	- [Foxy Droid](https://github.com/kitsunyan/foxy-droid) - Unofficial F-Droid client in the style of the classic one.
 - [FossDroid](https://fossdroid.com/) - Fossdroid's aim is to promote free and open source apps on the Android platform: newest, trendiest and the most popular ones.
 
+- [SkyDroid](https://skydroid.app/) - Decentralized App Store for Android
 
 ### Alternative Google Play Store clients
 - [Aurora Store](https://auroraoss.com/download/#aurora-store) - Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.
