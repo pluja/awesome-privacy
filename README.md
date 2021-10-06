@@ -591,6 +591,8 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 <img width="16" src="misc/check.png"> </img> **Instead use**
 
 #### Android app compatibility
+ > Although all of these Operating Systems are Android, app compatibility may not be perfect due to a lack of GMS (Google Mobile Serivces) which some apps require. You can check how well apps work with microg (a free and open source alternative to GMS) or no GMS at all with [Plexus](https://plexus.techlore.tech/) where the community can report how well android apps perform in those environments.
+
 - [GrapheneOS](https://grapheneos.org/) - GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility.
 - [CalyxOS](https://calyxos.org/) - CalyxOS lets you have your cake and eat it too, with  "Privacy by Design".
 - [LineageOS](https://lineageos.org/) - A free and open-source operating system for various devices, based on the Android mobile platform.
