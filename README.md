@@ -310,6 +310,7 @@ Third party launchers found on the play store. They may contain ads/trackers and
 - [Pixelfed](https://pixelfed.org/) - Decentralized, federated and Open Source alternative to Instagram with posts, videos, stories, tags, etc.
 
 **Alternative Instagram clients**
+- [Barinsta](https://codeberg.org/avalos/barinsta) - Android instagram alternative client with enhanced privacy features (Your requests will be sent to instagram).
 - [Bibliogram](https://bibliogram.art/) - Watch Instagram's public profile in a friendlier page that loads faster, gives downloadable images, eliminates ads and doesn't urge you to sign up.
 
 ### YouTube
