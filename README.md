@@ -38,6 +38,7 @@
   - [Reddit](#reddit)
   - [Streaming Platforms (Twitch)](#streaming-platforms-twitch)
   - [Wikipedia](#wikipedia)
+  - [Imgur](#imgur)
 - [Teamworking Tools](#teamworking-tools)
 - [Instant Messaging](#instant-messaging)
 - [Password Managers](#password-managers)
@@ -101,7 +102,7 @@
 - [Ungoogled Chromium](https://ungoogled-software.github.io/)
 - [Tor Browser](https://www.torproject.org/)
 
-> Controversial option: [Brave](https://brave.com/) - Android/iOS. [Read more info on this related discussion](https://libredd.it/r/privacytoolsIO/comments/gytwmd/brave_browser_privacytoolsio_and_the_negativity/) and [the Wikipedia page](https://en.wikipedia.org/wiki/Brave_(web_browser)#Controversies).
+> Controversial option: [Brave](https://brave.com/) - Android/iOS. [Read more info on this related discussion](https://libredd.it/r/privacytoolsIO/comments/gytwmd/brave_browser_privacytoolsio_and_the_negativity/) and [the Wikipedia page](https://wikiless.org/wiki/Brave_(web_browser)#Controversies).
 
 ### Browser Sync
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
@@ -376,6 +377,12 @@ Third party launchers found on the play store. They may contain ads/trackers and
 
 <img width="16" src="misc/check.png"> </img> **Alternatives:**
 - [Wikiless](https://wikiless.org/) - A free open source alternative Wikipedia front-end focused on privacy [Source Code](https://codeberg.org/orenom/wikiless).
+
+### Imgur
+<img width="16" src="misc/forbidden.png"> </img> Imgur website is plenty of bloat, gifs, cookies, javascript and trackers.
+
+<img width="16" src="misc/check.png"> </img> **Alternatives:**
+- [Imgin](https://imgin.voidnet.tech/) - A minimalist, tor-friendly, read-only Imgur proxy insipired by software like Invidious, Nitter, and Bibliogram. 
 
 ## Teamworking Tools
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
