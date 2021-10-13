@@ -492,7 +492,6 @@ With email aliases, you can finally create a different identity for each website
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
 - [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
-- [Simplenote](https://simplenote.com/) - The simplest way to keep notes.
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation capabilities.
 - [Logseq](https://logseq.com/) - A privacy-first alternative to WorkFlowy.
