@@ -32,6 +32,7 @@
 - [Android App Store](#android-app-store)
 - [Android Launcher](#android-launcher)
 - [Android Dialer](#android-dialer)
+- [Android File Manager](#android-file-manager)
 - [Download Manager](#download-manager)
 - [Social Networks and Platforms](#social-networks-and-platforms)
   - [Instagram](#instagram)
@@ -308,6 +309,19 @@ Third party dialers found on the play store. They may contain ads/trackers and m
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Simple Dialer](https://github.com/SimpleMobileTools/Simple-Dialer) - A lightweight app for handling your calls, no matter where are you. Comes with a handy call log for easy call initiation.
 - [Koler](https://github.com/Chooloo/koler) - Uniquely stylized phone app with customizable features.
+
+## Android File Manager
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+Preinstalled file manager apps and third party launchers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+
+- [Simple File Manager](https://github.com/SimpleMobileTools/Simple-File-Manager) - A simple file manager for browsing and editing files and directories.
+- [Amaze File Manager](https://github.com/TeamAmaze/AmazeFileManager) - Simple and attractive Material Design file manager for Android.
+- [Material Files](https://github.com/zhanghai/MaterialFiles) - An open source Material Design file manager, for Android 5.0+.
+- [Ghost Commander](https://f-droid.org/packages/com.ghostsq.commander/) - Dual-panel file manager.
+
 
 ## Download Manager
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
