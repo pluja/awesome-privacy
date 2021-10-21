@@ -31,6 +31,7 @@
 - [Android Keyboard](#android-keyboard)
 - [Android App Store](#android-app-store)
 - [Android Launcher](#android-launcher)
+- [Android Dialer](#android-dialer)
 - [Social Networks and Platforms](#social-networks-and-platforms)
   - [Instagram](#instagram)
   - [YouTube](#youtube)
@@ -297,6 +298,15 @@ Third party launchers found on the play store. They may contain ads/trackers and
 - [Olauncher](https://github.com/tanujnotes/Olauncher) - Minimal AF (ad-free) launcher app for Android.
 - [Simple App Launcher](https://github.com/SimpleMobileTools/Simple-App-Launcher) - A simple holder for favourite apps for quick & easy app launcher icon management.
 - [Rootless Pixel Launcher](https://github.com/amirzaidi/Launcher3) - The Launcher3 fork known as "Rootless Pixel Launcher".
+
+## Android Dialer
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+Third party dialers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Simple Dialer](https://github.com/SimpleMobileTools/Simple-Dialer) - A lightweight app for handling your calls, no matter where are you. Comes with a handy call log for easy call initiation.
+- [Koler](https://github.com/Chooloo/koler) - Uniquely stylized phone app with customizable features.
 
 
 ## Social Networks and Platforms
