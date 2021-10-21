@@ -32,6 +32,7 @@
 - [Android App Store](#android-app-store)
 - [Android Launcher](#android-launcher)
 - [Android Dialer](#android-dialer)
+- [Download Manager](#download-manager)
 - [Social Networks and Platforms](#social-networks-and-platforms)
   - [Instagram](#instagram)
   - [YouTube](#youtube)
@@ -307,6 +308,19 @@ Third party dialers found on the play store. They may contain ads/trackers and m
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Simple Dialer](https://github.com/SimpleMobileTools/Simple-Dialer) - A lightweight app for handling your calls, no matter where are you. Comes with a handy call log for easy call initiation.
 - [Koler](https://github.com/Chooloo/koler) - Uniquely stylized phone app with customizable features.
+
+## Download Manager
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+IDM, Download Accelerator Plus etc which are proprietary and cost you money plus privacy.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+
+- [Persepolis Download Manager](https://github.com/persepolisdm/persepolis) - Persepolis is a download manager & a GUI for Aria2. It's written in Python. Persepolis is a sample of free and open source software. It's developed for GNU/Linux distributions, BSDs, MacOS, and Microsoft Windows.
+- [uGet Download Manager](https://ugetdm.com/) - uGet is a lightweight yet powerful Open Source download manager for GNU/Linux developed with GTK+, which also comes packaged as a portable Windows app. It is also available for Android.
+- [Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.
+- [FireDM](https://github.com/firedm/FireDM) - FireDM is a python open source (Internet Download Manager) with multi-connections, high speed engine, it downloads general files and videos from youtube and tons of other streaming websites. It is availabe for Linux & Windows.
+- [Xtreme Download Manager](https://github.com/subhra74/xdm) - Xtreme Download Manager (XDM) is a powerful tool to increase download speeds up to 500%, save streaming videos from YouTube, DailyMotion, Facebook, Vimeo, Google Video and 1000+ other websites, resume broken/dead downloads, schedule and convert downloads.
 
 
 ## Social Networks and Platforms
