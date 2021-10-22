@@ -31,6 +31,9 @@
 - [Android Keyboard](#android-keyboard)
 - [Android App Store](#android-app-store)
 - [Android Launcher](#android-launcher)
+- [Android Dialer](#android-dialer)
+- [Android File Manager](#android-file-manager)
+- [Download Manager](#download-manager)
 - [Social Networks and Platforms](#social-networks-and-platforms)
   - [Instagram](#instagram)
   - [YouTube](#youtube)
@@ -205,6 +208,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) - A supercharged version of paperless: scan, index and archive all your physical documents.
   - [Paperless](https://github.com/the-paperless-project/paperless) - [Now archived] Scan, index, and archive all of your paper documents.
 - [OnionShare](https://github.com/micahflee/onionshare) - An open source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network.
+- [Sharik](https://github.com/marchellodev/sharik) - Sharik works with Wi-Fi connection or Tethering (Wi-Fi Hotspot). No internet connection needed. Available for Android, iOS, Linux, MacOS & Windows.
 
 ## Maps and Navigation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -267,6 +271,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [FlorisBoard](https://github.com/florisboard/florisboard) - FlorisBoard is a free and open-source keyboard for Android 6.0+ devices. It aims at being modern, user-friendly and customizable while fully respecting your privacy. Currently in early-beta state.
 - [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
 - [Indic Keyboard](https://gitlab.com/indicproject/indic-keyboard) - Indic Keyboard is a versatile keyboard for Android users who wish to use Indic and Indian languages to type messages, compose emails and generally prefer to use them in addition to English on their phone.
+- [Simple Keyboard](https://github.com/rkkr/simple-keyboard) - Simply keyboard and nothing more.
 
 ## Android App Store
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -296,6 +301,41 @@ Third party launchers found on the play store. They may contain ads/trackers and
 - [Olauncher](https://github.com/tanujnotes/Olauncher) - Minimal AF (ad-free) launcher app for Android.
 - [Simple App Launcher](https://github.com/SimpleMobileTools/Simple-App-Launcher) - A simple holder for favourite apps for quick & easy app launcher icon management.
 - [Rootless Pixel Launcher](https://github.com/amirzaidi/Launcher3) - The Launcher3 fork known as "Rootless Pixel Launcher".
+
+## Android Dialer
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+Third party dialers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Simple Dialer](https://github.com/SimpleMobileTools/Simple-Dialer) - A lightweight app for handling your calls, no matter where are you. Comes with a handy call log for easy call initiation.
+- [Koler](https://github.com/Chooloo/koler) - Uniquely stylized phone app with customizable features.
+
+## Android File Manager
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+Preinstalled file manager apps and third party launchers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+
+- [Simple File Manager](https://github.com/SimpleMobileTools/Simple-File-Manager) - A simple file manager for browsing and editing files and directories.
+- [Amaze File Manager](https://github.com/TeamAmaze/AmazeFileManager) - Simple and attractive Material Design file manager for Android.
+- [Material Files](https://github.com/zhanghai/MaterialFiles) - An open source Material Design file manager, for Android 5.0+.
+- [Ghost Commander](https://f-droid.org/packages/com.ghostsq.commander/) - Dual-panel file manager.
+
+
+## Download Manager
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+IDM, Download Accelerator Plus etc which are proprietary and cost you money plus privacy.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+
+- [Persepolis Download Manager](https://github.com/persepolisdm/persepolis) - Persepolis is a download manager & a GUI for Aria2. It's written in Python. Persepolis is a sample of free and open source software. It's developed for GNU/Linux distributions, BSDs, MacOS, and Microsoft Windows.
+- [uGet Download Manager](https://ugetdm.com/) - uGet is a lightweight yet powerful Open Source download manager for GNU/Linux developed with GTK+, which also comes packaged as a portable Windows app. It is also available for Android.
+- [Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.
+- [FireDM](https://github.com/firedm/FireDM) - FireDM is a python open source (Internet Download Manager) with multi-connections, high speed engine, it downloads general files and videos from youtube and tons of other streaming websites. It is availabe for Linux & Windows.
+- [Xtreme Download Manager](https://github.com/subhra74/xdm) - Xtreme Download Manager (XDM) is a powerful tool to increase download speeds up to 500%, save streaming videos from YouTube, DailyMotion, Facebook, Vimeo, Google Video and 1000+ other websites, resume broken/dead downloads, schedule and convert downloads.
 
 
 ## Social Networks and Platforms
