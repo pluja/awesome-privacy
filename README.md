@@ -366,7 +366,6 @@ IDM, Download Accelerator Plus etc which are proprietary and cost you money plus
 <img width="16" src="misc/check.png"> </img> **YouTube alternative clients:**
 - [Piped](https://github.com/TeamPiped/Piped) - An alternative privacy-friendly YouTube frontend which is efficient by design.
 - [Invidious](https://github.com/iv-org/invidious) - Alternative and privacy respecting YouTube frontend.
-- [Yotter](https://github.com/ytorg/yotter) - YouTube and Twitter with privacy. Never share any of your data to YouTube, yet be able to watch YouTube videos.
 - [NewPipe](https://newpipe.net/) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
     - [NewPipe x Sponsorblock](https://github.com/polymorphicshade/NewPipe) - NewPipe fork that incorporates Sponsorblock.
 - [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
@@ -387,9 +386,8 @@ IDM, Download Accelerator Plus etc which are proprietary and cost you money plus
 
 <img width="16" src="misc/check.png"> </img> **Alternative Twitter Frontends:**
 - [Nitter](https://github.com/zedeus/nitter/wiki/Instances) - Nitter is a free and open source alternative Twitter front-end focused on privacy.
-	- [Feetter](https://github.com/pluja/Feetter) - Create and manage Nitter feeds.
+	- [Feetter](https://github.com/pluja/Feetter) - Create, sync and manage Nitter feeds without registration from any device.
 	- [Fritter](https://github.com/jonjomckay/fritter/) - A free, open-source Nitter client for Android and iOS.
-- [Yotter](https://github.com/ytorg/yotter) - Twitter with privacy with a simple yet beautiful UI.
 
 ### Reddit
 <img width="16" src="misc/forbidden.png"> </img> Try to avoid using Reddit or at least avoid their official clients as they are plenty of trackers, ads and share unnecessary user data with their servers.
