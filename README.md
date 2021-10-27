@@ -505,9 +505,15 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - Yahoo! Mail
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
+
+### Third party owned
 - [ProtonMail](https://protonmail.com/) - Secure Email. Based in Switzerland. [Read this article over Climate activist arrest](https://protonmail.com/blog/climate-activist-arrest/).
 - [Tutanota](https://tutanota.com/) - Secure email for everybody. Open Source.
 - [RiseUp](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
+
+### Self hosted
+- [Mail-in-a-box](https://github.com/mail-in-a-box/mailinabox) - Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box.
+- [Docker mail server](https://github.com/docker-mailserver/docker-mailserver) - A fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) using Docker.
 
 ### Clients
 
@@ -601,6 +607,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 #### Video and Audio
 - [Jellyfin](https://jellyfin.org/) - Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
+- [Dim](https://github.com/Dusk-Labs/dim) - Dim is a self-hosted media manager. With minimal setup, Dim will organize and beautify your media collections, letting you access and play them anytime from anywhere.
 - [Stremio](https://www.stremio.com/) - Stremio is a modern media center that's a one-stop solution for your video entertainment.
 
 #### Audio
