@@ -369,9 +369,9 @@ IDM, Download Accelerator Plus etc which are proprietary and cost you money plus
 - [ViewTube](https://github.com/viewtube/viewtube-vue) - ViewTube is an alternative privacy-friendly YouTube frontend written in Vue.js
 
 <img width="16" src="misc/check.png"> </img> **YouTube alternative clients (apps):**
-- [NewPipe](https://newpipe.net/) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
+- <img width="16" src="misc/android.png"> [NewPipe](https://newpipe.net/) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
     - [NewPipe x Sponsorblock](https://github.com/polymorphicshade/NewPipe) - NewPipe fork that incorporates Sponsorblock.
-- [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
+- <img width="16" src="misc/android.png"> [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend).
 
 ### Twitter
@@ -387,8 +387,8 @@ IDM, Download Accelerator Plus etc which are proprietary and cost you money plus
 
 <img width="16" src="misc/check.png"> </img> **Alternative Twitter Frontends:**
 - [Nitter](https://github.com/zedeus/nitter/wiki/Instances) - Nitter is a free and open source alternative Twitter front-end focused on privacy.
-	- [Feetter](https://github.com/pluja/Feetter) - Create, sync and manage Nitter feeds without registration from any device.
 	- [Fritter](https://github.com/jonjomckay/fritter/) - A free, open-source Nitter client for Android and iOS.
+- [Feetter](https://github.com/pluja/Feetter) - Create, sync and manage Nitter feeds without registration from any device.
 
 ### Reddit
 <img width="16" src="misc/forbidden.png"> </img> Try to avoid using Reddit or at least avoid their official clients as they are plenty of trackers, ads and share unnecessary user data with their servers.
@@ -401,8 +401,8 @@ IDM, Download Accelerator Plus etc which are proprietary and cost you money plus
 <img width="16" src="misc/check.png"> </img> **Privacy respecting Reddit clients:**
 - [Libreddit](https://libredd.it) - Private Reddit front-end written in Rust
 - [Teddit](https://teddit.net/) - Alternative Reddit front-end focused on privacy
-- [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) - A beautiful Reddit client for Android.
-- [Slide](https://github.com/ccrama/Slide) - Slide is an open sourced, ad free Reddit browser for Android and iOS.
+- <img width="16" src="misc/android.png"> [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) - A beautiful Reddit client for Android.
+- <img width="16" src="misc/apple.png"> <img width="16" src="misc/android.png"> [Slide](https://github.com/ccrama/Slide) - Slide is an open sourced, ad free Reddit browser for Android and iOS.
 
 ### Streaming Platforms (Twitch)
 <img width="16" src="misc/forbidden.png"> </img>  Avoid using platforms as Twitch, Patreon, YouTube as they are very privacy-invasive with your viewers (and you!). Instead, you can try using some self-hosted platforms that do take care of everyone's privacy.
@@ -440,7 +440,7 @@ IDM, Download Accelerator Plus etc which are proprietary and cost you money plus
 
 **Alternative Discord clients:**
 > Your IP and messages will still be shared and belong to Discord and they are not encrypted.
-- [Aliucord](https://github.com/Aliucord/Aliucord) - Discord Android app mod inspired by desktop Discord client mods [without Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
+- <img width="16" src="misc/android.png"> [Aliucord](https://github.com/Aliucord/Aliucord) - Discord Android app mod inspired by desktop Discord client mods [without Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
 
 ## Instant Messaging
 **Check out [this site](https://www.securemessagingapps.com/) for comparisons*.
@@ -460,7 +460,7 @@ No single point of control or failure. A decentralized network operated by diffe
 - [Matrix (Protocol)](https://matrix.org/) - An open network for secure, decentralized communication.
    - [Element](https://element.io/) - All-in-one secure chat app for teams, friends and organisations. Keeps conversations in your control, safe from data-mining and ads. End-to-end encryption.
 - [Jabber / XMPP (Protocol)](https://xmpp.org/) - The universal and open messaging standard. Tried and tested. Independent. Privacy-focused. E2E encrypted.
-  - [Conversations](https://conversations.im/) - Jabber/XMPP client for Android 4.0+ smartphones that has been optimized to provide a unique mobile experience.
+  - <img width="16" src="misc/android.png"> [Conversations](https://conversations.im/) - Jabber/XMPP client for Android 4.0+ smartphones that has been optimized to provide a unique mobile experience.
   - [AstraChat](https://astrachat.com/) - Another XMPP client.
 - [DeltaChat](https://delta.chat/) - Chat over encrypted e-mail.
 - [Session](https://getsession.org/) - Extreme focus on privacy. Blockchain technology.
@@ -470,7 +470,7 @@ The service is in charge of running the servers that allow users to communicate.
 
 - [Threema](https://threema.ch/en) - The messenger that puts security and privacy first. Pay once, chat forever. No collection of user data. Open Source client.
 - [Signal](https://signal.org/) - Extreme focus on privacy, combined with all of the features you expect. Strong encryption by design. 100% Open Source.
-  - [Molly](https://github.com/mollyim/mollyim-android) - Signal-compatible fork client with some security enhancements.
+  - <img width="16" src="misc/android.png"> [Molly](https://github.com/mollyim/mollyim-android) - Signal-compatible fork client with some security enhancements.
 - [Status](https://status.im/) - Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.
 
 ### P2P
@@ -519,8 +519,8 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 ### Clients
 
 #### Android / iOS
-- [FairEmail](https://github.com/M66B/FairEmail) - Fully featured, open source, privacy friendly email app for Android.
-- [K9](https://k9mail.app/) - Open Source Email App for Android.
+- <img width="16" src="misc/android.png"> [FairEmail](https://github.com/M66B/FairEmail) - Fully featured, open source, privacy friendly email app for Android.
+- <img width="16" src="misc/android.png"> [K9](https://k9mail.app/) - Open Source Email App for Android.
 
 #### Desktop
 - [Thunderbird](https://www.thunderbird.net) - A free customizable open source email client.
@@ -544,11 +544,11 @@ With email aliases, you can finally create a different identity for each website
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
 - [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
-- [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
+- <img width="16" src="misc/android.png"> [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation capabilities.
 - [Logseq](https://logseq.com/) - A privacy-first alternative to WorkFlowy.
 - [Nextcloud Notes](https://github.com/nextcloud/notes/) - The Notes app is a distraction free notes taking app for Nextcloud.
-  - [Nextcloud Notes for Android](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
+  - <img width="16" src="misc/android.png"> [Nextcloud Notes app](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
 - [Vikunja](https://vikunja.io) - The open-source to-do app to organize your life.
 
 ## Video Conferencing
@@ -592,9 +592,9 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Fitotrack](https://codeberg.org/jannis/FitoTrack) - A privacy oriented fitness tracker for Android.
 - [OpenFoodFacts](https://world.openfoodfacts.org/) - Open Food Facts is a food products database made by everyone, for everyone. You can use it to make better food choices.
     - [OFF Apps](https://world.openfoodfacts.org/open-food-facts-mobile-app)
-- [Drip](https://bloodyhealth.gitlab.io/) - Menstrual cycle and fertility tracking. Everything you enter stays on your device.
-- [log28](https://github.com/wildeyedskies/log28) - a (very) simple no-frills period tracker for Android.
-- [OpenTracks](https://github.com/OpenTracksApp/OpenTracks) - OpenTracks is a sport tracking application that completely respects your privacy.
+- <img width="16" src="misc/android.png"> [Drip](https://bloodyhealth.gitlab.io/) - Menstrual cycle and fertility tracking. Everything you enter stays on your device.
+- <img width="16" src="misc/android.png"> [log28](https://github.com/wildeyedskies/log28) - a (very) simple no-frills period tracker for Android.
+- <img width="16" src="misc/android.png"> [OpenTracks](https://github.com/OpenTracksApp/OpenTracks) - OpenTracks is a sport tracking application that completely respects your privacy.
 
 ## Media Streaming Platforms
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
