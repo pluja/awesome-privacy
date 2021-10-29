@@ -363,15 +363,16 @@ IDM, Download Accelerator Plus etc which are proprietary and cost you money plus
 - [Odysee](https://odysee.com/) - Odysee is a video platform backed by the creators of lbry and uses the lbry blockchain protocol.
 - [DTube](https://github.com/dtube/dtube) - A full-featured video sharing website, decentralized.
 
-<img width="16" src="misc/check.png"> </img> **YouTube alternative clients:**
+<img width="16" src="misc/check.png"> </img> **YouTube alternative frontends (web-based):**
 - [Piped](https://github.com/TeamPiped/Piped) - An alternative privacy-friendly YouTube frontend which is efficient by design.
 - [Invidious](https://github.com/iv-org/invidious) - Alternative and privacy respecting YouTube frontend.
+- [ViewTube](https://github.com/viewtube/viewtube-vue) - ViewTube is an alternative privacy-friendly YouTube frontend written in Vue.js
+
+<img width="16" src="misc/check.png"> </img> **YouTube alternative clients (apps):**
 - [NewPipe](https://newpipe.net/) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
     - [NewPipe x Sponsorblock](https://github.com/polymorphicshade/NewPipe) - NewPipe fork that incorporates Sponsorblock.
 - [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend).
-- [youtube-local](https://github.com/user234683/youtube-local) - Browser-based client for watching YouTube anonymously and with greater page performance.
-- [yt-local](https://git.sr.ht/~heckyel/yt-local) - (Fork of youtube-local) Browser-based client for watching YouTube anonymously without forcing JavaScript.
 
 ### Twitter
 <img width="16" src="misc/forbidden.png"> </img> Avoid using Twitter official app / website. It tracks users and creates user profiles based on what they follow, retweet and like. Twitter harms and violates user privacy with their policies.
