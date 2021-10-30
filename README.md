@@ -90,12 +90,12 @@
 ## Web Browser
 
 #### Android / iOS
-- [Bromite](https://www.bromite.org/) - Android
-- [Vanadium](https://vanadium.app/) - Privacy and security enhanced releases of Chromium for GrapheneOS.
-- [Ungoogled Chromium](https://ungoogled-software.github.io/) - Android
-- [Privacy Browser](https://www.stoutner.com/privacy-browser/) - Android
+- <img width="16" src="misc/android.png"> [Bromite](https://www.bromite.org/)
+- <img width="16" src="misc/android.png"> [Vanadium](https://vanadium.app/) - Privacy and security enhanced releases of Chromium for GrapheneOS.
+- <img width="16" src="misc/android.png"> [Ungoogled Chromium](https://ungoogled-software.github.io/)
+- <img width="16" src="misc/android.png"> [Privacy Browser](https://www.stoutner.com/privacy-browser/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/mobile/) - Android/iOS
-    - [Mull](https://f-droid.org/en/packages/us.spotco.fennec_dos/) - Privacy hardened fork of Firefox for Android, with proprietary blobs removed.
+    - <img width="16" src="misc/android.png"> [Mull](https://f-droid.org/en/packages/us.spotco.fennec_dos/) - Privacy hardened fork of Firefox for Android, with proprietary blobs removed.
 - [Tor Browser](https://www.torproject.org/) - Android/iOS
 - [SnowHaze](https://snowhaze.com/en/index.html) - iOS
 
@@ -111,7 +111,7 @@
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
 
 ### WebView
-- [Bromite WebView](https://www.bromite.org/system_web_view) - Bromite WebView is a version of Android System WebView with support for ad blocking and enhanced privacy.
+- <img width="16" src="misc/android.png"> [Bromite WebView](https://www.bromite.org/system_web_view) - Bromite WebView is a version of Android System WebView with support for ad blocking and enhanced privacy.
   - [WebView Switcher](https://github.com/Magisk-Modules-Repo/bromitewebview) - A tool for installing Bromite WebView on android 10+
 
 ## Photo Storage
@@ -186,11 +186,11 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - Google Authenticator
 
 <img width="16" src="misc/check.png"> </img> Instead use
-- [Aegis](https://getaegis.app/) - A free, secure and open source app for Android to manage your 2-step verification tokens. Supports variety of imports from other apps (Google Authenticator, Authy etc.), vault encryption and exporting keys (plaintext or encrypted).
-- [andOTP](https://github.com/andOTP/andOTP) - Open source two-factor authentication for Android.
-- [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator.
+- <img width="16" src="misc/android.png"> [Aegis](https://getaegis.app/) - A free, secure and open source app for Android to manage your 2-step verification tokens. Supports variety of imports from other apps (Google Authenticator, Authy etc.), vault encryption and exporting keys (plaintext or encrypted).
+- <img width="16" src="misc/android.png"> [andOTP](https://github.com/andOTP/andOTP) - Open source two-factor authentication for Android.
+- <img width="16" src="misc/android.png"> [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator.
 - [RavioOTP](https://github.com/raivo-otp/) - A native, lightweight and secure one-time-password (OTP) solution for **iOS** users.
-- [Authenticator Pro](https://github.com/jamie-mh/AuthenticatorPro) - Two-Factor Authentication (2FA) client for Android + Wear OS.
+- <img width="16" src="misc/android.png"> [Authenticator Pro](https://github.com/jamie-mh/AuthenticatorPro) - Two-Factor Authentication (2FA) client for Android + Wear OS.
 
 ## File Management and Sharing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -280,6 +280,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [F-droid](https://f-droid.org/) - F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.
+	- [Droid-ify](https://github.com/Iamlooker/Droid-ify) - Lightweight F-Droid client with Material UI.
 	- [Aurora Droid](https://auroraoss.com/download/#aurora-droid) - Aurora Droid is a modern FOSS client for F-Droid.
 	- [Foxy Droid](https://github.com/kitsunyan/foxy-droid) - Unofficial F-Droid client in the style of the classic one.
 - [FossDroid](https://fossdroid.com/) - Fossdroid's aim is to promote free and open source apps on the Android platform: newest, trendiest and the most popular ones.
