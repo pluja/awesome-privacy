@@ -735,6 +735,10 @@ Google captchas use cookies to track users and rank their IPs.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Monero](https://www.getmonero.org/) - Monero is cash for a connected world. It's fast, private, untraceable and secure.
+- [Conceal](https://conceal.network/) - Decentralized Finance, Private Transactions & Encrypted Messaging.
+- [Heaven](https://havenprotocol.org/) - Haven is an ecosystem of digital assets that enables users to convert 
+between volatile assets and stable currencies directly within their
+vault, in complete privacy.
 - Cash - Use person-to-person payments using physical notes and coins.
 
 **USE WITH CAUTION**
