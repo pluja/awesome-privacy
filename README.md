@@ -512,6 +512,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [ProtonMail](https://protonmail.com/) - Secure Email. Based in Switzerland. [Read this article over Climate activist arrest](https://protonmail.com/blog/climate-activist-arrest/).
 - [Tutanota](https://tutanota.com/) - Secure email for everybody. Open Source.
 - [RiseUp](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
+- [Posteo](https://posteo.de) - Ad-free and anonymous email service based in Germany.
 
 ### Self hosted
 - [Mail-in-a-box](https://github.com/mail-in-a-box/mailinabox) - Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box.
