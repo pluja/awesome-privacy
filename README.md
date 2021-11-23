@@ -337,6 +337,7 @@ IDM, Download Accelerator Plus etc which are proprietary and cost you money plus
 - [Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.
 - [FireDM](https://github.com/firedm/FireDM) - FireDM is a python open source (Internet Download Manager) with multi-connections, high speed engine, it downloads general files and videos from youtube and tons of other streaming websites. It is availabe for Linux & Windows.
 - [Xtreme Download Manager](https://github.com/subhra74/xdm) - Xtreme Download Manager (XDM) is a powerful tool to increase download speeds up to 500%, save streaming videos from YouTube, DailyMotion, Facebook, Vimeo, Google Video and 1000+ other websites, resume broken/dead downloads, schedule and convert downloads.
+- [axel](https://github.com/axel-download-accelerator/axel) - Lightweight CLI download accelerator. It supports HTTP, HTTPS, FTP and FTPS protocols.
 
 
 ## Social Networks and Platforms
