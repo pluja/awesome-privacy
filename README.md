@@ -545,6 +545,7 @@ With email aliases, you can finally create a different identity for each website
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
+- [Bangle.io](https://bangle.io) - A free alternative to Notion that takes markdown notes saved right in your computer  
 - [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
 - <img width="16" src="misc/android.png"> [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation capabilities.
