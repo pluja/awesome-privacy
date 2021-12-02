@@ -466,6 +466,7 @@ No single point of control or failure. A decentralized network operated by diffe
   - [AstraChat](https://astrachat.com/) - Another XMPP client.
 - [DeltaChat](https://delta.chat/) - Chat over encrypted e-mail.
 - [Session](https://getsession.org/) - Extreme focus on privacy. Blockchain technology.
+- [SimpleX](https://simplex.chat/) - Private, decentralized chat which doesn't use global identities.
 
 ### Centralized
 The service is in charge of running the servers that allow users to communicate. Single point of failure and control, but still 100% safe and trustworthy if the protocols and code are open and audited.
