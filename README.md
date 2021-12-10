@@ -47,7 +47,7 @@
 - [Password Managers](#password-managers)
 - [Mail Services](#mail-services)
 - [Notes and Tasks](#notes-and-tasks)
-- [Video Conferencing](#video-conferencing)
+- [Video and Audio Conferencing](#video-and-audio-conferencing)
 - [Remote Access and Control](#remote-access-and-control)
 - [Fitness and Health](#fitness-and-health)
 - [Media Streaming Platforms](#media-streaming-platforms)
@@ -554,7 +554,7 @@ With email aliases, you can finally create a different identity for each website
   - <img width="16" src="misc/android.png"> [Nextcloud Notes app](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
 - [Vikunja](https://vikunja.io) - The open-source to-do app to organize your life.
 
-## Video Conferencing
+## Video and Audio Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - ZOOM
 - Skype
@@ -562,12 +562,15 @@ With email aliases, you can finally create a different identity for each website
 - WhatsApp
 - Instagram
 - Discord
+- Clubhouse
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Jitsi Meet](https://meet.jit.si/) - More secure, more flexible, and completely free video conferencing. **No account needed, no installation needed**.
 - [Jami](https://jami.net/) - P2P audio and video conferences.
 - [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton is a web conferencing system designed for online learning.
 - [PeerCalls](https://peercalls.com/) - Group peer to peer video calls for everyone written in Go and TypeScript.
+- [Jam](https://github.com/jam-systems/jam) - Jam is your own open source Clubhouse for mini conferences, friends, communities.
+- [Mumble](https://www.mumble.com/) - Mumble is an open source voice communication application with advanced features.
 
 **Alternative Discord clients:**
 > Your IP and messages will still be shared and belong to Discord and they are not encrypted.
