@@ -315,7 +315,7 @@ Third party dialers found on the play store. They may contain ads/trackers and m
 ## Android File Manager
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 
-Preinstalled file manager apps and third party launchers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
+Preinstalled file manager apps found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 
