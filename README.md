@@ -634,7 +634,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [ncspot](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
 
 **Other music streaming projects**
-- [Freezer](https://git.freezerapp.xyz/) - [Source Code](https://github.com/go-gitea/gitea/).
+- [Freezer](https://git.freezerapp.xyz/) - [Source Code](https://git.freezerapp.xyz/).
 
 **Deezer Alternative clients**
 - [dzr](https://github.com/yne/dzr) - Command line Deezer player for Linux, BSD, Android+Termux
