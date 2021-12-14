@@ -549,6 +549,7 @@ With email aliases, you can finally create a different identity for each website
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
+- [HedgeDoc](https://hedgedoc.org/) - Formerly CodiMD (community). An awesome platform to write and share markdown.
 - [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
 - <img width="16" src="misc/android.png"> [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation capabilities.
@@ -556,6 +557,7 @@ With email aliases, you can finally create a different identity for each website
 - [Nextcloud Notes](https://github.com/nextcloud/notes/) - The Notes app is a distraction free notes taking app for Nextcloud.
   - <img width="16" src="misc/android.png"> [Nextcloud Notes app](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
 - [Vikunja](https://vikunja.io) - The open-source to-do app to organize your life.
+- [AppFlowy](https://www.appflowy.io/) - Open Source Notion Alternative. You are in charge of your data and customizations.
 
 ## Video and Audio Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
