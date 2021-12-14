@@ -144,6 +144,9 @@
 - VSCO
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
+#### Web
+- [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
 - [Krita](https://github.com/KDE/krita) - Krita is a free and open source digital painting application
