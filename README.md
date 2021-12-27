@@ -695,6 +695,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Nullitics](https://nullitics.com/) - Zero-effort open-source cheap analytics.
 - [Ackee](https://ackee.electerious.com/) - Self-hosted website analytics.
 - [Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
+- [userTrack](https://www.usertrack.net/) - Self-hosted alternative to Google Analytics and Hotjar.
 
 ## Captchas
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
