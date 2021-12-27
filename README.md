@@ -629,6 +629,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Koel](https://koel.dev/) - a personal music streaming server that works.
 - [Nuclear](https://nuclear.js.org/) - Modern music player focused on streaming from free sources.
 - [Navidrome](https://navidrome.org/) - Lightweight, fast and self-contained personal music streamer.
+- <img width="16" src="misc/android.png"> [BlackHole](https://github.com/Sangwan5688/BlackHole) - A Music Player App made with Flutter 
 
 **Spotify Alternative clients**
  > These clients, although will have less tracking, still DO NOT protect your privacy at all as you will still be streaming from Spotify servers from you own **premium (paid, identified)** account.
