@@ -695,6 +695,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Nullitics](https://nullitics.com/) - Zero-effort open-source cheap analytics.
 - [Ackee](https://ackee.electerious.com/) - Self-hosted website analytics.
 - [Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
+- [Pirsch](https://pirsch.io/) - Pirsch is a simple, privacy-friendly, open-source alternative to Google Analytics — lightweight, cookie-free and easily integrated into any website or backend.
 
 ## Captchas
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
