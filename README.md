@@ -104,6 +104,7 @@
   - [LibreWolf](https://librewolf-community.gitlab.io/) - Privacy-focused Firefox fork.
 - [Ungoogled Chromium](https://ungoogled-software.github.io/)
 - [Tor Browser](https://www.torproject.org/)
+- [Dot Browser (Beta)](https://dothq.co)
 
 > Controversial option: [Brave](https://brave.com/) - Android/iOS. [Read more info on this related discussion](https://libredd.it/r/privacytoolsIO/comments/gytwmd/brave_browser_privacytoolsio_and_the_negativity/) and [the Wikipedia page](https://wikiless.org/wiki/Brave_(web_browser)#Controversies).
 
