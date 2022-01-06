@@ -128,6 +128,7 @@
 - [Photoview](https://photoview.github.io/) - Photo gallery for self-hosted personal servers with Facial Recognition.
 - [Photostructure](https://photostructure.com/) - Self-hosted photo library that makes browsing and sharing a lifetime of memories delightful.
 - [LibrePhotos](https://github.com/LibrePhotos/librephotos) - Active [OwnPhotos](https://github.com/hooram/ownphotos) fork. Self hosted alternative to Google Photos.
+- [ownCloud](https://owncloud.com/) - ownCloud is an open-source file sync, share and content collaboration software that lets teams work on data easily from anywhere, on any device. 
 - [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control. It has a [*Photos*](https://github.com/nextcloud/photos) plugin to help you organize and visualize your photos.
 
 ### Third-party
@@ -166,6 +167,7 @@
 - OneDrive
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
+- [ownCloud](https://owncloud.com/) - ownCloud is an open-source file sync, share and content collaboration software that lets teams work on data easily from anywhere, on any device. 
 - [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control.
 - [Seafile](https://www.seafile.com/en/home/) - High performance file syncing and sharing. It includes a Wiki, WYSIWYG editing and other knowledge management features.
 
