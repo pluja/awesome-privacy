@@ -501,6 +501,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
   - [vaultwarden](https://github.com/dani-garcia/vaultwarden/) - Unofficial Bitwarden compatible self-hosted server, formerly known as bitwarden_rs.
 - [KeepassXC](https://keepassxc.org/) - Securely store passwords using industry standard encryption, no sync just storage.
   - [KeepassDX](https://www.keepassdx.com/) for Android.
+  - [Keepass2Android](https://github.com/PhilippC/keepass2android) for Android (note: [not on F-Droid](https://github.com/PhilippC/keepass2android/issues/38)).
   - [Strongbox](https://strongboxsafe.com/) for iOS.
   - [KeeWeb](https://keeweb.info/) for Web and other platforms.
 - [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
