@@ -417,6 +417,9 @@ IDM, Download Accelerator Plus etc which are proprietary and cost you money plus
 - [Owncast](https://github.com/owncast/owncast) - Take control over your live stream video by running it yourself. Streaming + chat out of the box.
 - [livego](https://github.com/gwuhaolin/livego) - Live video streaming server in golang.
 
+<img width="16" src="misc/check.png"> </img> **Privacy respecting Twitch clients:**
+- [Twire](https://github.com/twireapp/Twire) - Twire is an open source, ad free Twitch browser and stream player for Android.
+
 ### Wikipedia
 <img width="16" src="misc/forbidden.png"> </img> Read more about the issue with Wikipedia on the [Wikiless manifesto](https://codeberg.org/orenom/wikiless#why-i-should-use-wikiless-instead-of-wikipedia).
 
