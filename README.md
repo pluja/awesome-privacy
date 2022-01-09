@@ -173,6 +173,7 @@
 - [Cryptomator](https://cryptomator.org) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
 - [Syncthing](https://syncthing.net/) - Continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.
 - [Rclone](https://rclone.org/) - Rclone is a command line program to manage files on cloud storage. It is a feature rich alternative to cloud vendors' web storage interfaces and like the tools listed above enables encryption for encrypting files in the cloud.
+- [git-annex](https://git-annex.branchable.com/) - Git annex offers robust and flexible file management. Packed with features, future proofing, and many different backends to conenct to cloud services. Git annex assistant provides a convenient gui around the setup.
 
 ## Encryption
 Remember: Without strong encryption, you will be spied on systematically by lots of people.
@@ -213,6 +214,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
   - [Paperless](https://github.com/the-paperless-project/paperless) - [Now archived] Scan, index, and archive all of your paper documents.
 - [OnionShare](https://github.com/micahflee/onionshare) - An open source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network.
 - [Sharik](https://github.com/marchellodev/sharik) - Sharik works with Wi-Fi connection or Tethering (Wi-Fi Hotspot). No internet connection needed. Available for Android, iOS, Linux, MacOS & Windows.
+- [git-annex](https://git-annex.branchable.com/) - Git annex offers robust and flexible file management and syncing. Packed with features, future proofing, and many different backends to conenct to cloud services and offline formats. Git annex assistant provides a convenient gui around the setup.
 
 ## Maps and Navigation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
