@@ -378,8 +378,8 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 
 With email aliases, you can finally create a different identity for each website. Defend against spams, phishing and data breach. You can choose self-hosting any of the following options or you can also use their own platform as a service.
 
-- [Simplelogin](https://github.com/simple-login/app)
-- [Anonaddy](https://github.com/anonaddy/anonaddy)
+- [SimpleLogin](https://github.com/simple-login/app)
+- [AnonAddy](https://github.com/anonaddy/anonaddy)
 
 ## Maps and Navigation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
