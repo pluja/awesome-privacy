@@ -678,6 +678,7 @@ With email aliases, you can finally create a different identity for each website
 - [Nitter](https://github.com/zedeus/nitter/wiki/Instances) - Nitter is a free and open source alternative Twitter front-end focused on privacy.
 	- [Fritter](https://github.com/jonjomckay/fritter/) - A free, open-source Nitter client for Android and iOS.
 - [Feetter](https://github.com/pluja/Feetter) - Create, sync and manage Nitter feeds without registration from any device.
+- [Kizie](https://kizie.co) - Cleaner, better and privacy focussed Twitter client for Web.
 
 ### Reddit
 <img width="16" src="misc/forbidden.png"> </img> Try to avoid using Reddit or at least avoid their official clients as they are plenty of trackers, ads and share unnecessary user data with their servers.
