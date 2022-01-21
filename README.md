@@ -245,6 +245,8 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
 - [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
 - [Picocrypt](https://github.com/HACKERALERT/Picocrypt/) - A very small (hence "Pico"), very simple, yet very secure file encryption tool.
+- [EDS Lite] (https://github.com/sovworks/edslite) - A virtual disk encryption software for Android which allows you to store your files in an encrypted container. 
+- [Crypt4All Lite] (https://play.google.com/store/apps/details?id=com.codewell4.Crypt4AllLite&hl=en_US&gl=US) - This application is used for encrypting and decrypting files with 256 bit AES algorithm.
 
 ## File Management and Sharing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
