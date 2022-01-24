@@ -68,6 +68,7 @@
 - [Uncategorized](#uncategorized)
 - [Utilities](#utilities)
 - [Video and Audio Conferencing](#video-and-audio-conferencing)
+- [Video Editing](#video-editing)
 - [Web Browser](#web-browser)
     - [Browser Sync](#browser-sync)
     - [WebView](#webview)
@@ -783,6 +784,20 @@ With email aliases, you can finally create a different identity for each website
 **Alternative Discord clients:**
 > Your IP and messages will still be shared and belong to Discord and they are not encrypted.
 - [Aulicord](https://github.com/Aliucord/Aliucord) - Discord Android app mod inspired by desktop Discord client mods [without Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
+
+## Video Editing
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- Adobe Premiere
+- Sony Vegas
+- DaVinci Resolve
+
+Such programs come filled with trackers and telemetry. You can get a full list of reasons of why you should **not** use Adobe [here](https://www.gnu.org/proprietary/malware-adobe.html). Almost the same apply for many privative editors.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Olive Video Editor](https://olivevideoeditor.org/) - Free open-source advanced non-linear video editor currently in Alpha state.
+- [kdenlive](https://kdenlive.org/) - Open source video editor. Free and easy to use for any purpose, forever.
+- [Shotcut](https://www.shotcut.org/) - Shotcut is a free, open source and simple cross-platform video editor.
+
 
 ## Web Browser
 
