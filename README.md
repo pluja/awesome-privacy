@@ -245,6 +245,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
 - [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
 - [Picocrypt](https://github.com/HACKERALERT/Picocrypt/) - A very small (hence "Pico"), very simple, yet very secure file encryption tool.
+- [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others. 
 
 ## File Management and Sharing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -601,6 +602,7 @@ With email aliases, you can finally create a different identity for each website
 
 ### Local
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
+- [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others. 
 
 ## Remote Access and Control
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
