@@ -45,7 +45,7 @@
 - [Notes and Tasks](#notes-and-tasks)
 - [Office](#office)
 - [Operating Systems](#operating-systems)
-    - [Android](#android-1)
+    - [Android](#android)
     - [PC / MacOS](#pc--macos)
     - [Smart TV](#smart-tv)
 - [Password Managers](#password-managers)
