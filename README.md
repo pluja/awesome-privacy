@@ -813,7 +813,7 @@ Such programs come filled with trackers and telemetry. You can get a full list o
 
 #### Desktop
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Open Source, independent browser. It needs some [hardening](https://privacytools.io/browsers/#addons) and [tweaking](https://privacytools.io/browsers/#about_config) to achieve great privacy.
-  - [LibreWolf](https://librewolf-community.gitlab.io/) - Privacy-focused Firefox fork.
+  - [LibreWolf](https://librewolf.net/) - Privacy-focused Firefox fork.
 - [Ungoogled Chromium](https://ungoogled-software.github.io/)
 - [Tor Browser](https://www.torproject.org/)
 
