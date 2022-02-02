@@ -70,6 +70,7 @@
 - [Video and Audio Conferencing](#video-and-audio-conferencing)
 - [Video Editing](#video-editing)
 - [Web Browser](#web-browser)
+    - [Browser Addons](#browser-addons) 
     - [Browser Sync](#browser-sync)
     - [WebView](#webview)
 
@@ -818,6 +819,21 @@ Such programs come filled with trackers and telemetry. You can get a full list o
 - [Tor Browser](https://www.torproject.org/)
 
 > Controversial option: [Brave](https://brave.com/) - Android/iOS. [Read more info on this related discussion](https://libredd.it/r/privacytoolsIO/comments/gytwmd/brave_browser_privacytoolsio_and_the_negativity/) and [the Wikipedia page](https://wikiless.org/wiki/Brave_(web_browser)#Controversies).
+
+### Browser Addons
+
+#### Anti-tracking
+Please read about what the addon does before installing. If you don't understand what you are doing you could end up damaging your privacy. Also, too many addons can slow down your browsing experience.
+
+- [uBlock Origin](https://ublockorigin.com/) - Free, open-source ad content blocker. Easy on CPU and memory.
+- [ClearURLs](https://github.com/ClearURLs/Addon) - This extension will automatically remove tracking elements from URLs to help protect your privacy when browsing the Internet and sharing links.
+- [Decentraleyes](https://decentraleyes.org/) - Protects you against tracking through "free", centralized, content delivery.
+- [Cookie Autodelete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) - When a tab closes, any cookies not being used are automatically deleted. Prevent tracking by other cookies and add only the ones you trust.
+- [Smart Referer](https://gitlab.com/smart-referrer/smart-referer/-/blob/master/README.md) - Automatically hide HTTP and JavaScript Referer for cross-domain requests.
+- [Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect) - A simple web extension that redirects Twitter, YouTube, Instagram & Google Maps requests to privacy friendly alternatives. 
+
+#### Tools
+- [Single File](https://github.com/gildas-lormeau/SingleFile) - Save a faithful copy of an entire web page in a single HTML file.
 
 ### Browser Sync
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
