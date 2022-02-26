@@ -424,7 +424,7 @@ With email aliases, you can finally create a different identity for each website
 - [Nuclear](https://nuclear.js.org/) - Modern music player focused on streaming from free sources.
 - [Navidrome](https://navidrome.org/) - Lightweight, fast and self-contained personal music streamer.
 
-**Spotify Alternative clients**
+**Spotify alternative clients**
  > These clients, although will have less tracking, still DO NOT protect your privacy at all as you will still be streaming from Spotify servers from you own **premium (paid, identified)** account.
 
  \* Premium required.
@@ -432,11 +432,14 @@ With email aliases, you can finally create a different identity for each website
 - [psst](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI.
 - [ncspot](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
 
+**Youtube Music alternative clients**
+- [Beatbump](https://github.com/snuffyDev/Beatbump) - Alternative frontend for YouTube Music; no ads and custom API wrapper.
+
+**Deezer alternative clients**
+- [dzr](https://github.com/yne/dzr) - Command line Deezer player for Linux, BSD, Android+Termux
+
 **Other music streaming projects**
 - [Freezer](https://git.freezerapp.xyz/) - [Source Code](https://git.freezerapp.xyz/).
-
-**Deezer Alternative clients**
-- [dzr](https://github.com/yne/dzr) - Command line Deezer player for Linux, BSD, Android+Termux
 
 #### Podcasts
 - [Antennapod](https://antennapod.org/) - The Open Podcast Player.
