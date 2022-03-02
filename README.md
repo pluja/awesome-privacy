@@ -26,6 +26,7 @@
 - [Cloaking](#cloaking)
 - [Cloud Storage](#cloud-storage)
 - [Databases](#databases)
+- [Dating Apps](#dating-apps)
 - [Developer Tools](#developer-tools)
     - [IDEs](#ides)
 - [Domain Registrar](#domain-registrar)
@@ -64,7 +65,6 @@
     - [Wikipedia](#wikipedia)
     - [YouTube](#youtube)
 - [Teamworking Tools](#teamworking-tools)
-- [Dating Apps](#dating-apps)
 - [Translation](#translation)
 - [Uncategorized](#uncategorized)
 - [Utilities](#utilities)
@@ -217,6 +217,19 @@ Google captchas use cookies to track users and rank their IPs.
 <img width="16" src="misc/check.png"> </img> Instead use
 - [Neovim](https://neovim.io/) - Hyperextensible Vim-based text editor.
 - [VSCodium](https://vscodium.com/) - Free/Libre Open Source Software Binaries of VSCode. Vscode source code is open source (MIT-licensed), but the product available for download (Visual Studio Code) is licensed under [this not-FLOSS license](https://code.visualstudio.com/license) and contains telemetry/tracking.
+
+## Dating Apps
+
+Apps such as Tinder collect and sell your personal intimate information. Tinder in particular has been found to [charge users up to five times more for same service](https://foundation.mozilla.org/en/blog/new-research-tinders-opaque-unfair-pricing-algorithm-can-charge-users-up-to-five-times-more-for-same-service/), [extrapolate estimations on your intelligence and other psychometrics and sell it to third parties ](https://libreddit.kavin.rocks/r/privacy/comments/k7x4s7/tinder_extrapolates_estimations_on_your/), [it may know more about you than yourself](https://www.theguardian.com/technology/2017/sep/26/tinder-personal-data-dating-app-messages-hacked-sold), and many more bad things you can find on the internet.
+
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- Tinder
+- Grindr
+- Badoo
+- Lovoo
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Alovoa](https://alovoa.com/) - Free and open-source dating platform that respects your privacy.
 
 ## Domain Registrar
 <img width="16" src="misc/forbidden.png"> </img> Avoid using domain registrars who are privacy invasive. 
@@ -741,19 +754,6 @@ With email aliases, you can finally create a different identity for each website
 **Alternative Discord clients:**
 > Your IP and messages will still be shared and belong to Discord and they are not encrypted.
 - <img width="16" src="misc/android.png"> [Aliucord](https://github.com/Aliucord/Aliucord) - Discord Android app mod inspired by desktop Discord client mods [without Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
-
-## Dating Apps
-
-Apps such as Tinder collect and sell your personal intimate information. Tinder in particular has been found to [charge users up to five times more for same service](https://foundation.mozilla.org/en/blog/new-research-tinders-opaque-unfair-pricing-algorithm-can-charge-users-up-to-five-times-more-for-same-service/), [extrapolate estimations on your intelligence and other psychometrics and sell it to third parties ](https://libreddit.kavin.rocks/r/privacy/comments/k7x4s7/tinder_extrapolates_estimations_on_your/), [it may know more about you than yourself](https://www.theguardian.com/technology/2017/sep/26/tinder-personal-data-dating-app-messages-hacked-sold), and many more bad things you can find on the internet.
-
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Tinder
-- Grindr
-- Badoo
-- Lovoo
-
-<img width="16" src="misc/check.png"> </img>  **Instead use**
-- [Alovoa](https://alovoa.com/) - Free and open-source dating platform that respects your privacy.
 
 ## Translation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
