@@ -54,6 +54,7 @@
 - [Personal Finances](#personal-finances)
 - [Photo Editing and Management](#photo-editing-and-management)
 - [Photo Storage](#photo-storage)
+- [Privacy Tools](#privacy-tools)
 - [Remote Access and Control](#remote-access-and-control)
 - [Search Engines](#search-engines)
 - [Social Networks and Platforms](#social-networks-and-platforms)
@@ -622,6 +623,17 @@ With email aliases, you can finally create a different identity for each website
 ### Local
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
 - [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others. 
+
+## Privacy Tools
+
+This section is dedicated to some tools that may help users analyze the privacy status on their devices.
+
+### Android
+
+- [εxodus](https://reports.exodus-privacy.eu.org/en/) - The privacy audit platform for Android applications. Find how many trackers have your apps.
+	- [ClassyShark3xodus](https://f-droid.org/en/packages/com.oF2pks.classyshark3xodus/) - Checks apk(s) for known trackers (provided by Exodus) +other warnings and specs. 
+- [Plexus](https://plexus.techlore.tech/) - Remove the fear of Android app compatibility on de-Googled devices. Find if an app will work on a De-Googled device.
+- [Netguard](https://netguard.me/) - A simple way to block access to the internet per application.
 
 ## Remote Access and Control
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
