@@ -781,7 +781,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 <img width="16" src="misc/check.png"> </img> **Alternative Google Translate frontends**
 - [Lingva](https://github.com/TheDavidDelta/lingva-translate) - Alternative front-end for Google Translate. [Demo](https://lingva.ml/).
-- [Simplytranslate](https://git.sr.ht/~metalune/simplytranslate_web) - Alternative front-end for Google Translate and LibreTranslate. [Demo](https://translate.metalune.xyz/)
+- [Simplytranslate](https://git.sr.ht/~metalune/simplytranslate_web) - Alternative front-end for Google Translate and LibreTranslate. [Demo](https://simplytranslate.org/)
 
 ## Uncategorized
 - [Skymap](https://skymaponline.net/) - Open online planetarium program.
