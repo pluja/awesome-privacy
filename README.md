@@ -35,6 +35,8 @@
 - [File Management and Sharing](#file-management-and-sharing)
 - [Fitness and Health](#fitness-and-health)
 - [Fonts](#fonts)
+- [Games](#games)
+    - [Minecraft](#minecraft)
 - [Instant Messaging](#instant-messaging)
 - [Location tracking](#location-tracking)
 - [Mail Services](#mail-services)
@@ -305,6 +307,16 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Velvetyne](https://www.velvetyne.fr/)
 - [OpenFoundry](https://open-foundry.com/)
+
+## Games
+
+### Minecraft
+
+You need a Microsoft account to play Minecraft. The game is owned by Microsoft and has [telemetry embeded in it since v21w38a which you can't opt-out](https://bugs.mojang.com/browse/MC-237493).
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Minetest](https://www.minetest.net/) - An open source voxel game engine with many features.
+    - [Mineclone5](https://content.minetest.net/packages/kay27/mineclone5/?protocol_version=40) - Updated version of MineClone2, an attempt to clone Minecraft into Minetest.
 
 ## Instant Messaging
 **Check out [this site](https://www.securemessagingapps.com/) for comparisons*.
