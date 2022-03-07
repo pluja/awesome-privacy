@@ -62,6 +62,7 @@
     - [Instagram](#instagram)
     - [Reddit](#reddit)
     - [Streaming Platforms (Twitch)](#streaming-platforms-twitch)
+    - [TikTok](#tiktok)
     - [Twitter](#twitter)
     - [Wikipedia](#wikipedia)
     - [YouTube](#youtube)
@@ -696,6 +697,13 @@ This section is dedicated to some tools that may help users analyze the privacy 
     - [NewPipe x Sponsorblock](https://github.com/polymorphicshade/NewPipe) - NewPipe fork that incorporates Sponsorblock.
 - <img width="16" src="misc/android.png"> [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend).
+
+### TikTok
+
+<img width="16" src="misc/forbidden.png"> </img> Avoid using TikTok, it is a toxic-designed application that harms not only the user privacy but also user integrity. You can take a read on [these several posts](https://libreddit.kavin.rocks/r/privacy/search?q=tiktok&restrict_sr=on&sort=top&t=all).
+
+<img width="16" src="misc/check.png"> </img> **TikTok alternative frontends (web-based):**
+- [ProxiTok](https://github.com/pablouser1/ProxiTok) - Open source alternative frontend for TikTok
 
 ### Twitter
 <img width="16" src="misc/forbidden.png"> </img> Avoid using Twitter official app / website. It tracks users and creates user profiles based on what they follow, retweet and like. Twitter harms and violates user privacy with their policies.
