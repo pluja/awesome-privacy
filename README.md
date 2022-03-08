@@ -765,8 +765,8 @@ This section is dedicated to some tools that may help users analyze the privacy 
 <img width="16" src="misc/forbidden.png"> </img> Imgur website is plenty of bloat, gifs, cookies, javascript and trackers.
 
 <img width="16" src="misc/check.png"> </img> **Alternatives:**
-- [Imgin](https://imgin.voidnet.tech/) - A minimalist, tor-friendly, read-only Imgur proxy insipired by software like Invidious, Nitter, and Bibliogram.
-
+- [Imgin](https://git.voidnet.tech/kev/imgin) - A minimalist, tor-friendly, read-only Imgur proxy insipired by software like Invidious, Nitter, and Bibliogram.
+- [rimgo](https://codeberg.org/video-prize-ranch/rimgo#instances) - An alternative frontend for Imgur. Read-only, no-js, Based on rimgu and rewritten in Go.
 
 ## Teamworking Tools
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
