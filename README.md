@@ -321,7 +321,9 @@ Nintendo [collects user data](https://libreddit.kavin.rocks/r/privacy/comments/q
 
 ### Minecraft
 
-You need a Microsoft account to play Minecraft. The game is owned by Microsoft and has [telemetry embeded in it since v21w38a which you can't opt-out](https://bugs.mojang.com/browse/MC-237493). Also, [the game](https://www.minecraft.net/en-us/terms) is tied to the [Microsoft privacy terms](https://privacy.microsoft.com/en-us/privacystatement) which is a privacy nightmare.
+The game is owned by Microsoft. If this is not enough, you need a Microsoft account to play Minecraft since March 11th, 2022. Microsoft locks accounts some time not long after account creation and [forces the user](https://github.com/MultiMC/Launcher/issues/4093) [to provide](https://libreddit.kavin.rocks/r/privacy/comments/e6x27o/microsoft_forcing_me_to_give_then_my_phone_number/) a **phone number**. See: [Minecraft FAQ](https://help.minecraft.net/hc/en-us/articles/360050865492-Minecraft-Java-Edition-Account-Migration-FAQ), [1](https://libreddit.kavin.rocks/r/Minecraft/comments/sl8pkv/how_can_my_friend_migrate_her_account_to/hvq2sv6/), [2](https://libreddit.kavin.rocks/r/privacy/comments/spcuj4/microsoft_is_going_to_attempt_to_move_everyone_on/)
+
+The game is owned by Microsoft and has [telemetry embeded in it since v21w38a which you can't opt-out](https://bugs.mojang.com/browse/MC-237493). Also, [the game](https://www.minecraft.net/en-us/terms) is tied to the [Microsoft privacy terms](https://privacy.microsoft.com/en-us/privacystatement) which are a privacy nightmare.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Minetest](https://www.minetest.net/) - An open source voxel game engine with many features.
