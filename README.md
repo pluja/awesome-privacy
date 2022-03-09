@@ -36,6 +36,7 @@
 - [Fitness and Health](#fitness-and-health)
 - [Fonts](#fonts)
 - [Games](#games)
+    - [Mario Kart](#mario-kart) 
     - [Minecraft](#minecraft)
 - [Instant Messaging](#instant-messaging)
 - [Location tracking](#location-tracking)
@@ -310,9 +311,17 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ## Games
 
+### Mario Kart
+Nintendo [collects user data](https://libreddit.kavin.rocks/r/privacy/comments/qtj9xt/til_nintendo_collects_data_from_switch_owners/), and if you disable it, they can [turn it back on](https://www.altchar.com/game-news/the-latest-nintendo-switch-update-secretly-turns-on-user-data-sharing-adSyV7t35NPg). Also, it has a paid plan that is not accessible to everyone economically.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+
+- [SuperTuxKart](https://supertuxkart.net/Main_Page) - A 3D open-source arcade racer with a variety characters, tracks, and modes to play.
+
+
 ### Minecraft
 
-You need a Microsoft account to play Minecraft. The game is owned by Microsoft and has [telemetry embeded in it since v21w38a which you can't opt-out](https://bugs.mojang.com/browse/MC-237493).
+You need a Microsoft account to play Minecraft. The game is owned by Microsoft and has [telemetry embeded in it since v21w38a which you can't opt-out](https://bugs.mojang.com/browse/MC-237493). Also, [the game](https://www.minecraft.net/en-us/terms) is tied to the [Microsoft privacy terms](https://privacy.microsoft.com/en-us/privacystatement) which is a privacy nightmare.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Minetest](https://www.minetest.net/) - An open source voxel game engine with many features.
