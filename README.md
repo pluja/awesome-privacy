@@ -83,7 +83,7 @@
 ## 2FA
 <img width="16" src="misc/forbidden.png"> </img> Avoid using apps that won't let you export your keys **easily**.
 - Authy
-- Google Authenticator
+- Google Authenticator [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 
 <img width="16" src="misc/check.png"> </img> Instead use
 - <img width="16" src="misc/android.png"> [Aegis](https://getaegis.app/) - A free, secure and open source app for Android to manage your 2-step verification tokens. Supports variety of imports from other apps (Google Authenticator, Authy etc.), vault encryption and exporting keys (plaintext or encrypted).
@@ -107,8 +107,7 @@
 
 ## Android App Store
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Google Play Store
-- Amazon Appstore
+- Google Play Store [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [F-Droid](https://f-droid.org/) - F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.
@@ -145,8 +144,8 @@ Preinstalled file managers and third party file manager apps found on the play s
 
 ## Android Keyboard
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- GBoard (Google)
-- SwiftKey
+- GBoard (Google) [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
+- SwiftKey [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 - [OpenBoard](https://github.com/dslul/openboard) - 100% FOSS keyboard, based on AOSP.
@@ -175,7 +174,7 @@ Third party launchers found on the play store. They may contain ads/trackers and
 
 Google captchas use cookies to track users and rank their IPs.
 
-- Google reCAPTCHA
+- Google reCAPTCHA [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [DoomCaptcha](https://github.com/vivirenremoto/doomcaptcha) - Captchas don't have to be boring [READ THE DISCLAIMER ON PROJECT'S WEBSITE](https://vivirenremoto.github.io/doomcaptcha/).
@@ -192,9 +191,9 @@ Google captchas use cookies to track users and rank their IPs.
 
 ## Cloud Storage
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Google Drive
-- Dropbox
-- OneDrive
+- Google Drive [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
+- [![](https://shields.tosdr.org/en_270.svg)](https://tosdr.org/en/service/270)
+- OneDrive [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control.
@@ -206,6 +205,7 @@ Google captchas use cookies to track users and rank their IPs.
 - [Rclone](https://rclone.org/) - Rclone is a command line program to manage files on cloud storage. It is a feature rich alternative to cloud vendors' web storage interfaces and like the tools listed above enables encryption for encrypting files in the cloud.
 
 ## Databases
+[![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 <img width="16" src="misc/forbidden.png"> </img> Avoid using privative databases which you don't control such as Google Firebase.
 
 <img width="16" src="misc/check.png"> </img> Instead use
@@ -228,7 +228,7 @@ Google captchas use cookies to track users and rank their IPs.
 Apps such as Tinder collect and sell your personal intimate information. Tinder in particular has been found to [charge users up to five times more for same service](https://foundation.mozilla.org/en/blog/new-research-tinders-opaque-unfair-pricing-algorithm-can-charge-users-up-to-five-times-more-for-same-service/), [extrapolate estimations on your intelligence and other psychometrics and sell it to third parties ](https://libreddit.kavin.rocks/r/privacy/comments/k7x4s7/tinder_extrapolates_estimations_on_your/), [it may know more about you than yourself](https://www.theguardian.com/technology/2017/sep/26/tinder-personal-data-dating-app-messages-hacked-sold), and many more bad things you can find on the internet.
 
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Tinder
+- [![](https://shields.tosdr.org/en_462.svg)](https://tosdr.org/en/service/462)
 - Grindr
 - Badoo
 - Lovoo
@@ -270,7 +270,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 ## File Management and Sharing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- WeTransfer
+- [![](https://shields.tosdr.org/en_214.svg)](https://tosdr.org/en/service/214)
 - SendAnywhere
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
@@ -303,7 +303,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ## Fonts
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Google Fonts
+- Google Fonts (no selfhosted) [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Velvetyne](https://www.velvetyne.fr/)
@@ -321,6 +321,8 @@ Nintendo [collects user data](https://libreddit.kavin.rocks/r/privacy/comments/q
 
 ### Minecraft
 
+[![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
+
 The game is owned by Microsoft. If this is not enough, you need a Microsoft account to play Minecraft since March 11th, 2022. Microsoft locks accounts some time not long after account creation and [forces the user](https://github.com/MultiMC/Launcher/issues/4093) [to provide](https://libreddit.kavin.rocks/r/privacy/comments/e6x27o/microsoft_forcing_me_to_give_then_my_phone_number/) a **phone number**. See: [Minecraft FAQ](https://help.minecraft.net/hc/en-us/articles/360050865492-Minecraft-Java-Edition-Account-Migration-FAQ), [1](https://libreddit.kavin.rocks/r/Minecraft/comments/sl8pkv/how_can_my_friend_migrate_her_account_to/hvq2sv6/), [2](https://libreddit.kavin.rocks/r/privacy/comments/spcuj4/microsoft_is_going_to_attempt_to_move_everyone_on/)
 
 The game has [telemetry embeded in it since v21w38a which you can't opt-out](https://bugs.mojang.com/browse/MC-237493). Also, [it is tied](https://www.minecraft.net/en-us/terms) to the [Microsoft privacy terms](https://privacy.microsoft.com/en-us/privacystatement) which are a privacy nightmare.
@@ -333,14 +335,15 @@ The game has [telemetry embeded in it since v21w38a which you can't opt-out](htt
 **Check out [this site](https://www.securemessagingapps.com/) for comparisons*.
 
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- WhatsApp
-- Instagram DM
-- Facebook Messenger
-- Skype
-- Zoom
-- Google Hangouts / Chat
+- WhatsApp | [![](https://shields.tosdr.org/en_198.svg)](https://tosdr.org/en/service/198)
+- Instagram DM | [![](https://shields.tosdr.org/en_219.svg)](https://tosdr.org/en/service/219)
+- Facebook Messenger | [![](https://shields.tosdr.org/en_182.svg)](https://tosdr.org/en/service/182)
+- Skype | [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
+- Zoom | [![](https://shields.tosdr.org/en_2198.svg)](https://tosdr.org/en/service/2198)
+- Google Hangouts / Chat | [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
+
 ### Decentralized
 No single point of control or failure. A decentralized network operated by different servers from different volunteers around the globe. You choose where your data stays or you can self-host your own server. Somewhat more complex protocols (because of federation between servers) and some extra metadata is added to the messages (without compromising privacy).
 
@@ -376,8 +379,8 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 
-- Google location history.
-- Google FindMyDevice.
+- Google location history [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
+- Google FindMyDevice [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 
@@ -442,11 +445,11 @@ With email aliases, you can finally create a different identity for each website
 
 ## Media Streaming Platforms
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Amazon Prime Video
-- Netflix
-- Disney+
-- Plex
-- Spotify
+- [![](https://shields.tosdr.org/en_2444.svg)](https://tosdr.org/en/service/2444)
+- [![](https://shields.tosdr.org/en_185.svg)](https://tosdr.org/en/service/185)
+- [![](https://shields.tosdr.org/en_2745.svg)](https://tosdr.org/en/service/2745)
+- Plex 
+- [![](https://shields.tosdr.org/en_225.svg)](https://tosdr.org/en/service/225)
 - SoundCloud
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
@@ -509,8 +512,8 @@ With email aliases, you can finally create a different identity for each website
 ## Office
 
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Microsoft Office.
-- Google Docs.
+- Microsoft Office [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
+- Google Docs [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [LibreOffice](https://www.libreoffice.org/) - Free and open source offline office.
@@ -560,6 +563,7 @@ With email aliases, you can finally create a different identity for each website
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - LastPass
 - Dashlane
+- 1Password
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Bitwarden](https://bitwarden.com) - An open source cloud based password manager.
@@ -573,7 +577,7 @@ With email aliases, you can finally create a different identity for each website
 ## Payments
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Visa / Mastercard
-- Paypal
+- [![](https://shields.tosdr.org/en_230.svg)](https://tosdr.org/en/service/230)
 - WeChat
 - _insertBigTechHere_Pay
 - Bank payments (wire, SEPA, etc)
@@ -604,7 +608,7 @@ With email aliases, you can finally create a different identity for each website
 
 ## Photo Editing and Management
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Adobe Photoshop / Illustrator / Lightroom
+- [![](https://shields.tosdr.org/en_417.svg)](https://tosdr.org/en/service/417)
 - VSCO
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
@@ -625,7 +629,7 @@ With email aliases, you can finally create a different identity for each website
 
 ## Photo Storage
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Google Photos
+- Google Photos [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
     - [Google Photos Takeout Helper](https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper) - Script that organizes the Google Takeout messy archive into one big chronological folder. Use this script to get out of Google Photos :).
 - Amazon Photos
 
@@ -673,10 +677,11 @@ This section is dedicated to some tools that may help users analyze the privacy 
 ## Search Engines
 
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Google Search
-- Yahoo Search
+- [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
+- [![](https://shields.tosdr.org/en_309.svg)](https://tosdr.org/en/service/309)
 - Bing
-- Yandex
+- [![](https://shields.tosdr.org/en_860.svg)](https://tosdr.org/en/service/860)
+- [![](https://shields.tosdr.org/en_591.svg)](https://tosdr.org/en/service/591)
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Whoogle Search](https://github.com/benbusby/whoogle-search) - A self-hosted, ad-free, privacy-respecting Google metasearch engine.
@@ -833,10 +838,10 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 ## Teamworking Tools
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Slack
-- Google Hangouts
-- Microsoft Teams
-- Discord
+- [![](https://shields.tosdr.org/en_206.svg)](https://tosdr.org/en/service/206)
+- Google Hangouts [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
+- Microsoft Teams [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
+- [![](https://shields.tosdr.org/en_536.svg)](https://tosdr.org/en/service/536)
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Zulip](https://zulip.com/) - Chat for distributed teams.
@@ -852,9 +857,9 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 ## Translation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Google Translate
+- Google Translate [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 - DeepL
-- Bing Translator
+- Bing Translator [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 - [Libretranslate](https://libretranslate.com/) - Open Source Machine Translation - 100% Self-Hosted. No Limits. No Ties to Proprietary Services.
@@ -877,12 +882,12 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 ## Video and Audio Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- ZOOM
-- Skype
-- Google Meet
-- WhatsApp
-- Instagram
-- Discord
+- [![](https://shields.tosdr.org/en_2198.svg)](https://tosdr.org/en/service/2198)
+- Skype [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
+- Google Meet [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
+- [![](https://shields.tosdr.org/en_198.svg)](https://tosdr.org/en/service/198)
+- [![](https://shields.tosdr.org/en_219.svg)](https://tosdr.org/en/service/219)
+- [![](https://shields.tosdr.org/en_536.svg)](https://tosdr.org/en/service/536)
 - Clubhouse
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
@@ -899,7 +904,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 ## Video Editing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Adobe Premiere
+- [![](https://shields.tosdr.org/en_417.svg)](https://tosdr.org/en/service/417)
 - Sony Vegas
 - DaVinci Resolve
 
