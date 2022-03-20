@@ -699,6 +699,9 @@ You can use these tools to automatically redirect any links to privacy-respectin
 - [UntrackMe](https://www.f-droid.org/en/packages/app.fedilab.nitterizeme/) - Transform Youtube, Twitter & Instagram links to their free and open source alternatives.
 
 ### Instagram
+
+[![](https://shields.tosdr.org/en_219.svg)](https://tosdr.org/en/service/219)
+
 <img width="16" src="misc/forbidden.png"> </img> Don't use Instagram (or at least the official client). Instagram is a very privacy-invasive app with biased results and feeds based on user profiles, it is also used as a manipulation tool and has a lot of censorship going against free speech. Lastly, it has an addictive and toxic UI design.
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
@@ -719,6 +722,9 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Librarian](https://codeberg.org/librarian/librarian) - An alternative frontend for LBRY/Odysee. Inspired by Invidious and Libreddit.
 
 ### YouTube
+
+[![](https://shields.tosdr.org/en_274.svg)](https://tosdr.org/en/service/274)
+
 <img width="16" src="misc/forbidden.png"> </img> Don't use YouTube (or at least the official client). YouTube is very privacy invasive, it generates a very accurate profile based on your interests. Also it is a [radicalization tool](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization) which shows [biased content to users](https://arxiv.org/pdf/1908.08313.pdf) in order to get more engagement and to get them to watch more and more content creating an [addiction](https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883). It never shows you [alternative opinions](https://arxiv.org/pdf/1908.08313.pdf) to your ideology/bias. YouTube censors a lot. YouTube collects a LOT of your data: interests, free time, ideology, likes, dislikes, music taste, etc.
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
@@ -743,12 +749,17 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 ### TikTok
 
+[![](https://shields.tosdr.org/en_1448.svg)](https://tosdr.org/en/service/1448)
+
 <img width="16" src="misc/forbidden.png"> </img> Avoid using TikTok, it is a toxic-designed application that harms not only the user privacy but also user integrity. You can take a read on [these several posts](https://libreddit.kavin.rocks/r/privacy/search?q=tiktok&restrict_sr=on&sort=top&t=all).
 
 <img width="16" src="misc/check.png"> </img> **TikTok alternative frontends (web-based):**
 - [ProxiTok](https://github.com/pablouser1/ProxiTok) - Open source alternative frontend for TikTok
 
 ### Twitter
+
+[![](https://shields.tosdr.org/en_195.svg)](https://tosdr.org/en/service/195)
+
 <img width="16" src="misc/forbidden.png"> </img> Avoid using Twitter official app / website. It tracks users and creates user profiles based on what they follow, retweet and like. Twitter harms and violates user privacy with their policies.
 
 <img width="16" src="misc/check.png"> </img> **Alternatives to Twitter:**
@@ -766,6 +777,9 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Kizie](https://kizie.co) - Cleaner, better and privacy focussed Twitter client for Web.
 
 ### Reddit
+
+[![](https://shields.tosdr.org/en_194.svg)](https://tosdr.org/en/service/194)
+
 <img width="16" src="misc/forbidden.png"> </img> Try to avoid using Reddit or at least avoid their official clients as they are plenty of trackers, ads and share unnecessary user data with their servers.
 
 <img width="16" src="misc/check.png"> </img> **Reddit alternatives:**
@@ -780,6 +794,9 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - <img width="16" src="misc/apple.png"> <img width="16" src="misc/android.png"> [Slide](https://github.com/ccrama/Slide) - Slide is an open sourced, ad free Reddit browser for Android and iOS.
 
 ### Streaming Platforms (Twitch)
+
+[![](https://shields.tosdr.org/en_200.svg)](https://tosdr.org/en/service/200)
+
 <img width="16" src="misc/forbidden.png"> </img>  Avoid using platforms as Twitch, Patreon, YouTube as they are very privacy-invasive with your viewers (and you!). Instead, you can try using some self-hosted platforms that do take care of everyone's privacy.
 
 <img width="16" src="misc/check.png"> </img> **Alternatives:**
@@ -787,12 +804,18 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [livego](https://github.com/gwuhaolin/livego) - Live video streaming server in golang.
 
 ### Wikipedia
+
+[![](https://shields.tosdr.org/en_265.svg)](https://tosdr.org/en/service/265)
+
 <img width="16" src="misc/forbidden.png"> </img> Read more about the issue with Wikipedia on the [Wikiless manifesto](https://codeberg.org/orenom/wikiless#why-i-should-use-wikiless-instead-of-wikipedia).
 
 <img width="16" src="misc/check.png"> </img> **Alternatives:**
 - [Wikiless](https://wikiless.org/) - A free open source alternative Wikipedia front-end focused on privacy [Source Code](https://codeberg.org/orenom/wikiless).
 
 ### Imgur
+
+[![](https://shields.tosdr.org/en_325.svg)](https://tosdr.org/en/service/325)
+
 <img width="16" src="misc/forbidden.png"> </img> Imgur website is plenty of bloat, gifs, cookies, javascript and trackers.
 
 <img width="16" src="misc/check.png"> </img> **Alternatives:**
@@ -800,6 +823,8 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [rimgo](https://codeberg.org/video-prize-ranch/rimgo#instances) - An alternative frontend for Imgur. Read-only, no-js, Based on rimgu and rewritten in Go.
 
 ### Medium
+
+[![](https://shields.tosdr.org/en_1003.svg)](https://tosdr.org/en/service/1003)
 
 <img width="16" src="misc/forbidden.png"> </img> Medium website has Google trackers and ads.
 
