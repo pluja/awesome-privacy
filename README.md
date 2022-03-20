@@ -712,6 +712,8 @@ You can use these tools to automatically redirect any links to privacy-respectin
 
 ### LBRY and Odysee
 
+![](https://shields.tosdr.org/en_2391.svg)
+
 Odysee website contains some trackers and is a heavy site. You can use these alternatives to avoid trackers and have a more minimalistic and lightweight UI:
 
 - [Librarian](https://codeberg.org/librarian/librarian) - An alternative frontend for LBRY/Odysee. Inspired by Invidious and Libreddit.
