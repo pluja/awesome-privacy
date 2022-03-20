@@ -58,9 +58,11 @@
 - [Privacy Tools](#privacy-tools)
 - [Remote Access and Control](#remote-access-and-control)
 - [Search Engines](#search-engines)
-- [Social Networks and Platforms](#social-networks-and-platforms)
+- [Social Networks and Platforms](#social-networks-and-platforms)	
+    - [Alternative Frontends](#alternative-frontends)
     - [Imgur](#imgur)
     - [Instagram](#instagram)
+    - [LBRY and Odysee](#lbry-and-odysee)
     - [Reddit](#reddit)
     - [Streaming Platforms (Twitch)](#streaming-platforms-twitch)
     - [TikTok](#tiktok)
@@ -686,6 +688,16 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 > Note: Alternative clients will share your IP with the service as they make direct requests.
 
+### Alternative Frontends
+
+Alternative frontends are good to protect your individual privacy. You can still consume the contents of privative and privacy-harmful services with protection over your privacy and some anonimity. Even using most these alternative frontends, still, the privative services will receive requests about the content you are consuming (even not knowing it is you). This sitll harms the collective privacy and adds data to their algorithms in some ways.
+
+You can use these tools to automatically redirect any links to privacy-respecting alternative frontends:
+
+- [Farside](https://github.com/benbusby/farside) - A smart redirecting gateway for various frontend services.
+- [LibRedirect](https://github.com/libredirect/libredirect#get) - A web extension that redirects YouTube, Twitter, Instagram... requests to alternative privacy friendly frontends and backends.
+- [UntrackMe](https://www.f-droid.org/en/packages/app.fedilab.nitterizeme/) - Transform Youtube, Twitter & Instagram links to their free and open source alternatives.
+
 ### Instagram
 <img width="16" src="misc/forbidden.png"> </img> Don't use Instagram (or at least the official client). Instagram is a very privacy-invasive app with biased results and feeds based on user profiles, it is also used as a manipulation tool and has a lot of censorship going against free speech. Lastly, it has an addictive and toxic UI design.
 
@@ -697,6 +709,12 @@ This section is dedicated to some tools that may help users analyze the privacy 
 **Alternative Instagram clients**
 - [Barinsta](https://codeberg.org/avalos/barinsta) - Android instagram alternative client with enhanced privacy features (Your requests will be sent to instagram).
 - [Bibliogram](https://bibliogram.art/) - Watch Instagram's public profile in a friendlier page that loads faster, gives downloadable images, eliminates ads and doesn't urge you to sign up.
+
+### LBRY and Odysee
+
+Odysee website contains some trackers and is a heavy site. You can use these alternatives to avoid trackers and have a more minimalistic and lightweight UI:
+
+- [Librarian](https://codeberg.org/librarian/librarian) - An alternative frontend for LBRY/Odysee. Inspired by Invidious and Libreddit.
 
 ### YouTube
 <img width="16" src="misc/forbidden.png"> </img> Don't use YouTube (or at least the official client). YouTube is very privacy invasive, it generates a very accurate profile based on your interests. Also it is a [radicalization tool](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization) which shows [biased content to users](https://arxiv.org/pdf/1908.08313.pdf) in order to get more engagement and to get them to watch more and more content creating an [addiction](https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883). It never shows you [alternative opinions](https://arxiv.org/pdf/1908.08313.pdf) to your ideology/bias. YouTube censors a lot. YouTube collects a LOT of your data: interests, free time, ideology, likes, dislikes, music taste, etc.
@@ -719,6 +737,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - <img width="16" src="misc/android.png"> [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend).
 - <img width="16" src="misc/android.png"> [LibreTube](https://github.com/Libre-tube/LibreTube) - An alternative frontend for YouTube, for Android using Piped.
+- [Yattee](https://github.com/yattee/yattee) - Alternative YouTube frontend for iOS, tvOS and macOS built with Invidious and Piped.
 
 ### TikTok
 
@@ -777,6 +796,13 @@ This section is dedicated to some tools that may help users analyze the privacy 
 <img width="16" src="misc/check.png"> </img> **Alternatives:**
 - [Imgin](https://git.voidnet.tech/kev/imgin) - A minimalist, tor-friendly, read-only Imgur proxy insipired by software like Invidious, Nitter, and Bibliogram.
 - [rimgo](https://codeberg.org/video-prize-ranch/rimgo#instances) - An alternative frontend for Imgur. Read-only, no-js, Based on rimgu and rewritten in Go.
+
+### Medium
+
+<img width="16" src="misc/forbidden.png"> </img> Medium website has Google trackers and ads.
+
+<img width="16" src="misc/check.png"> </img> **Alternative frontends:**
+- [Scribe](https://sr.ht/~edwardloveall/scribe/) - Medium alternative forntend inspired by Invidious.
 
 ## Teamworking Tools
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
