@@ -355,7 +355,7 @@ No single point of control or failure. A decentralized network operated by diffe
   - <img width="16" src="misc/android.png"> [Conversations](https://conversations.im/) - Jabber/XMPP client for Android 4.0+ smartphones that has been optimized to provide a unique mobile experience.
   - [AstraChat](https://astrachat.com/) - Another XMPP client.
 - [DeltaChat](https://delta.chat/) - Chat over encrypted e-mail.
-- [Session](https://getsession.org/) - Extreme focus on privacy. Blockchain technology.
+- [Session](https://getsession.org/) - Extreme focus on privacy and anonymity. Blockchain technology.
 - [SimpleX Chat](https://simplex.chat/) - The first chat platform that is 100% private by design - it has no access to your connection graph
 
 ### Centralized
