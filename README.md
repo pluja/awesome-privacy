@@ -355,7 +355,7 @@ No single point of control or failure. A decentralized network operated by diffe
   - <img width="16" src="misc/android.png"> [Conversations](https://conversations.im/) - Jabber/XMPP client for Android 4.0+ smartphones that has been optimized to provide a unique mobile experience.
   - [AstraChat](https://astrachat.com/) - Another XMPP client.
 - [DeltaChat](https://delta.chat/) - Chat over encrypted e-mail.
-- [Session](https://getsession.org/) - Extreme focus on privacy. Blockchain technology.
+- [Session](https://getsession.org/) - Extreme focus on privacy and anonymity. Blockchain technology.
 - [SimpleX Chat](https://simplex.chat/) - The first chat platform that is 100% private by design - it has no access to your connection graph
 
 ### Centralized
@@ -689,7 +689,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [Whoogle Search](https://github.com/benbusby/whoogle-search) - A self-hosted, ad-free, privacy-respecting Google metasearch engine.
 - [SearX](https://searx.me/) - Privacy-respecting metasearch engine.
 - [DuckDuckGo](https://duckduckgo.com) - A privacy respecting search engine.
-- [Brave Search](https://search.brave.com) - A privacy respecting search engine with its own index, which doesn't rely on search engines like Google or Bing.
+- [Brave Search](https://search.brave.com) - A privacy respecting search engine with its own index, which for the most part doesn't rely on search engines like Google or Bing, but [falls back on them if not enough results are found](https://search.brave.com/help/independence).
 
 ## Social Networks and Platforms
 
@@ -798,6 +798,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Libreddit](https://libredd.it) - Private Reddit front-end written in Rust
 - [Teddit](https://teddit.net/) - Alternative Reddit front-end focused on privacy
 - <img width="16" src="misc/android.png"> [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) - A beautiful Reddit client for Android.
+- <img width="16" src="misc/android.png"> [Dawn](https://github.com/Tunous/Dawn) - A gesture driven, open source reddit client for android
 - <img width="16" src="misc/apple.png"> <img width="16" src="misc/android.png"> [Slide](https://github.com/ccrama/Slide) - Slide is an open sourced, ad free Reddit browser for Android and iOS.
 
 ### Streaming Platforms (Twitch)
