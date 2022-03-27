@@ -38,6 +38,7 @@
 - [Games](#games)
     - [Mario Kart](#mario-kart) 
     - [Minecraft](#minecraft)
+- [Home Assistants](#home-assistants)
 - [Instant Messaging](#instant-messaging)
 - [Location tracking](#location-tracking)
 - [Mail Services](#mail-services)
@@ -332,6 +333,21 @@ The game has [telemetry embeded in it since v21w38a which you can't opt-out](htt
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Minetest](https://www.minetest.net/) - An open source voxel game engine with many features.
     - [Mineclone5](https://content.minetest.net/packages/kay27/mineclone5/?protocol_version=40) - Updated version of MineClone2, an attempt to clone Minecraft into Minetest.
+
+## Home Assistants
+
+Don't use Google Home or Alexa. Please don't. Don't gift them to anyone. They open the homes doors to surveillace. They can turn these auto-updating devices into surveillance devices at will.
+
+Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/alexa-are-you-invading-my-privacy-the-dark-side-of-our-voice-assistants), [2](https://www.theregister.com/2020/08/08/ai_in_brief/), [3](https://www.networkworld.com/article/3190176/virtual-assistants-hear-everything-so-watch-what-you-say-i-m-not-kidding.html), [4](https://www.democracynow.org/2017/1/4/privacy_advocates_warn_of_potential_surveillance), [5](https://www.mirror.co.uk/news/weird-news/woman-finds-amazon-thousands-recordings-25240984), [6](https://www.seattletimes.com/business/locked-down-lawyers-warned-alexa-is-hearing-confidential-calls/), [7](https://hide.me/en/blog/assistant-devices-are-a-privacy-nightmare/).
+
+- Google Home [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
+- Alexa [![](https://shields.tosdr.org/en_190.svg)](https://tosdr.org/en/service/190)
+- Cortana [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
+- Siri [![](https://shields.tosdr.org/en_158.svg)](https://tosdr.org/en/service/158)
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Mycroft](https://mycroft.ai/) - The Private and Open Voice Assistant.
+- [Home Assistant](https://www.home-assistant.io/) - Open source home automation that puts local control and privacy first.
 
 ## Instant Messaging
 **Check out [this site](https://www.securemessagingapps.com/) for comparisons*.
