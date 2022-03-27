@@ -903,7 +903,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 **Alternative Discord clients:**
 > Your IP and messages will still be shared and belong to Discord and they are not encrypted.
-- [Aulicord](https://github.com/Aliucord/Aliucord) - Discord Android app mod inspired by desktop Discord client mods [without Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
+- [Aliucord](https://github.com/Aliucord/Aliucord) - Discord Android app mod inspired by desktop Discord client mods [without Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
 
 ## Video Editing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
