@@ -491,6 +491,8 @@ With email aliases, you can finally create a different identity for each website
 - [Spot](https://github.com/xou816/spot) - Native Spotify client built in GTK and Rust.
 - [psst](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI.
 - [ncspot](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+- <img width="16" src="misc/android.png"> [blade player](https://github.com/vhaudiquet/BladePlayer) - Open source Android Spotify client, works without premium. Although they say u need premium.
+- <img width="16" src="misc/android.png"> [xManager](https://github.com/xManager-v2/xManager-Spotify) - Open source Spotify manager. Builds Spotify app with additional features.
 
 **Youtube Music alternative clients**
 - [Beatbump](https://github.com/snuffyDev/Beatbump) - Alternative frontend for YouTube Music; no ads and custom API wrapper.
