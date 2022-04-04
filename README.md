@@ -487,10 +487,13 @@ With email aliases, you can finally create a different identity for each website
 **Spotify alternative clients**
  > These clients, although will have less tracking, still DO NOT protect your privacy at all as you will still be streaming from Spotify servers from you own **premium (paid, identified)** account.
 
- \* Premium required.
-- [Spot](https://github.com/xou816/spot) - Native Spotify client built in GTK and Rust.
-- [psst](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI.
-- [ncspot](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+\* Premium required.
+
+- [Spotube](https://github.com/KRTirtho/spotube) - A lightweight free Spotify crossplatform-client.
+- [Spot*](https://github.com/xou816/spot) - Native Spotify client built in GTK and Rust.
+- [psst*](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI.
+- [ncspot*](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.ç
+
 
 **Youtube Music alternative clients**
 - [Beatbump](https://github.com/snuffyDev/Beatbump) - Alternative frontend for YouTube Music; no ads and custom API wrapper.
