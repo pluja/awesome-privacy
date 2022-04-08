@@ -876,8 +876,10 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Mattermost](https://mattermost.com/) - Open-source Slack alternative.
 
 **Alternative Discord clients:**
-> Your IP and messages will still be shared and belong to Discord and they are not encrypted.
-- <img width="16" src="misc/android.png"> [Aliucord](https://github.com/Aliucord/Aliucord) - Discord Android app mod inspired by desktop Discord client mods [without Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
+> Your IP and messages will still be shared and belong to Discord and they are not encrypted.\
+> Also using any modifications for Discord [violates](https://nitter.net/discord/status/1006178587731550208#m) the [Discord ToS](https://discord.com/terms) so, we are not responsible of any suspension or termination of your account **but**, this should [not happen **yet**](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos).
+- [OpenAsar](https://openasar.dev/) - An open-source alternative of Discord desktop's app.asar that comes with a [No Track](https://github.com/GooseMod/OpenAsar/blob/main/src/noTrack.js) function.
+- <img width="16" src="misc/android.png"> [Aliucord](https://github.com/Aliucord/Aliucord) - Discord Android app mod inspired by desktop Discord client mods that fully disables the [Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
 
 ## Translation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -923,8 +925,10 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Mumble](https://www.mumble.com/) - Mumble is an open source voice communication application with advanced features.
 
 **Alternative Discord clients:**
-> Your IP and messages will still be shared and belong to Discord and they are not encrypted.
-- [Aliucord](https://github.com/Aliucord/Aliucord) - Discord Android app mod inspired by desktop Discord client mods [without Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
+> Your IP and messages will still be shared and belong to Discord and they are not encrypted.\
+> Also using any modifications [violate](https://nitter.net/discord/status/1006178587731550208#m) the [Discord ToS](https://discord.com/terms) so, we are not responsible of any suspension or termination of your account **but**, this should [not happen **yet**](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos).
+- [OpenAsar](https://openasar.dev/) - An open-source alternative of Discord desktop's app.asar that comes with a [No Track](https://github.com/GooseMod/OpenAsar/blob/main/src/noTrack.js) function.
+- <img width="16" src="misc/android.png"> [Aliucord](https://github.com/Aliucord/Aliucord) - Discord Android app mod inspired by desktop Discord client mods that fully disables the [Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
 
 ## Video Editing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
