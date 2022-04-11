@@ -679,6 +679,10 @@ With email aliases, you can finally create a different identity for each website
 
 This section is dedicated to some tools that may help users analyze the privacy status on their devices.
 
+### Desktop
+
+- [Whoami Project](https://github.com/owerdogan/whoami-project) - Whoami provides enhanced privacy, anonymity for Debian and Arch based linux distributions.
+
 ### Android
 
 - [εxodus](https://reports.exodus-privacy.eu.org/en/) - The privacy audit platform for Android applications. Find how many trackers have your apps.
