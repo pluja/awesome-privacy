@@ -594,6 +594,7 @@ With email aliases, you can finally create a different identity for each website
   - [Strongbox](https://strongboxsafe.com/) for iOS.
   - [KeeWeb](https://keeweb.info/) for Web and other platforms.
 - [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
+- [Passky](https://passky.org) - Simple, modern, lightweight, open-source and secure password manager.
 
 ## Payments
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -677,6 +678,10 @@ With email aliases, you can finally create a different identity for each website
 ## Privacy Tools
 
 This section is dedicated to some tools that may help users analyze the privacy status on their devices.
+
+### Desktop
+
+- [Whoami Project](https://github.com/owerdogan/whoami-project) - Whoami provides enhanced privacy, anonymity for Debian and Arch based linux distributions.
 
 ### Android
 
