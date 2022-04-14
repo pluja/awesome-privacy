@@ -934,7 +934,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 > Your IP and messages will still be shared and belong to Discord and they are not encrypted.\
 > Also using any of these modifications/clients [violates](https://nitter.net/discord/status/1006178587731550208#m) the [Discord ToS](https://discord.com/terms) so, we are not responsible of any suspension or termination of your account **but**, this should [not happen **yet**](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos).
 - [OpenAsar](https://openasar.dev/) - An open-source alternative of Discord desktop's app.asar that comes with a [No Track](https://github.com/GooseMod/OpenAsar/blob/main/src/noTrack.js) function.
-- [GooseMod](https://goosemod.com/) - A new store-driven Discord mod that comes with a [Fucklytics](https://github.com/GooseMod-Modules/Fucklytics) plugin.
+- [GooseMod](https://goosemod.com/) - A new store-driven Discord mod that comes with a [Fucklytics](https://github.com/GooseMod-Modules/Fucklytics) plugin to block trackers.
 - [Cumcord](https://cumcord.com/) - A Discord client mod for your Discord client mod, also you need to install a [Fucklytics](https://send.cumcord.com/#https://cumcordplugins.github.io/Condom/smartfridge.is-a.dev/Cumcord-plugins/Fucklytics/dist) plugin to block trackers.
 - [BetterDiscord](https://betterdiscord.app/) - A client modification for Discord, also you need to install a [DoNotTrack](https://betterdiscord.app/plugin/DoNotTrack) plugin to block trackers.
 - [Kernel](https://github.com/kernel-mod/electron) - A super small and fast Electron client mod with the most capability, also you need to install a [Discord Utilities](https://github.com/slow/discord-utilities) package to block trackers.
