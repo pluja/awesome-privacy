@@ -801,7 +801,9 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 - [Pleroma](https://pleroma.social/) - Pleroma is a free, federated social networking server built on open protocols.
   - [Soapbox](https://gitlab.com/soapbox-pub/soapbox-fe) - A frontend for Pleroma with a focus on custom branding and ease of use.
+  - <img width="16" src="misc/android.png"> [Husky](https://git.sr.ht/~captainepoch/husky) - Android client for Pleroma and Mastodon.
 - [Mastodon](https://joinmastodon.org/) - Free, federated microblogging social network built on open protocols.
+  - [Mastodon Apps](https://joinmastodon.org/apps) - List of Mastodon apps for Android, iOS, Web and Desktop.
 
 <img width="16" src="misc/check.png"> </img> **Alternative Twitter Frontends:**
 - [Nitter](https://github.com/zedeus/nitter/wiki/Instances) - Nitter is a free and open source alternative Twitter front-end focused on privacy.
