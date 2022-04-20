@@ -487,10 +487,13 @@ With email aliases, you can finally create a different identity for each website
 **Spotify alternative clients**
  > These clients, although will have less tracking, still DO NOT protect your privacy at all as you will still be streaming from Spotify servers from you own **premium (paid, identified)** account.
 
- \* Premium required.
-- [Spot](https://github.com/xou816/spot) - Native Spotify client built in GTK and Rust.
-- [psst](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI.
-- [ncspot](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+\* Premium required.
+
+- [Spotube](https://github.com/KRTirtho/spotube) - A lightweight free Spotify crossplatform-client.
+- [Spot*](https://github.com/xou816/spot) - Native Spotify client built in GTK and Rust.
+- [psst*](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI.
+- [ncspot*](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.ç
+
 
 \* No premium required.
 - <img width="16" src="misc/android.png"> [Blade Player](https://github.com/vhaudiquet/BladePlayer) - Open source Spotify client, works without premium.
@@ -596,6 +599,7 @@ With email aliases, you can finally create a different identity for each website
   - [Strongbox](https://strongboxsafe.com/) for iOS.
   - [KeeWeb](https://keeweb.info/) for Web and other platforms.
 - [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
+- [Passky](https://passky.org) - Simple, modern, lightweight, open-source and secure password manager.
 
 ## Payments
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -679,6 +683,10 @@ With email aliases, you can finally create a different identity for each website
 ## Privacy Tools
 
 This section is dedicated to some tools that may help users analyze the privacy status on their devices.
+
+### Desktop
+
+- [Whoami Project](https://github.com/owerdogan/whoami-project) - Whoami provides enhanced privacy, anonymity for Debian and Arch based linux distributions.
 
 ### Android
 
@@ -798,7 +806,9 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 - [Pleroma](https://pleroma.social/) - Pleroma is a free, federated social networking server built on open protocols.
   - [Soapbox](https://gitlab.com/soapbox-pub/soapbox-fe) - A frontend for Pleroma with a focus on custom branding and ease of use.
+  - <img width="16" src="misc/android.png"> [Husky](https://git.sr.ht/~captainepoch/husky) - Android client for Pleroma and Mastodon.
 - [Mastodon](https://joinmastodon.org/) - Free, federated microblogging social network built on open protocols.
+  - [Mastodon Apps](https://joinmastodon.org/apps) - List of Mastodon apps for Android, iOS, Web and Desktop.
 
 <img width="16" src="misc/check.png"> </img> **Alternative Twitter Frontends:**
 - [Nitter](https://github.com/zedeus/nitter/wiki/Instances) - Nitter is a free and open source alternative Twitter front-end focused on privacy.
@@ -877,9 +887,17 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Nextcloud Talk](https://nextcloud.com/talk/) - Keep conversations private with Nextcloud Talk.
 - [Mattermost](https://mattermost.com/) - Open-source Slack alternative.
 
-**Alternative Discord clients:**
-> Your IP and messages will still be shared and belong to Discord and they are not encrypted.
-- <img width="16" src="misc/android.png"> [Aliucord](https://github.com/Aliucord/Aliucord) - Discord Android app mod inspired by desktop Discord client mods [without Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
+**Alternative clients/modifications of Discord:**
+> Your IP and messages will still be shared and belong to Discord and they are not encrypted.\
+> Also using any of these modifications/clients [violates](https://nitter.net/discord/status/1006178587731550208#m) the [Discord ToS](https://discord.com/terms) so, we are not responsible of any suspension or termination of your account **but**, this should [not happen **yet**](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos).
+- [OpenAsar](https://openasar.dev/) - An open-source alternative of Discord desktop's app.asar that comes with a [No Track](https://github.com/GooseMod/OpenAsar/blob/main/src/noTrack.js) function.
+- [GooseMod](https://goosemod.com/) - A new store-driven Discord mod that comes with a [Fucklytics](https://github.com/GooseMod-Modules/Fucklytics) plugin to block trackers.
+- [Cumcord](https://cumcord.com/) - A Discord client mod for your Discord client mod, also you need to install a [Fucklytics](https://send.cumcord.com/#https://cumcordplugins.github.io/Condom/smartfridge.is-a.dev/Cumcord-plugins/Fucklytics/dist) plugin to block trackers.
+- [BetterDiscord](https://betterdiscord.app/) - A client modification for Discord, also you need to install a [DoNotTrack](https://betterdiscord.app/plugin/DoNotTrack) plugin to block trackers.
+- [Kernel](https://github.com/kernel-mod/electron) - A super small and fast Electron client mod with the most capability, also you need to install a [Discord Utilities](https://github.com/slow/discord-utilities) package to block trackers.
+- [Powercord](https://powercord.dev/) - A lightweight client mod focused on simplicity and performance that comes with a [No Track](https://github.com/powercord-org/powercord/blob/v2/src/Powercord/coremods/no-track/index.js) function.
+- [WebCord](https://github.com/SpacingBat3/WebCord) - A Discord and Fosscord API-less client made with the Electron.
+- <img width="16" src="misc/android.png"> [Aliucord](https://github.com/Aliucord/Aliucord) - A modification for the Android Discord app that fully [disables the Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
 
 ## Translation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -924,9 +942,17 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Jam](https://github.com/jam-systems/jam) - Jam is your own open source Clubhouse for mini conferences, friends, communities.
 - [Mumble](https://www.mumble.com/) - Mumble is an open source voice communication application with advanced features.
 
-**Alternative Discord clients:**
-> Your IP and messages will still be shared and belong to Discord and they are not encrypted.
-- [Aliucord](https://github.com/Aliucord/Aliucord) - Discord Android app mod inspired by desktop Discord client mods [without Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
+**Alternative clients/modifications of Discord:**
+> Your IP and messages will still be shared and belong to Discord and they are not encrypted.\
+> Also using any of these modifications/clients [violates](https://nitter.net/discord/status/1006178587731550208#m) the [Discord ToS](https://discord.com/terms) so, we are not responsible of any suspension or termination of your account **but**, this should [not happen **yet**](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos).
+- [OpenAsar](https://openasar.dev/) - An open-source alternative of Discord desktop's app.asar that comes with a [No Track](https://github.com/GooseMod/OpenAsar/blob/main/src/noTrack.js) function.
+- [GooseMod](https://goosemod.com/) - A new store-driven Discord mod that comes with a [Fucklytics](https://github.com/GooseMod-Modules/Fucklytics) plugin to block trackers.
+- [Cumcord](https://cumcord.com/) - A Discord client mod for your Discord client mod, also you need to install a [Fucklytics](https://send.cumcord.com/#https://cumcordplugins.github.io/Condom/smartfridge.is-a.dev/Cumcord-plugins/Fucklytics/dist) plugin to block trackers.
+- [BetterDiscord](https://betterdiscord.app/) - A client modification for Discord, also you need to install a [DoNotTrack](https://betterdiscord.app/plugin/DoNotTrack) plugin to block trackers.
+- [Kernel](https://github.com/kernel-mod/electron) - A super small and fast Electron client mod with the most capability, also you need to install a [Discord Utilities](https://github.com/slow/discord-utilities) package to block trackers.
+- [Powercord](https://powercord.dev/) - A lightweight client mod focused on simplicity and performance that comes with a [No Track](https://github.com/powercord-org/powercord/blob/v2/src/Powercord/coremods/no-track/index.js) function.
+- [WebCord](https://github.com/SpacingBat3/WebCord) - A Discord and Fosscord API-less client made with the Electron.
+- <img width="16" src="misc/android.png"> [Aliucord](https://github.com/Aliucord/Aliucord) - A modification for the Android Discord app that fully [disables the Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
 
 ## Video Editing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -960,7 +986,9 @@ Such programs come filled with trackers and telemetry. You can get a full list o
 - [Ungoogled Chromium](https://ungoogled-software.github.io/)
 - [Tor Browser](https://www.torproject.org/)
 
-> Controversial option: [Brave](https://brave.com/) - Android/iOS. [Read more info on this related discussion](https://libredd.it/r/privacytoolsIO/comments/gytwmd/brave_browser_privacytoolsio_and_the_negativity/) and [the Wikipedia page](https://wikiless.org/wiki/Brave_(web_browser)#Controversies).
+> Controversial option:\
+> [Brave](https://brave.com/) - Android/iOS.\
+[Read more info on this related discussion](https://libredd.it/r/privacytoolsIO/comments/gytwmd/brave_browser_privacytoolsio_and_the_negativity/) and [the Wikipedia page](https://wikiless.org/wiki/Brave_(web_browser)#Controversies).
 
 ### Browser Addons
 
