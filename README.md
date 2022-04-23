@@ -495,6 +495,11 @@ With email aliases, you can finally create a different identity for each website
 - [ncspot*](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.ç
 
 
+\* No premium required.
+
+- <img width="16" src="misc/android.png"> [Blade Player](https://github.com/vhaudiquet/BladePlayer) - Open source Spotify client, works without premium.
+
+
 **Youtube Music alternative clients**
 - [Beatbump](https://github.com/snuffyDev/Beatbump) - Alternative frontend for YouTube Music; no ads and custom API wrapper.
 
