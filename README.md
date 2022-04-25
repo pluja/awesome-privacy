@@ -813,7 +813,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 <img width="16" src="misc/check.png"> </img> **Alternative Twitter Frontends:**
 - [Nitter](https://github.com/zedeus/nitter/wiki/Instances) - Nitter is a free and open source alternative Twitter front-end focused on privacy.
 	- [Fritter](https://github.com/jonjomckay/fritter/) - A free, open-source Nitter client for Android.
-- [Feetter](https://github.com/pluja/Feetter) - Create, sync and manage Nitter feeds without registration from any device.
+- [Feetter](https://codeberg.org/pluja/Feetter) - Create, sync and manage Nitter feeds without registration from any device.
 - [Kizie](https://kizie.co) - Cleaner, better and privacy focussed Twitter client for Web.
 
 ### Reddit
