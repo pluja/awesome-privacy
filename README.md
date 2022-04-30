@@ -40,6 +40,7 @@
     - [Minecraft](#minecraft)
 - [Home Assistants](#home-assistants)
 - [Instant Messaging](#instant-messaging)
+- [Link Shorteners](#link-shorteners)
 - [Location tracking](#location-tracking)
 - [Mail Services](#mail-services)
 - [Maps and Navigation](#maps-and-navigation)
@@ -392,6 +393,17 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 #### Worth mentioning
 - [Berty](https://berty.tech/) - Not released yet. The privacy-first messaging app that works with or without internet access, cellular data or trust in the network.
 - [Telegram](https://telegram.org/) - Not fully open source. No E2E encryption by default on chats.
+
+## Link Shorteners
+
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+- Bit.ly
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+
+- [MagLit](https://maglit.me) - An encrypted and privacy respecting Link Shortener service that also supports Magnet Links.
+
 
 ## Location tracking
 
