@@ -613,10 +613,6 @@ With email aliases, you can finally create a different identity for each website
 - [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
 - [Passky](https://passky.org) - Simple, modern, lightweight, open-source and secure password manager.
 - [LessPass](https://www.lesspass.com) - Stateless password manager. Remember one master password to access your passwords. No sync needed.
-  - [LessPass App](https://play.google.com/store/apps/details?id=com.lesspass.android) for Android.
-  - [LessPass App](https://apps.apple.com/us/app/lesspass/id1531215924) for iOS.
-  - [LessPass Extension](https://addons.mozilla.org/en-US/firefox/addon/lesspass/) for Firefox.
-  - [LessPass Extension](https://chrome.google.com/webstore/detail/lesspass/lcmbpoclaodbgkbjafnkbbinogcbnjih) for Chrome/Chromium.
 
 ## Payments
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
