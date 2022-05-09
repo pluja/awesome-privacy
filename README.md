@@ -310,6 +310,10 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - Google Fonts (no selfhosted) [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
+### Google Fonts Replacements
+- [coolLabs Fonts](https://fonts.coollabs.io/) - A privacy-friendly drop-in replacement for Google Fonts.
+
+### Foundries
 - [Velvetyne](https://www.velvetyne.fr/)
 - [OpenFoundry](https://open-foundry.com/)
 
