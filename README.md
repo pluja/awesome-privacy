@@ -710,6 +710,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 	- [ClassyShark3xodus](https://f-droid.org/en/packages/com.oF2pks.classyshark3xodus/) - Checks apk(s) for known trackers (provided by Exodus) +other warnings and specs. 
 - [Plexus](https://plexus.techlore.tech/) - Remove the fear of Android app compatibility on de-Googled devices. Find if an app will work on a De-Googled device.
 - [Netguard](https://netguard.me/) - A simple way to block access to the internet per application.
+- [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - An open-source, no-root firewall and DNS changer, with anti-censorship capabilities for Android 6+.
 
 ## Remote Access and Control
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
