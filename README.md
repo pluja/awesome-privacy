@@ -629,6 +629,7 @@ With email aliases, you can finally create a different identity for each website
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Monero](https://www.getmonero.org/) - Monero is cash for a connected world. It's fast, private, untraceable and secure.
+- [MobileCoin](https://mobilecoin.com/) - MobileCoin is the only sustainable cryptocurrency that's fast and simple enough for everyday encrypted payments directly on your mobile device. 
 - Cash - Use person-to-person payments using physical notes and coins.
 
 **USE WITH CAUTION**
