@@ -616,6 +616,7 @@ With email aliases, you can finally create a different identity for each website
   - [KeeWeb](https://keeweb.info/) for Web and other platforms.
 - [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
 - [Passky](https://passky.org) - Simple, modern, lightweight, open-source and secure password manager.
+- [LessPass](https://www.lesspass.com) - Stateless password manager. Remember one master password to access your passwords. No sync needed.
 
 ## Payments
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
