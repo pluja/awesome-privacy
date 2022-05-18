@@ -25,6 +25,7 @@
 - [Captchas](#captchas)
 - [Cloaking](#cloaking)
 - [Cloud Storage](#cloud-storage)
+- [Company Tools](#company-tools)
 - [Databases](#databases)
 - [Dating Apps](#dating-apps)
 - [Developer Tools](#developer-tools)
@@ -207,6 +208,14 @@ Google captchas use cookies to track users and rank their IPs.
 - [Cryptomator](https://cryptomator.org) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service
 - [Syncthing](https://syncthing.net/) - Continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.
 - [Rclone](https://rclone.org/) - Rclone is a command line program to manage files on cloud storage. It is a feature rich alternative to cloud vendors' web storage interfaces and like the tools listed above enables encryption for encrypting files in the cloud.
+
+## Company Tools
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- [Atlassian](https://www.atlassian.com/) [![](https://shields.tosdr.org/en_576.svg)](https://tosdr.org/en/service/576)
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [GitHub](https://github.com) [![](https://shields.tosdr.org/en_297.svg)](https://tosdr.org/en/service/297) - Not perfect but a better alternative than the services listed above.
+
 
 ## Databases
 [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
