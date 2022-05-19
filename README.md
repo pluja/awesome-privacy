@@ -35,6 +35,7 @@
 - [File Management and Sharing](#file-management-and-sharing)
 - [Fitness and Health](#fitness-and-health)
 - [Fonts](#fonts)
+- [Forms](#forms)
 - [Games](#games)
     - [Mario Kart](#mario-kart) 
     - [Minecraft](#minecraft)
@@ -318,6 +319,15 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Velvetyne](https://www.velvetyne.fr/)
 - [OpenFoundry](https://open-foundry.com/)
 
+## Forms
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- Google Forms [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [TypeBot](https://typebot.io) - Open-source conversational forms.
+- [CryptPad Forms](https://cryptpad.fr/form/) - Part of the Cryptpad end-to-end encrypted and open-source collaboration suite.
+- [FramaForms](https://framaforms.org/) - Design your online surveys easily while respecting your audience.
+
 ## Games
 
 ### Mario Kart
@@ -545,6 +555,7 @@ With email aliases, you can finally create a different identity for each website
 - <img width="16" src="misc/android.png"> [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
 - <img width="16" src="misc/android.png"> [Quillnote](https://qosp.org/#/) - Take beautiful markdown notes and stay organized with task lists.
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation capabilities.
+- [YankNote](https://github.com/purocean/yn) - A Hackable Markdown Note Application for Programmers.
 - [Logseq](https://logseq.com/) - A privacy-first alternative to WorkFlowy.
 - [Nextcloud Notes](https://github.com/nextcloud/notes/) - The Notes app is a distraction free notes taking app for Nextcloud.
   - <img width="16" src="misc/android.png"> [Nextcloud Notes app](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
