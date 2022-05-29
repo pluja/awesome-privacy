@@ -704,6 +704,9 @@ With email aliases, you can finally create a different identity for each website
 
 
 ### Third-party
+- [Ente](https://ente.io/) - End-to-end encrypted storage for photos and videos,
+  with family plans and options to share photos and videos with friends. Open
+  source apps.
 - [Stingle Photos](https://stingle.org/) - Open source solution that provides strong security, privacy and encryption to backup your photos.
 - [Crypt.ee](https://crypt.ee/) - A private and encrypted place for all your photos, documents, notes and more.
 
