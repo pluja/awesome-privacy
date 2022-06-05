@@ -39,6 +39,7 @@
 - [Games](#games)
     - [Mario Kart](#mario-kart) 
     - [Minecraft](#minecraft)
+- [Git Services](#git-services)
 - [Home Assistants](#home-assistants)
 - [Instant Messaging](#instant-messaging)
 - [Link Shorteners](#link-shorteners)
@@ -338,6 +339,16 @@ Nintendo [collects user data](https://libreddit.kavin.rocks/r/privacy/comments/q
 
 - [SuperTuxKart](https://supertuxkart.net/Main_Page) - A 3D open-source arcade racer with a variety characters, tracks, and modes to play.
 
+## Git Services
+Avoid using GitHub, they are owned by Microsoft. While having a good rating on ToSDR, there are better and more privacy-focused alternatives.
+
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- GitHub [![](https://shields.tosdr.org/en_297.svg)](https://shields.tosdr.org/en_297.svg)
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Gitea](https://github.com/go-gitea/gitea) - The goal of this project is to make the easiest, fastest, and most painless way of setting up a self-hosted Git service.
+- [Codeberg](https//codeberg.org) - Codeberg is a democratic community-driven, non-profit software development platform operated by Codeberg e.V. and centered around Codeberg.org, a Gitea-based software forge.
+- [GitLab](https://gitlab.com) - GitLab is an open source Git platform which can be hosted and self-hosted.
 
 ### Minecraft
 
