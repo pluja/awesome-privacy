@@ -352,6 +352,12 @@ The game has [telemetry embeded in it since v21w38a which you can't opt-out](htt
 - [Minetest](https://www.minetest.net/) - An open source voxel game engine with many features.
     - [Mineclone5](https://content.minetest.net/packages/kay27/mineclone5/?protocol_version=40) - Updated version of MineClone2, an attempt to clone Minecraft into Minetest.
 
+### Plugins for Minecraft
+
+If you still want to play Minecraft, you can add some plugins that can help you preserve a bit your privacy. But still consider that you are supporting Microsfot this way.
+
+- [No-Telemetry](https://github.com/kb-1000/no-telemetry) - Mod that disables the usage data collection, aka telemetry, introduced in Minecraft 1.18 (snapshot 21w38a).
+
 ## Home Assistants
 
 Don't use Google Home or Alexa. Please don't. Don't gift them to anyone. They open the homes doors to surveillace. They can turn these auto-updating devices into surveillance devices at will.
