@@ -546,9 +546,6 @@ With email aliases, you can finally create a different identity for each website
 **Deezer alternative clients**
 - [dzr](https://github.com/yne/dzr) - Command line Deezer player for Linux, BSD, Android+Termux
 
-**Other music streaming projects**
-- [Freezer](https://git.freezerapp.xyz/) - [Source Code](https://git.freezerapp.xyz/explore/repos?q=freezer).
-
 #### Podcasts
 - [Antennapod](https://antennapod.org/) - The Open Podcast Player.
 
