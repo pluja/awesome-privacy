@@ -275,6 +275,11 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Picocrypt](https://github.com/HACKERALERT/Picocrypt/) - A very small (hence "Pico"), very simple, yet very secure file encryption tool.
 - [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others. 
 
+### OS Encryption
+
+- [Cryptsetup](https://gitlab.com/cryptsetup/cryptsetup) - Full disk encryption for Linux. Cryptsetup is a utility used to conveniently set up disk encryption based
+on the DMCrypt kernel module.
+
 ## File Management and Sharing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - [![](https://shields.tosdr.org/en_214.svg)](https://tosdr.org/en/service/214)
