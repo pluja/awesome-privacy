@@ -218,6 +218,7 @@ Google captchas use cookies to track users and rank their IPs.
 <img width="16" src="misc/check.png"> </img> Instead use
 - [Appwrite](https://appwrite.io/) - Secure open-source backend server for web, mobile & Flutter developers.
 - [Supabase](https://supabase.io/) - Open source Firebase alternative ([Limited](https://github.com/supabase/supabase/issues/4934) [self-hosting](https://github.com/supabase/supabase/issues/4440#issuecomment-992108832))
+- [Pocketbase](https://pocketbase.io/) - Open Source backend in 1 file written in Go.
 - [CondensationDB](https://github.com/CondensationDB/Condensation) [Inactive] - Condensation is an open-source zero trust, distributed database enabling to build modern applications while ensuring data ownership and security.
 
 ## Developer Tools
