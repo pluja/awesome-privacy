@@ -767,6 +767,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Whoogle Search](https://github.com/benbusby/whoogle-search) - A self-hosted, ad-free, privacy-respecting Google metasearch engine.
 - [SearX](https://searx.me/) - Privacy-respecting metasearch engine.
+  - [SearxNG](https://github.com/searxng/searxng) - Free internet metasearch engine which aggregates results from various search services and databases.  
 - [DuckDuckGo](https://duckduckgo.com) - A privacy respecting search engine.
 - [Brave Search](https://search.brave.com) - A privacy respecting search engine with its own index, which for the most part doesn't rely on search engines like Google or Bing, but [falls back on them if not enough results are found](https://search.brave.com/help/independence).
 
