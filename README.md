@@ -464,6 +464,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [ProtonMail](https://protonmail.com/) - Secure Email. Based in Switzerland. [Read this article over Climate activist arrest](https://protonmail.com/blog/climate-activist-arrest/).
 - [Tutanota](https://tutanota.com/) - Secure email for everybody. Open Source.
 - [Riseup](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
+- [Skiff](https://skiff.com) - Privacy-first, end-to-end encrypted, open-source email and collaboration that can be used completely anonymously.
 
 ### Self hosted
 - [Mail-in-a-box](https://github.com/mail-in-a-box/mailinabox) - Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box.
@@ -585,6 +586,7 @@ With email aliases, you can finally create a different identity for each website
 - [OnlyOffice](https://www.onlyoffice.com/) - Free and open source online office for collaboration.
 - [Cryptpad](https://cryptpad.fr/) - Collaboration suite, encrypted and open-source.
 - [Etherpad](https://etherpad.org/) - Highly customizable open source online editor providing collaborative editing in really real-time.
+- [Skiff](https://skiff.com/) - End-to-end encrypted real-time document collaboration and file storage.
 
 ## Operating Systems
 ### Android
