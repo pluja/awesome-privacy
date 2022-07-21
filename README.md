@@ -530,6 +530,7 @@ With email aliases, you can finally create a different identity for each website
 
 \* Premium required.
 
+- [Jetispot](https://github.com/iTaysonLab/jetispot) - Experimental UNOFFICIAL Spotify client for Android built on librespot-java + Jetpack Compose 
 - [Spotube](https://github.com/KRTirtho/spotube) - A lightweight free Spotify crossplatform-client.
 - [Spot*](https://github.com/xou816/spot) - Native Spotify client built in GTK and Rust.
 - [psst*](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI.
