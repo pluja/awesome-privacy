@@ -80,6 +80,7 @@
 - [Utilities](#utilities)
 - [Video and Audio Conferencing](#video-and-audio-conferencing)
 - [Video Editing](#video-editing)
+- [Virtual Private Networks (VPNs)](#VPNs)
 - [Web Browser](#web-browser)
     - [Browser Addons](#browser-addons) 
     - [Browser Sync](#browser-sync)
@@ -1018,6 +1019,21 @@ Such programs come filled with trackers and telemetry. You can get a full list o
 - [kdenlive](https://kdenlive.org/) - Open source video editor. Free and easy to use for any purpose, forever.
 - [Shotcut](https://www.shotcut.org/) - Shotcut is a free, open source and simple cross-platform video editor.
 
+## VPNs
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+- [Free VPNs](https://techcrunch.com/2020/09/24/free-vpn-bad-for-privacy/) from Google Play or any appstore. These services are not free as they will suck your connections data, keep logs and profile you to [sell your data to advertisers](https://thenextweb.com/news/be-cautious-free-vpns-are-selling-your-data-to-3rd-parties). If a govenrment wants to track someone, such apps will be the first ones to fall.
+
+- Closed source VPN apps such as Surfshark or NordVPN may be less trustworthy as nobody can be sure how they handle your data. Also, paying with Credit Card will get you identified on the payment. Furthermore, if you need to give your email it will also identify you if this same email has been used in other services.
+
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+
+Here are some open source and truly private (no personal data and/or credit card needed) options:
+
+- [Mullvad VPN](https://mullvad.net)
+- [IVPN](https://ivpn.net)
+- [SPN](https://safing.io/)
 
 ## Web Browser
 
