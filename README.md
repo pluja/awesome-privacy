@@ -361,7 +361,7 @@ The game has [telemetry embeded in it since v21w38a which you can't opt-out](htt
 
 ### Plugins for Minecraft
 
-If you still want to play Minecraft, you can add some plugins that can help you preserve a bit your privacy. But still consider that you are supporting Microsfot this way.
+If you still want to play Minecraft, you can add some plugins that can help you preserve a bit your privacy. But still consider that you are supporting Microsoft this way.
 
 - [No-Telemetry](https://github.com/kb-1000/no-telemetry) - Mod that disables the usage data collection, aka telemetry, introduced in Minecraft 1.18 (snapshot 21w38a).
 - [No-Chat-Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) - Strips cryptographic signatures from player messages, making it impossible to track and associate them with your Mojang/Microsoft account.
