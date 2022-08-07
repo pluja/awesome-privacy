@@ -200,7 +200,7 @@ Google captchas use cookies to track users and rank their IPs.
 ## Cloud Storage
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Google Drive [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
-- [![](https://shields.tosdr.org/en_270.svg)](https://tosdr.org/en/service/270)
+- DropBox [![](https://shields.tosdr.org/en_270.svg)](https://tosdr.org/en/service/270)
 - OneDrive [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
