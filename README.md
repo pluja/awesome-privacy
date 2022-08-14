@@ -546,6 +546,7 @@ With email aliases, you can finally create a different identity for each website
 
 **Youtube Music alternative clients**
 - [Beatbump](https://github.com/snuffyDev/Beatbump) - Alternative frontend for YouTube Music; no ads and custom API wrapper.
+- [ViMusic](https://github.com/vfsfitvnm/ViMusic) - A Jetpack Compose Android application for streaming music from YouTube Music.
 
 **Deezer alternative clients**
 - [dzr](https://github.com/yne/dzr) - Command line Deezer player for Linux, BSD, Android+Termux
