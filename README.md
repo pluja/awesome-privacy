@@ -51,6 +51,7 @@
     - [Podcasts](#podcasts)
 - [Notes and Tasks](#notes-and-tasks)
 - [Office](#office)
+- [Online Phone Providers (SMS)](#online-phone-providers)
 - [Operating Systems](#operating-systems)
     - [Android](#android)
     - [PC / MacOS](#pc--macos)
@@ -590,6 +591,19 @@ With email aliases, you can finally create a different identity for each website
 - [Cryptpad](https://cryptpad.fr/) - Collaboration suite, encrypted and open-source.
 - [Etherpad](https://etherpad.org/) - Highly customizable open source online editor providing collaborative editing in really real-time.
 - [Skiff](https://skiff.com/) - End-to-end encrypted real-time document collaboration and file storage.
+
+
+## Online Phone Providers
+
+### No email verification, accepting monero
+- [Crypton](https://crypton.sh/) - Secure SMS Sim Card in the cloud. (Based in Iceland)
+- [Virtualsim](https://virtualsim.net/) - Virtualsim provides physical SIM cards leasing for SMS verifications. (Based in Ukraine)
+
+### Email verification required, accepting monero
+- [Onlinesim](https://onlinesim.ru/) - Receive SMS online to virtual phone number. (Based in Russia)
+
+### Email verification required, accepting crypto
+- [SmsPVA](https://smspva.com/) - SmsPVA is a service providing a phone number you can send any SMS on and get a text of it. (Based in France)
 
 ## Operating Systems
 ### Android
