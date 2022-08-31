@@ -595,6 +595,8 @@ With email aliases, you can finally create a different identity for each website
 
 ## Online Phone Providers
 
+Many websites require phone number verification. These services offer a way to receive (and sometimes send) SMS messages in a privacy-focused manner.
+
 ### No email verification, accepting monero
 - [Crypton](https://crypton.sh/) - Secure SMS Sim Card in the cloud. (Based in Iceland)
 - [Virtualsim](https://virtualsim.net/) - Virtualsim provides physical SIM cards leasing for SMS verifications. (Based in Ukraine)
