@@ -132,7 +132,7 @@
 ## Android Dialer
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 
-Third party dialers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
+Third-party dialers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Simple Dialer](https://github.com/SimpleMobileTools/Simple-Dialer) - A lightweight app for handling your calls, no matter where are you. Comes with a handy call log for easy call initiation.
@@ -141,7 +141,7 @@ Third party dialers found on the play store. They may contain ads/trackers and m
 ## Android File Manager
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 
-Preinstalled file managers and third party file manager apps found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
+Preinstalled file managers and third-party file manager apps found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 
@@ -165,7 +165,7 @@ Preinstalled file managers and third party file manager apps found on the play s
 ## Android Launcher
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 
-Third party launchers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
+Third-party launchers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Lawnchair](https://lawnchair.app/) - No clever tagline needed.
@@ -234,7 +234,7 @@ Google captchas use cookies to track users and rank their IPs.
 
 ## Dating Apps
 
-Apps such as Tinder collect and sell your personal intimate information. Tinder in particular has been found to [charge users up to five times more for same service](https://foundation.mozilla.org/en/blog/new-research-tinders-opaque-unfair-pricing-algorithm-can-charge-users-up-to-five-times-more-for-same-service/), [extrapolate estimations on your intelligence and other psychometrics and sell it to third parties ](https://libreddit.kavin.rocks/r/privacy/comments/k7x4s7/tinder_extrapolates_estimations_on_your/), [it may know more about you than yourself](https://www.theguardian.com/technology/2017/sep/26/tinder-personal-data-dating-app-messages-hacked-sold), and many more bad things you can find on the internet.
+Apps such as Tinder collect and sell your personal intimate information. Tinder in particular has been found to [charge users up to five times more for same service](https://foundation.mozilla.org/en/blog/new-research-tinders-opaque-unfair-pricing-algorithm-can-charge-users-up-to-five-times-more-for-same-service/), [extrapolate estimations on your intelligence and other psychometrics and sell it to third-parties](https://libreddit.kavin.rocks/r/privacy/comments/k7x4s7/tinder_extrapolates_estimations_on_your/), [it may know more about you than yourself](https://www.theguardian.com/technology/2017/sep/26/tinder-personal-data-dating-app-messages-hacked-sold), and many more bad things you can find on the internet.
 
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - [![](https://shields.tosdr.org/en_462.svg)](https://tosdr.org/en/service/462)
@@ -462,12 +462,12 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 
-### Third party owned
+### Third-Party owned
 - [ProtonMail](https://protonmail.com/) - Secure Email. Based in Switzerland. [Read this article over Climate activist arrest](https://protonmail.com/blog/climate-activist-arrest/).
 - [Tutanota](https://tutanota.com/) - Secure email for everybody. Open Source.
 - [Riseup](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
 
-### Self hosted
+### Self-Hosted
 - [Mail-in-a-box](https://github.com/mail-in-a-box/mailinabox) - Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box.
 - [Docker mail server](https://github.com/docker-mailserver/docker-mailserver) - A fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) using Docker.
 
