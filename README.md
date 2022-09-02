@@ -557,6 +557,9 @@ With email aliases, you can finally create a different identity for each website
 
 ## Notes and Tasks
 <img width="16" src="misc/forbidden.png"> </img> **Avoid** 
+
+These providers offer apps and services filled with data trackers. Also, most of them store your notes on their servers and do not offer any kind of encryption.
+
 - Google Keep
     - [Google Keep Exporter](https://github.com/vHanda/google-keep-exporter) -  Convert your Google Keep notes into a standard markdown + YAML header format.
 - Evernote
@@ -565,18 +568,20 @@ With email aliases, you can finally create a different identity for each website
 - OneNote
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
-- [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
+
+- [AppFlowy](https://www.appflowy.io/) - Open Source Notion Alternative. You are in charge of your data and customizations.
 - [HedgeDoc](https://hedgedoc.org/) - Formerly CodiMD (community). An awesome platform to write and share markdown.
-- [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
-- <img width="16" src="misc/android.png"> [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app.
-- <img width="16" src="misc/android.png"> [Quillnote](https://qosp.org/#/) - Take beautiful markdown notes and stay organized with task lists.
-- [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation capabilities.
-- [YankNote](https://github.com/purocean/yn) - A Hackable Markdown Note Application for Programmers.
+- [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation and encryption capabilities.
 - [Logseq](https://logseq.com/) - A privacy-first alternative to WorkFlowy.
 - [Nextcloud Notes](https://github.com/nextcloud/notes/) - The Notes app is a distraction free notes taking app for Nextcloud.
-  - <img width="16" src="misc/android.png"> [Nextcloud Notes app](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
+	- [Nextcloud Notes app](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
+- [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app (local only, no sync).
+- [NotesNook](https://notesnook.com/) - Open source zero knowledge private note taking.
+- [Quillnote](https://qosp.org/#/) - Take beautiful markdown notes and stay organized with task lists.
+- [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
+- [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
 - [Vikunja](https://vikunja.io) - The open-source to-do app to organize your life.
-- [AppFlowy](https://www.appflowy.io/) - Open Source Notion Alternative. You are in charge of your data and customizations.
+- [YankNote](https://github.com/purocean/yn) - A Hackable Markdown Note Application for Programmers.
 
 
 ## Office
