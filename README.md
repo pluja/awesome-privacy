@@ -107,7 +107,6 @@
 - [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy.
 - [Plausible](https://plausible.io/) - Simple and privacy-friendly alternative to Google Analytics.
 - [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
-- [Aurora](https://useaurora.app/) - 100% Cookie-Free Open Website Analytics. Collect Anonymous Data. Make your Audience Happy Now!
 - [Nullitics](https://nullitics.com/) - Zero-effort open-source cheap analytics.
 - [Ackee](https://ackee.electerious.com/) - Self-hosted website analytics.
 - [Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
