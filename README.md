@@ -435,6 +435,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 
 - [MagLit](https://maglit.me) - An encrypted and privacy respecting Link Shortener service that also supports Magnet Links.
+- [shrtcode](https://shrtco.de) - A privacy-friendly URL Shortener with a free API.
 
 
 ## Location tracking
