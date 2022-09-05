@@ -544,6 +544,9 @@ With email aliases, you can finally create a different identity for each website
 
 - <img width="16" src="misc/android.png"> [Blade Player](https://github.com/vhaudiquet/BladePlayer) - Open source Spotify client, works without premium.
 
+**Shazam alternative clients**
+- [SongRec](https://github.com/marin-m/SongRec) - An open-source Shazam client for Linux, written in Rust.
+
 
 **Youtube Music alternative clients**
 - [Beatbump](https://github.com/snuffyDev/Beatbump) - Alternative frontend for YouTube Music; no ads and custom API wrapper.
