@@ -49,6 +49,7 @@
     - [Video and Audio](#video-and-audio)
     - [Audio](#audio)
     - [Podcasts](#podcasts)
+- [Music Recognition (Shazam-like)](#music-recognition)
 - [Notes and Tasks](#notes-and-tasks)
 - [Office](#office)
 - [Online Phone Providers (SMS)](#online-phone-providers)
@@ -577,6 +578,17 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [Vikunja](https://vikunja.io) - The open-source to-do app to organize your life.
 - [YankNote](https://github.com/purocean/yn) - A Hackable Markdown Note Application for Programmers.
 
+## Music Recognition
+
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+- Shazam - It's under [Apple's privacy policy](https://tosdr.org/en/service/158). The android app [has Trackers](https://reports.exodus-privacy.eu.org/en/reports/com.shazam.android/latest/).
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+
+**Shazam alternative clients**
+
+- [SongRec](https://github.com/marin-m/SongRec) - An open-source Shazam client for Linux, written in Rust.
 
 ## Office
 
