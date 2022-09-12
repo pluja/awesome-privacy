@@ -572,7 +572,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [Nextcloud Notes](https://github.com/nextcloud/notes/) - The Notes app is a distraction free notes taking app for Nextcloud.
 	- [Nextcloud Notes app](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app (local only, no sync).
-- [NotesNook](https://notesnook.com/) - Open source zero knowledge private note taking.
+- [Notesnook](https://notesnook.com/) - Open source zero knowledge private note taking.
 - [Quillnote](https://qosp.org/#/) - Take beautiful markdown notes and stay organized with task lists.
 - [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
