@@ -592,6 +592,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 **Shazam alternative clients**
 
 - [SongRec](https://github.com/marin-m/SongRec) - An open-source Shazam client for Linux, written in Rust.
+- [SondID Telegram Bot](https://github.com/smcclennon/SongID) - A Telegram bot that can identify music in audio/video files you send it. 
 
 ## Office
 
