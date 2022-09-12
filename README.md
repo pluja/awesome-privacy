@@ -1011,21 +1011,24 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 ## Video and Audio Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- [![](https://shields.tosdr.org/en_2198.svg)](https://tosdr.org/en/service/2198)
-- Skype [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
-- Google Meet [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
-- [![](https://shields.tosdr.org/en_198.svg)](https://tosdr.org/en/service/198)
-- [![](https://shields.tosdr.org/en_219.svg)](https://tosdr.org/en/service/219)
-- [![](https://shields.tosdr.org/en_536.svg)](https://tosdr.org/en/service/536)
+
+- **Zoom** - [Very bad privacy policy](https://tosdr.org/en/service/2198). Apps have [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/us.zoom.videomeetings/latest/). Many permissions required.
+- **Skype** - [Very bad privacy policy](https://tosdr.org/en/service/244). Apps have [Google and Microsoft trackers](https://reports.exodus-privacy.eu.org/en/reports/com.skype.insiders/latest/). Way too many permissions required.
+- **Google Meet** - [Very bad privacy policy](https://tosdr.org/en/service/217). Apps have [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/com.google.android.apps.tachyon/latest/) embeded (as it is a Google app). Way too many permissions required.
+- **Whatsapp** - [Bad privacy policy](https://tosdr.org/en/service/198). Apps have [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/com.whatsapp/latest/) and most probably Facebook trackers embeded (as it is a Facebook app). Way too many permissions required.
+- **Instagram** - [Very bad privacy policy](https://tosdr.org/en/service/219). Apps have [Facebook trackers](https://reports.exodus-privacy.eu.org/en/reports/com.instagram.android/latest/). Way too many permissions required.
+- **Discord** - [Very bad privacy policy.](https://tosdr.org/en/service/536). Apps have [various trackers](https://reports.exodus-privacy.eu.org/en/reports/com.discord/latest/). Many permissions required.
 - Clubhouse
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
-- [Jitsi Meet](https://meet.jit.si/) - More secure, more flexible, and completely free video conferencing. **No account needed, no installation needed**.
-- [Jami](https://jami.net/) - P2P audio and video conferences.
 - [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton is a web conferencing system designed for online learning.
-- [PeerCalls](https://peercalls.com/) - Group peer to peer video calls for everyone written in Go and TypeScript.
 - [Jam](https://github.com/jam-systems/jam) - Jam is your own open source Clubhouse for mini conferences, friends, communities.
+- [Jami](https://jami.net/) - P2P audio and video conferences.
+- [Jitsi Meet](https://meet.jit.si/) - More secure, more flexible, and completely free video conferencing. **No account needed, no installation needed**.
+- [Mirotalk P2P](https://p2p.mirotalk.com/) - Free WebRTC - P2P - Simple, Secure, Fast Real-Time Video Conferences Up to 4k and 60fps, compatible with all browsers and platforms.
 - [Mumble](https://www.mumble.com/) - Mumble is an open source voice communication application with advanced features.
+- [PeerCalls](https://peercalls.com/) - Group peer to peer video calls for everyone written in Go and TypeScript.
+
 
 **Alternative clients/modifications of Discord:**
 > Your IP and messages will still be shared and belong to Discord and they are not encrypted.\
