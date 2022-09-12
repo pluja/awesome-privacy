@@ -8,7 +8,8 @@
 <p align="center">
 	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/ABOUT.md"> About </a> | 
 	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/Contributing.md"> Contributing </a> | 
-	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/QUOTES.md"> Quotes </a>
+	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/QUOTES.md"> Quotes </a> | 
+	<a href="https://github.com/pluja/awesome-privacy/discussions"> Discussions </a>
 </p>
 
 > ⚠️ Privacy Shields are provided by [TOSDR](https://tosdr.org/). They analyse Terms of Service and Privacy Policies **but you should know they don't take into account other things like **trackers, source code, historic record, etc.****
