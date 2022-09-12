@@ -582,7 +582,9 @@ These providers offer apps and services filled with data trackers. Also, most of
 
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 
-- Shazam - It's under [Apple's privacy policy](https://tosdr.org/en/service/158). The android app [has Trackers](https://reports.exodus-privacy.eu.org/en/reports/com.shazam.android/latest/).
+- Shazam - It's under [Apple's privacy policy](https://tosdr.org/en/service/158). The android app [has a few Google trackers](https://reports.exodus-privacy.eu.org/en/reports/com.shazam.android/latest/).
+- SoundHound - Has way too many [trackers](https://reports.exodus-privacy.eu.org/en/reports/com.melodis.midomiMusicIdentifier.freemium/latest/) for a music recognition app.
+- Musicxmatch - The app [has trackers](https://reports.exodus-privacy.eu.org/en/reports/com.musixmatch.android.lyrify/latest/) and requires a dangerous amount of permissions.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 
