@@ -254,11 +254,6 @@ Apps such as Tinder collect and sell your personal intimate information. Tinder 
 - [1984 Hosting](https://www.1984hosting.com/)
 
 ## Download Manager
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**
-
-IDM, Download Accelerator Plus etc which are proprietary and cost you money plus privacy.
-
-<img width="16" src="misc/check.png"> </img>  **Instead use**
 
 - [Persepolis Download Manager](https://github.com/persepolisdm/persepolis) - Persepolis is a download manager & a GUI for Aria2. It's written in Python. Persepolis is a sample of free and open source software. It's developed for GNU/Linux distributions, BSDs, MacOS, and Microsoft Windows.
 - [uGet Download Manager](https://ugetdm.com/) - uGet is a lightweight yet powerful Open Source download manager for GNU/Linux developed with GTK+, which also comes packaged as a portable Windows app. It is also available for Android.
