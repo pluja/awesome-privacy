@@ -832,6 +832,7 @@ You can use these tools to automatically redirect any links to privacy-respectin
 
 **Alternatives to Instagram**
 - [Pixelfed](https://pixelfed.org/) - Decentralized, federated and Open Source alternative to Instagram with posts, videos, stories, tags, etc.
+- [Haven](https://havenweb.org/) - Self-hosted (or paid), Open Source private blogging platform.  Markdown editing, supports images, video, and private RSS.
 
 **Alternative Instagram clients**
 - [Barinsta](https://codeberg.org/avalos/barinsta) - Android instagram alternative client with enhanced privacy features (Your requests will be sent to instagram).
