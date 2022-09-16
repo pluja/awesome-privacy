@@ -789,6 +789,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - Raindrop.io
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Pinboard](https://pinboard.in/) - Paid, hosted service which has its main focus on privacy.
 - [Wallabag](https://wallabag.org/) - Open-source, optionally self-hosted, read it later server. Provides paid hosted service with privacy in mind.
 
 ## Remote Access and Control
