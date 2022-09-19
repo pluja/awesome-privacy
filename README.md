@@ -819,8 +819,8 @@ Alternative frontends are good to protect your individual privacy. You can still
 You can use these tools to automatically redirect any links to privacy-respecting alternative frontends:
 
 - [Farside](https://github.com/benbusby/farside) - A smart redirecting gateway for various frontend services.
-- [LibRedirect](https://github.com/libredirect/libredirect#get) - A web extension that redirects YouTube, Twitter, Instagram... requests to alternative privacy friendly frontends and backends.
-- [UntrackMe](https://www.f-droid.org/en/packages/app.fedilab.nitterizeme/) - Transform Youtube, Twitter & Instagram links to their free and open source alternatives.
+- [LibRedirect](https://github.com/libredirect/libredirect#get) - A web extension that redirects YouTube, Twitter... requests to alternative privacy friendly frontends and backends.
+- [UntrackMe](https://www.f-droid.org/en/packages/app.fedilab.nitterizeme/) - Transform Youtube, Twitter & other links to their free and open source alternatives.
 
 ### Instagram
 
@@ -832,10 +832,6 @@ You can use these tools to automatically redirect any links to privacy-respectin
 
 **Alternatives to Instagram**
 - [Pixelfed](https://pixelfed.org/) - Decentralized, federated and Open Source alternative to Instagram with posts, videos, stories, tags, etc.
-
-**Alternative Instagram clients**
-- [Barinsta](https://codeberg.org/avalos/barinsta) - Android instagram alternative client with enhanced privacy features (Your requests will be sent to instagram).
-- [Bibliogram](https://bibliogram.art/) - Watch Instagram's public profile in a friendlier page that loads faster, gives downloadable images, eliminates ads and doesn't urge you to sign up.
 
 ### LBRY and Odysee
 
@@ -1104,7 +1100,7 @@ Please read about what the addon does before installing. If you don't understand
 - [Decentraleyes](https://decentraleyes.org/) - Protects you against tracking through "free", centralized, content delivery.
 - [Cookie Autodelete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) - When a tab closes, any cookies not being used are automatically deleted. Prevent tracking by other cookies and add only the ones you trust.
 - [Smart Referer](https://gitlab.com/smart-referrer/smart-referer/-/blob/master/README.md) - Automatically hide HTTP and JavaScript Referer for cross-domain requests.
-- ~[Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)~ [LibRedirect](https://github.com/libredirect/libredirect) - A simple web extension that redirects Twitter, YouTube, Instagram, Google Maps and many more requests to privacy friendly alternatives. Former Privacy Redirect is no longer maintained, LibRedirect is a maintained fork.
+- ~[Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)~ [LibRedirect](https://github.com/libredirect/libredirect) - A simple web extension that redirects Twitter, YouTube, Google Maps and many more requests to privacy friendly alternatives. Former Privacy Redirect is no longer maintained, LibRedirect is a maintained fork.
 
 #### Tools
 - [Single File](https://github.com/gildas-lormeau/SingleFile) - Save a faithful copy of an entire web page in a single HTML file.
