@@ -182,10 +182,8 @@ Third-party launchers found on the play store. They may contain ads/trackers and
 
 ## Bookmarking
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Pocket (Formerly Read It Later)
-- Evernote Web Clipper
-- Instapaper
-- Raindrop.io
+- Pocket (Formerly Read It Later) - [Bad privacy policy](https://tosdr.org/en/service/384). [Apps have trackers](https://reports.exodus-privacy.eu.org/en/reports/com.ideashower.readitlater.pro/latest/) and requires many permissions.
+- Evernote Web Clipper -  [Bad privacy policy](https://tosdr.org/en/service/207). [Apps have many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.evernote/latest/) and require too many permissions.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Wallabag](https://wallabag.org/) - Open-source, optionally self-hosted, read it later server. Provides paid hosted service with privacy in mind.
