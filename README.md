@@ -23,6 +23,7 @@
 - [Android File Manager](#android-file-manager)
 - [Android Keyboard](#android-keyboard)
 - [Android Launcher](#android-launcher)
+- [Bookmarking](#bookmarking)
 - [Captchas](#captchas)
 - [Cloaking](#cloaking)
 - [Cloud Storage](#cloud-storage)
@@ -64,7 +65,6 @@
 - [Photo Editing and Management](#photo-editing-and-management)
 - [Photo Storage](#photo-storage)
 - [Privacy Tools](#privacy-tools)
-- [Read It Later Tools](#read-it-later-tools)
 - [Remote Access and Control](#remote-access-and-control)
 - [Search Engines](#search-engines)
 - [Social Networks and Platforms](#social-networks-and-platforms)	
@@ -179,6 +179,19 @@ Third-party launchers found on the play store. They may contain ads/trackers and
 - [Pie Launcher](https://github.com/markusfisch/PieLauncher) - Android home screen launcher that uses a dynamic pie menu instead of fixed positioned icons.
 - [Simple App Launcher](https://github.com/SimpleMobileTools/Simple-App-Launcher) - A simple holder for favourite apps for quick & easy app launcher icon management.
 - [Rootless Pixel Launcher](https://github.com/amirzaidi/Launcher3) - The Launcher3 fork known as "Rootless Pixel Launcher".
+
+## Bookmarking
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- Pocket (Formerly Read It Later)
+- Evernote Web Clipper
+- Instapaper
+- Raindrop.io
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Wallabag](https://wallabag.org/) - Open-source, optionally self-hosted, read it later server. Provides paid hosted service with privacy in mind.
+- [Shiori](https://github.com/go-shiori/shiori)
+- [LinkAce](https://github.com/Kovah/LinkAce)
+- [LinkDing](https://github.com/sissbruecker/linkding)
 
 ## Captchas
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -780,16 +793,6 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [Plexus](https://plexus.techlore.tech/) - Remove the fear of Android app compatibility on de-Googled devices. Find if an app will work on a De-Googled device.
 - [Netguard](https://netguard.me/) - A simple way to block access to the internet per application.
 - [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - An open-source, no-root firewall and DNS changer, with anti-censorship capabilities for Android 6+.
-
-## Read It Later Tools
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Pocket
-- Evernote Web Clipper
-- Instapaper
-- Raindrop.io
-
-<img width="16" src="misc/check.png"> </img>  **Instead use**
-- [Wallabag](https://wallabag.org/) - Open-source, optionally self-hosted, read it later server. Provides paid hosted service with privacy in mind.
 
 ## Remote Access and Control
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
