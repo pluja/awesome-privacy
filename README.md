@@ -41,7 +41,7 @@
 - [Games](#games)
     - [Mario Kart](#mario-kart)
     - [Minecraft](#minecraft)
-    - [Sonic the Hedgehog](#sonic-the-hedgehoc)
+    - [Sonic the Hedgehog](#sonic-the-hedgehog)
 - [Home Assistants](#home-assistants)
 - [Instant Messaging](#instant-messaging)
 - [Link Shorteners](#link-shorteners)
