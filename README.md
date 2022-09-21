@@ -215,13 +215,14 @@ Google captchas use cookies to track users and rank their IPs.
 
 ## Cloud Storage
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- Google Drive [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
-- DropBox [![](https://shields.tosdr.org/en_270.svg)](https://tosdr.org/en/service/270)
-- OneDrive [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
+- **Google Drive** - Google owned, so privacy policy is [very bad](https://tosdr.org/en/service/217). The data is stored in their remote servers where you lose control of it. They use trackers. No encryption available.
+- **DropBox** - [Bad privacy policy](https://tosdr.org/en/service/270). The app has [various trackers](https://reports.exodus-privacy.eu.org/en/reports/com.dropbox.android/latest/) and requires many permissions.
+- **OneDrive** - Microsoft owned, privacy policy is [very bad](https://tosdr.org/en/service/244). The data is stored in their remote servers where you lose control of it. They use trackers. No encryption available.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control.
 - [Seafile](https://www.seafile.com/en/home/) - High performance file syncing and sharing. It includes a Wiki, WYSIWYG editing and other knowledge management features.
+- [Peergos](https://peergos.org/) - Secure and private space online where you can store, share and view your photos, videos, music and documents. Also includes a calendar, news feed, task lists, chat and email client. Open source and self-hostable.
 
 **Other useful tools**
 - [Cryptomator](https://cryptomator.org) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service
