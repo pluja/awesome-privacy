@@ -39,8 +39,9 @@
 - [Fonts](#fonts)
 - [Forms](#forms)
 - [Games](#games)
-    - [Mario Kart](#mario-kart) 
+    - [Mario Kart](#mario-kart)
     - [Minecraft](#minecraft)
+    - [Sonic the Hedgehog](#sonic-the-hedgehoc)
 - [Home Assistants](#home-assistants)
 - [Instant Messaging](#instant-messaging)
 - [Link Shorteners](#link-shorteners)
@@ -357,7 +358,6 @@ Nintendo [collects user data](https://libreddit.kavin.rocks/r/privacy/comments/q
 
 - [SuperTuxKart](https://supertuxkart.net/Main_Page) - A 3D open-source arcade racer with a variety characters, tracks, and modes to play.
 
-
 ### Minecraft
 
 [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
@@ -370,12 +370,16 @@ The game has [telemetry embeded in it since v21w38a which you can't opt-out](htt
 - [Minetest](https://www.minetest.net/) - An open source voxel game engine with many features.
     - [Mineclone5](https://content.minetest.net/packages/kay27/mineclone5/?protocol_version=40) - Updated version of MineClone2, an attempt to clone Minecraft into Minetest.
 
-### Plugins for Minecraft
+#### Plugins for Minecraft
 
 If you still want to play Minecraft, you can add some plugins that can help you preserve a bit your privacy. But still consider that you are supporting Microsoft this way.
 
 - [No-Telemetry](https://github.com/kb-1000/no-telemetry) - Mod that disables the usage data collection, aka telemetry, introduced in Minecraft 1.18 (snapshot 21w38a).
 - [No-Chat-Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) - Strips cryptographic signatures from player messages, making it impossible to track and associate them with your Mojang/Microsoft account.
+
+### Sonic the Hedgehog
+
+- [Sonic Robo Blast 2](https://www.srb2.org/) - Sonic Robo Blast 2 is a 3D open-source Sonic the Hedgehog fangame built using a modified version of the Doom Legacy port of Doom.
 
 ## Home Assistants
 
