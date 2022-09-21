@@ -60,6 +60,7 @@
     - [PC / MacOS](#pc--macos)
     - [Smart TV](#smart-tv)
 - [Password Managers](#password-managers)
+- [Pastebin and Secret Sharing](#pastebin-and-secret-sharing)
 - [Payments](#payments)
 - [Personal Finances](#personal-finances)
 - [Photo Editing and Management](#photo-editing-and-management)
@@ -293,8 +294,8 @@ on the DMCrypt kernel module.
 
 ## File Management and Sharing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- [![](https://shields.tosdr.org/en_214.svg)](https://tosdr.org/en/service/214)
-- SendAnywhere
+- **WeTransfer** - [Bad privacy policy](https://tosdr.org/en/service/214). Files are not e2e encrypted. Website has many analytics and trackers.
+- **SendAnywhere** - No e2e encryption. Website has loads of analytics and trackers from Facebook, Google, Cloudflare...
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 - [Blaze](https://blaze.now.sh/) - A fast, p2p and radically different way to transfer files.
@@ -310,6 +311,7 @@ on the DMCrypt kernel module.
 - [OnionShare](https://github.com/micahflee/onionshare) - An open source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network.
 - [Sharik](https://github.com/marchellodev/sharik) - Sharik works with Wi-Fi connection or Tethering (Wi-Fi Hotspot). No internet connection needed. Available for Android, iOS, Linux, MacOS & Windows.
 - [Blindsend](https://github.com/blindnet-io/blindsend) - Open source tool for private, end-to-end encrypted file exchange.
+- [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
 
 ## Fitness and Health
 <img width="16" src="misc/forbidden.png"> </img> Your health is a **very** important piece of your **private data** and you should care **a lot** about it. Also, health related data is among the most coveted. Please don't use apps from Google, Fitbit, Huawei, Xiaomi or any company that seeks the gathering of your personal data.
@@ -693,6 +695,13 @@ Many websites require phone number verification. These services offer a way to r
 - [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
 - [Passky](https://passky.org) - Simple, modern, lightweight, open-source and secure password manager.
 - [LessPass](https://www.lesspass.com) - Stateless password manager. Remember one master password to access your passwords. No sync needed.
+
+## Pastebin and Secret Sharing
+
+These tools are useful when sharing secrets, code snippets or any other kind of text with others in a private way.
+
+- [PrivateBin](https://github.com/PrivateBin/PrivateBin) - A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.
+- [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
 
 ## Payments
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
