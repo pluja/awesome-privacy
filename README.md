@@ -81,7 +81,7 @@
     - [Wikipedia](#wikipedia)
     - [YouTube](#youtube)
 - [Teamworking Tools](#teamworking-tools)
-- [Translation](#translation)
+- [Translation and Speech-to-Text](#translation-and-speech-to-text)
 - [Uncategorized](#uncategorized)
 - [Utilities](#utilities)
 - [Video and Audio Conferencing](#video-and-audio-conferencing)
@@ -1018,15 +1018,21 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - DeepL
 - Bing Translator [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
 
-<img width="16" src="misc/check.png"> </img> **Instead use**
+<img width="16" src="misc/check.png"> </img> **Text translation**
 - [Libretranslate](https://libretranslate.com/) - Open Source Machine Translation - 100% Self-Hosted. No Limits. No Ties to Proprietary Services.
 - [Apertium](https://apertium.org/) - A free/open-source machine translation platform, runs offline on your computer
 - [Softcatala](https://www.softcatala.org/traductor/) - Open Source Translation tool - Only Catalan/Spanish/English/French (uses apertium)
 - [TranslateLocally](https://translatelocally.com/) – Free/open-source neural MT, runs offline on your computer
 
+<img width="16" src="misc/check.png"> </img> **Speech-to-Text**
+
+- [OpenAI Whisper](https://github.com/openai/whisper) - Whisper is a general-purpose speech recognition model that can be run locally offline. It can transcribe audio from and to multiple languages.
+
 <img width="16" src="misc/check.png"> </img> **Alternative Google Translate frontends**
 - [Lingva](https://github.com/TheDavidDelta/lingva-translate) - Alternative front-end for Google Translate. [Demo](https://lingva.ml/).
 - [Simplytranslate](https://git.sr.ht/~metalune/simplytranslate_web) - Alternative front-end for Google Translate and LibreTranslate. [Demo](https://simplytranslate.org/)
+
+
 
 ## Uncategorized
 - [Skymap](https://skymaponline.net/) - Open online planetarium program.
