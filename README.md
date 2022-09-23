@@ -1012,7 +1012,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [WebCord](https://github.com/SpacingBat3/WebCord) - A Discord and Fosscord API-less client made with the Electron.
 - <img width="16" src="misc/android.png"> [Aliucord](https://github.com/Aliucord/Aliucord) - A modification for the Android Discord app that fully [disables the Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
 
-## Translation and Text-to-Speech
+## Translation and Speech-to-Text
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Google Translate [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 - DeepL
