@@ -488,6 +488,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 ### Self-Hosted
 - [Mail-in-a-box](https://github.com/mail-in-a-box/mailinabox) - Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box.
 - [Docker mail server](https://github.com/docker-mailserver/docker-mailserver) - A fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) using Docker.
+- [Mailcow: dockerized](https://github.com/mailcow/mailcow-dockerized) - The mailserver suite with the 'moo'.
 
 ### Clients
 
