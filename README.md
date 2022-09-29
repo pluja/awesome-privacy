@@ -655,11 +655,9 @@ Many websites require phone number verification. These services offer a way to r
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 
-#### Android app compatibility
- > Although all of these Operating Systems are Android, app compatibility may not be perfect due to a lack of GMS (Google Mobile Services) which some apps require. You can check how well apps work with microg (a free and open source alternative to GMS) or no GMS at all with [Plexus](https://plexus.techlore.tech/) where the community can report how well android apps perform in those environments.
+> **Note on Android app compatibility**: Although all of these Operating Systems are Android, app compatibility may not be perfect due to a lack of GMS (Google Mobile Services) which some apps require. You can check how well apps work with microg (a free and open source alternative to GMS) or no GMS at all with [Plexus](https://plexus.techlore.tech/) where the community can report how well android apps perform in those environments.
 
-#### Android Security
-> Custom ROMs can improve your privacy the same as they can decrease the Android security, always use ROMs that support verified boot and encryption and **DO NOT** have root enabled by default. If possible, don't use userdebug builds. If your threat model requires security, buy a Google Pixel and install GrapheneOS on it. [Read more on PrivacyGuides](https://www.privacyguides.org/android/overview/).
+> **Note on Android security**: Custom ROMs can improve your privacy the same as they can decrease the Android security, always use ROMs that support verified boot and encryption and **DO NOT** have root enabled by default. If possible, don't use userdebug builds. If your threat model requires security, buy a Google Pixel and install GrapheneOS on it. [Read more on PrivacyGuides](https://www.privacyguides.org/android/overview/).
 
 
 - [GrapheneOS](https://grapheneos.org/) - GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility.
