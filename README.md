@@ -1110,25 +1110,28 @@ Here are some open source and truly private (no personal data and/or credit card
 
 ## Web Browser
 
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+- **Google Chrome** - Owned by google and built upon the open-source Chromium project (also Google-owned). It comes with many privacy-invasive features, it is connected to your Google account most times. It is under [Google's privacy policy](https://tosdr.org/en/service/217) which is known to be very bad. Google is willing to enforce the [Manifest v3](https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening) which is outright harmful to privacy efforts.
+- **Microsoft Edge** - It's a Microsoft-themed version of Chromium with Microsoft trackers instead of Google ones. Under [Microsoft's privacy policy](https://tosdr.org/en/service/244), which is also very bad. If you still want to use it, you can [follow this guide](https://anonymousplanet.org/guide.html#edge-19) to harden it a bit.
+- **Opera** - Opera was [acquired by a consortium of Chinese investors](https://en.wikipedia.org/wiki/Opera_(web_browser)#Acquisition_by_Chinese_consortium). The app has [many trackers](https://reports.exodus-privacy.eu.org/de/reports/com.opera.browser/latest/).
+
 #### Android / iOS
-- <img width="16" src="misc/android.png"> [Bromite](https://www.bromite.org/)
-- <img width="16" src="misc/android.png"> [Vanadium](https://vanadium.app/) - Privacy and security enhanced releases of Chromium for GrapheneOS.
-- <img width="16" src="misc/android.png"> [Ungoogled Chromium](https://ungoogled-software.github.io/)
-- <img width="16" src="misc/android.png"> [Privacy Browser](https://www.stoutner.com/privacy-browser/)
+- [Bromite](https://www.bromite.org/) - It has been known to lag on security patches, so it may be better not to use it.
+- [Brave](https://brave.com/) - Android/iOS. Brave offers a pretty goot out-of-the-box set of privacy and tracker protections.
 - [Firefox](https://www.mozilla.org/en-US/firefox/mobile/) - Android/iOS
     - <img width="16" src="misc/android.png"> [Mull](https://f-droid.org/en/packages/us.spotco.fennec_dos/) - Privacy hardened fork of Firefox for Android, with proprietary blobs removed.
-- [Tor Browser](https://www.torproject.org/) - Android/iOS
-- [SnowHaze](https://snowhaze.com/en/index.html) - iOS
+- <img width="16" src="misc/android.png"> [Vanadium](https://vanadium.app/) - Privacy and security enhanced releases of Chromium by GrapheneOS.
+- <img width="16" src="misc/android.png"> [Privacy Browser](https://www.stoutner.com/privacy-browser/)
+- [Tor Browser](https://www.torproject.org/) - iOS/Android. Defend yourself against tracking and surveillance and circumvent censorship.
 
 #### Desktop
+- [Brave](https://brave.com/) - Brave offers a pretty goot out-of-the-box set of privacy and tracker protections.
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Open Source, independent browser. It needs some [hardening](https://privacytools.io/browsers/#addons) and [tweaking](https://privacytools.io/browsers/#about_config) to achieve great privacy.
   - [LibreWolf](https://librewolf.net/) - Privacy-focused Firefox fork.
-- [Ungoogled Chromium](https://ungoogled-software.github.io/)
 - [Tor Browser](https://www.torproject.org/)
 
-> Controversial option:\
-> [Brave](https://brave.com/) - Android/iOS.\
-[Read more info on this related discussion](https://libredd.it/r/privacytoolsIO/comments/gytwmd/brave_browser_privacytoolsio_and_the_negativity/) and [the Wikipedia page](https://wikiless.org/wiki/Brave_(web_browser)#Controversies).
+> It may be interesting to learn what you can do to harden your browser. You can follow this [Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.org/guide.html#appendix-v1-hardening-your-browsers) section to do it. Please, if you don't understand what you are doing, don't do it as you may be causing more harm than good to your privacy.
 
 ### Browser Addons
 
@@ -1142,8 +1145,8 @@ Please read about what the addon does before installing. If you don't understand
 - [Smart Referer](https://gitlab.com/smart-referrer/smart-referer/-/blob/master/README.md) - Automatically hide HTTP and JavaScript Referer for cross-domain requests.
 - ~[Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)~ [LibRedirect](https://github.com/libredirect/libredirect) - A simple web extension that redirects Twitter, YouTube, Google Maps and many more requests to privacy friendly alternatives. Former Privacy Redirect is no longer maintained, LibRedirect is a maintained fork.
 
-#### Tools
-- [Single File](https://github.com/gildas-lormeau/SingleFile) - Save a faithful copy of an entire web page in a single HTML file.
+#### Useful Tools
+- [Single File](https://github.com/gildas-lormeau/SingleFile) - Save a faithful copy of an entire web page in a single HTML file so you can use it offline.
 
 ### Browser Sync
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
