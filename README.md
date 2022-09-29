@@ -1116,6 +1116,8 @@ Here are some open source and truly private (no personal data and/or credit card
 - **Microsoft Edge** - It's a Microsoft-themed version of Chromium with Microsoft trackers instead of Google ones. Under [Microsoft's privacy policy](https://tosdr.org/en/service/244), which is also very bad. If you still want to use it, you can [follow this guide](https://anonymousplanet.org/guide.html#edge-19) to harden it a bit.
 - **Opera** - Opera was [acquired by a consortium of Chinese investors](https://en.wikipedia.org/wiki/Opera_(web_browser)#Acquisition_by_Chinese_consortium). The app has [many trackers](https://reports.exodus-privacy.eu.org/de/reports/com.opera.browser/latest/).
 
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+
 #### Android / iOS
 - [Bromite](https://www.bromite.org/) - It has been known to lag on security patches, so it may be better not to use it.
 - [Brave](https://brave.com/) - Android/iOS. Brave offers a pretty goot out-of-the-box set of privacy and tracker protections.
