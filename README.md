@@ -684,12 +684,28 @@ Many websites require phone number verification. These services offer a way to r
 - [RaspberryCast](https://github.com/vincelwt/RaspberryCast) - Transform your Raspberry Pi into a streaming device. Cast videos from mobile devices or computers to your TV.
 
 ### PC / MacOS
-<img width="16" src="misc/forbidden.png"> </img> Don't use MS Windows or MacOS.
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- MS Windows - Owned by Microsoft it is known for collecting many user data and tricking users to own a Microsoft account. If you still want and happen to use Windows 10, you can use [this tool](https://www.w10privacy.de/english-home/) to see and disable the tons of privacy-invasive settings of MS Windows.
+- MacOS.
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
-- [GNU/Linux](https://www.linux.com/what-is-linux/) - GNU/Linux is a family of mostly free and open source Operating Systems mostly developed by the community. If you don't know where to start, [Linux Mint (Cinnamon)](https://linuxmint.com/edition.php?id=292) is a beginner friendly distribution. If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). If you want to install Linux but keep your current operating System, you can set up [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
+#### [GNU/Linux](https://www.linux.com/what-is-linux/) 
+
+GNU/Linux is a family of free (as in freedom and as in free beer) and open source Operating Systems mostly developed by the community. If you don't know where to start these are good options for begginers:
+
+- [Fedora](https://getfedora.org/)
+- [Mint (Cinnamon)](https://linuxmint.com/edition.php?id=292) is a beginner friendly distribution. 
+
+> If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). You can also investigate [Ventoy](https://www.ventoy.net) to easily download and test linux distros with a USB stick.
+
+> If you want to install Linux but keep your current operating System, you can set up [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
+
+> Note: Not all Linux distributions are free (as in freedom), free (as in free beer) or respect user privacy. There are tons of GNU/Linux distributions and you should investigate a bit before jumping into one of them!
+
+#### Other OS:
 
 - [ReactOS](https://reactos.org/) - ReactOS is an operating system able to run Windows software, Windows drivers that looks-like Windows and is free and open source.
+- [RedoxOS](https://www.redox-os.org/) - A WIP project aiming to provide a Unix-like Operating System written in Rust.
 
 ## Password Managers
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
