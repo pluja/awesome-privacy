@@ -1129,7 +1129,7 @@ Here are some open source and truly private (no personal data and/or credit card
 
 #### Desktop
 - [Brave](https://brave.com/) - Brave offers a pretty goot out-of-the-box set of privacy and tracker protections.
-- [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Open Source, independent browser. It needs some [hardening](https://privacytools.io/browsers/#addons) and [tweaking](https://privacytools.io/browsers/#about_config) to achieve great privacy.
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Open Source, independent browser. It needs some [hardening and tweaking](https://anonymousplanet.org/guide.html#firefox-1) to achieve great privacy.
   - [LibreWolf](https://librewolf.net/) - Privacy-focused Firefox fork.
 - [Tor Browser](https://www.torproject.org/)
 
