@@ -311,8 +311,9 @@ on the DMCrypt kernel module.
 - [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole) - Get things from one computer to another, safely.
 - [QRcp](https://github.com/claudiodangelis/qrcp) - Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
 - [Snapdrop](https://snapdrop.net/) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
-- [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) - A supercharged version of paperless: scan, index and archive all your physical documents.
-  - [Paperless](https://github.com/the-paperless-project/paperless) - [Now archived] Scan, index, and archive all of your paper documents.
+- [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - A community-supported supercharged version of paperless based on paperless-ng
+  - [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) - [inactive] A supercharged version of paperless: scan, index and archive all your physical documents.
+    - [Paperless](https://github.com/the-paperless-project/paperless) - [Now archived] Scan, index, and archive all of your paper documents.
 - [OnionShare](https://github.com/micahflee/onionshare) - An open source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network.
 - [Sharik](https://github.com/marchellodev/sharik) - Sharik works with Wi-Fi connection or Tethering (Wi-Fi Hotspot). No internet connection needed. Available for Android, iOS, Linux, MacOS & Windows.
 - [Blindsend](https://github.com/blindnet-io/blindsend) - Open source tool for private, end-to-end encrypted file exchange.
