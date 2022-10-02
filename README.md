@@ -873,6 +873,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 ## Source Code Hosting
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**:
 > - Github due to being owned by Microsoft, with  analytics under question
+
 <img width="16" src="misc/check.png"> </img> **Instead use**:
 > - [Codeberg](https://codeberg.org/) - Gitea based source code platform, funded by community and managed by non-profit organisation declaring no selling the data now and in the future
 
