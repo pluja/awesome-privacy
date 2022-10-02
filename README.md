@@ -73,6 +73,7 @@
     - [Alternative Frontends](#alternative-frontends)
     - [Imgur](#imgur)
     - [Instagram](#instagram)
+    - [Quora](#quora)
     - [LBRY and Odysee](#lbry-and-odysee)
     - [Reddit](#reddit)
     - [Streaming Platforms (Twitch)](#streaming-platforms-twitch)
@@ -859,17 +860,14 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 ## Social Networks and Platforms
 
-> Note: Alternative clients will share your IP with the service as they make direct requests.
-
-### Alternative Frontends
-
-Alternative frontends are good to protect your individual privacy. You can still consume the contents of privative and privacy-harmful services with protection over your privacy and some anonimity. Even using most these alternative frontends, still, the privative services will receive requests about the content you are consuming (even not knowing it is you). This sitll harms the collective privacy and adds data to their algorithms in some ways.
-
-You can use these tools to automatically redirect any links to privacy-respecting alternative frontends:
-
-- [Farside](https://github.com/benbusby/farside) - A smart redirecting gateway for various frontend services.
-- [LibRedirect](https://github.com/libredirect/libredirect#get) - A web extension that redirects YouTube, Twitter... requests to alternative privacy friendly frontends and backends.
-- [UntrackMe](https://www.f-droid.org/en/packages/app.fedilab.nitterizeme/) - Transform Youtube, Twitter & other links to their free and open source alternatives.
+> **NOTE: About alternative frontends and clients**
+>
+> Alternative frontends are good to protect your individual privacy. You can still consume the contents of privative and privacy-harmful services with protection over your privacy and some anonimity. Even using most these alternative frontends, still, the privative services will receive requests about the content you are consuming (even not knowing it is you). This sitll harms the collective privacy and adds data to their algorithms in some ways. Only the alternative frontends (or clients) that act as a proxy will hide your real IP from the content provider. 
+>
+> You can use these browser extensions and apps to automatically redirect any links to privacy-respecting alternative frontends:
+> - [Farside](https://github.com/benbusby/farside) - A smart redirecting gateway for various frontend services.
+> - [LibRedirect](https://github.com/libredirect/libredirect#get) - A web extension that redirects YouTube, Twitter... requests to alternative privacy friendly frontends and backends.
+> - [UntrackMe](https://www.f-droid.org/en/packages/app.fedilab.nitterizeme/) - Transform Youtube, Twitter & other links to their free and open source alternatives.
 
 ### Instagram
 
@@ -889,6 +887,14 @@ You can use these tools to automatically redirect any links to privacy-respectin
 Odysee website contains some trackers and is a heavy site. You can use these alternatives to avoid trackers and have a more minimalistic and lightweight UI:
 
 - [Librarian](https://codeberg.org/librarian/librarian) - An alternative frontend for LBRY/Odysee. Inspired by Invidious and Libreddit.
+
+### Quora
+
+<img width="16" src="misc/forbidden.png"> </img> Quora's website has ads and trackers that are used to get your data which is then sold/shared to third parties. Their [privacy policy](https://tosdr.org/en/service/314) is bad.
+
+<img width="16" src="misc/check.png"> </img> **Quora alternative frontends (web-based):**
+- [Quetre](https://github.com/zyachel/quetre) - Quetre is an alternative front-end to Quora. It enables you to see answers without ads, trackers, and other such bloat.
+
 
 ### YouTube
 
