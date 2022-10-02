@@ -81,6 +81,7 @@
     - [Twitter](#twitter)
     - [Wikipedia](#wikipedia)
     - [YouTube](#youtube)
+- [Source Code Hosting](#source-code-hosting)
 - [Teamworking Tools](#teamworking-tools)
 - [Translation and Speech-to-Text](#translation-and-speech-to-text)
 - [Uncategorized](#uncategorized)
@@ -868,6 +869,12 @@ This section is dedicated to some tools that may help users analyze the privacy 
 > - [Farside](https://github.com/benbusby/farside) - A smart redirecting gateway for various frontend services.
 > - [LibRedirect](https://github.com/libredirect/libredirect#get) - A web extension that redirects YouTube, Twitter... requests to alternative privacy friendly frontends and backends.
 > - [UntrackMe](https://www.f-droid.org/en/packages/app.fedilab.nitterizeme/) - Transform Youtube, Twitter & other links to their free and open source alternatives.
+
+## Source Code Hosting
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+> - Github due to being owned by Microsoft, with  analytics under question
+<img width="16" src="misc/check.png"> </img> **Instead use**:
+> - [Codeberg](https://codeberg.org/) - Gitea based source code platform, funded by community and managed by non-profit organisation declaring no selling the data now and in the future
 
 ### Instagram
 
