@@ -311,6 +311,7 @@ on the DMCrypt kernel module.
 - [Dat-cp](https://github.com/tom-james-watson/dat-cp) - Copy files between hosts on a network using the peer-to-peer Dat network.
 - [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole) - Get things from one computer to another, safely.
 - [QRcp](https://github.com/claudiodangelis/qrcp) - Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
+- [Snapdrop](https://github.com/RobinLinus/snapdrop) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
 - [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - A community-supported supercharged version of paperless based on paperless-ng
   - [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) - [inactive] A supercharged version of paperless: scan, index and archive all your physical documents.
     - [Paperless](https://github.com/the-paperless-project/paperless) - [Now archived] Scan, index, and archive all of your paper documents.
