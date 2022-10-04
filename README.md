@@ -69,8 +69,8 @@
 - [Privacy Tools](#privacy-tools)
 - [Remote Access and Control](#remote-access-and-control)
 - [Search Engines](#search-engines)
-- [Social Networks and Platforms](#social-networks-and-platforms)	
-    - [Alternative Frontends](#alternative-frontends)
+- [Social Networks and Platforms](#social-networks-and-platforms)
+    - [Blogging platforms (Medium / Blogger)](#blogging-platforms-medium)
     - [Imgur](#imgur)
     - [Instagram](#instagram)
     - [Quora](#quora)
@@ -860,6 +860,14 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 ## Social Networks and Platforms
 
+> **NOTE: The fediverse**
+>
+> The fediverse is a "**fed**erated" "un**iverse**" of social network platforms that are able to talk to one another through a standard and open protocol. This means that you can consume content on any network from any of these networks. You are not locked to a single provider, you are free to choose. Please [watch this video](https://framatube.org/w/9dRFC6Ya11NCVeYKn8ZhiD?start=8s) by FramaSoft that illustrates the concept very good.
+>
+> Ideally, we should all move to the fediverse and abandon the centralized and monopolized social networks that are now the most popular (Twitter, Reddit, Instagram...).
+>
+> All the apps compatible with the Fediverse (ActivityPub) are marked with a 🧩
+
 > **NOTE: About alternative frontends and clients**
 >
 > Alternative frontends are good to protect your individual privacy. You can still consume the contents of privative and privacy-harmful services with protection over your privacy and some anonimity. Even using most these alternative frontends, still, the privative services will receive requests about the content you are consuming (even not knowing it is you). This sitll harms the collective privacy and adds data to their algorithms in some ways. Only the alternative frontends (or clients) that act as a proxy will hide your real IP from the content provider. 
@@ -868,6 +876,21 @@ This section is dedicated to some tools that may help users analyze the privacy 
 > - [Farside](https://github.com/benbusby/farside) - A smart redirecting gateway for various frontend services.
 > - [LibRedirect](https://github.com/libredirect/libredirect#get) - A web extension that redirects YouTube, Twitter... requests to alternative privacy friendly frontends and backends.
 > - [UntrackMe](https://www.f-droid.org/en/packages/app.fedilab.nitterizeme/) - Transform Youtube, Twitter & other links to their free and open source alternatives.
+
+
+
+### Blogging platforms (Medium)
+
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**:
+- **Medium** - website has Google trackers and ads.
+- **Blogger** - Google owned, has google trackers and ads.
+
+<img width="16" src="misc/check.png"> </img> **Alternatives:**
+- [Plume](https://github.com/Plume-org/Plume) 🧩 - Federated blogging application, thanks to ActivityPub.
+- [WriteFreely](https://writefreely.org/) 🧩 - An open source platform for building a writing space on the web.
+
+<img width="16" src="misc/check.png"> </img> **Alternative Medium frontends:**
+- [Scribe](https://sr.ht/~edwardloveall/scribe/) - Medium alternative forntend inspired by Invidious.
 
 ### Instagram
 
@@ -878,7 +901,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 
 **Alternatives to Instagram**
-- [Pixelfed](https://pixelfed.org/) - Decentralized, federated and Open Source alternative to Instagram with posts, videos, stories, tags, etc.
+- [Pixelfed](https://pixelfed.org/) 🧩 - Decentralized, federated and Open Source alternative to Instagram with posts, videos, stories, tags, etc.
 
 ### LBRY and Odysee
 
@@ -903,7 +926,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 <img width="16" src="misc/forbidden.png"> </img> Don't use YouTube (or at least the official client). YouTube is very privacy invasive, it generates a very accurate profile based on your interests. Also it is a [radicalization tool](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization) which shows [biased content to users](https://arxiv.org/pdf/1908.08313.pdf) in order to get more engagement and to get them to watch more and more content creating an [addiction](https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883). It never shows you [alternative opinions](https://arxiv.org/pdf/1908.08313.pdf) to your ideology/bias. YouTube censors a lot. YouTube collects a LOT of your data: interests, free time, ideology, likes, dislikes, music taste, etc.
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
-- [Peertube](https://joinpeertube.org/en/) - A free, open and decentralized alternative to video platforms.
+- [Peertube](https://joinpeertube.org/en/) 🧩 - A free, open and decentralized alternative to video platforms.
     - [SimpleerTube](https://simpleertube.metalune.xyz/) - A simple frontend for PeerTube with SepiaSearch [Source](https://git.sr.ht/~metalune/simpleweb_peertube).
 - [Odysee](https://odysee.com/) - Odysee is a video platform backed by the creators of lbry and uses the lbry blockchain protocol.
 - [DTube](https://github.com/dtube/dtube) - A full-featured video sharing website, decentralized.
@@ -941,10 +964,10 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 > **Federated social networks**: A federated social network isn't a single website like Twitter or Facebook, it's a network of thousands of communities operated by different organizations and individuals that provide a seamless social media experience.
 
-- [Pleroma](https://pleroma.social/) - Pleroma is a free, federated social networking server built on open protocols.
+- [Pleroma](https://pleroma.social/) 🧩 - Pleroma is a free, federated social networking server built on open protocols.
   - [Soapbox](https://gitlab.com/soapbox-pub/soapbox-fe) - A frontend for Pleroma with a focus on custom branding and ease of use.
   - <img width="16" src="misc/android.png"> [Husky](https://git.sr.ht/~captainepoch/husky) - Android client for Pleroma and Mastodon.
-- [Mastodon](https://joinmastodon.org/) - Free, federated microblogging social network built on open protocols.
+- [Mastodon](https://joinmastodon.org/) 🧩 - Free, federated microblogging social network built on open protocols.
   - [Mastodon Apps](https://joinmastodon.org/apps) - List of Mastodon apps for Android, iOS, Web and Desktop.
 
 <img width="16" src="misc/check.png"> </img> **Alternative Twitter Frontends:**
@@ -961,8 +984,8 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 <img width="16" src="misc/check.png"> </img> **Reddit alternatives:**
 - [Aether](https://getaether.net/) - Peer-to-peer ephemeral public communities.
-- [Kbin](https://github.com/ernestwisniewski/kbin) - A reddit-like content aggregator and micro-blogging platform for the fediverse. 
-- [Lemmy](https://join.lemmy.ml/) - A federated and open alternative to Reddit in Rust.
+- [Kbin](https://github.com/ernestwisniewski/kbin) 🧩 - A reddit-like content aggregator and micro-blogging platform for the fediverse. 
+- [Lemmy](https://join.lemmy.ml/) 🧩 - A federated and open alternative to Reddit in Rust.
 - [SaidIt](https://saidit.net/) - Open source Reddit clone.
 
 <img width="16" src="misc/check.png"> </img> **Privacy respecting Reddit clients:**
@@ -1000,15 +1023,6 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 <img width="16" src="misc/check.png"> </img> **Alternatives:**
 - [Imgin](https://git.voidnet.tech/kev/imgin) - A minimalist, tor-friendly, read-only Imgur proxy insipired by software like Invidious, Nitter, and Bibliogram.
 - [rimgo](https://codeberg.org/video-prize-ranch/rimgo#instances) - An alternative frontend for Imgur. Read-only, no-js, Based on rimgu and rewritten in Go.
-
-### Medium
-
-[![](https://shields.tosdr.org/en_1003.svg)](https://tosdr.org/en/service/1003)
-
-<img width="16" src="misc/forbidden.png"> </img> Medium website has Google trackers and ads.
-
-<img width="16" src="misc/check.png"> </img> **Alternative frontends:**
-- [Scribe](https://sr.ht/~edwardloveall/scribe/) - Medium alternative forntend inspired by Invidious.
 
 ## Teamworking Tools
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
