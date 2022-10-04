@@ -960,8 +960,9 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 <img width="16" src="misc/forbidden.png"> </img> Try to avoid using Reddit or at least avoid their official clients as they are plenty of trackers, ads and share unnecessary user data with their servers.
 
 <img width="16" src="misc/check.png"> </img> **Reddit alternatives:**
-- [Lemmy](https://join.lemmy.ml/) - A federated and open alternative to Reddit in Rust.
 - [Aether](https://getaether.net/) - Peer-to-peer ephemeral public communities.
+- [Kbin](https://github.com/ernestwisniewski/kbin) - A reddit-like content aggregator and micro-blogging platform for the fediverse. 
+- [Lemmy](https://join.lemmy.ml/) - A federated and open alternative to Reddit in Rust.
 - [SaidIt](https://saidit.net/) - Open source Reddit clone.
 
 <img width="16" src="misc/check.png"> </img> **Privacy respecting Reddit clients:**
