@@ -578,7 +578,19 @@ With email aliases, you can finally create a different identity for each website
 - [dzr](https://github.com/yne/dzr) - Command line Deezer player for Linux, BSD, Android+Termux
 
 #### Podcasts
-- [Antennapod](https://antennapod.org/) - The Open Podcast Player.
+
+<img width="16" src="misc/forbidden.png"> </img> **Avoid** 
+
+- **Spotify** - [Very bad](https://tosdr.org/en/service/225) privacy policy. They collect tons of data about you: mood, free time, likes, dislikes, friends... Also, their apps have [way too many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/).
+- **iVoox** - Their apps are [filled with trackers](https://reports.exodus-privacy.eu.org/en/reports/com.ivoox.app/latest/). Their website has trackers.
+- **Audible** - [Very bad](https://tosdr.org/en/service/190) privacy policy. Their app has [many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.audible.application/latest/).
+- **Deezer** - [Bad privacy policy](https://tosdr.org/en/service/2516). Apps have [many trackers](https://reports.exodus-privacy.eu.org/en/reports/deezer.android.tv/latest/). Way too many permissions are required for a streaming app.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+
+- [Antennapod](https://antennapod.org) - A podcast player that is completely open. Subscribe to any RSS feed. 
+- [Castopod](https://castopod.org) - Self-host your podcasts with ease, keep control over what you create and talk to your audience without any middleman. Your podcast and your audience belong to you and you only. 
+- [Funkwhale](https://funkwhale.audio/) - A social platform to enjoy and share music (SoundCloud alternative).
 
 ## Notes and Tasks
 <img width="16" src="misc/forbidden.png"> </img> **Avoid** 
