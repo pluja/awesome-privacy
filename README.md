@@ -590,7 +590,7 @@ With email aliases, you can finally create a different identity for each website
 
 - [Antennapod](https://antennapod.org) - A podcast player that is completely open. Subscribe to any RSS feed. 
 - [Castopod](https://castopod.org) - Self-host your podcasts with ease, keep control over what you create and talk to your audience without any middleman. Your podcast and your audience belong to you and you only. 
-- [Funkwhale](https://funkwhale.audio/) - A social platform to enjoy and share music (SoundCloud alternative).
+- [Funkwhale](https://funkwhale.audio/) - A social platform to enjoy and share audio.
 
 ## Notes and Tasks
 <img width="16" src="misc/forbidden.png"> </img> **Avoid** 
