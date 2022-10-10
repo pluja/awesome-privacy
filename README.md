@@ -1054,14 +1054,8 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 **Alternative clients/modifications of Discord:**
 > Your IP and messages will still be shared and belong to Discord and they are not encrypted.\
 > Also using any of these modifications/clients [violates](https://nitter.net/discord/status/1006178587731550208#m) the [Discord ToS](https://discord.com/terms) so, we are not responsible of any suspension or termination of your account **but**, this should [not happen **yet**](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos).
-- [OpenAsar](https://openasar.dev/) - An open-source alternative of Discord desktop's app.asar that comes with a [No Track](https://github.com/GooseMod/OpenAsar/blob/main/src/noTrack.js) function.
-- [GooseMod](https://goosemod.com/) - A new store-driven Discord mod that comes with a [Fucklytics](https://github.com/GooseMod-Modules/Fucklytics) plugin to block trackers.
-- [Cumcord](https://cumcord.com/) - A Discord client mod for your Discord client mod, also you need to install a [Fucklytics](https://send.cumcord.com/#https://cumcordplugins.github.io/Condom/smartfridge.is-a.dev/Cumcord-plugins/Fucklytics/dist) plugin to block trackers.
-- [BetterDiscord](https://betterdiscord.app/) - A client modification for Discord, also you need to install a [DoNotTrack](https://betterdiscord.app/plugin/DoNotTrack) plugin to block trackers.
-- [Kernel](https://github.com/kernel-mod/electron) - A super small and fast Electron client mod with the most capability, also you need to install a [Discord Utilities](https://github.com/slow/discord-utilities) package to block trackers.
-- [Powercord](https://powercord.dev/) - A lightweight client mod focused on simplicity and performance that comes with a [No Track](https://github.com/powercord-org/powercord/blob/v2/src/Powercord/coremods/no-track/index.js) function.
-- [WebCord](https://github.com/SpacingBat3/WebCord) - A Discord and Fosscord API-less client made with the Electron.
-- <img width="16" src="misc/android.png"> [Aliucord](https://github.com/Aliucord/Aliucord) - A modification for the Android Discord app that fully [disables the Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
+
+- [See this section for Discord mods and alternative clients](https://github.com/pluja/awesome-privacy/blob/main/README.md#alternative-clientsmodifications-of-discord)
 
 ## Translation and Speech-to-Text
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
