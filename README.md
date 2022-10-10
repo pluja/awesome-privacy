@@ -1070,6 +1070,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - Bing Translator [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
 
 <img width="16" src="misc/check.png"> </img> **Text translation**
+- [Mozilla Translate](https://mozilla.github.io/translate/) - Open Source, runs model locally in your browser.
 - [Libretranslate](https://libretranslate.com/) - Open Source Machine Translation - 100% Self-Hosted. No Limits. No Ties to Proprietary Services.
 - [Apertium](https://apertium.org/) - A free/open-source machine translation platform, runs offline on your computer
 - [Softcatala](https://www.softcatala.org/traductor/) - Open Source Translation tool - Only Catalan/Spanish/English/French (uses apertium)
