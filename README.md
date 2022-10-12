@@ -1024,7 +1024,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 <img width="16" src="misc/forbidden.png"> </img> Read more about the issue with Wikipedia on the [Wikiless manifesto](https://codeberg.org/orenom/wikiless#why-i-should-use-wikiless-instead-of-wikipedia).
 
 <img width="16" src="misc/check.png"> </img> **Alternatives:**
-- [Wikiless](https://wikiless.org/) - A free open source alternative Wikipedia front-end focused on privacy [Source Code](https://codeberg.org/orenom/wikiless).
+- [Wikiless](https://wikiless.org/) - [Wikiless repository has been removed by Codeberg, follow news here](https://orenom.fi/) - A free open source alternative Wikipedia front-end focused on privacy [Source Code](https://codeberg.org/orenom/wikiless).
 
 ### Imgur
 
