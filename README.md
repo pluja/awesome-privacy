@@ -441,9 +441,9 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Tox](https://tox.chat/) - Tox is easy-to-use software that connects you with friends and family without anyone else listening in.
 - [Briar](https://briarproject.org/) - Peer-to-peer encrypted messaging and forums.
 - [Tinfoil Chat](https://github.com/maqp/tfc) - Onion-routed, endpoint secure messaging system.
+- [Berty](https://berty.tech/) - The privacy-first messaging app that works with or without internet access, cellular data or trust in the network.
 
 #### Worth mentioning
-- [Berty](https://berty.tech/) - Not released yet. The privacy-first messaging app that works with or without internet access, cellular data or trust in the network.
 - [Telegram](https://telegram.org/) - Not fully open source. No E2E encryption by default on chats.
 
 ## Link Shorteners
