@@ -443,9 +443,6 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Tinfoil Chat](https://github.com/maqp/tfc) - Onion-routed, endpoint secure messaging system.
 - [Berty](https://berty.tech/) - The privacy-first messaging app that works with or without internet access, cellular data or trust in the network.
 
-#### Worth mentioning
-- [Telegram](https://telegram.org/) - Not fully open source. No E2E encryption by default on chats.
-
 ## Link Shorteners
 
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
