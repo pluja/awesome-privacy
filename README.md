@@ -24,6 +24,7 @@
 - [Android Keyboard](#android-keyboard)
 - [Android Launcher](#android-launcher)
 - [Bookmarking](#bookmarking)
+    - [Book and web annotations](#book-and-web-annotations-highlights-management)
 - [Captchas](#captchas)
 - [Cloaking](#cloaking)
 - [Cloud Storage](#cloud-storage)
@@ -196,6 +197,11 @@ It allows users to easily create and browse group of apps and it displays notifi
 - [Shiori](https://github.com/go-shiori/shiori)
 - [LinkAce](https://github.com/Kovah/LinkAce)
 - [LinkDing](https://github.com/sissbruecker/linkding)
+
+### Book and web annotations/highlights management
+
+- [Hypothesis](https://github.com/hypothesis/h/) - Annotate the web, with anyone, anywhere.
+- [Kobuddy](https://github.com/karlicoss/kobuddy - Get your Kobo e-reader device bookmarks and annotations in a .txt file.
 
 ## Captchas
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
