@@ -24,7 +24,7 @@
 - [Android Keyboard](#android-keyboard)
 - [Android Launcher](#android-launcher)
 - [Bookmarking](#bookmarking)
-    - [Book and web annotations](#book-and-web-annotations-highlights-management)
+    - [Book and web annotations](#book-and-web-annotationshighlights-management)
 - [Captchas](#captchas)
 - [Cloaking](#cloaking)
 - [Cloud Storage](#cloud-storage)
