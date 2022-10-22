@@ -252,6 +252,7 @@ Google captchas use cookies to track users and rank their IPs.
 
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+- [Azimutt](https://azimutt.app) - Open Source Database Explorer with privacy at its heart ([github](https://github.com/azimuttapp/azimutt))
 
 ### IDEs
 <img width="16" src="misc/forbidden.png"> </img> Avoid using privative IDEs that are full of trackers and telemetry.
