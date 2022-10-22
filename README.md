@@ -1165,7 +1165,7 @@ Here are some open source and truly private (no personal data and/or credit card
 
 #### Android / iOS
 - [Bromite](https://www.bromite.org/) - It has been known to lag on security patches, so it may be better not to use it.
-- [Brave](https://brave.com/) - Android/iOS. Brave offers a pretty goot out-of-the-box set of privacy and tracker protections.
+- [Brave](https://brave.com/) - Android/iOS. Brave offers a pretty good out-of-the-box set of privacy and tracker protections.
 - [Firefox](https://www.mozilla.org/en-US/firefox/mobile/) - Android/iOS
     - <img width="16" src="misc/android.png"> [Mull](https://f-droid.org/en/packages/us.spotco.fennec_dos/) - Privacy hardened fork of Firefox for Android, with proprietary blobs removed.
 - <img width="16" src="misc/android.png"> [Vanadium](https://vanadium.app/) - Privacy and security enhanced releases of Chromium by GrapheneOS.
@@ -1173,7 +1173,7 @@ Here are some open source and truly private (no personal data and/or credit card
 - [Tor Browser](https://www.torproject.org/) - iOS/Android. Defend yourself against tracking and surveillance and circumvent censorship.
 
 #### Desktop
-- [Brave](https://brave.com/) - Brave offers a pretty goot out-of-the-box set of privacy and tracker protections.
+- [Brave](https://brave.com/) - Brave offers a pretty good out-of-the-box set of privacy and tracker protections.
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Open Source, independent browser. It needs some [hardening and tweaking](https://anonymousplanet.org/guide.html#firefox-1) to achieve great privacy.
   - [LibreWolf](https://librewolf.net/) - Privacy-focused Firefox fork.
 - [Tor Browser](https://www.torproject.org/)
