@@ -292,6 +292,10 @@ Apps such as Tinder collect and sell your personal intimate information. Tinder 
 ## Encryption
 Remember: Without strong encryption, you will be spied on systematically by lots of people.
 
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- **BitLocker** - It is proprietary, works even with Windows only with the more expensive Professional edition or higher, and is owned by Microsoft [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Veracrypt](https://www.veracrypt.fr/en/Home.html) - VeraCrypt is a free open source disk encryption software for Windows, macOS and Linux.
 - [Hat.sh](https://hat.sh/) - A Free, Fast, Secure and Serverless File Encryption.
 - [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
