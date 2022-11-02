@@ -1005,7 +1005,8 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [SaidIt](https://saidit.net/) - Open source Reddit clone.
 
 <img width="16" src="misc/check.png"> </img> **Privacy respecting Reddit clients:**
-- [Libreddit](https://libredd.it) - Private Reddit front-end written in Rust
+- [Libreddit](https://github.com/libreddit/libreddit) - Private Reddit front-end written in Rust
+	- [Ferrit](https://github.com/ferritreader/ferrit) - Private front-end for Reddit. Continuation of spikecodes/libreddit. 
 - [Teddit](https://teddit.net/) - Alternative Reddit front-end focused on privacy
 - <img width="16" src="misc/android.png"> [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) - A beautiful Reddit client for Android.
 - <img width="16" src="misc/android.png"> [Dawn](https://github.com/Tunous/Dawn) - A gesture driven, open source reddit client for android
