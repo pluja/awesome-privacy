@@ -44,6 +44,7 @@
     - [Minecraft](#minecraft)
     - [Sonic the Hedgehog](#sonic-the-hedgehog)
 - [Home Assistants](#home-assistants)
+- [Identity verification](#identity-verification)
 - [Instant Messaging](#instant-messaging)
 - [Link Shorteners](#link-shorteners)
 - [Location tracking](#location-tracking)
@@ -407,6 +408,10 @@ Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/ale
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Mycroft](https://mycroft.ai/) - The Private and Open Voice Assistant.
 - [Home Assistant](https://www.home-assistant.io/) - Open source home automation that puts local control and privacy first.
+
+## Identity verification
+
+- [Keyoxide](https://keyoxide.org/) - A modern, secure and privacy-friendly platform to establish your decentralized online identity
 
 ## Instant Messaging
 **Check out [this site](https://www.securemessagingapps.com/) for comparisons*.
