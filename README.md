@@ -710,7 +710,7 @@ Many websites require phone number verification. These services offer a way to r
 GNU/Linux is a family of free (as in freedom and as in free beer) and open source Operating Systems mostly developed by the community. If you don't know where to start these are good options for begginers:
 
 - [Fedora](https://getfedora.org/)
-- [Mint (Cinnamon)](https://linuxmint.com/edition.php?id=292) is a beginner friendly distribution. 
+- [Mint (Cinnamon)](https://linuxmint.com/edition.php?id=299) is a beginner friendly distribution. 
 
 > If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). You can also investigate [Ventoy](https://www.ventoy.net) to easily download and test linux distros with a USB stick.
 
