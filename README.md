@@ -476,6 +476,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 
 ### Find My Device
 - [Find My Device](https://gitlab.com/Nulide/findmydevice) - Find your Android Device via SMS.
+- [GPSlogger](https://github.com/mendhak/gpslogger) - Lightweight GPS Logging Application For Android. No servers, no internet. Saved to a simple file to local storage.
 
 ## Mail Services
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
