@@ -661,6 +661,7 @@ Many websites require phone number verification. These services offer a way to r
 ### No email verification, accepting monero
 - [Crypton](https://crypton.sh/) - Secure SMS Sim Card in the cloud. (Based in Iceland)
 - [Virtualsim](https://virtualsim.net/) - Virtualsim provides physical SIM cards leasing for SMS verifications. (Based in Ukraine)
+- [MoneroSMS](https://monerosms.com/) - Virtual numbers for SMS/MMS messaging and verifications. CLI and web app. (Based in United States)
 
 ### Email verification required, accepting monero
 - [Onlinesim](https://onlinesim.ru/) - Receive SMS online to virtual phone number. (Based in Russia)
