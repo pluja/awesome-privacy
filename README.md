@@ -42,6 +42,7 @@
 - [Games](#games)
     - [Mario Kart](#mario-kart)
     - [Minecraft](#minecraft)
+    - [Pokémon](#pokemon)
     - [Sonic the Hedgehog](#sonic-the-hedgehog)
 - [Home Assistants](#home-assistants)
 - [Instant Messaging](#instant-messaging)
@@ -364,6 +365,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 ## Games
 
 ### Mario Kart
+
 Nintendo [collects user data](https://libreddit.kavin.rocks/r/privacy/comments/qtj9xt/til_nintendo_collects_data_from_switch_owners/), and if you disable it, they can [turn it back on](https://www.altchar.com/game-news/the-latest-nintendo-switch-update-secretly-turns-on-user-data-sharing-adSyV7t35NPg). Also, it has a paid plan that is not accessible to everyone economically.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
@@ -388,6 +390,14 @@ If you still want to play Minecraft, you can add some plugins that can help you 
 
 - [No-Telemetry](https://github.com/kb-1000/no-telemetry) - Mod that disables the usage data collection, aka telemetry, introduced in Minecraft 1.18 (snapshot 21w38a).
 - [No-Chat-Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) - Strips cryptographic signatures from player messages, making it impossible to track and associate them with your Mojang/Microsoft account.
+
+### Pokemon
+
+Nintendo [collects user data](https://libreddit.kavin.rocks/r/privacy/comments/qtj9xt/til_nintendo_collects_data_from_switch_owners/), and if you disable it, they can [turn it back on](https://www.altchar.com/game-news/the-latest-nintendo-switch-update-secretly-turns-on-user-data-sharing-adSyV7t35NPg). Also, it has a paid plan that is not accessible to everyone economically.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+
+- [Pokete](https://github.com/lxgr-linux/pokete) - A small terminal based game in the style of a very popular and old game by Gamefreak.
 
 ### Sonic the Hedgehog
 
