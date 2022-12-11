@@ -739,7 +739,6 @@ GNU/Linux is a family of free (as in freedom and as in free beer) and open sourc
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - LastPass
 - Dashlane
-- 1Password
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Bitwarden](https://bitwarden.com) - An open source cloud based password manager.
