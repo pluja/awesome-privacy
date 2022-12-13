@@ -46,6 +46,7 @@
     - [Sonic the Hedgehog](#sonic-the-hedgehog)
 - [Home Assistants](#home-assistants)
 - [Instant Messaging](#instant-messaging)
+- [Link in Bio Tools](#link-in-bio-tools)
 - [Link Shorteners](#link-shorteners)
 - [Location tracking](#location-tracking)
 - [Mail Services](#mail-services)
@@ -456,6 +457,10 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Briar](https://briarproject.org/) - Peer-to-peer encrypted messaging and forums.
 - [Tinfoil Chat](https://github.com/maqp/tfc) - Onion-routed, endpoint secure messaging system.
 - [Berty](https://berty.tech/) - The privacy-first messaging app that works with or without internet access, cellular data or trust in the network.
+
+## Link in Bio Tools
+
+[Keyoxide](https://keyoxide.org/) - A modern, secure and privacy-friendly platform to establish your decentralized online identity
 
 ## Link Shorteners
 
