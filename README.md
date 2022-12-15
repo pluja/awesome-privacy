@@ -990,9 +990,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 [![](https://shields.tosdr.org/en_195.svg)](https://tosdr.org/en/service/195)
 
-<img width="16" src="misc/forbidden.png"> </img> Avoid using Twitter official app / website. It tracks users and creates user profiles based on what they follow, retweet and like. Twitter harms and violates user privacy with their policies.
-
-<img width="16" src="misc/check.png"> </img> **Alternatives to Twitter:**
+<img width="16" src="misc/forbidden.png"> </img> Avoid using Twitter official app / website. It tracks users and creates user profiles based on what they follow, retweet and like. Twitter harms and violates user privacy with their policies [by default](https://www.eff.org/deeplinks/2017/05/how-opt-out-twitters-new-privacy-settings). 
 
 #### Decentralized social networks
 
