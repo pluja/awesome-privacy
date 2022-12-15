@@ -994,15 +994,19 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 <img width="16" src="misc/check.png"> </img> **Alternatives to Twitter:**
 
+#### Decentralized social networks
+
+- [Nostr](https://github.com/nostr-protocol/nostr) - Simplest open protocol that is able to create a censorship-resistant global "social" network. It doesn't rely on any trusted central server, hence it is resilient; it is based on cryptographic keys and signatures, so it is tamperproof; it does not rely on P2P techniques, therefore it works.
+
 > **Federated social networks**: A federated social network isn't a single website like Twitter or Facebook, it's a network of thousands of communities operated by different organizations and individuals that provide a seamless social media experience.
 
+- [Mastodon](https://joinmastodon.org/) 🧩 - Free, federated microblogging social network built on open protocols.
+  - [Mastodon Apps](https://joinmastodon.org/apps) - List of Mastodon apps for Android, iOS, Web and Desktop.
 - [Pleroma](https://pleroma.social/) 🧩 - Pleroma is a free, federated social networking server built on open protocols.
   - [Soapbox](https://gitlab.com/soapbox-pub/soapbox-fe) - A frontend for Pleroma with a focus on custom branding and ease of use.
   - <img width="16" src="misc/android.png"> [Husky](https://git.sr.ht/~captainepoch/husky) - Android client for Pleroma and Mastodon.
-- [Mastodon](https://joinmastodon.org/) 🧩 - Free, federated microblogging social network built on open protocols.
-  - [Mastodon Apps](https://joinmastodon.org/apps) - List of Mastodon apps for Android, iOS, Web and Desktop.
 
-<img width="16" src="misc/check.png"> </img> **Alternative Twitter Frontends:**
+#### Alternative Twitter Frontends
 - [Nitter](https://github.com/zedeus/nitter/wiki/Instances) - Nitter is a free and open source alternative Twitter front-end focused on privacy.
 	- [Fritter](https://github.com/jonjomckay/fritter/) - A free, open-source Nitter client for Android.
 - [Feetter](https://codeberg.org/pluja/Feetter) - Create, sync and manage Nitter feeds without registration from any device.
