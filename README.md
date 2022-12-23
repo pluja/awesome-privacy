@@ -922,7 +922,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [WriteFreely](https://writefreely.org/) 🧩 - An open source platform for building a writing space on the web.
 
 <img width="16" src="misc/check.png"> </img> **Alternative Medium frontends:**
-- [Scribe](https://sr.ht/~edwardloveall/scribe/) - Medium alternative forntend inspired by Invidious.
+- [Scribe](https://git.sr.ht/~edwardloveall/scribe/) - Medium alternative forntend inspired by Invidious.
 
 ### Instagram
 
