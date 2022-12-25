@@ -294,6 +294,7 @@ Apps such as Tinder collect and sell your personal intimate information. Tinder 
 Remember: Without strong encryption, you will be spied on systematically by lots of people.
 
 - [Veracrypt](https://www.veracrypt.fr/en/Home.html) - VeraCrypt is a free open source disk encryption software for Windows, macOS and Linux.
+- [Shufflecake](https://shufflecake.net/index.html) - Free open source, plausible deniability for multiple hidden filesystems on Linux
 - [Hat.sh](https://hat.sh/) - A Free, Fast, Secure and Serverless File Encryption.
 - [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
 - [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
