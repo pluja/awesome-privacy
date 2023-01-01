@@ -738,6 +738,7 @@ GNU/Linux is a family of free (as in freedom and as in free beer) and open sourc
 
 #### Other OS:
 
+- [AtlasOS](https://atlasos.net/) - An open-source modification of Windows 10, designed to optimize performance, and latency. Atlas removes all types of tracking embedded within Windows and implements numerous group policies to minimize data collection.
 - [ReactOS](https://reactos.org/) - ReactOS is an operating system able to run Windows software, Windows drivers that looks-like Windows and is free and open source.
 - [RedoxOS](https://www.redox-os.org/) - A WIP project aiming to provide a Unix-like Operating System written in Rust.
 
