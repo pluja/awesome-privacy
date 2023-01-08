@@ -26,6 +26,7 @@
 - [Bookmarking](#bookmarking)
     - [Book and web annotations](#book-and-web-annotationshighlights-management)
 - [Captchas](#captchas)
+- [Commenting Engines (disqus)](#commenting-engines)
 - [Cloaking](#cloaking)
 - [Cloud Storage](#cloud-storage)
 - [Databases](#databases)
@@ -213,6 +214,18 @@ Google captchas use cookies to track users and rank their IPs.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [hCaptcha](https://www.hcaptcha.com/) - Privacy-first CAPTCHA for web, mobile, and more.
+
+## Comenting Engines
+
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+- **Disqus** - Many trackers are in their sites. Disqus collects (as per their Privacy Policy):  IP address, unique Cookie ID, Device ID, your login data, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform and other technology on the devices you use to access the Service.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+
+- [Isso](https://github.com/posativ/isso) - A lightweight, self hosted, commenting server written in Python and JavaScript. It aims to be a drop-in replacement for Disqus.
+- [Commento](https://commento.io/) - Commento is a fast, privacy-focused commenting platform. Can be selfhosted or use their SaaS.
+- [Remark42](https://remark42.com) - Self-hosted, lightweight, and simple (yet functional) comment engine, which doesn't spy on users.
 
 ## Cloaking
 ### Images
