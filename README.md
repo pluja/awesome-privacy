@@ -215,7 +215,7 @@ Google captchas use cookies to track users and rank their IPs.
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [hCaptcha](https://www.hcaptcha.com/) - Privacy-first CAPTCHA for web, mobile, and more.
 
-## Comenting Engines
+## Commenting Engines
 
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 
