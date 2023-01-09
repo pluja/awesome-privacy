@@ -650,6 +650,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [SiYuan](https://github.com/siyuan-note/siyuan) - A local-first personal knowledge management system.
 - [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
+- [Trilium Notes](https://github.com/zadam/trilium) - Build your personal knowledge base with Trilium Notes 
 - [Vikunja](https://vikunja.io) - The open-source to-do app to organize your life.
 - [YankNote](https://github.com/purocean/yn) - A Hackable Markdown Note Application for Programmers.
 
