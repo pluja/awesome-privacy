@@ -867,9 +867,6 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [ImageGlass](https://imageglass.org/) - ImageGlass is a lightweight software application whose purpose is to help you view images in a clean and intuitive working environment. 
 
 
-## Porn
-
-
 ## Privacy Tools
 
 This section is dedicated to some tools that may help users analyze the privacy status on their devices.
@@ -978,7 +975,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 ### Porn
 
-[![](https://shields.tosdr.org/en_274.svg)](https://tosdr.org/en/service/616)
+[![](https://shields.tosdr.org/en_616.svg)](https://tosdr.org/en/service/616)
 
 <img width="16" src="misc/forbidden.png"> </img> Don't use Mindgeek based porn sites (PornHub, YouPorn, RedTube, Xtube, Brazzers, Twistys, MyDirtyHobby, Reality Kings, and more). These servers are very privacy invasive and in most countries porn is still a forbidden topic to talk about. We still recommend you to visit the "big players", as other smaller porn sites often contain underage content and will only redirect you from site to site.
 
