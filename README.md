@@ -456,6 +456,7 @@ No single point of control or failure. A decentralized network operated by diffe
 - [DeltaChat](https://delta.chat/) - Chat over encrypted e-mail.
 - [Session](https://getsession.org/) - Extreme focus on privacy and anonymity. Blockchain technology.
 - [SimpleX Chat](https://simplex.chat/) - The first chat platform that is 100% private by design - it has no access to your connection graph
+- [Status](https://status.im/) - Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.
 
 ### Centralized
 The service is in charge of running the servers that allow users to communicate. Single point of failure and control, but still 100% safe and trustworthy if the protocols and code are open and audited.
@@ -463,7 +464,6 @@ The service is in charge of running the servers that allow users to communicate.
 - [Threema](https://threema.ch/en) - The messenger that puts security and privacy first. Pay once, chat forever. No collection of user data. Open Source client.
 - [Signal](https://signal.org/) - Extreme focus on privacy, combined with all of the features you expect. Strong encryption by design. 100% Open Source.
   - <img width="16" src="misc/android.png"> [Molly](https://github.com/mollyim/mollyim-android) - Signal-compatible fork client with some security enhancements.
-- [Status](https://status.im/) - Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.
 
 ### P2P
 No servers involved. Everything goes directly from one peer to the other peer. No point of failure or control. The features are reduced because of the lack of server, messaging can be slower. Best option for critical chats.
