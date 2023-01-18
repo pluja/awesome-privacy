@@ -475,7 +475,8 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 
 ## Link in Bio Tools
 
-[Keyoxide](https://keyoxide.org/) - A modern, secure and privacy-friendly platform to establish your decentralized online identity
+- [Keyoxide](https://keyoxide.org/) - A modern, secure and privacy-friendly platform to establish your decentralized online identity.
+- [LinkFree](https://github.com/EddieHubCommunity/LinkFree) - Connect to your audience with a single link. Showcase the content you create and your projects in one place. Make it easier for people to find, follow and subscribe.
 
 ## Link Shorteners
 
