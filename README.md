@@ -214,6 +214,7 @@ Google captchas use cookies to track users and rank their IPs.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [hCaptcha](https://www.hcaptcha.com/) - Privacy-first CAPTCHA for web, mobile, and more.
+- [OOPSpam](https://www.oopspam.com/) - No-captcha, privacy-friendly anti-spam, anti-bot API. Requires no personal data for detection. Supports popular platforms like WordPress. Privacy commitment in their mission statement.
 
 ## Commenting Engines
 
