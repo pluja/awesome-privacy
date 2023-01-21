@@ -1198,8 +1198,10 @@ Such programs come filled with trackers and telemetry. You can get a full list o
 
 Here are some open source and truly private (no personal data and/or credit card needed) options:
 
-- [Mullvad VPN](https://mullvad.net)
+- [Azire](https://www.azirevpn.com/)
 - [IVPN](https://ivpn.net)
+- [Mullvad VPN](https://mullvad.net)
+- [Proton VPN](https://protonvpn.com)
 - [SPN](https://safing.io/)
 
 ## Web Browser
