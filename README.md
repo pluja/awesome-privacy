@@ -517,7 +517,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 <img width="16" src="misc/check.png"> </img> **Instead use**
 
 ### Third-Party owned
-- [Forward Email](https://forwardemail.net) (@forwardemail) - the 100% open-source and privacy-focused email service.
+- [Forward Email](https://forwardemail.net) - the 100% open-source and privacy-focused email service.
 - [ProtonMail](https://protonmail.com/) - Secure Email. Based in Switzerland. [Read this article over Climate activist arrest](https://protonmail.com/blog/climate-activist-arrest/).
 - [Tutanota](https://tutanota.com/) - Secure email for everybody. Open Source.
 - [Riseup](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
