@@ -4,7 +4,8 @@
 	<img src="https://awesome.re/badge.svg" alt="Awesome">
 	<a href="https://git.nixnet.services/pluja/awesome-privacy"><img alt="Mirror" src="https://img.shields.io/badge/Mirror-gitea-green"></img></a>
 </p>
-<p align="center">List of free, open source and privacy respecting services and alternatives to privative services.</p>
+<p align="center">Indonesian Languange</p>
+<p align="center">Berisi list software yang mengutamakan privasi dan sebagai alternatif layanan yang lebih privat.</p>
 <p align="center">
 	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/ABOUT.md"> About </a> | 
 	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/Contributing.md"> Contributing </a> | 
