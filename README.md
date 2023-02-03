@@ -736,7 +736,7 @@ Many websites require phone number verification. These services offer a way to r
 
 ### PC / MacOS
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
-- MS Windows - Owned by Microsoft it is known for collecting many user data and tricking users to own a Microsoft account. If you still want and happen to use Windows 10, you can use [this tool](https://github.com/builtbybel/privatezilla) to see and disable the tons of privacy-invasive settings of MS Windows.
+- MS Windows - Owned by Microsoft it is known for collecting many user data and tricking users to own a Microsoft account. If you still want and happen to use Windows 10, you can use [this tool](https://github.com/builtbybel/privatezilla), or [this other tool](https://www.w10privacy.de/english-home/) to see and disable the tons of privacy-invasive settings of MS Windows.
 - MacOS.
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
