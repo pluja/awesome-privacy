@@ -189,6 +189,18 @@ Third-party launchers found on the play store. They may contain ads/trackers and
 - [Bliss Launcher](https://f-droid.org/en/packages/foundation.e.blisslauncher/) - The default launcher of the /e/ Android-based OS.
 It allows users to easily create and browse group of apps and it displays notification badges on app icons.
 
+## Automation Tools
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+Any cloud automation tool that doesn't shows clarity on how data is stored and used in the background.
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+
+Use open source automation tools that can be hosted on your machine which give you clarity on how data is stored and used in the backend.
+
+- [Activepieces](https://github.com/activepieces/activepieces) - No-code open source business automation tool - an alternative to Zapier.
+- [Huginn](https://github.com/huginn/huginn) - Create agents that monitor and act on your behalf.
+
 ## Bookmarking
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Pocket (Formerly Read It Later) - [Bad privacy policy](https://tosdr.org/en/service/384). [Apps have trackers](https://reports.exodus-privacy.eu.org/en/reports/com.ideashower.readitlater.pro/latest/) and requires many permissions.
