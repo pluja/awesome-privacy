@@ -12,8 +12,11 @@
 	<a href="https://github.com/pluja/awesome-privacy/discussions"> Discussions </a>
 </p>
 
-> ⚠️ Privacy Shields are provided by [TOSDR](https://tosdr.org/). They analyse Terms of Service and Privacy Policies **but you should know they don't take into account other things like **trackers, source code, historic record, etc.****
-	
+### ⚠️ [Important note](#privacy-vs-security-vs-anonimity)
+
+Anonymity, Privacy, and Security are often used interchangeably, but they actually represent distinct concepts. It is important to understand the differences between them. [Read more in this section below](#privacy-vs-security-vs-anonimity).
+
+The primary focus of this list is to provide alternatives that prioritize privacy. These alternatives give you control over your data and do not collect or sell it.
 
 ## Contents
 - [2FA](#2fa)
@@ -1239,11 +1242,9 @@ Here are some open source and truly private (no personal data and/or credit card
 Please read about what the addon does before installing. If you don't understand what you are doing you could end up damaging your privacy. Also, too many addons can slow down your browsing experience.
 
 - [uBlock Origin](https://ublockorigin.com/) - Free, open-source ad content blocker. Easy on CPU and memory.
-- [ClearURLs](https://github.com/ClearURLs/Addon) - This extension will automatically remove tracking elements from URLs to help protect your privacy when browsing the Internet and sharing links.
-- [LocalCDN](https://www.localcdn.org/) - LocalCDN is a web browser extension that emulates Content Delivery Networks to improve your online privacy. It intercepts traffic, finds supported resources locally, and injects them into the environment. LocalCDN is a fork of the inactive project [Decentraleyes](https://decentraleyes.org/).
-- [Cookie Autodelete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) - When a tab closes, any cookies not being used are automatically deleted. Prevent tracking by other cookies and add only the ones you trust.
-- [Smart Referer](https://gitlab.com/smart-referrer/smart-referer/-/blob/master/README.md) - Automatically hide HTTP and JavaScript Referer for cross-domain requests.
-- ~[Privacy Redirect](https://github.com/SimonBrazell/privacy-redirect)~ [LibRedirect](https://github.com/libredirect/libredirect) - A simple web extension that redirects Twitter, YouTube, Google Maps and many more requests to privacy friendly alternatives. Former Privacy Redirect is no longer maintained, LibRedirect is a maintained fork.
+	- [Read the extension docs](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and pick one of the recommended modes to increase your privacy.
+	- Go to settings > filters list > annoyances, turn on easylist-cookies. This will avoid you the annoying Cookie popups.
+- [LibRedirect](https://github.com/libredirect/libredirect) - A simple web extension that redirects Twitter, YouTube, Google Maps and many more requests to privacy friendly alternatives. Former Privacy Redirect is no longer maintained, LibRedirect is a maintained fork.
 
 #### Useful Tools
 - [Single File](https://github.com/gildas-lormeau/SingleFile) - Save a faithful copy of an entire web page in a single HTML file so you can use it offline.
@@ -1255,3 +1256,19 @@ Please read about what the addon does before installing. If you don't understand
 - <img width="16" src="misc/android.png"> [Bromite WebView](https://www.bromite.org/system_web_view) - Bromite WebView is a version of Android System WebView with support for ad blocking and enhanced privacy.
   - [WebView Switcher](https://github.com/Magisk-Modules-Repo/bromitewebview) - A tool for installing Bromite WebView on android 10
 
+
+## Privacy vs Security vs Anonimity
+
+Anonymity, Privacy, and Security are often used interchangeably, but they actually represent distinct concepts. It is important to understand the differences between them.
+
+- Privacy is about regulating who has access to your personal information, being aware of the data that is being collected about you, and having the ability to decide who can access it and how. In short, privacy involves controlling your personal information.
+
+- Security refers to safeguarding your personal information from unauthorized access or theft. It involves ensuring that your data is protected and stored in a secure manner, making it difficult for malicious actors to access it.
+
+- Anonymity is about ensuring that your actions cannot be traced back to you. This means that even if someone discovers what you are doing, they will not be able to identify you as the source.
+
+It is important to note that privacy and security are not necessarily interdependent. For instance, Google systems are secure and unlikely to be hacked, but Google still has access to your personal data and makes use of it. 
+
+Privacy and anonimity are also not necessarily linked, services like Signal offer high levels of privacy since they do not collect any data about what you say, who you talk to or how you use the app, but they may not be anonymous since you still need to register using your phone number (which is in many cases linked to your identity).
+
+Finally, there are services that may offer all three: anonymity, privacy, and security. The primary focus of this list is to provide alternatives that prioritize privacy. These alternatives give you control over your data and do not collect or sell it.
