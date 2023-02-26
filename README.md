@@ -530,9 +530,10 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Skiff](https://skiff.com) - Privacy-first, end-to-end encrypted, open-source email.
 
 ### Self-Hosted
-- [Mail-in-a-box](https://github.com/mail-in-a-box/mailinabox) - Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box.
 - [Docker mail server](https://github.com/docker-mailserver/docker-mailserver) - A fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) using Docker.
 - [Mailcow: dockerized](https://github.com/mailcow/mailcow-dockerized) - The mailserver suite with the 'moo'.
+- [Mail-in-a-box](https://github.com/mail-in-a-box/mailinabox) - Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box.
+- [Mox](https://github.com/mjl-/mox) - Modern full-featured open source secure mail server for low-maintenance self-hosted email.
 
 ### Clients
 
