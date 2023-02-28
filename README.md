@@ -777,10 +777,10 @@ GNU/Linux is a family of free (as in freedom and as in free beer) and open sourc
   - [KeepassDX](https://www.keepassdx.com/) for Android.
   - [Strongbox](https://strongboxsafe.com/) for iOS.
   - [KeeWeb](https://keeweb.info/) for Web and other platforms.
-- [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
-- [Passky](https://passky.org) - Simple, modern, lightweight, open-source and secure password manager.
 - [LessPass](https://www.lesspass.com) - Stateless password manager. Remember one master password to access your passwords. No sync needed.
-- [Passbolt](https://www.passbolt.com) - An open source password manager designed for team collaboration. Securely generate, store, manage and monitor your team credentials.
+- [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
+- [Passbolt](https://www.passbolt.com) - An open source password manager designed for team collaboration.
+- [Passky](https://passky.org) - Simple, modern, lightweight, open-source and secure password manager.
 
 ## Pastebin and Secret Sharing
 
