@@ -136,6 +136,7 @@ The primary focus of this list is to provide alternatives that prioritize privac
 	- [Droid-ify](https://github.com/Iamlooker/Droid-ify) - Lightweight F-Droid client with Material UI.
 	- [Aurora Droid](https://auroraoss.com/download/#aurora-droid) - Aurora Droid is a modern FOSS client for F-Droid.
 	- [Foxy Droid](https://github.com/kitsunyan/foxy-droid) - Unofficial F-Droid client in the style of the classic one.
+	- [Droid-ify](https://github.com/Iamlooker/Droid-ify) - Enhanced fork of Foxy Droid
 - [FossDroid](https://fossdroid.com/) - Fossdroid's aim is to promote free and open source apps on the Android platform: newest, trendiest and the most popular ones.
 - [SkyDroid](https://skydroid.app/) - Decentralized App Store for Android
 - [Obtainium](https://github.com/ImranR98/Obtainium) - Get app updates directly from the source.
