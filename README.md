@@ -26,6 +26,7 @@ The primary focus of this list is to provide alternatives that prioritize privac
 - [Android File Manager](#android-file-manager)
 - [Android Keyboard](#android-keyboard)
 - [Android Launcher](#android-launcher)
+- [Artificial Intelligence](#artificial-intelligence)
 - [Bookmarking](#bookmarking)
     - [Book and web annotations](#book-and-web-annotationshighlights-management)
 - [Captchas](#captchas)
@@ -192,6 +193,13 @@ Third-party launchers found on the play store. They may contain ads/trackers and
 - [Rootless Pixel Launcher](https://github.com/amirzaidi/Launcher3) - The Launcher3 fork known as "Rootless Pixel Launcher".
 - [Bliss Launcher](https://f-droid.org/en/packages/foundation.e.blisslauncher/) - The default launcher of the /e/ Android-based OS.
 It allows users to easily create and browse group of apps and it displays notification badges on app icons.
+
+## Artificial Intelligence
+
+#### ChatGPT
+
+- [llama.cpp](https://github.com/ggerganov/llama.cpp) - Inference of Facebook's LLaMA model in pure C/C++ so it can run locally on a CPU.
+	- [llama-dl](https://github.com/shawwn/llama-dl) - High-speed download of LLaMA, Facebook's GPT model 
 
 ## Bookmarking
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
