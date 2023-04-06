@@ -880,7 +880,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 ### Third-party
 - [Crypt.ee](https://crypt.ee/) - A private and encrypted place for all your photos, documents, notes and more.
-- [Ente](https://ente.io/) - End-to-end encrypted storage for photos and videos. Open source clients.
+- [Ente](https://ente.io/) - End-to-end encrypted storage for photos and videos. Open source clients, [audited](https://ente.io/blog/cryptography-audit/) independently.
 - [Stingle Photos](https://stingle.org/) - Open source solution that provides strong security, privacy and encryption to backup your photos.
 
 ### Local
