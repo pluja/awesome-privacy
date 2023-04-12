@@ -27,6 +27,8 @@ The primary focus of this list is to provide alternatives that prioritize privac
 - [Android Keyboard](#android-keyboard)
 - [Android Launcher](#android-launcher)
 - [Artificial Intelligence](#artificial-intelligence)
+	- [ChatGPT](#chat-gpt)
+	- [Copilot](#copilot)
 - [Bookmarking](#bookmarking)
     - [Book and web annotations](#book-and-web-annotationshighlights-management)
 - [Captchas](#captchas)
@@ -196,10 +198,15 @@ It allows users to easily create and browse group of apps and it displays notifi
 
 ## Artificial Intelligence
 
+When using cloud-based AI services, the data you input is often collected and stored by the service provider. This may include not only the content of your requests but also metadata, such as timestamps or IP addresses. Third-party servers may grant access to your data to their employees, partners, or even other users, depending on their privacy policies. Data may be used for various purposes, including model training, research, or even marketing activities. Your requests to a third-party AI service may be tied to your user information and payment details, linking your data to your identity. 
+
 #### ChatGPT
 
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) - Inference of Facebook's LLaMA model in pure C/C++ so it can run locally on a CPU.
-	- [llama-dl](https://github.com/shawwn/llama-dl) - High-speed download of LLaMA, Facebook's GPT model 
+
+#### Copilot
+
+- [Turbopilot](https://github.com/ravenscroftj/turbopilot) - Turbopilot is an open source large-language-model based code completion engine that runs locally on CPU.
 
 ## Bookmarking
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
