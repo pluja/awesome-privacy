@@ -27,7 +27,7 @@ The primary focus of this list is to provide alternatives that prioritize privac
 - [Android Keyboard](#android-keyboard)
 - [Android Launcher](#android-launcher)
 - [Artificial Intelligence](#artificial-intelligence)
-	- [ChatGPT](#chat-gpt)
+	- [ChatGPT](#chatgpt)
 	- [Copilot](#copilot)
 - [Bookmarking](#bookmarking)
     - [Book and web annotations](#book-and-web-annotationshighlights-management)
