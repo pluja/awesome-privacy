@@ -29,6 +29,8 @@ The primary focus of this list is to provide alternatives that prioritize privac
 - [Artificial Intelligence](#artificial-intelligence)
 	- [ChatGPT](#chatgpt)
 	- [Copilot](#copilot)
+	- [ElevenLabs Text To Speech](#elevenlabs-text-to-speech)
+	- [Midjourney (image generation)](#midjourney)
 - [Bookmarking](#bookmarking)
     - [Book and web annotations](#book-and-web-annotationshighlights-management)
 - [Captchas](#captchas)
@@ -91,8 +93,10 @@ The primary focus of this list is to provide alternatives that prioritize privac
     - [Twitter](#twitter)
     - [Wikipedia](#wikipedia)
     - [YouTube](#youtube)
+- [Speech to Text](#speech-to-text)
 - [Teamworking Tools](#teamworking-tools)
-- [Translation and Speech-to-Text](#translation-and-speech-to-text)
+- [Text To Speech](#text-to-speech)
+- [Translation](#translation)
 - [Uncategorized](#uncategorized)
 - [Utilities](#utilities)
 - [Video and Audio Conferencing](#video-and-audio-conferencing)
@@ -208,6 +212,15 @@ When using cloud-based AI services, the data you input is often collected and st
 #### Copilot
 
 - [Turbopilot](https://github.com/ravenscroftj/turbopilot) - Turbopilot is an open source large-language-model based code completion engine that runs locally on CPU.
+
+#### ElevenLabs Text To Speech
+
+Go to the [Text To Speech](#text-to-speech) section.
+
+#### Midjourney
+
+- [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) - High-Resolution Image Synthesis with Latent Diffusion Models.
+	- [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - A browser interface for Stable Diffusion.
 
 ## Bookmarking
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -1136,7 +1149,22 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 - [See this section for Discord mods and alternative clients](https://github.com/pluja/awesome-privacy/blob/main/README.md#alternative-clientsmodifications-of-discord)
 
-## Translation and Speech-to-Text
+## Speech to Text
+
+- [OpenAI Whisper](https://github.com/openai/whisper) - Whisper is a general-purpose speech recognition model that can be run locally offline. It can transcribe audio from and to multiple languages.
+	- [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - High-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model.
+
+## Text to Speech
+
+<img width="16" src="misc/forbidden.png"> </img> **Avoid** using tools that run on a 3rd party cloud. Generally you are sending your text and voice data to a 3rd party to process them, which could lead to leaking biometric data such as your voice, or sharing private and / or unnecessary text with the 3rd party.
+
+<img width="16" src="misc/check.png"> </img> **Instead use**
+- [Bark](https://github.com/suno-ai/bark) - Bark can be run 100% locally and can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects.
+- [Piper](https://github.com/rhasspy/piper) - A fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4.
+- [Espeak](https://github.com/espeak-ng/espeak-ng) - eSpeak NG is an open source speech synthesizer that supports more than hundred languages and accents. Voices will sound rather robotic.
+
+
+## Translation
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Google Translate [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 - DeepL
@@ -1149,15 +1177,9 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Softcatala](https://www.softcatala.org/traductor/) - Open Source Translation tool - Only Catalan/Spanish/English/French (uses apertium)
 - [TranslateLocally](https://translatelocally.com/) – Free/open-source neural MT, runs offline on your computer
 
-<img width="16" src="misc/check.png"> </img> **Speech-to-Text**
-
-- [OpenAI Whisper](https://github.com/openai/whisper) - Whisper is a general-purpose speech recognition model that can be run locally offline. It can transcribe audio from and to multiple languages.
-
 <img width="16" src="misc/check.png"> </img> **Alternative Google Translate frontends**
 - [Lingva](https://github.com/TheDavidDelta/lingva-translate) - Alternative front-end for Google Translate. [Demo](https://lingva.ml/).
 - [Simplytranslate](https://git.sr.ht/~metalune/simplytranslate_web) - Alternative front-end for Google Translate and LibreTranslate. [Demo](https://simplytranslate.org/)
-
-
 
 ## Uncategorized
 - [Skymap](https://skymaponline.net/) - Open online planetarium program.
