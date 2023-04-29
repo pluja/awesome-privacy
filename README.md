@@ -135,8 +135,6 @@ The primary focus of this list is to provide alternatives that prioritize privac
 - [Cabin](https://withcabin.com) - Privacy-first, carbon conscious web analytics.
 - [Aptabase](https://aptabase.com) - Open-source, privacy-first and simple analytics for mobile and desktop apps.
 
-
-
 ## Android App Store
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Google Play Store [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
