@@ -133,6 +133,9 @@ The primary focus of this list is to provide alternatives that prioritize privac
 - [Pirsch](https://pirsch.io/) - Pirsch is a simple, privacy-friendly, open-source alternative to Google Analytics — lightweight, cookie-free and easily integrated into any website or backend.
 - [Swetrix](https://swetrix.com) - Privacy-focused, fully cookieless and opensource (and selfhostable) web-analytics service.
 - [Cabin](https://withcabin.com) - Privacy-first, carbon conscious web analytics.
+- [Aptabase](https://aptabase.com) - Open-source, privacy-first and simple analytics for mobile and desktop apps.
+
+
 
 ## Android App Store
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
