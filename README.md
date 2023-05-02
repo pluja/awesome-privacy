@@ -1279,6 +1279,7 @@ Here are some open source and truly private (no personal data and/or credit card
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Open Source, independent browser. It needs some [hardening and tweaking](https://anonymousplanet.org/guide.html#firefox-1) to achieve great privacy.
   - [LibreWolf](https://librewolf.net/) - Privacy-focused Firefox fork.
 - [Tor Browser](https://www.torproject.org/)
+- [Mullvad Browser](https://mullvad.net/en/browser/) - Browser with the privacy and security implications of the Tor Browser, without the use of the Tor network.
 
 > It may be interesting to learn what you can do to harden your browser. You can follow this [Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.org/guide.html#appendix-v1-hardening-your-browsers) section to do it. Please, if you don't understand what you are doing, don't do it as you may be causing more harm than good to your privacy.
 
