@@ -1320,3 +1320,5 @@ It is important to note that privacy and security are not necessarily interdepen
 Privacy and anonimity are also not necessarily linked, services like Signal offer high levels of privacy since they do not collect any data about what you say, who you talk to or how you use the app, but they may not be anonymous since you still need to register using your phone number (which is in many cases linked to your identity).
 
 Finally, there are services that may offer all three: anonymity, privacy, and security. The primary focus of this list is to provide alternatives that prioritize privacy. These alternatives give you control over your data and do not collect or sell it.
+
+[Back to top 🔝](#contents)
