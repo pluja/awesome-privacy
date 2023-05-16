@@ -46,6 +46,10 @@ The primary focus of this list is to provide alternatives that prioritize privac
 - [Encryption](#encryption)
 - [File Management and Sharing](#file-management-and-sharing)
 - [Fitness and Health](#fitness-and-health)
+	- [Fitness trackers](#fitness-trackers)
+	- [Food](#food)
+	- [Menstrual cycle trackers](#menstrual-cycle-trackers)
+	- [Medical health](#medical-health)
 - [Fonts](#fonts)
 - [Forms](#forms)
 - [Games](#games)
@@ -388,13 +392,22 @@ on the DMCrypt kernel module.
 If you need an app for **menstrual cycle tracking** please don't use any apps like Clue, Period Tracker, etc. Those cute pink apps are greedy for your menstrual cycle and intimate life data and will sell it for sure, protect your private life. Check the list below and you will find nice alternatives.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
+
+### Fitness trackers
 - [wger](https://wger.de/en/software/features) - A free, open source, self-hosted web application that manages your exercises, workouts and nutrition.
-- [Fitotrack](https://codeberg.org/jannis/FitoTrack) - A privacy oriented fitness tracker for Android.
+- <img width="16" src="misc/android.png"> [Fitotrack](https://codeberg.org/jannis/FitoTrack) - A privacy oriented fitness tracker for Android.
+- <img width="16" src="misc/android.png"> [OpenTracks](https://github.com/OpenTracksApp/OpenTracks) - OpenTracks is a sport tracking application that completely respects your privacy.
+
+### Food
 - [OpenFoodFacts](https://world.openfoodfacts.org/) - Open Food Facts is a food products database made by everyone, for everyone. You can use it to make better food choices.
     - [OFF Apps](https://world.openfoodfacts.org/open-food-facts-mobile-app)
+
+### Menstrual cycle tracking
 - <img width="16" src="misc/android.png"> [Drip](https://bloodyhealth.gitlab.io/) - Menstrual cycle and fertility tracking. Everything you enter stays on your device.
 - <img width="16" src="misc/android.png"> [log28](https://github.com/wildeyedskies/log28) - a (very) simple no-frills period tracker for Android.
-- <img width="16" src="misc/android.png"> [OpenTracks](https://github.com/OpenTracksApp/OpenTracks) - OpenTracks is a sport tracking application that completely respects your privacy.
+
+### Medical health
+- [Fasten](https://github.com/fastenhealth/fasten-onprem) - Fasten is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 1000's of insurances/hospitals/clinics.
 
 ## Fonts
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
