@@ -1056,6 +1056,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend).
 - <img width="16" src="misc/android.png"> [LibreTube](https://github.com/Libre-tube/LibreTube) - An alternative frontend for YouTube, for Android using Piped.
 - [Yattee](https://github.com/yattee/yattee) - Alternative YouTube frontend for iOS, tvOS and macOS built with Invidious and Piped.
+- <img width="16" src="misc/android.png"> [Clipious](https://github.com/lamarios/clipious) Invidious client for android
 
 ### TikTok
 
