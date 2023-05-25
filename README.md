@@ -457,8 +457,13 @@ The game has [telemetry embeded in it since v21w38a which you can't opt-out](htt
 
 If you still want to play Minecraft, you can add some plugins that can help you preserve a bit your privacy. But still consider that you are supporting Microsoft this way.
 
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- [No-Chat-Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) - Although it strips cryptographic signatures from player messages, it breaks any chat plugin by design.
+
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [FreedomChat](https://github.com/e-im/FreedomChat) - A great alternative to No-Chat-Reports, since it does not break any chat plugin by design.
 - [No-Telemetry](https://github.com/kb-1000/no-telemetry) - Mod that disables the usage data collection, aka telemetry, introduced in Minecraft 1.18 (snapshot 21w38a).
-- [No-Chat-Reports](https://github.com/Aizistral-Studios/No-Chat-Reports) - Strips cryptographic signatures from player messages, making it impossible to track and associate them with your Mojang/Microsoft account.
 
 ### Pokemon
 
