@@ -1148,8 +1148,8 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 ## Teamworking Tools
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - [![](https://shields.tosdr.org/en_206.svg)](https://tosdr.org/en/service/206)
-- Google Hangouts [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
-- Microsoft Teams [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
+- Google Meet [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
+- Microsoft Teams [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
 - [![](https://shields.tosdr.org/en_536.svg)](https://tosdr.org/en/service/536)
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
