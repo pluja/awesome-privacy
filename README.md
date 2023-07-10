@@ -396,9 +396,14 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 
 ### Fitness trackers
-- [wger](https://wger.de/en/software/features) - A free, open source, self-hosted web application that manages your exercises, workouts and nutrition.
+
 - <img width="16" src="misc/android.png"> [Fitotrack](https://codeberg.org/jannis/FitoTrack) - A privacy oriented fitness tracker for Android.
 - <img width="16" src="misc/android.png"> [OpenTracks](https://github.com/OpenTracksApp/OpenTracks) - OpenTracks is a sport tracking application that completely respects your privacy.
+
+### Workout planners
+
+- [wger](https://wger.de/en/software/features) - A free, open source, self-hosted web application that manages your exercises, workouts and nutrition.
+- [workout.lol](https://github.com/Vincenius/workout-lol) - A small web application to create workouts based on your available equipment and the muscles you want to train that you can selfhost.
 
 ### Food
 - [OpenFoodFacts](https://world.openfoodfacts.org/) - Open Food Facts is a food products database made by everyone, for everyone. You can use it to make better food choices.
