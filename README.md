@@ -1212,6 +1212,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban.
 - [Hetty](https://github.com/dstotijn/hetty) - Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
 - [Visited](https://github.com/yuis-ice/visited) - Locally collect browsing history over browsers.
+- [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
 
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
