@@ -1139,10 +1139,10 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 [![](https://shields.tosdr.org/en_265.svg)](https://tosdr.org/en/service/265)
 
-<img width="16" src="misc/forbidden.png"> </img> Read more about the issue with Wikipedia on the [Wikiless manifesto](https://codeberg.org/orenom/wikiless#why-i-should-use-wikiless-instead-of-wikipedia).
+<img width="16" src="misc/forbidden.png"> </img> Read more about the issue with Wikipedia on the [Wikiless manifesto](https://github.com/Metastem/wikiless#why-i-should-use-wikiless-instead-of-wikipedia).
 
 <img width="16" src="misc/check.png"> </img> **Alternatives:**
-- [Wikiless](https://wikiless.org/) - [Wikiless repository has been removed by Codeberg, follow news here](https://orenom.fi/) - A free open source alternative Wikipedia front-end focused on privacy [Source Code](https://codeberg.org/orenom/wikiless).
+- [Wikiless](https://wikiless.whateveritworks.org/) - A maintained fork of the free open source alternative Wikipedia front-end focused on privacy [Source Code](https://github.com/Metastem/wikiless). (Original instance: [wikiless.org](https://wikiless.org/), Wikiless repository has been removed by Codeberg, [follow news here](https://orenom.fi/))
 
 ### Imgur
 
