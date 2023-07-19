@@ -1215,6 +1215,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
+- [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
 
 ## Video and Audio Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
