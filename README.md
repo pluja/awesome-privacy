@@ -115,6 +115,7 @@ The primary focus of this list is to provide alternatives that prioritize privac
 <img width="16" src="misc/forbidden.png"> </img> Avoid using apps that won't let you export your keys **easily**.
 - Authy
 - Google Authenticator [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
+- Microsoft Authenticator
 
 <img width="16" src="misc/check.png"> </img> Instead use
 - <img width="16" src="misc/android.png"> [Aegis](https://getaegis.app/) - A free, secure and open source app for Android to manage your 2-step verification tokens. Supports variety of imports from other apps (Google Authenticator, Authy etc.), vault encryption and exporting keys (plaintext or encrypted).
