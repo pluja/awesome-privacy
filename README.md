@@ -840,6 +840,7 @@ GNU/Linux is a family of free (as in freedom and as in free beer) and open sourc
 - [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
 - [Passbolt](https://www.passbolt.com) - An open source password manager designed for team collaboration.
 - [Passky](https://passky.org) - Simple, modern, lightweight, open-source and secure password manager.
+- [Proton Pass](https://proton.me/pass) - Open-source and encrypted password manager by Proton.
 
 ## Pastebin and Secret Sharing
 
