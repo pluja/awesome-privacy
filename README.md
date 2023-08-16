@@ -39,6 +39,7 @@ The primary focus of this list is to provide alternatives that prioritize privac
 - [Cloud Storage](#cloud-storage)
 - [Databases](#databases)
 - [Dating Apps](#dating-apps)
+- [Design Tools](#design-tools)
 - [Developer Tools](#developer-tools)
     - [IDEs](#ides)
 - [Domain Registrar](#domain-registrar)
@@ -329,6 +330,28 @@ Apps such as Tinder collect and sell your personal intimate information. Tinder 
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Alovoa](https://alovoa.com/) - Free and open-source dating platform that respects your privacy.
+
+## Design Tools
+
+**Adobe**'s dominance in design tools restricts designers' choices and compromises their privacy. Its [lack of Linux support](https://helpx.adobe.com/in/download-install/kb/operating-system-guidelines.html), confines designers to Windows or macOS. Plus, Adobe's [data collection via Creative Cloud](https://tosdr.org/en/service/417) and [trackers](https://reports.exodus-privacy.eu.org/en/reports/com.adobe.psmobile/latest/) further amplifies privacy concerns. They also may be [using users' work to train their AIs](https://mastodon.art/@Krita/109632425661190494), potentially causing intellectual property problems. For these reasons, designers can consider using open-source, privacy-respecting alternatives, bypassing most of these issues.
+
+### InDesign
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Scribus](https://www.scribus.net/) - a free and open-source desktop publishing (DTP) software available for most desktop operating systems. It is designed for layout, typesetting, and preparation of files for professional-quality image-setting equipment. Scribus can also create animated and interactive PDF presentations and forms.
+
+### Photoshop / Illustrator
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [GIMP](https://www.gimp.org/) - A free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is not designed to be used for drawing, though some artists and creators have used it in this way.
+- [Inkscape](https://inkscape.org/) - A free and open-source vector graphics editor for GNU/Linux, Windows and macOS. It offers a rich set of features and is widely used for both artistic and technical illustrations such as cartoons, clip art, logos, typography, diagramming and flowcharting. 
+- [Krita](https://krita.org/) - A free and open-source raster graphics editor designed primarily for digital art and 2D animation.
+
+### Figma
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Penpot](https://penpot.app/) - Penpot is an Open Source design and prototyping platform for product teams.
+
 
 ## Domain Registrar
 <img width="16" src="misc/forbidden.png"> </img> Avoid using domain registrars who are privacy invasive. 
