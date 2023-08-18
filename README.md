@@ -76,7 +76,7 @@ The primary focus of this list is to provide alternatives that prioritize privac
 - [Operating Systems](#operating-systems)
     - [Android](#android)
     - [PC / MacOS](#pc--macos)
-    - [Smart TV](#smart-tv)
+    - [Smart TV](#smart-tv--android-box)
 - [Password Managers](#password-managers)
 - [Pastebin and Secret Sharing](#pastebin-and-secret-sharing)
 - [Payments](#payments)
@@ -814,7 +814,7 @@ Many websites require phone number verification. These services offer a way to r
 - [PureOS](https://www.pureos.net/) - Operating system developed by purism for the Librem 5.
 - [Plasma Mobile](https://www.plasma-mobile.org/) - Plasma, in your pocket. Privacy-respecting, open source and secure phone ecosystem.
 - [mobian](https://mobian-project.org/) - Debian for mobile.
-### Smart TV
+### Smart TV / Android Box
 <img width="16" src="misc/forbidden.png"> </img> Don't use Android TV, LG WebOS or any other privacy-invasive common TV OS that comes preinstalled with your TV.
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
