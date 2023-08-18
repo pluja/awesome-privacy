@@ -815,10 +815,10 @@ Many websites require phone number verification. These services offer a way to r
 - [Plasma Mobile](https://www.plasma-mobile.org/) - Plasma, in your pocket. Privacy-respecting, open source and secure phone ecosystem.
 - [mobian](https://mobian-project.org/) - Debian for mobile.
 ### Smart TV / Android Box
-<img width="16" src="misc/forbidden.png"> </img> Don't use Android TV, LG WebOS or any other privacy-invasive common TV OS that comes preinstalled with your TV.
+<img width="16" src="misc/forbidden.png"> </img> Don't use Android TV, LG WebOS or any other privacy-invasive common TV OS that comes preinstalled with your device.
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
-- [LineageOS](https://lineageos.org/) - Download and install based on your device model such as Nvidia Shield , Dynalink on the lineage os website
+- [LineageOS](https://lineageos.org/) - Download and install LineageOS based on your device model such as Nvidia Shield , Dynalink on the LineageOS website
 
 
 ### PC / MacOS
