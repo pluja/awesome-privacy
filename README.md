@@ -76,7 +76,7 @@ The primary focus of this list is to provide alternatives that prioritize privac
 - [Operating Systems](#operating-systems)
     - [Android](#android)
     - [PC / MacOS](#pc--macos)
-    - [Smart TV](#smart-tv--android-box)
+    - [Smart TV / Android Box](#smart-tv--android-box)
 - [Password Managers](#password-managers)
 - [Pastebin and Secret Sharing](#pastebin-and-secret-sharing)
 - [Payments](#payments)
