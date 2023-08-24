@@ -1002,7 +1002,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [SearX](https://searx.me/) - Privacy-respecting metasearch engine.
   - [SearxNG](https://github.com/searxng/searxng) - Free internet metasearch engine which aggregates results from various search services and databases.  
 - [DuckDuckGo](https://duckduckgo.com) - A privacy respecting search engine.
-- [Brave Search](https://search.brave.com) - A privacy respecting search engine with its own index, which for the most part doesn't rely on search engines like Google or Bing, but [falls back on them if not enough results are found](https://search.brave.com/help/independence).
+- [Brave Search](https://search.brave.com) - A privacy respecting search engine with [its own independent index](https://brave.com/search-independence/).
 
 ## Social Networks and Platforms
 
