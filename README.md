@@ -739,6 +739,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 	- [Nextcloud Notes app](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app (local only, no sync).
 - [Notesnook](https://notesnook.com/) - Open source zero knowledge private note taking.
+- [Obsidian](https://obsidian.md) - Obsidian is the private and flexible note‑taking app. Closed source but has no trackers (website / apps) and E2EE sync. 
 - [Quillnote](https://qosp.org/#/) - Take beautiful markdown notes and stay organized with task lists.
 - [SiYuan](https://github.com/siyuan-note/siyuan) - A local-first personal knowledge management system.
 - [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
