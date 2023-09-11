@@ -139,6 +139,7 @@ The primary focus of this list is to provide alternatives that prioritize privac
 - [Swetrix](https://swetrix.com) - Privacy-focused, fully cookieless and opensource (and selfhostable) web-analytics service.
 - [Cabin](https://withcabin.com) - Privacy-first, carbon conscious web analytics.
 - [Aptabase](https://aptabase.com) - Open-source, privacy-first and simple analytics for mobile and desktop apps.
+- [trpkit](https://trpkit.com/) - Powerful Insights with Secure, Cookie-free Analytics.
 
 ## Android App Store
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
