@@ -347,6 +347,7 @@ Apps such as Tinder collect and sell your personal intimate information. Tinder 
 - [GIMP](https://www.gimp.org/) - A free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is not designed to be used for drawing, though some artists and creators have used it in this way.
 - [Inkscape](https://inkscape.org/) - A free and open-source vector graphics editor for GNU/Linux, Windows and macOS. It offers a rich set of features and is widely used for both artistic and technical illustrations such as cartoons, clip art, logos, typography, diagramming and flowcharting. 
 - [Krita](https://krita.org/) - A free and open-source raster graphics editor designed primarily for digital art and 2D animation.
+- [Excalidraw](https://github.com/excalidraw/excalidraw) - Virtual whiteboard for sketching hand-drawn like diagrams.
 
 ### Figma
 
@@ -948,12 +949,12 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Pigallery2](http://bpatrik.github.io/pigallery2/) - A self-hosted directory-first photo gallery website.
 - [Photoview](https://photoview.github.io/) - Photo gallery for self-hosted personal servers with Facial Recognition.
 - [Photostructure](https://photostructure.com/) - Self-hosted photo library that makes browsing and sharing a lifetime of memories delightful.
+- [Stingle Photos](https://stingle.org/) - Open source solution that provides strong security, privacy and encryption to backup your photos.
 
 
 ### Third-party
 - [Crypt.ee](https://crypt.ee/) - A private and encrypted place for all your photos, documents, notes and more.
 - [Ente](https://ente.io/) - End-to-end encrypted storage for photos and videos. Open source clients, [audited](https://ente.io/blog/cryptography-audit/) independently.
-- [Stingle Photos](https://stingle.org/) - Open source solution that provides strong security, privacy and encryption to backup your photos.
 
 ### Local
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
@@ -1257,6 +1258,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton is a web conferencing system designed for online learning.
+- [Chitchatter](https://chitchatter.im/) - Secure P2P chat that is serverless, decentralized, and ephemeral. Supports text, audio, video, screen, and file sharing.
 - [Jam](https://github.com/jam-systems/jam) - Jam is your own open source Clubhouse for mini conferences, friends, communities.
 - [Jami](https://jami.net/) - P2P audio and video conferences.
 - [Jitsi Meet](https://meet.jit.si/) - More secure, more flexible, and completely free video conferencing. **No account needed, no installation needed**.
