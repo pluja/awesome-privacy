@@ -189,6 +189,7 @@ Preinstalled file managers and third-party file manager apps found on the play s
 - [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
 - [Indic Keyboard](https://gitlab.com/indicproject/indic-keyboard) - Indic Keyboard is a versatile keyboard for Android users who wish to use Indic and Indian languages to type messages, compose emails and generally prefer to use them in addition to English on their phone.
 - [Simple Keyboard](https://github.com/rkkr/simple-keyboard) - Simply keyboard and nothing more.
+- [Thumb-Key](https://github.com/dessalines/thumb-key) - A privacy-conscious keyboard made for your thumbs 
 
 ## Android Launcher
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
