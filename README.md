@@ -806,6 +806,7 @@ Many websites require phone number verification. These services offer a way to r
 
 - [GrapheneOS](https://grapheneos.org/) - GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility.
 - [CalyxOS](https://calyxos.org/) - CalyxOS lets you have your cake and eat it too, with  "Privacy by Design".
+- [DivestOS](https://divestos.org) - DivestOS strives to prolong device life, enhance user privacy, and provide modest security to many devices.
 - [LineageOS](https://lineageos.org/) - A free and open-source operating system for various devices, based on the Android mobile platform.
 - [DivestOS](https://divestos.org) - LineageOS fork with increased security and privacy.
 - [Replicant](https://www.replicant.us/) - A free software mobile operating system putting the emphasis on freedom and privacy/security.
