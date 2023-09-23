@@ -124,6 +124,7 @@ The primary focus of this list is to provide alternatives that prioritize privac
 - <img width="16" src="misc/android.png"> [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator.
 - [RaivoOTP](https://github.com/raivo-otp/) - A native, lightweight and secure one-time-password (OTP) solution for **iOS** users.
 - <img width="16" src="misc/android.png"> [Authenticator Pro](https://github.com/jamie-mh/AuthenticatorPro) - Two-Factor Authentication (2FA) client for Android + Wear OS.
+- [2FAS](https://2fas.com/) - Open source iOS and Android application with a browser extension.
 
 ## Analytics
 <img width="16" src="misc/forbidden.png"> </img> Avoid any analytics service that comes from Google, Facebook, Microsoft or any private service. These kind of analytics hurt user privacy.
