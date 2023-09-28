@@ -129,16 +129,17 @@ The primary focus of this list is to provide alternatives that prioritize privac
 <img width="16" src="misc/forbidden.png"> </img> Avoid any analytics service that comes from Google, Facebook, Microsoft or any private service. These kind of analytics hurt user privacy.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
-- [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy.
-- [Plausible](https://plausible.io/) - Simple and privacy-friendly alternative to Google Analytics.
-- [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
-- [Nullitics](https://nullitics.com/) - Zero-effort open-source cheap analytics.
 - [Ackee](https://ackee.electerious.com/) - Self-hosted website analytics.
-- [Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
-- [Pirsch](https://pirsch.io/) - Pirsch is a simple, privacy-friendly, open-source alternative to Google Analytics — lightweight, cookie-free and easily integrated into any website or backend.
-- [Swetrix](https://swetrix.com) - Privacy-focused, fully cookieless and opensource (and selfhostable) web-analytics service.
-- [Cabin](https://withcabin.com) - Privacy-first, carbon conscious web analytics.
 - [Aptabase](https://aptabase.com) - Open-source, privacy-first and simple analytics for mobile and desktop apps.
+- [Cabin](https://withcabin.com) - Privacy-first, carbon conscious web analytics.
+- [GoatCounter](https://www.goatcounter.com/) - Privacy aware, lightweight and open-source analytics platform.
+- [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy.
+- [Nullitics](https://nullitics.com/) - Zero-effort open-source cheap analytics.
+- [Pirsch](https://pirsch.io/) - Pirsch is a simple, privacy-friendly, open-source alternative to Google Analytics — lightweight, cookie-free and easily integrated into any website or backend.
+- [Plausible](https://plausible.io/) - Simple and privacy-friendly alternative to Google Analytics.
+- [Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
+- [Swetrix](https://swetrix.com) - Privacy-focused, fully cookieless and opensource (and selfhostable) web-analytics service.
+- [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
 
 ## Android App Store
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
