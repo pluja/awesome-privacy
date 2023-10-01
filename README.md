@@ -888,6 +888,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Monero](https://www.getmonero.org/) - Monero is cash for a connected world. It's fast, private, untraceable and secure.
+- [Pirate Chain](https://pirate.black/) - Pirate Chain, the worlds most private multi-device digital currency ARRR, built with military grade encryption. 
 - Cash - Use person-to-person payments using physical notes and coins.
 
 **USE WITH CAUTION**
