@@ -359,7 +359,6 @@ Apps such as Tinder collect and sell your personal intimate information. Tinder 
 <img width="16" src="misc/forbidden.png"> </img> Avoid using domain registrars who are privacy invasive. 
 
 <img width="16" src="misc/check.png"> </img> Instead use
-- [Njalla](https://njal.la) - Privacy-aware domain service, sitting in between the domain service registrations and you, acting like a privacy shield.
 - [OrangeWebsite](https://www.orangewebsite.com/)
 - [1984 Hosting](https://www.1984hosting.com/)
 
