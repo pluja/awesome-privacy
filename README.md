@@ -301,7 +301,10 @@ Google captchas use cookies to track users and rank their IPs.
 
 ## Creator Tools
 
+Opt for open-source and P2P alternatives that prioritize data privacy, eliminate third-party interference, and offer transparent, community-backed functionalities over mainstream tools like Riverside.fm, Restream and Camtasia.
+
 - [vdo.ninja](https://vdo.ninja/) - Powerful tool that lets you bring remote video feeds into OBS or other studio software via WebRTC.
+	- [socialstream.ninja](https://github.com/steveseguin/social_stream#readme) - Consolidate your live social messaging streams and much more.
 - [OBS Studio](https://obsproject.com/) - Free and open source software for video recording and live streaming.
 
 ## Databases
