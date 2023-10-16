@@ -831,9 +831,9 @@ Many websites require phone number verification. These services offer a way to r
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
 
-Currently I am not aware of any open source smart-tv software. If you are aware of any, please open a Pull Request or an issue.
+Currently I am not aware of any privacy-respecting smartTV software. If you are aware of any, please open a Pull Request or an issue.
 
-The following software are not **Operating Systems**, but are apps that can be used on almost any OS. These apps will respect your privacy. A recommended way to use this would be to set up a [RaspberryPi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) connected to your TV with a GNU/Linux operating system, install something like [KDEConnect](https://kdeconnect.kde.org/) to control media from your phone, and install the following apps:
+The following software is not an **Operating System** but comprises apps that can be used on almost any OS. These apps respect your privacy and offer features similar to those of a Smart TV. A recommended setup involves connecting a [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) running a GNU/Linux operating system to your TV, installing tools like [KDE Connect](https://kdeconnect.kde.org/) to control media from your phone, and then adding the apps listed below:
 
 - [Kodi](https://kodi.tv/) - It is an entertainment hub that brings all your digital media together into a beautiful and user friendly package. It is 100% free and open source, very customisable and runs on a wide variety of devices.
 - [OSMC](https://osmc.tv/) - OSMC is a free and open source media center built for the people, by the people.
