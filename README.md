@@ -266,8 +266,10 @@ Google captchas use cookies to track users and rank their IPs.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 
-- [Isso](https://github.com/posativ/isso) - A lightweight, self hosted, commenting server written in Python and JavaScript. It aims to be a drop-in replacement for Disqus.
 - [Commento](https://commento.io/) - Commento is a fast, privacy-focused commenting platform. Can be selfhosted or use their SaaS.
+- [Cusdis](https://github.com/djyde/cusdis) - Lightweight, privacy-friendly alternative to Disqus.
+- [Disgus](https://github.com/carlitoplatanito/disgus) - Embeddable comments for your website, backed by Nostr. Like Disqus but Nostr.
+- [Isso](https://github.com/posativ/isso) - A lightweight, self hosted, commenting server written in Python and JavaScript. It aims to be a drop-in replacement for Disqus.
 - [Remark42](https://remark42.com) - Self-hosted, lightweight, and simple (yet functional) comment engine, which doesn't spy on users.
 
 ## Cloaking
