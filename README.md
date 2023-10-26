@@ -215,11 +215,15 @@ When using cloud-based AI services, the data you input is often collected and st
 #### ChatGPT
 
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) - Inference of Facebook's LLaMA model in pure C/C++ so it can run locally on a CPU.
+- [ollama](https://github.com/jmorganca/ollama) - Get up and running with Llama 2 and other large language models locally.
 - [LocalAI](https://github.com/go-skynet/LocalAI) - Self-hosted, community-driven simple local OpenAI-compatible API written in go. Can be used as a drop-in replacement for OpenAI, running on CPU with consumer-grade hardware.
 
 #### Copilot
 
 - [Turbopilot](https://github.com/ravenscroftj/turbopilot) - Turbopilot is an open source large-language-model based code completion engine that runs locally on CPU.
+- [Localpilot](https://github.com/danielgross/localpilot) - Use GitHub Copilot locally on your Macbook with one-click.
+- [Fauxpilot](https://github.com/fauxpilot/fauxpilot) - an open-source,local alternative to GitHub Copilot server
+	- [vscode-fauxpilot](https://github.com/Venthe/vscode-fauxpilot) - vscode extension for fauxpilot. **reminder**: use [vscodium](https://vscodium.com/) instead!
 
 #### ElevenLabs Text To Speech
 
