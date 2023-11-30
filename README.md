@@ -240,10 +240,11 @@ Go to the [Text To Speech](#text-to-speech) section.
 - Evernote Web Clipper -  [Bad privacy policy](https://tosdr.org/en/service/207). [Apps have many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.evernote/latest/) and require too many permissions.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
-- [Wallabag](https://wallabag.org/) - Open-source, optionally self-hosted, read it later server. Provides paid hosted service with privacy in mind.
-- [Shiori](https://github.com/go-shiori/shiori)
+- [Grimorie](https://github.com/goniszewski/grimoire) - Modern, open source, self-hosted bookmark manager.
 - [LinkAce](https://github.com/Kovah/LinkAce)
 - [LinkDing](https://github.com/sissbruecker/linkding)
+- [Shiori](https://github.com/go-shiori/shiori)
+- [Wallabag](https://wallabag.org/) - Open-source, optionally self-hosted, read it later server. Provides paid hosted service with privacy in mind.
 
 ### Book and web annotations/highlights management
 
