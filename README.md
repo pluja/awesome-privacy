@@ -165,7 +165,6 @@ The primary focus of this list is to provide alternatives that prioritize privac
 Third-party dialers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
-- [Simple Dialer](https://github.com/SimpleMobileTools/Simple-Dialer) - A lightweight app for handling your calls, no matter where are you. Comes with a handy call log for easy call initiation.
 - [Koler](https://github.com/Chooloo/koler) - Uniquely stylized phone app with customizable features.
 
 ## Android File Manager
@@ -175,7 +174,6 @@ Preinstalled file managers and third-party file manager apps found on the play s
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 
-- [Simple File Manager](https://github.com/SimpleMobileTools/Simple-File-Manager) - A simple file manager for browsing and editing files and directories.
 - [Amaze File Manager](https://github.com/TeamAmaze/AmazeFileManager) - Simple and attractive Material Design file manager for Android.
 - [Material Files](https://github.com/zhanghai/MaterialFiles) - An open source Material Design file manager, for Android 5.0+.
 - [Ghost Commander](https://f-droid.org/packages/com.ghostsq.commander/) - Dual-panel file manager.
@@ -203,7 +201,6 @@ Third-party launchers found on the play store. They may contain ads/trackers and
 - [Olauncher](https://github.com/tanujnotes/Olauncher) - Minimal AF (ad-free) launcher app for Android.
 - [Posidon Launcher](https://posidon.io/launcher) - Posidon launcher is a minimal, one page homescreen with a vertical scrolling feed.
 - [Pie Launcher](https://github.com/markusfisch/PieLauncher) - Android home screen launcher that uses a dynamic pie menu instead of fixed positioned icons.
-- [Simple App Launcher](https://github.com/SimpleMobileTools/Simple-App-Launcher) - A simple holder for favourite apps for quick & easy app launcher icon management.
 - [Rootless Pixel Launcher](https://github.com/amirzaidi/Launcher3) - The Launcher3 fork known as "Rootless Pixel Launcher".
 - [Bliss Launcher](https://f-droid.org/en/packages/foundation.e.blisslauncher/) - The default launcher of the /e/ Android-based OS.
 It allows users to easily create and browse group of apps and it displays notification badges on app icons.
