@@ -188,6 +188,8 @@ Preinstalled file managers and third-party file manager apps found on the play s
 - [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
 - [Indic Keyboard](https://gitlab.com/indicproject/indic-keyboard) - Indic Keyboard is a versatile keyboard for Android users who wish to use Indic and Indian languages to type messages, compose emails and generally prefer to use them in addition to English on their phone.
 - [Simple Keyboard](https://github.com/rkkr/simple-keyboard) - Simply keyboard and nothing more.
+- [OpenBoard](https://github.com/openboard-team/openboard) - OpenBoard is a 100% foss keyboard based on AOSP, with no dependency on Google binaries, that respects your privacy.
+	- [OpenBoard upgrade](https://github.com/Helium314/openboard) - A fork of OpenBoard with many additional features and improvements. Releases are in a beta state.
 
 ## Android Launcher
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
@@ -483,6 +485,7 @@ Nintendo [collects user data](https://libreddit.kavin.rocks/r/privacy/comments/q
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 
 - [SuperTuxKart](https://supertuxkart.net/Main_Page) - A 3D open-source arcade racer with a variety characters, tracks, and modes to play.
+- [Sonic Robbo Blast 2 Kart](https://mb.srb2.org/addons/srb2kart.2435/) - SRB2Kart is a classic styled kart racer, complete with beautiful courses, and wacky items.
 
 ### Minecraft
 
@@ -494,7 +497,7 @@ The game has [telemetry embeded in it since v21w38a which you can't opt-out](htt
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Minetest](https://www.minetest.net/) - An open source voxel game engine with many features.
-    - [Mineclone5](https://content.minetest.net/packages/kay27/mineclone5/?protocol_version=40) - Updated version of MineClone2, an attempt to clone Minecraft into Minetest.
+    - [Mineclonia](https://content.minetest.net/packages/ryvnf/mineclonia/) - Survival sandbox game inspired by Minecraft. Fork of MineClone2 with focus on stability, multiplayer performance and features. 
 
 #### Plugins for Minecraft
 
