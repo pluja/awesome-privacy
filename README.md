@@ -426,6 +426,7 @@ on the DMCrypt kernel module.
 - [Snapdrop](https://github.com/RobinLinus/snapdrop) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
 - [Winden](https://winden.app/) - A convenient version of Magic Wormhole you can use from within your browser. No need to install an app.
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
+- [Pingvin Share](https://github.com/stonith404/pingvin-share/) - Pingvin Share is self-hosted file sharing platform and an alternative for WeTransfer.
 
 ## Fitness and Health
 <img width="16" src="misc/forbidden.png"> </img> Your health is a **very** important piece of your **private data** and you should care **a lot** about it. Also, health related data is among the most coveted. Please don't use apps from Google, Fitbit, Huawei, Xiaomi or any company that seeks the gathering of your personal data.
