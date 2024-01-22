@@ -21,11 +21,13 @@ The primary focus of this list is to provide alternatives that prioritize privac
 ## Contents
 - [2FA](#2fa)
 - [Analytics](#analytics)
-- [Android App Store](#android-app-store)
-- [Android Dialer](#android-dialer)
-- [Android File Manager](#android-file-manager)
-- [Android Keyboard](#android-keyboard)
-- [Android Launcher](#android-launcher)
+- [Android](#android)
+  - [Android App Store](#android-app-store)
+  - [Android Dialer](#android-dialer)
+  - [Android File Manager](#android-file-manager)
+  - [Android Gallery](#android-gallery)
+  - [Android Keyboard](#android-keyboard)
+  - [Android Launcher](#android-launcher)
 - [Artificial Intelligence](#artificial-intelligence)
 	- [ChatGPT](#chatgpt)
 	- [Copilot](#copilot)
@@ -142,7 +144,9 @@ The primary focus of this list is to provide alternatives that prioritize privac
 - [Swetrix](https://swetrix.com) - Privacy-focused, fully cookieless and opensource (and selfhostable) web-analytics service.
 - [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
 
-## Android App Store
+## Android
+
+### Android App Store
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Google Play Store [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 
@@ -159,7 +163,7 @@ The primary focus of this list is to provide alternatives that prioritize privac
 ### Alternative Google Play Store clients
 - [Aurora Store](https://auroraoss.com/download/#aurora-store) - Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.
 
-## Android Dialer
+### Android Dialer
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 
 Third-party dialers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
@@ -167,7 +171,7 @@ Third-party dialers found on the play store. They may contain ads/trackers and m
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Koler](https://github.com/Chooloo/koler) - Uniquely stylized phone app with customizable features.
 
-## Android File Manager
+### Android File Manager
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 
 Preinstalled file managers and third-party file manager apps found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
@@ -178,7 +182,7 @@ Preinstalled file managers and third-party file manager apps found on the play s
 - [Material Files](https://github.com/zhanghai/MaterialFiles) - An open source Material Design file manager, for Android 5.0+.
 - [Ghost Commander](https://f-droid.org/packages/com.ghostsq.commander/) - Dual-panel file manager.
 
-## Android Keyboard
+### Android Keyboard
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - GBoard (Google) [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 - SwiftKey [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
@@ -191,7 +195,22 @@ Preinstalled file managers and third-party file manager apps found on the play s
 - [OpenBoard](https://github.com/openboard-team/openboard) - OpenBoard is a 100% foss keyboard based on AOSP, with no dependency on Google binaries, that respects your privacy.
 	- [OpenBoard upgrade](https://github.com/Helium314/openboard) - A fork of OpenBoard with many additional features and improvements. Releases are in a beta state.
 
-## Android Launcher
+### Android Gallery
+
+Your phone gallery is a deeply personal aspect of your life, it may contain images and videos that capture intimate moments, locations, and people important to you. Protecting its privacy is essential to prevent misuse of this information, not only for you, but it also ensures the privacy of friends and family captured in these photos, who may not consent to having their images shared.
+
+> For a private way to store and backup your photos see [Photo Storage](#photo-storage) section.
+
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- **Google Photos** has privacy issues. They collect a lot of data about you, which you can see in their [privacy policy](https://policies.google.com/privacy?hl=en-US#infocollect). Google can scan your photos and might flag them for different reasons, as shown in this [incident](https://petapixel.com/2022/08/22/google-flags-photos-of-fathers-sick-son-as-child-abuse-informs-police/). They also use your photos to improve their AI technology.
+- **Amazon Photos** also has similar privacy problems. Like Google Photos, it gathers a lot of information from your photo gallery. You can see a bit of what kind of data they collect in their [**examples** list](https://www.amazon.com/gp/help/customer/display.html?nodeId=468496&ref_=footer_privacy#GUID-8966E75F-9B92-4A2B-BFD5-967D57513A40__SECTION_87C837F9CCD84769B4AE2BEB14AF4F01).
+- **Samsung, Huawei, Xiaomi, etc.** Gallery
+
+<img width="16" src="misc/check.png"> </img> **Instead use**
+- [Aves](https://github.com/deckerst/aves) - Beautiful gallery and metadata explorer app, built for Android with Flutter. 
+- [Fossify Gallery](https://github.com/FossifyOrg/Gallery) - Fork of Simple Gallery. Browse your memories without any interruptions with this photo and video gallery.
+
+### Android Launcher
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 
 Third-party launchers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
@@ -917,14 +936,15 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 ## Personal Finances
 ### FIAT
-- [My Expenses](https://github.com/mtotschnig/MyExpenses) - Featureful GPL licenced Android Expense Tracking App.
-- [ProExpense](https://github.com/arduia/ProExpense/) - A simple free finance note to safely record daily expenses.
-- [IHateMoney](https://ihatemoney.org/) - Manage your shared expenses, easily.
-- [Debitum](https://github.com/Marmo/debitum) - With Debitum you can track all kinds of IOUs, be it money or lent items.
-- [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - A group/shared budget manager inspired by the great IHateMoney.
-   - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and [IHateMoney](https://ihatemoney.org/) servers.
-- [GnuCash](https://gnucash.org/) - GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X and Microsoft Windows.
 - [Budget Zen](https://budgetzen.net) - Simple and Encrypted Budget Management.
+- [Debitum](https://github.com/Marmo/debitum) - With Debitum you can track all kinds of IOUs, be it money or lent items.
+- [GnuCash](https://gnucash.org/) - GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X and Microsoft Windows.
+- [IHateMoney](https://ihatemoney.org/) - Manage your shared expenses, easily.
+  - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and [IHateMoney](https://ihatemoney.org/) servers.
+- [My Expenses](https://github.com/mtotschnig/MyExpenses) - Featureful GPL licenced Android Expense Tracking App.
+- [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - A group/shared budget manager inspired by the great IHateMoney.
+  - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and [IHateMoney](https://ihatemoney.org/) servers.
+- [ProExpense](https://github.com/arduia/ProExpense/) - A simple free finance note to safely record daily expenses.
 
 ### CRYPTO
 <img width="16" src="misc/forbidden.png"> </img> Avoid using any exchange portfolio tracking or any app like Blockfolio as they **do not** respect your privacy in any way.
