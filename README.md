@@ -235,6 +235,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) - Inference of Facebook's LLaMA model in pure C/C++ so it can run locally on a CPU.
 - [ollama](https://github.com/jmorganca/ollama) - Get up and running with Llama 2 and other large language models locally.
 - [LocalAI](https://github.com/go-skynet/LocalAI) - Self-hosted, community-driven simple local OpenAI-compatible API written in go. Can be used as a drop-in replacement for OpenAI, running on CPU with consumer-grade hardware.
+- [CatAI](https://github.com/withcatai/catai) - Self-hosted, simple, AI assistant written in Node.js that use open-source models, like llama, vicuna and wizard. It manage models download and update, and use llama.cpp as the backend.
 
 #### Copilot
 
