@@ -483,6 +483,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 ### Google Fonts Replacements
 - [coolLabs Fonts](https://fonts.coollabs.io/) - A privacy-friendly drop-in replacement for Google Fonts.
+- [Font Library](https://fontlibrary.org/) - Unless otherwise noted fonts published under [CC BY-SA](https://creativecommons.org/licenses/by-sa/3.0/).
 
 ### Foundries
 - [Velvetyne](https://www.velvetyne.fr/)
