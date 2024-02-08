@@ -1393,6 +1393,7 @@ Please read about what the addon does before installing. If you don't understand
 
 #### Useful Tools
 - [Single File](https://github.com/gildas-lormeau/SingleFile) - Save a faithful copy of an entire web page in a single HTML file so you can use it offline.
+- [Privacy Party](https://www.blockpartyapp.com/privacy-party/) - An addon to help you tune your social media settings to stop leaking personal info.
 
 ### Browser Sync
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
