@@ -239,10 +239,11 @@ When using cloud-based AI services, the data you input is often collected and st
 
 #### Copilot
 
-- [Turbopilot](https://github.com/ravenscroftj/turbopilot) - Turbopilot is an open source large-language-model based code completion engine that runs locally on CPU.
-- [Localpilot](https://github.com/danielgross/localpilot) - Use GitHub Copilot locally on your Macbook with one-click.
+- [Continue](https://github.com/continuedev/continue) - Open-source autopilot for VS Code and JetBrains—the easiest way to code with any LLM 
 - [Fauxpilot](https://github.com/fauxpilot/fauxpilot) - an open-source,local alternative to GitHub Copilot server
 	- [vscode-fauxpilot](https://github.com/Venthe/vscode-fauxpilot) - vscode extension for fauxpilot. **reminder**: use [vscodium](https://vscodium.com/) instead!
+- [Localpilot](https://github.com/danielgross/localpilot) - Use GitHub Copilot locally on your Macbook with one-click.
+- [Turbopilot](https://github.com/ravenscroftj/turbopilot) - [Archived] Turbopilot is an open source large-language-model based code completion engine that runs locally on CPU.
 
 #### ElevenLabs Text To Speech
 
