@@ -21,11 +21,13 @@ The primary focus of this list is to provide alternatives that prioritize privac
 ## Contents
 - [2FA](#2fa)
 - [Analytics](#analytics)
-- [Android App Store](#android-app-store)
-- [Android Dialer](#android-dialer)
-- [Android File Manager](#android-file-manager)
-- [Android Keyboard](#android-keyboard)
-- [Android Launcher](#android-launcher)
+- [Android](#android)
+  - [Android App Store](#android-app-store)
+  - [Android Dialer](#android-dialer)
+  - [Android File Manager](#android-file-manager)
+  - [Android Gallery](#android-gallery)
+  - [Android Keyboard](#android-keyboard)
+  - [Android Launcher](#android-launcher)
 - [Artificial Intelligence](#artificial-intelligence)
 	- [ChatGPT](#chatgpt)
 	- [Copilot](#copilot)
@@ -142,7 +144,9 @@ The primary focus of this list is to provide alternatives that prioritize privac
 - [Swetrix](https://swetrix.com) - Privacy-focused, fully cookieless and opensource (and selfhostable) web-analytics service.
 - [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
 
-## Android App Store
+## Android
+
+### Android App Store
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - Google Play Store [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 
@@ -159,7 +163,7 @@ The primary focus of this list is to provide alternatives that prioritize privac
 ### Alternative Google Play Store clients
 - [Aurora Store](https://auroraoss.com/download/#aurora-store) - Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.
 
-## Android Dialer
+### Android Dialer
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 
 Third-party dialers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
@@ -167,7 +171,7 @@ Third-party dialers found on the play store. They may contain ads/trackers and m
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Koler](https://github.com/Chooloo/koler) - Uniquely stylized phone app with customizable features.
 
-## Android File Manager
+### Android File Manager
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 
 Preinstalled file managers and third-party file manager apps found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
@@ -178,7 +182,7 @@ Preinstalled file managers and third-party file manager apps found on the play s
 - [Material Files](https://github.com/zhanghai/MaterialFiles) - An open source Material Design file manager, for Android 5.0+.
 - [Ghost Commander](https://f-droid.org/packages/com.ghostsq.commander/) - Dual-panel file manager.
 
-## Android Keyboard
+### Android Keyboard
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 - GBoard (Google) [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 - SwiftKey [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
@@ -188,8 +192,25 @@ Preinstalled file managers and third-party file manager apps found on the play s
 - [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
 - [Indic Keyboard](https://gitlab.com/indicproject/indic-keyboard) - Indic Keyboard is a versatile keyboard for Android users who wish to use Indic and Indian languages to type messages, compose emails and generally prefer to use them in addition to English on their phone.
 - [Simple Keyboard](https://github.com/rkkr/simple-keyboard) - Simply keyboard and nothing more.
+- [OpenBoard](https://github.com/openboard-team/openboard) - OpenBoard is a 100% foss keyboard based on AOSP, with no dependency on Google binaries, that respects your privacy.
+	- [OpenBoard upgrade](https://github.com/Helium314/openboard) - A fork of OpenBoard with many additional features and improvements. Releases are in a beta state.
 
-## Android Launcher
+### Android Gallery
+
+Your phone gallery is a deeply personal aspect of your life, it may contain images and videos that capture intimate moments, locations, and people important to you. Protecting its privacy is essential to prevent misuse of this information, not only for you, but it also ensures the privacy of friends and family captured in these photos, who may not consent to having their images shared.
+
+> For a private way to store and backup your photos see [Photo Storage](#photo-storage) section.
+
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- **Google Photos** has privacy issues. They collect a lot of data about you, which you can see in their [privacy policy](https://policies.google.com/privacy?hl=en-US#infocollect). Google can scan your photos and might flag them for different reasons, as shown in this [incident](https://petapixel.com/2022/08/22/google-flags-photos-of-fathers-sick-son-as-child-abuse-informs-police/). They also use your photos to improve their AI technology.
+- **Amazon Photos** also has similar privacy problems. Like Google Photos, it gathers a lot of information from your photo gallery. You can see a bit of what kind of data they collect in their [**examples** list](https://www.amazon.com/gp/help/customer/display.html?nodeId=468496&ref_=footer_privacy#GUID-8966E75F-9B92-4A2B-BFD5-967D57513A40__SECTION_87C837F9CCD84769B4AE2BEB14AF4F01).
+- **Samsung, Huawei, Xiaomi, etc.** Gallery
+
+<img width="16" src="misc/check.png"> </img> **Instead use**
+- [Aves](https://github.com/deckerst/aves) - Beautiful gallery and metadata explorer app, built for Android with Flutter. 
+- [Fossify Gallery](https://github.com/FossifyOrg/Gallery) - Fork of Simple Gallery. Browse your memories without any interruptions with this photo and video gallery.
+
+### Android Launcher
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 
 Third-party launchers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
@@ -212,15 +233,17 @@ When using cloud-based AI services, the data you input is often collected and st
 #### ChatGPT
 
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) - Inference of Facebook's LLaMA model in pure C/C++ so it can run locally on a CPU.
-- [ollama](https://github.com/jmorganca/ollama) - Get up and running with Llama 2 and other large language models locally.
+- [Jan](https://github.com/janhq/jan) - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
 - [LocalAI](https://github.com/go-skynet/LocalAI) - Self-hosted, community-driven simple local OpenAI-compatible API written in go. Can be used as a drop-in replacement for OpenAI, running on CPU with consumer-grade hardware.
+- [ollama](https://github.com/jmorganca/ollama) - Get up and running with Llama 2 and other large language models locally.
 
 #### Copilot
 
-- [Turbopilot](https://github.com/ravenscroftj/turbopilot) - Turbopilot is an open source large-language-model based code completion engine that runs locally on CPU.
-- [Localpilot](https://github.com/danielgross/localpilot) - Use GitHub Copilot locally on your Macbook with one-click.
+- [Continue](https://github.com/continuedev/continue) - Open-source autopilot for VS Code and JetBrains—the easiest way to code with any LLM 
 - [Fauxpilot](https://github.com/fauxpilot/fauxpilot) - an open-source,local alternative to GitHub Copilot server
 	- [vscode-fauxpilot](https://github.com/Venthe/vscode-fauxpilot) - vscode extension for fauxpilot. **reminder**: use [vscodium](https://vscodium.com/) instead!
+- [Localpilot](https://github.com/danielgross/localpilot) - Use GitHub Copilot locally on your Macbook with one-click.
+- [Turbopilot](https://github.com/ravenscroftj/turbopilot) - [Archived] Turbopilot is an open source large-language-model based code completion engine that runs locally on CPU.
 
 #### ElevenLabs Text To Speech
 
@@ -295,7 +318,6 @@ Google captchas use cookies to track users and rank their IPs.
 - [Peergos](https://peergos.org/) - Secure and private space online where you can store, share and view your photos, videos, music and documents. Also includes a calendar, news feed, task lists, chat and email client. Open source and self-hostable.
 - [Proton Drive](https://proton.me/drive) - End-to-end encrypted Swiss vault for your files that protects your data. [Read this article over Climate activist arrest](https://protonmail.com/blog/climate-activist-arrest/).
 - [PrivateStorage](https://private.storage/) - Accountless, privacy-focused cloud storage and folder synchronization with client-side encryption.
-- [Skiff Drive](https://skiff.com/drive) - Skiff Drive protects your dataq with end-to-end encryption.
 
 **Other useful tools**
 - [Cryptomator](https://cryptomator.org) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service
@@ -483,6 +505,7 @@ Nintendo [collects user data](https://libreddit.kavin.rocks/r/privacy/comments/q
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 
 - [SuperTuxKart](https://supertuxkart.net/Main_Page) - A 3D open-source arcade racer with a variety characters, tracks, and modes to play.
+- [Sonic Robo Blast 2 Kart](https://mb.srb2.org/addons/srb2kart.2435/) - SRB2Kart is a classic styled kart racer, complete with beautiful courses, and wacky items.
 
 ### Minecraft
 
@@ -494,7 +517,7 @@ The game has [telemetry embeded in it since v21w38a which you can't opt-out](htt
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Minetest](https://www.minetest.net/) - An open source voxel game engine with many features.
-    - [Mineclone5](https://content.minetest.net/packages/kay27/mineclone5/?protocol_version=40) - Updated version of MineClone2, an attempt to clone Minecraft into Minetest.
+    - [Mineclonia](https://content.minetest.net/packages/ryvnf/mineclonia/) - Survival sandbox game inspired by Minecraft. Fork of MineClone2 with focus on stability, multiplayer performance and features. 
 
 #### Plugins for Minecraft
 
@@ -791,7 +814,6 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [OnlyOffice](https://www.onlyoffice.com/) - Free and open source online office for collaboration.
 - [Cryptpad](https://cryptpad.fr/) - Collaboration suite, encrypted and open-source.
 - [Etherpad](https://etherpad.org/) - Highly customizable open source online editor providing collaborative editing in really real-time.
-- [Skiff](https://skiff.com/) - End-to-end encrypted real-time document collaboration and file storage.
 
 
 ## Online Phone Providers
@@ -893,6 +915,7 @@ GNU/Linux is a family of free (as in freedom and as in free beer) and open sourc
 
 These tools are useful when sharing secrets, code snippets or any other kind of text with others in a private way.
 
+- [NoPaste](https://github.com/bokub/nopaste) - Open Source pastebin alternative that works with no database, and no back-end code. Instead, the data is compressed and stored entirely in the link that you share, nowhere else.
 - [PrivateBin](https://github.com/PrivateBin/PrivateBin) - A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
 
@@ -916,14 +939,15 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 ## Personal Finances
 ### FIAT
-- [My Expenses](https://github.com/mtotschnig/MyExpenses) - Featureful GPL licenced Android Expense Tracking App.
-- [ProExpense](https://github.com/arduia/ProExpense/) - A simple free finance note to safely record daily expenses.
-- [IHateMoney](https://ihatemoney.org/) - Manage your shared expenses, easily.
-- [Debitum](https://github.com/Marmo/debitum) - With Debitum you can track all kinds of IOUs, be it money or lent items.
-- [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - A group/shared budget manager inspired by the great IHateMoney.
-   - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and [IHateMoney](https://ihatemoney.org/) servers.
-- [GnuCash](https://gnucash.org/) - GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X and Microsoft Windows.
 - [Budget Zen](https://budgetzen.net) - Simple and Encrypted Budget Management.
+- [Debitum](https://github.com/Marmo/debitum) - With Debitum you can track all kinds of IOUs, be it money or lent items.
+- [GnuCash](https://gnucash.org/) - GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X and Microsoft Windows.
+- [IHateMoney](https://ihatemoney.org/) - Manage your shared expenses, easily.
+  - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and [IHateMoney](https://ihatemoney.org/) servers.
+- [My Expenses](https://github.com/mtotschnig/MyExpenses) - Featureful GPL licenced Android Expense Tracking App.
+- [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - A group/shared budget manager inspired by the great IHateMoney.
+  - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and [IHateMoney](https://ihatemoney.org/) servers.
+- [ProExpense](https://github.com/arduia/ProExpense/) - A simple free finance note to safely record daily expenses.
 
 ### CRYPTO
 <img width="16" src="misc/forbidden.png"> </img> Avoid using any exchange portfolio tracking or any app like Blockfolio as they **do not** respect your privacy in any way.
@@ -1168,8 +1192,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [SaidIt](https://saidit.net/) - Open source Reddit clone.
 
 <img width="16" src="misc/check.png"> </img> **Privacy respecting Reddit clients:**
-- [Libreddit](https://github.com/libreddit/libreddit) - Private Reddit front-end written in Rust
-- [Teddit](https://teddit.net/) - Alternative Reddit front-end focused on privacy
+- [Libreddit](https://github.com/libreddit/libreddit) - Private Reddit front-end written in Rust [No longer working - Read here](https://github.com/libreddit/libreddit/issues/840)
 - <img width="16" src="misc/android.png"> [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) - A beautiful Reddit client for Android.
 - <img width="16" src="misc/android.png"> [Dawn](https://github.com/Tunous/Dawn) - A gesture driven, open source reddit client for android
 - <img width="16" src="misc/apple.png"> <img width="16" src="misc/android.png"> [Slide](https://github.com/ccrama/Slide) - Slide is an open sourced, ad free Reddit browser for Android and iOS.
