@@ -1173,7 +1173,6 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 	- [Fritter](https://github.com/jonjomckay/fritter/) - A free, open-source Nitter client for Android (feed no longer available).
  		- - [Squawker](https://github.com/j-fbriere/squawker) - An active fork of Fritter that fixes the feed.
 - [Feetter](https://codeberg.org/pluja/Feetter) - Create, sync and manage Nitter feeds without registration from any device.
-- [Kizie](https://kizie.co) - Cleaner, better and privacy focussed Twitter client for Web.
 
 ### Reddit
 
