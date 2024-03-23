@@ -107,6 +107,7 @@ The primary focus of this list is to provide alternatives that prioritize privac
 - [Translation](#translation)
 - [Uncategorized](#uncategorized)
 - [Utilities](#utilities)
+- [Version Control](#version-control)
 - [Video and Audio Conferencing](#video-and-audio-conferencing)
 - [Video Editing](#video-editing)
 - [Virtual Private Networks (VPNs)](#VPNs)
@@ -1283,6 +1284,16 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
+
+## Version Control
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+
+- **Github** - [![](https://shields.tosdr.org/en_297.svg)](https://tosdr.org/en/service/297)
+
+<img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Codeberg](https://codeberg.org/) -  Codeberg is a collaboration platform providing Git hosting and services for free and open source software, content and projects. 
+- [Forgejo](https://forgejo.org/) - Forgejo is a self-hosted lightweight software forge.
+- [GitLab](https://about.gitlab.com/) - GitLab a DevOps software package that can develop, secure, and operate software.
 
 ## Video and Audio Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
