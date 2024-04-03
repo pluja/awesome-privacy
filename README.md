@@ -143,6 +143,7 @@ The primary focus of this list is to provide alternatives that prioritize privac
 - [Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
 - [Swetrix](https://swetrix.com) - Privacy-focused, fully cookieless and opensource (and selfhostable) web-analytics service.
 - [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
+- [Unidentified Analytics](https://unidentifiedanalytics.web.app/) - Naive ip-based tracking that works everywhere (web, command-line, email, etc). No account required. Developer friendly.
 
 ## Android
 
