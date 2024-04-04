@@ -1290,7 +1290,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 ## Version Control
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
 
-- **Github** - [![](https://shields.tosdr.org/en_297.svg)](https://tosdr.org/en/service/297)
+- **Github** - [![](https://shields.tosdr.org/en_297.svg)](https://tosdr.org/en/service/297), although the privacy policy is not very bad, it is owned by Microsoft, and it's common knowledge that it uses the code it hosts to train AI models.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Codeberg](https://codeberg.org/) -  Codeberg is a collaboration platform providing Git hosting and services for free and open source software, content and projects. 
