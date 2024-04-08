@@ -1128,7 +1128,6 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 <img width="16" src="misc/check.png"> </img> **YouTube alternative frontends (web-based):**
 - [Invidious](https://github.com/iv-org/invidious) - Alternative and privacy respecting YouTube frontend.
 - [Piped](https://github.com/TeamPiped/Piped) - An alternative privacy-friendly YouTube frontend which is efficient by design.
-	- <img width="16" src="misc/android.png"> [LibreTube](https://github.com/Libre-tube/LibreTube) - An alternative frontend for YouTube, for Android using Piped.
 - [ViewTube](https://github.com/viewtube/viewtube-vue) - ViewTube is an alternative privacy-friendly YouTube frontend written in Vue.js
 - [Youtube-Local](https://github.com/user234683/youtube-local) - browser-based client for watching Youtube anonymously and with greater page performance.
 
