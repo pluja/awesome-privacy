@@ -194,8 +194,8 @@ Preinstalled file managers and third-party file manager apps found on the play s
 - [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
 - [Indic Keyboard](https://gitlab.com/indicproject/indic-keyboard) - Indic Keyboard is a versatile keyboard for Android users who wish to use Indic and Indian languages to type messages, compose emails and generally prefer to use them in addition to English on their phone.
 - [Simple Keyboard](https://github.com/rkkr/simple-keyboard) - Simply keyboard and nothing more.
-- [OpenBoard](https://github.com/openboard-team/openboard) - OpenBoard is a 100% foss keyboard based on AOSP, with no dependency on Google binaries, that respects your privacy.
-	- [OpenBoard upgrade](https://github.com/Helium314/openboard) - A fork of OpenBoard with many additional features and improvements. Releases are in a beta state.
+- [OpenBoard](https://github.com/openboard-team/openboard) - OpenBoard is a 100% foss keyboard based on AOSP, with no dependency on Google binaries, that respects your privacy. It is no longer updated, but still works.
+	- [Heliboard](https://github.com/Helium314/HeliBoard) - A privacy-conscious and customizable open-source keyboard, based on AOSP / OpenBoard with many additional features and improvements, including support for custom dictionaries, themes, and glide typing.
 
 ### Android Gallery
 
