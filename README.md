@@ -1191,9 +1191,11 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 <img width="16" src="misc/check.png"> </img> **Privacy respecting Reddit clients:**
 - [Libreddit](https://github.com/libreddit/libreddit) - Private Reddit front-end written in Rust [No longer working - Read here](https://github.com/libreddit/libreddit/issues/840)
+- [RDX](https://github.com/avadhesh18/rdx/) - A private and open source front-end for viewing reddit inspired by Apollo, with a focus on simplicity, speed, and user experience.
 - <img width="16" src="misc/android.png"> [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) - A beautiful Reddit client for Android.
-- <img width="16" src="misc/android.png"> [Dawn](https://github.com/Tunous/Dawn) - A gesture driven, open source reddit client for android
+- <img width="16" src="misc/android.png"> [Dawn](https://github.com/Tunous/Dawn) - A gesture driven, open source reddit client for android [No longer maintained - Read here](https://github.com/Tunous/Dawn/issues/642)
 - <img width="16" src="misc/apple.png"> <img width="16" src="misc/android.png"> [Slide](https://github.com/ccrama/Slide) - Slide is an open sourced, ad free Reddit browser for Android and iOS.
+- <img width="16" src="misc/android.png"> [RedReader](https://github.com/QuantumBadger/RedReader) - An unofficial, open source client for Reddit, with a focus on accessibility.
 
 ### Streaming Platforms (Twitch)
 
