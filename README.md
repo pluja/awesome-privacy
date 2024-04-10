@@ -1190,10 +1190,8 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [SaidIt](https://saidit.net/) - Open source Reddit clone.
 
 <img width="16" src="misc/check.png"> </img> **Privacy respecting Reddit clients:**
-- [Libreddit](https://github.com/libreddit/libreddit) - Private Reddit front-end written in Rust [No longer working - Read here](https://github.com/libreddit/libreddit/issues/840)
-- <img width="16" src="misc/android.png"> [Infinity](https://github.com/Docile-Alligator/Infinity-For-Reddit) - A beautiful Reddit client for Android.
-- <img width="16" src="misc/android.png"> [Dawn](https://github.com/Tunous/Dawn) - A gesture driven, open source reddit client for android
-- <img width="16" src="misc/apple.png"> <img width="16" src="misc/android.png"> [Slide](https://github.com/ccrama/Slide) - Slide is an open sourced, ad free Reddit browser for Android and iOS.
+- [Libreddit](https://github.com/libreddit/libreddit) - ~Private Reddit front-end written in Rust~ [No longer working - Read here](https://github.com/libreddit/libreddit/issues/840)
+- [Redlib](https://github.com/redlib-org/redlib) - An alternative private front-end to Reddit, with its origins in Libreddit.
 
 ### Streaming Platforms (Twitch)
 
