@@ -646,7 +646,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 ### Third-Party owned
 - [Forward Email](https://forwardemail.net) - the 100% open-source and privacy-focused email service.
 - [ProtonMail](https://protonmail.com/) - Secure Email. Based in Switzerland. [Read this article over Climate activist arrest](https://protonmail.com/blog/climate-activist-arrest/).
-- [Tutanota](https://tutanota.com/) - Secure email for everybody. Open Source.
+- [Tuta](https://tuta.com/) - Secure email for everybody. Open Source.
 - [Riseup](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
 - [Mailfence](https://mailfence.com) - Secure and private email.
 
