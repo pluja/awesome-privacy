@@ -1409,7 +1409,7 @@ Please read about what the addon does before installing. If you don't understand
   - [WebView Switcher](https://github.com/Magisk-Modules-Repo/bromitewebview) - A tool for installing Bromite WebView on android 10
 
 
-## Privacy vs Security vs Anonimity
+## Privacy vs Security vs Anonymity
 
 Anonymity, Privacy, and Security are often used interchangeably, but they actually represent distinct concepts. It is important to understand the differences between them.
 
