@@ -12,9 +12,9 @@
 	<a href="https://github.com/pluja/awesome-privacy/discussions"> Discussions </a>
 </p>
 
-### ⚠️ [Important note](#privacy-vs-security-vs-anonimity)
+### ⚠️ [Important note](#privacy-vs-security-vs-anonymity)
 
-Anonymity, Privacy, and Security are often used interchangeably, but they actually represent distinct concepts. It is important to understand the differences between them. [Read more in this section below](#privacy-vs-security-vs-anonimity).
+Anonymity, Privacy, and Security are often used interchangeably, but they actually represent distinct concepts. It is important to understand the differences between them. [Read more in this section below](#privacy-vs-security-vs-anonymity).
 
 The primary focus of this list is to provide alternatives that prioritize privacy. These alternatives give you control over your data and do not collect or sell it.
 
