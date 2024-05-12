@@ -433,12 +433,13 @@ on the DMCrypt kernel module.
 - [Croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another.
 - [Dat-cp](https://github.com/tom-james-watson/dat-cp) - Copy files between hosts on a network using the peer-to-peer Dat network.
 - [Destiny](https://leastauthority.com/community-matters/destiny/) - Send files directly to the receiver in real-time. Developed for and with HROs as a free Privacy Enhancing Technology alternative.
+- [Hidden Lake Filesharer](https://github.com/number571/go-peer/tree/master/cmd/hidden_lake/applications/filesharer) - A file sharing application based on theoretically provable anonymity.
 - [Lufi](https://framagit.org/fiat-tux/hat-softwares/lufi) - Let's Upload that FIle — File sharing software.
 - [Localsend](https://localsend.org/) - Share files to nearby devices. Free, open source, cross-platform.
 - [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole) - Get things from one computer to another, safely.
 - [OnionShare](https://github.com/micahflee/onionshare) - An open source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network.
 - [Paperless](https://github.com/the-paperless-project/paperless) - [Now archived] Scan, index, and archive all of your paper documents.
-	- [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) - [inactive] A supercharged version of paperless: scan, index and archive all your physical documents.
+- [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) - [inactive] A supercharged version of paperless: scan, index and archive all your physical documents.
 - [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - A community-supported supercharged version of paperless based on paperless-ng
 - [PairDrop](https://github.com/schlagmichdoch/PairDrop) - An improved version of Snapdrop that also allows you to pair devices and share files outside your network.
 - [Portal](https://github.com/SpatiumPortae/portal) - A command-line file transfer utility for sending encrypted files from any computer to another.
