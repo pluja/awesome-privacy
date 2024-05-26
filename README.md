@@ -827,6 +827,9 @@ Many websites require phone number verification. These services offer a way to r
 - [Virtualsim](https://virtualsim.net/) - Virtualsim provides physical SIM cards leasing for SMS verifications. (Based in Ukraine)
 - [MoneroSMS](https://monerosms.com/) - Virtual numbers for SMS/MMS messaging and verifications. CLI and web app. (Based in United States)
 
+### No email verification, accepting Bitcoin
+- [CloakedWireless](https://cloakedwireless.com) - USA based cell phone service, supporting voice, SMS and data with eSIM.
+
 ### Email verification required, accepting monero
 - [Onlinesim](https://onlinesim.ru/) - Receive SMS online to virtual phone number. (Based in Russia)
 
