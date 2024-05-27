@@ -1391,6 +1391,7 @@ Here are some open source and truly private (no personal data and/or credit card
 - <img width="16" src="misc/android.png"> [Vanadium](https://vanadium.app/) - Privacy and security enhanced releases of Chromium by GrapheneOS.
 - <img width="16" src="misc/android.png"> [Privacy Browser](https://www.stoutner.com/privacy-browser/)
 - [Tor Browser](https://www.torproject.org/) - iOS/Android. Defend yourself against tracking and surveillance and circumvent censorship.
+- [Cromite](https://www.cromite.org/) - Cromite is a Chromium fork based on Bromite with built-in support for ad blocking and an eye for privacy.
 
 #### Desktop
 - [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) - A lightweight approach to removing Google web service dependency. Ungoogled-chromium is Google Chromium, sans dependency on Google web services.
