@@ -1060,6 +1060,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
   - [SearxNG](https://github.com/searxng/searxng) - Free internet metasearch engine which aggregates results from various search services and databases.  
 - [DuckDuckGo](https://duckduckgo.com) - A privacy respecting search engine.
 - [Brave Search](https://search.brave.com) - A privacy respecting search engine with [its own independent index](https://brave.com/search-independence/).
+- [Qwant](https://www.qwant.com/) - A zero tracking search engine made and hosted in France, EU.
 
 ## Social Networks and Platforms
 
