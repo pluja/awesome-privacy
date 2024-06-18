@@ -283,7 +283,6 @@ Google captchas use cookies to track users and rank their IPs.
 <img width="16" src="misc/check.png"> </img>  **Instead use**
 - [Altcha.org](https://altcha.org) - Free, open-source and self-hosted CAPTCHA alternative using proof-of-work mechanism.
 - [mCaptcha](http://mcaptcha.org/) ([repo](https://github.com/mCaptcha/mCaptcha)) - An open-source CAPTCHA system with seamless UX.  mCaptcha uses SHA256 based proof-of-work (PoW) to rate limit users.
-- [OOPSpam](https://www.oopspam.com/) - No-captcha, privacy-friendly anti-spam, anti-bot API. Requires no personal data for detection. Supports popular platforms like WordPress. Privacy commitment in their mission statement.
 
 ## Commenting Engines
 
