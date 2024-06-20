@@ -1326,7 +1326,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Jami](https://jami.net/) - P2P audio and video conferences.
 - [Jitsi Meet](https://meet.jit.si/) - More secure, more flexible, and completely free video conferencing. **No account needed, no installation needed**.
 - [Mirotalk P2P](https://p2p.mirotalk.com/) - Free WebRTC - P2P - Simple, Secure, Fast Real-Time Video Conferences Up to 4k and 60fps, compatible with all browsers and platforms.
-- [Mumble](https://www.mumble.com/) - Mumble is an open source voice communication application with advanced features.
+- [Mumble](https://www.mumble.info/) - Mumble is an open source voice communication application with advanced features.
 - [PeerCalls](https://peercalls.com/) - Group peer to peer video calls for everyone written in Go and TypeScript.
 
 
