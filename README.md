@@ -188,12 +188,13 @@ Preinstalled file managers and third-party file manager apps found on the play s
 - SwiftKey [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
 
 <img width="16" src="misc/check.png"> </img> **Instead use**
-- [FlorisBoard](https://github.com/florisboard/florisboard) - FlorisBoard is a free and open-source keyboard for Android 6.0+ devices. It aims at being modern, user-friendly and customizable while fully respecting your privacy. Currently in early-beta state.
 - [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
+- [FlorisBoard](https://github.com/florisboard/florisboard) - FlorisBoard is a free and open-source keyboard for Android 6.0+ devices. It aims at being modern, user-friendly and customizable while fully respecting your privacy. Currently in early-beta state.
+- [Futo Keyboard](https://keyboard.futo.org/) - A modern keyboard that respects your privacy and security, with features such as offline voice input, swipe typing and smart autocorrect.
+- [Heliboard](https://github.com/Helium314/HeliBoard) - A privacy-conscious and customizable open-source keyboard, based on AOSP / OpenBoard with many additional features and improvements, including support for custom dictionaries, themes, and glide typing.
 - [Indic Keyboard](https://gitlab.com/indicproject/indic-keyboard) - Indic Keyboard is a versatile keyboard for Android users who wish to use Indic and Indian languages to type messages, compose emails and generally prefer to use them in addition to English on their phone.
-- [Simple Keyboard](https://github.com/rkkr/simple-keyboard) - Simply keyboard and nothing more.
 - [OpenBoard](https://github.com/openboard-team/openboard) - OpenBoard is a 100% foss keyboard based on AOSP, with no dependency on Google binaries, that respects your privacy. It is no longer updated, but still works.
-	- [Heliboard](https://github.com/Helium314/HeliBoard) - A privacy-conscious and customizable open-source keyboard, based on AOSP / OpenBoard with many additional features and improvements, including support for custom dictionaries, themes, and glide typing.
+- [Simple Keyboard](https://github.com/rkkr/simple-keyboard) - Simply keyboard and nothing more.
 
 ### Android Gallery
 
