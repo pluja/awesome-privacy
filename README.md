@@ -143,6 +143,7 @@
 - [Swetrix](https://swetrix.com) - Privacy-focused, fully cookieless and opensource (and selfhostable) web-analytics service.
 - [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
 - [Unidentified Analytics](https://unidentifiedanalytics.web.app/) - Naive ip-based tracking that works everywhere (web, command-line, email, etc). No account required. Developer friendly.
+- [Fullres](https://fullres.com/) - A privacy-friendly Google Analytics alternative that also includes Web Vitals on one platform.
 
 ## Android
 
