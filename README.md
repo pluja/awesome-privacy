@@ -1307,6 +1307,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Codeberg](https://codeberg.org/) -  Codeberg is a collaboration platform providing Git hosting and services for free and open source software, content and projects. 
 - [Forgejo](https://forgejo.org/) - Forgejo is a self-hosted lightweight software forge.
 - [GitLab](https://about.gitlab.com/) - GitLab a DevOps software package that can develop, secure, and operate software.
+- [Radicle](https://radicle.xyz/) - An open source, peer-to-peer code collaboration stack built on Git. Unlike centralized code hosting platforms, there is no single entity controlling the network. Repositories are replicated across peers in a decentralized manner, and users are in full control of their data and workflow.
 
 ## Video and Audio Conferencing
 <img width="16" src="misc/forbidden.png"> </img> **Avoid**
