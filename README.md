@@ -1421,10 +1421,6 @@ Please read about what the addon does before installing. If you don't understand
 ### Browser Sync
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
 
-### WebView
-- <img width="16" src="misc/android.png"> [Bromite WebView](https://www.bromite.org/system_web_view) - Bromite WebView is a version of Android System WebView with support for ad blocking and enhanced privacy.
-  - [WebView Switcher](https://github.com/Magisk-Modules-Repo/bromitewebview) - A tool for installing Bromite WebView on android 10
-
 
 ## Privacy vs Security vs Anonymity
 
