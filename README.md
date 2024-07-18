@@ -981,6 +981,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
 - [Inkscape](https://inkscape.org/) - Inkscape is a free and open-source vector graphics editor used to create vector images.
 - [ImageGlass](https://imageglass.org/) - ImageGlass is a lightweight software application whose purpose is to help you view images in a clean and intuitive working environment.
+- [darktable](https://www.darktable.org/) - darktable is an open source photography workflow application and raw developer
 
 #### Android
 - [Pocket Paint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
