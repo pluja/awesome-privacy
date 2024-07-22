@@ -460,6 +460,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 - <img width="16" src="misc/android.png"> [Fitotrack](https://codeberg.org/jannis/FitoTrack) - A privacy oriented fitness tracker for Android.
 - <img width="16" src="misc/android.png"> [OpenTracks](https://github.com/OpenTracksApp/OpenTracks) - OpenTracks is a sport tracking application that completely respects your privacy.
+- <img width="16" src="misc/android.png"> [Gadgetbridge](https://codeberg.org/Freeyourgadget/Gadgetbridge) - A free and cloudless replacement for your gadget vendors' closed source Android applications.
 
 ### Workout planners
 
