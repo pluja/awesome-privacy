@@ -315,6 +315,7 @@ Google captchas use cookies to track users and rank their IPs.
 - **OneDrive** - Microsoft owned, privacy policy is [very bad](https://tosdr.org/en/service/244). The data is stored in their remote servers where you lose control of it. They use trackers. No encryption available.
 
 <img width="16" src="misc/check.png"> </img>  **Instead use**
+- [Filen](https://filen.io/) - Zero knowledge end-to-end encrypted cloud storage from Germany.
 - [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control.
 - [Seafile](https://www.seafile.com/en/home/) - High performance file syncing and sharing. It includes a Wiki, WYSIWYG editing and other knowledge management features.
 - [Peergos](https://peergos.org/) - Secure and private space online where you can store, share and view your photos, videos, music and documents. Also includes a calendar, news feed, task lists, chat and email client. Open source and self-hostable.
