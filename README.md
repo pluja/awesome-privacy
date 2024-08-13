@@ -267,6 +267,7 @@ Go to the [Text To Speech](#text-to-speech) section.
 - [LinkDing](https://github.com/sissbruecker/linkding)
 - [Shiori](https://github.com/go-shiori/shiori)
 - [Wallabag](https://wallabag.org/) - Open-source, optionally self-hosted, read it later server. Provides paid hosted service with privacy in mind.
+- [WebCull](https://webcull.com/) - Privacy-focused, no-ads, no-trackers, no locally unencrypted files, free end-to-end encryption (E2EE).
 
 ### Book and web annotations/highlights management
 
