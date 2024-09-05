@@ -848,12 +848,18 @@ Many websites require phone number verification. These services offer a way to r
 > [!NOTE]
 > **Android security**: Custom ROMs can improve your privacy the same as they can decrease the Android security, always use ROMs that support verified boot and encryption and **DO NOT** have root enabled by default. If possible, don't use userdebug builds. If your threat model requires security, buy a Google Pixel and install GrapheneOS on it. [Read more on PrivacyGuides](https://www.privacyguides.org/android/overview).
 
+#### Android-Based
 
-- [GrapheneOS](https://grapheneos.org/) - GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility.
-- [CalyxOS](https://calyxos.org/) - CalyxOS lets you have your cake and eat it too, with  "Privacy by Design".
+**GrapheneOS** has a strong focus on security and privacy. It deploys technologies to mitigate many vulnerabilities and makes exploiting of vulnerabilities substantially more difficult. It improves the security of both the OS and the apps running on it.
+
+- [GrapheneOS](https://grapheneos.org/) - GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility. Only **Google Pixel** phones are supported.
+
+These ROMs also offer good priavcy and/or extended support for a wider range of devices. Note that these may also reduce security, increasing the attack surface of the operating system.
+
+- [CalyxOS](https://calyxos.org/) - Privacy by Design ROM. Offers better security than LineageOS or Replicant.
 - [LineageOS](https://lineageos.org/) - A free and open-source operating system for various devices, based on the Android mobile platform.
-- [DivestOS](https://divestos.org) - LineageOS fork with increased security and privacy.
-- [Replicant](https://www.replicant.us/) - A free software mobile operating system putting the emphasis on freedom and privacy/security.
+	- [DivestOS](https://divestos.org) - LineageOS fork with increased security and privacy.
+- [Replicant](https://www.replicant.us/) - Replicant is a fully free Android distribution running on several devices.
 
 #### Based on Linux
 - [UBPorts](https://www.ubports.com/) - Ubuntu Touch is the touch-friendly mobile version of Ubuntu.
