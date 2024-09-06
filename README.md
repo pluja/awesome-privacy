@@ -85,6 +85,7 @@
 - [Personal Finances](#personal-finances)
 - [Photo Editing and Management](#photo-editing-and-management)
 - [Photo Storage](#photo-storage)
+- [Porn](#porn)
 - [Privacy Tools](#privacy-tools)
 - [Remote Access and Control](#remote-access-and-control)
 - [Search Engines](#search-engines)
@@ -99,6 +100,7 @@
     - [TikTok](#tiktok)
     - [Twitter](#twitter)
     - [Wikipedia](#wikipedia)
+    - [Porn](#porn)
     - [YouTube](#youtube)
 - [Speech to Text](#speech-to-text)
 - [Teamworking Tools](#teamworking-tools)
@@ -1024,6 +1026,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others.
 - [ImageGlass](https://imageglass.org/) - ImageGlass is a lightweight software application whose purpose is to help you view images in a clean and intuitive working environment. 
 
+
 ## Privacy Tools
 
 This section is dedicated to some tools that may help users analyze the privacy status on their devices.
@@ -1133,6 +1136,15 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 <img width="16" src="misc/check.png"> </img> **Quora alternative frontends (web-based):**
 - [Quetre](https://github.com/zyachel/quetre) - Quetre is an alternative front-end to Quora. It enables you to see answers without ads, trackers, and other such bloat.
 
+### Porn
+
+[![](https://shields.tosdr.org/en_616.svg)](https://tosdr.org/en/service/616)
+
+<img width="16" src="misc/forbidden.png"> </img> Don't use Mindgeek based porn sites (PornHub, YouPorn, RedTube, Xtube, Brazzers, Twistys, MyDirtyHobby, Reality Kings, and more). These servers are very privacy invasive and in most countries porn is still a forbidden topic to talk about. We still recommend you to visit the "big players", as other smaller porn sites often contain underage content and will only redirect you from site to site.
+
+<img width="16" src="misc/check.png"> </img> **Instead use**
+
+- [PornInvidious](https://github.com/Simple-Web-Project/PornInvidious) - Simple JavaScript-Free Frontend for xvideos.com
 
 ### YouTube
 
