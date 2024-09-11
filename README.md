@@ -666,6 +666,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 #### Android / iOS
 - <img width="16" src="misc/android.png"> [FairEmail](https://github.com/M66B/FairEmail) - Fully featured, open source, privacy friendly email app for Android.
 - <img width="16" src="misc/android.png"> [K9](https://k9mail.app/) - Open Source Email App for Android.
+- <img width="16" src="misc/android.png"> [Planck Secure Email](https://www.planck.security) - A highly-secure email client with automated encryption based on PGP, for Android, iOS and Outlook
 
 #### Desktop
 - [Thunderbird](https://www.thunderbird.net) - A free customizable open source email client.
