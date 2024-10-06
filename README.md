@@ -544,6 +544,17 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ## Games
 
+### Age of Empires
+
+Microsoft [collects user data](https://www.microsoft.com/en-us/privacy/privacystatement) through telemetry, even in single-player modes, and requires players to sign in with online accounts for many features. This can be invasive, as Microsoft gathers data about gameplay sessions, system performance, and even potential personal information.
+
+✅  **Instead use**
+
+- [0 A.D.](https://play0ad.com/) - A free, open-source, historical Real Time Strategy (RTS) game.
+- [Widelands](https://www.widelands.org/) - A free, open-source, slow-paced Real Time Strategy (RTS) game.
+- [Warzone 2100](https://wz2100.net/) - A free, open-source, real-time strategy game.
+- [OpenRA](http://www.openra.net/) - A free, open-source, real-time strategy game engine for early Westwood games like Command & Conquer: Red Alert.
+
 ### Mario Kart
 
 Nintendo [collects user data](https://libreddit.kavin.rocks/r/privacy/comments/qtj9xt/til_nintendo_collects_data_from_switch_owners/), and if you disable it, they can [turn it back on](https://www.altchar.com/game-news/the-latest-nintendo-switch-update-secretly-turns-on-user-data-sharing-adSyV7t35NPg). Also, it has a paid plan that is not accessible to everyone economically.
