@@ -1102,6 +1102,9 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 This section is dedicated to some tools that may help users analyze the privacy status on their devices.
 
+### Web
+- [AesirX Privacy Scanner](https://privacyscanner.aesirx.io) - Privacy risk assessment and compliance tool.
+
 ### Desktop
 
 - [Whoami Project](https://github.com/owerdogan/whoami-project) - Whoami provides enhanced privacy, anonymity for Debian and Arch based linux distributions.
