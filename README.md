@@ -275,6 +275,7 @@ Go to the [Text To Speech](#text-to-speech) section.
 - [LinkDing](https://github.com/sissbruecker/linkding)
 - [Shiori](https://github.com/go-shiori/shiori)
 - [Wallabag](https://wallabag.org/) - Open-source, optionally self-hosted, read it later server. Provides paid hosted service with privacy in mind.
+- [Floccus](https://floccus.org/) - Sync your bookmarks privately across browsers and devices.
 
 ### Book and web annotations/highlights management
 
