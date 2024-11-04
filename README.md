@@ -515,6 +515,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ### Medical health
 - [Fasten](https://github.com/fastenhealth/fasten-onprem) - Fasten is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 1000's of insurances/hospitals/clinics.
+- [MedTimer](https://github.com/Futsch1/medTimer) - Pure offline, free and open-source medication reminder app
 
 [Back to top 🔝](#contents)
 
