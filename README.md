@@ -825,7 +825,7 @@ With email aliases, you can finally create a different identity for each website
 These providers offer apps and services filled with data trackers. Also, most of them store your notes on their servers and do not offer any kind of encryption.
 
 - Google Keep
-    - [Google Keep Exporter](https://github.com/vHanda/google-keep-exporter) -  Convert your Google Keep notes into a standard markdown + YAML header format.
+    - [Google Keep Exporter](https://github.com/vHanda/google-keep-exporter) or [Keep To Markdown](https://github.com/erikelisath/keep-to-markdown) -  Convert your Google Keep notes into a standard markdown + YAML header format.
 - Evernote
 - Squid
 - Notion
