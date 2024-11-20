@@ -279,6 +279,7 @@ Go to the [Text To Speech](#text-to-speech) section.
 
 ### Book and web annotations/highlights management
 
+- [Blasta](https://git.xmpp-it.net/sch/Blasta) - A collaborative bookmarks manager for organizing online content.
 - [Hypothesis](https://github.com/hypothesis/h/) - Annotate the web, with anyone, anywhere.
 - [Kobuddy](https://github.com/karlicoss/kobuddy) - Get your Kobo e-reader device bookmarks and annotations in a .txt file.
 
