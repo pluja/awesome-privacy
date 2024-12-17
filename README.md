@@ -1403,6 +1403,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
+- [adless](https://github.com/WIttyJudge/adless) - Local domains blocker written in Go.
 
 [Back to top 🔝](#contents)
 
