@@ -985,6 +985,7 @@ GNU/Linux is a family of free (as in freedom and as in free beer) and open sourc
 - Dashlane
 
 ✅  **Instead use**
+- [AliasVault](https://www.aliasvault.net) - An open source E2EE password & alias manager with a built-in email alias server
 - [Bitwarden](https://bitwarden.com) - An open source cloud based password manager.
   - [vaultwarden](https://github.com/dani-garcia/vaultwarden/) - Unofficial Bitwarden compatible self-hosted server, formerly known as bitwarden_rs.
 - [KeepassXC](https://keepassxc.org/) - Securely store passwords using industry standard encryption, no sync just storage.
