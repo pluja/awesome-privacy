@@ -199,6 +199,7 @@ Preinstalled file managers and third-party file manager apps found on the play s
 - [Indic Keyboard](https://gitlab.com/indicproject/indic-keyboard) - Indic Keyboard is a versatile keyboard for Android users who wish to use Indic and Indian languages to type messages, compose emails and generally prefer to use them in addition to English on their phone.
 - [OpenBoard](https://github.com/openboard-team/openboard) - OpenBoard is a 100% foss keyboard based on AOSP, with no dependency on Google binaries, that respects your privacy. It is no longer updated, but still works.
 - [Simple Keyboard](https://github.com/rkkr/simple-keyboard) - Simply keyboard and nothing more.
+- [Thumb-Key](https://github.com/dessalines/thumb-key) - A privacy-conscious Android keyboard made for your thumbs.
 
 ### Android Gallery
 
