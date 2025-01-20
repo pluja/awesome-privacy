@@ -83,6 +83,11 @@
 - [Pastebin and Secret Sharing](#pastebin-and-secret-sharing)
 - [Payments](#payments)
 - [Personal Finances](#personal-finances)
+	- [Full Featured Financial Management](#full-featured-financial-management)
+ 	- [Budget Management](#budget-management)
+  	- [Shared Expenses](#shared-expenses)
+	- [Others](#others)
+ 	- [Portfolio Trackers](#portfolio-trackers)
 - [Photo Editing and Management](#photo-editing-and-management)
 - [Photo Storage](#photo-storage)
 - [Privacy Tools](#privacy-tools)
@@ -1028,21 +1033,44 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 [Back to top 🔝](#contents)
 
 ## Personal Finances
-### FIAT
-- [Budget Zen](https://budgetzen.net) - Simple and Encrypted Budget Management.
-- [Debitum](https://github.com/Marmo/debitum) - With Debitum you can track all kinds of IOUs, be it money or lent items.
+
+### Full Featured Financial Management
+
+- [Actual](https://actualbudget.org) - Super fast and privacy-focused app for managing your finances.
+- [Firefly III](https://www.firefly-iii.org/) - A free and open source personal finance manager.
 - [GnuCash](https://gnucash.org/) - GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X and Microsoft Windows.
-- [IHateMoney](https://ihatemoney.org/) - Manage your shared expenses, easily.
-  - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and [IHateMoney](https://ihatemoney.org/) servers.
-- [My Expenses](https://github.com/mtotschnig/MyExpenses) - Featureful GPL licenced Android Expense Tracking App.
-- [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - A group/shared budget manager inspired by the great IHateMoney.
-  - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and [IHateMoney](https://ihatemoney.org/) servers.
+- [Maybe](https://maybefinance.com/) - Open Source and secure OS for your personal finances.
+
+### Budget Management
+- [Budget Zen](https://budgetzen.net) - Simple and Encrypted Budget Management.
 - [ProExpense](https://github.com/arduia/ProExpense/) - A simple free finance note to safely record daily expenses.
+- [My Expenses](https://github.com/mtotschnig/MyExpenses) - Featureful GPL licenced Android Expense Tracking App.
 
-### CRYPTO
-⛔ Avoid using any exchange portfolio tracking or any app like Blockfolio as they **do not** respect your privacy in any way.
+### Shared Expenses
 
-✅ Instead use Rotki, an awesome, feature-rich and open source app:
+⛔ **Avoid**
+
+- Tricount - App size is massive (~200MB) and contains many trackers from Facebook, Google and Huawei.
+- Splitwise - App contains trackers from Google and Amazon.
+
+✅  **Instead use**
+
+- [Spliit](https://github.com/spliit-app/spliit#readme) - Share Expenses with Friends & Family. No ads. No account. Open Source. Forever Free.
+- [PeerSplit](https://github.com/tanayvk/peersplit#readme) - [Website](peersplit.app) - Track and split group expenses. 100% free, 100% private.
+- [SplitPro](https://github.com/oss-apps/split-pro#readme) - [Website](https://splitpro.app) - Split Expenses with your friends for free. An open source alternative to SplitWise.
+- [IHateMoney](https://ihatemoney.org/) - Manage your shared expenses, easily. Lacks unequal splitting.
+  - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and IHateMoney servers.
+- [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - A group/shared budget manager inspired by the great IHateMoney.
+  - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster/) - Android client for Nextcloud Cospend and IHateMoney servers.
+
+### Others 
+
+- [Debitum](https://github.com/Marmo/debitum) - With Debitum you can track all kinds of IOUs, be it money or lent items.
+
+### Portfolio trackers
+
+- [Ghostfolio](https://github.com/ghostfolio/ghostfolio#readme) - open source wealth management software built with web technology.
+- [PortfolioPerformance](https://www.portfolio-performance.info/en/) - An open source tool to calculate the overall performance of an investment portfolio-
 - [Rotki](https://github.com/rotki/rotki) - An awesome portfolio tracking, analytics, accounting and tax reporting application that protects your privacy.
 
 ## Photo Editing and Management
