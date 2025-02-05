@@ -569,7 +569,7 @@ The game is owned by Microsoft. If this is not enough, you need a Microsoft acco
 The game has [telemetry embeded in it since v21w38a which you can't opt-out](https://bugs.mojang.com/browse/MC-237493). Also, [it is tied](https://www.minecraft.net/en-us/terms) to the [Microsoft privacy terms](https://privacy.microsoft.com/en-us/privacystatement) which are a privacy nightmare.
 
 ✅  **Instead use**
-- [Minetest](https://www.minetest.net/) - An open source voxel game engine with many features.
+- [Luanti](https://www.luanti.org/) - An open source voxel game engine with many features.
     - [Mineclonia](https://content.minetest.net/packages/ryvnf/mineclonia/) - Survival sandbox game inspired by Minecraft. Fork of MineClone2 with focus on stability, multiplayer performance and features. 
 
 #### Plugins for Minecraft
