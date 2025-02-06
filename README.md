@@ -487,6 +487,7 @@ on the DMCrypt kernel module.
 - [Snapdrop](https://github.com/RobinLinus/snapdrop) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
 - [Winden](https://winden.app/) - A convenient version of Magic Wormhole you can use from within your browser. No need to install an app.
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
+- [My Folder Online](https://github.com/ido-pluto/my-folder-online) - PWA for sharing a directory peer-to-peer, with fast downloads and a streaming file system (no need for zips)
 
 [Back to top 🔝](#contents)
 
