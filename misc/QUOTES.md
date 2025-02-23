@@ -14,3 +14,5 @@ Companies that diminish and weaken our privacy are not our friends:
 > Ultimately, saying that you don't care about privacy because you have nothing to hide is no different from saying you don't care about freedom of speech because you have nothing to say. Or that you don't care about freedom of the press because you don't like to read. Or that you don't care about freedom of religion because you don't believe in God. Or that you don't care about the freedom to peacably assemble because you're a lazy, antisocial agoraphobe. - Edward Snowden
 
 > Without strong encryption, you will be spied on systematically by lots of people. - Whitfield Diffie
+
+> If privacy is outlawed, only outlaws will have privacy. - [Phil Zimmermann](http://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html)
