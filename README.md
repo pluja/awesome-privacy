@@ -80,6 +80,8 @@
     - [PC / MacOS](#pc--macos)
     - [Smart TV](#smart-tv)
 - [Password Managers](#password-managers)
+- [Fake Identity Generators](#fake-identity-generators)
+- [Veilgen-Master](https://github.com/hexa-01/Veilgen-Master) - A tool for generating fake identities to enhance privacy and anonymity.
 - [Pastebin and Secret Sharing](#pastebin-and-secret-sharing)
 - [Payments](#payments)
 - [Personal Finances](#personal-finances)
