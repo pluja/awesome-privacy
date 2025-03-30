@@ -487,6 +487,7 @@ on the DMCrypt kernel module.
 - [Snapdrop](https://github.com/RobinLinus/snapdrop) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
 - [Winden](https://winden.app/) - A convenient version of Magic Wormhole you can use from within your browser. No need to install an app.
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
+- [Pingvin Share](https://github.com/stonith404/pingvin-share/) - Pingvin Share is self-hosted file sharing platform and an alternative for WeTransfer.
 
 [Back to top 🔝](#contents)
 
