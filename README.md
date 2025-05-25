@@ -992,6 +992,7 @@ GNU/Linux is a family of free (as in freedom and as in free beer) and open sourc
 ✅  **Instead use**
 - [Bitwarden](https://bitwarden.com) - An open source cloud based password manager.
   - [vaultwarden](https://github.com/dani-garcia/vaultwarden/) - Unofficial Bitwarden compatible self-hosted server, formerly known as bitwarden_rs.
+- [CarryPass](https://carrypass.net) - Zero-knowledge PWA password manager with deterministic generation, encrypted vaults, and team collaboration. ([Source](https://github.com/racz-zoltan/racz-zoltan.github.io)) `MIT`
 - [KeepassXC](https://keepassxc.org/) - Securely store passwords using industry standard encryption, no sync just storage.
   - [KeepassDX](https://www.keepassdx.com/) for Android.
   - [Strongbox](https://strongboxsafe.com/) for iOS.
