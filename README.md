@@ -1565,6 +1565,8 @@ Please read about what the addon does before installing. If you don't understand
 
 #### Useful Tools
 - [Single File](https://github.com/gildas-lormeau/SingleFile) - Save a faithful copy of an entire web page in a single HTML file so you can use it offline.
+- [YouTube Local History](https://github.com/EdinUser/YouTubeLocalHistory) - A browser extension that stores YouTube watch history **locally** in your browser. Lets you resume videos, track playlists, and mark viewed content — all without sending any data to Google.  
+  [Chrome](https://chromewebstore.google.com/detail/pebiokefjgdbfnkolmblaaladkmpilba) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/local-youtube-video-history/)
 
 ### Browser Sync
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
