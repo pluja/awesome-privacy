@@ -488,6 +488,7 @@ on the DMCrypt kernel module.
 - [Snapdrop](https://github.com/RobinLinus/snapdrop) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
 - [Winden](https://winden.app/) - A convenient version of Magic Wormhole you can use from within your browser. No need to install an app.
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
+- [scrt.link](https://scrt.link/file) - End-to-end encrypted file transfer. Up to 100GB and 30 days retention. Stored in Switzerland.
 
 [Back to top 🔝](#contents)
 
@@ -1011,6 +1012,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [NoPaste](https://github.com/bokub/nopaste) - Open Source pastebin alternative that works with no database, and no back-end code. Instead, the data is compressed and stored entirely in the link that you share, nowhere else.
 - [PrivateBin](https://github.com/PrivateBin/PrivateBin) - A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
+- [scrt.link](https://scrt.link) - Share a secret. End-to-end encrypted. Ephemeral. Open-source.
 
 [Back to top 🔝](#contents)
 
