@@ -1521,6 +1521,7 @@ Here are some open source and truly private (no personal data and/or credit card
 
 - [Azire](https://www.azirevpn.com/)
 - [IVPN](https://ivpn.net)
+- [LN⚡️VPN](https://lnvpn.net)
 - [Mullvad VPN](https://mullvad.net)
 - [Proton VPN](https://protonvpn.com)
 - [SPN](https://safing.io/)
