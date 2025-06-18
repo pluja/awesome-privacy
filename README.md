@@ -1035,6 +1035,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 - [Sparrow Wallet](https://www.sparrowwallet.com/) - An open source, cross-platform desktop wallet that gives you many privacy-preserving spending tools.
 - [Wasabi Wallet](https://www.wasabiwallet.io/) - An open source, non-custodial, privacy-focused Bitcoin wallet available on Desktop.
+- [Coin Wallet](https://coin.space/) - An open-source, non-custodial wallet for Bitcoin and Monero. Available on Desktop, Mobile, and via TOR.
 
 [Back to top 🔝](#contents)
 
