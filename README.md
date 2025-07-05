@@ -757,6 +757,7 @@ With email aliases, you can finally create a different identity for each website
   - [OSMAnd](https://osmand.net/) - Android/iOS Navigation app using OSM. It is a feature-rich app with all you expect.
 - [Qwant Maps](https://map.qwant.com/) - An OpenStreetMap-based private Google Maps alternative.
 - [Organic Maps](https://organicmaps.app/) - Great offline maps for hikers and cyclists.
+- [CoMaps](https://www.comaps.app/) - A community-led free & open source maps app based on OSM
 
 [Back to top 🔝](#contents)
 
