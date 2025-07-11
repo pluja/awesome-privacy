@@ -573,7 +573,11 @@ The game has [telemetry embeded in it since v21w38a which you can't opt-out](htt
 ✅  **Instead use**
 - [Luanti](https://www.luanti.org/) - An open source voxel game engine with many features.
     - [Mineclonia](https://content.minetest.net/packages/ryvnf/mineclonia/) - Survival sandbox game inspired by Minecraft. Fork of MineClone2 with focus on stability, multiplayer performance and features. 
-
+- [Fjord Launcher Unlocked](https://github.com/hero-persson/FjordLauncherUnlocked) - Privacy-respecting fork of Prism Launcher. Contains no DRM.
+	-Extremely lightweight, runs on 0.5-2.5gb ram MINIMUM
+  	-Has every gave version/update avaliable for free forever
+  	-connecting your microsoft account gives you normal access to minecraft multiplayer
+  	-literally every mod API you can think of: Forge, Fabric, Optifine, Modrinth, Curseforge, Neoforge, etc,.
 #### Plugins for Minecraft
 
 If you still want to play Minecraft, you can add some plugins that can help you preserve a bit your privacy. But still consider that you are supporting Microsoft this way.
@@ -640,6 +644,8 @@ No single point of control or failure. A decentralized network operated by diffe
 - [Session](https://getsession.org/) - Extreme focus on privacy and anonymity. Blockchain technology.
 - [SimpleX Chat](https://simplex.chat/) - The first chat platform that is 100% private by design - it has no access to your connection graph
 - [Status](https://status.im/) - Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.
+- [HexChat](https://hexchat.github.io/) - Hexchat is the Go-to IRC to use for pure privacy - Anons around the world still use it!
+  	- [Hexchat Cont.](https://newblood.anonops.com/hexchat.html) - Guide for using Hexchat, the anon way.
 
 ### Centralized
 The service is in charge of running the servers that allow users to communicate. Single point of failure and control, but still 100% safe and trustworthy if the protocols and code are open and audited.
@@ -671,6 +677,8 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 ⛔ **Avoid**
 
 - Bit.ly
+- Linktr.ee
+- Google Shortlinking
 
 ✅  **Instead use**
 
@@ -707,6 +715,11 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - Outlook
 - Yandex Mail
 - Yahoo! Mail
+- AOL mail
+- Mail.ru
+- Comcast Email
+- AT&T Email
+- Zoho Mail
 
 ✅ **Instead use**
 
@@ -791,7 +804,7 @@ With email aliases, you can finally create a different identity for each website
 
 \* Premium required.
 
-- [Spotube](https://github.com/KRTirtho/spotube) - A lightweight free Spotify crossplatform-client.
+- [Spotube Git](https://github.com/KRTirtho/spotube), [SF Mirror](https://sourceforge.net/projects/spotube.mirror/) - An open source, cross-platform Spotify client that eliminates the need for Spotify Premium.
 - [Spot*](https://github.com/xou816/spot) - Native Spotify client built in GTK and Rust.
 - [psst*](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI.
 - [ncspot*](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.ç
@@ -956,7 +969,7 @@ You can also check out [Media Streaming Platforms](https://github.com/pluja/awes
 
 ### PC / MacOS
 ⛔ **Avoid**
-- MS Windows - Owned by Microsoft it is known for collecting many user data and tricking users to own a Microsoft account. If you still want and happen to use Windows 10, you can use [this tool](https://github.com/builtbybel/privatezilla), or [this other tool](https://www.w10privacy.de/english-home/) to see and disable the tons of privacy-invasive settings of MS Windows.
+- MS Windows - Owned by Microsoft it is known for collecting many user data and tricking users to own a Microsoft account. If you still want and happen to use Windows 10, you can use [this tool](https://github.com/builtbybel/privatezilla), [another tool](https://www.w10privacy.de/english-home/), or [this tool](https://github.com/Raphire/Win11Debloat) to see and disable the tons of privacy-invasive settings of MS Windows.
 - MacOS.
 
 ✅ **Instead use**
