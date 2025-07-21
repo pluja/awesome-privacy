@@ -105,6 +105,7 @@
     - [Twitter](#twitter)
     - [Wikipedia](#wikipedia)
     - [YouTube](#youtube)
+- [Screen Recording](#screen-recording)
 - [Speech to Text](#speech-to-text)
 - [Teamworking Tools](#teamworking-tools)
 - [Text To Speech](#text-to-speech)
@@ -361,6 +362,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 - [vdo.ninja](https://vdo.ninja/) - Powerful tool that lets you bring remote video feeds into OBS or other studio software via WebRTC.
 	- [socialstream.ninja](https://github.com/steveseguin/social_stream#readme) - Consolidate your live social messaging streams and much more.
 - [OBS Studio](https://obsproject.com/) - Free and open source software for video recording and live streaming.
+- [Screenity](https://screenity.io/en/) - A screen recorder that's free, private, and friendly.
 
 [Back to top 🔝](#contents)
 
@@ -890,6 +892,9 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [OnlyOffice](https://www.onlyoffice.com/) - Free and open source online office for collaboration.
 - [Cryptpad](https://cryptpad.fr/) - Collaboration suite, encrypted and open-source.
 - [Etherpad](https://etherpad.org/) - Highly customizable open source online editor providing collaborative editing in really real-time.
+- [Fileverse](https://fileverse.io) - Fileverse is building healthier alternatives with self-sovereignty, privacy by design, and standards compliance at its core.
+	- [Ddocs](https://ddocs.new): privacy-enhancing alternative to google docs: onchain, end-to-end encrypted, and decentralized. 
+ 	- [dSheets](https://dsheets.new): decentralized alternative to Excel and Google Sheets.
 
 [Back to top 🔝](#contents)
 
@@ -1389,6 +1394,13 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 [Back to top 🔝](#contents)
 
+## Screen recording
+
+- [Screenity](https://screenity.io/en/) - A powerful privacy-friendly screen recorder and annotation tool to make better videos for work, education, and more.
+- [OBS](https://obsproject.com/) - Free and open source software for video recording and live streaming.
+
+[Back to top 🔝](#contents)
+
 ## Speech to Text
 
 - [OpenAI Whisper](https://github.com/openai/whisper) - Whisper is a general-purpose speech recognition model that can be run locally offline. It can transcribe audio from and to multiple languages.
@@ -1500,9 +1512,11 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 Such programs come filled with trackers and telemetry. You can get a full list of reasons of why you should **not** use Adobe [here](https://www.gnu.org/proprietary/malware-adobe.html). Almost the same apply for many privative editors.
 
 ✅  **Instead use**
+
 - [kdenlive](https://kdenlive.org/) - Open source video editor. Free and easy to use for any purpose, forever.
 - [LosslessCut](https://github.com/mifi/lossless-cut) - LosslessCut aims to be the ultimate cross platform FFmpeg GUI for extremely fast and lossless operations on video, audio, subtitle and other related media files.
 - [Olive Video Editor](https://olivevideoeditor.org/) - Free open-source advanced non-linear video editor currently in Alpha state.
+- [OpenCut](https://github.com/OpenCut-app/OpenCut) - [beta] A free, open-source video editor for web, desktop, and mobile.
 - [Shotcut](https://www.shotcut.org/) - Shotcut is a free, open source and simple cross-platform video editor.
 
 [Back to top 🔝](#contents)
