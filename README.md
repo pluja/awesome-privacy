@@ -22,6 +22,7 @@
 - [Analytics](#analytics)
 - [Android](#android)
   - [Android App Store](#android-app-store)
+  - [Android Debloat Tools](#android-debloat-tools)
   - [Android Dialer](#android-dialer)
   - [Android File Manager](#android-file-manager)
   - [Android Gallery](#android-gallery)
