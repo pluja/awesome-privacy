@@ -915,7 +915,7 @@ Many websites require phone number verification. These services offer a way to r
 
 ## Operating Systems
 ### Android
-⛔ Try to avoid using Google Android or any Android that has been modified and tuned by any manufacturer such as Xiaomi, Huawei, Samsung, etc. Android is an Open Source project - [AOSP - Android Open Source Project]() - and it has many versions that will respect the user privacy and data and won't share it with private servers from manufacturers or service providers.
+⛔ Try to avoid using Google Android or any Android that has been modified and tuned by any manufacturer such as Xiaomi, Huawei, Samsung, etc. Android is an Open Source project - [AOSP - Android Open Source Project](https://source.android.com/) - and it has many versions that will respect the user privacy and data and won't share it with private servers from manufacturers or service providers.
 
 ✅ **Instead use**
 
