@@ -181,6 +181,7 @@ Third-party dialers found on the play store. They may contain ads/trackers and m
 
 ✅  **Instead use**
 - [Koler](https://github.com/Chooloo/koler) - Uniquely stylized phone app with customizable features.
+- [Fossify Phone](https://github.com/FossifyOrg/Phone) - A handy phone call manager with phonebook, number blocking and multi-SIM support.
 
 ### Android File Manager
 ⛔ **Avoid**
