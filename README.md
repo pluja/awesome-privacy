@@ -22,6 +22,7 @@
 - [Analytics](#analytics)
 - [Android](#android)
   - [Android App Store](#android-app-store)
+  - [Android Debloat Tools](#android-debloat-tools)
   - [Android Dialer](#android-dialer)
   - [Android File Manager](#android-file-manager)
   - [Android Gallery](#android-gallery)
@@ -173,6 +174,13 @@
 
 ### Alternative Google Play Store clients
 - [Aurora Store](https://auroraoss.com/download/#aurora-store) - Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.
+
+### Android Debloat Tools
+⛔ **Avoid**
+- ADB AppControl - A simple adb wrapper with a [terrible privacy policy](https://adbappcontrol.com/en/terms/) to collect things like device information and what applications you install/unsinstall.
+
+✅ **Instead use**
+- [Universal Android Debloater Next Generation](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/) - Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device.
 
 ### Android Dialer
 ⛔ **Avoid**
