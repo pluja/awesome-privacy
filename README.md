@@ -936,7 +936,6 @@ These ROMs also offer good priavcy and/or extended support for a wider range of 
 
 - [CalyxOS](https://calyxos.org/) - Privacy by Design ROM. Offers better security than LineageOS or Replicant.
 - [LineageOS](https://lineageos.org/) - A free and open-source operating system for various devices, based on the Android mobile platform.
-	- [DivestOS](https://divestos.org) - LineageOS fork with increased security and privacy.
 - [Replicant](https://www.replicant.us/) - Replicant is a fully free Android distribution running on several devices.
 
 #### Based on Linux
