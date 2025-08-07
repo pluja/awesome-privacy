@@ -499,6 +499,7 @@ on the DMCrypt kernel module.
 - [Winden](https://winden.app/) - A convenient version of Magic Wormhole you can use from within your browser. No need to install an app.
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
 - [scrt.link](https://scrt.link/file) - End-to-end encrypted file transfer. Up to 100GB and 30 days retention. Stored in Switzerland.
+- [Metadata Cleaner](https://github.com/AntGalanin06/Metadata_Cleaner) – Cross-platform GUI tool to remove hidden metadata from images, documents, and videos **locally**. Features batch processing, modern Material 3 interface, and multilingual support (EN/RU). 100% offline, FOSS (MIT).
 
 [Back to top 🔝](#contents)
 
