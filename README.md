@@ -22,6 +22,7 @@
 - [Analytics](#analytics)
 - [Android](#android)
   - [Android App Store](#android-app-store)
+  - [Android Debloat Tools](#android-debloat-tools)
   - [Android Dialer](#android-dialer)
   - [Android File Manager](#android-file-manager)
   - [Android Gallery](#android-gallery)
@@ -174,6 +175,13 @@
 ### Alternative Google Play Store clients
 - [Aurora Store](https://auroraoss.com/download/#aurora-store) - Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.
 
+### Android Debloat Tools
+⛔ **Avoid**
+- ADB AppControl - A simple adb wrapper with a [terrible privacy policy](https://adbappcontrol.com/en/terms/) to collect things like device information and what applications you install/unsinstall.
+
+✅ **Instead use**
+- [Universal Android Debloater Next Generation](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/) - Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device.
+
 ### Android Dialer
 ⛔ **Avoid**
 
@@ -181,6 +189,7 @@ Third-party dialers found on the play store. They may contain ads/trackers and m
 
 ✅  **Instead use**
 - [Koler](https://github.com/Chooloo/koler) - Uniquely stylized phone app with customizable features.
+- [Fossify Phone](https://github.com/FossifyOrg/Phone) - A handy phone call manager with phonebook, number blocking and multi-SIM support.
 
 ### Android File Manager
 ⛔ **Avoid**
@@ -233,7 +242,6 @@ Third-party launchers found on the play store. They may contain ads/trackers and
 - [OpenLauncher](https://github.com/OpenLauncherTeam/openlauncher) - Customizable and Open Source Launcher for Android.
 - [KISS](https://kisslauncher.com/) - Lightning fast, open-source, < 200kb Android launcher.
 - [Olauncher](https://github.com/tanujnotes/Olauncher) - Minimal AF (ad-free) launcher app for Android.
-- [Posidon Launcher](https://posidon.io/launcher) - Posidon launcher is a minimal, one page homescreen with a vertical scrolling feed.
 - [Pie Launcher](https://github.com/markusfisch/PieLauncher) - Android home screen launcher that uses a dynamic pie menu instead of fixed positioned icons.
 - [Rootless Pixel Launcher](https://github.com/amirzaidi/Launcher3) - The Launcher3 fork known as "Rootless Pixel Launcher".
 - [Bliss Launcher](https://f-droid.org/en/packages/foundation.e.blisslauncher/) - The default launcher of the /e/ Android-based OS.
@@ -915,7 +923,7 @@ Many websites require phone number verification. These services offer a way to r
 
 ## Operating Systems
 ### Android
-⛔ Try to avoid using Google Android or any Android that has been modified and tuned by any manufacturer such as Xiaomi, Huawei, Samsung, etc. Android is an Open Source project - [AOSP - Android Open Source Project]() - and it has many versions that will respect the user privacy and data and won't share it with private servers from manufacturers or service providers.
+⛔ Try to avoid using Google Android or any Android that has been modified and tuned by any manufacturer such as Xiaomi, Huawei, Samsung, etc. Android is an Open Source project - [AOSP - Android Open Source Project](https://source.android.com/) - and it has many versions that will respect the user privacy and data and won't share it with private servers from manufacturers or service providers.
 
 ✅ **Instead use**
 
@@ -936,7 +944,6 @@ These ROMs also offer good priavcy and/or extended support for a wider range of 
 
 - [CalyxOS](https://calyxos.org/) - Privacy by Design ROM. Offers better security than LineageOS or Replicant.
 - [LineageOS](https://lineageos.org/) - A free and open-source operating system for various devices, based on the Android mobile platform.
-	- [DivestOS](https://divestos.org) - LineageOS fork with increased security and privacy.
 - [Replicant](https://www.replicant.us/) - Replicant is a fully free Android distribution running on several devices.
 
 #### Based on Linux
