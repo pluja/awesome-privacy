@@ -1057,7 +1057,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Actual](https://actualbudget.org) - Super fast and privacy-focused app for managing your finances.
 - [Firefly III](https://www.firefly-iii.org/) - A free and open source personal finance manager.
 - [GnuCash](https://gnucash.org/) - GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X and Microsoft Windows.
-- [Maybe](https://maybefinance.com/) - Open Source and secure OS for your personal finances.
+- [Sure](https://github.com/we-promise/sure) - Open Source and secure OS for your personal finances. Community maintained fork of the archived [Maybe](https://github.com/maybe-finance/maybe) project.
 
 ### Budget Management
 - [Budget Zen](https://budgetzen.net) - Simple and Encrypted Budget Management.
