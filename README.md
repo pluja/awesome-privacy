@@ -277,6 +277,12 @@ Go to the [Text To Speech](#text-to-speech) section.
 - [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) - High-Resolution Image Synthesis with Latent Diffusion Models.
 	- [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - A browser interface for Stable Diffusion.
 
+#### Confidential AI
+
+- [dstack](https://github.com/Dstack-TEE/dstack) - Open-source framework for deploying AI models with hardware-enforced privacy using confidential computing. Protects AI workloads and data during processing with Intel TDX and NVIDIA Confidential Computing technologies.
+- [Phala Cloud](https://cloud.phala.network) - Serverless confidential AI deployment platform built on dstack. Deploy AI models with hardware-enforced privacy and familiar Docker Compose workflow.
+- [redpill](https://redpill.ai) - Confidential AI model API platform providing privacy-preserving access to large language models through confidential computing environments.
+
 [Back to top 🔝](#contents)
 
 ## Bookmarking
