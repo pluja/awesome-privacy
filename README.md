@@ -687,6 +687,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [MagLit](https://maglit.me) - An encrypted and privacy respecting Link Shortener service that also supports Magnet Links.
 - [Dub](https://github.com/dubinc/dub) - You can self-host Dub.co for greater control over your data and design.
 - [Yourls](https://yourls.org/) -  Self hosted URL shortener in PHP.
+- [tnyr.me](https://tnyr.me) - A zero-trust URL shortener with paswordless encryption.
 
 [Back to top 🔝](#contents)
 
