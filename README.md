@@ -726,6 +726,8 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Tuta](https://tuta.com/) - Secure email for everybody. Open Source.
 - [Riseup](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
 - [Mailfence](https://mailfence.com) - Secure and private email.
+- [Skiff](https://skiff.com) - Privacy-first, end-to-end encrypted, open-source email.
+- [Disroot](https://disroot.org/en/services/email) - Privacy-first zero-retention email provider.
 
 ### Self-Hosted
 - [Docker mail server](https://github.com/docker-mailserver/docker-mailserver) - A fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) using Docker.
@@ -748,6 +750,7 @@ With email aliases, you can finally create a different identity for each website
 
 - [SimpleLogin](https://github.com/simple-login/app)
 - [AnonAddy](https://github.com/anonaddy/anonaddy)
+- [DuckDuckGo](https://duckduckgo.com/email)
 
 [Back to top 🔝](#contents)
 
@@ -1196,6 +1199,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
   - [SearxNG](https://github.com/searxng/searxng) - Free internet metasearch engine which aggregates results from various search services and databases.  
 - [DuckDuckGo](https://duckduckgo.com) - A privacy respecting search engine.
 - [Brave Search](https://search.brave.com) - A privacy respecting search engine with [its own independent index](https://brave.com/search-independence/).
+- [Kagi](https://kagi.com/) - Paid search engine. Privacy respecting zero-telemetry, with its own search index supplemented by anonymized API calls to other search engines as well as specific sources like wikipedia and yelp, etc.
 - [Qwant](https://www.qwant.com/) - A zero tracking search engine made and hosted in France, EU.
 
 [Back to top 🔝](#contents)
@@ -1589,6 +1593,7 @@ Please read about what the addon does before installing. If you don't understand
 	- [Read the extension docs](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and pick one of the recommended modes to increase your privacy.
 	- Go to settings > filters list > annoyances, turn on easylist-cookies. This will avoid you the annoying Cookie popups.
 - [LibRedirect](https://github.com/libredirect/libredirect) - A simple web extension that redirects Twitter, YouTube, Google Maps and many more requests to privacy friendly alternatives. Former Privacy Redirect is no longer maintained, LibRedirect is a maintained fork.
+- [NoScript](https://noscript.net/) - Web extension that gives you control of which scripts to enable or disable when loading a page. Disable scripts from certain domain by default, limit script access etc.
 
 #### Useful Tools
 - [Single File](https://github.com/gildas-lormeau/SingleFile) - Save a faithful copy of an entire web page in a single HTML file so you can use it offline.
