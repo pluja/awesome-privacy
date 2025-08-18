@@ -1439,6 +1439,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Apertium](https://apertium.org/) - A free/open-source machine translation platform, runs offline on your computer
 - [Softcatala](https://www.softcatala.org/traductor/) - Open Source Translation tool - Only Catalan/Spanish/English/French (uses apertium)
 - [TranslateLocally](https://translatelocally.com/) – Free/open-source neural MT, runs offline on your computer
+- [Linguist Translate](https://github.com/translate-tools/linguist) - Linguist is a privacy‑focused, full‑featured translation solution for browser. Embedded offline translator, full page translation, dictionary, custom translators, translation for selected text and even more.
 
 ✅ **Alternative Google Translate frontends**
 - [Lingva](https://github.com/TheDavidDelta/lingva-translate) - Alternative front-end for Google Translate. [Demo](https://lingva.ml/).
@@ -1592,6 +1593,7 @@ Please read about what the addon does before installing. If you don't understand
 
 #### Useful Tools
 - [Single File](https://github.com/gildas-lormeau/SingleFile) - Save a faithful copy of an entire web page in a single HTML file so you can use it offline.
+- [Linguist Translate](https://github.com/translate-tools/linguist) - Linguist is a privacy‑focused, full‑featured translation solution for browser. Embedded offline translator, full page translation, dictionary, custom translators, translation for selected text and even more.
 
 ### Browser Sync
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
