@@ -410,6 +410,7 @@ Apps such as Tinder collect and sell your personal intimate information. Tinder 
 
 ✅  **Instead use**
 - [Alovoa](https://alovoa.com/) - Free and open-source dating platform that respects your privacy.
+- [Duolicious](https://duolicious.app/) - The [most-used free and open-source dating platform](https://duolicious.app/blog/were-the-most-popular-foss-dating-app-now/) in the world.
 
 [Back to top 🔝](#contents)
 
