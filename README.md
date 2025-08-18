@@ -491,6 +491,7 @@ on the DMCrypt kernel module.
 	- [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) - [inactive] A supercharged version of paperless: scan, index and archive all your physical documents.
 - [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - A community-supported supercharged version of paperless based on paperless-ng
 - [PairDrop](https://github.com/schlagmichdoch/PairDrop) - An improved version of Snapdrop that also allows you to pair devices and share files outside your network.
+- [pixeldrain](https://pixeldrain.com/) - Free to use temporarry file sharing with features like lists, delete, preview, edit, etc. "As long as you don’t share it nobody will see it."
 - [Portal](https://github.com/SpatiumPortae/portal) - A command-line file transfer utility for sending encrypted files from any computer to another.
 - [QRcp](https://github.com/claudiodangelis/qrcp) - Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
 - [Send](https://gitlab.com/timvisee/send) - Simple, private file sharing. (Mozilla Send Fork)
@@ -543,6 +544,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 ✅  **Instead use**
 ### Google Fonts Replacements
 - [coolLabs Fonts](https://fonts.coollabs.io/) - A privacy-friendly drop-in replacement for Google Fonts.
+- [Font Library](https://fontlibrary.org/) - Unless otherwise noted fonts published under [CC BY-SA](https://creativecommons.org/licenses/by-sa/3.0/).
 
 ### Foundries
 - [Velvetyne](https://www.velvetyne.fr/)
