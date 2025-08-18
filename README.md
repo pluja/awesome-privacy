@@ -558,6 +558,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [TypeBot](https://typebot.io) - Open-source conversational forms.
 - [CryptPad Forms](https://cryptpad.fr/form/) - Part of the Cryptpad end-to-end encrypted and open-source collaboration suite.
 - [FramaForms](https://framaforms.org/) - Design your online surveys easily while respecting your audience.
+- [GlobaLeaks](https://www.globaleaks.org/) - Implement a secure whistleblowing platform for anonymous reporting.
 
 [Back to top 🔝](#contents)
 
