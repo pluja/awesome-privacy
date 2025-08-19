@@ -380,6 +380,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 
 ✅ Instead use
 - [Appwrite](https://appwrite.io/) - Secure open-source backend server for web, mobile & Flutter developers.
+- [DB3 Network](https://github.com/dbpunk-labs/db3) - Decentralized Firebase Firestore Alternative.
 - [Supabase](https://supabase.io/) - Open source Firebase alternative ([Limited](https://github.com/supabase/supabase/issues/4934) [self-hosting](https://github.com/supabase/supabase/issues/4440#issuecomment-992108832))
 - [Pocketbase](https://pocketbase.io/) - Open Source backend in 1 file written in Go.
 - [CondensationDB](https://github.com/CondensationDB/Condensation) [Inactive] - Condensation is an open-source zero trust, distributed database enabling to build modern applications while ensuring data ownership and security.
