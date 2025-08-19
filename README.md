@@ -381,6 +381,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 ✅ Instead use
 - [Appwrite](https://appwrite.io/) - Secure open-source backend server for web, mobile & Flutter developers.
 - [Supabase](https://supabase.io/) - Open source Firebase alternative ([Limited](https://github.com/supabase/supabase/issues/4934) [self-hosting](https://github.com/supabase/supabase/issues/4440#issuecomment-992108832))
+- [Polybase](https://polybase.xyz) - A database that understands tokens, wallets & ZK. An open-source decentralized alternative to Firebase. ([docs](https://github.com/polybase/docs)
 - [Pocketbase](https://pocketbase.io/) - Open Source backend in 1 file written in Go.
 - [CondensationDB](https://github.com/CondensationDB/Condensation) [Inactive] - Condensation is an open-source zero trust, distributed database enabling to build modern applications while ensuring data ownership and security.
 
