@@ -388,6 +388,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+- [Azimutt](https://azimutt.app) - Open Source Database Explorer with privacy at its heart ([github](https://github.com/azimuttapp/azimutt))
 
 ### IDEs
 ⛔ Avoid using privative IDEs that are full of trackers and telemetry.
