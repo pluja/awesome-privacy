@@ -788,6 +788,7 @@ With email aliases, you can finally create a different identity for each website
 - [Stremio](https://www.stremio.com/) - Stremio is a modern media center that's a one-stop solution for your video entertainment.
 
 #### Audio
+- [Muffon](https://muffon.netlify.app/) - Music player that lets you play music from almost all sources.          
 - [Funkwhale](https://funkwhale.audio/) - A social platform to enjoy and share music (SoundCloud alternative).
 - [Subsonic](https://www.subsonic.org/pages/index.jsp) - Your complete, personal music streamer.
 - [Ampache](https://ampache.org/) - A web based audio/video streaming application and file manager.
