@@ -1040,6 +1040,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 ✅  **Instead use**
 - [Monero](https://www.getmonero.org/) - Monero is cash for a connected world. It's fast, private, untraceable and secure.
+- [MobileCoin](https://mobilecoin.com/) - MobileCoin is the only sustainable cryptocurrency that's fast and simple enough for everyday encrypted payments directly on your mobile device. 
 - Cash - Use person-to-person payments using physical notes and coins.
 
 > [!WARNING]
