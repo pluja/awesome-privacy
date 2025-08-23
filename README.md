@@ -1470,6 +1470,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Forgejo](https://forgejo.org/) - Forgejo is a self-hosted lightweight software forge.
 - [GitLab](https://about.gitlab.com/) - GitLab a DevOps software package that can develop, secure, and operate software.
 - [Radicle](https://radicle.xyz/) - An open source, peer-to-peer code collaboration stack built on Git. Unlike centralized code hosting platforms, there is no single entity controlling the network. Repositories are replicated across peers in a decentralized manner, and users are in full control of their data and workflow.
+- [Sourcehut](https://sourcehut.org/) - An open source platform for code collaboration built on Git and Mercurial that allows developers to build, share, and collaberate on their projects.
 
 [Back to top 🔝](#contents)
 
