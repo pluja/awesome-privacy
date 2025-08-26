@@ -262,11 +262,9 @@ When using cloud-based AI services, the data you input is often collected and st
 
 #### Copilot
 
-- [Continue](https://github.com/continuedev/continue) - Open-source autopilot for VS Code and JetBrains—the easiest way to code with any LLM 
-- [Fauxpilot](https://github.com/fauxpilot/fauxpilot) - an open-source,local alternative to GitHub Copilot server
-	- [vscode-fauxpilot](https://github.com/Venthe/vscode-fauxpilot) - vscode extension for fauxpilot. **reminder**: use [vscodium](https://vscodium.com/) instead!
-- [Localpilot](https://github.com/danielgross/localpilot) - Use GitHub Copilot locally on your Macbook with one-click.
-- [Turbopilot](https://github.com/ravenscroftj/turbopilot) - [Archived] Turbopilot is an open source large-language-model based code completion engine that runs locally on CPU.
+- [Continue](https://github.com/continuedev/continue) - Open-source autopilot for VS Code and JetBrains—the easiest way to code with any LLM
+- [Cline](https://cline.bot/) - Open source AI coding for VSCode. See every decision and use your own models. 
+	- [RooCode](https://github.com/RooCodeInc/Roo-Code) - Cline fork with some improvements.
 
 #### ElevenLabs Text To Speech
 
@@ -274,8 +272,9 @@ Go to the [Text To Speech](#text-to-speech) section.
 
 #### Midjourney
 
-- [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) - High-Resolution Image Synthesis with Latent Diffusion Models.
-	- [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - A browser interface for Stable Diffusion.
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - ComfyUI lets you execute advanced image generation pipelines using an advanced interface. Available on Windows, Linux, and macOS.
+- [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - A browser interface for Stable Diffusion and other models.
+- [InvokeAI](https://github.com/invoke-ai/InvokeAI) - Generate and create stunning visual media using the latest AI-driven technologies locally.
 
 [Back to top 🔝](#contents)
 
@@ -1423,7 +1422,8 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 ⛔ **Avoid** using tools that run on a 3rd party cloud. Generally you are sending your text and voice data to a 3rd party to process them, which could lead to leaking biometric data such as your voice, or sharing private and / or unnecessary text with the 3rd party.
 
 ✅ **Instead use**
-- [Bark](https://github.com/suno-ai/bark) - Bark can be run 100% locally and can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects.
+- [Kokoro FastAPI](https://github.com/remsky/Kokoro-FastAPI) - Dockerized FastAPI wrapper for [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) text-to-speech model w/CPU, ONNX and NVIDIA GPU support, handling, and auto-stitching.
+- [MeloTTS](https://github.com/myshell-ai/MeloTTS) - a high-quality multi-lingual text-to-speech library by MIT and MyShell.ai.
 - [Piper](https://github.com/rhasspy/piper) - A fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4.
 - [Espeak](https://github.com/espeak-ng/espeak-ng) - eSpeak NG is an open source speech synthesizer that supports more than hundred languages and accents. Voices will sound rather robotic.
 
