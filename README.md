@@ -1442,6 +1442,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Apertium](https://apertium.org/) - A free/open-source machine translation platform, runs offline on your computer
 - [Softcatala](https://www.softcatala.org/traductor/) - Open Source Translation tool - Only Catalan/Spanish/English/French (uses apertium)
 - [TranslateLocally](https://translatelocally.com/) – Free/open-source neural MT, runs offline on your computer
+- [Linguist](https://linguister.io) - A free and Open Source full-featured translation solution in-browser with embedded offline translator and [custom translators](https://linguister.io/docs/CustomTranslator). Full-page translation, TTS, dictionary, translation for user input and selected text on page.
 
 ✅ **Alternative Google Translate frontends**
 - [Lingva](https://github.com/TheDavidDelta/lingva-translate) - Alternative front-end for Google Translate. [Demo](https://lingva.ml/).
