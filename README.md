@@ -946,6 +946,7 @@ These ROMs also offer good priavcy and/or extended support for a wider range of 
 - [CalyxOS](https://calyxos.org/) - Privacy by Design ROM. Offers better security than LineageOS or Replicant.
 - [LineageOS](https://lineageos.org/) - A free and open-source operating system for various devices, based on the Android mobile platform.
 - [Replicant](https://www.replicant.us/) - Replicant is a fully free Android distribution running on several devices.
+- [iodéOS](https://iode.tech/iodeos/) - iodéOS is an android operating system freed from Google trackers, powered by LineageOS.
 
 #### Based on Linux
 - [UBPorts](https://www.ubports.com/) - Ubuntu Touch is the touch-friendly mobile version of Ubuntu.
