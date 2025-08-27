@@ -1110,6 +1110,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Inkscape](https://inkscape.org/) - Inkscape is a free and open-source vector graphics editor used to create vector images.
 - [ImageGlass](https://imageglass.org/) - ImageGlass is a lightweight software application whose purpose is to help you view images in a clean and intuitive working environment.
 - [darktable](https://www.darktable.org/) - darktable is an open source photography workflow application and raw developer
+- [RawTherapee](https://rawtherapee.com/) - RawTherapee is a powerful, cross-platform raw photo processing system. Designed for developing raw files from a broad range of digital cameras. 
 
 #### Android
 - [Pocket Paint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
