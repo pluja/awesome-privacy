@@ -1342,6 +1342,10 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Lemmy](https://join.lemmy.ml/) [🧩](#icons) - A federated and open alternative to Reddit in Rust.
 - [SaidIt](https://saidit.net/) - Open source Reddit clone.
 
+#### Self-hosted
+
+- [Storyden](https://www.storyden.org) - Self hosted Reddit-like forum, link aggregator and knowledgebase.
+
 ✅ **Privacy respecting Reddit clients:**
 - [Libreddit](https://github.com/libreddit/libreddit) - ~Private Reddit front-end written in Rust~ [No longer working - Read here](https://github.com/libreddit/libreddit/issues/840)
 - [Redlib](https://github.com/redlib-org/redlib) - An alternative private front-end to Reddit, with its origins in Libreddit.
