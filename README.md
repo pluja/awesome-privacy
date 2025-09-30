@@ -471,6 +471,8 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Cryptsetup](https://gitlab.com/cryptsetup/cryptsetup) - Full disk encryption for Linux. Cryptsetup is a utility used to conveniently set up disk encryption based
 on the DMCrypt kernel module.
 
+[Back to top 🔝](#contents)
+
 ## File Management and Sharing
 ⛔ **Avoid**
 - **WeTransfer** - [Bad privacy policy](https://tosdr.org/en/service/214). Files are not e2e encrypted. Website has many analytics and trackers.
