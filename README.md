@@ -259,6 +259,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [Jan](https://github.com/janhq/jan) - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
 - [LocalAI](https://github.com/go-skynet/LocalAI) - Self-hosted, community-driven simple local OpenAI-compatible API written in go. Can be used as a drop-in replacement for OpenAI, running on CPU with consumer-grade hardware.
 - [ollama](https://github.com/jmorganca/ollama) - Get up and running with Llama 2 and other large language models locally.
+- [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy) - Python-free Rust inference server with OpenAI-compatible API for private on-premises AI without cloud dependencies.
 
 #### Copilot
 
