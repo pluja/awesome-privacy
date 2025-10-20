@@ -1415,7 +1415,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 - [OpenAI Whisper](https://github.com/openai/whisper) - Whisper is a general-purpose speech recognition model that can be run locally offline. It can transcribe audio from and to multiple languages.
 	- [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - High-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model.
- 	- [Whishper](https://whishper.net) - A whisper frontend with subtitle editing and translation capabilities. 
+ 	- [Whishper](https://whishper-docs.pages.dev/) - A whisper frontend with subtitle editing and translation capabilities. 
 
 [Back to top 🔝](#contents)
 
