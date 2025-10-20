@@ -255,10 +255,11 @@ When using cloud-based AI services, the data you input is often collected and st
 
 #### ChatGPT
 
-- [llama.cpp](https://github.com/ggerganov/llama.cpp) - Inference of Facebook's LLaMA model in pure C/C++ so it can run locally on a CPU.
 - [Jan](https://github.com/janhq/jan) - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
+- [llama.cpp](https://github.com/ggerganov/llama.cpp) - Inference of Facebook's LLaMA model in pure C/C++ so it can run locally on a CPU.
 - [LocalAI](https://github.com/go-skynet/LocalAI) - Self-hosted, community-driven simple local OpenAI-compatible API written in go. Can be used as a drop-in replacement for OpenAI, running on CPU with consumer-grade hardware.
 - [ollama](https://github.com/jmorganca/ollama) - Get up and running with Llama 2 and other large language models locally.
+- [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy) - Privacy-focused AI inference server with OpenAI API compatibility, zero cloud dependencies, and local model processing.
 - [Tinfoil](https://tinfoil.sh/) - Verifiably private AI Chat and OpenAI-compatible inference in the cloud. Uses NVIDIA confidential computing and open source code pinned to a transparency log for end-to-end verifiability.
 
 #### Copilot
@@ -471,6 +472,8 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 - [Cryptsetup](https://gitlab.com/cryptsetup/cryptsetup) - Full disk encryption for Linux. Cryptsetup is a utility used to conveniently set up disk encryption based
 on the DMCrypt kernel module.
+
+[Back to top 🔝](#contents)
 
 ## File Management and Sharing
 ⛔ **Avoid**
@@ -1061,6 +1064,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Firefly III](https://www.firefly-iii.org/) - A free and open source personal finance manager.
 - [GnuCash](https://gnucash.org/) - GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X and Microsoft Windows.
 - [Sure](https://github.com/we-promise/sure) - Open Source and secure OS for your personal finances. Community maintained fork of the archived [Maybe](https://github.com/maybe-finance/maybe) project.
+- [ezBookkeeping](https://ezbookkeeping.mayswind.net/) - A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.
 
 ### Budget Management
 - [Budget Zen](https://budgetzen.net) - Simple and Encrypted Budget Management.
@@ -1415,7 +1419,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 - [OpenAI Whisper](https://github.com/openai/whisper) - Whisper is a general-purpose speech recognition model that can be run locally offline. It can transcribe audio from and to multiple languages.
 	- [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - High-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model.
- 	- [Whishper](https://whishper.net) - A whisper frontend with subtitle editing and translation capabilities. 
+ 	- [Whishper](https://whishper-docs.pages.dev/) - A whisper frontend with subtitle editing and translation capabilities. 
 
 [Back to top 🔝](#contents)
 
