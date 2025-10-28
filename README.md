@@ -481,6 +481,8 @@ Sending your app’s error details to third parties can expose sensitive informa
 
 - [Telebugs](https://telebugs.com) - A self-hosted Sentry alternative for error tracking (source code unlocked with a one-time payment).
 
+[Back to top 🔝](#contents)
+
 ## File Management and Sharing
 ⛔ **Avoid**
 - **WeTransfer** - [Bad privacy policy](https://tosdr.org/en/service/214). Files are not e2e encrypted. Website has many analytics and trackers.
