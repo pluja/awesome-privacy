@@ -1,0 +1,20 @@
+name: Mirror to Codeberg
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Mirror to Codeberg
+        uses: yesolutions/mirror-action@master
+        with:
+          REMOTE: 'https://codeberg.org/pluja/awesome-privacy.git'
+          GIT_USERNAME: pluja
+          GIT_PASSWORD: ${{ secrets.GIT_MIRROR_PAT }}

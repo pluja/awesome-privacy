@@ -2,7 +2,7 @@
 <p align="center"><img width="500" src="misc/logo.png"> </img></p>
 <p align="center">
 	<img src="https://awesome.re/badge.svg" alt="Awesome">
-	<a href="https://git.nixnet.services/pluja/awesome-privacy"><img alt="Mirror" src="https://img.shields.io/badge/Mirror-gitea-green"></img></a>
+	<a href="https://codeberg.org/pluja/awesome-privacy"><img alt="Mirror" src="https://img.shields.io/badge/Mirror-Codeberg-blue"></img></a>
 </p>
 <p align="center">List of free, open source and privacy respecting services and alternatives to privative services.</p>
 <p align="center">
@@ -256,18 +256,18 @@ When using cloud-based AI services, the data you input is often collected and st
 
 #### ChatGPT
 
-- [llama.cpp](https://github.com/ggerganov/llama.cpp) - Inference of Facebook's LLaMA model in pure C/C++ so it can run locally on a CPU.
 - [Jan](https://github.com/janhq/jan) - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
+- [llama.cpp](https://github.com/ggerganov/llama.cpp) - Inference of Facebook's LLaMA model in pure C/C++ so it can run locally on a CPU.
 - [LocalAI](https://github.com/go-skynet/LocalAI) - Self-hosted, community-driven simple local OpenAI-compatible API written in go. Can be used as a drop-in replacement for OpenAI, running on CPU with consumer-grade hardware.
 - [ollama](https://github.com/jmorganca/ollama) - Get up and running with Llama 2 and other large language models locally.
+- [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy) - Privacy-focused AI inference server with OpenAI API compatibility, zero cloud dependencies, and local model processing.
+- [Tinfoil](https://tinfoil.sh/) - Verifiably private AI Chat and OpenAI-compatible inference in the cloud. Uses NVIDIA confidential computing and open source code pinned to a transparency log for end-to-end verifiability.
 
 #### Copilot
 
-- [Continue](https://github.com/continuedev/continue) - Open-source autopilot for VS Code and JetBrains—the easiest way to code with any LLM 
-- [Fauxpilot](https://github.com/fauxpilot/fauxpilot) - an open-source,local alternative to GitHub Copilot server
-	- [vscode-fauxpilot](https://github.com/Venthe/vscode-fauxpilot) - vscode extension for fauxpilot. **reminder**: use [vscodium](https://vscodium.com/) instead!
-- [Localpilot](https://github.com/danielgross/localpilot) - Use GitHub Copilot locally on your Macbook with one-click.
-- [Turbopilot](https://github.com/ravenscroftj/turbopilot) - [Archived] Turbopilot is an open source large-language-model based code completion engine that runs locally on CPU.
+- [Continue](https://github.com/continuedev/continue) - Open-source autopilot for VS Code and JetBrains—the easiest way to code with any LLM
+- [Cline](https://cline.bot/) - Open source AI coding for VSCode. See every decision and use your own models. 
+	- [RooCode](https://github.com/RooCodeInc/Roo-Code) - Cline fork with some improvements.
 
 #### ElevenLabs Text To Speech
 
@@ -275,8 +275,9 @@ Go to the [Text To Speech](#text-to-speech) section.
 
 #### Midjourney
 
-- [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) - High-Resolution Image Synthesis with Latent Diffusion Models.
-	- [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - A browser interface for Stable Diffusion.
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - ComfyUI lets you execute advanced image generation pipelines using an advanced interface. Available on Windows, Linux, and macOS.
+- [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - A browser interface for Stable Diffusion and other models.
+- [InvokeAI](https://github.com/invoke-ai/InvokeAI) - Generate and create stunning visual media using the latest AI-driven technologies locally.
 
 [Back to top 🔝](#contents)
 
@@ -312,6 +313,7 @@ Google captchas use cookies to track users and rank their IPs.
 ✅  **Instead use**
 - [Altcha.org](https://altcha.org) - Free, open-source and self-hosted CAPTCHA alternative using proof-of-work mechanism.
 - [mCaptcha](http://mcaptcha.org/) ([repo](https://github.com/mCaptcha/mCaptcha)) - An open-source CAPTCHA system with seamless UX.  mCaptcha uses SHA256 based proof-of-work (PoW) to rate limit users.
+- [Private Captcha](https://github.com/PrivateCaptcha/PrivateCaptcha) - Privacy-first and self-hosted Proof-of-Work CAPTCHA alternative, made in EU.
 
 [Back to top 🔝](#contents)
 
@@ -490,6 +492,7 @@ Sending your app’s error details to third parties can expose sensitive informa
 - [Croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another.
 - [Dat-cp](https://github.com/tom-james-watson/dat-cp) - Copy files between hosts on a network using the peer-to-peer Dat network.
 - [Destiny](https://leastauthority.com/community-matters/destiny/) - Send files directly to the receiver in real-time. Developed for and with HROs as a free Privacy Enhancing Technology alternative.
+- [Gokapi](https://github.com/Forceu/Gokapi) - Lightweight selfhosted Firefox Send alternative without public upload. AWS S3 supported.
 - [Lufi](https://framagit.org/fiat-tux/hat-softwares/lufi) - Let's Upload that FIle — File sharing software.
 - [Localsend](https://localsend.org/) - Share files to nearby devices. Free, open source, cross-platform.
 - [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole) - Get things from one computer to another, safely.
@@ -694,6 +697,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [MagLit](https://maglit.me) - An encrypted and privacy respecting Link Shortener service that also supports Magnet Links.
 - [Dub](https://github.com/dubinc/dub) - You can self-host Dub.co for greater control over your data and design.
 - [Yourls](https://yourls.org/) -  Self hosted URL shortener in PHP.
+- [tnyr.me](https://tnyr.me) - A zero-trust URL shortener with paswordless end-to-end encryption.
 
 [Back to top 🔝](#contents)
 
@@ -1034,6 +1038,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [PrivateBin](https://github.com/PrivateBin/PrivateBin) - A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
 - [scrt.link](https://scrt.link) - Share a secret. End-to-end encrypted. Ephemeral. Open-source.
+- [dele-to](https://dele.to) - Open Source. Modern app to share sensitive credentials and secrets securely with client-side AES-256 encryption, zero-knowledge architecture, and automatic self-destruction.
 
 [Back to top 🔝](#contents)
 
@@ -1065,6 +1070,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Firefly III](https://www.firefly-iii.org/) - A free and open source personal finance manager.
 - [GnuCash](https://gnucash.org/) - GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X and Microsoft Windows.
 - [Sure](https://github.com/we-promise/sure) - Open Source and secure OS for your personal finances. Community maintained fork of the archived [Maybe](https://github.com/maybe-finance/maybe) project.
+- [ezBookkeeping](https://ezbookkeeping.mayswind.net/) - A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.
 
 ### Budget Management
 - [Budget Zen](https://budgetzen.net) - Simple and Encrypted Budget Management.
@@ -1290,7 +1296,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 ✅ **YouTube alternative clients (apps):**
 - [🤖](#icons) [NewPipe](https://newpipe.net/) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
-    - [NewPipe x Sponsorblock](https://github.com/polymorphicshade/NewPipe) - NewPipe fork that incorporates Sponsorblock.
+    - [Tubular](https://github.com/polymorphicshade/Tubular) - A fork of NewPipe that implements SponsorBlock and ReturnYouTubeDislike. 
 - [🤖](#icons) [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - Alternative Android YouTube app. No account needed, privacy respecting, no ads.
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend).
 - [🤖](#icons) [LibreTube](https://github.com/Libre-tube/LibreTube) - An alternative frontend for YouTube, for Android using Piped.
@@ -1419,7 +1425,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 - [OpenAI Whisper](https://github.com/openai/whisper) - Whisper is a general-purpose speech recognition model that can be run locally offline. It can transcribe audio from and to multiple languages.
 	- [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - High-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model.
- 	- [Whishper](https://whishper.net) - A whisper frontend with subtitle editing and translation capabilities. 
+ 	- [Whishper](https://whishper-docs.pages.dev/) - A whisper frontend with subtitle editing and translation capabilities. 
 
 [Back to top 🔝](#contents)
 
@@ -1428,7 +1434,8 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 ⛔ **Avoid** using tools that run on a 3rd party cloud. Generally you are sending your text and voice data to a 3rd party to process them, which could lead to leaking biometric data such as your voice, or sharing private and / or unnecessary text with the 3rd party.
 
 ✅ **Instead use**
-- [Bark](https://github.com/suno-ai/bark) - Bark can be run 100% locally and can generate highly realistic, multilingual speech as well as other audio - including music, background noise and simple sound effects.
+- [Kokoro FastAPI](https://github.com/remsky/Kokoro-FastAPI) - Dockerized FastAPI wrapper for [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) text-to-speech model w/CPU, ONNX and NVIDIA GPU support, handling, and auto-stitching.
+- [MeloTTS](https://github.com/myshell-ai/MeloTTS) - a high-quality multi-lingual text-to-speech library by MIT and MyShell.ai.
 - [Piper](https://github.com/rhasspy/piper) - A fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4.
 - [Espeak](https://github.com/espeak-ng/espeak-ng) - eSpeak NG is an open source speech synthesizer that supports more than hundred languages and accents. Voices will sound rather robotic.
 
@@ -1446,6 +1453,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Apertium](https://apertium.org/) - A free/open-source machine translation platform, runs offline on your computer
 - [Softcatala](https://www.softcatala.org/traductor/) - Open Source Translation tool - Only Catalan/Spanish/English/French (uses apertium)
 - [TranslateLocally](https://translatelocally.com/) – Free/open-source neural MT, runs offline on your computer
+- [Linguist](https://linguister.io) - A free and Open Source full-featured translation solution in-browser with embedded offline translator and [custom translators](https://linguister.io/docs/CustomTranslator). Full-page translation, TTS, dictionary, translation for user input and selected text on page.
 
 ✅ **Alternative Google Translate frontends**
 - [Lingva](https://github.com/TheDavidDelta/lingva-translate) - Alternative front-end for Google Translate. [Demo](https://lingva.ml/).
