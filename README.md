@@ -282,16 +282,17 @@ Go to the [Text To Speech](#text-to-speech) section.
 
 ## Bookmarking
 ⛔ **Avoid**
-- Pocket (Formerly Read It Later) - [Bad privacy policy](https://tosdr.org/en/service/384). [Apps have trackers](https://reports.exodus-privacy.eu.org/en/reports/com.ideashower.readitlater.pro/latest/) and requires many permissions.
 - Evernote Web Clipper -  [Bad privacy policy](https://tosdr.org/en/service/207). [Apps have many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.evernote/latest/) and require too many permissions.
 
 ✅  **Instead use**
+- [42links](https://42links.tuxproject.de) - Open-source, self-hosted, minimalist bookmark storage service.
+- [Floccus](https://floccus.org/) - Sync your bookmarks privately across browsers and devices.
 - [Grimoire](https://github.com/goniszewski/grimoire) - Modern, open source, self-hosted bookmark manager.
+- [Karakeep](https://karakeep.app/) - (previously Hoarder) Open source "Bookmark Everything" app that uses AI for automatically tagging the content you throw at it.
 - [LinkAce](https://github.com/Kovah/LinkAce)
 - [LinkDing](https://github.com/sissbruecker/linkding)
 - [Shiori](https://github.com/go-shiori/shiori)
 - [Wallabag](https://wallabag.org/) - Open-source, optionally self-hosted, read it later server. Provides paid hosted service with privacy in mind.
-- [Floccus](https://floccus.org/) - Sync your bookmarks privately across browsers and devices.
 
 ### Book and web annotations/highlights management
 
