@@ -859,6 +859,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 ✅  **Instead use**
 
 - [Anytype](https://www.anytype.io/) - An open-source Notion alternative. E2EE, cloud and local network sync, can be self-hosted.
+- [AFFiNE](https://affine.pro/) - Open Source Alternative to Notion and Mio,Privacy and Local first Note Taking Software.
 - [AppFlowy](https://www.appflowy.io/) - Open Source Notion Alternative. You are in charge of your data and customizations.
 - [HedgeDoc](https://hedgedoc.org/) - Formerly CodiMD (community). An awesome platform to write and share markdown.
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation and encryption capabilities.
