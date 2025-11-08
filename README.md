@@ -48,6 +48,7 @@
 - [Domain Registrar](#domain-registrar)
 - [Download Manager](#download-manager)
 - [Encryption](#encryption)
+- [Error Trackers](#error-trackers)
 - [File Management and Sharing](#file-management-and-sharing)
 - [Fitness and Health](#fitness-and-health)
 	- [Fitness trackers](#fitness-trackers)
@@ -474,6 +475,12 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 - [Cryptsetup](https://gitlab.com/cryptsetup/cryptsetup) - Full disk encryption for Linux. Cryptsetup is a utility used to conveniently set up disk encryption based
 on the DMCrypt kernel module.
+
+## Error Trackers
+
+Sending your app’s error details to third parties can expose sensitive information, create potential data leaks, and provide attackers with insights into your app’s structure. In some cases, this data could also be used for AI training or analytics without your control.
+
+- [Telebugs](https://telebugs.com) - A self-hosted Sentry alternative for error tracking (source code unlocked with a one-time payment).
 
 [Back to top 🔝](#contents)
 
