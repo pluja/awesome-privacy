@@ -1069,6 +1069,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [ezBookkeeping](https://ezbookkeeping.mayswind.net/) - A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.
 
 ### Budget Management
+- [BeeCount](https://github.com/TNT-Likely/BeeCount) - Open-source accounting app that puts you in control of your data. Self-hosted sync with Supabase or WebDAV, offline-first design, no tracking.
 - [Budget Zen](https://budgetzen.net) - Simple and Encrypted Budget Management.
 - [ProExpense](https://github.com/arduia/ProExpense/) - A simple free finance note to safely record daily expenses.
 - [My Expenses](https://github.com/mtotschnig/MyExpenses) - Featureful GPL licenced Android Expense Tracking App.
