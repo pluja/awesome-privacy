@@ -278,6 +278,12 @@ Go to the [Text To Speech](#text-to-speech) section.
 - [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - A browser interface for Stable Diffusion and other models.
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI) - Generate and create stunning visual media using the latest AI-driven technologies locally.
 
+#### Confidential AI
+
+- [dstack](https://github.com/Dstack-TEE/dstack) - Open-source framework for deploying AI models with hardware-enforced privacy using confidential computing. Protects AI workloads and data during processing with Intel TDX and NVIDIA Confidential Computing technologies.
+- [Phala Cloud](https://cloud.phala.network) - Serverless confidential AI deployment platform built on dstack. Deploy AI models with hardware-enforced privacy and familiar Docker Compose workflow.
+- [redpill](https://redpill.ai) - Confidential AI model API platform providing privacy-preserving access to large language models through confidential computing environments.
+
 [Back to top 🔝](#contents)
 
 ## Bookmarking
