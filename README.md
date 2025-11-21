@@ -45,6 +45,7 @@
 - [Design Tools](#design-tools)
 - [Developer Tools](#developer-tools)
     - [IDEs](#ides)
+    - [Coding Assistants](#coding-assistants)
 - [Domain Registrar](#domain-registrar)
 - [Download Manager](#download-manager)
 - [Encryption](#encryption)
@@ -398,6 +399,10 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 ✅ Instead use
 - [Neovim](https://neovim.io/) - Hyperextensible Vim-based text editor.
 - [VSCodium](https://vscodium.com/) - Free/Libre Open Source Software Binaries of VSCode. Vscode source code is open source (MIT-licensed), but the product available for download (Visual Studio Code) is licensed under [this not-FLOSS license](https://code.visualstudio.com/license) and contains telemetry/tracking.
+
+### Coding Assistants
+
+- [VSCode AI Chat](https://github.com/dimslaev/ai-chat) - Privacy-first AI coding assistant. Zero telemetry, local data only, manual context control. Works with any OpenAI-compatible API, locally or hosted.
 
 [Back to top 🔝](#contents)
 
