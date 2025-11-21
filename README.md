@@ -1629,8 +1629,6 @@ Finally, there are services that may offer all three: anonymity, privacy, and se
 
 ## Icons
 
-Certainly! Here's the formatted table:
-
 | Icon | Meaning |
 |-------|---------|
 | 💀    | Caution: The development of this service seems to be inactive for a long time. Maybe the project is abandoned. Investigate before use. |
