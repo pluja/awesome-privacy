@@ -402,7 +402,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 
 ### Coding Assistants
 
-- [VSCode AI Chat](https://github.com/dimslaev/ai-chat) - Privacy-first AI coding assistant. Zero telemetry, local data only, manual context control. Works with any OpenAI-compatible API, (Infomaniak, Ollama).
+- [VSCode AI Chat](https://github.com/dimslaev/ai-chat) - Privacy-first AI coding assistant. Zero telemetry, local data only, manual context control. Works with any OpenAI-compatible API, locally or hosted.
 
 [Back to top 🔝](#contents)
 
