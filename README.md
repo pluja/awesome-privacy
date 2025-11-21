@@ -588,7 +588,8 @@ The game has [telemetry embeded in it since v21w38a which you can't opt-out](htt
 
 ✅  **Instead use**
 - [Luanti](https://www.luanti.org/) - An open source voxel game engine with many features.
-    - [Mineclonia](https://content.minetest.net/packages/ryvnf/mineclonia/) - Survival sandbox game inspired by Minecraft. Fork of MineClone2 with focus on stability, multiplayer performance and features. 
+    - [Mineclonia](https://content.minetest.net/packages/ryvnf/mineclonia/) - Survival sandbox game inspired by Minecraft. Fork of [MineClone2](https://github.com/VoxeLibre/VoxeLibre) with focus on stability, multiplayer performance and features.
+- [Minetest](https://minetest.org/) - A free blocky edutech toy
 
 #### Plugins for Minecraft
 
