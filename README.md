@@ -1048,6 +1048,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 ✅  **Instead use**
 - [Monero](https://www.getmonero.org/) - Monero is cash for a connected world. It's fast, private, untraceable and secure.
+- [Pirate Chain](https://piratechain.com/) - Pirate Chain is encrypted cash for the digital world. All transactions have mandatory encryption so your transaction history stays hidden.
 - Cash - Use person-to-person payments using physical notes and coins.
 
 > [!WARNING]
