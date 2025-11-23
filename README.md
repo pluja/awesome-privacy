@@ -772,7 +772,7 @@ With email aliases, you can finally create a different identity for each website
 ✅ **Instead use**
 - [Open Street Map (OSM)](https://www.openstreetmap.org/) - OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.
   - [OSMAnd](https://osmand.net/) - Android/iOS Navigation app using OSM. It is a feature-rich app with all you expect.
-- [Qwant Maps](https://map.qwant.com/) - An OpenStreetMap-based private Google Maps alternative.
+- [💀](#icons) [Qwant Maps](https://map.qwant.com/) - An OpenStreetMap-based private Google Maps alternative.
 - [Organic Maps](https://organicmaps.app/) - Great offline maps for hikers and cyclists.
 - [CoMaps](https://www.comaps.app/) - A community-led free & open source maps app based on OSM
 
