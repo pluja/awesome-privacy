@@ -128,6 +128,7 @@
 - Google Authenticator [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 
 ✅ Instead use
+- [Bitwarden Authenticator](https://bitwarden.com/products/authenticator) - A free and open source app for iOS and Android from the trusted and privacy respecting Bitwarden. [Import and Export](https://bitwarden.com/help/authenticator-import-export) of data is available. It's a separated app, independent from the Bitwarden Password Manager.
 - [🤖](#icons) [Aegis](https://getaegis.app/) - A free, secure and open source app for Android to manage your 2-step verification tokens. Supports variety of imports from other apps (Google Authenticator, Authy etc.), vault encryption and exporting keys (plaintext or encrypted).
 - [ente Auth](https://ente.io/auth) - A free, cross platform, end-to-end encrypted and open source app for managing your 2-step verification tokens. From the makers of [ente Photos](https://ente.io), and uses the same battle tested infrastructure. Needs an ente.io account.
 - [Owky](https://github.com/charlietango/owky) - Free and Open Source Two-Factor Authenticator for IOS users.
