@@ -1556,6 +1556,7 @@ Here are some open source and truly private (no personal data and/or credit card
 - [Mullvad VPN](https://mullvad.net)
 - [Proton VPN](https://protonvpn.com)
 - [SPN](https://safing.io/)
+- [Party VPN](https://partyvpn.com) - Accepts cryptocurrency only, including Monero. REST API available.
 
 [Back to top 🔝](#contents)
 
