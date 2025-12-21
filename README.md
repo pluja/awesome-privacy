@@ -1546,6 +1546,7 @@ Such programs come filled with trackers and telemetry. You can get a full list o
 
 - Closed source VPN apps such as Surfshark or NordVPN may be less trustworthy as nobody can be sure how they handle your data. Also, paying with Credit Card will get you identified on the payment. Furthermore, if you need to give your email it will also identify you if this same email has been used in other services.
 
+- [Tokyo VPN Speed Monitor](https://www.blstweb.jp/network/vpn/) - Real-time VPN speed testing from Tokyo with automated measurements every 6 hours. 15 VPN providers tested with open data and free security diagnostic tool. Open source on [GitHub](https://github.com/hmy0210/vpn-stability-ranking).
 
 ✅  **Instead use**
 
