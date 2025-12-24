@@ -549,6 +549,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 ✅  **Instead use**
 ### Google Fonts Replacements
 - [coolLabs Fonts](https://fonts.coollabs.io/) - A privacy-friendly drop-in replacement for Google Fonts.
+- [Bunny Fonts](https://fonts.bunny.net/) - Bunny Fonts is an open-source, privacy-first web font platform designed to put privacy back into the internet.
 
 ### Foundries
 - [Velvetyne](https://www.velvetyne.fr/)
