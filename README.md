@@ -1571,6 +1571,7 @@ Here are some open source and truly private (no personal data and/or credit card
 
 #### Android / iOS
 - [Brave](https://brave.com/) - Android/iOS. Brave offers a pretty good out-of-the-box set of privacy and tracker protections.
+- [DuckDuckGo Browser](https://duckduckgo.com/) - DuckDuckGo is an independent Google alternative that also lets you search and browse the web, but we don’t track your searches or browsing history, and our browsers and extensions help you block other companies from trying to track you.
 - [Firefox](https://www.mozilla.org/en-US/firefox/mobile/) - Android/iOS
     - [🤖](#icons) [IronFox](https://gitlab.com/ironfox-oss/IronFox) - Mull browser fork. A hardened fork of Firefox for Android, with proprietary blobs removed.
 - [🤖](#icons) [Vanadium](https://vanadium.app/) - Privacy and security enhanced releases of Chromium by GrapheneOS.
