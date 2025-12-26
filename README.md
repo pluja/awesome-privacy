@@ -755,6 +755,8 @@ With email aliases, you can finally create a different identity for each website
 
 - [SimpleLogin](https://github.com/simple-login/app)
 - [AnonAddy](https://github.com/anonaddy/anonaddy)
+- * [Atomic Mail](https://atomicmail.io/) - Encrypted email with zero-access encryption, no phone number or personal data required for registration. Features end-to-end encryption using industry standard AES-256 encryption, email aliases for anonymity, and no ads or tracking. Instant account creation with just username and password. ⚠️ Detected as temporary email by some systems.
+  * * [DuckDuckGo Email Protection](https://duckduckgo.com/email/) - Free email masking service that hides your personal email address and removes hidden email trackers. Create unlimited private Duck (@duck.com) email addresses as aliases for signing up on websites. Automatically integrates with DuckDuckGo browser for seamless privacy protection. Works perfectly with Atomic Mail to bypass email provider requirement checks.
 
 [Back to top 🔝](#contents)
 
