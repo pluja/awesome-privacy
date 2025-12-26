@@ -1,4 +1,4 @@
-# Awesome Privacy
+										# Awesome Privacy
 <p align="center"><img width="500" src="misc/logo.png"> </img></p>
 <p align="center">
 	<img src="https://awesome.re/badge.svg" alt="Awesome">
@@ -117,6 +117,7 @@
 - [Video and Audio Conferencing](#video-and-audio-conferencing)
 - [Video Editing](#video-editing)
 - [Virtual Private Networks (VPNs)](#VPNS)
+- * [Residential Proxies](#residential-proxies)
 - [Web Browser](#web-browser)
     - [Browser Addons](#browser-addons) 
     - [Browser Sync](#browser-sync)
@@ -1559,7 +1560,24 @@ Here are some open source and truly private (no personal data and/or credit card
 
 [Back to top 🔝](#contents)
 
+
+## Residential Proxies
+
+[Permalink: Residential Proxies](#residential-proxies)
+
+### Decodo
+
+[Decodo](https://decodo.com/) - A comprehensive residential proxy service with 40M+ IPs across 195+ locations. Decodo (formerly Smartproxy) offers rotating and sticky sessions, supporting HTTP, HTTPS, and SOCKS5 protocols. Features include user management, IP whitelisting, traffic limits, and flexible endpoint generation.
+
+> **Free Trial**: Decodo offers a 3-day free trial with 100MB of traffic to test their residential proxy network at no cost.
+
+closing the window and refreshing the page. The verification notice will disappear.
+recommended for optimal performance when managing your residential proxies.
+
+[Back to top 🔝](#contents)
+
 ## Web Browser
+
 
 ⛔ **Avoid**
 
