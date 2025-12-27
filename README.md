@@ -141,6 +141,7 @@
 
 ✅  **Instead use**
 - [Ackee](https://ackee.electerious.com/) - Self-hosted website analytics.
+- [AesirX Shield of Privacy](https://shield.aesirx.io/) - Decentralized consent management platform.
 - [Aptabase](https://aptabase.com) - Open-source, privacy-first and simple analytics for mobile and desktop apps.
 - [Cabin](https://withcabin.com) - Privacy-first, carbon conscious web analytics.
 - [GoatCounter](https://www.goatcounter.com/) - Privacy aware, lightweight and open-source analytics platform.
