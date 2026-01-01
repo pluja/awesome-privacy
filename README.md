@@ -68,6 +68,7 @@
 - [Location tracking](#location-tracking)
 - [Mail Services](#mail-services)
 - [Maps and Navigation](#maps-and-navigation)
+- [Mobile Carriers and eSIM](#mobile-carriers-and-esim)
 - [Media Streaming Platforms](#media-streaming-platforms)
     - [Video and Audio](#video-and-audio)
     - [Audio](#audio)
@@ -775,6 +776,17 @@ With email aliases, you can finally create a different identity for each website
 - [Qwant Maps](https://map.qwant.com/) - An OpenStreetMap-based private Google Maps alternative.
 - [Organic Maps](https://organicmaps.app/) - Great offline maps for hikers and cyclists.
 - [CoMaps](https://www.comaps.app/) - A community-led free & open source maps app based on OSM
+
+[Back to top 🔝](#contents)
+
+## Mobile Carriers and eSIM
+⛔ **Avoid**
+- Traditional carriers (Verizon, AT&T, T-Mobile, etc.) - Require full identity verification (ID, SSN), create detailed profiles of your location and usage, and often sell data to third parties.
+- Most eSIM providers (Airalo, Holafly, etc.) - Require account creation, collect personal data, and track usage patterns.
+
+✅ **Instead use**
+- [PikaSim](https://pikasim.com) - Privacy-focused eSIM provider for 170+ countries. No account required, no ID upload, no email needed for crypto payments. Accepts Bitcoin, Lightning Network, and Monero via self-hosted BTCPay Server. Instant delivery.
+- [Silent.Link](https://silent.link) - Anonymous eSIM and SMS service. No personal data required. Accepts Bitcoin and Monero. Higher privacy premium.
 
 [Back to top 🔝](#contents)
 
