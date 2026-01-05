@@ -1434,6 +1434,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [MeloTTS](https://github.com/myshell-ai/MeloTTS) - a high-quality multi-lingual text-to-speech library by MIT and MyShell.ai.
 - [Piper](https://github.com/rhasspy/piper) - A fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4.
 - [Espeak](https://github.com/espeak-ng/espeak-ng) - eSpeak NG is an open source speech synthesizer that supports more than hundred languages and accents. Voices will sound rather robotic.
+- [EPUB Player](https://epubplayer.com) - A PWA that converts EPUBs to audiobooks using neural TTS (Kokoro/Piper) entirely in-browser. No uploads, no accounts, works offline.
 
 [Back to top 🔝](#contents)
 
