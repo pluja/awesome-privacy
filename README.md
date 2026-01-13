@@ -1117,6 +1117,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Inkscape](https://inkscape.org/) - Inkscape is a free and open-source vector graphics editor used to create vector images.
 - [ImageGlass](https://imageglass.org/) - ImageGlass is a lightweight software application whose purpose is to help you view images in a clean and intuitive working environment.
 - [darktable](https://www.darktable.org/) - darktable is an open source photography workflow application and raw developer
+- [iPhotron](https://github.com/OliverZhaohaibin/iPhotron-LocalPhotoAlbumManager) - A macOS Photos–style photo manager for Windows — folder-native, non-destructive，fully local implementation
 
 #### Android
 - [Pocket Paint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
@@ -1153,6 +1154,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
 - [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others.
 - [ImageGlass](https://imageglass.org/) - ImageGlass is a lightweight software application whose purpose is to help you view images in a clean and intuitive working environment. 
+- [iPhotron](https://github.com/OliverZhaohaibin/iPhotron-LocalPhotoAlbumManager) - A macOS Photos–style photo manager for Windows — folder-native, non-destructive，fully local implementation
 
 [Back to top 🔝](#contents)
 
