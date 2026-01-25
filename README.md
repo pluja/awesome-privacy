@@ -1583,6 +1583,7 @@ Here are some open source and truly private (no personal data and/or credit card
 - [Brave](https://brave.com/) - Brave offers a pretty good out-of-the-box set of privacy and tracker protections.
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Open Source, independent browser. It needs some [hardening and tweaking](https://anonymousplanet.org/guide.html#firefox-1) to achieve great privacy.
   - [LibreWolf](https://librewolf.net/) - Privacy-focused Firefox fork.
+- [Marshall Browser](https://github.com/AnticsLabs/marshall) - Privacy-first browser with built-in VPN-grade encryption, anti-fingerprint tech, and zero tracking. Features Cloudflare DNS-over-HTTPS by default.
 - [Tor Browser](https://www.torproject.org/)
 - [Mullvad Browser](https://mullvad.net/en/browser/) - Browser with the privacy and security implications of the Tor Browser, without the use of the Tor network.
 
