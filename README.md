@@ -1461,7 +1461,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Skymap](https://skymaponline.net/) - Open online planetarium program.
 - [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban.
 - [Hetty](https://github.com/dstotijn/hetty) - Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
-- [LastSignal](https://lastsignal.app) - Self-hosted, email-first dead man's switch for encrypted messages.
+- [LastSignal](https://lastsignal.app) - Self-hosted, email-first dead man's switch with end-to-end encryption (zero-knowledge).
 - [Visited](https://github.com/yuis-ice/visited) - Locally collect browsing history over browsers.
 
 [Back to top 🔝](#contents)
