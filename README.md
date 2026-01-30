@@ -36,6 +36,7 @@
 - [Bookmarking](#bookmarking)
     - [Book and web annotations](#book-and-web-annotationshighlights-management)
 - [Captchas](#captchas)
+- [Chat](#chat)
 - [Commenting Engines (disqus)](#commenting-engines)
 - [Cloaking](#cloaking)
 - [Cloud Storage](#cloud-storage)
@@ -316,6 +317,15 @@ Google captchas use cookies to track users and rank their IPs.
 - [Private Captcha](https://github.com/PrivateCaptcha/PrivateCaptcha) - Privacy-first and self-hosted Proof-of-Work CAPTCHA alternative, made in EU.
 
 [Back to top 🔝](#contents)
+
+## Chat
+
+- SecureComm - Free, open-source, self-hosting Capability, Zero Data retaining, 100% Privacy
+- Con - Only allows Chat (Text) and Voice messages
+Access here: [SecureComm](https://securecomm.pangerlkr.link)
+- Repository - [Github](https://github.com/pangerlkr/SecureComm)
+
+[Back to top 🔝](#Chat)
 
 ## Commenting Engines
 
