@@ -468,6 +468,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
 - [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
 - [Picocrypt](https://github.com/HACKERALERT/Picocrypt/) - A very small (hence "Pico"), very simple, yet very secure file encryption tool.
+- [n01d-forge](https://github.com/bad-antics/n01d-forge) - Native GUI image burner with LUKS/VeraCrypt encryption support for creating secure bootable drives.
 - [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others. 
 
 ### OS Encryption
@@ -986,6 +987,7 @@ GNU/Linux is a family of free (as in freedom and as in free beer) and open sourc
 - [Fedora](https://getfedora.org/)
 - [Mint (Cinnamon)](https://linuxmint.com/edition.php?id=305) is a beginner friendly distribution.
 - [Qubes OS](https://qubes-os.org/) is a security-oriented operating system that isolates various workspaces into separate virtual machines to enhance privacy and security.
+- [n01d-machine](https://github.com/bad-antics/n01d-machine) - Secure VM manager with Tor/VPN integration, sandbox isolation, and network compartmentalization for anonymous operations.
 - [Tails](https://tails.net/) is a portable operating system that protects against surveillance and censorship. It always starts from the same clean state and everything you do disappears automatically when you shut down Tails.
 
 > [!TIP]
