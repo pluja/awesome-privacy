@@ -1209,6 +1209,19 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 [Back to top 🔝](#contents)
 
+## Self-Hosted Platforms
+
+⛔ **Avoid**
+* Google Home
+* Microsoft Azure
+* AWS Lightsail
+* Proprietary NAS systems with vendor lock-in
+
+✅ **Instead use**
+* [Yundera](https://yundera.com/) - Privacy-first self-hosted application platform with pre-configured Docker apps via CasaOS. Free HTTPS domains, automatic encryption, and no telemetry. Perfect for both beginners and advanced users. [Github](https://github.com/Yundera)
+
+[Back to top 🔝](#contents)
+
 ## Social Networks and Platforms
 
 > [!NOTE]
