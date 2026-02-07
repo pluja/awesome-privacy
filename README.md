@@ -1593,6 +1593,7 @@ Here are some open source and truly private (no personal data and/or credit card
 
 ### Browser Addons
 
+- [Cookie Guardian](https://chromewebstore.google.com/detail/cookie-guardian-auto-dele/gnoaanpbfnjakaddkecnnamnfkebhgle) - Auto-delete cookies when you close tabs. Privacy-first, open-source alternative to Cookie AutoDelete. MV3-compliant.
 #### Anti-tracking
 Please read about what the addon does before installing. If you don't understand what you are doing you could end up damaging your privacy. Also, too many addons can slow down your browsing experience.
 
