@@ -1468,6 +1468,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
+- [NoID Privacy for Linux](https://github.com/NexusOne23/noid-privacy-linux) - Privacy & security audit for Linux desktops. 300+ checks, AI-powered fixes, zero dependencies.
 
 [Back to top 🔝](#contents)
 
