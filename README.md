@@ -261,6 +261,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [ollama](https://github.com/jmorganca/ollama) - Get up and running with Llama 2 and other large language models locally.
 - [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy) - Privacy-focused AI inference server with OpenAI API compatibility, zero cloud dependencies, and local model processing.
 - [Tinfoil](https://tinfoil.sh/) - Verifiably private AI Chat and OpenAI-compatible inference in the cloud. Uses NVIDIA confidential computing and open source code pinned to a transparency log for end-to-end verifiability.
+- [OpenClaw](https://github.com/openclaw/openclaw) - Self-hosted AI assistant that keeps all conversations on your hardware while connecting to WhatsApp, Telegram, Discord, and 5 more channels. ([setup guide](https://clawdbot.blog/getting-started/installation/))
 
 #### Copilot
 
