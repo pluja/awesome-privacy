@@ -582,6 +582,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [TypeBot](https://typebot.io) - Open-source conversational forms.
 - [CryptPad Forms](https://cryptpad.fr/form/) - Part of the Cryptpad end-to-end encrypted and open-source collaboration suite.
 - [FramaForms](https://framaforms.org/) - Design your online surveys easily while respecting your audience.
+- [Formstr](https://formstr.app/) - An end to end encrypted forms application based on the nostr protocol. 
 
 [Back to top 🔝](#contents)
 
