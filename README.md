@@ -154,6 +154,7 @@
 - [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
 - [Unidentified Analytics](https://unidentifiedanalytics.web.app/) - Naive ip-based tracking that works everywhere (web, command-line, email, etc). No account required. Developer friendly.
 - [Rybbit](https://rybbit.io) - Open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive.
+- [Respectlytics](https://respectlytics.com) - Open-source, privacy-first, session-based mobile app analytics with strict 5-field storage and no persistent user tracking.
 
 [Back to top 🔝](#contents)
 
