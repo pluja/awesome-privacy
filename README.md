@@ -1657,3 +1657,8 @@ Certainly! Here's the formatted table:
 | 🤖    | Android Only. |
 
 [Back to top 🔝](#contents)
+
+## VPS Hosting
+
+- [DarkVPS](https://darkvps.pro) - Anonymous offshore VPS hosting with no KYC, strict no-log policy, cryptocurrency payments accepted.
+
