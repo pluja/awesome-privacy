@@ -149,6 +149,7 @@
 - [Nullitics](https://nullitics.com/) - Zero-effort open-source cheap analytics.
 - [Pirsch](https://pirsch.io/) - Pirsch is a simple, privacy-friendly, open-source alternative to Google Analytics — lightweight, cookie-free and easily integrated into any website or backend.
 - [Plausible](https://plausible.io/) - Simple and privacy-friendly alternative to Google Analytics.
+- [Respectlytics](https://respectlytics.com) - Open-source, privacy-first, session-based mobile app analytics with strict 5-field storage and no persistent user tracking.
 - [Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
 - [Swetrix](https://swetrix.com) - Privacy-focused, fully cookieless and opensource (and selfhostable) web-analytics service.
 - [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
