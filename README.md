@@ -269,6 +269,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [Continue](https://github.com/continuedev/continue) - Open-source autopilot for VS Code and JetBrains—the easiest way to code with any LLM
 - [Cline](https://cline.bot/) - Open source AI coding for VSCode. See every decision and use your own models. 
 	- [RooCode](https://github.com/RooCodeInc/Roo-Code) - Cline fork with some improvements.
+- [Frontman](https://github.com/frontman-ai/frontman) - Open-source AI coding agent. Bring your own AI key — data stays local/private. No telemetry, no cloud dependency. Apache 2.0 licensed.
 
 #### ElevenLabs Text To Speech
 
