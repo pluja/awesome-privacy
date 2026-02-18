@@ -1053,6 +1053,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
 - [scrt.link](https://scrt.link) - Share a secret. End-to-end encrypted. Ephemeral. Open-source.
 - [dele-to](https://dele.to) - Open Source. Modern app to share sensitive credentials and secrets securely with client-side AES-256 encryption, zero-knowledge architecture, and automatic self-destruction.
+- [vnsh](https://github.com/raullenchai/vnsh) - Host-blind encrypted sharing for developers. AES-256-CBC encryption happens client-side; the server never sees keys or plaintext. Links auto-expire in 24h. Includes CLI, MCP (Claude Code), and Chrome Extension.
 
 [Back to top 🔝](#contents)
 
