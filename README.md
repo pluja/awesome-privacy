@@ -1480,6 +1480,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban.
 - [Hetty](https://github.com/dstotijn/hetty) - Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
 - [Visited](https://github.com/yuis-ice/visited) - Locally collect browsing history over browsers.
+- [XMR-Compass](https://xmr-compass.org) - Privacy-first directory and comparison tool for no-KYC Monero swaps, P2P exchanges, mixers, and crypto cards. Swiss-based, no tracking, no ads.
 
 [Back to top 🔝](#contents)
 
