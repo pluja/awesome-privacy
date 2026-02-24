@@ -370,6 +370,7 @@ Google captchas use cookies to track users and rank their IPs.
 - **OneDrive** - Microsoft owned, privacy policy is [very bad](https://tosdr.org/en/service/244). The data is stored in their remote servers where you lose control of it. They use trackers. No encryption available.
 
 ✅  **Instead use**
+- [bewCloud](https://bewcloud.com/) - A modern and simpler alternative to Nextcloud and ownCloud written in TypeScript.
 - [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control.
 - [Seafile](https://www.seafile.com/en/home/) - High performance file syncing and sharing. It includes a Wiki, WYSIWYG editing and other knowledge management features.
 - [Peergos](https://peergos.org/) - Secure and private space online where you can store, share and view your photos, videos, music and documents. Also includes a calendar, news feed, task lists, chat and email client. Open source and self-hostable.
