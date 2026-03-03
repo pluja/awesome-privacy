@@ -1224,6 +1224,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [DuckDuckGo](https://duckduckgo.com) - A privacy respecting search engine.
 - [Brave Search](https://search.brave.com) - A privacy respecting search engine with [its own independent index](https://brave.com/search-independence/).
 - [Qwant](https://www.qwant.com/) - A zero tracking search engine made and hosted in France, EU.
+- [Uruky](https://uruky.com/) - An ad-free, no-tracking search engine, focused on personalization, made and hosted in the EU.
 
 [Back to top 🔝](#contents)
 
