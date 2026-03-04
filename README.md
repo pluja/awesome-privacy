@@ -381,6 +381,7 @@ Google captchas use cookies to track users and rank their IPs.
 - [Syncthing](https://syncthing.net/) - Continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.
 - [Rclone](https://rclone.org/) - Rclone is a command line program to manage files on cloud storage. It is a feature rich alternative to cloud vendors' web storage interfaces and like the tools listed above enables encryption for encrypting files in the cloud.
 - [Restic](https://restic.net/) - Restic is also command line program to manage files on various cloud storage providers. Restic uses encryption by default. Few noteworthy features of restic include browsing through storage as git like snapshots at no extra storage cost, deduplication and significant savings through compression.
+- [Telegram Archive](https://github.com/GeiserX/Telegram-Archive) - Self-hosted, automated Telegram backup solution running as a hardened Docker container. Performs incremental backups of messages and media on a configurable schedule, ensuring you fully own your chat data with no cloud dependency.
 
 [Back to top 🔝](#contents)
 
