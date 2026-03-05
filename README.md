@@ -1486,6 +1486,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
+- [SaneClip](https://github.com/sane-apps/SaneClip) - macOS clipboard manager that keeps all history local. No cloud sync, no telemetry, no account required.
 
 [Back to top 🔝](#contents)
 
