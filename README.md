@@ -1085,6 +1085,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [GnuCash](https://gnucash.org/) - GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X and Microsoft Windows.
 - [Sure](https://github.com/we-promise/sure) - Open Source and secure OS for your personal finances. Community maintained fork of the archived [Maybe](https://github.com/maybe-finance/maybe) project.
 - [ezBookkeeping](https://ezbookkeeping.mayswind.net/) - A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.
+- [SaneSales](https://github.com/sane-apps/SaneSales) - Sales tracker for LemonSqueezy, Gumroad, and Stripe. 100% on-device, no cloud, no analytics.
 
 ### Budget Management
 - [Budget Zen](https://budgetzen.net) - Simple and Encrypted Budget Management.
