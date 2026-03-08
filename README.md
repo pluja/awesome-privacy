@@ -1191,6 +1191,10 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [Netguard](https://netguard.me/) - A simple way to block access to the internet per application.
 - [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - An open-source, no-root firewall and DNS changer, with anti-censorship capabilities for Android 6+.
 
+### Web
+
+- [PolicyForge](https://policyforge-one.vercel.app/) - Free privacy compliance scanner for websites. Checks 10 GDPR/CCPA categories including cookie consent, privacy policy presence, and third-party tracking. Returns a compliance score with letter grade. Also provides a free API for automated checks.
+
 [Back to top 🔝](#contents)
 
 ## Remote Access and Control
