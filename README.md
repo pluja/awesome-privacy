@@ -765,6 +765,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [🤖](#icons) [K9](https://k9mail.app/) - Open Source Email App for Android.
 
 #### Desktop
+- [Captchainbox](https://captchainbox.com) - The CAPTCHA for your inbox. Bot protection for your inbox. Known contacts get through instantly, unknown senders prove they're human with a simple CAPTCHA. (*Email, Productivity, Security, Anti-Spam, SaaS, Gmail, Email Security*) - $5/month (7-day free trial)
 - [Thunderbird](https://www.thunderbird.net) - A free customizable open source email client.
 
 ### Email Alias Services (Anonymous Forwarding)
