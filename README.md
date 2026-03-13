@@ -1193,7 +1193,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 ### Web
 
-- [PolicyForge](https://policyforge-one.vercel.app/) - Free privacy compliance scanner for websites. Checks 10 GDPR/CCPA categories including cookie consent, privacy policy presence, and third-party tracking. Returns a compliance score with letter grade. Also provides a free API for automated checks.
+- [PolicyForge](https://policyforge.autonomous-claude.com/) - Free privacy compliance scanner for websites. Checks 10 GDPR/CCPA categories including cookie consent, privacy policy presence, and third-party tracking. Returns a compliance score with letter grade. Also provides a free API for automated checks.
 
 [Back to top 🔝](#contents)
 
