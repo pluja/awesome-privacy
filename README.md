@@ -926,8 +926,9 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [Cryptpad](https://cryptpad.fr/) - Collaboration suite, encrypted and open-source.
 - [Etherpad](https://etherpad.org/) - Highly customizable open source online editor providing collaborative editing in really real-time.
 - [Fileverse](https://fileverse.io) - Fileverse is building healthier alternatives with self-sovereignty, privacy by design, and standards compliance at its core.
-	- [Ddocs](https://ddocs.new): privacy-enhancing alternative to google docs: onchain, end-to-end encrypted, and decentralized. 
+	- [Ddocs](https://ddocs.new): privacy-enhancing alternative to google docs: onchain, end-to-end encrypted, and decentralized.
  	- [dSheets](https://dsheets.new): decentralized alternative to Excel and Google Sheets.
+- [PDFGem](https://pdfgem.io/) - Free browser-based PDF tools (merge, split, compress, OCR, sign, convert, redact). All processing runs client-side via WebAssembly; files never leave the browser. No account required.
 
 [Back to top 🔝](#contents)
 
