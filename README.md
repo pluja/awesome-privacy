@@ -751,6 +751,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Tuta](https://tuta.com/) - Secure email for everybody. Open Source.
 - [Riseup](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
 - [Mailfence](https://mailfence.com) - Secure and private email.
+- [Nubo Email](https://nubo.email) - Privacy-first email and collaboration platform built on JMAP. Email, calendar, drive, video meetings, and chat. Organization-based pricing (unlimited users). Data residency in India, EU, US. GDPR and India DPDP compliant.
 
 ### Self-Hosted
 - [Docker mail server](https://github.com/docker-mailserver/docker-mailserver) - A fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) using Docker.
