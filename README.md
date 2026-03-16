@@ -1067,6 +1067,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ✅  **Instead use**
 - [Monero](https://www.getmonero.org/) - Monero is cash for a connected world. It's fast, private, untraceable and secure.
 - Cash - Use person-to-person payments using physical notes and coins.
+- [Haveno](https://haveno.exchange) - Decentralized P2P exchange for trading Monero. No KYC, no central server, 2-of-3 multisig escrow. Open source (AGPL-3.0). Community instances include [RetosSwap](https://retoswap.com) and [DawnSwap](https://dawnswap.com).
 
 > [!WARNING]
 > [Bitcoin](https://bitcoin.org) is not anonymous nor private. Bitcoin is traceable, transparent and pseudonymous. For a basic introduction, [see aantonop's video](https://yewtu.be/watch?v=JN1Bowgcle8). More advanced users can watch this [Bitcoin privacy series](https://yewtu.be/watch?v=QEnL5k0R08w).
