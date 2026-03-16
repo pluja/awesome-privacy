@@ -1443,6 +1443,20 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 [Back to top 🔝](#contents)
 
+## Text Expansion
+
+<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+- TextExpander - Cloud-stored text, not end-to-end encrypted, requires account, $3.33/mo
+- Text Blaze - Stores data on Google Cloud, holds encryption keys, requires account
+- Briskine - Stores templates on servers without E2E encryption, requires Google account
+- PhraseExpress - Stores macros in plaintext on disk or SQL Server, no encryption
+
+<img width="16" src="misc/check.png"> </img> **Instead use**
+- [Makro](https://makroexpander.com) - Free text expander for Chrome and Firefox. AES-256-GCM encryption at rest, zero-knowledge cloud sync, local AI via Ollama. No account required, 7 languages supported.
+- [Espanso](https://espanso.org) - Free, open-source (GPL-3.0) cross-platform text expander written in Rust. System-wide desktop expansion via CLI with YAML config. No encryption built in but fully auditable.
+
+[Back to top 🔝](#contents)
+
 ## Text to Speech
 
 ⛔ **Avoid** using tools that run on a 3rd party cloud. Generally you are sending your text and voice data to a 3rd party to process them, which could lead to leaking biometric data such as your voice, or sharing private and / or unnecessary text with the 3rd party.
