@@ -575,6 +575,9 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 ### Medical health
 - [Fasten](https://github.com/fastenhealth/fasten-onprem) - Fasten is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 1000's of insurances/hospitals/clinics.
 
+### DNA / Genetic Analysis
+- [DeepDNA](https://deepdna.ai) - European AI-powered DNA analysis platform. Upload raw data from 23andMe or AncestryDNA for health, nutrition, and pharmacogenomic insights. GDPR-compliant, EU-only servers, one-time payment, no subscriptions. You control when your data is deleted.
+
 [Back to top 🔝](#contents)
 
 ## Fonts
