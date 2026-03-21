@@ -956,7 +956,8 @@ Many websites require phone number verification. These services offer a way to r
 - [Crypton](https://crypton.sh/) - Secure SMS Sim Card in the cloud. (Based in Iceland)
 - [Virtualsim](https://virtualsim.net/) - Virtualsim provides physical SIM cards leasing for SMS verifications. (Based in Ukraine)
 - [MoneroSMS](https://monerosms.com/) - Virtual numbers for SMS/MMS messaging and verifications. CLI and web app. (Based in United States)
-
+- [nadanada](https://nadanada.me/) - Disposable and virtual rental phone numbers for SMS verification. No account. Pay with Monero or Lightning or other crypto. (Based in Germany)
+  
 ### Email verification required, accepting monero
 - [Onlinesim](https://onlinesim.ru/) - Receive SMS online to virtual phone number. (Based in Russia)
 
@@ -1568,7 +1569,7 @@ Such programs come filled with trackers and telemetry. You can get a full list o
 Here are some open source and truly private (no personal data and/or credit card needed) options:
 
 - [IVPN](https://ivpn.net)
-- [LNVPN](https://lnvpn.net)
+- [nadanada](https://nadanada.me)
 - [Mullvad VPN](https://mullvad.net)
 - [Proton VPN](https://protonvpn.com)
 - [SPN](https://safing.io/)
