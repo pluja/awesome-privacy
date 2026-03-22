@@ -1533,6 +1533,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Replugged](https://replugged.dev/) - A continuation of the deprecated client mod [Powercord](https://powercord.dev).
 - [WebCord](https://github.com/SpacingBat3/WebCord) - A Discord and Fosscord API-less client made with the Electron.
 - [🤖](#icons) [Aliucord](https://github.com/Aliucord/Aliucord) - A modification for the Android Discord app that fully [disables the Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
+- [NullSec Discord Shield](https://github.com/bad-antics/nullsec-discord-shield) - Token hardening and anti-theft protection with AES-256-GCM encrypted vault, memory obfuscation, and grabber detection. Protects Discord tokens from malware.
 
 [Back to top 🔝](#contents)
 
