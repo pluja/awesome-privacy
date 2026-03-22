@@ -221,6 +221,228 @@ Preinstalled file managers and third-party file manager apps found on the play s
 
 Your phone gallery is a deeply personal aspect of your life, it may contain images and videos that capture intimate moments, locations, and people important to you. Protecting its privacy is essential to prevent misuse of this information, not only for you, but it also ensures the privacy of friends and family captured in these photos, who may not consent to having their images shared.
 
+<p align="center"><img width="500" src="misc/logo.png"> </img></p>
+<p align="center">
+	<img src="https://awesome.re/badge.svg" alt="Awesome">
+	<a href="https://codeberg.org/pluja/awesome-privacy"><img alt="Mirror" src="https://img.shields.io/badge/Mirror-Codeberg-blue"></img></a>
+</p>
+<p align="center">List of free, open source and privacy respecting services and alternatives to privative services.</p>
+<p align="center">
+	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/ABOUT.md"> About </a> | 
+	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/Contributing.md"> Contributing </a> | 
+	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/QUOTES.md"> Quotes </a> | 
+	<a href="https://github.com/pluja/awesome-privacy/discussions"> Discussions </a>
+</p>
+
+> [!IMPORTANT]
+> Anonymity, Privacy, and Security are often used interchangeably, but they actually represent distinct concepts. It is important to understand the differences between them. [Read more in this section below](#privacy-vs-security-vs-anonymity).
+> 
+> The primary focus of this list is to provide alternatives that prioritize privacy. These alternatives give you control over your data and do not collect or sell it.
+
+## Contents
+- [2FA](#2fa)
+- [Analytics](#analytics)
+- [Android](#android)
+  - [Android App Store](#android-app-store)
+  - [Android Debloat Tools](#android-debloat-tools)
+  - [Android Dialer](#android-dialer)
+  - [Android File Manager](#android-file-manager)
+  - [Android Gallery](#android-gallery)
+  - [Android Keyboard](#android-keyboard)
+  - [Android Launcher](#android-launcher)
+- [Artificial Intelligence](#artificial-intelligence)
+	- [ChatGPT](#chatgpt)
+	- [AI Coding](#ai-coding)
+	- [Text To Speech](#text-to-speech)
+ 	- [Speech To Text](#speech-to-text)
+	- [Image Generation](#image-generation)
+- [Bookmarking](#bookmarking)
+    - [Book and web annotations](#book-and-web-annotationshighlights-management)
+- [Captchas](#captchas)
+- [Calendar](#calendar)
+- [Commenting Engines (disqus)](#commenting-engines)
+- [Cloaking](#cloaking)
+- [Cloud Storage](#cloud-storage)
+- [Creator Tools](#creator-tools)
+- [Databases](#databases)
+- [Dating Apps](#dating-apps)
+- [Design Tools](#design-tools)
+- [Developer Tools](#developer-tools)
+    - [IDEs](#ides)
+- [Dictation / ASR]()
+- [Domain Registrar](#domain-registrar)
+- [Download Manager](#download-manager)
+- [Encryption](#encryption)
+- [File Management and Sharing](#file-management-and-sharing)
+- [Fitness and Health](#fitness-and-health)
+	- [Fitness trackers](#fitness-trackers)
+	- [Food](#food)
+	- [Menstrual cycle trackers](#menstrual-cycle-trackers)
+	- [Medical health](#medical-health)
+- [Fonts](#fonts)
+- [Forms](#forms)
+- [Games](#games)
+    - [Mario Kart](#mario-kart)
+    - [Minecraft](#minecraft)
+    - [Pokémon](#pokemon)
+    - [Sonic the Hedgehog](#sonic-the-hedgehog)
+- [Home Assistants](#home-assistants)
+- [Instant Messaging](#instant-messaging)
+- [Link in Bio Tools](#link-in-bio-tools)
+- [Link Shorteners](#link-shorteners)
+- [Location tracking](#location-tracking)
+- [Mail Services](#mail-services)
+- [Maps and Navigation](#maps-and-navigation)
+- [Media Streaming Platforms](#media-streaming-platforms)
+    - [Video and Audio](#video-and-audio)
+    - [Audio](#audio)
+    - [Podcasts](#podcasts)
+- [Music Recognition (Shazam-like)](#music-recognition)
+- [Notes and Tasks](#notes-and-tasks)
+- [Office](#office)
+- [Online Phone Providers (SMS)](#online-phone-providers)
+- [Operating Systems](#operating-systems)
+    - [Android](#android)
+    - [PC / MacOS](#pc--macos)
+    - [Smart TV](#smart-tv)
+- [Password Managers](#password-managers)
+- [Pastebin and Secret Sharing](#pastebin-and-secret-sharing)
+- [Payments](#payments)
+- [Personal Finances](#personal-finances)
+	- [Full Featured Financial Management](#full-featured-financial-management)
+ 	- [Budget Management](#budget-management)
+  	- [Shared Expenses](#shared-expenses)
+	- [Others](#others)
+ 	- [Portfolio Trackers](#portfolio-trackers)
+- [Photo Editing and Management](#photo-editing-and-management)
+- [Photo Storage](#photo-storage)
+- [Privacy Tools](#privacy-tools)
+- [Remote Access and Control](#remote-access-and-control)
+- [Search Engines](#search-engines)
+- [Social Networks and Platforms](#social-networks-and-platforms)
+    - [Blogging platforms (Medium / Blogger)](#blogging-platforms-medium)
+    - [Imgur](#imgur)
+    - [Instagram](#instagram)
+    - [Quora](#quora)
+    - [LBRY and Odysee](#lbry-and-odysee)
+    - [Reddit](#reddit)
+    - [Streaming Platforms (Twitch)](#streaming-platforms-twitch)
+    - [TikTok](#tiktok)
+    - [Twitter](#twitter)
+    - [Wikipedia](#wikipedia)
+    - [YouTube](#youtube)
+- [Screen Recording](#screen-recording)
+- [Teamworking Tools](#teamworking-tools)
+- [Translation](#translation)
+- [Uncategorized](#uncategorized)
+- [Utilities](#utilities)
+- [Version Control](#version-control)
+- [Video and Audio Conferencing](#video-and-audio-conferencing)
+- [Video Editing](#video-editing)
+- [Virtual Private Networks (VPNs)](#VPNS)
+- [Web Browser](#web-browser)
+    - [Browser Addons](#browser-addons) 
+    - [Browser Sync](#browser-sync)
+    - [WebView](#webview)
+
+## 2FA
+⛔ Avoid using apps that won't let you export your keys **easily**.
+- Authy
+- Google Authenticator [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
+
+✅ Instead use
+- [🤖](#icons) [Aegis](https://getaegis.app/) - A free, secure and open source app for Android to manage your 2-step verification tokens. Supports variety of imports from other apps (Google Authenticator, Authy etc.), vault encryption and exporting keys (plaintext or encrypted).
+- [ente Auth](https://ente.io/auth) - A free, cross platform, end-to-end encrypted and open source app for managing your 2-step verification tokens. From the makers of [ente Photos](https://ente.io), and uses the same battle tested infrastructure. Needs an ente.io account.
+- [Owky](https://github.com/charlietango/owky) - Free and Open Source Two-Factor Authenticator for IOS users.
+- [🤖](#icons) [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator.
+- [🤖](#icons) [Authenticator Pro](https://github.com/jamie-mh/AuthenticatorPro) - Two-Factor Authentication (2FA) client for Android + Wear OS.
+
+[Back to top 🔝](#contents)
+
+## Analytics
+⛔ Avoid any analytics service that comes from Google, Facebook, Microsoft or any private service. These kind of analytics hurt user privacy.
+
+✅  **Instead use**
+- [Ackee](https://ackee.electerious.com/) - Self-hosted website analytics.
+- [Aptabase](https://aptabase.com) - Open-source, privacy-first and simple analytics for mobile and desktop apps.
+- [Cabin](https://withcabin.com) - Privacy-first, carbon conscious web analytics.
+- [GoatCounter](https://www.goatcounter.com/) - Privacy aware, lightweight and open-source analytics platform.
+- [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy.
+- [Nullitics](https://nullitics.com/) - Zero-effort open-source cheap analytics.
+- [Pirsch](https://pirsch.io/) - Pirsch is a simple, privacy-friendly, open-source alternative to Google Analytics — lightweight, cookie-free and easily integrated into any website or backend.
+- [Plausible](https://plausible.io/) - Simple and privacy-friendly alternative to Google Analytics.
+- [Shynet](https://github.com/milesmcc/shynet) - Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
+- [Swetrix](https://swetrix.com) - Privacy-focused, fully cookieless and opensource (and selfhostable) web-analytics service.
+- [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
+- [Unidentified Analytics](https://unidentifiedanalytics.web.app/) - Naive ip-based tracking that works everywhere (web, command-line, email, etc). No account required. Developer friendly.
+- [Rybbit](https://rybbit.io) - Open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive.
+
+[Back to top 🔝](#contents)
+
+## Android
+
+### Android App Store
+⛔ **Avoid**
+- Google Play Store [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
+
+✅  **Instead use**
+- [F-Droid](https://f-droid.org/) - F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.
+	- [Droid-ify](https://github.com/Iamlooker/Droid-ify) - Lightweight F-Droid client with Material UI.
+	- [Aurora Droid](https://auroraoss.com/download/#aurora-droid) - Aurora Droid is a modern FOSS client for F-Droid.
+	- [Foxy Droid](https://github.com/kitsunyan/foxy-droid) - Unofficial F-Droid client in the style of the classic one.
+- [FossDroid](https://fossdroid.com/) - Fossdroid's aim is to promote free and open source apps on the Android platform: newest, trendiest and the most popular ones.
+- [SkyDroid](https://skydroid.app/) - Decentralized App Store for Android
+- [Obtainium](https://github.com/ImranR98/Obtainium) - Get app updates directly from the source.
+- [Accrescent](https://github.com/accrescent/accrescent) - A novel Android app store focused on security, privacy, and usability.
+
+### Alternative Google Play Store clients
+- [Aurora Store](https://auroraoss.com/download/#aurora-store) - Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.
+
+### Android Debloat Tools
+⛔ **Avoid**
+- ADB AppControl - A simple adb wrapper with a [terrible privacy policy](https://adbappcontrol.com/en/terms/) to collect things like device information and what applications you install/uninstall.
+
+✅ **Instead use**
+- [Universal Android Debloater Next Generation](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/) - Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device.
+
+### Android Dialer
+⛔ **Avoid**
+
+Third-party dialers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
+
+✅  **Instead use**
+- [Koler](https://github.com/Chooloo/koler) - Uniquely stylized phone app with customizable features.
+- [Fossify Phone](https://github.com/FossifyOrg/Phone) - A handy phone call manager with phonebook, number blocking and multi-SIM support.
+
+### Android File Manager
+⛔ **Avoid**
+
+Preinstalled file managers and third-party file manager apps found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
+
+✅  **Instead use**
+
+- [Amaze File Manager](https://github.com/TeamAmaze/AmazeFileManager) - Simple and attractive Material Design file manager for Android.
+- [Material Files](https://github.com/zhanghai/MaterialFiles) - An open source Material Design file manager, for Android 5.0+.
+- [Ghost Commander](https://f-droid.org/packages/com.ghostsq.commander/) - Dual-panel file manager.
+
+### Android Keyboard
+⛔ **Avoid**
+- GBoard (Google) [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
+- SwiftKey [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
+
+✅ **Instead use**
+- [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
+- [FlorisBoard](https://github.com/florisboard/florisboard) - FlorisBoard is a free and open-source keyboard for Android 6.0+ devices. It aims at being modern, user-friendly and customizable while fully respecting your privacy. Currently in early-beta state.
+- [Futo Keyboard](https://keyboard.futo.org/) - A modern keyboard that respects your privacy and security, with features such as offline voice input, swipe typing and smart autocorrect.
+- [Heliboard](https://github.com/Helium314/HeliBoard) - A privacy-conscious and customizable open-source keyboard, based on AOSP / OpenBoard with many additional features and improvements, including support for custom dictionaries, themes, and glide typing.
+- [Indic Keyboard](https://gitlab.com/indicproject/indic-keyboard) - Indic Keyboard is a versatile keyboard for Android users who wish to use Indic and Indian languages to type messages, compose emails and generally prefer to use them in addition to English on their phone.
+- [OpenBoard](https://github.com/openboard-team/openboard) - OpenBoard is a 100% foss keyboard based on AOSP, with no dependency on Google binaries, that respects your privacy. It is no longer updated, but still works.
+- [Simple Keyboard](https://github.com/rkkr/simple-keyboard) - Simply keyboard and nothing more.
+
+### Android Gallery
+
+Your phone gallery is a deeply personal aspect of your life, it may contain images and videos that capture intimate moments, locations, and people important to you. Protecting its privacy is essential to prevent misuse of this information, not only for you, but it also ensures the privacy of friends and family captured in these photos, who may not consent to having their images shared.
+
 > [!NOTE]
 > For a private way to store and backup your photos see [Photo Storage](#photo-storage) section.
 
@@ -261,8 +483,8 @@ When using cloud-based AI services, the data you input is often collected and st
 - [LocalAI](https://github.com/go-skynet/LocalAI) - Self-hosted, community-driven simple local OpenAI-compatible API written in go. Can be used as a drop-in replacement for OpenAI, running on CPU with consumer-grade hardware.
 - [ollama](https://github.com/jmorganca/ollama) - Get up and running with Llama 2 and other large language models locally.
 - [PasteGuard](https://github.com/sgasser/pasteguard) - Privacy proxy for LLM APIs that masks PII and secrets before they reach cloud providers. Self-hosted, OpenAI-compatible, and restores original data in responses.
--[PrivacyScrubber](https://privacyscrubber.com) - 100% browser-based PII sanitizer for AI prompts. Redacts names, emails, phones, and IDs before sending to ChatGPT/Claude/Gemini. Works offline (airplane mode verified). No server, no storage.
--  [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy) - Privacy-focused AI inference server with OpenAI API compatibility, zero cloud dependencies, and local model processing.
+- [PrivacyScrubber](https://privacyscrubber.com) - 100% browser-based PII sanitizer for AI prompts. Redacts names, emails, phones, and IDs before sending to ChatGPT/Claude/Gemini. Works offline (airplane mode verified). No server, no storage.
+- [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy) - Privacy-focused AI inference server with OpenAI API compatibility, zero cloud dependencies, and local model processing.
 - [Tinfoil](https://tinfoil.sh/) - Verifiably private AI Chat and OpenAI-compatible inference in the cloud. Uses NVIDIA confidential computing and open source code pinned to a transparency log for end-to-end verifiability.
 
 #### AI Coding
