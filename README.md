@@ -929,6 +929,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [Fileverse](https://fileverse.io) - Fileverse is building healthier alternatives with self-sovereignty, privacy by design, and standards compliance at its core.
 	- [Ddocs](https://ddocs.new): privacy-enhancing alternative to google docs: onchain, end-to-end encrypted, and decentralized. 
  	- [dSheets](https://dsheets.new): decentralized alternative to Excel and Google Sheets.
+- [Parchment](https://parchpdf.com/) - Free, privacy-first PDF tools (merge, split, compress, convert, watermark, sign) that run entirely in your browser. No server uploads.
 
 [Back to top 🔝](#contents)
 
@@ -1127,6 +1128,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ✅  **Instead use**
 #### Web
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+- [PicBrew](https://picbrew.org/) - Free, privacy-first browser-based image tools. Compress, resize, convert, crop, and more — your images never leave your device. No server uploads.
 
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
