@@ -1064,6 +1064,7 @@ GNU/Linux is a family of free (as in freedom and as in free beer) and open sourc
 
 These tools are useful when sharing secrets, code snippets or any other kind of text with others in a private way.
 
+- [1time](https://1time.io) - Zero-knowledge one-time secret sharing with AES-256-GCM browser-side encryption, HKDF key derivation, CLI tool, and Docker self-hosting.
 - [crypt.fyi](https://crypt.fyi) - Ephemeral zero-knowledge sensitive data sharing platform with web, cli, and chrome-extension clients
 - [NoPaste](https://github.com/bokub/nopaste) - Open Source pastebin alternative that works with no database, and no back-end code. Instead, the data is compressed and stored entirely in the link that you share, nowhere else.
 - [PrivateBin](https://github.com/PrivateBin/PrivateBin) - A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.
