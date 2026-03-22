@@ -1474,6 +1474,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 ## Uncategorized
 - [Skymap](https://skymaponline.net/) - Open online planetarium program.
+- [BunkerWeb](https://www.bunkerweb.io) - A next-generation, open-source Web Application Firewall (WAF).
 - [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban.
 - [Hetty](https://github.com/dstotijn/hetty) - Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
 - [Visited](https://github.com/yuis-ice/visited) - Locally collect browsing history over browsers.
