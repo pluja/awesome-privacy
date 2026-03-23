@@ -828,6 +828,7 @@ With email aliases, you can finally create a different identity for each website
 - [Jellyfin](https://jellyfin.org/) - Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
 - [Dim](https://github.com/Dusk-Labs/dim) - Dim is a self-hosted media manager. With minimal setup, Dim will organize and beautify your media collections, letting you access and play them anytime from anywhere.
 - [Stremio](https://www.stremio.com/) - Stremio is a modern media center that's a one-stop solution for your video entertainment.
+- [Global Free TV](https://www.globalfreetv.com/) - A free, no-login live TV streaming platform with 4,000+ channels from 150+ countries. No account, no tracking, no app installation required — just open and watch in your browser.
 
 #### Audio
 - [Funkwhale](https://funkwhale.audio/) - A social platform to enjoy and share music (SoundCloud alternative).
