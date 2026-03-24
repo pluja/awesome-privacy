@@ -1142,7 +1142,8 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 ✅  **Instead use**
 #### Web
-- [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+- [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea...
+- [fileGOD](https://filegod.app) - 37 browser-based tools for PDFs and images (compress, convert, merge, split, resize, OCR, QR codes). All processing runs client-side via WebAssembly. No files ever leave your device. [Source Code](https://github.com/fileGOD/file-tools).
 
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
