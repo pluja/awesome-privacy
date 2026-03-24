@@ -271,6 +271,12 @@ When using cloud-based AI services, the data you input is often collected and st
 	- [RooCode](https://github.com/RooCodeInc/Roo-Code) - Cline fork with some improvements.
 - [OpenCode](https://github.com/anomalyco/opencode/) - The open source coding agent. Connect local models or any providers of your choice.
 
+#### AI Agent Collaboration
+
+When AI agents collaborate, they often share code, prompts, and internal logic with each other, creating new privacy risks. Traditional agent frameworks expose implementation details during collaboration.
+
+- [CoWorker Protocol](https://github.com/ZiwayZhao/agent-coworker) - Privacy-preserving P2P agent collaboration. Agents share skill schemas (input/output contracts) without exposing code, prompts, or internal logic. E2E encrypted via XMTP, with revocable trust that auto-downgrades after task completion.
+
 #### Text to Speech
 
 - [Kokoro FastAPI](https://github.com/remsky/Kokoro-FastAPI) - Dockerized FastAPI wrapper for [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) text-to-speech model w/CPU, ONNX and NVIDIA GPU support, handling, and auto-stitching.
