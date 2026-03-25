@@ -144,6 +144,7 @@
 - [Ackee](https://ackee.electerious.com/) - Self-hosted website analytics.
 - [Aptabase](https://aptabase.com) - Open-source, privacy-first and simple analytics for mobile and desktop apps.
 - [Cabin](https://withcabin.com) - Privacy-first, carbon conscious web analytics.
+- [Clickport](https://clickport.io) - Privacy-first web analytics without cookies. GDPR compliant, EU-hosted, with engagement tracking, session drill-down, goals, and real-time dashboard.
 - [GoatCounter](https://www.goatcounter.com/) - Privacy aware, lightweight and open-source analytics platform.
 - [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy.
 - [Nullitics](https://nullitics.com/) - Zero-effort open-source cheap analytics.
