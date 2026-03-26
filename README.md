@@ -1199,6 +1199,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 - [Whoami Project](https://github.com/owerdogan/whoami-project) - Whoami provides enhanced privacy, anonymity for Debian and Arch based linux distributions.
 - [BusKill](https://www.buskill.in/) - BusKill is a Dead Man Switch triggered when a magnetic breakaway is tripped, severing a USB connection.
+- [SaneHosts](https://github.com/sane-apps/SaneHosts) - macOS hosts file manager for system-wide ad and tracker blocking. PolyForm Shield licensed (open source for personal use), no telemetry, no account required.
 
 ### Android
 
