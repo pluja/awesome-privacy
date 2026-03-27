@@ -574,6 +574,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ### Medical health
 - [Fasten](https://github.com/fastenhealth/fasten-onprem) - Fasten is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 1000's of insurances/hospitals/clinics.
+- [dna-claude-analysis](https://github.com/shmlkv/dna-claude-analysis) - Privacy-first personal genome analysis toolkit — all DNA data stays local on your machine. Python scripts analyze raw DNA data across 17 categories and generate a self-contained single-page HTML visualization with no external dependencies or cloud services.
 
 [Back to top 🔝](#contents)
 
