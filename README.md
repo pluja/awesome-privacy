@@ -1142,6 +1142,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 ✅  **Instead use**
 #### Web
+- [BulkPicTools](https://bulkpictools.com) - A high-performance, privacy-first bulk image processor for resizing, converting, and watermarking. Operates entirely in your browser; no image data is ever sent to any server. No cookies or tracking are used.
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
 
 #### Desktop
