@@ -256,6 +256,7 @@ When using cloud-based AI services, the data you input is often collected and st
 
 #### ChatGPT
 
+- [Blindfold](https://blindfold.dev) - PII detection and protection API that strips personal data (names, emails, phones, addresses) from prompts before they reach cloud LLM providers. Supports 18+ languages with tokenization, redaction, and encryption. SDKs for Python and Node.js.
 - [Jan](https://github.com/janhq/jan) - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) - Inference of Facebook's LLaMA model in pure C/C++ so it can run locally on a CPU.
 - [LocalAI](https://github.com/go-skynet/LocalAI) - Self-hosted, community-driven simple local OpenAI-compatible API written in go. Can be used as a drop-in replacement for OpenAI, running on CPU with consumer-grade hardware.
