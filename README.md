@@ -1483,6 +1483,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
+- [MuttonText](https://github.com/Muminur/MuttonText) - Free, open-source text expansion tool. All data stays local with zero telemetry. Sub-50ms latency, dynamic variables, Beeftext compatibility.
 
 [Back to top 🔝](#contents)
 
