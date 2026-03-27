@@ -263,6 +263,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [PasteGuard](https://github.com/sgasser/pasteguard) - Privacy proxy for LLM APIs that masks PII and secrets before they reach cloud providers. Self-hosted, OpenAI-compatible, and restores original data in responses.
 - [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy) - Privacy-focused AI inference server with OpenAI API compatibility, zero cloud dependencies, and local model processing.
 - [Tinfoil](https://tinfoil.sh/) - Verifiably private AI Chat and OpenAI-compatible inference in the cloud. Uses NVIDIA confidential computing and open source code pinned to a transparency log for end-to-end verifiability.
+- [OpenClaw](https://github.com/openclaw/openclaw) - Self-hosted AI assistant platform that runs on dedicated hardware ([ClawBox](https://self-hosted-ai-assistant.com)). All data stays local, supports Telegram/WhatsApp/Discord. Runs on NVIDIA Jetson at 15W.
 
 #### AI Coding
 
@@ -663,6 +664,7 @@ Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/ale
 ✅  **Instead use**
 - [Mycroft](https://mycroft.ai/) - The Private and Open Voice Assistant.
 - [Home Assistant](https://www.home-assistant.io/) - Open source home automation that puts local control and privacy first.
+- [ClawBox](https://personal-ai-server.com) - Pre-configured, always-on AI assistant hardware powered by NVIDIA Jetson. Privacy-first — all processing happens locally on your device.
 
 [Back to top 🔝](#contents)
 
