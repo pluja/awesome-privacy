@@ -426,6 +426,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+- [ShellLeap](https://github.com/shareefsakk2/shellleap) - Premium, open-source SSH & SFTP client with zero-knowledge, local AES-256-GCM encryption.
 
 ### IDEs
 ⛔ Avoid using privative IDEs that are full of trackers and telemetry.
