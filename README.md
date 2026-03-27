@@ -1473,6 +1473,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 [Back to top 🔝](#contents)
 
 ## Uncategorized
+- [Cloud Infra Atlas](https://cloudinfraatlas.eu) - Directory of GDPR-compliant European software alternatives across 20 categories (cloud, analytics, email, CRM, and more), with primary-source research on GDPR enforcement, the US CLOUD Act, Schrems II, and digital sovereignty.
 - [Skymap](https://skymaponline.net/) - Open online planetarium program.
 - [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban.
 - [Hetty](https://github.com/dstotijn/hetty) - Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
