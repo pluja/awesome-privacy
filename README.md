@@ -426,6 +426,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+- [Frostbyte API](https://frostbyte-landing.vercel.app) - Privacy-respecting developer API suite (IP geolocation, DNS lookup, screenshots, crypto prices, code execution) that requires no account, no email, and no personal data — just request an anonymous API key and start using it.
 
 ### IDEs
 ⛔ Avoid using privative IDEs that are full of trackers and telemetry.
