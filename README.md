@@ -1019,6 +1019,7 @@ You can also check out [Media Streaming Platforms](https://github.com/pluja/awes
 GNU/Linux is a family of free (as in freedom and as in free beer) and open source Operating Systems mostly developed by the community. If you don't know where to start these are good options for begginers:
 
 - [Fedora](https://getfedora.org/)
+- [Nobrara](https://nobaraproject.org/) a fork of fedora KDE geared to gamers, easy to use
 - [Mint (Cinnamon)](https://linuxmint.com/edition.php?id=305) is a beginner friendly distribution.
 - [Qubes OS](https://qubes-os.org/) is a security-oriented operating system that isolates various workspaces into separate virtual machines to enhance privacy and security.
 - [Tails](https://tails.net/) is a portable operating system that protects against surveillance and censorship. It always starts from the same clean state and everything you do disappears automatically when you shut down Tails.
