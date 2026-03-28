@@ -134,6 +134,7 @@
 - [Owky](https://github.com/charlietango/owky) - Free and Open Source Two-Factor Authenticator for IOS users.
 - [🤖](#icons) [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator.
 - [🤖](#icons) [Authenticator Pro](https://github.com/jamie-mh/AuthenticatorPro) - Two-Factor Authentication (2FA) client for Android + Wear OS.
+- [Proton Authenticator](https://proton.me/authenticator) - Proton Authenticator is an [open source](https://proton.me/community/open-source#apps) and [end-to-end encrypted](https://proton.me/blog/password-encryption) 2FA app that’s simple and free to use.
 
 [Back to top 🔝](#contents)
 
