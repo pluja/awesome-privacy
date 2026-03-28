@@ -514,6 +514,7 @@ on the DMCrypt kernel module.
 
 ## File Management and Sharing
 ⛔ **Avoid**
+- [BlitzTools](https://blitztools.app) - Privacy-first file processing. 66+ tools run entirely in-browser via WebAssembly. Zero uploads.
 - **WeTransfer** - [Bad privacy policy](https://tosdr.org/en/service/214). Files are not e2e encrypted. Website has many analytics and trackers.
 - **SendAnywhere** - No e2e encryption. Website has loads of analytics and trackers from Facebook, Google, Cloudflare...
 
