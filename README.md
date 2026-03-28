@@ -1143,7 +1143,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ✅  **Instead use**
 #### Web
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
-- [PixelSwift](https://github.com/zsk-coder/pixel-swift) - A free, browser-based image compressor, converter, and resizer. All processing happens locally using WebAssembly (MozJPEG, OxiPNG) — no server uploads, fully private.
+- [PixelSwift](https://pixelswift.site) - A free, browser-based image compressor, converter, and resizer. All processing happens locally using WebAssembly (MozJPEG, OxiPNG) — no server uploads, fully private.
 
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
