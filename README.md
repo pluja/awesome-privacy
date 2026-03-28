@@ -810,6 +810,7 @@ With email aliases, you can finally create a different identity for each website
   - [OSMAnd](https://osmand.net/) - Android/iOS Navigation app using OSM. It is a feature-rich app with all you expect.
 - [Organic Maps](https://organicmaps.app/) - Great offline maps for hikers and cyclists.
 - [CoMaps](https://www.comaps.app/) - A community-led free & open source maps app based on OSM
+- [Red Grid MGRS](https://github.com/RedGridTactical/RedGridMGRS) - Military GPS navigator with live MGRS coordinates, magnetic declination, and waypoints. Makes zero network calls — GPS coordinates exist in memory only, never stored or transmitted. No analytics, no tracking, no accounts. Fully open source.
 
 [Back to top 🔝](#contents)
 
