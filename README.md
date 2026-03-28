@@ -1143,6 +1143,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ✅  **Instead use**
 #### Web
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+- [Vizua](https://vizua.io) - Free suite of 91 browser-based image tools (compress, resize, convert, remove background, upscale, OCR, QR code generator). Everything runs client-side — no files uploaded to servers, no account required, no tracking.
 
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
