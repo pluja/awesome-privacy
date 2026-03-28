@@ -1143,6 +1143,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ✅  **Instead use**
 #### Web
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+- [PicShift](https://picshift.app) - Free browser-based image converter and compressor. Converts between HEIC, WebP, AVIF, PNG, JPG using WebAssembly codecs locally — files never leave your device. Supports batch processing up to 200 images, works offline, no account required.
 
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
