@@ -1069,6 +1069,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [PrivateBin](https://github.com/PrivateBin/PrivateBin) - A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
 - [scrt.link](https://scrt.link) - Share a secret. End-to-end encrypted. Ephemeral. Open-source.
+- [Vaulted](https://www.vaulted.fyi) - Zero-knowledge encrypted secret sharing. AES-256-GCM encryption happens in the browser — the server never sees plaintext. Self-destructing links with configurable view limits and expiration. No account required.
 - [dele-to](https://dele.to) - Open Source. Modern app to share sensitive credentials and secrets securely with client-side AES-256 encryption, zero-knowledge architecture, and automatic self-destruction.
 
 [Back to top 🔝](#contents)
