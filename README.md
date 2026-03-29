@@ -27,6 +27,7 @@
   - [Android File Manager](#android-file-manager)
   - [Android Gallery](#android-gallery)
   - [Android Keyboard](#android-keyboard)
+  - [iOS Keyboard](#ios-keyboard)
   - [Android Launcher](#android-launcher)
 - [Artificial Intelligence](#artificial-intelligence)
 	- [ChatGPT](#chatgpt)
@@ -216,6 +217,14 @@ Preinstalled file managers and third-party file manager apps found on the play s
 - [Indic Keyboard](https://gitlab.com/indicproject/indic-keyboard) - Indic Keyboard is a versatile keyboard for Android users who wish to use Indic and Indian languages to type messages, compose emails and generally prefer to use them in addition to English on their phone.
 - [OpenBoard](https://github.com/openboard-team/openboard) - OpenBoard is a 100% foss keyboard based on AOSP, with no dependency on Google binaries, that respects your privacy. It is no longer updated, but still works.
 - [Simple Keyboard](https://github.com/rkkr/simple-keyboard) - Simply keyboard and nothing more.
+
+### iOS Keyboard
+⛔ **Avoid**
+- GBoard (Google) [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
+- SwiftKey [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
+
+✅ **Instead use**
+- [GuruIM](https://github.com/CauT/GuruIM) - An open-source iOS keyboard built on RIME engine. All data stays on your device — you decide when, what, and to whom to export. Supports AI-powered personal insights with your own API key, clipboard monitoring, and smart word frequency tuning, all fully local and privacy-first.
 
 ### Android Gallery
 
