@@ -1143,6 +1143,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ✅  **Instead use**
 #### Web
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+- [Kitmul](https://kitmul.com) - 100+ free AI-powered browser tools including image editing, background removal, and photo enhancement. All processing runs locally in the browser — no data is sent to any server. No signup required.
 
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
