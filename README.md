@@ -1070,6 +1070,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
 - [scrt.link](https://scrt.link) - Share a secret. End-to-end encrypted. Ephemeral. Open-source.
 - [dele-to](https://dele.to) - Open Source. Modern app to share sensitive credentials and secrets securely with client-side AES-256 encryption, zero-knowledge architecture, and automatic self-destruction.
+- [Zero Note iOS](https://zeronote.app) - A secure way to share a private note that self-destruct automatically based on your own terms views👁️, duration⏰, location🌎
 
 [Back to top 🔝](#contents)
 
