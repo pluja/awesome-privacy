@@ -1481,6 +1481,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 [Back to top 🔝](#contents)
 
 ## Utilities
+- [ConvertPrivately](https://convertprivately.com) - Privacy-first file conversion and utility tools for PDFs, images, documents, and data. Almost all of the 250+ tools run directly in the browser with no uploads or tracking (with a clear warning for the few that require server-side processing).
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
 
