@@ -555,6 +555,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [🤖](#icons) [Fitotrack](https://codeberg.org/jannis/FitoTrack) - A privacy oriented fitness tracker for Android.
 - [🤖](#icons) [OpenTracks](https://github.com/OpenTracksApp/OpenTracks) - OpenTracks is a sport tracking application that completely respects your privacy.
 - [🤖](#icons) [Gadgetbridge](https://codeberg.org/Freeyourgadget/Gadgetbridge) - A free and cloudless replacement for your gadget vendors' closed source Android applications.
+- [Pilgrim](https://github.com/walktalkmeditate/pilgrim-ios) - Privacy-first walking and meditation companion for iOS. Zero cloud, no accounts, no analytics, no telemetry. Voice transcription runs entirely on-device via WhisperKit. Ships with an Apple privacy manifest. GPLv3.
 
 ### Workout planners
 
