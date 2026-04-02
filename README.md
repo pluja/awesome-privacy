@@ -1,1 +1,1 @@
-$(cat /tmp/readme.md)
+PLACEHOLDER_WILL_BE_REPLACED
