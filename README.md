@@ -1572,6 +1572,7 @@ Here are some open source and truly private (no personal data and/or credit card
 - [Mullvad VPN](https://mullvad.net)
 - [Proton VPN](https://protonvpn.com)
 - [SPN](https://safing.io/)
+- [amneziawg-installer](https://github.com/bivlked/amneziawg-installer) - Self-hosted AmneziaWG 2.0 VPN for Ubuntu/Debian. DPI-resistant WireGuard fork with protocol obfuscation — no third-party servers, full control over your traffic.
 
 [Back to top 🔝](#contents)
 
