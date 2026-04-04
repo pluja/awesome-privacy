@@ -1090,6 +1090,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 - [Sparrow Wallet](https://www.sparrowwallet.com/) - An open source, cross-platform desktop wallet that gives you many privacy-preserving spending tools.
 - [Wasabi Wallet](https://www.wasabiwallet.io/) - An open source, non-custodial, privacy-focused Bitcoin wallet available on Desktop.
+- [Mybucks.online](https://mybucks.online) - An open source, non-custodial, browser-based wallet that generates a private key from passwords using one-way hash function. No registration, no seed phrases, no storage, no footprint.
 
 [Back to top 🔝](#contents)
 
