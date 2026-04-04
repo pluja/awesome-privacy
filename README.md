@@ -374,6 +374,7 @@ Google captchas use cookies to track users and rank their IPs.
 - [Fawkes](https://github.com/Shawn-Shan/fawkes) - privacy preserving tool against facial recognition systems.
   - [CloakMe](https://github.com/pluja/CloakMe) - Web interface for Fawkes algorithm.
 - [ImageScrubber](https://github.com/everestpipkin/image-scrubber) - A friendly browser-based tool for anonymizing photographs taken at protests ([hosted version provided by everestpipkin](https://everestpipkin.github.io/image-scrubber/)).
+- [CleanMark](https://cleanmark.org) - Remove AI watermarks (Gemini, Doubao, custom) entirely in-browser. No uploads, no tracking, open-source.
 
 ### Text
 - [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords ([repo](https://github.com/kurolabs/stegcloak)).
