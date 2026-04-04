@@ -155,6 +155,8 @@
 - [Unidentified Analytics](https://unidentifiedanalytics.web.app/) - Naive ip-based tracking that works everywhere (web, command-line, email, etc). No account required. Developer friendly.
 - [Rybbit](https://rybbit.io) - Open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive.
 
+- [Beam](https://beam.keylightdigital.com/) - Privacy-first, cookie-free web analytics for websites. No personal data stored, GDPR compliant, no consent banner required. Open-source tracking script, free tier available. ([Demo](https://beam.keylightdigital.com/demo), [Source](https://github.com/scobb/beam.js))
+
 [Back to top 🔝](#contents)
 
 ## Android
