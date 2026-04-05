@@ -518,6 +518,7 @@ on the DMCrypt kernel module.
 - **SendAnywhere** - No e2e encryption. Website has loads of analytics and trackers from Facebook, Google, Cloudflare...
 
 ✅ **Instead use**
+- [anon.li Drop](https://anon.li/drop) - End-to-end encrypted file sharing. Up to 250GB and 30 days retention. Limit downloads and get notified when someone downloads a file.
 - [Blaze](https://blaze.now.sh/) - A fast, p2p and radically different way to transfer files.
 - [Blindsend](https://github.com/blindnet-io/blindsend) - Open source tool for private, end-to-end encrypted file exchange.
 - [Croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another.
@@ -789,6 +790,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 
 With email aliases, you can finally create a different identity for each website. Defend against spams, phishing and data breach. You can choose self-hosting any of the following options or you can also use their own platform as a service.
 
+- [anon.li Alias](https://anon.li/alias)
 - [SimpleLogin](https://github.com/simple-login/app)
 - [AnonAddy](https://github.com/anonaddy/anonaddy)
 
