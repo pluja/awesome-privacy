@@ -17,6 +17,7 @@
 > 
 > The primary focus of this list is to provide alternatives that prioritize privacy. These alternatives give you control over your data and do not collect or sell it.
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for privacy-respecting multi-agent orchestration. Self-hosted, no cloud dependency required. MIT licensed.
 ## Contents
 - [2FA](#2fa)
 - [Analytics](#analytics)
