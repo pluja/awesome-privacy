@@ -946,6 +946,9 @@ Many websites require phone number verification. These services offer a way to r
 ### Email verification required, accepting crypto
 - [SmsPVA](https://smspva.com/) - SmsPVA is a service providing a phone number you can send any SMS on and get a text of it. (Based in France)
 
+### Standard payment methods, multi-language
+- [VerifySMS](https://verifysms.app/) - Privacy-focused virtual phone numbers for SMS verification. 150+ countries, non-VoIP carrier numbers, automatic refunds, 15 languages. iOS app available. Works with WhatsApp, Telegram, Discord, Google, Instagram, TikTok and 500+ platforms. Starting at $0.10 per number. (Based in United Kingdom)
+
 ## Operating Systems
 ### Android
 ⛔ Try to avoid using Google Android or any Android that has been modified and tuned by any manufacturer such as Xiaomi, Huawei, Samsung, etc. Android is an Open Source project - [AOSP - Android Open Source Project](https://source.android.com/) - and it has many versions that will respect the user privacy and data and won't share it with private servers from manufacturers or service providers.
