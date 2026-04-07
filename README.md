@@ -426,6 +426,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+- [Goosekit](https://goosekit.dev) - 50+ free browser-based developer tools (JSON formatter, regex tester, hash generator, image compressor, password generator, and more). 100% client-side: no data is ever sent to any server, no signup, no tracking.
 
 ### IDEs
 ⛔ Avoid using privative IDEs that are full of trackers and telemetry.
