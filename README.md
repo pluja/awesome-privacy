@@ -143,6 +143,7 @@
 ✅  **Instead use**
 - [Ackee](https://ackee.electerious.com/) - Self-hosted website analytics.
 - [Aptabase](https://aptabase.com) - Open-source, privacy-first and simple analytics for mobile and desktop apps.
+- [Beam](https://beam.keylightdigital.com/) - Lightweight, cookie-free, GDPR-compliant web analytics. Open-source alternative to Google Analytics running on Cloudflare's edge network.
 - [Cabin](https://withcabin.com) - Privacy-first, carbon conscious web analytics.
 - [GoatCounter](https://www.goatcounter.com/) - Privacy aware, lightweight and open-source analytics platform.
 - [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy.
@@ -154,6 +155,8 @@
 - [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
 - [Unidentified Analytics](https://unidentifiedanalytics.web.app/) - Naive ip-based tracking that works everywhere (web, command-line, email, etc). No account required. Developer friendly.
 - [Rybbit](https://rybbit.io) - Open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive.
+
+- [Beam](https://beam-privacy.com/) - Privacy-first, cookie-free web analytics for websites. No personal data stored, GDPR compliant, no consent banner required. Open-source tracking script, free tier available. ([Demo](https://beam-privacy.com/demo), [Source](https://github.com/scobb/beam.js))
 
 [Back to top 🔝](#contents)
 
