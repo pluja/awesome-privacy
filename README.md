@@ -427,6 +427,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
 
+- [Gitstar](https://gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=pluja_awesome-privacy) - Social feed for GitHub. Follow database engineers, discover trending DB tools and ORMs.
 ### IDEs
 ⛔ Avoid using privative IDEs that are full of trackers and telemetry.
 
