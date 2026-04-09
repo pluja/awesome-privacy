@@ -535,6 +535,7 @@ on the DMCrypt kernel module.
 - [Portal](https://github.com/SpatiumPortae/portal) - A command-line file transfer utility for sending encrypted files from any computer to another.
 - [QRcp](https://github.com/claudiodangelis/qrcp) - Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
 - [Send](https://gitlab.com/timvisee/send) - Simple, private file sharing. (Mozilla Send Fork)
+- [convert.rocks](https://www.convert.rocks) - Client-side file converter (HEIC, WebP, AVIF, PNG). All processing in browser, no files uploaded to any server.
 - [Sharik](https://github.com/marchellodev/sharik) - Sharik works with Wi-Fi connection or Tethering (Wi-Fi Hotspot). No internet connection needed. Available for Android, iOS, Linux, MacOS & Windows.
 - [Snapdrop](https://github.com/RobinLinus/snapdrop) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
 - [Winden](https://winden.app/) - A convenient version of Magic Wormhole you can use from within your browser. No need to install an app.
