@@ -1572,6 +1572,7 @@ Here are some open source and truly private (no personal data and/or credit card
 - [Mullvad VPN](https://mullvad.net)
 - [Proton VPN](https://protonvpn.com)
 - [SPN](https://safing.io/)
+- [TiredVPN](https://github.com/tiredvpn/tiredvpn) - Self-hosted, DPI-resistant VPN with 20+ obfuscation strategies. Designed for censored networks. No accounts or registration needed. AGPL-3.0.
 
 [Back to top 🔝](#contents)
 
