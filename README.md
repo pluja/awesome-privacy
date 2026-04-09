@@ -1090,6 +1090,8 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 - [Sparrow Wallet](https://www.sparrowwallet.com/) - An open source, cross-platform desktop wallet that gives you many privacy-preserving spending tools.
 - [Wasabi Wallet](https://www.wasabiwallet.io/) - An open source, non-custodial, privacy-focused Bitcoin wallet available on Desktop.
+- [Zcash](https://z.cash/) - Privacy-protecting digital currency using zero-knowledge proofs (zk-SNARKs). Shielded transactions hide sender, receiver, and amount.
+- [zcash-mcp](https://github.com/Frontier-Compute/zcash-mcp) - MCP server exposing 22 Zcash tools for AI agents: shielded send, memo decode, attestation, proof verification. `npx @frontiercompute/zcash-mcp`
 
 [Back to top 🔝](#contents)
 
