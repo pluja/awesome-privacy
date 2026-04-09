@@ -20,6 +20,7 @@
 ## Contents
 - [2FA](#2fa)
 - [Analytics](#analytics)
+- [Consent Management](#consent-management)
 - [Android](#android)
   - [Android App Store](#android-app-store)
   - [Android Debloat Tools](#android-debloat-tools)
@@ -154,6 +155,17 @@
 - [Umami](https://umami.is/) - A simple, fast, website analytics alternative to Google Analytics.
 - [Unidentified Analytics](https://unidentifiedanalytics.web.app/) - Naive ip-based tracking that works everywhere (web, command-line, email, etc). No account required. Developer friendly.
 - [Rybbit](https://rybbit.io) - Open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive.
+
+[Back to top 🔝](#contents)
+
+## Consent Management
+⛔ **Avoid** using consent management platforms from big adtech vendors (e.g. OneTrust, Cookiebot, TrustArc). These tools often load heavy third-party scripts, phone home to external servers, and can themselves become a vector for tracking.
+
+✅  **Instead use**
+- [CookieBoss](https://cookieboss.io) - Edge-compiled cookie consent management with Google Consent Mode v2 support. Lightweight per-site compiled scripts on Cloudflare Workers, minimizing third-party dependencies and data collection.
+- [Klaro](https://github.com/klaro-org/klaro-js) - Simple and privacy-friendly open-source consent management platform.
+- [Osano](https://www.osano.com/) - Lightweight consent management with a free tier and transparent data practices.
+- [Tarteaucitron](https://github.com/nicedayfor/tarteaucitron.js) - Open-source cookie and consent management script that blocks third-party services before user consent.
 
 [Back to top 🔝](#contents)
 
