@@ -1143,6 +1143,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ✅  **Instead use**
 #### Web
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+- [SammaPix](https://www.sammapix.com) - Free, privacy-first image toolkit with 27 browser-based tools (compress, resize, convert, AI background removal, EXIF removal, passport photos). All processing runs client-side via Canvas API and WebAssembly — images never leave your device. No signup required.
 
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
