@@ -1199,6 +1199,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 - [Whoami Project](https://github.com/owerdogan/whoami-project) - Whoami provides enhanced privacy, anonymity for Debian and Arch based linux distributions.
 - [BusKill](https://www.buskill.in/) - BusKill is a Dead Man Switch triggered when a magnetic breakaway is tripped, severing a USB connection.
+- [MirrorMask](https://mirrormask.app) - macOS app that reshapes your algorithmic profile across Google, YouTube, Facebook, and Reddit by automating realistic browsing activity under configurable personas. Makes ad-targeting data less accurate without blocking. Closed-source.
 
 ### Android
 
