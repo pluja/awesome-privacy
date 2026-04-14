@@ -449,6 +449,12 @@ Apps such as Tinder collect and sell your personal intimate information. Tinder 
 ✅  **Instead use**
 - [Alovoa](https://alovoa.com/) - Free and open-source dating platform that respects your privacy.
 
+### Developer Utilities
+
+✅ **Use**
+- [Formatho Tools](https://formatho.com/Tools) - 100+ privacy-first developer utilities (encoding, decoding, text transformation, image processing). All processing happens client-side in your browser. No signup, no data leaves your device. Open source at [awesome-ai-tools](https://github.com/formatho/awesome-ai-tools).
+
+
 [Back to top 🔝](#contents)
 
 ## Design Tools
