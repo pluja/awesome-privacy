@@ -427,6 +427,12 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
 
+### Online Dev Tools
+⛔ Most online developer tools (JSON formatters, JWT decoders, Base64 encoders, password generators) send your input to a server for processing. Your production tokens, API responses, and generated passwords end up in third-party logs.
+
+✅ Instead use
+- [Anytools](https://anytools.io) - 89+ browser-based developer, design, and utility tools. All processing is client-side — zero outbound requests after page load. No accounts, no analytics, no third-party scripts, self-hosted fonts. Verifiable by checking DevTools Network tab.
+
 ### IDEs
 ⛔ Avoid using privative IDEs that are full of trackers and telemetry.
 
