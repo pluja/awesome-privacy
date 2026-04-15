@@ -1103,6 +1103,10 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Sure](https://github.com/we-promise/sure) - Open Source and secure OS for your personal finances. Community maintained fork of the archived [Maybe](https://github.com/maybe-finance/maybe) project.
 - [ezBookkeeping](https://ezbookkeeping.mayswind.net/) - A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.
 
+### Tax Filing
+
+- [FreeFile ITR](https://github.com/rohitthink/freefile) - Free, privacy-first income tax return filing app for Indian freelancers. All financial data stored locally on device, no accounts, no telemetry. Imports bank statements from major Indian banks, computes tax under both regimes, and files directly on the official tax portal.
+
 ### Budget Management
 - [Budget Zen](https://budgetzen.net) - Simple and Encrypted Budget Management.
 - [ProExpense](https://github.com/arduia/ProExpense/) - A simple free finance note to safely record daily expenses.
