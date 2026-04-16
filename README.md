@@ -957,6 +957,9 @@ Many websites require phone number verification. These services offer a way to r
 - [Virtualsim](https://virtualsim.net/) - Virtualsim provides physical SIM cards leasing for SMS verifications. (Based in Ukraine)
 - [MoneroSMS](https://monerosms.com/) - Virtual numbers for SMS/MMS messaging and verifications. CLI and web app. (Based in United States)
 
+### No email verification, accepting crypto
+- [VirtualSMS](https://virtualsms.io/) - SMS verification using real physical SIM cards from carriers in 100+ countries. One-time activations and number rentals. Accepts BTC, ETH, USDT, XMR. API available. (Based in Thailand)
+
 ### Email verification required, accepting monero
 - [Onlinesim](https://onlinesim.ru/) - Receive SMS online to virtual phone number. (Based in Russia)
 
