@@ -504,6 +504,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
 - [Picocrypt](https://github.com/HACKERALERT/Picocrypt/) - A very small (hence "Pico"), very simple, yet very secure file encryption tool.
 - [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others. 
+- [QEV](https://secure.imagineqira.com/downloads) - Free, open-source offline encrypted message envelopes for Mac, Windows, Android, CLI, and the web. XChaCha20-Poly1305 + Argon2id via libsodium. QR device pairing, direct P2P transfer, and a self-hostable relay for offline delivery. No accounts, no servers, plaintext never leaves the device. [Source](https://github.com/TheArtOfSound/qev-desktop).
 
 ### OS Encryption
 
