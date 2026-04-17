@@ -556,6 +556,10 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [🤖](#icons) [OpenTracks](https://github.com/OpenTracksApp/OpenTracks) - OpenTracks is a sport tracking application that completely respects your privacy.
 - [🤖](#icons) [Gadgetbridge](https://codeberg.org/Freeyourgadget/Gadgetbridge) - A free and cloudless replacement for your gadget vendors' closed source Android applications.
 
+### Habit Tracking
+
+- [Metamorphic](https://metamorphic.app) - Zero-knowledge encrypted habit tracker with E2E encryption, goal setting, reflections, and scheduling. Uses hybrid post-quantum key encapsulation (ML-KEM-768 + X25519). No plaintext user data on the server.
+
 ### Workout planners
 
 - [wger](https://wger.de/en/software/features) - A free, open source, self-hosted web application that manages your exercises, workouts and nutrition.
