@@ -1143,6 +1143,8 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 ✅  **Instead use**
 #### Web
+- [Face-Efface Photo](https://xipinocode.github.io/face-efface-photo/) - Herramienta de privacidad gratuita para difuminar rostros en fotos directamente en el navegador. (Spanish)
+- [Face-Efface Photo](https://xipinocode.github.io/face-efface-photo/) - Kostenloses Datenschutz-Tool zum Unkenntlichmachen von Gesichtern in Fotos direkt im Browser. (German)
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
 - [Face-Efface Photo](https://xipinocode.github.io/face-efface-photo/) - A 100% private, browser-based AI tool to automatically detect and blur faces in photos locally.
 
