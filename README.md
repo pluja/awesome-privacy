@@ -374,6 +374,7 @@ Google captchas use cookies to track users and rank their IPs.
 - [Fawkes](https://github.com/Shawn-Shan/fawkes) - privacy preserving tool against facial recognition systems.
   - [CloakMe](https://github.com/pluja/CloakMe) - Web interface for Fawkes algorithm.
 - [ImageScrubber](https://github.com/everestpipkin/image-scrubber) - A friendly browser-based tool for anonymizing photographs taken at protests ([hosted version provided by everestpipkin](https://everestpipkin.github.io/image-scrubber/)).
+- [Face-Efface Photo](https://xipinocode.github.io/face-efface-photo/) - A 100% private, browser-based AI tool to automatically detect and blur faces in photos locally. No data leaves the device.
 
 ### Text
 - [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords ([repo](https://github.com/kurolabs/stegcloak)).
@@ -1142,7 +1143,10 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 ✅  **Instead use**
 #### Web
+- [Face-Efface Photo](https://xipinocode.github.io/face-efface-photo/) - Herramienta de privacidad gratuita para difuminar rostros en fotos directamente en el navegador. (Spanish)
+- [Face-Efface Photo](https://xipinocode.github.io/face-efface-photo/) - Kostenloses Datenschutz-Tool zum Unkenntlichmachen von Gesichtern in Fotos direkt im Browser. (German)
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+- [Face-Efface Photo](https://xipinocode.github.io/face-efface-photo/) - A 100% private, browser-based AI tool to automatically detect and blur faces in photos locally.
 
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
