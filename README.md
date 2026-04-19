@@ -1199,7 +1199,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 - [Whoami Project](https://github.com/owerdogan/whoami-project) - Whoami provides enhanced privacy, anonymity for Debian and Arch based linux distributions.
 - [BusKill](https://www.buskill.in/) - BusKill is a Dead Man Switch triggered when a magnetic breakaway is tripped, severing a USB connection.
-
+- [Privacy Policy Analyzer](https://pixeldefence.com/privacy-policy-analyzer/) - Free client-side tool that scans privacy policies for 150+ risk patterns including data selling, biometric harvesting, and government surveillance language. No sign-up required.
 ### Android
 
 - [εxodus](https://reports.exodus-privacy.eu.org/en/) - The privacy audit platform for Android applications. Find how many trackers your apps have.
@@ -1207,6 +1207,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [Plexus](https://plexus.techlore.tech/) - Remove the fear of Android app compatibility on de-Googled devices. Find if an app will work on a De-Googled device.
 - [Netguard](https://netguard.me/) - A simple way to block access to the internet per application.
 - [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - An open-source, no-root firewall and DNS changer, with anti-censorship capabilities for Android 6+.
+- [Privacy Policy Analyzer](https://pixeldefence.com/privacy-policy-analyzer/) - Free client-side tool that scans privacy policies for 150+ risk patterns including data selling, biometric harvesting, and government surveillance language. No sign-up required.
 
 [Back to top 🔝](#contents)
 
