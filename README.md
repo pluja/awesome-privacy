@@ -1482,6 +1482,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
+- [File Converter for Linux](https://github.com/AlexDevFlow/Media-Converter) - Local right-click converter for video, audio, image and document formats via FFmpeg and ImageMagick (alternative to CloudConvert, Convertio).
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
 
 [Back to top 🔝](#contents)
