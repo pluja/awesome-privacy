@@ -1208,6 +1208,14 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [Netguard](https://netguard.me/) - A simple way to block access to the internet per application.
 - [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - An open-source, no-root firewall and DNS changer, with anti-censorship capabilities for Android 6+.
 
+### Web
+
+Browser-based privacy audits — no install, no login, nothing logged server-side.
+
+- [SnitchTest](https://snitchtest.com/) - Forensic browser audit: 18 client-side tests covering WebRTC local-IP leaks, canvas/audio/WebGL fingerprint hashes, TLS JA3/JA4 signature, installed fonts, timezone and language mismatch, and hardware fingerprints. Color-coded results with a plain-English gloss on each leak.
+- [Pi-Hole Killer](https://piholekiller.com/) - Adversarial ad-blocker test: fires 103 real ad, tracker, fingerprinter, pop-under, DoH-bypass, and malware-domain requests to measure what your Pi-Hole, uBlock, AdGuard, NextDNS, or VPN actually catches. Scored across 6 pillars × 3 difficulty tiers.
+- [AdBloat](https://adbloat.com/) - Ad-tech overhead benchmark: loads 46 real tracker endpoints in a sandboxed iframe and measures the bytes, hostnames, and TLS handshakes that still reach your browser despite your defenses. Composite A-F letter grade against a naked-Chromium baseline.
+
 [Back to top 🔝](#contents)
 
 ## Remote Access and Control
