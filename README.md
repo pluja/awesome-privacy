@@ -782,6 +782,10 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [🤖](#icons) [FairEmail](https://github.com/M66B/FairEmail) - Fully featured, open source, privacy friendly email app for Android.
 - [🤖](#icons) [K9](https://k9mail.app/) - Open Source Email App for Android.
 
+### Web-Based
+
+- [HackMyIP](https://hackmyip.com) - Free all-in-one privacy toolkit with 12 tools: IP check, email breach checker, DNS leak test, WebRTC leak test, browser fingerprint analysis, port scanner, speed test, and privacy scoring. No signup required. [API available](https://hackmyip.com/api).
+
 #### Desktop
 - [Thunderbird](https://www.thunderbird.net) - A free customizable open source email client.
 
@@ -1144,6 +1148,10 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 #### Web
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
 
+### Web-Based
+
+- [HackMyIP](https://hackmyip.com) - Free all-in-one privacy toolkit with 12 tools: IP check, email breach checker, DNS leak test, WebRTC leak test, browser fingerprint analysis, port scanner, speed test, and privacy scoring. No signup required. [API available](https://hackmyip.com/api).
+
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
 - [Krita](https://github.com/KDE/krita) - Krita is a free and open source digital painting application
@@ -1194,6 +1202,10 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ## Privacy Tools
 
 This section is dedicated to some tools that may help users analyze the privacy status on their devices.
+
+### Web-Based
+
+- [HackMyIP](https://hackmyip.com) - Free all-in-one privacy toolkit with 12 tools: IP check, email breach checker, DNS leak test, WebRTC leak test, browser fingerprint analysis, port scanner, speed test, and privacy scoring. No signup required. [API available](https://hackmyip.com/api).
 
 ### Desktop
 
@@ -1593,6 +1605,10 @@ Here are some open source and truly private (no personal data and/or credit card
 - [🤖](#icons) [Privacy Browser](https://www.stoutner.com/privacy-browser/)
 - [Tor Browser](https://www.torproject.org/) - iOS/Android. Defend yourself against tracking and surveillance and circumvent censorship.
 - [Cromite](https://www.cromite.org/) - Cromite is a Chromium fork based on Bromite with built-in support for ad blocking and an eye for privacy.
+
+### Web-Based
+
+- [HackMyIP](https://hackmyip.com) - Free all-in-one privacy toolkit with 12 tools: IP check, email breach checker, DNS leak test, WebRTC leak test, browser fingerprint analysis, port scanner, speed test, and privacy scoring. No signup required. [API available](https://hackmyip.com/api).
 
 #### Desktop
 - [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) - A lightweight approach to removing Google web service dependency. Ungoogled-chromium is Google Chromium, sans dependency on Google web services.
