@@ -499,6 +499,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 
 - [Veracrypt](https://www.veracrypt.fr/en/Home.html) - VeraCrypt is a free open source disk encryption software for Windows, macOS and Linux.
 - [Shufflecake](https://shufflecake.net/index.html) - Free open source, plausible deniability for multiple hidden filesystems on Linux
+- [Flowvault](https://flowvault.flowdesk.tech) - Zero-knowledge encrypted browser notepad with plausible deniability. One URL can hide multiple notebooks behind different passwords, with trusted handover and time-locked notes.
 - [Hat.sh](https://hat.sh/) - A Free, Fast, Secure and Serverless File Encryption.
 - [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
 - [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
@@ -895,6 +896,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 
 - [Anytype](https://www.anytype.io/) - An open-source Notion alternative. E2EE, cloud and local network sync, can be self-hosted.
 - [AppFlowy](https://www.appflowy.io/) - Open Source Notion Alternative. You are in charge of your data and customizations.
+- [Flowvault](https://flowvault.flowdesk.tech) - Zero-knowledge encrypted browser notepad with plausible deniability. One URL can hide multiple notebooks behind different passwords, with trusted handover and time-locked notes.
 - [HedgeDoc](https://hedgedoc.org/) - Formerly CodiMD (community). An awesome platform to write and share markdown.
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation and encryption capabilities.
 - [Logseq](https://logseq.com/) - A privacy-first alternative to WorkFlowy.
