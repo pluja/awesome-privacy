@@ -769,7 +769,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Tuta](https://tuta.com/) - Secure email for everybody. Open Source.
 - [Riseup](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
 - [Mailfence](https://mailfence.com) - Secure and private email.
-- [Aster Mail](https://astermail.org/) - Open source end-to-end encrypted email. Uses post-quantum cryptography (ML-KEM-768 in X3DH + Double Ratchet) for Aster-to-Aster mail and standard OpenPGP (RSA-4096) with portable keys for external mail. Zero-access architecture. AGPL-3.0.
+- [Aster Mail](https://astermail.org/) - Open source, quantum-safe, end-to-end encrypted email.
 
 ### Self-Hosted
 - [Docker mail server](https://github.com/docker-mailserver/docker-mailserver) - A fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) using Docker.
