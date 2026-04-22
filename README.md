@@ -846,7 +846,9 @@ With email aliases, you can finally create a different identity for each website
 - [Spotube](https://github.com/KRTirtho/spotube) - A lightweight free Spotify crossplatform-client.
 - [Spot*](https://github.com/xou816/spot) - Native Spotify client built in GTK and Rust.
 - [psst*](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI.
-- [ncspot*](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.ç
+- [ncspot*](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by
+- [Octave](https://github.com/mohsen7778/octave-music-player) - Free, serverless Spotify alternative built with vanilla JS.
+- ncmpc and the likes.ç
 
 
 \* No premium required.
