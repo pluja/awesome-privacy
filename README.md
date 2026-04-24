@@ -1195,6 +1195,10 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 This section is dedicated to some tools that may help users analyze the privacy status on their devices.
 
+### Browser
+
+- [Threat Model Builder](https://github.com/Predaxia/threat-model-builder) - Interactive threat model assessment for civilians. 7 profiles, personalized scoring, browser-only, no data collected.
+
 ### Desktop
 
 - [Whoami Project](https://github.com/owerdogan/whoami-project) - Whoami provides enhanced privacy, anonymity for Debian and Arch based linux distributions.
