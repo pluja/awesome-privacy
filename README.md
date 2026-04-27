@@ -791,6 +791,7 @@ With email aliases, you can finally create a different identity for each website
 
 - [SimpleLogin](https://github.com/simple-login/app)
 - [AnonAddy](https://github.com/anonaddy/anonaddy)
+- [Maskmail](https://maskmail.io)
 
 [Back to top 🔝](#contents)
 
