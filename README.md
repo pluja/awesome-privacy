@@ -827,6 +827,7 @@ With email aliases, you can finally create a different identity for each website
 #### Video and Audio
 - [Jellyfin](https://jellyfin.org/) - Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
 - [Dim](https://github.com/Dusk-Labs/dim) - Dim is a self-hosted media manager. With minimal setup, Dim will organize and beautify your media collections, letting you access and play them anytime from anywhere.
+- - [Remove Audio](https://remove-audio.com) — Free browser-based tool to strip audio from video files. Processes locally via WebAssembly — your files never leave your device. No account, no watermarks.
 - [Stremio](https://www.stremio.com/) - Stremio is a modern media center that's a one-stop solution for your video entertainment.
 
 #### Audio
