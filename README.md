@@ -911,6 +911,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [Trilium Notes](https://github.com/zadam/trilium) - Build your personal knowledge base with Trilium Notes 
 - [Vikunja](https://vikunja.io) - The open-source to-do app to organize your life.
 - [YankNote](https://github.com/purocean/yn) - A Hackable Markdown Note Application for Programmers.
+- [MindMapVault](https://github.com/mindmapvault/mindmapvault-foss) - Local-first, zero‑knowledge mind‑mapping and note‑taking app (Windows/Linux). MIT, Rust + Tauri.
 
 [Back to top 🔝](#contents)
 
