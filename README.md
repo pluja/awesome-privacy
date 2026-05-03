@@ -1143,6 +1143,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ✅  **Instead use**
 #### Web
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+- - [IDPhotoSnap](https://idphotosnap.com) - Free passport and visa photo maker for 85+ countries. Runs entirely in the browser - no signup, no upload, no watermark. Cropping, resizing, DPI adjustment, and background replacement all happen client-side.
 
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
