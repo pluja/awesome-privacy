@@ -904,6 +904,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app (local only, no sync).
 - [Notesnook](https://notesnook.com/) - Open source zero knowledge private note taking.
 - [Obsidian](https://obsidian.md) - Obsidian is the private and flexible note‑taking app. Closed source but has no trackers (website / apps) and E2EE sync. 
+- [qnote](https://github.com/Omibranch/qnote) - Minimal frameless notepad with local-only storage, no telemetry. Markdown live preview, real PDF export via Typst, OCR via Tesseract, automatic version history. Available on AUR.
 - [Quillpad](https://quillpad.github.io/) - Take beautiful markdown notes and stay organized with task lists. Fork of Quillnote.
 - [SiYuan](https://github.com/siyuan-note/siyuan) - A local-first personal knowledge management system.
 - [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
