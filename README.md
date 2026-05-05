@@ -945,6 +945,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [Fileverse](https://fileverse.io) - Fileverse is building healthier alternatives with self-sovereignty, privacy by design, and standards compliance at its core.
 	- [Ddocs](https://ddocs.new): privacy-enhancing alternative to google docs: onchain, end-to-end encrypted, and decentralized. 
  	- [dSheets](https://dsheets.new): decentralized alternative to Excel and Google Sheets.
+- [PDF Mavericks](https://www.pdfmavericks.com) - Browser-only PDF and JSON toolkit. 25+ tools, 100% client-side processing via WebAssembly. Files never leave your device — no upload, no account, no telemetry.
 
 [Back to top 🔝](#contents)
 
