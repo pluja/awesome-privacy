@@ -256,6 +256,7 @@ When using cloud-based AI services, the data you input is often collected and st
 
 #### ChatGPT
 
+- [Enclave](https://github.com/yuanzui0728/enclave) - Self-hosted, open-source AI virtual social network — a privacy-respecting Character.AI / Replika alternative. AI residents chat with you, post to a feed and run group chats on your own machine; conversations and AI relationships never leave your server. Works with any OpenAI-compatible local LLM (Ollama, LM Studio, vLLM).
 - [Jan](https://github.com/janhq/jan) - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) - Inference of Facebook's LLaMA model in pure C/C++ so it can run locally on a CPU.
 - [LocalAI](https://github.com/go-skynet/LocalAI) - Self-hosted, community-driven simple local OpenAI-compatible API written in go. Can be used as a drop-in replacement for OpenAI, running on CPU with consumer-grade hardware.
