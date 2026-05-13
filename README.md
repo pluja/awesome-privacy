@@ -264,6 +264,10 @@ When using cloud-based AI services, the data you input is often collected and st
 - [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy) - Privacy-focused AI inference server with OpenAI API compatibility, zero cloud dependencies, and local model processing.
 - [Tinfoil](https://tinfoil.sh/) - Verifiably private AI Chat and OpenAI-compatible inference in the cloud. Uses NVIDIA confidential computing and open source code pinned to a transparency log for end-to-end verifiability.
 
+#### Agent Memory
+
+- [Dakera](https://github.com/dakera-ai/dakera-mcp) - Self-hosted agent memory server with no external data sharing. All memories are stored locally using RocksDB and HNSW vector indexing. MCP-native protocol means your AI agents' context never leaves your infrastructure.
+
 #### AI Coding
 
 - [Continue](https://github.com/continuedev/continue) - Open-source autopilot for VS Code and JetBrains—the easiest way to code with any LLM
