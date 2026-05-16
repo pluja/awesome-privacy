@@ -946,6 +946,8 @@ These providers offer apps and services filled with data trackers. Also, most of
 	- [Ddocs](https://ddocs.new): privacy-enhancing alternative to google docs: onchain, end-to-end encrypted, and decentralized. 
  	- [dSheets](https://dsheets.new): decentralized alternative to Excel and Google Sheets.
 
+- [RaptorPDF](https://www.raptorpdf.com) - Privacy-first browser-based PDF editor. Edit, merge, split, compress, annotate, convert, and protect PDFs — all processed locally, no uploads, no account required.
+
 [Back to top 🔝](#contents)
 
 ## Online Phone Providers
