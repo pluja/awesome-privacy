@@ -1208,6 +1208,10 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [Netguard](https://netguard.me/) - A simple way to block access to the internet per application.
 - [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - An open-source, no-root firewall and DNS changer, with anti-censorship capabilities for Android 6+.
 
+### Web
+
+- [HackMyIP](https://hackmyip.com) - Privacy audit toolkit for checking DNS leaks, WebRTC leaks, browser fingerprint, email breaches, and VPN detection. No signup required.
+
 [Back to top 🔝](#contents)
 
 ## Remote Access and Control
