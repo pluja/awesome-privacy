@@ -963,6 +963,9 @@ Many websites require phone number verification. These services offer a way to r
 ### Email verification required, accepting crypto
 - [SmsPVA](https://smspva.com/) - SmsPVA is a service providing a phone number you can send any SMS on and get a text of it. (Based in France)
 
+### Email verification required, accepting credit card
+- [NumberOTP](https://numberotp.com) - Temporary non-VoIP phone numbers from 150+ countries for anonymous SMS/OTP verification. Private dedicated numbers (not public shared), instant delivery, auto-refund on failed activation. Free credits to start.
+
 ## Operating Systems
 ### Android
 ⛔ Try to avoid using Google Android or any Android that has been modified and tuned by any manufacturer such as Xiaomi, Huawei, Samsung, etc. Android is an Open Source project - [AOSP - Android Open Source Project](https://source.android.com/) - and it has many versions that will respect the user privacy and data and won't share it with private servers from manufacturers or service providers.
