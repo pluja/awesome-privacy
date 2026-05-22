@@ -1520,6 +1520,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Mirotalk P2P](https://p2p.mirotalk.com/) - Free WebRTC - P2P - Simple, Secure, Fast Real-Time Video Conferences Up to 4k and 60fps, compatible with all browsers and platforms.
 - [Mumble](https://www.mumble.info/) - Mumble is an open source voice communication application with advanced features.
 - [PeerCalls](https://peercalls.com/) - Group peer to peer video calls for everyone written in Go and TypeScript.
+- - [TLFHost](https://tlfhost.com) - Privacy-focused, semi-managed cloud VPS and dedicated servers with pre-configured environments. Supports Bitcoin, Monero, and USDT. No-KYC onboarding.
 
 
 ##### Alternative clients/modifications of Discord:
