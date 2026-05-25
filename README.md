@@ -570,7 +570,8 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [🤖](#icons) [Drip](https://dripapp.org/) - Menstrual cycle and fertility tracking. Everything you enter stays on your device.
 - [Euki](https://eukiapp.org/) - The period tracker that doesn’t track you. 
 - [🤖](#icons) [log28](https://github.com/wildeyedskies/log28) - a (very) simple no-frills period tracker for Android.
-- [🤖](#icons) [Periodical](https://github.com/arnowelzel/periodical) - A calendar to track your menstruation and calculate possible fertile days 
+- [🤖](#icons) [Periodical](https://github.com/arnowelzel/periodical) - A calendar to track your menstruation and calculate possible fertile days
+- [Poppy](https://poppy.usenostr.org) - Poppy is a private period tracker that runs in the browser. It stores data locally, and can sync and backup through Nostr relays without a Poppy server or account, all encrypted end to end.
 
 ### Medical health
 - [Fasten](https://github.com/fastenhealth/fasten-onprem) - Fasten is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 1000's of insurances/hospitals/clinics.
