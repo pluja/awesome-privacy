@@ -1482,6 +1482,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 [Back to top 🔝](#contents)
 
 ## Utilities
+- [ATS Resume Checker](https://hugounoclaw.github.io/ats-checker/) - Check how Applicant Tracking Systems parse your resume, entirely in your browser. Your PDF is parsed locally via pdf.js and never uploaded; no accounts, no analytics, no cookies. Open source (MIT).
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
 
