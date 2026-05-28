@@ -311,6 +311,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [LinkAce](https://github.com/Kovah/LinkAce)
 - [LinkDing](https://github.com/sissbruecker/linkding)
 - [Shiori](https://github.com/go-shiori/shiori)
+- [TabFlow](https://selfloom.github.io/tabflow/) - AI-organized bookmark dashboard that replaces your new tab page. All data stored locally on your device — no tracking, no account required.
 - [Wallabag](https://wallabag.org/) - Open-source, optionally self-hosted, read it later server. Provides paid hosted service with privacy in mind.
 
 ### Book and web annotations/highlights management
@@ -1129,6 +1130,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ### Others 
 
 - [Debitum](https://github.com/Marmo/debitum) - With Debitum you can track all kinds of IOUs, be it money or lent items.
+- [Invoco](https://selfloom.github.io/invoco-demo/) - Free offline-first invoice generator and time tracker for freelancers. No signup, no cloud storage — all data stays on your device.
 
 ### Portfolio trackers
 
