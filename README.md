@@ -263,6 +263,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [PasteGuard](https://github.com/sgasser/pasteguard) - Privacy proxy for LLM APIs that masks PII and secrets before they reach cloud providers. Self-hosted, OpenAI-compatible, and restores original data in responses.
 - [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy) - Privacy-focused AI inference server with OpenAI API compatibility, zero cloud dependencies, and local model processing.
 - [Tinfoil](https://tinfoil.sh/) - Verifiably private AI Chat and OpenAI-compatible inference in the cloud. Uses NVIDIA confidential computing and open source code pinned to a transparency log for end-to-end verifiability.
+- [AI Security Gateway](https://github.com/aisecuritygateway/aisecuritygateway) - Open-source AI firewall and LLM proxy that auto-redacts 28+ PII types (SSN, credit cards, emails, etc.) from prompts before they reach any provider. Blocks prompt injection, enforces budgets, and routes across 600+ models. OpenAI SDK compatible, self-hosted, Apache 2.0.
 
 #### AI Coding
 
