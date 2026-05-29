@@ -700,6 +700,7 @@ The service is in charge of running the servers that allow users to communicate.
 - [Threema](https://threema.ch/en) - The messenger that puts security and privacy first. Pay once, chat forever. No collection of user data. Open Source client.
 - [Signal](https://signal.org/) - Extreme focus on privacy, combined with all of the features you expect. Strong encryption by design. 100% Open Source.
   - [🤖](#icons) [Molly](https://github.com/mollyim/mollyim-android) - Signal-compatible fork client with some security enhancements.
+- [NoChat](https://nochat.io/) - End-to-end encrypted messenger that requires no phone number; sign up anonymously or with email. Post-quantum encrypted 1:1 DMs (X25519 + ML-KEM-1024) and E2EE calls. Open source and free. Not yet independently audited.
 
 ### P2P
 No servers involved. Everything goes directly from one peer to the other peer. No point of failure or control. The features are reduced because of the lack of server, messaging can be slower. Best option for critical chats.
