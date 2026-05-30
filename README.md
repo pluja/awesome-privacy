@@ -1482,6 +1482,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 [Back to top 🔝](#contents)
 
 ## Utilities
+- [万能工具箱 (Wanneng Toolbox)](https://tyr1105.github.io/) - 19+ free online tools (image editing, PDF processing, invoice generation, QR codes, developer tools) that process everything client-side in your browser. No registration, no data collection, no server uploads. ([Source Code](https://github.com/tyr1105/tyr1105.github.io))
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
 
