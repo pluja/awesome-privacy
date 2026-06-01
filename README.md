@@ -793,6 +793,9 @@ With email aliases, you can finally create a different identity for each website
 - [SimpleLogin](https://github.com/simple-login/app)
 - [AnonAddy](https://github.com/anonaddy/anonaddy)
 
+### Temporary / Disposable Email
+- [SansMail](https://sansmail.my.id) - Instant disposable email with realtime inbox via WebSocket, custom domain support, and auto-expire. No signup required.
+
 [Back to top 🔝](#contents)
 
 ## Maps and Navigation
