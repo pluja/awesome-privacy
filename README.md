@@ -253,6 +253,8 @@ It allows users to easily create and browse group of apps and it displays notifi
 ## Artificial Intelligence
 
 When using cloud-based AI services, the data you input is often collected and stored by the service provider. This may include not only the content of your requests but also metadata, such as timestamps or IP addresses. Third-party servers may grant access to your data to their employees, partners, or even other users, depending on their privacy policies. Data may be used for various purposes, including model training, research, or even marketing activities. Your requests to a third-party AI service may be tied to your user information and payment details, linking your data to your identity. 
+**Reference:** [AI Data Watch](https://baa-atlas.vercel.app/ai) tracks, per AI tool, whether it trains its models on your data, whether you can opt out, and whether it offers zero-retention or a DPA — each verdict cites the vendor's own documentation with a last-verified date, so you can check a specific tool before pasting sensitive data into it.
+
 
 #### ChatGPT
 
