@@ -87,6 +87,7 @@
 - [Pastebin and Secret Sharing](#pastebin-and-secret-sharing)
 - [Payments](#payments)
 - [Personal Finances](#personal-finances)
+- [WalletLens](https://walletlens.live) — Free net worth tracker for crypto, stocks, gold, and fiat. No account, no server — all data stays in your browser's localStorage.
 	- [Full Featured Financial Management](#full-featured-financial-management)
  	- [Budget Management](#budget-management)
   	- [Shared Expenses](#shared-expenses)
