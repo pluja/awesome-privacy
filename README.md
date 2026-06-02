@@ -60,6 +60,7 @@
 - [Fonts](#fonts)
 - [Forms](#forms)
 - [Games](#games)
+	- [FriendlyBet Live](https://friendlybet.live) - Free, social prediction game and bracket builder for the FIFA World Cup 2026, built with vanilla JS and privacy by design. [Contribute](https://github.com)		
     - [Mario Kart](#mario-kart)
     - [Minecraft](#minecraft)
     - [Pokémon](#pokemon)
