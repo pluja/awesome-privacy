@@ -731,6 +731,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Dub](https://github.com/dubinc/dub) - You can self-host Dub.co for greater control over your data and design.
 - [Yourls](https://yourls.org/) -  Self hosted URL shortener in PHP.
 - [tnyr.me](https://tnyr.me) - A zero-trust URL shortener with paswordless end-to-end encryption.
+- [QR-Guru](https://qr-guru.de) - GDPR-compliant URL shortener and QR code generator hosted exclusively in Germany. No tracking cookies, no browser fingerprinting, salted SHA-256 IP hashing with daily salt rotation, no US data transfer. Article 28 GDPR Data Processing Agreement available on every plan, including the free tier.
 
 [Back to top 🔝](#contents)
 
