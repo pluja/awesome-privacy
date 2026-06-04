@@ -1485,6 +1485,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
 
+- [Vaultool](https://vaultool.com) - Free online tools suite (50+ tools) that runs entirely client-side. No data uploaded, no registration required.
 [Back to top 🔝](#contents)
 
 ## Version Control
