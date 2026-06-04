@@ -425,6 +425,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 [Back to top 🔝](#contents)
 
 ## Developer Tools
+- [decode64.com](https://decode64.com) - Suite of browser-based developer tools (Base64 decoder, JSON formatter, URL encoder, color picker). No server, no uploads — all processing is client-side.
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
 
 ### IDEs
