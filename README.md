@@ -377,6 +377,7 @@ Google captchas use cookies to track users and rank their IPs.
 
 ### Text
 - [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords ([repo](https://github.com/kurolabs/stegcloak)).
+- [Perfect-Crime](https://github.com/bad-antics/baudrillard-suite/tree/main/perfect-crime) - Advanced steganography toolkit with multiple methods (LSB image, whitespace, zero-width Unicode, file append). Supports encryption and multiple carrier formats.
 
 [Back to top 🔝](#contents)
 
@@ -502,6 +503,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Hat.sh](https://hat.sh/) - A Free, Fast, Secure and Serverless File Encryption.
 - [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
 - [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
+- [Perfect-Crime](https://github.com/bad-antics/baudrillard-suite/tree/main/perfect-crime) - Advanced steganography toolkit with multiple methods (LSB image, whitespace, zero-width Unicode, file append). Supports encryption and multiple carrier formats.
 - [Picocrypt](https://github.com/HACKERALERT/Picocrypt/) - A very small (hence "Pico"), very simple, yet very secure file encryption tool.
 - [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others. 
 
