@@ -1173,6 +1173,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Immich](https://github.com/immich-app/immich) - Self-hosted photo and video backup solution directly from your mobile phone.
 - [LibrePhotos](https://github.com/LibrePhotos/librephotos) - Active [OwnPhotos](https://github.com/hooram/ownphotos) fork. Self hosted alternative to Google Photos.
 - [Nextcloud](https://nextcloud.com/) - The open source self-hosted productivity platform that keeps you in control. It has a [*Photos*](https://github.com/nextcloud/photos) plugin to help you organize and visualize your photos.
+- [SnapTools](https://www.usesnap.me) - 100+ free online tools (PDF, image, calculators, QR, text) that run entirely in your browser; files are never uploaded.
 - [Photoprism](https://photoprism.app) - Feature rich server-based application for browsing, organizing and sharing your personal photo collection. The most similar to Google Photos.
 - [Pigallery2](http://bpatrik.github.io/pigallery2/) - A self-hosted directory-first photo gallery website.
 - [Photoview](https://photoview.github.io/) - Photo gallery for self-hosted personal servers with Facial Recognition.
@@ -1220,6 +1221,8 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [RustDesk](https://rustdesk.com/) - Open-source remote desktop client software, written in Rust. Works out of the box, full control of your data, with no concerns about security.
 - [screego](https://screego.net/) - Screen sharing for developers.
 - [Remmina](https://remmina.org/) - Remote access screen and file sharing to your desktop (RDP).
+- [SnapTools](https://www.usesnap.me) - 100+ free online tools (PDF, image, calculators, QR, text) that run entirely in your browser; files are never uploaded.
+
 - [UltraVNC](https://www.uvnc.com/) - UltraVNC is a powerful, easy to use and free - remote pc access softwares - that can display the screen of another computer (via internet or network) on your own screen.
 - [MeshCentral](https://meshcentral.com/) - The open source, multi-platform, self-hosted, feature packed web site for remote device management.
 
@@ -1236,6 +1239,8 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 ✅  **Instead use**
 - [Whoogle Search](https://github.com/benbusby/whoogle-search) - A self-hosted, ad-free, privacy-respecting Google metasearch engine.
+- [SnapTools](https://www.usesnap.me) - 100+ free online tools (PDF, image, calculators, QR, text) that run entirely in your browser; files are never uploaded.
+
 - [librengine](https://github.com/liameno/librengine) - Privacy Web Search Engine 
 - [SearX](https://searx.me/) - Privacy-respecting metasearch engine.
   - [SearxNG](https://github.com/searxng/searxng) - Free internet metasearch engine which aggregates results from various search services and databases.  
