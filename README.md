@@ -941,6 +941,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 ✅  **Instead use**
 - [LibreOffice](https://www.libreoffice.org/) - Free and open source offline office.
 - [OnlyOffice](https://www.onlyoffice.com/) - Free and open source online office for collaboration.
+- [PII Blackout](https://piiblackout.com) - 100% offline, AI-powered desktop application to safely detect and permanently redact PII/PHI from PDF files and images with zero cloud uploads
 - [Cryptpad](https://cryptpad.fr/) - Collaboration suite, encrypted and open-source.
 - [Etherpad](https://etherpad.org/) - Highly customizable open source online editor providing collaborative editing in really real-time.
 - [Fileverse](https://fileverse.io) - Fileverse is building healthier alternatives with self-sovereignty, privacy by design, and standards compliance at its core.
