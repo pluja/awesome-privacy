@@ -263,6 +263,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [PasteGuard](https://github.com/sgasser/pasteguard) - Privacy proxy for LLM APIs that masks PII and secrets before they reach cloud providers. Self-hosted, OpenAI-compatible, and restores original data in responses.
 - [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy) - Privacy-focused AI inference server with OpenAI API compatibility, zero cloud dependencies, and local model processing.
 - [Tinfoil](https://tinfoil.sh/) - Verifiably private AI Chat and OpenAI-compatible inference in the cloud. Uses NVIDIA confidential computing and open source code pinned to a transparency log for end-to-end verifiability.
+- [Tengra](https://github.com/TengraStudio/Tengra) - Open-source AI chat workspace. Chat with local or cloud models, generate images, and manage projects — all offline.
 
 #### AI Coding
 
@@ -270,6 +271,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [Cline](https://cline.bot/) - Open source AI coding for VSCode. See every decision and use your own models. 
 	- [RooCode](https://github.com/RooCodeInc/Roo-Code) - Cline fork with some improvements.
 - [OpenCode](https://github.com/anomalyco/opencode/) - The open source coding agent. Connect local models or any providers of your choice.
+- [Tengra](https://github.com/TengraStudio/Tengra) - Open-source AI workspace with Git integration, terminals, and inline AI assistance for coding.
 
 #### Text to Speech
 
@@ -296,6 +298,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI) - ComfyUI lets you execute advanced image generation pipelines using an advanced interface. Available on Windows, Linux, and macOS.
 - [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - A browser interface for Stable Diffusion and other models.
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI) - Generate and create stunning visual media using the latest AI-driven technologies locally.
+- [Tengra](https://github.com/TengraStudio/Tengra) - Open-source AI workspace with a built-in image studio for prompt-driven generation.
 
 [Back to top 🔝](#contents)
 
