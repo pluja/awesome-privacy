@@ -1482,6 +1482,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 [Back to top 🔝](#contents)
 
 ## Utilities
+- [csvtodashboard](https://csvtodashboard.com) - Free CSV/Excel toolkit (editor, SQL, converters, dashboards) that runs 100% client-side - files never leave the browser. Core parser is open source.
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
 
