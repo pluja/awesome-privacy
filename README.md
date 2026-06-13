@@ -946,7 +946,9 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [Fileverse](https://fileverse.io) - Fileverse is building healthier alternatives with self-sovereignty, privacy by design, and standards compliance at its core.
 	- [Ddocs](https://ddocs.new): privacy-enhancing alternative to google docs: onchain, end-to-end encrypted, and decentralized. 
  	- [dSheets](https://dsheets.new): decentralized alternative to Excel and Google Sheets.
+### Document Conversion
 
+- [ConvertiZen](https://convertizen.netlify.app) - Privacy-friendly document converter that works entirely in your browser. No file uploads, no server processing — convert PDF, Word, Excel and more using WebAssembly. Free to use.
 [Back to top 🔝](#contents)
 
 ## Online Phone Providers
