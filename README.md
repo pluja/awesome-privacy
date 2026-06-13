@@ -907,6 +907,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [Obsidian](https://obsidian.md) - Obsidian is the private and flexible note‑taking app. Closed source but has no trackers (website / apps) and E2EE sync. 
 - [Quillpad](https://quillpad.github.io/) - Take beautiful markdown notes and stay organized with task lists. Fork of Quillnote.
 - [SiYuan](https://github.com/siyuan-note/siyuan) - A local-first personal knowledge management system.
+- [Slate](https://github.com/MiaAI-Lab/Slate) - A featherlight, OLED-friendly Windows markdown editor. Local-first, zero telemetry, no cloud. True-black OLED theme with live preview and multi-tab editing. Built with Tauri 2 and Rust.
 - [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
 - [Trilium Notes](https://github.com/zadam/trilium) - Build your personal knowledge base with Trilium Notes 
