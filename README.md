@@ -1450,6 +1450,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 - [Screenity](https://screenity.io/en/) - A powerful privacy-friendly screen recorder and annotation tool to make better videos for work, education, and more.
 - [OBS](https://obsproject.com/) - Free and open source software for video recording and live streaming.
+- [Screenpipe](https://github.com/mediar-ai/screenpipe) - 24/7 local AI screen & mic recording. Build AI apps that have the full context. Works with Ollama. [Open Source]
 
 [Back to top 🔝](#contents)
 
