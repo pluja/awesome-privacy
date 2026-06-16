@@ -311,6 +311,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [LinkAce](https://github.com/Kovah/LinkAce)
 - [LinkDing](https://github.com/sissbruecker/linkding)
 - [Shiori](https://github.com/go-shiori/shiori)
+- [Squirrel](https://squirrel.aditco.in/) - Private bookmark manager that runs entirely in your browser. No account, no cloud, no server — not even favicon requests leave your device. Free for 25 bookmarks; $9 one-time for unlimited with vault folder sync.
 - [Wallabag](https://wallabag.org/) - Open-source, optionally self-hosted, read it later server. Provides paid hosted service with privacy in mind.
 
 ### Book and web annotations/highlights management
