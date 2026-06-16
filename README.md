@@ -1144,6 +1144,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ✅  **Instead use**
 #### Web
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+- [PrivaScan](https://justuseit.me/en/privascan) - View and remove EXIF metadata (GPS, device, timestamps) from photos locally in your browser. Nothing is uploaded.
 
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
