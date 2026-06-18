@@ -134,7 +134,7 @@
 - [Owky](https://github.com/charlietango/owky) - Free and Open Source Two-Factor Authenticator for IOS users.
 - [🤖](#icons) [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator.
 - [🤖](#icons) [Authenticator Pro](https://github.com/jamie-mh/AuthenticatorPro) - Two-Factor Authentication (2FA) client for Android + Wear OS.
-
+- [RatPDF](https://ratpdf.com/) - Free browser-based toolkit for PDF processing, image optimization, and developer utilities. Convert, merge, split, compress files directly in the browser with no installation or signup.
 [Back to top 🔝](#contents)
 
 ## Analytics
