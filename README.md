@@ -900,6 +900,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation and encryption capabilities.
 - [Logseq](https://logseq.com/) - A privacy-first alternative to WorkFlowy.
 - [Memos](https://github.com/usememos/memos) - An open-source, self-hosted memo hub with knowledge management and socialization. 
+- [MirrorNotes](https://mirrornotes.org) - iOS journaling app with on-device AI (Gemma 3 via CoreML). All AI — daily reflection prompts, mood analysis, weekly digests, "Ask your journal" — runs locally on your iPhone. Journal text never leaves the device. Free to write; AI features $2.99–$4.99/mo with 7-day trial.
 - [Nextcloud Notes](https://github.com/nextcloud/notes/) - The Notes app is a distraction free notes taking app for Nextcloud.
 	- [Nextcloud Notes app](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app (local only, no sync).
