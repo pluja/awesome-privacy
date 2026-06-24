@@ -1200,6 +1200,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 - [Whoami Project](https://github.com/owerdogan/whoami-project) - Whoami provides enhanced privacy, anonymity for Debian and Arch based linux distributions.
 - [BusKill](https://www.buskill.in/) - BusKill is a Dead Man Switch triggered when a magnetic breakaway is tripped, severing a USB connection.
+- [Backstory](https://github.com/magna-nz/backstory) - Search your data exports (Google Takeout, Telegram, Spotify, Instagram) in one place. Runs entirely on your own computer, nothing leaves your machine. Open source.
 
 ### Android
 
