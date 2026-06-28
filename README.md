@@ -256,7 +256,7 @@ When using cloud-based AI services, the data you input is often collected and st
 
 #### ChatGPT
 
-- [CorvinOS](https://github.com/CorvinLabs/CorvinOS) - Self-hosted, privacy-first AI assistant for Discord, Telegram, WhatsApp, Slack, and Email. Runs fully local with Ollama — no data leaves your server. GDPR-compliant by architecture with a hash-chained audit log and EU AI Act 2026 bot-disclosure.
+- [CorvinOS](https://github.com/CorvinLabs/CorvinOS) - Self-hosted agentic OS with EU AI Act & GDPR compliance built into the architecture. Connects Ollama local models to Discord, Telegram, WhatsApp, Slack, and Email — nothing leaves your server. Bot-disclosure (Art. 50), hash-chained audit log (Art. 30/32), deny-by-default consent (Art. 6/7), and erasure orchestrator (Art. 17) are structural, not configurable.
 - [Jan](https://github.com/janhq/jan) - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) - Inference of Facebook's LLaMA model in pure C/C++ so it can run locally on a CPU.
 - [LocalAI](https://github.com/go-skynet/LocalAI) - Self-hosted, community-driven simple local OpenAI-compatible API written in go. Can be used as a drop-in replacement for OpenAI, running on CPU with consumer-grade hardware.
