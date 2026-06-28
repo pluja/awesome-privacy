@@ -1552,6 +1552,7 @@ Such programs come filled with trackers and telemetry. You can get a full list o
 - [Olive Video Editor](https://olivevideoeditor.org/) - Free open-source advanced non-linear video editor currently in Alpha state.
 - [OpenCut](https://github.com/OpenCut-app/OpenCut) - [beta] A free, open-source video editor for web, desktop, and mobile.
 - [Shotcut](https://www.shotcut.org/) - Shotcut is a free, open source and simple cross-platform video editor.
+- [VidKit](https://vidkit.eu) - Free, in-browser video compressor and format converter (MP4, MOV, MKV, WebM, MP3, GIF). Files are processed locally and never uploaded — no cookies, no accounts. [Source code](https://github.com/TondaRuzicka/vidkit).
 
 [Back to top 🔝](#contents)
 
