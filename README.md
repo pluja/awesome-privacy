@@ -564,6 +564,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 ### Food
 - [OpenFoodFacts](https://world.openfoodfacts.org/) - Open Food Facts is a food products database made by everyone, for everyone. You can use it to make better food choices.
     - [OFF Apps](https://world.openfoodfacts.org/open-food-facts-mobile-app)
+- [Calorie & Macro Tracker](https://atlas-asittley.github.io/calorie-tracker/) - A free, private calorie and macro tracker that runs entirely in your browser. No account and no subscription; all data stays on your device (local storage). Uses the open Open Food Facts database, with barcode scanning.
 
 ### Menstrual cycle trackers
 - [🤖](#icons) [Bluemoon](https://gitlab.com/ngrob/bluemoon-android) - Open source, privacy friendly menstruation tracking app. Your period, your data!
