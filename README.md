@@ -426,6 +426,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+- [Quota Dashboard](https://github.com/ryan-knowone/quota-dashboard) - Local-only, privacy-first dashboard for tracking AI subscription quota across Claude, Kimi, and Z.ai. Runs entirely in the browser; tokens never leave your machine. ([Demo](https://ryan-knowone.github.io/quota-dashboard/?mock=1))
 
 ### IDEs
 ⛔ Avoid using privative IDEs that are full of trackers and telemetry.
