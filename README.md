@@ -425,6 +425,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 [Back to top 🔝](#contents)
 
 ## Developer Tools
+- [.env Deep Sanitizer](https://aarunyaapps.com/env-sanitizer) - Redacts secrets from .env, YAML, and JSON config files entirely in your browser. Zero uploads, no server processing. Detects API keys, database URLs, JWT secrets, AWS credentials, and 15+ other secret patterns.
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
 
 ### IDEs
