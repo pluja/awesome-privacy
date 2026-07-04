@@ -46,4 +46,27 @@ To add a new service just take the following template and add it to the section 
 
 `- [Service Name](https://link-to-source-or-page) - Little description of the service`
 
+Every entry needs a description. Keep it to one sentence: say what the tool does and what it replaces. Where it applies, note the license, the platform, and whether the tool is self-hostable.
+
 > You can add either a *good* (use) or a *bad* (avoid) service.
+
+## Maintenance policy
+
+### When a project is unmaintained
+
+A gap in commits does not mean a project is dead. Some tools are finished and need no changes. Judge a project by whether it still works and whether a maintained alternative exists:
+
+- Dead, and a maintained alternative exists: remove it.
+- Dead, still works, and no real alternative: keep it and mark it 💀.
+- Dead and broken or insecure (relies on a defunct API, has unpatched security holes): remove it.
+
+The 💀 icon means "unmaintained but still the best available option", not "quiet lately".
+
+### Review cadence
+
+Pull requests are reviewed in monthly batches. A slow response is not a rejection.
+
+### Automated checks
+
+- Every pull request that touches `README.md` runs a link check and an entry-format check. Fix the reported problems before asking for a review.
+- On the first of each month a job scans the whole list for dead links and for archived or stale repositories, then opens a single "Health report" issue. Delisting and 💀 flagging happen from that report.
