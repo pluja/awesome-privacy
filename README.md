@@ -495,7 +495,7 @@ Apps such as Tinder collect and sell your personal intimate information. Tinder 
 ✅ Instead use
 - [OrangeWebsite](https://www.orangewebsite.com/) - Iceland-based, free-speech web hosting with anonymous signup and cryptocurrency or cash payment.
 - [1984 Hosting](https://www.1984hosting.com/) - Iceland-based hosting and domain registrar focused on civil rights, with Monero and anonymous signup.
-- [kycnot.me — VPS](https://kycnot.me/?categories=vps) - Directory of KYC-free VPS and hosting providers.
+- [Find more at kycnot.me (VPS Category)](https://kycnot.me/?categories=vps) - KYC-free VPS and hosting providers.
 
 [Back to top 🔝](#contents)
 
@@ -1106,7 +1106,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ## Payments
 ⛔ **Avoid**
 - Visa / Mastercard
-- [![](https://shields.tosdr.org/en_230.svg)](https://tosdr.org/en/service/230)
+- PayPal [![](https://shields.tosdr.org/en_230.svg)](https://tosdr.org/en/service/230)
 - WeChat
 - _insertBigTechHere_Pay
 - Bank payments (wire, SEPA, etc)
@@ -1118,10 +1118,19 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 > [!WARNING]
 > [Bitcoin](https://bitcoin.org) is not anonymous nor private. Bitcoin is traceable, transparent and pseudonymous. For a basic introduction, [see aantonop's video](https://yewtu.be/watch?v=JN1Bowgcle8). More advanced users can watch this [Bitcoin privacy series](https://yewtu.be/watch?v=QEnL5k0R08w).
 
+### Wallets
+
 - [Sparrow Wallet](https://www.sparrowwallet.com/) - An open source, cross-platform desktop wallet that gives you many privacy-preserving spending tools.
 - [Wasabi Wallet](https://www.wasabiwallet.io/) - An open source, non-custodial, privacy-focused Bitcoin wallet available on Desktop.
-- [BTCPay Server](https://btcpayserver.org) - Self-hosted, non-custodial cryptocurrency payment processor, as an alternative to services like PayPal or BitPay. MIT licensed.
 - [Cake Wallet](https://cakewallet.com) - Open source, non-custodial wallet for Monero, Bitcoin, and other coins on mobile and desktop. MIT licensed.
+- [Feather Wallet](https://featherwallet.org/) - Lightweight open source Monero desktop wallet with built-in Tor and coin control. BSD-3 licensed.
+
+### Payment Processors
+
+- [BTCPay Server](https://btcpayserver.org) - Self-hosted, non-custodial cryptocurrency payment processor for merchants, as an alternative to PayPal or BitPay. MIT licensed.
+
+### Where to use Monero and Bitcoin
+
 - [kycnot.me](https://kycnot.me/) - Directory of KYC-free exchanges, payment processors, and other privacy services.
 
 [Back to top 🔝](#contents)
@@ -1635,7 +1644,7 @@ Here are some open source and truly private (no personal data and/or credit card
 - [Proton VPN](https://protonvpn.com) - Swiss no-logs VPN with open source, audited apps on every platform and a no-data-cap free tier.
 - [SPN](https://safing.io/) - Open source, system-wide network that routes each app connection through its own path across multiple nodes, giving per-connection IP separation instead of a single shared exit. Built into the Safing Portmaster firewall for Windows and Linux.
 - [Amnezia VPN](https://amnezia.org) - Self-hosted, censorship-resistant VPN that you deploy on your own server, with audited open source apps (GPL-3.0).
-- [kycnot.me — VPN](https://kycnot.me/?categories=vpn) - Directory of KYC-free VPN providers.
+- [Find more at kycnot.me (VPN Category)](https://kycnot.me/?categories=vpn) - KYC-free VPN providers.
 
 [Back to top 🔝](#contents)
 
