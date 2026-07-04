@@ -131,7 +131,7 @@
 ✅ Instead use
 - [🤖](#icons) [Aegis](https://getaegis.app/) - A free, secure and open source app for Android to manage your 2-step verification tokens. Supports variety of imports from other apps (Google Authenticator, Authy etc.), vault encryption and exporting keys (plaintext or encrypted).
 - [ente Auth](https://ente.io/auth) - A free, cross platform, end-to-end encrypted and open source app for managing your 2-step verification tokens. From the makers of [ente Photos](https://ente.io), and uses the same battle tested infrastructure. Needs an ente.io account.
-- [Owky](https://github.com/charlietango/owky) - Free and Open Source Two-Factor Authenticator for IOS users.
+- [Owky](https://github.com/charlietango/owky) [💀](#icons) - Free and Open Source Two-Factor Authenticator for IOS users.
 - [🤖](#icons) [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator.
 - [🤖](#icons) [Authenticator Pro](https://github.com/jamie-mh/AuthenticatorPro) - Two-Factor Authentication (2FA) client for Android + Wear OS.
 - [2FAS Auth](https://2fas.com/auth) - Open source TOTP authenticator for iOS and Android with a companion browser extension and no account required. GPL-3.0 licensed.
@@ -168,7 +168,7 @@
 - [F-Droid](https://f-droid.org/) - F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.
 	- [Droid-ify](https://github.com/Iamlooker/Droid-ify) - Lightweight F-Droid client with Material UI.
 	- [Aurora Droid](https://auroraoss.com/download/#aurora-droid) - Aurora Droid is a modern FOSS client for F-Droid.
-	- [Foxy Droid](https://github.com/kitsunyan/foxy-droid) - Unofficial F-Droid client in the style of the classic one.
+	- [Foxy Droid](https://github.com/kitsunyan/foxy-droid) [💀](#icons) - Unofficial F-Droid client in the style of the classic one.
 - [FossDroid](https://fossdroid.com/) - Fossdroid's aim is to promote free and open source apps on the Android platform: newest, trendiest and the most popular ones.
 - [SkyDroid](https://skydroid.app/) - Decentralized App Store for Android
 - [Obtainium](https://github.com/ImranR98/Obtainium) - Get app updates directly from the source.
@@ -216,7 +216,7 @@ Preinstalled file managers and third-party file manager apps found on the play s
 - [Futo Keyboard](https://keyboard.futo.org/) - A modern keyboard that respects your privacy and security, with features such as offline voice input, swipe typing and smart autocorrect.
 - [Heliboard](https://github.com/Helium314/HeliBoard) - A privacy-conscious and customizable open-source keyboard, based on AOSP / OpenBoard with many additional features and improvements, including support for custom dictionaries, themes, and glide typing.
 - [Indic Keyboard](https://gitlab.com/indicproject/indic-keyboard) - Indic Keyboard is a versatile keyboard for Android users who wish to use Indic and Indian languages to type messages, compose emails and generally prefer to use them in addition to English on their phone.
-- [OpenBoard](https://github.com/openboard-team/openboard) - OpenBoard is a 100% foss keyboard based on AOSP, with no dependency on Google binaries, that respects your privacy. It is no longer updated, but still works.
+- [OpenBoard](https://github.com/openboard-team/openboard) [💀](#icons) - OpenBoard is a 100% foss keyboard based on AOSP, with no dependency on Google binaries, that respects your privacy. It is no longer updated, but still works.
 - [Simple Keyboard](https://github.com/rkkr/simple-keyboard) - Simply keyboard and nothing more.
 
 ### Android Gallery
@@ -242,11 +242,10 @@ Third-party launchers found on the play store. They may contain ads/trackers and
 
 ✅  **Instead use**
 - [Lawnchair](https://lawnchair.app/) - No clever tagline needed.
-- [OpenLauncher](https://github.com/OpenLauncherTeam/openlauncher) - Customizable and Open Source Launcher for Android.
+- [OpenLauncher](https://github.com/OpenLauncherTeam/openlauncher) [💀](#icons) - Customizable and Open Source Launcher for Android.
 - [KISS](https://kisslauncher.com/) - Lightning fast, open-source, < 200kb Android launcher.
 - [Olauncher](https://github.com/tanujnotes/Olauncher) - Minimal AF (ad-free) launcher app for Android.
 - [Pie Launcher](https://github.com/markusfisch/PieLauncher) - Android home screen launcher that uses a dynamic pie menu instead of fixed positioned icons.
-- [Rootless Pixel Launcher](https://github.com/amirzaidi/Launcher3) - The Launcher3 fork known as "Rootless Pixel Launcher".
 - [Bliss Launcher](https://f-droid.org/en/packages/foundation.e.blisslauncher/) - The default launcher of the /e/ Android-based OS.
 It allows users to easily create and browse group of apps and it displays notification badges on app icons.
 
@@ -272,7 +271,7 @@ When using cloud-based AI services, the data you input is often collected and st
 
 - [Continue](https://github.com/continuedev/continue) - Open-source autopilot for VS Code and JetBrains—the easiest way to code with any LLM
 - [Cline](https://cline.bot/) - Open source AI coding for VSCode. See every decision and use your own models. 
-	- [RooCode](https://github.com/RooCodeInc/Roo-Code) - Cline fork with some improvements.
+	- [Zoo Code](https://github.com/Zoo-Code-Org/Zoo-Code) - Cline fork with some improvements; community successor to the discontinued Roo Code.
 - [OpenCode](https://github.com/anomalyco/opencode/) - The open source coding agent. Connect local models or any providers of your choice.
 - [Aider](https://aider.chat) - Terminal AI pair programmer that edits code in your local git repository using your own API keys. Apache-2.0 licensed.
 - [Tabby](https://tabby.tabbyml.com) - Self-hosted code completion assistant that runs on your own hardware as an alternative to GitHub Copilot. Apache-2.0 licensed.
@@ -281,7 +280,7 @@ When using cloud-based AI services, the data you input is often collected and st
 
 - [Kokoro FastAPI](https://github.com/remsky/Kokoro-FastAPI) - Dockerized FastAPI wrapper for [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) text-to-speech model w/CPU, ONNX and NVIDIA GPU support, handling, and auto-stitching.
 - [MeloTTS](https://github.com/myshell-ai/MeloTTS) - a high-quality multi-lingual text-to-speech library by MIT and MyShell.ai.
-- [Piper](https://github.com/rhasspy/piper) - A fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4.
+- [Piper](https://github.com/OHF-Voice/piper1-gpl) - A fast, local neural text to speech system that sounds great and is optimized for the Raspberry Pi 4.
 - [Espeak](https://github.com/espeak-ng/espeak-ng) - eSpeak NG is an open source speech synthesizer that supports more than hundred languages and accents. Voices will sound rather robotic.
 - [Chatterbox](https://github.com/resemble-ai/chatterbox) - Local text-to-speech model with voice cloning that runs entirely on your own machine. Open source, MIT licensed.
 
@@ -315,7 +314,7 @@ When using cloud-based AI services, the data you input is often collected and st
 ✅  **Instead use**
 - [42links](https://42links.tuxproject.de) - Open-source, self-hosted, minimalist bookmark storage service.
 - [Floccus](https://floccus.org/) - Sync your bookmarks privately across browsers and devices.
-- [Grimoire](https://github.com/goniszewski/grimoire) - Modern, open source, self-hosted bookmark manager.
+- [Grimoire](https://github.com/goniszewski/grimoire) [💀](#icons) - Modern, open source, self-hosted bookmark manager.
 - [Karakeep](https://karakeep.app/) - (previously Hoarder) Open source "Bookmark Everything" app that uses AI for automatically tagging the content you throw at it.
 - [LinkAce](https://github.com/Kovah/LinkAce) - Open source, self-hosted bookmark archive that monitors and organizes your saved links (GPL-3.0).
 - [LinkDing](https://github.com/sissbruecker/linkding) - Open source, self-hosted bookmark manager built to be minimal, fast, and easy to run with Docker (MIT).
@@ -383,8 +382,8 @@ Google captchas use cookies to track users and rank their IPs.
 
 ## Cloaking
 ### Images
-- [Fawkes](https://github.com/Shawn-Shan/fawkes) - privacy preserving tool against facial recognition systems.
-  - [CloakMe](https://github.com/pluja/CloakMe) - Web interface for Fawkes algorithm.
+- [Fawkes](https://github.com/Shawn-Shan/fawkes) [💀](#icons) - privacy preserving tool against facial recognition systems.
+  - [CloakMe](https://github.com/pluja/CloakMe) [💀](#icons) - Web interface for Fawkes algorithm.
 - [ImageScrubber](https://github.com/everestpipkin/image-scrubber) - A friendly browser-based tool for anonymizing photographs taken at protests ([hosted version provided by everestpipkin](https://everestpipkin.github.io/image-scrubber/)).
 
 ### Text
@@ -433,7 +432,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 - [Supabase](https://supabase.io/) - Open source Firebase alternative ([Limited](https://github.com/supabase/supabase/issues/4934) [self-hosting](https://github.com/supabase/supabase/issues/4440#issuecomment-992108832))
 - [Pocketbase](https://pocketbase.io/) - Open Source backend in 1 file written in Go.
 - [TrailBase](https://trailbase.io/) - Open source, single-executable Firebase alternative built on Rust and SQLite, with type-safe REST and realtime APIs, auth, and an admin UI. OSL-3.0 licensed.
-- [CondensationDB](https://github.com/CondensationDB/Condensation) [Inactive] - Condensation is an open-source zero trust, distributed database enabling to build modern applications while ensuring data ownership and security.
+- [CondensationDB](https://github.com/CondensationDS/Condensation) [Inactive] - Condensation is an open-source zero trust, distributed database enabling to build modern applications while ensuring data ownership and security.
 - [Baserow](https://baserow.io/) - Self-hosted no-code database and spreadsheet that works as an open source Airtable alternative. MIT licensed core.
 
 [Back to top 🔝](#contents)
@@ -517,7 +516,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Hat.sh](https://hat.sh/) - A Free, Fast, Secure and Serverless File Encryption.
 - [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
 - [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
-- [Picocrypt](https://github.com/HACKERALERT/Picocrypt/) - A very small (hence "Pico"), very simple, yet very secure file encryption tool.
+- [Picocrypt](https://github.com/Picocrypt/Picocrypt) - A very small (hence "Pico"), very simple, yet very secure file encryption tool.
 - [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others. 
 - [age](https://age-encryption.org) - Modern command line file encryption tool with small keys and no configuration or keyring to manage. Open source, BSD-3 licensed.
 
@@ -535,23 +534,21 @@ on the DMCrypt kernel module.
 
 ✅ **Instead use**
 - [Blaze](https://blaze.now.sh/) - A fast, p2p and radically different way to transfer files.
-- [Blindsend](https://github.com/blindnet-io/blindsend) - Open source tool for private, end-to-end encrypted file exchange.
+- [Blindsend](https://github.com/blindnet-io/blindsend) [💀](#icons) - Open source tool for private, end-to-end encrypted file exchange.
 - [Croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another.
-- [Dat-cp](https://github.com/tom-james-watson/dat-cp) - Copy files between hosts on a network using the peer-to-peer Dat network.
+- [Dat-cp](https://github.com/tom-james-watson/dat-cp) [💀](#icons) - Copy files between hosts on a network using the peer-to-peer Dat network.
 - [Destiny](https://leastauthority.com/community-matters/destiny/) - Send files directly to the receiver in real-time. Developed for and with HROs as a free Privacy Enhancing Technology alternative.
 - [Gokapi](https://github.com/Forceu/Gokapi) - Lightweight selfhosted Firefox Send alternative without public upload. AWS S3 supported.
 - [Lufi](https://framagit.org/fiat-tux/hat-softwares/lufi) - Let's Upload that FIle — File sharing software.
 - [Localsend](https://localsend.org/) - Share files to nearby devices. Free, open source, cross-platform.
 - [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole) - Get things from one computer to another, safely.
 - [OnionShare](https://github.com/micahflee/onionshare) - An open source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network.
-- [Paperless](https://github.com/the-paperless-project/paperless) - [Now archived] Scan, index, and archive all of your paper documents.
-	- [Paperless-ng](https://github.com/jonaswinkler/paperless-ng) - [inactive] A supercharged version of paperless: scan, index and archive all your physical documents.
 - [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - A community-supported supercharged version of paperless based on paperless-ng
 - [PairDrop](https://github.com/schlagmichdoch/PairDrop) - An improved version of Snapdrop that also allows you to pair devices and share files outside your network.
 - [Portal](https://github.com/SpatiumPortae/portal) - A command-line file transfer utility for sending encrypted files from any computer to another.
 - [QRcp](https://github.com/claudiodangelis/qrcp) - Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
 - [Send](https://gitlab.com/timvisee/send) - Simple, private file sharing. (Mozilla Send Fork)
-- [Sharik](https://github.com/marchellodev/sharik) - Sharik works with Wi-Fi connection or Tethering (Wi-Fi Hotspot). No internet connection needed. Available for Android, iOS, Linux, MacOS & Windows.
+- [Sharik](https://github.com/marchellodev/sharik) [💀](#icons) - Sharik works with Wi-Fi connection or Tethering (Wi-Fi Hotspot). No internet connection needed. Available for Android, iOS, Linux, MacOS & Windows.
 - [Snapdrop](https://github.com/RobinLinus/snapdrop) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
 - [Winden](https://winden.app/) - A convenient version of Magic Wormhole you can use from within your browser. No need to install an app.
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
@@ -569,7 +566,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 ### Fitness trackers
 
 - [🤖](#icons) [Fitotrack](https://codeberg.org/jannis/FitoTrack) - A privacy oriented fitness tracker for Android.
-- [🤖](#icons) [OpenTracks](https://github.com/OpenTracksApp/OpenTracks) - OpenTracks is a sport tracking application that completely respects your privacy.
+- [🤖](#icons) [OpenTracks](https://codeberg.org/OpenTracksApp/OpenTracks) - OpenTracks is a sport tracking application that completely respects your privacy.
 - [🤖](#icons) [Gadgetbridge](https://codeberg.org/Freeyourgadget/Gadgetbridge) - A free and cloudless replacement for your gadget vendors' closed source Android applications.
 - [FitTrackee](https://codeberg.org/FitTrackee/FitTrackee) - Self-hosted web app to record and analyze outdoor activities from GPS files, as a Strava alternative (AGPL-3.0).
 
@@ -586,8 +583,8 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [🤖](#icons) [Bluemoon](https://gitlab.com/ngrob/bluemoon-android) - Open source, privacy friendly menstruation tracking app. Your period, your data!
 - [🤖](#icons) [Drip](https://dripapp.org/) - Menstrual cycle and fertility tracking. Everything you enter stays on your device.
 - [Euki](https://eukiapp.org/) - The period tracker that doesn’t track you. 
-- [🤖](#icons) [log28](https://github.com/wildeyedskies/log28) - a (very) simple no-frills period tracker for Android.
-- [🤖](#icons) [Periodical](https://github.com/arnowelzel/periodical) - A calendar to track your menstruation and calculate possible fertile days
+- [🤖](#icons) [log28](https://codeberg.org/boxedtoast/log28) - a (very) simple no-frills period tracker for Android.
+- [🤖](#icons) [Periodical](https://codeberg.org/askaaron/periodical) - A calendar to track your menstruation and calculate possible fertile days
 - [Poppy](https://poppy.usenostr.org) - Poppy is a private period tracker that runs in the browser. It stores data locally, and can sync and backup through Nostr relays without a Poppy server or account, all encrypted end to end.
 
 ### Medical health
@@ -736,7 +733,6 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 ## Link in Bio Tools
 
 - [Keyoxide](https://keyoxide.org/) - A modern, secure and privacy-friendly platform to establish your decentralized online identity.
-- [BioDrop](https://github.com/EddieHubCommunity/BioDrop) - Connect to your audience with a single link. Showcase the content you create and your projects in one place. Make it easier for people to find, follow and subscribe.
 - [LinkStack](https://linkstack.org/) - Self-hosted open-source Linktree alternative.
 
 [Back to top 🔝](#contents)
@@ -881,9 +877,9 @@ With email aliases, you can finally create a different identity for each website
 
 
 **Youtube Music alternative clients**
-- [Beatbump](https://github.com/snuffyDev/Beatbump) - Alternative frontend for YouTube Music; no ads and custom API wrapper.
+- [Beatbump](https://github.com/snuffyDev/Beatbump) [💀](#icons) - Alternative frontend for YouTube Music; no ads and custom API wrapper.
 - [ViMusic](https://github.com/vfsfitvnm/ViMusic) - [Unmantained] A Jetpack Compose Android application for streaming music from YouTube Music.
-	- [RiMusic](https://github.com/fast4x/RiMusic) - A ViMusic maintained fork.
+	- [SimpMusic](https://github.com/Maxrave-Dev/SimpMusic) - Open source, actively maintained YouTube Music client for Android (successor to the discontinued ViMusic and RiMusic).
 
 **Deezer alternative clients**
 - [dzr](https://github.com/yne/dzr) - Command line Deezer player for Linux, BSD, Android+Termux
@@ -911,7 +907,7 @@ With email aliases, you can finally create a different identity for each website
 These providers offer apps and services filled with data trackers. Also, most of them store your notes on their servers and do not offer any kind of encryption.
 
 - Google Keep
-    - [Google Keep Exporter](https://github.com/vHanda/google-keep-exporter) or [Keep To Markdown](https://github.com/erikelisath/keep-to-markdown) -  Convert your Google Keep notes into a standard markdown + YAML header format.
+    - [Keep To Markdown](https://github.com/erikelisath/keep-to-markdown) - Convert your Google Keep notes into a standard markdown + YAML header format.
 - Evernote
 - Squid
 - Notion
@@ -1282,7 +1278,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 ✅  **Instead use**
 - [Whoogle Search](https://github.com/benbusby/whoogle-search) - A self-hosted, ad-free, privacy-respecting Google metasearch engine.
-- [librengine](https://github.com/liameno/librengine) - Privacy Web Search Engine 
+- [librengine](https://github.com/liameno/librengine) [💀](#icons) - Privacy Web Search Engine 
 - [SearX](https://searx.me/) - Privacy-respecting metasearch engine.
   - [SearxNG](https://github.com/searxng/searxng) - Free internet metasearch engine which aggregates results from various search services and databases.  
 - [DuckDuckGo](https://duckduckgo.com) - A privacy respecting search engine.
@@ -1346,7 +1342,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 Odysee website contains some trackers and is a heavy site. You can use these alternatives to avoid trackers and have a more minimalistic and lightweight UI:
 
-- [Librarian](https://codeberg.org/librarian/librarian) - An alternative frontend for LBRY/Odysee. Inspired by Invidious and Libreddit.
+- [Librarian](https://codeberg.org/librarian/librarian) [💀](#icons) - An alternative frontend for LBRY/Odysee. Inspired by Invidious and Libreddit.
 
 ### Quora
 
@@ -1381,7 +1377,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube) - FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend).
 - [🤖](#icons) [LibreTube](https://github.com/Libre-tube/LibreTube) - An alternative frontend for YouTube, for Android using Piped.
 - [Yattee](https://github.com/yattee/yattee) - Alternative YouTube frontend for iOS, tvOS and macOS built with Invidious and Piped.
-- [🤖](#icons) [Clipious](https://github.com/lamarios/clipious) Invidious client for android
+- [🤖](#icons) [Clipious](https://github.com/lamarios/clipious) [💀](#icons) Invidious client for android
 
 ### TikTok
 
@@ -1419,7 +1415,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Nitter](https://github.com/zedeus/nitter/wiki/Instances) - Nitter is a free and open source alternative Twitter front-end focused on privacy.
 	- [Fritter](https://github.com/jonjomckay/fritter/) - A free, open-source Nitter client for Android (feed no longer available).
  		- - [Squawker](https://github.com/j-fbriere/squawker) - An active fork of Fritter that fixes the feed.
-- [Feetter](https://codeberg.org/pluja/Feetter) - Create, sync and manage Nitter feeds without registration from any device.
+- [Feetter](https://codeberg.org/pluja/Feetter) [💀](#icons) - Create, sync and manage Nitter feeds without registration from any device.
 
 ### Reddit
 
@@ -1429,7 +1425,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 ✅ **Reddit alternatives:**
 - [Aether](https://getaether.net/) - Peer-to-peer ephemeral public communities.
-- [Kbin](https://github.com/ernestwisniewski/kbin) [🧩](#icons) - A reddit-like content aggregator and micro-blogging platform for the fediverse. 
+- [Mbin](https://github.com/MbinOrg/mbin) [🧩](#icons) - A reddit-like content aggregator and micro-blogging platform for the fediverse; the community-maintained continuation of kbin.
 - [Lemmy](https://join.lemmy.ml/) [🧩](#icons) - A federated and open alternative to Reddit in Rust.
 - [SaidIt](https://saidit.net/) - Open source Reddit clone.
 
@@ -1534,7 +1530,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [Linguist](https://linguister.io) - A free and Open Source full-featured translation solution in-browser with embedded offline translator and [custom translators](https://linguister.io/docs/CustomTranslator). Full-page translation, TTS, dictionary, translation for user input and selected text on page.
 
 ✅ **Alternative Google Translate frontends**
-- [Lingva](https://github.com/TheDavidDelta/lingva-translate) - Alternative front-end for Google Translate. [Demo](https://lingva.ml/).
+- [Lingva](https://github.com/TheDavidDelta/lingva-translate) [💀](#icons) - Alternative front-end for Google Translate. [Demo](https://lingva.ml/).
 - [Simplytranslate](https://codeberg.org/ManeraKai/simplytranslate) - Alternative front-end for Google Translate and LibreTranslate. [Demo](https://simplytranslate.org/)
 - [Mozhi](https://codeberg.org/aryak/mozhi) - Alternative frontend that aggregates Google Translate, DeepL, Yandex, and other engines behind one private UI. Self-hostable, AGPL-3.0 licensed.
 
@@ -1583,7 +1579,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [BigBlueButton](https://bigbluebutton.org/) - BigBlueButton is a web conferencing system designed for online learning.
 - [Briefing](https://github.com/holtwick/briefing/) - Secure direct video group chat. Only open technologies (such as WebRTC) are used, which work with all modern browsers.
 - [Chitchatter](https://chitchatter.im/) - Secure P2P chat that is serverless, decentralized, and ephemeral. Supports text, audio, video, screen, and file sharing.
-- [Jam](https://github.com/jam-systems/jam) - Jam is your own open source Clubhouse for mini conferences, friends, communities.
+- [Jam](https://github.com/jam-systems/jam) [💀](#icons) - Jam is your own open source Clubhouse for mini conferences, friends, communities.
 - [Jami](https://jami.net/) - P2P audio and video conferences.
 - [Jitsi Meet](https://github.com/jitsi/jitsi-meet) - More secure, more flexible, and completely free video conferencing. If you use the official instance, you will need to login. Self-hosting is recommended.
 - [Mirotalk P2P](https://p2p.mirotalk.com/) - Free WebRTC - P2P - Simple, Secure, Fast Real-Time Video Conferences Up to 4k and 60fps, compatible with all browsers and platforms.
@@ -1599,7 +1595,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 - [OpenAsar](https://openasar.dev/) - An open-source alternative of Discord desktop's app.asar that comes with a [No Track](https://github.com/GooseMod/OpenAsar/blob/main/src/noTrack.js) function.
 - [Vencord](https://github.com/Vendicated/Vencord) - A Discord client mod that does things differently.
 - [BetterDiscord](https://betterdiscord.app/) - A client modification for Discord, also you need to install a [DoNotTrack](https://betterdiscord.app/plugin/DoNotTrack) plugin to block trackers.
-- [Kernel](https://github.com/kernel-mod/electron) - A super small and fast Electron client mod with the most capability, also you need to install a [Discord Utilities](https://github.com/slow/discord-utilities) package to block trackers.
+- [Kernel](https://github.com/kernel-mod/electron) [💀](#icons) - A super small and fast Electron client mod with the most capability, also you need to install a [Discord Utilities](https://github.com/slow/discord-utilities) package to block trackers.
 - [Replugged](https://replugged.dev/) - A continuation of the deprecated client mod [Powercord](https://powercord.dev).
 - [WebCord](https://github.com/SpacingBat3/WebCord) - A Discord and Fosscord API-less client made with the Electron.
 - [🤖](#icons) [Aliucord](https://github.com/Aliucord/Aliucord) - A modification for the Android Discord app that fully [disables the Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
