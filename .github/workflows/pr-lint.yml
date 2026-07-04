@@ -1,0 +1,124 @@
+name: PR Lint (links + format)
+
+# Runs on pull requests that touch the list. Two independent checks:
+#   1. link-check   - lychee looks for dead links in README.md.
+#   2. format-lint  - warns when a newly added entry has no description.
+
+on:
+  pull_request:
+    paths:
+      - 'README.md'
+
+permissions:
+  contents: read
+
+jobs:
+  link-check:
+    name: Check README links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run lychee on README.md
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Scope strictly to README.md.
+          # --accept whitelists transient/bot-block codes so the PR only hard
+          # fails on real dead links (404/410) and dead domains (DNS/connection
+          # errors, which lychee reports as errors and are not accepted here).
+          # lychee follows redirects, so a link that redirects to a live page
+          # counts as success. Retries soften short-lived timeouts.
+          args: >-
+            --no-progress
+            --cache
+            --max-cache-age 1d
+            --max-retries 3
+            --retry-wait-time 2
+            --timeout 20
+            --exclude-mail
+            --accept '100..=103,200..=299,403,429,500,502,503,504,999'
+            README.md
+          format: markdown
+          output: lychee/out.md
+          jobSummary: true
+          fail: true
+          failIfEmpty: false
+
+  format-lint:
+    name: Lint new entries
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check added entries follow the house format
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          python3 - <<'PY'
+          import os, re, subprocess, sys
+
+          base = os.environ.get("BASE_SHA", "")
+          head = os.environ.get("HEAD_SHA", "")
+
+          # Only inspect lines this PR adds to README.md.
+          diff = ""
+          try:
+              diff = subprocess.run(
+                  ["git", "diff", "--unified=0", base, head, "--", "README.md"],
+                  capture_output=True, text=True, check=False,
+              ).stdout
+          except Exception as exc:
+              print(f"::warning::Could not compute diff, skipping format lint ({exc})")
+
+          added = [
+              line[1:]
+              for line in diff.splitlines()
+              if line.startswith("+") and not line.startswith("+++")
+          ]
+
+          # A list item that carries an external link: "- [Name](https://...) ..."
+          entry_re = re.compile(r"^\s*[-*]\s+.*\]\(https?://")
+          # Strip the leading bullet so we can test the remainder.
+          bullet_re = re.compile(r"^\s*[-*]\s+")
+
+          warnings, checked = [], 0
+          for text in added:
+              if not entry_re.search(text):
+                  continue  # skips TOC anchors (#...), "Avoid" bullets, prose.
+              checked += 1
+              body = bullet_re.sub("", text, count=1)
+              # House format puts " - description" after the link(s). Every valid
+              # entry has a " - " separator; a bare "- [Name](url)" has none.
+              if " - " not in body:
+                  warnings.append(text.strip())
+                  print(f"::warning::Entry may be missing a description: {text.strip()}")
+
+          out = ["## README format lint", ""]
+          out.append(f"Checked **{checked}** added link entr{'y' if checked == 1 else 'ies'}.")
+          out.append("")
+          if warnings:
+              out.append(
+                  f"{len(warnings)} entr{'y' if len(warnings) == 1 else 'ies'} "
+                  "may be missing a description "
+                  "(house format: `- [Name](url) - description.`):"
+              )
+              out.append("")
+              out += [f"- `{w}`" for w in warnings]
+          else:
+              out.append("All added link entries include a description.")
+
+          report = "\n".join(out) + "\n"
+          print(report)
+          summary = os.environ.get("GITHUB_STEP_SUMMARY")
+          if summary:
+              with open(summary, "a") as fh:
+                  fh.write(report)
+
+          # Warn only. Format nits never block a PR.
+          sys.exit(0)
+          PY
