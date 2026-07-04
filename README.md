@@ -1597,6 +1597,7 @@ Here are some open source and truly private (no personal data and/or credit card
 
 #### Desktop
 - [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) - A lightweight approach to removing Google web service dependency. Ungoogled-chromium is Google Chromium, sans dependency on Google web services.
+- [Snipe](https://browser.snipeoffice.org/) - A de-Googled browser built on Ungoogled Chromium with zero telemetry, uBlock Origin and Ruffle/Flash compiled into the core, and a local-only password manager. Notably runs on Windows XP through 11. Freeware (new project).
 - [Brave](https://brave.com/) - Brave offers a pretty good out-of-the-box set of privacy and tracker protections.
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Open Source, independent browser. It needs some [hardening and tweaking](https://anonymousplanet.org/guide.html#firefox-1) to achieve great privacy.
   - [LibreWolf](https://librewolf.net/) - Privacy-focused Firefox fork.
