@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Run lychee on README.md
         uses: lycheeverse/lychee-action@v2
@@ -34,7 +34,7 @@ jobs:
             --retry-wait-time 2
             --timeout 20
             --exclude-mail
-            --accept '200..=299,403,429,999'
+            --accept 200..=299,403,429,999
             README.md
           format: json
           output: lychee/out.json
@@ -57,6 +57,7 @@ jobs:
 
           # ---- 1. Dead links, from the lychee JSON report ------------------------
           dead = []
+          dead_ok = True
           try:
               with open("lychee/out.json") as fh:
                   data = json.load(fh)
@@ -68,8 +69,10 @@ jobs:
                       text = status.get("text") or status.get("details") or "error"
                       dead.append((url, text))
           except FileNotFoundError:
+              dead_ok = False
               print("::warning::lychee/out.json not found; skipping dead-link section")
           except Exception as exc:
+              dead_ok = False
               print(f"::warning::Could not parse lychee output ({exc})")
           # De-duplicate while keeping order.
           seen = set()
@@ -167,13 +170,14 @@ jobs:
           lines.append("")
 
           lines.append(f"## Dead links ({len(dead)})")
+          lines.append("")
           if dead:
-              lines.append("")
               for url, text in dead:
                   lines.append(f"- {url} - {text}")
-          else:
-              lines.append("")
+          elif dead_ok:
               lines.append("None found.")
+          else:
+              lines.append("_Link scan produced no output this run; dead links were not checked._")
           lines.append("")
 
           lines.append(f"## Stale or archived repositories ({len(stale)})")
@@ -197,7 +201,7 @@ jobs:
           with open("health-report.md", "w", encoding="utf-8") as fh:
               fh.write("\n".join(lines) + "\n")
 
-          has_findings = bool(dead or stale)
+          has_findings = bool(dead or stale or not dead_ok)
           out = os.environ.get("GITHUB_OUTPUT")
           if out:
               with open(out, "a") as fh:

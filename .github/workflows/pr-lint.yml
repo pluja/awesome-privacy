@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Run lychee on README.md
         uses: lycheeverse/lychee-action@v2
@@ -37,7 +37,7 @@ jobs:
             --retry-wait-time 2
             --timeout 20
             --exclude-mail
-            --accept '100..=103,200..=299,403,429,500,502,503,504,999'
+            --accept 100..=103,200..=299,403,429,500,502,503,504,999
             README.md
           format: markdown
           output: lychee/out.md
@@ -50,7 +50,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
