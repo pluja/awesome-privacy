@@ -23,6 +23,7 @@ jobs:
       - name: Run lychee on README.md
         uses: lycheeverse/lychee-action@v2
         with:
+          lycheeVersion: v0.23.0
           # Scope strictly to README.md.
           # --accept whitelists transient/bot-block codes so the PR only hard
           # fails on real dead links (404/410) and dead domains (DNS/connection
@@ -36,7 +37,6 @@ jobs:
             --max-retries 3
             --retry-wait-time 2
             --timeout 20
-            --exclude-mail
             --accept 100..=103,200..=299,403,429,500,502,503,504,999
             README.md
           format: markdown

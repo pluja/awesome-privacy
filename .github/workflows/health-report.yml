@@ -24,6 +24,7 @@ jobs:
       - name: Run lychee on README.md
         uses: lycheeverse/lychee-action@v2
         with:
+          lycheeVersion: v0.23.0
           # Whole file, JSON output for the parser below.
           # fail:false keeps the job green so we can build the report either way.
           args: >-
@@ -33,7 +34,6 @@ jobs:
             --max-retries 3
             --retry-wait-time 2
             --timeout 20
-            --exclude-mail
             --accept 200..=299,403,429,999
             README.md
           format: json
