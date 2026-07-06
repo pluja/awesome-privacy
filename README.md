@@ -170,7 +170,7 @@
 	- [Aurora Droid](https://auroraoss.com/download/#aurora-droid) - Aurora Droid is a modern FOSS client for F-Droid.
 	- [Foxy Droid](https://github.com/kitsunyan/foxy-droid) [💀](#icons) - Unofficial F-Droid client in the style of the classic one.
 - [FossDroid](https://fossdroid.com/) - Fossdroid's aim is to promote free and open source apps on the Android platform: newest, trendiest and the most popular ones.
-- [SkyDroid](https://skydroid.app/) - Decentralized App Store for Android
+- [SkyDroid](https://github.com/redsolver/skydroid) [💀](#icons) - Decentralized App Store for Android
 - [Obtainium](https://github.com/ImranR98/Obtainium) - Get app updates directly from the source.
 - [Accrescent](https://github.com/accrescent/accrescent) - A novel Android app store focused on security, privacy, and usability.
 
