@@ -167,6 +167,7 @@
 ✅  **Instead use**
 - [F-Droid](https://f-droid.org/) - F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.
 	- [Droid-ify](https://github.com/Iamlooker/Droid-ify) - Lightweight F-Droid client with Material UI.
+	- [Aurora Droid](https://github.com/whyorean/AuroraDroid) [💀](#icons) - Aurora Droid is a modern FOSS client for F-Droid.
 	- [Foxy Droid](https://github.com/kitsunyan/foxy-droid) [💀](#icons) - Unofficial F-Droid client in the style of the classic one.
 - [FossDroid](https://fossdroid.com/) - Fossdroid's aim is to promote free and open source apps on the Android platform: newest, trendiest and the most popular ones.
 - [SkyDroid](https://skydroid.app/) - Decentralized App Store for Android
