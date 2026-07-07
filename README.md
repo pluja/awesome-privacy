@@ -520,6 +520,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Picocrypt](https://github.com/Picocrypt/Picocrypt) - A very small (hence "Pico"), very simple, yet very secure file encryption tool.
 - [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others. 
 - [age](https://age-encryption.org) - Modern command line file encryption tool with small keys and no configuration or keyring to manage. Open source, BSD-3 licensed.
+- [PaperVault](https://papervault.xyz) - Open source, self-hostable tool that encrypts secrets in the browser and splits the key into printable QR codes with Shamir's Secret Sharing, for offline paper cold-storage backup.
 
 ### OS Encryption
 
