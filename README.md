@@ -295,7 +295,6 @@ When using cloud-based AI services, the data you input is often collected and st
 	- [ParakeetTDT](https://parakeettdt.com/) - Efficient audio transcription. Convert speech to text with unprecedented speed and accuracy using NVIDIA advanced AI speech recognition model.
 
 - **Apps and services**
-	- [oats](https://github.com/ariso-ai/oats) - Open-source macOS 14+ Apple Silicon menu bar meeting-notes app with live transcription, speaker labels, and AI summaries, including a fully offline on-device mode as an alternative to cloud meeting transcription bots; MIT licensed.
 	- [OpenWhispr](https://github.com/OpenWhispr/openwhispr) - Voice-to-text dictation and productivity app with AI agents, meeting transcription, notes, and local/cloud speech recognition. Privacy-first and available cross-platform. Open source alternative to wisprflow.
 	- [Sasayaki](https://github.com/pluja/sasayaki) - Tiny android dictation app that turns speech into clear writing.
 	- [Speaches](https://github.com/speaches-ai/speaches) - OpenAI API-compatible server supporting streaming transcription, translation, and speech generation.
@@ -927,6 +926,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 	- [Nextcloud Notes app](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app (local only, no sync).
 - [Notesnook](https://notesnook.com/) - Open source zero knowledge private note taking.
+- [oats](https://github.com/ariso-ai/oats) - Open-source macOS 14+ Apple Silicon meeting-notes app with live transcription, speaker labels, AI summaries, and a fully offline on-device mode for privacy-sensitive meeting notes; MIT licensed.
 - [Obsidian](https://obsidian.md) - Obsidian is the private and flexible note‑taking app. Closed source but has no trackers (website / apps) and E2EE sync. 
 - [Quillpad](https://quillpad.github.io/) - Take beautiful markdown notes and stay organized with task lists. Fork of Quillnote.
 - [SiYuan](https://github.com/siyuan-note/siyuan) - A local-first personal knowledge management system.
