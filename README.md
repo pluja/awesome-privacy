@@ -266,6 +266,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [Tinfoil](https://tinfoil.sh/) - Verifiably private AI Chat and OpenAI-compatible inference in the cloud. Uses NVIDIA confidential computing and open source code pinned to a transparency log for end-to-end verifiability.
 - [Open WebUI](https://openwebui.com) - Self-hosted web interface for Ollama and other local models that gives you a private ChatGPT-style chat. BSD-3 licensed.
 - [LibreChat](https://librechat.ai) - Self-hosted chat interface that connects many AI models behind one private UI you control. Open source, MIT licensed.
+- [Prevail](https://github.com/fru-dev3/prevail-desktop) - Local-first AI "life OS" desktop app for macOS and Windows: any model per life-domain over a plain-markdown vault on your machine, fully offline with Ollama. Open source, GPL-3.0 licensed.
 
 #### AI Coding
 
