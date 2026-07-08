@@ -26,6 +26,7 @@ import datetime as dt
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import urllib.error
@@ -169,6 +170,53 @@ def scan_repos(repos, skull_set, now, token, limit=0):
     return findings, checked, rate_limited
 
 
+def added_readme_text(base):
+    """The lines a PR adds to README.md, for scoping the check to new entries."""
+    try:
+        out = subprocess.run(
+            ["git", "diff", "--unified=0", base, "HEAD", "--", "README.md"],
+            capture_output=True, text=True, check=False,
+        ).stdout
+    except Exception as exc:
+        print(f"::warning::could not compute diff ({exc})", file=sys.stderr)
+        return ""
+    return "\n".join(
+        line[1:] for line in out.splitlines()
+        if line.startswith("+") and not line.startswith("+++")
+    )
+
+
+def run_pr_check(base, now, token, limit):
+    """Check only the repos a PR adds. Warns, never blocks. Returns exit code 0."""
+    added = added_readme_text(base)
+    repos = extract_repos(added)
+    findings, checked, rate_limited = scan_repos(
+        repos, extract_skull_repos(added), now, token, limit
+    )
+    new = [(s, w) for s, w, sk in findings if not sk]
+    for slug, why in new:
+        print(f"::warning::{slug} - {why}")  # inline annotation on the PR
+
+    lines = ["## Open-source check of added repositories", "",
+             f"Checked {checked} newly added repo(s)."]
+    if new:
+        lines += ["", "Review these before merge (warnings, not blockers):"]
+        lines += [f"- {slug} - {why}" for slug, why in new]
+    else:
+        lines.append("No open-source concerns in the added repositories.")
+    if rate_limited:
+        lines += ["", "_GitHub rate limit hit; some repos were not checked._"]
+    summary = "\n".join(lines) + "\n"
+
+    step = os.environ.get("GITHUB_STEP_SUMMARY")
+    if step:
+        with open(step, "a", encoding="utf-8") as fh:
+            fh.write(summary)
+    else:
+        sys.stdout.write(summary)
+    return 0  # warn only; the maintainer decides
+
+
 def parse_dead_links(path):
     """Return (dead_links, scan_ran). dead_links = [(url, reason), ...]."""
     try:
@@ -235,11 +283,16 @@ def main():
     ap.add_argument("--lychee", default="lychee/out.json")
     ap.add_argument("--limit", type=int, default=0, help="cap repos checked (0 = all)")
     ap.add_argument("--out", default=None)
+    ap.add_argument("--diff-base", default=None,
+                    help="PR mode: check only repos added since this git ref (warns, never blocks)")
     args = ap.parse_args()
 
     now = dt.datetime.now(dt.timezone.utc)
     today = now.date().isoformat()
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
+
+    if args.diff_base:
+        sys.exit(run_pr_check(args.diff_base, now, token, args.limit))
 
     with open(args.readme, encoding="utf-8") as fh:
         readme = fh.read()

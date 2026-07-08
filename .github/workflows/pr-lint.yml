@@ -1,8 +1,10 @@
 name: PR Lint (links + format)
 
-# Runs on pull requests that touch the list. Two independent checks:
-#   1. link-check   - lychee looks for dead links in README.md.
-#   2. format-lint  - warns when a newly added entry has no description.
+# Runs on pull requests that touch the list. Three independent checks:
+#   1. link-check      - lychee looks for dead links in README.md.
+#   2. format-lint     - warns when a newly added entry has no description.
+#   3. openness-check  - verifies the repos a PR ADDS: gone, archived, unlicensed,
+#                        or no real source code. Warns, never blocks.
 
 on:
   pull_request:
@@ -122,3 +124,20 @@ jobs:
           # Warn only. Format nits never block a PR.
           sys.exit(0)
           PY
+
+  openness-check:
+    name: Check added repositories
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0   # need the base commit to diff against
+
+      - name: Verify open-source claims of added repos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # full rate limit
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        # Checks only repos this PR adds. Posts warnings to the job summary and
+        # inline annotations; never fails the PR (the maintainer decides).
+        run: python3 scripts/health_report.py --diff-base "$BASE_SHA"
