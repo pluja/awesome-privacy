@@ -1,8 +1,9 @@
 name: Health report
 
-# Monthly maintenance scan of README.md. Finds dead links and repos that look
-# abandoned (archived, or no push in over 18 months), then opens one issue with
-# the findings. Opens nothing when everything is healthy.
+# Monthly maintenance + open-source audit of README.md. Finds dead links and
+# repos that are gone, archived, stale (no push in 18+ months), unlicensed, or
+# have no real source code. Opens one issue with the findings, nothing when clean.
+# Logic lives in scripts/health_report.py so it can be run and tested locally.
 
 on:
   schedule:
@@ -25,7 +26,7 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           lycheeVersion: v0.23.0
-          # Whole file, JSON output for the parser below.
+          # Whole file, JSON output for the parser in health_report.py.
           # fail:false keeps the job green so we can build the report either way.
           args: >-
             --no-progress
@@ -42,173 +43,11 @@ jobs:
           fail: false
           failIfEmpty: false
 
-      - name: Build report (dead links + stale repos)
+      - name: Build report (dead links + repository issues)
         id: scan
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python3 - <<'PY'
-          import datetime as dt
-          import json, os, re, urllib.error, urllib.request
-
-          NOW = dt.datetime.now(dt.timezone.utc)
-          STALE_DAYS = 18 * 30  # ~18 months
-          TOKEN = os.environ.get("GITHUB_TOKEN", "")
-
-          # ---- 1. Dead links, from the lychee JSON report ------------------------
-          dead = []
-          dead_ok = True
-          try:
-              with open("lychee/out.json") as fh:
-                  data = json.load(fh)
-              emap = data.get("error_map") or data.get("fail_map") or {}
-              for entries in emap.values():
-                  for item in entries:
-                      url = item.get("url", "")
-                      status = item.get("status") or {}
-                      text = status.get("text") or status.get("details") or "error"
-                      dead.append((url, text))
-          except FileNotFoundError:
-              dead_ok = False
-              print("::warning::lychee/out.json not found; skipping dead-link section")
-          except Exception as exc:
-              dead_ok = False
-              print(f"::warning::Could not parse lychee output ({exc})")
-          # De-duplicate while keeping order.
-          seen = set()
-          dead = [d for d in dead if not (d[0] in seen or seen.add(d[0]))]
-
-          # ---- 2. Stale / archived repositories ---------------------------------
-          with open("README.md", encoding="utf-8") as fh:
-              readme = fh.read()
-
-          # Capture host/owner/repo; any subpath (/tree/..., /blob/...) is ignored.
-          repo_re = re.compile(
-              r"https?://(?:www\.)?(github\.com|codeberg\.org)/"
-              r"([A-Za-z0-9._-]+)/([A-Za-z0-9._-]+)"
-          )
-          # First path segments that are never a real owner.
-          RESERVED = {
-              "sponsors", "orgs", "topics", "about", "features", "marketplace",
-              "settings", "explore", "collections", "apps", "notifications",
-              "login", "join", "pricing", "security", "site", "contact",
-              "readme", "search", "new", "watching", "stars",
-          }
-
-          repos = {}  # (host, owner_lower, repo_lower) -> (host, owner, repo)
-          for host, owner, repo in repo_re.findall(readme):
-              if owner.lower() in RESERVED:
-                  continue
-              repo = repo.rstrip(".")
-              if repo.endswith(".git"):
-                  repo = repo[:-4]
-              if not repo:
-                  continue
-              key = (host, owner.lower(), repo.lower())
-              repos.setdefault(key, (host, owner, repo))
-
-          def fetch(url, token=None):
-              req = urllib.request.Request(url)
-              req.add_header("Accept", "application/json")
-              req.add_header("User-Agent", "awesome-privacy-health-report")
-              if token:
-                  req.add_header("Authorization", f"Bearer {token}")
-              with urllib.request.urlopen(req, timeout=20) as resp:
-                  return json.load(resp)
-
-          def parse_ts(value):
-              if not value:
-                  return None
-              try:
-                  return dt.datetime.strptime(
-                      value.replace("Z", "+0000"), "%Y-%m-%dT%H:%M:%S%z"
-                  )
-              except ValueError:
-                  return None
-
-          stale = []  # (slug, reason)
-          for host, owner, repo in sorted(repos.values()):
-              slug = f"{host}/{owner}/{repo}"
-              try:
-                  if host == "github.com":
-                      info = fetch(
-                          f"https://api.github.com/repos/{owner}/{repo}", TOKEN
-                      )
-                      last = parse_ts(info.get("pushed_at"))
-                  else:  # codeberg.org (Forgejo/Gitea API, public, no token)
-                      info = fetch(
-                          f"https://codeberg.org/api/v1/repos/{owner}/{repo}"
-                      )
-                      last = parse_ts(info.get("updated_at"))
-              except urllib.error.HTTPError as exc:
-                  if exc.code in (404, 410):
-                      stale.append((slug, f"repository not found (HTTP {exc.code})"))
-                  else:
-                      print(f"::warning::{slug}: HTTP {exc.code}, skipped")
-                  continue
-              except Exception as exc:
-                  print(f"::warning::{slug}: {exc}, skipped")
-                  continue
-
-              reasons = []
-              if info.get("archived"):
-                  reasons.append("archived")
-              if last is not None:
-                  age = (NOW - last).days
-                  if age > STALE_DAYS:
-                      months = age // 30
-                      reasons.append(
-                          f"no push since {last.date()} (~{months} months)"
-                      )
-              if reasons:
-                  stale.append((slug, "; ".join(reasons)))
-
-          # ---- 3. Assemble the report -------------------------------------------
-          today = NOW.date().isoformat()
-          lines = [f"# Health report {today}", ""]
-          lines.append("Automated monthly scan of `README.md`.")
-          lines.append("")
-
-          lines.append(f"## Dead links ({len(dead)})")
-          lines.append("")
-          if dead:
-              for url, text in dead:
-                  lines.append(f"- {url} - {text}")
-          elif dead_ok:
-              lines.append("None found.")
-          else:
-              lines.append("_Link scan produced no output this run; dead links were not checked._")
-          lines.append("")
-
-          lines.append(f"## Stale or archived repositories ({len(stale)})")
-          lines.append("")
-          lines.append(
-              "Archived, or no push in over 18 months. "
-              "Consider marking with the skull icon or delisting."
-          )
-          if stale:
-              lines.append("")
-              for slug, reason in stale:
-                  lines.append(f"- {slug} - {reason}")
-          else:
-              lines.append("")
-              lines.append("None found.")
-          lines.append("")
-          lines.append(
-              "_Some entries may be transient. Verify before acting._"
-          )
-
-          with open("health-report.md", "w", encoding="utf-8") as fh:
-              fh.write("\n".join(lines) + "\n")
-
-          has_findings = bool(dead or stale or not dead_ok)
-          out = os.environ.get("GITHUB_OUTPUT")
-          if out:
-              with open(out, "a") as fh:
-                  fh.write(f"has_findings={'true' if has_findings else 'false'}\n")
-                  fh.write(f"date={today}\n")
-          print(f"Dead links: {len(dead)} | Stale repos: {len(stale)}")
-          PY
+        run: python3 scripts/health_report.py --lychee lychee/out.json --out health-report.md
 
       - name: Ensure maintenance label exists
         if: steps.scan.outputs.has_findings == 'true'
