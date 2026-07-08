@@ -360,6 +360,7 @@ Google captchas use cookies to track users and rank their IPs.
 - [🤖](#icons) [KashCal](https://github.com/KashCal/KashCal) - Offline-first Android calendar with iCloud/CalDAV sync, full-text search, recurring events, and home screen widget. Apache 2.0 licensed.
 - [Nextcloud Calendar](https://apps.nextcloud.com/apps/calendar) - Calendar app for Nextcloud with CalDAV support. Self-hostable.
 - [Proton Calendar](https://proton.me/calendar) - End-to-end encrypted calendar from Proton. Part of the Proton privacy ecosystem.
+- [Family Trip Planner](https://ordinarymantrying.com/tools/family-schedule.html) - Browser-based family itinerary planner. No account, no server, no tracking. All data stays in localStorage only — nothing ever leaves your device. Export schedule as image or print directly.
 
 [Back to top 🔝](#contents)
 
