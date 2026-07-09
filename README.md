@@ -571,6 +571,10 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [🤖](#icons) [Gadgetbridge](https://codeberg.org/Freeyourgadget/Gadgetbridge) - A free and cloudless replacement for your gadget vendors' closed source Android applications.
 - [FitTrackee](https://codeberg.org/FitTrackee/FitTrackee) - Self-hosted web app to record and analyze outdoor activities from GPS files, as a Strava alternative (AGPL-3.0).
 
+### Habit Tracking
+
+- [Metamorphic](https://metamorphic.app) - Zero-knowledge encrypted habit tracker with E2E encryption, goal setting, reflections, and scheduling. Uses hybrid post-quantum key encapsulation (ML-KEM-768 + X25519). No plaintext user data on the server.
+
 ### Workout planners
 
 - [wger](https://wger.de/en/software/features) - A free, open source, self-hosted web application that manages your exercises, workouts and nutrition.
