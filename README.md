@@ -277,6 +277,12 @@ When using cloud-based AI services, the data you input is often collected and st
 - [Aider](https://aider.chat) - Terminal AI pair programmer that edits code in your local git repository using your own API keys. Apache-2.0 licensed.
 - [Tabby](https://tabby.tabbyml.com) - Self-hosted code completion assistant that runs on your own hardware as an alternative to GitHub Copilot. Apache-2.0 licensed.
 
+#### AI Agent Collaboration
+
+When AI agents collaborate, they often share code, prompts, and internal logic with each other, creating new privacy risks. Traditional agent frameworks expose implementation details during collaboration.
+
+- [CoWorker Protocol](https://github.com/ZiwayZhao/agent-coworker) - Privacy-preserving P2P agent collaboration. Agents share skill schemas (input/output contracts) without exposing code, prompts, or internal logic. E2E encrypted via XMTP, with revocable trust that auto-downgrades after task completion.
+
 #### Text to Speech
 
 - [Kokoro FastAPI](https://github.com/remsky/Kokoro-FastAPI) - Dockerized FastAPI wrapper for [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) text-to-speech model w/CPU, ONNX and NVIDIA GPU support, handling, and auto-stitching.
