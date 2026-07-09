@@ -342,6 +342,7 @@ Google captchas use cookies to track users and rank their IPs.
 
 ✅  **Instead use**
 - [Altcha.org](https://altcha.org) - Free, open-source and self-hosted CAPTCHA alternative using proof-of-work mechanism.
+- [FCaptcha](https://github.com/WebDecoy/FCaptcha) - Free, open-source and self-hosted invisible CAPTCHA that detects bots and AI agents through behavioral analysis and SHA-256 proof-of-work. No cookies, no tracking, no third-party calls.
 - [mCaptcha](http://mcaptcha.org/) ([repo](https://github.com/mCaptcha/mCaptcha)) - An open-source CAPTCHA system with seamless UX.  mCaptcha uses SHA256 based proof-of-work (PoW) to rate limit users.
 - [Private Captcha](https://github.com/PrivateCaptcha/PrivateCaptcha) - Privacy-first and self-hosted Proof-of-Work CAPTCHA alternative, made in EU.
 
