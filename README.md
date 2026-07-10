@@ -267,6 +267,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [Tinfoil](https://tinfoil.sh/) - Verifiably private AI Chat and OpenAI-compatible inference in the cloud. Uses NVIDIA confidential computing and open source code pinned to a transparency log for end-to-end verifiability.
 - [Open WebUI](https://openwebui.com) - Self-hosted web interface for Ollama and other local models that gives you a private ChatGPT-style chat. BSD-3 licensed.
 - [LibreChat](https://librechat.ai) - Self-hosted chat interface that connects many AI models behind one private UI you control. Open source, MIT licensed.
+- [SAM](https://github.com/richhabits/sam) - Private AI assistant that runs on your own machine and takes real actions; keys, memory and files stay local, and in offline mode (local Ollama) nothing leaves the device. MIT licensed, no telemetry.
 
 #### AI Coding
 
