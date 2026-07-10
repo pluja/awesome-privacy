@@ -263,6 +263,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [LocalAI](https://github.com/go-skynet/LocalAI) - Self-hosted, community-driven simple local OpenAI-compatible API written in go. Can be used as a drop-in replacement for OpenAI, running on CPU with consumer-grade hardware.
 - [ollama](https://github.com/jmorganca/ollama) - Get up and running with Llama 2 and other large language models locally.
 - [PasteGuard](https://github.com/sgasser/pasteguard) - Privacy proxy for LLM APIs that masks PII and secrets before they reach cloud providers. Self-hosted, OpenAI-compatible, and restores original data in responses.
+- [PrivAiTe](https://github.com/crp4222/PrivAiTe) - Self-hosted, OpenAI-compatible LLM proxy that pseudonymizes PII (tool-call arguments and multimodal included) before requests leave your machine and restores the real values in the reply (BSD-3-Clause).
 - [Shimmy](https://github.com/Michael-A-Kuykendall/shimmy) - Privacy-focused AI inference server with OpenAI API compatibility, zero cloud dependencies, and local model processing.
 - [Tinfoil](https://tinfoil.sh/) - Verifiably private AI Chat and OpenAI-compatible inference in the cloud. Uses NVIDIA confidential computing and open source code pinned to a transparency log for end-to-end verifiability.
 - [Open WebUI](https://openwebui.com) - Self-hosted web interface for Ollama and other local models that gives you a private ChatGPT-style chat. BSD-3 licensed.
