@@ -539,6 +539,7 @@ on the DMCrypt kernel module.
 - [Croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another.
 - [Dat-cp](https://github.com/tom-james-watson/dat-cp) [💀](#icons) - Copy files between hosts on a network using the peer-to-peer Dat network.
 - [Destiny](https://leastauthority.com/community-matters/destiny/) - Send files directly to the receiver in real-time. Developed for and with HROs as a free Privacy Enhancing Technology alternative.
+- [Filora](https://filora.pro/) - Local-AI file organiser for Mac. Reads and classifies files on-device using Ollama (network locked to loopback-only, enforced in code and tested on every build). Preview-before-apply, snapshot-verified undo, nothing deleted. One-time purchase, macOS, signed and notarised. `macOS` `Paid`
 - [Gokapi](https://github.com/Forceu/Gokapi) - Lightweight selfhosted Firefox Send alternative without public upload. AWS S3 supported.
 - [Lufi](https://framagit.org/fiat-tux/hat-softwares/lufi) - Let's Upload that FIle — File sharing software.
 - [Localsend](https://localsend.org/) - Share files to nearby devices. Free, open source, cross-platform.
