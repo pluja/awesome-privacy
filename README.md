@@ -920,6 +920,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [AppFlowy](https://www.appflowy.io/) - Open Source Notion Alternative. You are in charge of your data and customizations.
 - [HedgeDoc](https://hedgedoc.org/) - Formerly CodiMD (community). An awesome platform to write and share markdown.
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation and encryption capabilities.
+- [Knopo](https://github.com/alkalim/Knopo) - Open source macOS outliner for local-first Markdown notes, keeping data in ordinary files with no account or hosted sync service required (AGPL-3.0).
 - [Logseq](https://logseq.com/) - A privacy-first alternative to WorkFlowy.
 - [Memos](https://github.com/usememos/memos) - An open-source, self-hosted memo hub with knowledge management and socialization. 
 - [Nextcloud Notes](https://github.com/nextcloud/notes/) - The Notes app is a distraction free notes taking app for Nextcloud.
