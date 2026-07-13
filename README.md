@@ -295,6 +295,7 @@ When using cloud-based AI services, the data you input is often collected and st
 	- [ParakeetTDT](https://parakeettdt.com/) - Efficient audio transcription. Convert speech to text with unprecedented speed and accuracy using NVIDIA advanced AI speech recognition model.
 
 - **Apps and services**
+	- [Blitztext Linux](https://github.com/TimInTech/blitztext-linux) - Hotkey-driven voice dictation for Linux (KDE Plasma/Wayland) that transcribes speech locally with Whisper by default and pastes the text into the active app; open source (MIT) alternative to Wispr Flow or superwhisper.
 	- [OpenWhispr](https://github.com/OpenWhispr/openwhispr) - Voice-to-text dictation and productivity app with AI agents, meeting transcription, notes, and local/cloud speech recognition. Privacy-first and available cross-platform. Open source alternative to wisprflow.
 	- [Sasayaki](https://github.com/pluja/sasayaki) - Tiny android dictation app that turns speech into clear writing.
 	- [Speaches](https://github.com/speaches-ai/speaches) - OpenAI API-compatible server supporting streaming transcription, translation, and speech generation.
