@@ -1727,3 +1727,4 @@ Finally, there are services that may offer all three: anonymity, privacy, and se
 | 🤖    | Android Only. |
 
 [Back to top 🔝](#contents)
+- [KeyboardTester.click WebRTC Leak Test](https://keyboardtester.click/webrtc-leak-test.php) - Free browser-based WebRTC IP leak detector via STUN. Reports public IP, local IPs, IPv6 leaks. Open source.
