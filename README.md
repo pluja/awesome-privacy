@@ -74,6 +74,7 @@
     - [Video and Audio](#video-and-audio)
     - [Audio](#audio)
     - [Podcasts](#podcasts)
+- [Meeting Scheduling](#meeting-scheduling)
 - [Music Recognition (Shazam-like)](#music-recognition)
 - [Notes and Tasks](#notes-and-tasks)
 - [Office](#office)
@@ -935,6 +936,18 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [Vikunja](https://vikunja.io) - The open-source to-do app to organize your life.
 - [YankNote](https://github.com/purocean/yn) - A Hackable Markdown Note Application for Programmers.
 - [🤖](#icons) [Tasks.org](https://tasks.org) - Open source to-do and task manager for Android with CalDAV sync and offline use. GPL-3.0 licensed.
+
+[Back to top 🔝](#contents)
+
+## Meeting Scheduling
+
+⛔ **Avoid**
+
+- **Calendly** - Embeds tracking pixels on scheduling pages, collects invitee data beyond what's needed for scheduling, and shares it with third-party advertising partners.
+
+✅  **Instead use**
+
+- [Tymeslot](https://github.com/Tymeslot/tymeslot) - Open-source (AGPL-3.0), self-hostable meeting scheduling platform. Guests book time without creating an account; hosts retain full control of their data.
 
 [Back to top 🔝](#contents)
 
