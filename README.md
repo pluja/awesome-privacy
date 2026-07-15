@@ -257,7 +257,7 @@ It allows users to easily create and browse group of apps and it displays notifi
 When using cloud-based AI services, the data you input is often collected and stored by the service provider. This may include not only the content of your requests but also metadata, such as timestamps or IP addresses. Third-party servers may grant access to your data to their employees, partners, or even other users, depending on their privacy policies. Data may be used for various purposes, including model training, research, or even marketing activities. Your requests to a third-party AI service may be tied to your user information and payment details, linking your data to your identity. 
 
 #### ChatGPT
-
+- [Loci](https://apps.apple.com/us/app/loci-private-local-ai/id6762100748) – Free on-device LLM assistant for iOS. Runs Gemma, Qwen, Llama, and more locally — no server, no account. Live web search is optional and off by default.
 - [Jan](https://github.com/janhq/jan) - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) - Inference of Facebook's LLaMA model in pure C/C++ so it can run locally on a CPU.
 - [LocalAI](https://github.com/go-skynet/LocalAI) - Self-hosted, community-driven simple local OpenAI-compatible API written in go. Can be used as a drop-in replacement for OpenAI, running on CPU with consumer-grade hardware.
