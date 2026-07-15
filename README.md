@@ -906,7 +906,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 
 ✅  **Instead use**
 
-- [Tymeslot](https://github.com/Tymeslot/tymeslot) - Source-available (Elastic License 2.0), self-hostable meeting scheduling platform. Guests book time without creating an account; hosts retain full control of their data.
+- [Tymeslot](https://github.com/Tymeslot/tymeslot) - Open-source (AGPL-3.0), self-hostable meeting scheduling platform. Guests book time without creating an account; hosts retain full control of their data.
 
 [Back to top 🔝](#contents)
 
