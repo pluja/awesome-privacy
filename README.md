@@ -415,6 +415,8 @@ Google captchas use cookies to track users and rank their IPs.
 
 ## Creator Tools
 
+
+- [Saju Fortune (사주명리 풀이)](https://tarofortune.pythonanywhere.com) — Korean four-pillars astrology calculator. **No signup, no email, no tracking pixels** beyond standard GA. All computation done server-side without storing birth data. Useful as a privacy-respecting alternative to commercial astrology apps that profile users.
 Opt for open-source and P2P alternatives that prioritize data privacy, eliminate third-party interference, and offer transparent, community-backed functionalities over mainstream tools like Riverside.fm, Restream and Camtasia.
 
 - [vdo.ninja](https://vdo.ninja/) - Powerful tool that lets you bring remote video feeds into OBS or other studio software via WebRTC.
