@@ -703,6 +703,7 @@ No single point of control or failure. A decentralized network operated by diffe
 - [Matrix (Protocol)](https://matrix.org/) - An open network for secure, decentralized communication.
    - [Element](https://element.io/) - All-in-one secure chat app for teams, friends and organisations. Keeps conversations in your control, safe from data-mining and ads. End-to-end encryption.
    - [Cinny](https://cinny.in/) - A Matrix client focusing primarily on simple, elegant and secure interface. 
+   - [Zooid](https://zooid.dev/) - Open source (MIT), self-hostable Slack alternative built on Matrix. Conversations live on infrastructure you control, and AI agents can join as first-class teammates.
 - [Jabber / XMPP (Protocol)](https://xmpp.org/) - The universal and open messaging standard. Tried and tested. Independent. Privacy-focused. E2E encrypted.
   - [🤖](#icons) [Conversations](https://conversations.im/) - Jabber/XMPP client for Android 4.0+ smartphones that has been optimized to provide a unique mobile experience.
   - [AstraChat](https://astrachat.com/) - Another XMPP client.
