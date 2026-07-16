@@ -56,6 +56,7 @@
 	- [Food](#food)
 	- [Menstrual cycle trackers](#menstrual-cycle-trackers)
 	- [Medical health](#medical-health)
+	- [Mood and habit trackers](#mood-and-habit-trackers)
 - [Fonts](#fonts)
 - [Forms](#forms)
 - [Games](#games)
@@ -590,6 +591,9 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ### Medical health
 - [Fasten](https://github.com/fastenhealth/fasten-onprem) - Fasten is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 1000's of insurances/hospitals/clinics.
+
+### Mood and habit trackers
+- [LogZero](https://logzero.app) - An all-in-one personal life and habit tracker for iOS (mood, medication, food, exercise, meditation, weight, to-dos) with a private alternative to Daylio and Bearable. Closed source, but stores everything on-device with no account, no ads and no telemetry. Encrypted at rest with optional user-controlled encrypted exports.
 
 [Back to top 🔝](#contents)
 
