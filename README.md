@@ -1043,7 +1043,7 @@ You can also check out [Media Streaming Platforms](https://github.com/pluja/awes
 ✅ **Instead use**
 #### [GNU/Linux](https://www.linux.com/what-is-linux/) 
 
-GNU/Linux is a family of free (as in freedom and as in free beer) and open source Operating Systems mostly developed by the community. If you don't know where to start these are good options for begginers:
+GNU/Linux is a family of free (as in freedom and as in free beer) and open source Operating Systems mostly developed by the community. If you don't know where to start these are good options for beginners:
 
 - [Fedora](https://getfedora.org/) - Community Linux distribution sponsored by Red Hat, shipping recent open source software on a six-month cycle.
 - [Mint (Cinnamon)](https://linuxmint.com/edition.php?id=305) is a beginner friendly distribution.
