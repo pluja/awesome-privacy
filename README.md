@@ -1546,6 +1546,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 [Back to top 🔝](#contents)
 
 ## Utilities
+- [ClipBridge](https://github.com/andreasserfilippi/clipbridge) - Self-hosted, open source clipboard sync between iPhone, Windows, and Mac; you deploy your own backend, nothing routed through a third party.
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
 
