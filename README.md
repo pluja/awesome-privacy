@@ -977,6 +977,13 @@ These providers offer apps and services filled with data trackers. Also, most of
 
 Many websites require phone number verification. These services offer a way to receive (and sometimes send) SMS messages in a privacy-focused manner.
 
+
+
+## Mobile Data / eSIM
+
+- [CypherESIM](https://cypheresim.com) — Anonymous travel eSIM with 4G/5G data in 180+ countries. No account, ID, email or phone number; paid in crypto (USDT, BTC, ETH, USDC, XMR).
+
+
 ### No email verification, accepting monero
 - [Crypton](https://crypton.sh/) - Secure SMS Sim Card in the cloud. (Based in Iceland)
 - [Virtualsim](https://virtualsim.net/) - Virtualsim provides physical SIM cards leasing for SMS verifications. (Based in Ukraine)
