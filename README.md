@@ -1189,6 +1189,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Krita](https://github.com/KDE/krita) - Krita is a free and open source digital painting application
 - [Czkawka](https://github.com/qarmin/czkawka) - Multi functional app to find duplicates and similar images etc.
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
+- [FotoApp](https://github.com/boulbaal/fotoApp) - Free, local-only photo & video manager. Finds duplicates (MD5), maps GPS locations via OpenStreetMap, supports RAW formats and imports Google Takeout exports. No cloud, no account, no telemetry. Windows, macOS & Linux.
 - [Inkscape](https://inkscape.org/) - Inkscape is a free and open-source vector graphics editor used to create vector images.
 - [ImageGlass](https://imageglass.org/) - ImageGlass is a lightweight software application whose purpose is to help you view images in a clean and intuitive working environment.
 - [darktable](https://www.darktable.org/) - darktable is an open source photography workflow application and raw developer
