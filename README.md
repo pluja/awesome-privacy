@@ -553,6 +553,7 @@ on the DMCrypt kernel module.
 - [Snapdrop](https://github.com/RobinLinus/snapdrop) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
 - [Winden](https://winden.app/) - A convenient version of Magic Wormhole you can use from within your browser. No need to install an app.
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
+- [ScorchPad](https://github.com/scorchpad/scorchpad) - Zero-knowledge encrypted pastebin where the server only ever sees ciphertext. AES-256-GCM encryption in the browser, decryption key in the URL fragment, burn-after-reading, and a monthly warrant canary. 
 - [scrt.link](https://scrt.link/file) - End-to-end encrypted file transfer. Up to 100GB and 30 days retention. Stored in Switzerland.
 
 [Back to top 🔝](#contents)
