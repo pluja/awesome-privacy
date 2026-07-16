@@ -1183,6 +1183,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ✅  **Instead use**
 #### Web
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+- [SafeWebTool](https://safewebtool.com) - Free, open-source collection of 24 browser-local tools (video trim/resize/convert, image compress/resize/OCR, text utilities). All processing runs client-side — files never leave your browser. No account, no ads, no uploads.
 
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
