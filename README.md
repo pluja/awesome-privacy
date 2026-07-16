@@ -583,6 +583,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 ### Menstrual cycle trackers
 - [🤖](#icons) [Bluemoon](https://gitlab.com/ngrob/bluemoon-android) - Open source, privacy friendly menstruation tracking app. Your period, your data!
 - [🤖](#icons) [Drip](https://dripapp.org/) - Menstrual cycle and fertility tracking. Everything you enter stays on your device.
+- [Ovumcy](https://github.com/ovumcy/ovumcy-web) - Self-hosted, privacy-first menstrual cycle tracker you run yourself. Server-rendered web app, SQLite/Postgres, Docker-ready, no telemetry, open data export. AGPL-3.0.
 - [Euki](https://eukiapp.org/) - The period tracker that doesn’t track you. 
 - [🤖](#icons) [log28](https://codeberg.org/boxedtoast/log28) - a (very) simple no-frills period tracker for Android.
 - [🤖](#icons) [Periodical](https://codeberg.org/askaaron/periodical) - A calendar to track your menstruation and calculate possible fertile days
