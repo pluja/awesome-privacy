@@ -965,6 +965,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [LibreOffice](https://www.libreoffice.org/) - Free and open source offline office.
 - [OnlyOffice](https://www.onlyoffice.com/) - Free and open source online office for collaboration.
 - [Cryptpad](https://cryptpad.fr/) - Collaboration suite, encrypted and open-source.
+- [PDF Toolbox](https://github.com/hwlsniper/pdftoolbox) - Free browser-based PDF tools (compress, merge, split, convert). All processing happens locally — files never leave your computer.
 - [Etherpad](https://etherpad.org/) - Highly customizable open source online editor providing collaborative editing in really real-time.
 - [Fileverse](https://fileverse.io) - Fileverse is building healthier alternatives with self-sovereignty, privacy by design, and standards compliance at its core.
 	- [Ddocs](https://ddocs.new): privacy-enhancing alternative to google docs: onchain, end-to-end encrypted, and decentralized. 
