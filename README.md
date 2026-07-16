@@ -720,6 +720,7 @@ The service is in charge of running the servers that allow users to communicate.
 - [Threema](https://threema.ch/en) - The messenger that puts security and privacy first. Pay once, chat forever. No collection of user data. Open Source client.
 - [Signal](https://signal.org/) - Extreme focus on privacy, combined with all of the features you expect. Strong encryption by design. 100% Open Source.
   - [🤖](#icons) [Molly](https://github.com/mollyim/mollyim-android) - Signal-compatible fork client with some security enhancements.
+- [Koaich](https://koaich.com) - End-to-end encrypted workspace where the vendor cannot read user content. Messaging plus encrypted documents, files, group rooms, and AI drafts — same cryptographic property as Signal applied across a workspace surface. Pre-launch as of May 2026; methodology open-source at [heysteamer/workspace-exposure-scorecard](https://github.com/heysteamer/workspace-exposure-scorecard).
 
 ### P2P
 No servers involved. Everything goes directly from one peer to the other peer. No point of failure or control. The features are reduced because of the lack of server, messaging can be slower. Best option for critical chats.
