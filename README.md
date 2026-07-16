@@ -136,6 +136,7 @@
 - [🤖](#icons) [Authenticator Pro](https://github.com/jamie-mh/AuthenticatorPro) - Two-Factor Authentication (2FA) client for Android + Wear OS.
 - [Proton Authenticator](https://proton.me/authenticator) - Proton Authenticator is an [open source](https://proton.me/community/open-source#apps) and [end-to-end encrypted](https://proton.me/blog/password-encryption) 2FA app that’s simple and free to use.
 - [2FAS Auth](https://2fas.com/auth) - Open source TOTP authenticator for iOS and Android with a companion browser extension and no account required. GPL-3.0 licensed.
+- [TOTP Authenticator](https://github.com/k-adm/totp-authenticator) - Open source, fully offline Chrome extension for TOTP, HOTP and Steam 2-step verification codes. Stores tokens locally with optional master-password encryption (AES-256-GCM) and supports encrypted import/export. `MIT`
 
 [Back to top 🔝](#contents)
 
@@ -1085,6 +1086,7 @@ GNU/Linux is a family of free (as in freedom and as in free beer) and open sourc
 - [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
 - [Passbolt](https://www.passbolt.com) - An open source password manager designed for team collaboration.
 - [Passky](https://passky.org) - Simple, modern, lightweight, open-source and secure password manager.
+- [Password Generator](https://github.com/k-adm/password-generator) - Open source, fully offline Chrome extension that generates random passwords and diceware passphrases on-device with no network access. Not a vault; generation only. `MIT`
 - [Proton Pass](https://proton.me/pass) - Open-source and encrypted password manager by Proton.
 
 ## Pastebin and Secret Sharing
