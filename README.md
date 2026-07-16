@@ -56,6 +56,7 @@
 	- [Food](#food)
 	- [Menstrual cycle trackers](#menstrual-cycle-trackers)
 	- [Medical health](#medical-health)
+	- [Mood trackers](#mood-trackers)
 - [Fonts](#fonts)
 - [Forms](#forms)
 - [Games](#games)
@@ -590,6 +591,9 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ### Medical health
 - [Fasten](https://github.com/fastenhealth/fasten-onprem) - Fasten is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 1000's of insurances/hospitals/clinics.
+
+### Mood trackers
+- [🤖](#icons) [SoulSync](https://github.com/Antimatter543/mood-tracker) - Free mood tracker that stores everything on-device in SQLite, with no account and no cloud sync. Replaces subscription cloud mood trackers like Daylio. GPL-3.0.
 
 [Back to top 🔝](#contents)
 
