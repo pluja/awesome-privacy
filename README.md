@@ -970,6 +970,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 	- [Ddocs](https://ddocs.new): privacy-enhancing alternative to google docs: onchain, end-to-end encrypted, and decentralized. 
  	- [dSheets](https://dsheets.new): decentralized alternative to Excel and Google Sheets.
 - [Grist](https://www.getgrist.com) - Self-hostable spreadsheet and database hybrid for organizing data, as an open source Airtable alternative. Apache-2.0 licensed.
+- [Slay PDF](https://slaypdf.com/) - AGPL-3.0 local PDF editor and Adobe Acrobat alternative that runs in the browser; [source](https://github.com/emileakbarzadeh/slay-pdf).
 
 [Back to top 🔝](#contents)
 
