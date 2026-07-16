@@ -971,6 +971,8 @@ These providers offer apps and services filled with data trackers. Also, most of
  	- [dSheets](https://dsheets.new): decentralized alternative to Excel and Google Sheets.
 - [Grist](https://www.getgrist.com) - Self-hostable spreadsheet and database hybrid for organizing data, as an open source Airtable alternative. Apache-2.0 licensed.
 
+- [RaptorPDF](https://www.raptorpdf.com) - Privacy-first browser-based PDF editor. Edit, merge, split, compress, annotate, convert, and protect PDFs — all processed locally, no uploads, no account required.
+
 [Back to top 🔝](#contents)
 
 ## Online Phone Providers
