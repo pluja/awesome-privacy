@@ -815,6 +815,9 @@ With email aliases, you can finally create a different identity for each website
 - [SimpleLogin](https://github.com/simple-login/app) - Open source, self-hostable email aliasing service now owned by Proton (AGPL-3.0).
 - [AnonAddy](https://github.com/anonaddy/anonaddy) - Open source, self-hostable email aliasing and forwarding service, now named addy.io (AGPL-3.0).
 
+### Temporary / Disposable Email
+- [SansMail](https://sansmail.my.id) - Instant disposable email with realtime inbox via WebSocket, custom domain support, and auto-expire. No signup required.
+
 [Back to top 🔝](#contents)
 
 ## Maps and Navigation
