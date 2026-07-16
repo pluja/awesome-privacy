@@ -112,6 +112,7 @@
     - [YouTube](#youtube)
 - [Screen Recording](#screen-recording)
 - [Teamworking Tools](#teamworking-tools)
+- [Time Tracking](#time-tracking)
 - [Translation](#translation)
 - [Uncategorized](#uncategorized)
 - [Utilities](#utilities)
@@ -1506,6 +1507,20 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 > Also using any of these modifications/clients [violates](https://nitter.net/discord/status/1006178587731550208#m) the [Discord ToS](https://discord.com/terms) so, we are not responsible of any suspension or termination of your account **but**, this should [not happen **yet**](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos).
 
 - [See this section for Discord mods and alternative clients](https://github.com/pluja/awesome-privacy/blob/main/README.md#alternative-clientsmodifications-of-discord)
+
+[Back to top 🔝](#contents)
+
+## Time Tracking
+⛔ **Avoid**
+
+Hosted time-tracking services can collect detailed work records, project names, clients, habits and schedules.
+
+- Toggl Track
+- Clockify
+- Harvest
+
+✅ **Instead use**
+- [HumbleBee](https://github.com/grobmeier/humblebee) - Free and open source local-first time tracking with CLI and desktop GUI. Stores records in a local SQLite database.
 
 [Back to top 🔝](#contents)
 
