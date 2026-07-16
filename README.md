@@ -386,6 +386,7 @@ Google captchas use cookies to track users and rank their IPs.
 - [Fawkes](https://github.com/Shawn-Shan/fawkes) [💀](#icons) - privacy preserving tool against facial recognition systems.
   - [CloakMe](https://github.com/pluja/CloakMe) [💀](#icons) - Web interface for Fawkes algorithm.
 - [ImageScrubber](https://github.com/everestpipkin/image-scrubber) - A friendly browser-based tool for anonymizing photographs taken at protests ([hosted version provided by everestpipkin](https://everestpipkin.github.io/image-scrubber/)).
+- [Cleanor Tools](https://cleanor.app/tools) - Browser-based image converters and compressors (WebP, AVIF, PNG, JPEG and more) that run entirely on your device; files are never uploaded and no account is required ([open-source engine](https://github.com/cleanor-app/browser-image-tools)).
 
 ### Text
 - [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords ([repo](https://github.com/kurolabs/stegcloak)).
