@@ -1173,6 +1173,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 - [Ghostfolio](https://github.com/ghostfolio/ghostfolio#readme) - open source wealth management software built with web technology.
 - [PortfolioPerformance](https://www.portfolio-performance.info/en/) - An open source tool to calculate the overall performance of an investment portfolio-
+- [Private Terminal](https://github.com/cerkon1/private-terminal) - A free, open source (MIT), local-first desktop research dashboard for stocks, crypto and macroeconomics. No accounts, no telemetry, no cloud sync — all data stays in a local SQLite database.
 - [Rotki](https://github.com/rotki/rotki) - An awesome portfolio tracking, analytics, accounting and tax reporting application that protects your privacy.
 
 ## Photo Editing and Management
