@@ -988,6 +988,13 @@ Many websites require phone number verification. These services offer a way to r
 ### Email verification required, accepting crypto
 - [SmsPVA](https://smspva.com/) - SmsPVA is a service providing a phone number you can send any SMS on and get a text of it. (Based in France)
 
+## Mobile Data / eSIM
+
+Travel eSIM providers offer mobile data plans (4G/5G internet, no SMS, no voice calls) that activate remotely on eSIM-compatible devices. These services let you stay online while traveling without local SIM cards or carrier roaming.
+
+### No KYC, accepting crypto
+- [CypherESIM](https://cypheresim.com) - Anonymous travel eSIM with 4G/5G data in 180+ countries. Paid in USDT, BTC, ETH, USDC, or XMR. No account, ID, email or phone number required. (Operates internationally)
+
 ## Operating Systems
 ### Android
 ⛔ Try to avoid using Google Android or any Android that has been modified and tuned by any manufacturer such as Xiaomi, Huawei, Samsung, etc. Android is an Open Source project - [AOSP - Android Open Source Project](https://source.android.com/) - and it has many versions that will respect the user privacy and data and won't share it with private servers from manufacturers or service providers.
