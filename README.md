@@ -1137,6 +1137,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ### Full Featured Financial Management
 
 - [Actual](https://actualbudget.org) - Super fast and privacy-focused app for managing your finances.
+- [Fidalo](https://fidalo.co) - Local-first net worth, budget and portfolio tracker. No account, no bank connection, no telemetry; data stays in your browser and encrypted backups go to storage you control. Open source (AGPL). ([Source Code](https://github.com/fidalodev/fidalo))
 - [Firefly III](https://www.firefly-iii.org/) - A free and open source personal finance manager.
 - [GnuCash](https://gnucash.org/) - GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X and Microsoft Windows.
 - [Sure](https://github.com/we-promise/sure) - Open Source and secure OS for your personal finances. Community maintained fork of the archived [Maybe](https://github.com/maybe-finance/maybe) project.
