@@ -293,6 +293,7 @@ When using cloud-based AI services, the data you input is often collected and st
 		- [whisper.cpp](https://github.com/ggerganov/whisper.cpp) - High-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model.
 		- [faster-whisper](https://github.com/SYSTRAN/faster-whisper) - Reimplementation of Whisper using CTranslate2 that transcribes locally up to four times faster. MIT licensed.
 	- [ParakeetTDT](https://parakeettdt.com/) - Efficient audio transcription. Convert speech to text with unprecedented speed and accuracy using NVIDIA advanced AI speech recognition model.
+	- [FunASR](https://github.com/modelscope/FunASR) - Self-hostable speech recognition toolkit with MIT-licensed code for local ASR, VAD, punctuation, and speaker pipelines; model licenses vary.
 
 - **Apps and services**
 	- [OpenWhispr](https://github.com/OpenWhispr/openwhispr) - Voice-to-text dictation and productivity app with AI agents, meeting transcription, notes, and local/cloud speech recognition. Privacy-first and available cross-platform. Open source alternative to wisprflow.
