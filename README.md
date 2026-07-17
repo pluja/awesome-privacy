@@ -1224,6 +1224,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ### Third-party
 - [Crypt.ee](https://crypt.ee/) - A private and encrypted place for all your photos, documents, notes and more.
 - [Ente](https://ente.io/) - End-to-end encrypted storage for photos and videos. Open source, [audited](https://ente.io/blog/cryptography-audit/) independently.
+- [Fotoback](https://fotoback.app/) - End-to-end encrypted iPhone photo backup with automatic background sync. Photos are analysed on-device and never used to train AI. Includes an AI baby growth timeline and smart wardrobe organiser. iOS, freemium.
 - [Stingle Photos](https://stingle.org/) - Open source solution that provides strong security, privacy and encryption to backup your photos.
 
 ### Local
