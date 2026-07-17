@@ -276,7 +276,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [OpenCode](https://github.com/anomalyco/opencode/) - The open source coding agent. Connect local models or any providers of your choice.
 - [Aider](https://aider.chat) - Terminal AI pair programmer that edits code in your local git repository using your own API keys. Apache-2.0 licensed.
 - [Tabby](https://tabby.tabbyml.com) - Self-hosted code completion assistant that runs on your own hardware as an alternative to GitHub Copilot. Apache-2.0 licensed.
-- [Tura](https://github.com/Tura-AI/tura) - Local-first open-source coding agent with CLI, TUI, desktop, and web interfaces; supports local models and user-controlled OpenAI-compatible providers. AGPL-3.0 licensed.
+- [Tura](https://github.com/Tura-AI/tura) - Tura is a local, open-source coding agent for developers who are tired of vague skill claims, token-saving extensions with no evidence, and agents that change a repository before understanding it (AGPL-3.0).
 
 #### Text to Speech
 
