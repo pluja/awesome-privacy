@@ -1183,6 +1183,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ✅  **Instead use**
 #### Web
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+- [ToolKnit](https://toolknit.com/) - 76 free browser-based tools for PDF, image, video, audio, text and more. 100% client-side processing, no uploads, no sign-up, no watermarks.
 
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
@@ -1546,6 +1547,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 [Back to top 🔝](#contents)
 
 ## Utilities
+- [ToolKnit](https://toolknit.com/) - 76 free browser-based tools for PDF, image, video, audio, text and more. 100% client-side processing, no uploads, no sign-up, no watermarks.
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
 
