@@ -1547,6 +1547,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
+- [ToolKnit](https://toolknit.com) - Free online tools suite that processes everything client-side. No uploads, no tracking, no data leaves your browser. 69+ tools for images, video, audio, PDF, text, and more.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
 
 [Back to top 🔝](#contents)
