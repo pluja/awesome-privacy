@@ -1097,6 +1097,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
 - [scrt.link](https://scrt.link) - Share a secret. End-to-end encrypted. Ephemeral. Open-source.
 - [dele-to](https://dele.to) - Open Source. Modern app to share sensitive credentials and secrets securely with client-side AES-256 encryption, zero-knowledge architecture, and automatic self-destruction.
+- [ZK Relay](https://github.com/Git-on-my-level/zk-relay) - Self-hosted zero-knowledge secret and file sharing for people and agents, with client-side encryption and agent-safe receive. MIT licensed.
 
 [Back to top 🔝](#contents)
 
