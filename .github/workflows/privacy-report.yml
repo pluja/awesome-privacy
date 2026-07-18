@@ -1,0 +1,50 @@
+name: Android tracker scan
+
+# Monthly Android tracker scan via Exodus Privacy, separate from the health
+# report. Looks up package ids from F-Droid / Play / IzzyOnDroid links and reports
+# known trackers found in each APK. Runs only when the EXODUS_API_TOKEN secret is
+# set; without it the scan is skipped and no issue is opened. Request a key from
+# api@exodus-privacy.eu.org. Repo health and open-source checks are in the health
+# report.
+
+on:
+  schedule:
+    - cron: '0 6 15 * *'   # 06:00 UTC on the 15th, offset from the health report
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  tracker-scan:
+    name: Scan Android apps for trackers
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Run tracker scan
+        id: scan
+        env:
+          EXODUS_API_TOKEN: ${{ secrets.EXODUS_API_TOKEN }}  # optional; enables the scan
+          EXODUS_API_USER: awesome-privacy
+        run: python3 scripts/privacy_scan.py --out tracker-scan.md
+
+      - name: Ensure label exists
+        if: steps.scan.outputs.has_findings == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create privacy-audit \
+            --color D4C5F9 \
+            --description "Automated privacy audit findings" \
+            --force || true
+
+      - name: Open tracker scan issue
+        if: steps.scan.outputs.has_findings == 'true'
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: "🕵️ Android tracker scan — ${{ steps.scan.outputs.date }}"
+          content-filepath: ./tracker-scan.md
+          labels: privacy-audit

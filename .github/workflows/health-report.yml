@@ -1,0 +1,68 @@
+name: Health report
+
+# Monthly maintenance + open-source audit of README.md. Finds dead links and
+# repos that are gone, archived, stale (no push in 18+ months), unlicensed, or
+# have no real source code. Opens one issue with the findings, nothing when clean.
+# Logic lives in scripts/health_report.py so it can be run and tested locally.
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'   # 06:00 UTC on the 1st of each month
+  workflow_dispatch:       # allow manual runs for testing
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  health-report:
+    name: Scan links and repositories
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Run lychee on README.md
+        uses: lycheeverse/lychee-action@v2
+        with:
+          lycheeVersion: v0.23.0
+          # Whole file, JSON output for the parser in health_report.py.
+          # fail:false keeps the job green so we can build the report either way.
+          args: >-
+            --no-progress
+            --cache
+            --max-cache-age 1d
+            --max-retries 3
+            --retry-wait-time 2
+            --timeout 20
+            --accept 200..=299,403,429,999
+            README.md
+          format: json
+          output: lychee/out.json
+          jobSummary: false
+          fail: false
+          failIfEmpty: false
+
+      - name: Build report (dead links + repository issues)
+        id: scan
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/health_report.py --lychee lychee/out.json --out health-report.md
+
+      - name: Ensure maintenance label exists
+        if: steps.scan.outputs.has_findings == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create maintenance \
+            --color BFDADC \
+            --description "Repository maintenance tasks" \
+            --force || true
+
+      - name: Open health report issue
+        if: steps.scan.outputs.has_findings == 'true'
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: "🔗 Health report — ${{ steps.scan.outputs.date }}"
+          content-filepath: ./health-report.md
+          labels: maintenance
