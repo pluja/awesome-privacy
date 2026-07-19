@@ -970,6 +970,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 	- [Ddocs](https://ddocs.new): privacy-enhancing alternative to google docs: onchain, end-to-end encrypted, and decentralized. 
  	- [dSheets](https://dsheets.new): decentralized alternative to Excel and Google Sheets.
 - [Grist](https://www.getgrist.com) - Self-hostable spreadsheet and database hybrid for organizing data, as an open source Airtable alternative. Apache-2.0 licensed.
+- [MyDigitSign](https://mydigitsign.com) - A 100% browser-based, privacy-first tool to sign PDFs and documents online for free. Your files never leave your device. `MIT` `Web`
 
 [Back to top 🔝](#contents)
 
