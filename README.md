@@ -928,6 +928,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [Notesnook](https://notesnook.com/) - Open source zero knowledge private note taking.
 - [Obsidian](https://obsidian.md) - Obsidian is the private and flexible note‑taking app. Closed source but has no trackers (website / apps) and E2EE sync. 
 - [Quillpad](https://quillpad.github.io/) - Take beautiful markdown notes and stay organized with task lists. Fork of Quillnote.
+- [ScribeDog](https://github.com/snooky234/scribedog) - WYSIWYG markdown editor whose AI writing assistance and voice dictation run entirely on your machine via Ollama, Jan.ai, LM Studio and whisper.cpp; no account, no telemetry, notes stay plain `.md` files. MIT, Windows and Linux.
 - [SiYuan](https://github.com/siyuan-note/siyuan) - A local-first personal knowledge management system.
 - [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
