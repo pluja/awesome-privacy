@@ -146,6 +146,7 @@
 - [Ackee](https://ackee.electerious.com/) - Self-hosted website analytics.
 - [Aptabase](https://aptabase.com) - Open-source, privacy-first and simple analytics for mobile and desktop apps.
 - [Cabin](https://withcabin.com) - Privacy-first, carbon conscious web analytics.
+- [Ciphera Pulse](https://pulse.ciphera.net/) - Cookieless, GDPR-native alternative to Google Analytics from an EU company (Belgium) with Swiss/EU hosting; hosted SaaS with a free tier and an AGPL-3.0 frontend, though the backend is closed and it is not self-hostable.
 - [GoatCounter](https://www.goatcounter.com/) - Privacy aware, lightweight and open-source analytics platform.
 - [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy.
 - [Nullitics](https://nullitics.com/) - Zero-effort open-source cheap analytics.
