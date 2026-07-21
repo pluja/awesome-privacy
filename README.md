@@ -1183,6 +1183,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ✅  **Instead use**
 #### Web
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+- [Nutilz EXIF Remover](https://nutilz.com/exif-remover) - Free browser-based tool that strips GPS, camera and other EXIF/XMP metadata from JPEG, PNG and WebP images. Processing happens entirely client-side via canvas; images are never uploaded to a server. Not open source.
 
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
