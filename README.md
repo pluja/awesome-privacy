@@ -249,6 +249,7 @@ Third-party launchers found on the play store. They may contain ads/trackers and
 - [Pie Launcher](https://github.com/markusfisch/PieLauncher) - Android home screen launcher that uses a dynamic pie menu instead of fixed positioned icons.
 - [Bliss Launcher](https://f-droid.org/en/packages/foundation.e.blisslauncher/) - The default launcher of the /e/ Android-based OS.
 It allows users to easily create and browse group of apps and it displays notification badges on app icons.
+- [Mako](https://github.com/rama-io/mako) - Mako is a minimal, FOSS, privacy-first Android launcher designed for focus, speed, and simplicity.
 
 [Back to top 🔝](#contents)
 
