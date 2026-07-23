@@ -34,6 +34,7 @@
 	- [Text To Speech](#text-to-speech)
  	- [Speech To Text](#speech-to-text)
 	- [Image Generation](#image-generation)
+	- [Agent Memory](#agent-memory)
 - [Bookmarking](#bookmarking)
     - [Book and web annotations](#book-and-web-annotationshighlights-management)
 - [Captchas](#captchas)
@@ -305,6 +306,10 @@ When using cloud-based AI services, the data you input is often collected and st
 - [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - A browser interface for Stable Diffusion and other models.
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI) - Generate and create stunning visual media using the latest AI-driven technologies locally.
 - [SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) - Local web interface for Stable Diffusion and other diffusion models, built on a ComfyUI backend. MIT licensed.
+
+#### Agent Memory
+
+- [engRAM](https://github.com/MaxFreedomPollard/engRAM) - Fully offline, encrypted-at-rest vector memory for AI agents, usable over MCP or CLI. Embeddings and records are AEAD-encrypted with per-record crypto-shred deletion; no cloud and no API keys. Python, MIT licensed.
 
 [Back to top 🔝](#contents)
 
