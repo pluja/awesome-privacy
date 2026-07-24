@@ -480,6 +480,7 @@ Apps such as Tinder collect and sell your personal intimate information. Tinder 
 - [GIMP](https://www.gimp.org/) - A free and open-source raster graphics editor used for image manipulation (retouching) and image editing, free-form drawing, transcoding between different image file formats, and more specialized tasks. It is not designed to be used for drawing, though some artists and creators have used it in this way.
 - [Inkscape](https://inkscape.org/) - A free and open-source vector graphics editor for GNU/Linux, Windows and macOS. It offers a rich set of features and is widely used for both artistic and technical illustrations such as cartoons, clip art, logos, typography, diagramming and flowcharting. 
 - [Krita](https://krita.org/) - A free and open-source raster graphics editor designed primarily for digital art and 2D animation.
+- [Vincent](https://github.com/iisacc-Justmoong/Vincent) - A local-first raster drawing and handwriting app for Windows that stores working files on the user's computer and has no accounts, telemetry, advertising, or automatic updates. AGPL-3.0 licensed.
 - [Excalidraw](https://github.com/excalidraw/excalidraw) - Virtual whiteboard for sketching hand-drawn like diagrams.
 
 ### Figma
