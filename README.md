@@ -34,6 +34,7 @@
 	- [Text To Speech](#text-to-speech)
  	- [Speech To Text](#speech-to-text)
 	- [Image Generation](#image-generation)
+	- [AI Writing Detection](#ai-writing-detection)
 - [Bookmarking](#bookmarking)
     - [Book and web annotations](#book-and-web-annotationshighlights-management)
 - [Captchas](#captchas)
@@ -305,6 +306,10 @@ When using cloud-based AI services, the data you input is often collected and st
 - [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - A browser interface for Stable Diffusion and other models.
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI) - Generate and create stunning visual media using the latest AI-driven technologies locally.
 - [SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) - Local web interface for Stable Diffusion and other diffusion models, built on a ComfyUI backend. MIT licensed.
+
+#### AI Writing Detection
+
+- [Signs of AI Writing](https://github.com/peopleworks/SignsofAI) - Flags the tells of AI-generated text in English and Spanish and shows the evidence behind each one — overused vocabulary, rhetorical crutches, syntactic patterns and sentence rhythm — instead of a black-box percentage. Runs entirely in your browser through WebAssembly: documents are never uploaded, there is no account and the site has no tracking. It also compares documents against each other to surface copied or paraphrased passages. MIT licensed.
 
 [Back to top 🔝](#contents)
 
