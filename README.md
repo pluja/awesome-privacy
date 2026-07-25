@@ -916,6 +916,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 
 ✅  **Instead use**
 
+- [Adversaria](https://lagharilabs.com/adversaria) - Meeting notetaker that records, transcribes and summarizes entirely on your own machine. No bot joins the call, the recording is deleted after transcription. MIT, macOS.
 - [Anytype](https://www.anytype.io/) - An open-source Notion alternative. E2EE, cloud and local network sync, can be self-hosted.
 - [AppFlowy](https://www.appflowy.io/) - Open Source Notion Alternative. You are in charge of your data and customizations.
 - [HedgeDoc](https://hedgedoc.org/) - Formerly CodiMD (community). An awesome platform to write and share markdown.
