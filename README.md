@@ -536,6 +536,7 @@ on the DMCrypt kernel module.
 ✅ **Instead use**
 - [Blaze](https://blaze.now.sh/) - A fast, p2p and radically different way to transfer files.
 - [Blindsend](https://github.com/blindnet-io/blindsend) [💀](#icons) - Open source tool for private, end-to-end encrypted file exchange.
+- [ClientPDF](https://abyworkings-coder.github.io/clientpdf/) - Merge PDF files entirely in your browser via WebAssembly. Files never leave your device, no upload, no account.
 - [Croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another.
 - [Dat-cp](https://github.com/tom-james-watson/dat-cp) [💀](#icons) - Copy files between hosts on a network using the peer-to-peer Dat network.
 - [Destiny](https://leastauthority.com/community-matters/destiny/) - Send files directly to the receiver in real-time. Developed for and with HROs as a free Privacy Enhancing Technology alternative.
