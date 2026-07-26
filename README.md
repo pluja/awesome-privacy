@@ -309,7 +309,7 @@ When using cloud-based AI services, the data you input is often collected and st
 
 #### Agent Memory
 
-- [engRAM](https://github.com/MaxFreedomPollard/engRAM) - Fully offline, encrypted-at-rest vector memory for AI agents, usable over MCP or CLI. Embeddings and records are AEAD-encrypted with per-record crypto-shred deletion; no cloud and no API keys. Python, MIT licensed.
+- [Compartment](https://github.com/MaxFreedomPollard/Compartment) - Fully offline, encrypted-at-rest vector memory for AI agents, usable over MCP or CLI. Embeddings and records are AEAD-encrypted with per-record crypto-shred deletion; no cloud and no API keys. Python, MIT licensed.
 
 [Back to top 🔝](#contents)
 
