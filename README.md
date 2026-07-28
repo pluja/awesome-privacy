@@ -268,6 +268,8 @@ When using cloud-based AI services, the data you input is often collected and st
 - [Open WebUI](https://openwebui.com) - Self-hosted web interface for Ollama and other local models that gives you a private ChatGPT-style chat. BSD-3 licensed.
 - [LibreChat](https://librechat.ai) - Self-hosted chat interface that connects many AI models behind one private UI you control. Open source, MIT licensed.
 
+- [Chaty](https://github.com/Fangyuan025/Chaty) - Open source desktop AI workspace that runs 100% offline on local models (GGUF/MLX): chat, coding agent, RAG and voice. No account, no telemetry. MIT licensed.
+
 #### AI Coding
 
 - [Continue](https://github.com/continuedev/continue) - Open-source autopilot for VS Code and JetBrains—the easiest way to code with any LLM
