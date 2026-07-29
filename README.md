@@ -1220,6 +1220,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Photostructure](https://photostructure.com/) - Self-hosted photo library that makes browsing and sharing a lifetime of memories delightful.
 - [Stingle Photos](https://stingle.org/) - Open source solution that provides strong security, privacy and encryption to backup your photos.
 - [Ente](https://ente.io/) - End-to-end encrypted storage for photos and videos. Open source, [audited](https://ente.io/blog/cryptography-audit/) independently.
+- [Pho](https://github.com/fregie/pho) - Mobile photo sync app for Android/iOS/Linux that connects directly to your own SMB, WebDAV or NFS storage. No server, no database, no lock-in (alternative to Google Photos). GPL-3.0.
 
 ### Third-party
 - [Crypt.ee](https://crypt.ee/) - A private and encrypted place for all your photos, documents, notes and more.
