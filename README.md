@@ -554,6 +554,7 @@ on the DMCrypt kernel module.
 - [Winden](https://winden.app/) - A convenient version of Magic Wormhole you can use from within your browser. No need to install an app.
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
 - [scrt.link](https://scrt.link/file) - End-to-end encrypted file transfer. Up to 100GB and 30 days retention. Stored in Switzerland.
+- [todevice](https://todevice.app) - Send files and text between your own paired devices from the browser. Encrypted client-side before upload and the relay is never given the keys. Works when the devices are on different networks or when local discovery is blocked. Hosted service, not open source.
 
 [Back to top 🔝](#contents)
 
