@@ -1642,6 +1642,7 @@ Here are some open source and truly private (no personal data and/or credit card
 - [SPN](https://safing.io/) - Open source, system-wide network that routes each app connection through its own path across multiple nodes, giving per-connection IP separation instead of a single shared exit. Built into the Safing Portmaster firewall for Windows and Linux.
 - [Amnezia VPN](https://amnezia.org) - Self-hosted, censorship-resistant VPN that you deploy on your own server, with audited open source apps (GPL-3.0).
 - [Find more at kycnot.me (VPN Category)](https://kycnot.me/?categories=vpn) - KYC-free VPN providers.
+- [Hulios](https://github.com/ghaziwali/Hulios) - An open-source, eBPF-powered transparent Tor gateway for Linux that secures system-wide TCP/DNS traffic and blocks raw socket leaks.
 
 [Back to top 🔝](#contents)
 
