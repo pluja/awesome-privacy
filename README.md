@@ -543,6 +543,7 @@ on the DMCrypt kernel module.
 - [Lufi](https://framagit.org/fiat-tux/hat-softwares/lufi) - Let's Upload that FIle — File sharing software.
 - [Localsend](https://localsend.org/) - Share files to nearby devices. Free, open source, cross-platform.
 - [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole) - Get things from one computer to another, safely.
+- [NoTrust.now](https://notrust.now) - Zero-knowledge secret sharing with self-destructing links. Supports post-quantum encryption (ML-KEM-768, ML-DSA-65). No registration required.
 - [OnionShare](https://github.com/micahflee/onionshare) - An open source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network.
 - [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - A community-supported supercharged version of paperless based on paperless-ng
 - [PairDrop](https://github.com/schlagmichdoch/PairDrop) - An improved version of Snapdrop that also allows you to pair devices and share files outside your network.
