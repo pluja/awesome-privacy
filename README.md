@@ -440,6 +440,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+- [TrenTyx](https://trentyx.com/) - Free suite of 15+ browser-based developer tools (JSON/CSV/YAML/XML converters, Base64, UUID generator, JWT decoder, and more) that run 100% client-side. Nothing is sent to a server.
 
 ### IDEs
 ⛔ Avoid using privative IDEs that are full of trackers and telemetry.
