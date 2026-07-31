@@ -1547,6 +1547,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
+- [Hardtack](https://hardtack.app) - Offline-first pantry and home inventory app for iOS and Android, an alternative to cloud inventory trackers like Sortly: the inventory stays in a local SQLCipher database with no account, no cloud sync and no analytics (proprietary, one-time purchase, opt-out crash reporting).
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
 
 [Back to top 🔝](#contents)
