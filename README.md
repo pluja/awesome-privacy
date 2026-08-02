@@ -806,6 +806,8 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [🤖](#icons) [K9](https://k9mail.app/) - Open Source Email App for Android.
 
 #### Desktop
+
+- [Offscreen](https://github.com/bsmensah-ctrl/offscreen) - Open-source privacy overlay for screen sharing. Invisible to Zoom, Meet, Teams & OBS.
 - [Thunderbird](https://www.thunderbird.net) - A free customizable open source email client.
 
 ### Email Alias Services (Anonymous Forwarding)
@@ -1185,6 +1187,8 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
 
 #### Desktop
+
+- [Offscreen](https://github.com/bsmensah-ctrl/offscreen) - Open-source privacy overlay for screen sharing. Invisible to Zoom, Meet, Teams & OBS.
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
 - [Krita](https://github.com/KDE/krita) - Krita is a free and open source digital painting application
 - [Czkawka](https://github.com/qarmin/czkawka) - Multi functional app to find duplicates and similar images etc.
@@ -1238,6 +1242,8 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 This section is dedicated to some tools that may help users analyze the privacy status on their devices.
 
 ### Desktop
+
+- [Offscreen](https://github.com/bsmensah-ctrl/offscreen) - Open-source privacy overlay for screen sharing. Invisible to Zoom, Meet, Teams & OBS.
 
 - [Whoami Project](https://github.com/owerdogan/whoami-project) - Whoami provides enhanced privacy, anonymity for Debian and Arch based linux distributions.
 - [BusKill](https://www.buskill.in/) - BusKill is a Dead Man Switch triggered when a magnetic breakaway is tripped, severing a USB connection.
@@ -1665,6 +1671,8 @@ Here are some open source and truly private (no personal data and/or credit card
 - [Cromite](https://www.cromite.org/) - Cromite is a Chromium fork based on Bromite with built-in support for ad blocking and an eye for privacy.
 
 #### Desktop
+
+- [Offscreen](https://github.com/bsmensah-ctrl/offscreen) - Open-source privacy overlay for screen sharing. Invisible to Zoom, Meet, Teams & OBS.
 - [Ungoogled Chromium](https://github.com/ungoogled-software/ungoogled-chromium) - A lightweight approach to removing Google web service dependency. Ungoogled-chromium is Google Chromium, sans dependency on Google web services.
 - [Brave](https://brave.com/) - Brave offers a pretty good out-of-the-box set of privacy and tracker protections.
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Open Source, independent browser. It needs some [hardening and tweaking](https://anonymousplanet.org/guide.html#firefox-1) to achieve great privacy.
