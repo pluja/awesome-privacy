@@ -1194,6 +1194,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [darktable](https://www.darktable.org/) - darktable is an open source photography workflow application and raw developer
 - [RapidRAW](https://github.com/CyberTimon/RapidRAW) - A beautiful, non-destructive and GPU-accelerated RAW image editor built with performance in mind. Lightweight (<20MB) cross-platform alternative to Adobe Lightroom. AGPL-3.0 licensed.
 - [RawTherapee](https://rawtherapee.com) - Offline open source RAW photo developer that pairs well with darktable as a Lightroom alternative. GPL-3.0 licensed.
+- [Jura Trace](https://codeberg.org/jura-labs/jura-trace) - Verifies photo authenticity and detects AI-generated/deepfake images entirely on-device, no upload required. Open source alternative to cloud-based content-authenticity and deepfake-detection services. AGPL-3.0 licensed.
 
 #### Android
 - [Pocket Paint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
