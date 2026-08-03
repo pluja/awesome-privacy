@@ -918,6 +918,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 
 - [Anytype](https://www.anytype.io/) - An open-source Notion alternative. E2EE, cloud and local network sync, can be self-hosted.
 - [AppFlowy](https://www.appflowy.io/) - Open Source Notion Alternative. You are in charge of your data and customizations.
+- [Glyph](https://glyphformac.com/) - Offline-first macOS Markdown notes app with local file storage, search, tasks, and optional AI tools; AGPL-3.0 source is available on [GitHub](https://github.com/SidhuK/Glyph), while official builds are a paid one-time purchase after a 7-day trial.
 - [HedgeDoc](https://hedgedoc.org/) - Formerly CodiMD (community). An awesome platform to write and share markdown.
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation and encryption capabilities.
 - [Logseq](https://logseq.com/) - A privacy-first alternative to WorkFlowy.
