@@ -1129,6 +1129,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ### Where to use Monero and Bitcoin
 
 - [kycnot.me](https://kycnot.me/) - Directory of KYC-free exchanges, payment processors, and other privacy services.
+- [Bisq](https://bisq.info/no-kyc-hub/) - Comparison of no-KYC P2P Bitcoin exchanges (Bisq, Hodl Hodl, RoboSats, Peach), legal/tax considerations, and how private P2P trading works.
 
 [Back to top 🔝](#contents)
 
