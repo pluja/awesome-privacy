@@ -550,6 +550,7 @@ on the DMCrypt kernel module.
 - [QRcp](https://github.com/claudiodangelis/qrcp) - Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.
 - [Send](https://gitlab.com/timvisee/send) - Simple, private file sharing. (Mozilla Send Fork)
 - [Sharik](https://github.com/marchellodev/sharik) [💀](#icons) - Sharik works with Wi-Fi connection or Tethering (Wi-Fi Hotspot). No internet connection needed. Available for Android, iOS, Linux, MacOS & Windows.
+- [ShieldFive](https://shieldfive.com) - Zero-knowledge file exchange for collecting documents: the recipient uploads without an account and every file is encrypted in the browser before upload, so the server only stores ciphertext. Post-quantum hybrid encryption with an open-source crypto core; hosted in the EU.
 - [Snapdrop](https://github.com/RobinLinus/snapdrop) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
 - [Winden](https://winden.app/) - A convenient version of Magic Wormhole you can use from within your browser. No need to install an app.
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
