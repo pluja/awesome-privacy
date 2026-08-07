@@ -1548,6 +1548,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
+- [Tidy Paste](https://project-unmuted.com/tools/tidy-paste/) - Turns a messy pasted list of names, emails and phone numbers into clean spreadsheet columns for Excel or Sheets, replacing upload-based online CSV converters; it is a single self-hostable HTML file that runs entirely in the browser with no server, signup or tracking ([source](https://github.com/projectunmuted/dollar-experiment/tree/main/tools/tidy-paste), MIT).
 
 [Back to top 🔝](#contents)
 
