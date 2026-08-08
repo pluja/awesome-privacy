@@ -519,6 +519,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords.
 - [Picocrypt](https://github.com/Picocrypt/Picocrypt) - A very small (hence "Pico"), very simple, yet very secure file encryption tool.
 - [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others. 
+- [Ember](https://www.emberwipe.com) - iOS app that encrypts sensitive files with AES-256-GCM (zero-knowledge) and automatically wipes or locks them when your Apple Watch detects a health emergency or panic trigger.
 - [age](https://age-encryption.org) - Modern command line file encryption tool with small keys and no configuration or keyring to manage. Open source, BSD-3 licensed.
 
 ### OS Encryption
