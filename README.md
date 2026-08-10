@@ -1548,6 +1548,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
+- [YazSes](https://github.com/MSKazemi/yazses) - Hold-to-talk voice dictation that transcribes on your own CPU and types into any app, so audio never leaves the machine. Apache-2.0.
 
 [Back to top 🔝](#contents)
 
