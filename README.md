@@ -685,6 +685,7 @@ Interesting articles: [1](https://www.theguardian.com/technology/2019/oct/09/ale
 [Back to top 🔝](#contents)
 
 ## Instant Messaging
+  * [XChat](https://xchat.chat/) - Open-source, privacy-first messaging app built on Nostr with end-to-end encrypted private circles.
 **Check out [this site](https://www.securemessagingapps.com/) for comparisons*.
 
 ⛔ **Avoid**
