@@ -440,7 +440,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
-- [Agent Island](https://agent-island.dev) - Status companion for AI coding agents (Claude Code, Codex, Gemini, Grok, Cursor). Reads the session logs those tools already write locally and computes usage and cost on-device — no account, no product telemetry, nothing uploaded. MIT licensed.
+- [Agent Island](https://agent-island.dev) - Status companion for AI coding agents (Claude Code, Codex, Antigravity, Grok, Cursor). Reads the session logs those tools already write locally and computes usage and cost on-device — no account, no product telemetry, nothing uploaded. MIT licensed.
 
 ### IDEs
 ⛔ Avoid using privative IDEs that are full of trackers and telemetry.
