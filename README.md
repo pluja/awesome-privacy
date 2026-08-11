@@ -298,6 +298,7 @@ When using cloud-based AI services, the data you input is often collected and st
 	- [OpenWhispr](https://github.com/OpenWhispr/openwhispr) - Voice-to-text dictation and productivity app with AI agents, meeting transcription, notes, and local/cloud speech recognition. Privacy-first and available cross-platform. Open source alternative to wisprflow.
 	- [Sasayaki](https://github.com/pluja/sasayaki) - Tiny android dictation app that turns speech into clear writing.
 	- [Speaches](https://github.com/speaches-ai/speaches) - OpenAI API-compatible server supporting streaming transcription, translation, and speech generation.
+	- [YazSes](https://github.com/MSKazemi/yazses) - Hold-to-talk dictation that transcribes on your own CPU with faster-whisper and types into the focused window; nothing leaves the machine by default. Also transcribes recordings and labels meeting speakers. Apache-2.0 licensed.
 
 #### Image Generation
 
@@ -1548,7 +1549,6 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
-- [YazSes](https://github.com/MSKazemi/yazses) - Hold-to-talk voice dictation that transcribes on your own CPU and types into any app, so audio never leaves the machine. Apache-2.0.
 
 [Back to top 🔝](#contents)
 
