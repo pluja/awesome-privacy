@@ -573,6 +573,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 
 ### Workout planners
 
+- [nobro.app](https://nobro.app/) - Minimalist workout program tracker PWA. No account, no analytics, no backend: your program and progress stay in your browser's localStorage. Works fully offline and can be selfhosted as static files ([source code](https://github.com/mybottles/nobro-app), MIT).
 - [wger](https://wger.de/en/software/features) - A free, open source, self-hosted web application that manages your exercises, workouts and nutrition.
 - [workout.lol](https://github.com/Vincenius/workout-lol) - A small web application to create workouts based on your available equipment and the muscles you want to train that you can selfhost.
 
