@@ -710,7 +710,7 @@ No single point of control or failure. A decentralized network operated by diffe
   - [Gajim](https://gajim.org/) - Cross-platform XMPP client with OMEMO encryption, running on Linux, Windows, and macOS. Open source, GPL-3.0 licensed.
   - [Snikket](https://snikket.org/) - One-command self-hosted XMPP service that bundles a server with matching mobile and desktop clients. Open source and Docker-based.
 - [DeltaChat](https://delta.chat/) - Chat over encrypted e-mail.
-- [Talon]([https://talon.rf.gd]) - Self-hosted encrypted messenger you run on your own machine. X3DH, Double Ratchet and ML-KEM-768 post-quantum hybrid, sealed sender, no phone number or email.
+- [Talon](https://github.com/xsdbs/talon-main) - Self-hosted encrypted messenger you run on your own machine. X3DH, Double Ratchet and ML-KEM-768 post-quantum hybrid, sealed sender, no phone number or email.
 - [Session](https://getsession.org/) - Extreme focus on privacy and anonymity. Blockchain technology.
 - [SimpleX Chat](https://simplex.chat/) - The first chat platform that is 100% private by design - it has no access to your connection graph
 - [Status](https://status.im/) - Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.
