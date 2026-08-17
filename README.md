@@ -1168,6 +1168,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ### Others 
 
 - [Debitum](https://github.com/Marmo/debitum) - With Debitum you can track all kinds of IOUs, be it money or lent items.
+- [Elder Fraud Toolkit](https://github.com/stepuplaw/elder-fraud-toolkit) - Generates the mail-in credit freeze letters that Equifax, Experian and TransUnion each require, including the protected-consumer freeze that a guardian or an agent under a power of attorney can place, entirely in the browser with no network calls (MIT, TypeScript, self-hostable).
 
 ### Portfolio trackers
 
