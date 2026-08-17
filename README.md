@@ -440,6 +440,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+- [Summit Side Utilities](https://summit-side-utilities.pages.dev/) - A suite of 51 unbloated developer, analyst, and writer tools running 100% client-side in the browser with zero tracking.
 
 ### IDEs
 ⛔ Avoid using privative IDEs that are full of trackers and telemetry.
