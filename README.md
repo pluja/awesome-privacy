@@ -74,6 +74,7 @@
     - [Video and Audio](#video-and-audio)
     - [Audio](#audio)
     - [Podcasts](#podcasts)
+- [Metadata Removal](#metadata-removal)
 - [Music Recognition (Shazam-like)](#music-recognition)
 - [Notes and Tasks](#notes-and-tasks)
 - [Office](#office)
@@ -899,6 +900,18 @@ With email aliases, you can finally create a different identity for each website
 - [Antennapod](https://antennapod.org) - A podcast player that is completely open. Subscribe to any RSS feed. 
 - [Castopod](https://castopod.org) - Self-host your podcasts with ease, keep control over what you create and talk to your audience without any middleman. Your podcast and your audience belong to you and you only. 
 - [Funkwhale](https://funkwhale.audio/) - A social platform to enjoy and share audio.
+
+[Back to top 🔝](#contents)
+
+## Metadata Removal
+⛔ **Avoid**
+- **Random "remove EXIF online" websites** - The photo itself is the data you are protecting, and many of these sites upload it with no privacy policy and no word on retention.
+
+✅ **Instead use**
+- [ExifCleaner](https://exifcleaner.com/) - Open source desktop app that cleans image, video and PDF metadata with drag and drop. Cross-platform.
+- [ExifTool](https://exiftool.org/) - The reference command-line tool to read and write metadata in almost any file format. Open source, cross-platform.
+- [mat2](https://0xacab.org/jvoisin/mat2) - Open source metadata removal tool for images, documents and audio files, usable from the command line or the file manager. Python.
+- [QuietMeta](https://quietmeta.app/) - Metadata inspector and remover for photos, PDF and Office documents, with C2PA provenance validation. Cleans without re-encoding and re-reads every cleaned file to prove the result. Web inspector is free (files are processed server-side, held in memory for one request); text cleaning runs fully in the browser; paid offline desktop app for Windows. Proprietary.
 
 [Back to top 🔝](#contents)
 
