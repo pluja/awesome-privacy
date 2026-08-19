@@ -1241,6 +1241,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 - [Whoami Project](https://github.com/owerdogan/whoami-project) - Whoami provides enhanced privacy, anonymity for Debian and Arch based linux distributions.
 - [BusKill](https://www.buskill.in/) - BusKill is a Dead Man Switch triggered when a magnetic breakaway is tripped, severing a USB connection.
+- [Right To Erasure](https://righttoerasure.org) - An open-source protocol and directory of 238 direct data deletion and opt-out links for tech corps and data brokers.
 
 ### Android
 
