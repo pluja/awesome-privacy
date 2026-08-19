@@ -389,6 +389,7 @@ Google captchas use cookies to track users and rank their IPs.
 
 ### Text
 - [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords ([repo](https://github.com/kurolabs/stegcloak)).
+- [Mirror Veil](https://justlay.me/mirror-veil) - Redacts names, phone numbers, emails and other identifiers out of a chat or message export before you share it with a lawyer, therapist or AI. A single HTML file you download and open: no upload, no account, no server, and it keeps working offline. Maps every identifier belonging to one person to one stable token, so the redacted thread stays readable ([repo](https://github.com/justlayme/mirror-veil)).
 
 [Back to top 🔝](#contents)
 
