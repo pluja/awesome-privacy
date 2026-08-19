@@ -1168,6 +1168,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ### Others 
 
 - [Debitum](https://github.com/Marmo/debitum) - With Debitum you can track all kinds of IOUs, be it money or lent items.
+- [Paperpack](https://github.com/ChangkeunJ/paperpack) - Works out Australian working holiday tax and departing super in place of data-collecting refund-estimate sites; everything computes in the browser and nothing you type is sent anywhere. MIT, self-hostable static site, 8 languages.
 
 ### Portfolio trackers
 
