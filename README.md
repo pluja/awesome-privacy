@@ -516,16 +516,16 @@ Apps such as Tinder collect and sell your personal intimate information. Tinder 
 
 Commercial ebook platforms track your reading habits, tie purchases to accounts that can be revoked, and require constant online activation.
 
-- **Amazon Kindle** — Tracks reading activity, requires Amazon account, can remotely delete purchased books. [See Kindle's remote deletion history.](https://www.nytimes.com/2009/07/18/technology/18kindle.html)
-- **Google Play Books** — Tied to Google account, tracks reading data, no offline-only mode.
-- **Kobo / Apple Books** — Require accounts, sync reading data to company servers by default.
+- **Amazon Kindle** - Tracks reading activity, requires an Amazon account, and has a documented history of [remote deletion](https://www.nytimes.com/2009/07/18/technology/18kindle.html).
+- **Google Play Books** - Tied to a Google account, tracks reading data, and does not offer an offline-only mode.
+- **Kobo / Apple Books** - Require accounts and sync reading data to company servers by default.
 
 ✅ **Instead use**
 
-- [Shelfmark](https://github.com/infonality/shelfmark) - Personal library and reader for ebooks and comics. Offline, local, no account, no telemetry (MIT).
-- [Calibre](https://calibre-ebook.com/) - Open source ebook library manager with format conversion, metadata editing, and built-in reader (GPL-3.0).
-- [Kavita](https://github.com/Kareadita/Kavita) - Self-hosted digital library for ebooks and comics with a built-in web reader (GPL-3.0).
-- [Komga](https://github.com/gotson/komga) - Self-hosted media server for comics, magazines, and ebooks with OPDS support (MIT).
+- [Shelfmark](https://github.com/infonality/shelfmark) - Personal library and reader for ebooks and comics on Windows, macOS, and Linux that runs locally without an account or telemetry (MIT).
+- [Calibre](https://calibre-ebook.com/) - Open-source ebook manager for Linux, Windows, and macOS with format conversion, metadata editing, and a built-in reader (GPL-3.0).
+- [Kavita](https://github.com/Kareadita/Kavita) - Cross-platform self-hosted digital library for ebooks and comics with a built-in web reader (GPL-3.0).
+- [Komga](https://github.com/gotson/komga) - Self-hosted media server for comics, magazines, and ebooks with a responsive web interface and OPDS support (MIT).
 
 [Back to top 🔝](#contents)
 
