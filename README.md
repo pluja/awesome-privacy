@@ -1129,6 +1129,8 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ### Where to use Monero and Bitcoin
 
 - [kycnot.me](https://kycnot.me/) - Directory of KYC-free exchanges, payment processors, and other privacy services.
+- [[NOT]KYC](https://notkyc.life) - Live-rate comparison for no-KYC exchanges with privacy/trust scores and no-KYC track records. No signup, ID or logs.
+
 
 [Back to top 🔝](#contents)
 
