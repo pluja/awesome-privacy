@@ -404,6 +404,7 @@ Google captchas use cookies to track users and rank their IPs.
 - [Peergos](https://peergos.org/) - Secure and private space online where you can store, share and view your photos, videos, music and documents. Also includes a calendar, news feed, task lists, chat and email client. Open source and self-hostable.
 - [Proton Drive](https://proton.me/drive) - End-to-end encrypted Swiss vault for your files that protects your data. [Read this article over Climate activist arrest](https://protonmail.com/blog/climate-activist-arrest/).
 - [PrivateStorage](https://private.storage/) - Accountless, privacy-focused cloud storage and folder synchronization with client-side encryption.
+- [RonikCloud](https://ronikcloud.com/) - Client-side encrypted cloud storage for private backup and secure client file exchange. File contents and names are encrypted on-device before upload; supports zero-knowledge file requests.
 
 **Other useful tools**
 - [Cryptomator](https://cryptomator.org) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service
