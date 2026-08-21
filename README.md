@@ -1129,6 +1129,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ### Where to use Monero and Bitcoin
 
 - [kycnot.me](https://kycnot.me/) - Directory of KYC-free exchanges, payment processors, and other privacy services.
+- [Swapuz](https://swapuz.com/) - Instant exchange with no registration. Accepts Monero.
 
 [Back to top 🔝](#contents)
 
