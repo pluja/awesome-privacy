@@ -308,6 +308,8 @@ When using cloud-based AI services, the data you input is often collected and st
 
 [Back to top 🔝](#contents)
 
+- [Presend](https://presend.pages.dev) — 22 free browser-based privacy tools. Remove EXIF, compress PDFs, merge documents, resize images — all locally. No upload, no tracking. `Web` `Open-Source`
+
 ## Bookmarking
 ⛔ **Avoid**
 - Evernote Web Clipper -  [Bad privacy policy](https://tosdr.org/en/service/207). [Apps have many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.evernote/latest/) and require too many permissions.
