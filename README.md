@@ -1129,6 +1129,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ### Where to use Monero and Bitcoin
 
 - [kycnot.me](https://kycnot.me/) - Directory of KYC-free exchanges, payment processors, and other privacy services.
+- [XMRS](https://xmrs.io/) - Privacy-focused instant exchange with no registration, fixed and floating rates
 
 [Back to top 🔝](#contents)
 
