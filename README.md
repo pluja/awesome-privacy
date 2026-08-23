@@ -1,4 +1,5 @@
 # Awesome Privacy
+- [Persona](https://github.com/jayamitkatariya/personacli) - Local-first personal workspace: notes, tasks, and AI chat. All plain Markdown, no cloud.
 <p align="center"><img width="500" src="misc/logo.png"> </img></p>
 <p align="center">
 	<img src="https://awesome.re/badge.svg" alt="Awesome">
@@ -18,8 +19,6 @@
 > The primary focus of this list is to provide alternatives that prioritize privacy. These alternatives give you control over your data and do not collect or sell it.
 
 ## Contents
-
-- [Persona](https://github.com/jayamitkatariya/personacli) - Local-first personal workspace: notes, tasks and AI chat. Plain markdown files, no accounts, no cloud. MIT.
 - [2FA](#2fa)
 - [Analytics](#analytics)
 - [Android](#android)
