@@ -925,6 +925,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [Nextcloud Notes](https://github.com/nextcloud/notes/) - The Notes app is a distraction free notes taking app for Nextcloud.
 	- [Nextcloud Notes app](https://github.com/stefan-niedermann/nextcloud-notes) - An android client for Nextcloud Notes.
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app (local only, no sync).
+- [Persona](https://github.com/jayamitkatariya/personacli) - Local-first personal workspace: notes and tasks as plain Markdown on your own machine, with an optional AI chat grounded in those files. No accounts, no cloud, no telemetry. Works fully offline via Ollama.
 - [Notesnook](https://notesnook.com/) - Open source zero knowledge private note taking.
 - [Obsidian](https://obsidian.md) - Obsidian is the private and flexible note‑taking app. Closed source but has no trackers (website / apps) and E2EE sync. 
 - [Quillpad](https://quillpad.github.io/) - Take beautiful markdown notes and stay organized with task lists. Fork of Quillnote.
