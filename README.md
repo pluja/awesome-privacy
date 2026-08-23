@@ -1,4 +1,5 @@
 # Awesome Privacy
+- [Persona](https://github.com/jayamitkatariya/personacli) - Local-first personal workspace: notes, tasks, and AI chat. All plain Markdown, no cloud.
 <p align="center"><img width="500" src="misc/logo.png"> </img></p>
 <p align="center">
 	<img src="https://awesome.re/badge.svg" alt="Awesome">
