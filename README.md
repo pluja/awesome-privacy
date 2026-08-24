@@ -935,6 +935,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [Vikunja](https://vikunja.io) - The open-source to-do app to organize your life.
 - [YankNote](https://github.com/purocean/yn) - A Hackable Markdown Note Application for Programmers.
 - [TopicSplit](https://github.com/andrwspt/topicsplit) - Free offline semantic text grouper — split pasted text into topic segments by meaning. 100% browser-based, no server, no tracking.
+- [Meeting Splitter](https://andrwspt.github.io/topicsplit/meeting-splitter.html) - Free offline meeting transcript splitter. Paste any Zoom/Teams/Meet transcript → get clean topic-segmented notes. 100% browser-based, no upload.
 - [🤖](#icons) [Tasks.org](https://tasks.org) - Open source to-do and task manager for Android with CalDAV sync and offline use. GPL-3.0 licensed.
 
 [Back to top 🔝](#contents)
