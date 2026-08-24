@@ -1546,6 +1546,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 [Back to top 🔝](#contents)
 
 ## Utilities
+- [checkip.tools](https://checkip.tools) - Free IP and network tools (IP lookup, DNS, WHOIS, ping, port checker) with no trackers, no ads and no external requests from pages. No signup, 18 languages.
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
 
