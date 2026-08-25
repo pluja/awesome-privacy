@@ -579,7 +579,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 ### Food
 - [OpenFoodFacts](https://world.openfoodfacts.org/) - Open Food Facts is a food products database made by everyone, for everyone. You can use it to make better food choices.
     - [OFF Apps](https://world.openfoodfacts.org/open-food-facts-mobile-app) - Open source Android and iOS apps to scan food barcodes and read ingredient, additive, and nutrition data.
-- [🤖](#icons) [Chompass](https://chompass.app/) - Ad-free FOSS calorie tracker (Android + PWA) with a local diary and no analytics ([source](https://codeberg.org/fitguy/chompass), MIT). Available on [F-Droid](https://f-droid.org/packages/app.chompass).
+- [🤖](#icons) [Chompass](https://chompass.app/) - Ad-free FOSS calorie tracker (Android + PWA) with a local diary and no analytics ([source](https://codeberg.org/fitguy/chompass), [F-Droid](https://f-droid.org/packages/app.chompass), MIT).
 
 ### Menstrual cycle trackers
 - [🤖](#icons) [Bluemoon](https://gitlab.com/ngrob/bluemoon-android) - Open source, privacy friendly menstruation tracking app. Your period, your data!
