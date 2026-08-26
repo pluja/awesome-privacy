@@ -570,6 +570,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [🤖](#icons) [OpenTracks](https://codeberg.org/OpenTracksApp/OpenTracks) - OpenTracks is a sport tracking application that completely respects your privacy.
 - [🤖](#icons) [Gadgetbridge](https://codeberg.org/Freeyourgadget/Gadgetbridge) - A free and cloudless replacement for your gadget vendors' closed source Android applications.
 - [FitTrackee](https://codeberg.org/FitTrackee/FitTrackee) - Self-hosted web app to record and analyze outdoor activities from GPS files, as a Strava alternative (AGPL-3.0).
+- [MTL Explorer](https://github.com/mindalyze-com/mtl-explorer) - Self-hosted GPS activity archive for mapping, filtering, analyzing, and replaying tracks and planning routes, as an alternative to Garmin Connect and Strava activity histories (AGPL-3.0-or-later).
 
 ### Workout planners
 
