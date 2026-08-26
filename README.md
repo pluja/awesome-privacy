@@ -122,6 +122,7 @@
 - [Web Browser](#web-browser)
     - [Browser Addons](#browser-addons) 
     - [Browser Sync](#browser-sync)
+- [ZenResume](https://www.zenresume.online/) - Privacy-first, local-first in-browser ATS resume maker that processes all personal candidate data in local browser storage (IndexedDB) with zero tracking databases. ([Source Code](https://github.com/jagadeesvarrao-design/resume-builder)) `MIT`
 
 ## 2FA
 ⛔ Avoid using apps that won't let you export your keys **easily**.
