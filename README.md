@@ -34,6 +34,7 @@
 	- [Text To Speech](#text-to-speech)
  	- [Speech To Text](#speech-to-text)
 	- [Image Generation](#image-generation)
+	- [Browser Agents](#browser-agents)
 - [Bookmarking](#bookmarking)
     - [Book and web annotations](#book-and-web-annotationshighlights-management)
 - [Captchas](#captchas)
@@ -305,6 +306,10 @@ When using cloud-based AI services, the data you input is often collected and st
 - [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) - A browser interface for Stable Diffusion and other models.
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI) - Generate and create stunning visual media using the latest AI-driven technologies locally.
 - [SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) - Local web interface for Stable Diffusion and other diffusion models, built on a ComfyUI backend. MIT licensed.
+
+#### Browser Agents
+
+- [Yad](https://github.com/holistis/al-yad) - Local-first browser agent, available as a multi-browser extension (Chrome, Brave) and as an early standalone Windows desktop-app prototype. Runs inside your own logged-in browser session instead of a fresh cloud browser, with a local companion app doing the reasoning. Local model or your own API key, your choice, and passwords/card numbers are masked before anything is ever sent to a cloud model. MIT licensed.
 
 [Back to top 🔝](#contents)
 
