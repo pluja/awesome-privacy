@@ -1147,7 +1147,8 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [ProExpense](https://github.com/arduia/ProExpense/) - A simple free finance note to safely record daily expenses.
 - [My Expenses](https://github.com/mtotschnig/MyExpenses) - Featureful GPL licenced Android Expense Tracking App.
 - [Wallos](https://wallosapp.com) - Self-hosted tracker for subscriptions and recurring expenses, with reminders and spending statistics. Open source, GPL-3.0 licensed.
-
+- [ShiftRosterPay ](https://shiftrosterpay.com/) – Privacy-first client-side shift planner to calculate surcharges and estimate monthly net pay.
+  
 ### Shared Expenses
 
 ⛔ **Avoid**
