@@ -1693,6 +1693,7 @@ Please read about what the addon does before installing. If you don't understand
 
 #### Useful Tools
 - [Single File](https://github.com/gildas-lormeau/SingleFile) - Save a faithful copy of an entire web page in a single HTML file so you can use it offline.
+- [Stop the Slop](https://github.com/MauroPello/stop-the-slop) - Privacy-first, zero-telemetry browser extension that inspects public YouTube transcripts to detect AI-generated scripts without tracking user history, requiring accounts, or setting cookies. Open source, MIT licensed.
 
 ### Browser Sync
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
