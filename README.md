@@ -1644,6 +1644,9 @@ Here are some open source and truly private (no personal data and/or credit card
 - [Find more at kycnot.me (VPN Category)](https://kycnot.me/?categories=vpn) - KYC-free VPN providers.
 
 [Back to top 🔝](#contents)
+## Online Tools (Privacy-First)
+
+- [Korelyy](https://korelyy.com/) - 110+ free browser-based tools (image converter, emoji mixer, JSON formatter, color picker, meme generator, life timeline, etc.). All tools run locally in your browser - no upload, no tracking, no account. 6 languages (en, zh, es, fr, hi, ar). MIT-style transparency for indie devs.
 
 ## Web Browser
 
