@@ -971,6 +971,11 @@ These providers offer apps and services filled with data trackers. Also, most of
  	- [dSheets](https://dsheets.new): decentralized alternative to Excel and Google Sheets.
 - [Grist](https://www.getgrist.com) - Self-hostable spreadsheet and database hybrid for organizing data, as an open source Airtable alternative. Apache-2.0 licensed.
 
+
+
+### PDF Tools
+
+- [I Have A Tool For That](https://ihaveatoolforthat.com/category/pdf-tools) - Client-side PDF tool suite (Merge, Split, Compress, Rotate, Crop, Watermark, Page Numbers, Protect, Unlock, Extract Text, Extract Images) powered by WebAssembly. No file ever leaves your device — all processing runs locally in the browser. [Technical privacy proof](https://ihaveatoolforthat.com/privacy-guarantee).
 [Back to top 🔝](#contents)
 
 ## Online Phone Providers
