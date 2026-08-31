@@ -1074,6 +1074,7 @@ GNU/Linux is a family of free (as in freedom and as in free beer) and open sourc
 
 ✅  **Instead use**
 - [AliasVault](https://www.aliasvault.net) - An open source E2EE password & alias manager with a built-in email alias server
+- [Authier](https://www.authier.pm/) - Open-source browser-first password manager with client-side encrypted vault sync, TOTP, and trusted-device approval ([source](https://github.com/authier-pm/authier)) `AGPL-3.0`.
 - [Bitwarden](https://bitwarden.com) - An open source cloud based password manager.
   - [vaultwarden](https://github.com/dani-garcia/vaultwarden/) - Unofficial Bitwarden compatible self-hosted server, formerly known as bitwarden_rs.
 - [CarryPass](https://carrypass.net) - Zero-knowledge PWA password manager with deterministic generation, encrypted vaults, and team collaboration. ([Source](https://github.com/racz-zoltan/racz-zoltan.github.io)) `MIT`
