@@ -534,6 +534,8 @@ on the DMCrypt kernel module.
 - **SendAnywhere** - No e2e encryption. Website has loads of analytics and trackers from Facebook, Google, Cloudflare...
 
 ✅ **Instead use**
+
+- **[Toolfyra](https://toolfyra.com)** - 341 browser-based tools (PDF, images, text, converters). Files are processed locally and never uploaded; no account needed.
 - [Blaze](https://blaze.now.sh/) - A fast, p2p and radically different way to transfer files.
 - [Blindsend](https://github.com/blindnet-io/blindsend) [💀](#icons) - Open source tool for private, end-to-end encrypted file exchange.
 - [Croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another.
