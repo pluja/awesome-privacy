@@ -267,6 +267,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [Tinfoil](https://tinfoil.sh/) - Verifiably private AI Chat and OpenAI-compatible inference in the cloud. Uses NVIDIA confidential computing and open source code pinned to a transparency log for end-to-end verifiability.
 - [Open WebUI](https://openwebui.com) - Self-hosted web interface for Ollama and other local models that gives you a private ChatGPT-style chat. BSD-3 licensed.
 - [LibreChat](https://librechat.ai) - Self-hosted chat interface that connects many AI models behind one private UI you control. Open source, MIT licensed.
+- [ENZO](https://github.com/theguysudo/ENZO) - Self-hosted AI workspace with agents, skills and tools (Gmail, Calendar) that runs entirely on your own provider API keys (BYOK), so no middleman service sees your requests. Apache-2.0 licensed.
 
 #### AI Coding
 
