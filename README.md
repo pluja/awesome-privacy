@@ -970,6 +970,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 	- [Ddocs](https://ddocs.new): privacy-enhancing alternative to google docs: onchain, end-to-end encrypted, and decentralized. 
  	- [dSheets](https://dsheets.new): decentralized alternative to Excel and Google Sheets.
 - [Grist](https://www.getgrist.com) - Self-hostable spreadsheet and database hybrid for organizing data, as an open source Airtable alternative. Apache-2.0 licensed.
+- [PDFree](https://pdfree.io) - Free, open source PDF toolkit (merge, split, compress, convert, OCR & more) that runs entirely client-side — files never leave your browser. AGPLv3.
 
 [Back to top 🔝](#contents)
 
