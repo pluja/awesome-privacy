@@ -831,6 +831,7 @@ With email aliases, you can finally create a different identity for each website
 ✅ **Instead use**
 - [Open Street Map (OSM)](https://www.openstreetmap.org/) - OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.
   - [OSMAnd](https://osmand.net/) - Android/iOS Navigation app using OSM. It is a feature-rich app with all you expect.
+  - [tripkit](https://atishyy27.github.io/tripkit/) - Type a town and it shows which OSM-mapped places are open right now and builds a day plan around their opening hours, replacing Google Maps "Explore" rather than turn-by-turn navigation; no account, no location permission, nothing stored about you. MIT, self-hostable static site ([source](https://github.com/Atishyy27/tripkit)).
 - [Organic Maps](https://organicmaps.app/) - Great offline maps for hikers and cyclists.
 - [CoMaps](https://www.comaps.app/) - A community-led free & open source maps app based on OSM
 
