@@ -298,6 +298,7 @@ When using cloud-based AI services, the data you input is often collected and st
 	- [OpenWhispr](https://github.com/OpenWhispr/openwhispr) - Voice-to-text dictation and productivity app with AI agents, meeting transcription, notes, and local/cloud speech recognition. Privacy-first and available cross-platform. Open source alternative to wisprflow.
 	- [Sasayaki](https://github.com/pluja/sasayaki) - Tiny android dictation app that turns speech into clear writing.
 	- [Speaches](https://github.com/speaches-ai/speaches) - OpenAI API-compatible server supporting streaming transcription, translation, and speech generation.
+	- [Coii VoiceInput](https://voice.coii.io) - macOS dictation app: hold a hotkey, speak, and the text is typed where you were already typing, entirely on the device. No cloud, no account, works with the network off. Closed source, one-time purchase.
 
 #### Image Generation
 
