@@ -1546,6 +1546,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 [Back to top 🔝](#contents)
 
 ## Utilities
+- [Beetroot](https://github.com/mnardit/beetroot-releases) - Open-source (Apache-2.0) clipboard manager for Windows with AI transforms, OCR and fuzzy search; fully local, no telemetry.
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
 
