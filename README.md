@@ -1548,6 +1548,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
+- [PDkef](https://pdkef.com) - Free, open-source ([GitHub](https://github.com/shlomsh/pdkef)) PDF tools (merge, split, compress, sign, redact, and more) that run entirely in your browser. MIT licensed, self-hostable as a static site.
 
 [Back to top 🔝](#contents)
 
