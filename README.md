@@ -308,6 +308,10 @@ When using cloud-based AI services, the data you input is often collected and st
 
 [Back to top 🔝](#contents)
 
+#### Grammarly
+
+- [ProofKey](https://github.com/jiru-labs/proofkey) - Chrome extension that replaces Grammarly's inline grammar checking and rewrites but sends your text only to the LLM endpoint you configure with your own API key, or to a local model such as Ollama or llama.cpp; no backend, no account, no telemetry. MIT licensed.
+
 ## Bookmarking
 ⛔ **Avoid**
 - Evernote Web Clipper -  [Bad privacy policy](https://tosdr.org/en/service/207). [Apps have many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.evernote/latest/) and require too many permissions.
