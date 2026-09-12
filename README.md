@@ -1194,6 +1194,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [darktable](https://www.darktable.org/) - darktable is an open source photography workflow application and raw developer
 - [RapidRAW](https://github.com/CyberTimon/RapidRAW) - A beautiful, non-destructive and GPU-accelerated RAW image editor built with performance in mind. Lightweight (<20MB) cross-platform alternative to Adobe Lightroom. AGPL-3.0 licensed.
 - [RawTherapee](https://rawtherapee.com) - Offline open source RAW photo developer that pairs well with darktable as a Lightroom alternative. GPL-3.0 licensed.
+- [LightTable](https://lighttable.app/) - Offline digital darkroom and RAW developer with physically modelled film stock simulation. Catalogs your originals in place, keeps edits in sidecars, and runs face grouping and object tagging locally with no account and no cloud. GPL-3.0 licensed.
 
 #### Android
 - [Pocket Paint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
