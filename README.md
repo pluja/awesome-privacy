@@ -713,6 +713,7 @@ No single point of control or failure. A decentralized network operated by diffe
 - [Session](https://getsession.org/) - Extreme focus on privacy and anonymity. Blockchain technology.
 - [SimpleX Chat](https://simplex.chat/) - The first chat platform that is 100% private by design - it has no access to your connection graph
 - [Status](https://status.im/) - Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.
+- [Vector](https://vectorapp.io) - Private messenger with end-to-end encrypted & decentralised communities (channels, roles, admins). No phone or email needed. Open source.
 
 ### Centralized
 The service is in charge of running the servers that allow users to communicate. Single point of failure and control, but still 100% safe and trustworthy if the protocols and code are open and audited.
