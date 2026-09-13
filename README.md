@@ -276,6 +276,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [OpenCode](https://github.com/anomalyco/opencode/) - The open source coding agent. Connect local models or any providers of your choice.
 - [Aider](https://aider.chat) - Terminal AI pair programmer that edits code in your local git repository using your own API keys. Apache-2.0 licensed.
 - [Tabby](https://tabby.tabbyml.com) - Self-hosted code completion assistant that runs on your own hardware as an alternative to GitHub Copilot. Apache-2.0 licensed.
+- [LoopTroop](https://github.com/looptroop-ai/LoopTroop) - Local, MIT-licensed GUI and CLI that plans a coding ticket with a multi-model council and runs each step in an isolated git worktree on your machine.
 
 #### Text to Speech
 
