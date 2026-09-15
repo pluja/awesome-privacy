@@ -310,7 +310,7 @@ When using cloud-based AI services, the data you input is often collected and st
 
 #### Grammarly
 
-- [ProofKey](https://github.com/jiru-labs/proofkey) - Chrome extension that replaces Grammarly's inline grammar checking and rewrites but sends your text only to the LLM endpoint you configure with your own API key, or to a local model such as Ollama or llama.cpp; no backend, no account, no telemetry. MIT licensed.
+- [ProofKey](https://github.com/jiru-labs/proofkey) - Chrome extension that replaces Grammarly's inline grammar checking and rewrites with no backend, account or telemetry: in Google Chrome it checks on your computer with Chrome's built-in model, and otherwise sends text only to the LLM endpoint you choose with your own key, including a self-hosted llama.cpp server. MIT licensed.
 
 ## Bookmarking
 ⛔ **Avoid**
