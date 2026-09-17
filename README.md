@@ -487,6 +487,16 @@ Apps such as Tinder collect and sell your personal intimate information. Tinder 
 ✅  **Instead use**
 - [Penpot](https://penpot.app/) - Penpot is an Open Source design and prototyping platform for product teams.
 
+### Remove.bg / Background Removers
+
+Removing an image background usually means uploading the picture to someone else's server. These tools process the image locally in the browser instead.
+
+⛔ **Avoid**
+- **Remove.bg** - Uploads every image to their servers for processing. The free tier is limited, the API is paid, and your photos leave your device.
+
+✅  **Instead use**
+- [chromakeyremover.com](https://chromakeyremover.com/) - Removes green screen and solid-colour backgrounds entirely in the browser, so images never leave your device. MIT-licensed core algorithm: [chroma-key-js](https://github.com/youge-ai/chroma-key-js).
+
 [Back to top 🔝](#contents)
 
 ## Domains & Hosting
