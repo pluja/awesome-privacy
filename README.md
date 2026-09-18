@@ -440,6 +440,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+- [MindForge](https://github.com/opok-ops/MindForge) - Local-first, zero-cloud lifelong memory system for AI agents with AES-256-GCM encryption, federated P2P sync, and no data leaving your device by default.
 
 ### IDEs
 ⛔ Avoid using privative IDEs that are full of trackers and telemetry.
