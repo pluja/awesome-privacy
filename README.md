@@ -1147,6 +1147,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [ProExpense](https://github.com/arduia/ProExpense/) - A simple free finance note to safely record daily expenses.
 - [My Expenses](https://github.com/mtotschnig/MyExpenses) - Featureful GPL licenced Android Expense Tracking App.
 - [Wallos](https://wallosapp.com) - Self-hosted tracker for subscriptions and recurring expenses, with reminders and spending statistics. Open source, GPL-3.0 licensed.
+- [PennyRush](https://github.com/royalpinto007/PennyRush) - Private expense and budget tracker; statements and receipts are parsed in memory and discarded, only extracted fields are stored. Open source (MIT), Android + web.
 
 ### Shared Expenses
 
