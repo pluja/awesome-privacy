@@ -1547,6 +1547,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
+- [Local Tools](https://github.com/ch996811/local-tools) - Four single-file browser tools (IBAN checker, PDF to text, screenshot OCR, salary clock) that process everything locally and never upload your data. MIT licensed, works offline.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
 
 [Back to top 🔝](#contents)
