@@ -295,6 +295,7 @@ When using cloud-based AI services, the data you input is often collected and st
 	- [ParakeetTDT](https://parakeettdt.com/) - Efficient audio transcription. Convert speech to text with unprecedented speed and accuracy using NVIDIA advanced AI speech recognition model.
 
 - **Apps and services**
+	- [OpenSubs](https://opensubs.app) - Browser app that generates and translates subtitles with Whisper running locally via WebAssembly, so your video stays on your device (cloud transcription is opt-in); open source alternative to online auto-subtitle services. AGPL-3.0.
 	- [OpenWhispr](https://github.com/OpenWhispr/openwhispr) - Voice-to-text dictation and productivity app with AI agents, meeting transcription, notes, and local/cloud speech recognition. Privacy-first and available cross-platform. Open source alternative to wisprflow.
 	- [Sasayaki](https://github.com/pluja/sasayaki) - Tiny android dictation app that turns speech into clear writing.
 	- [Speaches](https://github.com/speaches-ai/speaches) - OpenAI API-compatible server supporting streaming transcription, translation, and speech generation.
@@ -1513,6 +1514,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 - [Screenity](https://screenity.io/en/) - A powerful privacy-friendly screen recorder and annotation tool to make better videos for work, education, and more.
 - [OBS](https://obsproject.com/) - Free and open source software for video recording and live streaming.
+- [OpenCapture](https://opencapture.app) - Full-page screenshot extension for Chrome, Edge and Firefox that captures, crops, annotates, blurs and exports to PNG or PDF entirely on-device, requesting only `activeTab` instead of access to all sites; open source alternative to GoFullPage. AGPL-3.0.
 
 [Back to top 🔝](#contents)
 
