@@ -833,6 +833,7 @@ With email aliases, you can finally create a different identity for each website
   - [OSMAnd](https://osmand.net/) - Android/iOS Navigation app using OSM. It is a feature-rich app with all you expect.
 - [Organic Maps](https://organicmaps.app/) - Great offline maps for hikers and cyclists.
 - [CoMaps](https://www.comaps.app/) - A community-led free & open source maps app based on OSM
+- [copilot.travel](https://copilot.travel/) - Free European road-trip planner on OSM data and self-hosted routing: prices fuel, tolls and beds per country. No account, no ads, no third-party trackers; nothing about your start point stored unless you share a trip. Closed source, [privacy page](https://copilot.travel/privacy).
 
 [Back to top 🔝](#contents)
 
