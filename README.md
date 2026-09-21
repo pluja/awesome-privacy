@@ -928,6 +928,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [Notesnook](https://notesnook.com/) - Open source zero knowledge private note taking.
 - [Obsidian](https://obsidian.md) - Obsidian is the private and flexible note‑taking app. Closed source but has no trackers (website / apps) and E2EE sync. 
 - [Quillpad](https://quillpad.github.io/) - Take beautiful markdown notes and stay organized with task lists. Fork of Quillnote.
+- [Relic](https://github.com/RelicSync/relic) - Local-first vault for everything you copy, searchable offline with on-device AI and optional end-to-end encrypted sync you can self-host. Windows, macOS, Linux, Android and iOS. AGPL-3.0 licensed.
 - [SiYuan](https://github.com/siyuan-note/siyuan) - A local-first personal knowledge management system.
 - [Standard Notes](https://standardnotes.org/) - A free, open-source, and completely encrypted notes app.
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
