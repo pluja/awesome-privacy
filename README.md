@@ -277,6 +277,8 @@ When using cloud-based AI services, the data you input is often collected and st
 - [Aider](https://aider.chat) - Terminal AI pair programmer that edits code in your local git repository using your own API keys. Apache-2.0 licensed.
 - [Tabby](https://tabby.tabbyml.com) - Self-hosted code completion assistant that runs on your own hardware as an alternative to GitHub Copilot. Apache-2.0 licensed.
 
+- [Tokenhush](https://github.com/fregie/tokenhush) - Local loopback gateway that replaces secrets and PII in AI coding tool requests with reversible session placeholders before they reach the model provider, then restores the originals in the response. Apache-2.0 licensed and self-hostable, with no MITM or root certificate.
+
 #### Text to Speech
 
 - [Kokoro FastAPI](https://github.com/remsky/Kokoro-FastAPI) - Dockerized FastAPI wrapper for [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) text-to-speech model w/CPU, ONNX and NVIDIA GPU support, handling, and auto-stitching.
