@@ -970,6 +970,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 	- [Ddocs](https://ddocs.new): privacy-enhancing alternative to google docs: onchain, end-to-end encrypted, and decentralized. 
  	- [dSheets](https://dsheets.new): decentralized alternative to Excel and Google Sheets.
 - [Grist](https://www.getgrist.com) - Self-hostable spreadsheet and database hybrid for organizing data, as an open source Airtable alternative. Apache-2.0 licensed.
+- [Vellum](https://vellumpdf.ch/en) - Browser-only PDF toolkit (merge, split, compress, OCR, sign, redact) that replaces iLovePDF and Smallpdf without uploading anything, since every operation runs on your own device; MIT-licensed engine, also usable as a CLI.
 
 [Back to top 🔝](#contents)
 
