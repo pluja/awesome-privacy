@@ -1183,6 +1183,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ✅  **Instead use**
 #### Web
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+- [PixPass](https://pixpass.app) - Web passport and visa photo tool that crops, checks, and exports in the browser so the photo is not uploaded, with a public MIT [Playwright harness](https://github.com/pixpass-app/pixpass-privacy-verification).
 
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
