@@ -1183,6 +1183,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ✅  **Instead use**
 #### Web
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+- [LocalPhotoTool](https://localphototool.com) - Compresses and converts JPEG, PNG, WebP, HEIC and AVIF in your browser with nothing uploaded, stripping EXIF and GPS from the result ([source](https://github.com/biren001/localphototool), MIT, self-hostable).
 
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
