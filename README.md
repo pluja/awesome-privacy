@@ -1,6 +1,5 @@
 # Awesome Privacy
 <p align="center"><img width="500" src="misc/logo.png"> </img></p>
-
 <p align="center">
 	<img src="https://awesome.re/badge.svg" alt="Awesome">
 	<a href="https://codeberg.org/pluja/awesome-privacy"><img alt="Mirror" src="https://img.shields.io/badge/Mirror-Codeberg-blue"></img></a>
@@ -538,7 +537,7 @@ on the DMCrypt kernel module.
 - [Blaze](https://blaze.now.sh/) - A fast, p2p and radically different way to transfer files.
 - [Blindsend](https://github.com/blindnet-io/blindsend) [💀](#icons) - Open source tool for private, end-to-end encrypted file exchange.
 - [Croc](https://github.com/schollz/croc) - Easily and securely send things from one computer to another.
-- [Dat-cp](https://github.com/tom-james-watson/dat-cp) [💀](#icons) - Copy files between hosts on a network using the peer-to-peer Dat network. 
+- [Dat-cp](https://github.com/tom-james-watson/dat-cp) [💀](#icons) - Copy files between hosts on a network using the peer-to-peer Dat network.
 - [Destiny](https://leastauthority.com/community-matters/destiny/) - Send files directly to the receiver in real-time. Developed for and with HROs as a free Privacy Enhancing Technology alternative.
 - [FileOnTap](https://fileontap.com/) - Free online file converter for images and PDFs that runs entirely in your browser. Files are never uploaded to a server and no account is required.
 - [Gokapi](https://github.com/Forceu/Gokapi) - Lightweight selfhosted Firefox Send alternative without public upload. AWS S3 supported.
