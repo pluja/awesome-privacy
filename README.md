@@ -147,6 +147,7 @@
 - [Aptabase](https://aptabase.com) - Open-source, privacy-first and simple analytics for mobile and desktop apps.
 - [Cabin](https://withcabin.com) - Privacy-first, carbon conscious web analytics.
 - [GoatCounter](https://www.goatcounter.com/) - Privacy aware, lightweight and open-source analytics platform.
+- [Logly](https://logly.uk/) - Cookieless, GDPR-compliant web analytics. Sub-1KB tracker, no consent banner, and it shows the bot and AI-crawler traffic it filters out instead of hiding it.
 - [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy.
 - [Nullitics](https://nullitics.com/) - Zero-effort open-source cheap analytics.
 - [Pirsch](https://pirsch.io/) - Pirsch is a simple, privacy-friendly, open-source alternative to Google Analytics — lightweight, cookie-free and easily integrated into any website or backend.
