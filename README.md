@@ -122,6 +122,7 @@
 - [Web Browser](#web-browser)
     - [Browser Addons](#browser-addons) 
     - [Browser Sync](#browser-sync)
+- [Whistleblowing](#whistleblowing)
 
 ## 2FA
 ⛔ Avoid using apps that won't let you export your keys **easily**.
@@ -1696,6 +1697,15 @@ Please read about what the addon does before installing. If you don't understand
 
 ### Browser Sync
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
+
+[Back to top 🔝](#contents)
+
+## Whistleblowing
+
+✅  **Instead use**
+- [GlobaLeaks](https://www.globaleaks.org/) - Self-hostable whistleblowing platform for organisations, newsrooms and activists, replacing hosted reporting portals. Open source (AGPL-3.0).
+- [OpenWhistle](https://openwhistle.net/) - Self-hostable internal reporting channel for the EU Whistleblowing Directive and Germany's HinSchG that stores no IP addresses, replacing hosted compliance portals. Open source (GPL-3.0).
+- [SecureDrop](https://securedrop.org/) - Self-hosted submission system that lets newsrooms receive documents from anonymous sources over Tor, replacing email and cloud uploads. Open source (AGPL-3.0).
 
 [Back to top 🔝](#contents)
 
