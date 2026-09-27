@@ -970,6 +970,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 	- [Ddocs](https://ddocs.new): privacy-enhancing alternative to google docs: onchain, end-to-end encrypted, and decentralized. 
  	- [dSheets](https://dsheets.new): decentralized alternative to Excel and Google Sheets.
 - [Grist](https://www.getgrist.com) - Self-hostable spreadsheet and database hybrid for organizing data, as an open source Airtable alternative. Apache-2.0 licensed.
+- [PDF Studio](https://navigatorslab.com/pdf-studio/) - Free, open-source in-browser PDF editor: real content-stream text editing, burned-in redaction, AcroForm fill/flatten, on-device OCR, revision diffs. MIT. Files never leave the device (AI model weights download from Hugging Face on first use, disclosed in-app).
 
 [Back to top 🔝](#contents)
 
