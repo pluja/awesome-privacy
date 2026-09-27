@@ -712,6 +712,7 @@ No single point of control or failure. A decentralized network operated by diffe
 - [DeltaChat](https://delta.chat/) - Chat over encrypted e-mail.
 - [Session](https://getsession.org/) - Extreme focus on privacy and anonymity. Blockchain technology.
 - [SimpleX Chat](https://simplex.chat/) - The first chat platform that is 100% private by design - it has no access to your connection graph
+- [BitDM](https://bitdm.net) - E2EE messenger without phone number, e-mail or username: the address is the public key. Bluetooth offline mode, Tor, self-hostable relay. Android, Windows, Linux, web. ([Source](https://github.com/Henner4746/BitDM)) `AGPL-3.0`
 - [Status](https://status.im/) - Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.
 
 ### Centralized
