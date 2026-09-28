@@ -1548,6 +1548,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
+- [NeatForge](https://neatforge.com) - 50+ free tools (PDF, image, developer) that run entirely in your browser, so files are never uploaded — an alternative to upload-based suites like iLovePDF or TinyPNG.
 
 [Back to top 🔝](#contents)
 
