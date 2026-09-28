@@ -1129,6 +1129,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ### Where to use Monero and Bitcoin
 
 - [kycnot.me](https://kycnot.me/) - Directory of KYC-free exchanges, payment processors, and other privacy services.
+- [VeilSwap](https://veilswap.io/) - Non-custodial instant exchange aggregator to swap between Bitcoin, Monero, Zcash and stablecoins without registration or logs, routing orders through privacy-preserving liquidity pools.
 
 [Back to top 🔝](#contents)
 
