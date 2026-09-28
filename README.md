@@ -1548,6 +1548,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
+- [VantorKit](https://vantorkit.com) - A suite of 26 browser-based utilities running 100% client-side with zero backend and complete privacy.
 
 [Back to top 🔝](#contents)
 
