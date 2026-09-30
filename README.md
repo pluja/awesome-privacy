@@ -1690,6 +1690,7 @@ Please read about what the addon does before installing. If you don't understand
 - [LibRedirect](https://github.com/libredirect/libredirect) - A simple web extension that redirects Twitter, YouTube, Google Maps and many more requests to privacy friendly alternatives. Former Privacy Redirect is no longer maintained, LibRedirect is a maintained fork.
 - [Privacy Badger](https://privacybadger.org/) - Browser extension from the EFF that learns to block trackers as you browse. Open source, GPL-3.0 licensed.
 - [ClearURLs](https://clearurls.xyz/) - Browser extension that automatically strips tracking parameters from links and URLs. Open source, LGPL-3.0 licensed.
+- [slopblock](https://github.com/Arthur031221/slopblock) - Browser extension that blurs machine-written posts in your feeds on-device and shows why, instead of sending page content to a cloud classifier. Chrome and Firefox, Manifest V3, zero network requests (CSP connect-src 'none'). Open source, MIT licensed.
 
 #### Useful Tools
 - [Single File](https://github.com/gildas-lormeau/SingleFile) - Save a faithful copy of an entire web page in a single HTML file so you can use it offline.
