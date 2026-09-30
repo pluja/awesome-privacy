@@ -1567,6 +1567,7 @@ These services build a profile from everything you read. A local or self-hosted 
 
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
+- [UtilsDock](https://utilsdock.com) - 200+ free browser-based tools (PDF, image, text, QR, calculators) that run entirely client-side with nothing uploaded.
 
 [Back to top 🔝](#contents)
 
