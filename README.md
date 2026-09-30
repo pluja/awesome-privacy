@@ -530,6 +530,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Stegcloak](https://stegcloak.surge.sh/) [💀](#icons) - Hide secrets with invisible characters in plain text securely using passwords.
 - [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others. 
 - [age](https://age-encryption.org) - Modern command line file encryption tool with small keys and no configuration or keyring to manage. Open source, BSD-3 licensed.
+- [Tomb](https://dyne.org/software/tomb/) - Command line tool to create and manage encrypted storage folders on GNU/Linux, built on standard LUKS and cryptsetup.
 
 ### OS Encryption
 
@@ -795,6 +796,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Forward Email](https://forwardemail.net) - the 100% open-source and privacy-focused email service.
 - [ProtonMail](https://proton.me/mail) - Secure Email. Based in Switzerland. [Read this article over Climate activist arrest](https://proton.me/blog/climate-activist-arrest).
 - [Tuta](https://tuta.com/) - Secure email for everybody. Open Source.
+- [mailbox.org](https://mailbox.org/) - Paid email, calendar and office suite based in Germany, with built-in PGP encryption and no ads.
 - [Riseup](https://riseup.net/en/about-us) - Online communication tools for people and groups working on liberatory social change.
 - [Mailfence](https://mailfence.com) - Secure and private email.
 
@@ -1050,6 +1052,9 @@ GNU/Linux is a family of free (as in freedom and as in free beer) and open sourc
 - [Mint (Cinnamon)](https://linuxmint.com/edition.php?id=305) is a beginner friendly distribution.
 - [Qubes OS](https://qubes-os.org/) is a security-oriented operating system that isolates various workspaces into separate virtual machines to enhance privacy and security.
 - [Tails](https://tails.net/) is a portable operating system that protects against surveillance and censorship. It always starts from the same clean state and everything you do disappears automatically when you shut down Tails.
+- [Whonix](https://www.whonix.org/) is an operating system that runs inside virtual machines and forces every connection through Tor.
+- [Kicksecure](https://www.kicksecure.com/) is a hardened Debian-based distribution from the Whonix developers, secure by default.
+- [secureblue](https://secureblue.dev/) is a hardened image built on Fedora Atomic Desktops, with security-focused defaults and a hardened browser.
 
 > [!TIP]
 >  If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). You can also investigate [Ventoy](https://www.ventoy.net) to easily download and test linux distros with a USB stick.
@@ -1241,6 +1246,9 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [Whoami Project](https://github.com/owerdogan/whoami-project) [💀](#icons) - Whoami provides enhanced privacy, anonymity for Debian and Arch based linux distributions.
 - [BusKill](https://www.buskill.in/) - BusKill is a Dead Man Switch triggered when a magnetic breakaway is tripped, severing a USB connection.
 - [OpenSnitch](https://github.com/evilsocket/opensnitch) - Interactive application firewall for GNU/Linux that helps users detect, monitor, and block unwanted outbound connections.
+- [MAT2](https://github.com/jvoisin/mat2) - Removes metadata from images, documents, audio and other files. Command line tool with file manager integrations.
+- [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) - Simple desktop app to view and remove file metadata, built on MAT2.
+- [Mobile Verification Toolkit](https://github.com/mvt-project/mvt) - Forensic tool from Amnesty International that checks Android and iOS devices for traces of spyware such as Pegasus.
 
 ### Android
 
@@ -1249,6 +1257,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [Plexus](https://plexus.techlore.tech/) - Remove the fear of Android app compatibility on de-Googled devices. Find if an app will work on a De-Googled device.
 - [Netguard](https://netguard.me/) - A simple way to block access to the internet per application.
 - [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - An open-source, no-root firewall and DNS changer, with anti-censorship capabilities for Android 6+.
+- [🤖](#icons) [Orbot](https://orbot.app/) - Routes app traffic through the Tor network, system-wide as a VPN or per app. Made by the Guardian Project.
 
 [Back to top 🔝](#contents)
 
