@@ -96,6 +96,8 @@
 - [Photo Storage](#photo-storage)
 - [Privacy Tools](#privacy-tools)
 - [Remote Access and Control](#remote-access-and-control)
+- [Routers](#routers)
+- [RSS Readers](#rss-readers)
 - [Search Engines](#search-engines)
 - [Social Networks and Platforms](#social-networks-and-platforms)
     - [Blogging platforms (Medium / Blogger)](#blogging-platforms-medium)
@@ -1274,6 +1276,38 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [MeshCentral](https://meshcentral.com/) - The open source, multi-platform, self-hosted, feature packed web site for remote device management.
 - [Apache Guacamole](https://guacamole.apache.org) - Clientless self-hosted remote desktop gateway that gives RDP, VNC, and SSH access from a browser. Apache-2.0 licensed.
 - [Sunshine + Moonlight](https://app.lizardbyte.dev/Sunshine) - Self-hosted desktop and game streaming host (Sunshine) with matching clients (Moonlight). Open source, GPL-3.0 licensed.
+
+[Back to top 🔝](#contents)
+
+## Routers
+⛔ **Avoid**
+- Stock ISP routers and vendor firmware: closed source, slow or missing security updates, and often phone home to the vendor or ISP.
+
+✅  **Instead use**
+- [OpenWrt](https://openwrt.org/) - Open source Linux firmware that replaces the stock software on hundreds of consumer routers, with years of security updates.
+- [OPNsense](https://opnsense.org/) - Open source firewall and routing platform based on FreeBSD, for dedicated hardware or a spare PC.
+- [IPFire](https://www.ipfire.org/) - Hardened open source Linux firewall distribution with intrusion prevention and a web interface.
+
+[Back to top 🔝](#contents)
+
+## RSS Readers
+⛔ **Avoid**
+- Feedly
+- Inoreader
+- Google News
+
+These services build a profile from everything you read. A local or self-hosted reader fetches feeds directly, so nobody sees your reading list.
+
+✅  **Instead use**
+- [FreshRSS](https://freshrss.org/) - Self-hosted feed aggregator with a web interface, multi-user support and an API for mobile apps.
+- [Miniflux](https://miniflux.app/) - Minimalist self-hosted feed reader with no tracking, written in Go.
+- [NetNewsWire](https://netnewswire.com/) - Open source RSS reader for macOS and iOS that works locally or syncs with self-hosted services.
+- [Fluent Reader](https://github.com/yang991178/fluent-reader) - Open source desktop RSS reader for Windows, macOS and Linux.
+- [NewsFlash](https://gitlab.com/news-flash/news_flash_gtk) - Open source RSS reader for Linux that works locally or with self-hosted services such as Miniflux and FreshRSS.
+- [Newsboat](https://newsboat.org/) - RSS reader for the terminal.
+- [🤖](#icons) [Feeder](https://github.com/spacecowboy/Feeder) - Open source RSS reader for Android that fetches feeds directly on your device, with no account.
+- [🤖](#icons) [Read You](https://github.com/ReadYouApp/ReadYou) - Open source Material You RSS reader for Android, local or synced with self-hosted services.
+- [🤖](#icons) [Capy Reader](https://github.com/jocmp/capyreader) - Open source RSS reader for Android, local or synced with Miniflux and FreshRSS.
 
 [Back to top 🔝](#contents)
 
