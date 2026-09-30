@@ -1407,7 +1407,6 @@ This section is dedicated to some tools that may help users analyze the privacy 
   - [Mastodon Apps](https://joinmastodon.org/apps) - List of Mastodon apps for Android, iOS, Web and Desktop.
 - [Pleroma](https://pleroma.social/) [🧩](#icons) - Pleroma is a free, federated social networking server built on open protocols.
   - [Soapbox](https://gitlab.com/soapbox-pub/soapbox-fe) - A frontend for Pleroma with a focus on custom branding and ease of use.
-  - [🤖](#icons) [Husky](https://codeberg.org/husky/husky) - Android client for Pleroma and Mastodon.
 
 #### Alternative Frontends
 - [Nitter](https://github.com/zedeus/nitter/wiki/Instances) [💀](#icons) - Nitter is a free and open source alternative Twitter front-end focused on privacy.
