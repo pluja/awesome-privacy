@@ -103,7 +103,6 @@
     - [Imgur](#imgur)
     - [Instagram](#instagram)
     - [Quora](#quora)
-    - [LBRY and Odysee](#lbry-and-odysee)
     - [Reddit](#reddit)
     - [Streaming Platforms (Twitch)](#streaming-platforms-twitch)
     - [TikTok](#tiktok)
@@ -853,15 +852,13 @@ With email aliases, you can finally create a different identity for each website
 
 \* Premium required.
 
-- [Spotube](https://github.com/team-spotube/spotube) - A lightweight free Spotify crossplatform-client.
 - [Spot*](https://github.com/xou816/spot) - Native Spotify client built in GTK and Rust.
 - [psst*](https://github.com/jpochyla/psst) - Fast and multi-platform Spotify client with native GUI.
-- [ncspot*](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.ç
+- [ncspot*](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
 
+No premium required:
 
-\* No premium required.
-
-
+- [Spotube](https://github.com/team-spotube/spotube) - A lightweight free Spotify crossplatform-client.
 
 **Youtube Music alternative clients**
 - [Beatbump](https://github.com/snuffyDev/Beatbump) [💀](#icons) - Alternative frontend for YouTube Music; no ads and custom API wrapper.
@@ -996,7 +993,6 @@ These ROMs also offer good priavcy and/or extended support for a wider range of 
 
 - [CalyxOS](https://calyxos.org/) - Privacy by Design ROM. Offers better security than LineageOS or Replicant.
 - [LineageOS](https://lineageos.org/) - A free and open-source operating system for various devices, based on the Android mobile platform.
-- [Replicant](https://www.replicant.us/) - Replicant is a fully free Android distribution running on several devices.
 - [/e/OS](https://e.foundation/e-os) - Degoogled Android ROM by Murena that bundles microG and optional cloud services. Open source, GPL-3.0 licensed.
 - [iodéOS](https://iode.tech/iodeos) - Degoogled Android ROM with a built-in network firewall that blocks ads and trackers. Open source, GPL-3.0 licensed.
 
@@ -1317,14 +1313,6 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 **Alternatives to Instagram**
 - [Pixelfed](https://pixelfed.org/) [🧩](#icons) - Decentralized, federated and Open Source alternative to Instagram with posts, videos, stories, tags, etc.
-
-### LBRY and Odysee
-
-![](https://shields.tosdr.org/en_2391.svg)
-
-Odysee website contains some trackers and is a heavy site. You can use these alternatives to avoid trackers and have a more minimalistic and lightweight UI:
-
-- [Librarian](https://codeberg.org/librarian/librarian) [💀](#icons) - An alternative frontend for LBRY/Odysee. Inspired by Invidious and Libreddit.
 
 ### Quora
 
