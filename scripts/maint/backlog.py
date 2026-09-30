@@ -3,6 +3,7 @@
 
   python3 scripts/maint/backlog.py fetch [--refresh]  # issues, PRs, diffs into .maint/
   python3 scripts/maint/backlog.py triage    # writes .maint/triage.md and triage.json
+  python3 scripts/maint/backlog.py vet       # repo signals for projects PRs add -> .maint/vet.md
 
 Triage is offline and cheap to rerun after editing the README.
 """
@@ -17,7 +18,7 @@ from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 
 from readme import (ROOT, cache_path, gh_api, http, links_in, load_json, load_readme,
-                    norm_url, parse_entries, repo_of, save_json)
+                    norm_url, parse_entries, repo_of, save_json, token)
 
 REPO = "pluja/awesome-privacy"
 NOW = dt.datetime.now(dt.timezone.utc)
@@ -136,7 +137,7 @@ def section_index(readme):
 
 def applies_cleanly(diff_path):
     """True when the PR's README hunks still apply to the current README."""
-    r = subprocess.run(["git", "apply", "--check", "--include=README.md", diff_path],
+    r = subprocess.run(["git", "apply", "--3way", "--check", "--include=README.md", diff_path],
                        cwd=ROOT, capture_output=True, text=True)
     return r.returncode == 0
 
@@ -176,6 +177,9 @@ def triage():
                     if "pluja/awesome-privacy" not in u]
             refs = sorted({f"L{m.line} {m.name}" for u in urls if (m := match(u))})
             listed = [r for r in refs if r.split(" ", 1)[1].lower() in it["title"].lower()]
+            m = re.match(r"\s*\[?(?:add\w*|suggest\w*)\]?:?\s*\[?([^\]/(|:\-–—]+)", it["title"], re.I)
+            if m and len(m[1].strip()) > 2:
+                listed += [f"L{e.line} {e.name}" for e in by_name.get(m[1].strip().lower(), [])]
             if "addition" in kinds[:1] and listed:
                 kinds = ["resolved"] + kinds
             issues.append({**base, "kinds": kinds, "refs": refs,
@@ -294,6 +298,118 @@ def render(prs, issues):
     return "\n".join(L)
 
 
+def repo_signals(host, owner, repo):
+    """Stars, archived, last commit and license for one repo, via API or web page."""
+    if host != "github.com":
+        api = (f"https://codeberg.org/api/v1/repos/{owner}/{repo}" if host == "codeberg.org"
+               else f"https://gitlab.com/api/v4/projects/{owner}%2F{repo}")
+        st, body, _, _ = http(api)
+        if st != 200:
+            return {"state": "gone" if st == 404 else f"error {st}"}
+        d = json.loads(body)
+        return {"state": "ok", "stars": d.get("stars_count", d.get("star_count", 0)),
+                "archived": d.get("archived", False),
+                "last": (d.get("updated_at") or d.get("last_activity_at") or "")[:10],
+                "created": (d.get("created_at") or "")[:10], "license": "?"}
+    if token():
+        st, d, _ = gh_api(f"repos/{owner}/{repo}")
+        if st != 200:
+            return {"state": "gone" if st == 404 else f"error {st}"}
+        return {"state": "ok", "stars": d["stargazers_count"], "archived": d["archived"],
+                "last": d["pushed_at"][:10], "created": d["created_at"][:10],
+                "license": (d.get("license") or {}).get("spdx_id") or "none",
+                "owner_type": d["owner"]["type"]}
+    for attempt in range(5):
+        st, body, _, hdrs = http(f"https://github.com/{owner}/{repo}", timeout=30)
+        if st != 429:
+            break
+        time.sleep(int(hdrs.get("Retry-After") or 0) or 20 * (attempt + 1))
+    if st != 200:
+        return {"state": "gone" if st == 404 else f"error {st}"}
+    page = body.decode("utf-8", "replace")
+    stars = re.search(r'id="repo-stars-counter-star"[^>]*title="([\d,]+)"', page)
+    lic = re.search(r'"license":\{[^}]*"spdxId":"([^"]+)"', page) or \
+        re.search(r'octicon-law[^<]*</svg>\s*([^<\n]+?)\s*<', page)
+    st2, atom, _, _ = http(f"https://github.com/{owner}/{repo}/commits.atom", timeout=30)
+    last = re.search(rb"<entry>.*?<updated>([^<]+)", atom or b"", re.S)
+    time.sleep(0.7)
+    return {"state": "ok", "stars": int(stars[1].replace(",", "")) if stars else 0,
+            "archived": '"isArchived":true' in page,
+            "last": last[1].decode()[:10] if last else "", "created": "",
+            "license": lic[1].strip() if lic else "none"}
+
+
+def verdict(p, sig):
+    """strong / maybe / weak, with the reasons. Signals only; a human decides."""
+    why, score = [], 0
+    if sig is None:
+        why.append("no source repo")
+        score -= 2
+    elif sig["state"] != "ok":
+        return "weak", [f"repo {sig['state']}"]
+    else:
+        if sig["archived"]:
+            return "weak", ["repo archived"]
+        stars = sig["stars"]
+        score += 2 if stars >= 1000 else 1 if stars >= 200 else 0 if stars >= 50 else -1
+        why.append(f"{stars}★")
+        if sig["license"] in ("none", "NOASSERTION"):
+            score -= 1
+            why.append("no license detected")
+        if sig["last"] and (NOW.date() - dt.date.fromisoformat(sig["last"])).days > 365:
+            score -= 2
+            why.append(f"last commit {sig['last']}")
+    flags = " ".join(p["flags"])
+    if "self-promotion" in flags:
+        score -= 1
+        why.append("author owns repo")
+    if p["dupes"]:
+        return "weak", ["already listed"] + why
+    return ("strong" if score >= 2 else "maybe" if score >= 0 else "weak"), why
+
+
+def vet():
+    tri = load_json("triage.json")
+    cache = load_json("vet.json", {})
+    rows = []
+    adds = [p for p in tri["prs"] if p["kind"] in ("add", "mixed")]
+    todo = set()
+    for p in adds:
+        for e in p["new"]:
+            r = repo_of(e["url"]) or next((repo_of(u) for u in links_in(e["desc"]) if repo_of(u)), None)
+            e["repo"] = "/".join(r) if r else None
+            if r and e["repo"] not in cache:
+                todo.add(r)
+    print(f"[vet] {len(adds)} addition PRs, {len(todo)} repos to check", flush=True)
+    for i, r in enumerate(sorted(todo)):
+        cache["/".join(r)] = repo_signals(*r)
+        if i % 25 == 0:
+            save_json("vet.json", cache)
+            print(f"[vet] {i}/{len(todo)}", flush=True)
+    save_json("vet.json", cache)
+    seen = set()
+    for p in adds:
+        for e in p["new"]:
+            if (p["number"], e["url"]) in seen:
+                continue
+            seen.add((p["number"], e["url"]))
+            sig = cache.get(e["repo"]) if e["repo"] else None
+            v, why = verdict(p, sig)
+            rows.append((v, p, e, why))
+    order = {"strong": 0, "maybe": 1, "weak": 2}
+    rows.sort(key=lambda r: (order[r[0]], -(cache.get(r[2]["repo"] or "", {}).get("stars") or 0)))
+    L = ["# Addition PR vetting", "", "Signals, not verdicts. strong = established, licensed, active.", ""]
+    for v in order:
+        sel = [r for r in rows if r[0] == v]
+        L += [f"## {v} ({len(sel)})", ""]
+        L += [f"- #{p['number']} [{e['name']}]({e['url']}) -> {e['section']} - {', '.join(why)}"
+              f" (@{p['user']}, {p['age']}d) - {e['desc'][:110]}" for _, p, e, why in sel]
+        L.append("")
+    with open(cache_path("vet.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(L))
+    print("[vet] " + ", ".join(f"{v} {sum(1 for r in rows if r[0] == v)}" for v in order) + " -> .maint/vet.md")
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "triage"
-    {"fetch": fetch, "triage": triage}[cmd]()
+    {"fetch": fetch, "triage": triage, "vet": vet}[cmd]()
