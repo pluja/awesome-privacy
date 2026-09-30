@@ -514,7 +514,6 @@ Commercial ebook platforms track your reading habits, tie purchases to accounts 
 
 ✅ **Instead use**
 
-- [Shelfmark](https://github.com/infonality/shelfmark) - Personal library and reader for ebooks and comics on Windows, macOS, and Linux that runs locally without an account or telemetry (MIT).
 - [Calibre](https://calibre-ebook.com/) - Open-source ebook manager for Linux, Windows, and macOS with format conversion, metadata editing, and a built-in reader (GPL-3.0).
 - [Kavita](https://github.com/Kareadita/Kavita) - Cross-platform self-hosted digital library for ebooks and comics with a built-in web reader (GPL-3.0).
 - [Komga](https://github.com/gotson/komga) - Self-hosted media server for comics, magazines, and ebooks with a responsive web interface and OPDS support (MIT).
@@ -1429,6 +1428,9 @@ This section is dedicated to some tools that may help users analyze the privacy 
 ✅ **Alternatives:**
 - [Owncast](https://github.com/owncast/owncast) - Take control over your live stream video by running it yourself. Streaming + chat out of the box.
 
+✅ **Privacy respecting Twitch clients:**
+- [🤖](#icons) [Twire](https://github.com/twireapp/Twire) - Open source, ad-free Twitch browser and stream player for Android.
+
 [Back to top 🔝](#contents)
 
 ### Imgur
@@ -1678,7 +1680,6 @@ Please read about what the addon does before installing. If you don't understand
 
 ✅  **Instead use**
 - [GlobaLeaks](https://www.globaleaks.org/) - Self-hostable whistleblowing platform for organisations, newsrooms and activists, replacing hosted reporting portals. Open source (AGPL-3.0).
-- [OpenWhistle](https://openwhistle.net/) - Self-hostable internal reporting channel for the EU Whistleblowing Directive and Germany's HinSchG that stores no IP addresses, replacing hosted compliance portals. Open source (GPL-3.0).
 - [SecureDrop](https://securedrop.org/) - Self-hosted submission system that lets newsrooms receive documents from anonymous sources over Tor, replacing email and cloud uploads. Open source (AGPL-3.0).
 
 [Back to top 🔝](#contents)
