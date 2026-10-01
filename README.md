@@ -778,6 +778,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [OwnTracks](https://owntracks.org/) - Location tracking for displaying the current location only (limited location history functionality).
 - [Traccar](https://www.traccar.org/) - Location tracking software made for dedicated GPS logging devices.
 - [Dawarich](https://github.com/Freika/dawarich) - Self-hosted alternative to Google Location History.
+- [Starling](https://github.com/munzzyy/starling) - End-to-end encrypted location sharing for family and friends, an alternative to Life360 and Google location sharing with no accounts. Android and web app, GPL-3.0, self-hostable relay.
 
 ### Find My Device
 - [Find My Device](https://gitlab.com/Nulide/findmydevice) - Find your Android Device via SMS.
