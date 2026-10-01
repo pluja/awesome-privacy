@@ -268,6 +268,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [Tinfoil](https://tinfoil.sh/) - Verifiably private AI Chat and OpenAI-compatible inference in the cloud. Uses NVIDIA confidential computing and open source code pinned to a transparency log for end-to-end verifiability.
 - [Open WebUI](https://openwebui.com) - Self-hosted web interface for Ollama and other local models that gives you a private ChatGPT-style chat. BSD-3 licensed.
 - [LibreChat](https://librechat.ai) - Self-hosted chat interface that connects many AI models behind one private UI you control. Open source, MIT licensed.
+- [aiFetchly](https://www.aifetchly.com) - Open-source desktop AI agent that runs on your own computer for business automation — lead generation, knowledge RAG, outreach, and scheduled workflows. Apache-2.0 licensed.
 
 #### AI Coding
 
