@@ -1531,6 +1531,7 @@ These services build a profile from everything you read. A local or self-hosted 
 
 - [Screenity](https://screenity.io/) - A powerful privacy-friendly screen recorder and annotation tool to make better videos for work, education, and more.
 - [OBS](https://obsproject.com/) - Free and open source software for video recording and live streaming.
+- [Screenpipe](https://github.com/screenpipe/screenpipe) - Source-available screen and audio history for searchable recall, with local storage and configurable AI providers, under the Screenpipe Commercial License.
 
 [Back to top 🔝](#contents)
 
