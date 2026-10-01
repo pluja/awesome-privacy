@@ -1204,6 +1204,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 #### Android
 - [Pocket Paint](https://github.com/Catrobat/Paintroid) - The standard image manipulation app for Catroid.
 - [Scrambled Exif](https://gitlab.com/juanitobananas/scrambled-exif) - Remove Exif data from pictures before sharing them.
+- [Sepia](https://github.com/munzzyy/sepia) - Shows what a photo gives away, from GPS to hidden thumbnails, then redacts it and strips the metadata on the device, with no internet permission. Android and web, GPL-3.0.
 - [ImagePipe](https://codeberg.org/Starfish/Imagepipe) - Reduces image size and removes exif-tags when sharing images on android devices.
 
 [Back to top 🔝](#contents)
