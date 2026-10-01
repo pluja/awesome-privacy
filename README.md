@@ -531,6 +531,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
 - [Stegcloak](https://stegcloak.surge.sh/) [💀](#icons) - Hide secrets with invisible characters in plain text securely using passwords.
 - [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others. 
+- [Ember](https://www.emberwipe.com) - iOS app that encrypts sensitive files with AES-256-GCM (zero-knowledge) and automatically wipes or locks them when your Apple Watch detects a health emergency or panic trigger.
 - [age](https://age-encryption.org) - Modern command line file encryption tool with small keys and no configuration or keyring to manage. Open source, BSD-3 licensed.
 - [Tomb](https://dyne.org/software/tomb/) - Command line tool to create and manage encrypted storage folders on GNU/Linux, built on standard LUKS and cryptsetup.
 
