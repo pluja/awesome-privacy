@@ -176,6 +176,7 @@
 - [SkyDroid](https://github.com/redsolver/skydroid) [💀](#icons) - Decentralized App Store for Android
 - [Obtainium](https://github.com/ImranR98/Obtainium) - Get app updates directly from the source.
 - [Accrescent](https://github.com/accrescent/accrescent) - A novel Android app store focused on security, privacy, and usability.
+- [Tern](https://github.com/munzzyy/tern) - Installs and updates Android apps straight from their developers' GitHub, GitLab, Codeberg and F-Droid releases, and checks who signed each APK before it installs. An Obtainium alternative, GPL-3.0.
 
 ### Alternative Google Play Store clients
 - [Aurora Store](https://auroraoss.com/download/#aurora-store) - Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.
