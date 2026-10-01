@@ -1658,6 +1658,7 @@ Here are some open source and truly private (no personal data and/or credit card
 - [Proton VPN](https://protonvpn.com) - Swiss no-logs VPN with open source, audited apps on every platform and a no-data-cap free tier.
 - [SPN](https://safing.io/) - Open source, system-wide network that routes each app connection through its own path across multiple nodes, giving per-connection IP separation instead of a single shared exit. Built into the Safing Portmaster firewall for Windows and Linux.
 - [Amnezia VPN](https://amnezia.org) - Self-hosted, censorship-resistant VPN that you deploy on your own server, with audited open source apps (GPL-3.0).
+- [Warren VPN](https://warren.ro) - Romania-based no-logs VPN over QUIC that makes tunnel traffic look like ordinary HTTPS, with open source apps (AGPL-3.0), account-free wallet signup, and Lightning or Monero payment.
 - [Find more at kycnot.me (VPN Category)](https://kycnot.me/?categories=vpn) - KYC-free VPN providers.
 
 [Back to top 🔝](#contents)
