@@ -735,6 +735,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 
 - [Tox](https://tox.chat/) - Tox is easy-to-use software that connects you with friends and family without anyone else listening in.
 - [Briar](https://briarproject.org/) - Peer-to-peer encrypted messaging and forums.
+- [DigitalValut Logos](https://digitalvalut.github.io/logos-protocol/) - Direct browser-to-browser encrypted chat, calls and file sharing with no account, no server, and self-certifying addresses. Also ships as a single self-contained HTML file. Open source, Apache-2.0.
 - [Tinfoil Chat](https://github.com/maqp/tfc) - Onion-routed, endpoint secure messaging system.
 - [Berty](https://berty.tech/) - The privacy-first messaging app that works with or without internet access, cellular data or trust in the network.
 
