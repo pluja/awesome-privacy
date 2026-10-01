@@ -436,6 +436,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+- [DevOmniTools](https://www.devomnitools.com) - 100% private in-browser developer utilities (SQL formatter, JSON validator, regex tester, cURL converter, AES encryption) running strictly client-side with zero telemetry and no server storage.
 
 ### IDEs
 ⛔ Avoid using privative IDEs that are full of trackers and telemetry.
