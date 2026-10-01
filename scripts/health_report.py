@@ -4,17 +4,19 @@
 One pass over every repository linked in the list, reporting:
 
   - Dead links, parsed from a lychee JSON report (produced by the workflow step).
-  - Repository issues: gone, archived, stale (no push in 18+ months), unlicensed,
-    or no real source code (only binaries, images, or documentation, the
-    "blob posing as open source" case).
+  - Repositories that are gone, archived, stale (no push in 18+ months), not
+    verifiably open source (no license, or only binaries/images/docs), or were
+    renamed or transferred (the README link only works through a redirect).
+  - Repos marked unmaintained (💀) that are active again.
 
-Repos already marked unmaintained (💀) in the list are shown in a separate
-section and do not, on their own, trigger a new issue. Every finding is a signal
-for human review, not an automatic verdict.
+Other findings on repos already marked 💀 go in a collapsed section and do not,
+on their own, trigger a new issue. Every finding is a signal for human review,
+not an automatic verdict. URLs matching .lycheeignore are skipped.
 
 Usage:
   python3 scripts/health_report.py [--readme README.md]
       [--lychee lychee/out.json] [--limit N] [--out FILE]
+  python3 scripts/health_report.py --diff-base REF   # PR mode: only added repos
 
 Environment:
   GITHUB_TOKEN / GH_TOKEN  raises the GitHub rate limit from 60 to 5000 req/hr
@@ -30,17 +32,20 @@ import subprocess
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 
 STALE_DAYS = 18 * 30  # ~18 months
+REVIVED_DAYS = 180    # a 💀 repo with a commit this recent is active again
 REPO_RE = re.compile(
-    r"https?://(?:www\.)?(github\.com|codeberg\.org)/"
+    r"https?://(?:www\.)?(github\.com|codeberg\.org|gitlab\.com)/"
     r"([A-Za-z0-9._-]+)/([A-Za-z0-9._-]+)"
 )
 RESERVED = {
     "sponsors", "orgs", "topics", "about", "features", "marketplace", "settings",
     "explore", "collections", "apps", "notifications", "login", "join", "pricing",
     "security", "site", "contact", "readme", "search", "new", "watching", "stars",
+    "users", "groups", "help", "-",
 }
 # The list's own repo (badges, mirror, edit and issue links) is not a listed tool.
 SELF_REPOS = {
@@ -52,9 +57,22 @@ DOC_ONLY = {
     "Markdown", "Text", "reStructuredText", "AsciiDoc", "Org", "TeX",
     "Roff", "Rich Text Format",
 }
-
-
 URL_RE = re.compile(r"https?://[^\s)\]\"'<>]+")
+ENTRY_NAME_RE = re.compile(r"^\s*(?:>\s*)?[-*]\s+(?:\[[^\]]{1,4}\]\(#icons\)\s*)*\[([^\]!][^\]]*)\]\(")
+
+# Report sections, in order: (kind, title, what to do about it).
+SECTIONS = [
+    ("gone", "Gone", "The repository no longer exists. Remove the entry, or find where it moved."),
+    ("archived", "Archived", "Archived by the owner. Per the maintenance policy: remove it if a "
+     "maintained alternative is listed, otherwise mark it 💀."),
+    ("stale", "Stale", "No push in 18+ months. Quiet is not dead: check whether it still works "
+     "before acting."),
+    ("closed", "Not verifiably open source", "No license file (source-available is not open "
+     "source), or no real source code in the repository."),
+    ("moved", "Renamed or transferred", "The link only works through a redirect. Update the URL."),
+    ("revived", "Marked 💀 but active again", "Recent commits on the default branch. "
+     "Consider removing the 💀."),
+]
 
 
 def load_ignore(path=".lycheeignore"):
@@ -93,7 +111,7 @@ def parse_ts(value):
     if not value:
         return None
     try:
-        return dt.datetime.strptime(value.replace("Z", "+0000"), "%Y-%m-%dT%H:%M:%S%z")
+        return dt.datetime.fromisoformat(value.replace("Z", "+00:00"))
     except ValueError:
         return None
 
@@ -130,6 +148,19 @@ def extract_skull_repos(readme):
     return skull
 
 
+def locate_repos(readme):
+    """repo key -> "**Entry** (L123)" for the first README line that links it."""
+    where = {}
+    for i, line in enumerate(readme.splitlines(), 1):
+        name = ENTRY_NAME_RE.match(line)
+        label = f"**{name[1].strip()}** (L{i})" if name else f"L{i}"
+        for host, owner, repo in REPO_RE.findall(line):
+            cleaned = _clean(host, owner, repo)
+            if cleaned:
+                where.setdefault(cleaned[0], label)
+    return where
+
+
 def source_concern(langs):
     """Flag a repo whose 'source' is only binaries, images, or documentation."""
     if langs is None:
@@ -141,51 +172,85 @@ def source_concern(langs):
     return []
 
 
-def check_repo(host, owner, repo, now, token):
-    """Combined staleness + openness reasons for one repo (empty = healthy)."""
+def _age(last, now):
+    return f"last push {last.date()} (~{(now - last).days // 30} months ago)"
+
+
+def check_repo(host, owner, repo, now, token, skull=False):
+    """Findings for one repo as [(kind, detail)], or None when rate limited.
+
+    Network blips return no findings rather than a false alarm.
+    """
+    slug = f"{owner}/{repo}"
     if host == "github.com":
-        info, err = get_json(f"https://api.github.com/repos/{owner}/{repo}", token)
+        info, err = get_json(f"https://api.github.com/repos/{slug}", token)
+        api = f"https://api.github.com/repos/{slug}"
+    elif host == "codeberg.org":
+        info, err = get_json(f"https://codeberg.org/api/v1/repos/{slug}")
+        api = f"https://codeberg.org/api/v1/repos/{slug}"
     else:
-        info, err = get_json(f"https://codeberg.org/api/v1/repos/{owner}/{repo}")
-    if err == 403:
-        return ["__ratelimit__"]
+        api = f"https://gitlab.com/api/v4/projects/{urllib.parse.quote(slug, safe='')}"
+        info, err = get_json(api + "?license=true")
+    if err == 403 and host == "github.com":
+        return None
     if err in (404, 410):
-        return ["repository not found"]
+        return [("gone", "repository not found")]
     if err or info is None:
-        return []  # transient; do not flag on a network blip
+        return []
 
-    reasons = []
-    if info.get("archived"):
-        reasons.append("archived")
-    last = parse_ts(info.get("pushed_at") if host == "github.com" else info.get("updated_at"))
-    if last is not None and (now - last).days > STALE_DAYS:
-        reasons.append(f"no push since {last.date()} (~{(now - last).days // 30} months)")
-    if host == "github.com" and not info.get("license"):
-        reasons.append("no license")  # Codeberg/Gitea does not expose this reliably
+    out = []
+    archived = info.get("archived")
+    if archived:
+        out.append(("archived", "archived by the owner"))
+    last = parse_ts(info.get("pushed_at") or info.get("updated_at") or info.get("last_activity_at"))
+    if not archived and last is not None and (now - last).days > STALE_DAYS:
+        out.append(("stale", _age(last, now)))
 
+    # GitHub and GitLab follow renames with a redirect; the canonical name differs.
+    canonical = info.get("full_name") or info.get("path_with_namespace") or slug
+    if canonical.lower() != slug.lower():
+        out.append(("moved", f"now at https://{host}/{canonical}"))
+
+    if host in ("github.com", "gitlab.com") and not info.get("license"):
+        out.append(("closed", "no license file"))  # Codeberg does not expose this reliably
+
+    langs, lerr = get_json(f"{api}/languages", token if host == "github.com" else None)
+    if lerr == 403 and host == "github.com":
+        return None
+    out += [("closed", c) for c in source_concern(langs)]
+
+    if skull and not archived:
+        commit = latest_commit(host, api, token)
+        if commit and (now - commit).days < REVIVED_DAYS:
+            out.append(("revived", f"last commit {commit.date()}"))
+    return out
+
+
+def latest_commit(host, api, token):
+    """Date of the newest commit on the default branch (push dates count bots and branches)."""
     if host == "github.com":
-        langs, lerr = get_json(f"https://api.github.com/repos/{owner}/{repo}/languages", token)
-        if lerr == 403:
-            return ["__ratelimit__"]
-    else:
-        langs, _ = get_json(f"https://codeberg.org/api/v1/repos/{owner}/{repo}/languages")
-    reasons += source_concern(langs)
-    return reasons
+        data, _ = get_json(f"{api}/commits?per_page=1", token)
+        return parse_ts(((data or [{}])[0].get("commit") or {}).get("committer", {}).get("date"))
+    if host == "codeberg.org":
+        data, _ = get_json(f"{api}/commits?limit=1&stat=false")
+        return parse_ts((data or [{}])[0].get("created"))
+    data, _ = get_json(f"{api}/repository/commits?per_page=1")
+    return parse_ts((data or [{}])[0].get("committed_date"))
 
 
 def scan_repos(repos, skull_set, now, token, limit=0):
+    """[(kind, slug, detail, is_skull)], checked count, rate_limited."""
     findings, checked, rate_limited = [], 0, False
     for host, owner, repo in repos:
         if limit and checked >= limit:
             break
-        checked += 1
-        reasons = check_repo(host, owner, repo, now, token)
-        if reasons == ["__ratelimit__"]:
-            rate_limited, checked = True, checked - 1
+        key = (host, owner.lower(), repo.lower())
+        result = check_repo(host, owner, repo, now, token, skull=key in skull_set)
+        if result is None:
+            rate_limited = True
             break
-        if reasons:
-            key = (host, owner.lower(), repo.lower())
-            findings.append((f"{host}/{owner}/{repo}", "; ".join(reasons), key in skull_set))
+        checked += 1
+        findings += [(kind, key, detail, key in skull_set) for kind, detail in result]
         time.sleep(0.05)
     return findings, checked, rate_limited
 
@@ -206,6 +271,10 @@ def added_readme_text(base):
     )
 
 
+def _slug(key):
+    return "/".join(key)
+
+
 def run_pr_check(base, now, token, limit):
     """Check only the repos a PR adds. Warns, never blocks. Returns exit code 0."""
     added = strip_ignored(added_readme_text(base), load_ignore())
@@ -213,7 +282,8 @@ def run_pr_check(base, now, token, limit):
     findings, checked, rate_limited = scan_repos(
         repos, extract_skull_repos(added), now, token, limit
     )
-    new = [(s, w) for s, w, sk in findings if not sk]
+    new = [(_slug(key), detail) for kind, key, detail, skull in findings
+           if not skull and kind != "revived"]
     for slug, why in new:
         print(f"::warning::{slug} - {why}")  # inline annotation on the PR
 
@@ -254,20 +324,43 @@ def parse_dead_links(path):
             url = item.get("url", "")
             status = item.get("status") or {}
             text = status.get("text") or status.get("details") or "error"
+            text = re.sub(r"^Rejected status code: |\s*\(configurable with .*\)$", "", text)
             if url and url not in seen:
                 seen.add(url)
                 dead.append((url, text))
     return dead, True
 
 
-def build_report(today, dead, dead_ok, findings, checked, rate_limited):
-    new = [(s, w) for s, w, sk in findings if not sk]
-    known = [(s, w) for s, w, sk in findings if sk]
-    L = [f"# Health report {today}", "", "Automated monthly scan of `README.md`. Every",
-         "finding is a signal for human review, not an automatic verdict.", ""]
+def group(findings):
+    """{kind: {repo key: [details]}}, merging several details for one repo."""
+    rows = {}
+    for kind, key, detail, _ in findings:
+        rows.setdefault(kind, {}).setdefault(key, []).append(detail)
+    return rows
 
-    L.append(f"## Dead links ({len(dead)})")
-    L.append("")
+
+def row(key, details, where):
+    """- **Entry** (L12) - github.com/o/r - archived by the owner; no license file"""
+    parts = [where.get(key), _slug(key), "; ".join(details)]
+    return "- " + " - ".join(p for p in parts if p)
+
+
+def build_report(today, dead, dead_ok, findings, checked, rate_limited, where):
+    revived = [f for f in findings if f[0] == "revived"]
+    active = group([f for f in findings if not f[3] and f[0] != "revived"] + revived)
+    known = group([f for f in findings if f[3] and f[0] != "revived"])
+    known_count = len({key for by_key in known.values() for key in by_key})
+
+    L = [f"# Health report {today}", "",
+         "Automated monthly scan of `README.md`. Every finding is a signal for human",
+         "review, not an automatic verdict. See the maintenance policy in",
+         "[Contributing.md](misc/Contributing.md#maintenance-policy).", "",
+         "| Check | Findings |", "|---|---|",
+         f"| Dead links | {len(dead) if dead_ok else 'not checked'} |"]
+    L += [f"| {title} | {len(active.get(kind, []))} |" for kind, title, _ in SECTIONS]
+    L += [f"| Repositories checked | {checked}{' (stopped early, rate limit)' if rate_limited else ''} |", ""]
+
+    L += [f"## Dead links ({len(dead)})", ""]
     if dead:
         L += [f"- {url} - {text}" for url, text in dead]
     elif dead_ok:
@@ -276,25 +369,26 @@ def build_report(today, dead, dead_ok, findings, checked, rate_limited):
         L.append("_Link scan produced no output this run; dead links were not checked._")
     L.append("")
 
-    L.append(f"## Repository issues ({len(new)} new, {len(known)} already 💀, {checked} checked)")
-    L.append("")
-    L.append("Repos that are gone, archived, stale (no push in 18+ months), unlicensed,")
-    L.append("or have no real source code (only binaries, images, or documentation).")
-    L.append("Review before delisting, marking 💀, or trusting an \"open source\" claim.")
-    L.append("")
-    if new:
-        L += [f"- {slug} - {why}" for slug, why in new]
-    else:
-        L.append("No new findings.")
+    for kind, title, hint in SECTIONS:
+        by_key = active.get(kind, {})
+        if by_key:
+            L += [f"## {title} ({len(by_key)})", "", f"_{hint}_", ""]
+            L += [row(key, details, where) for key, details in sorted(by_key.items())] + [""]
+
     if rate_limited:
-        L.append("")
-        L.append("_Stopped early: GitHub rate limit hit. CI runs with a token for the full pass._")
+        L += ["_Stopped early: GitHub rate limit hit. CI runs with a token for the full pass._", ""]
     if known:
-        L += ["", "### Already marked unmaintained (💀)", "",
-              "These already carry the skull in the list. Shown for completeness.", ""]
-        L += [f"- {slug} - {why}" for slug, why in known]
-    L += ["", "_Some entries may be transient. Verify before acting._", ""]
-    return "\n".join(L) + "\n"
+        L += ["<details>", f"<summary>Already marked 💀 ({known_count})</summary>", "",
+              "These already carry the skull. Shown for completeness; remove any that "
+              "no longer work.", ""]
+        merged = {}
+        for kind, _, _ in SECTIONS:
+            for key, details in known.get(kind, {}).items():
+                merged.setdefault(key, []).extend(details)
+        L += [row(key, details, where) for key, details in sorted(merged.items())]
+        L += ["", "</details>", ""]
+    L += ["_Some findings may be transient. Verify before acting._", ""]
+    return "\n".join(L)
 
 
 def main():
@@ -323,7 +417,8 @@ def main():
     dead, dead_ok = parse_dead_links(args.lychee)
     findings, checked, rate_limited = scan_repos(repos, skull_set, now, token, args.limit)
 
-    report = build_report(today, dead, dead_ok, findings, checked, rate_limited)
+    report = build_report(today, dead, dead_ok, findings, checked, rate_limited,
+                          locate_repos(readme))
     if args.out:
         with open(args.out, "w", encoding="utf-8") as fh:
             fh.write(report)
@@ -331,9 +426,9 @@ def main():
     else:
         sys.stdout.write(report)
 
-    # New (non-skull) repo problems or any dead links open an issue.
-    new_findings = [f for f in findings if not f[2]]
-    has_findings = bool(dead) or bool(new_findings) or not dead_ok
+    # Dead links, new problems on unmarked repos, or a 💀 that came back open an issue.
+    actionable = [f for f in findings if not f[3] or f[0] == "revived"]
+    has_findings = bool(dead) or bool(actionable) or not dead_ok
     gh_out = os.environ.get("GITHUB_OUTPUT")
     if gh_out:
         with open(gh_out, "a") as fh:

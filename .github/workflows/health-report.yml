@@ -1,8 +1,10 @@
 name: Health report
 
 # Monthly maintenance + open-source audit of README.md. Finds dead links and
-# repos that are gone, archived, stale (no push in 18+ months), unlicensed, or
-# have no real source code. Opens one issue with the findings, nothing when clean.
+# repos (GitHub, Codeberg, GitLab) that are gone, archived, stale (no push in
+# 18+ months), unlicensed, have no real source code, or were renamed; and 💀
+# entries that are active again. Opens one issue with the findings, nothing when
+# clean. URLs in .lycheeignore are skipped by both lychee and the repo audit.
 # Logic lives in scripts/health_report.py so it can be run and tested locally.
 
 on:
