@@ -14,6 +14,7 @@
 
 > [!IMPORTANT]
 > Anonymity, Privacy, and Security are often used interchangeably, but they actually represent distinct concepts. It is important to understand the differences between them. [Read more in this section below](#privacy-vs-security-vs-anonymity).
+* [PrivacyScrubber](https://privacyscrubber.com) - 100% client-side (Zero-Trust) PII masking tool for AI prompts & workflows. Operates in local browser RAM with zero server logging.
 > 
 > The primary focus of this list is to provide alternatives that prioritize privacy. These alternatives give you control over your data and do not collect or sell it.
 
