@@ -54,6 +54,26 @@ DOC_ONLY = {
 }
 
 
+URL_RE = re.compile(r"https?://[^\s)\]\"'<>]+")
+
+
+def load_ignore(path=".lycheeignore"):
+    """Regexes from .lycheeignore, the list lychee itself reads."""
+    try:
+        with open(path, encoding="utf-8") as fh:
+            lines = fh.read().splitlines()
+    except FileNotFoundError:
+        return []
+    return [re.compile(l.strip()) for l in lines if l.strip() and not l.lstrip().startswith("#")]
+
+
+def strip_ignored(text, patterns):
+    """Drop ignored URLs so their repos are not audited either."""
+    if not patterns:
+        return text
+    return URL_RE.sub(lambda m: "" if any(p.search(m[0]) for p in patterns) else m[0], text)
+
+
 def get_json(url, token=None, timeout=20):
     req = urllib.request.Request(url)
     req.add_header("Accept", "application/json")
@@ -188,7 +208,7 @@ def added_readme_text(base):
 
 def run_pr_check(base, now, token, limit):
     """Check only the repos a PR adds. Warns, never blocks. Returns exit code 0."""
-    added = added_readme_text(base)
+    added = strip_ignored(added_readme_text(base), load_ignore())
     repos = extract_repos(added)
     findings, checked, rate_limited = scan_repos(
         repos, extract_skull_repos(added), now, token, limit
@@ -295,7 +315,7 @@ def main():
         sys.exit(run_pr_check(args.diff_base, now, token, args.limit))
 
     with open(args.readme, encoding="utf-8") as fh:
-        readme = fh.read()
+        readme = strip_ignored(fh.read(), load_ignore())
     repos = extract_repos(readme)
     skull_set = extract_skull_repos(readme)
     print(f"[health] {len(repos)} repos, {len(skull_set)} already 💀", file=sys.stderr)
