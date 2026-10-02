@@ -436,6 +436,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+- [Daily Developer Tools](https://dailydevelopertools.com/) - Suite of 66 browser-based developer utilities (JSON, JWT, cURL, HAR, regex, and more) that run 100% client-side behind a strict CSP (`connect-src 'none'`); no data leaves the page, no tracking, no login.
 
 ### IDEs
 ⛔ Avoid using privative IDEs that are full of trackers and telemetry.
