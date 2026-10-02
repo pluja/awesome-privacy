@@ -257,6 +257,9 @@ It allows users to easily create and browse group of apps and it displays notifi
 
 When using cloud-based AI services, the data you input is often collected and stored by the service provider. This may include not only the content of your requests but also metadata, such as timestamps or IP addresses. Third-party servers may grant access to your data to their employees, partners, or even other users, depending on their privacy policies. Data may be used for various purposes, including model training, research, or even marketing activities. Your requests to a third-party AI service may be tied to your user information and payment details, linking your data to your identity. 
 
+#### In-browser AI Toolboxes
+
+- [Ajiez](https://ajiez.top) - 70 free privacy-first browser tools with in-browser AI: image background removal (RMBG-1.4), OCR and Whisper-based transcription, all running fully client-side via WebAssembly/transformers.js — files never leave your browser. No signup, no uploads, EN/CN interface.
 #### ChatGPT
 
 - [Jan](https://github.com/janhq/jan) - Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.
