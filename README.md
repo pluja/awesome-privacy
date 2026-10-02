@@ -1457,6 +1457,10 @@ These services build a profile from everything you read. A local or self-hosted 
 - [Mbin](https://github.com/MbinOrg/mbin) [🧩](#icons) - A reddit-like content aggregator and micro-blogging platform for the fediverse; the community-maintained continuation of kbin.
 - [Lemmy](https://join-lemmy.org/) [🧩](#icons) - A federated and open alternative to Reddit in Rust.
 
+#### Self-hosted
+
+- [Storyden](https://www.storyden.org) - Self hosted Reddit-like forum, link aggregator and knowledgebase.
+
 ✅ **Privacy respecting Reddit clients:**
 - [Redlib](https://github.com/redlib-org/redlib) - An alternative private front-end to Reddit, with its origins in Libreddit.
 
