@@ -1180,6 +1180,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Ghostfolio](https://github.com/ghostfolio/ghostfolio#readme) - open source wealth management software built with web technology.
 - [PortfolioPerformance](https://www.portfolio-performance.info/en/) - An open source tool to calculate the overall performance of an investment portfolio-
 - [Rotki](https://github.com/rotki/rotki) - An awesome portfolio tracking, analytics, accounting and tax reporting application that protects your privacy.
+- [BTC Purchase Tracker](https://github.com/darkvector-dev/btc-purchase-tracker) - Offline-first desktop app for tracking Bitcoin DCA purchases. No network, no APIs, no accounts. Data stored locally in SQLite. Open source and cross-platform.
 
 ## Photo Editing and Management
 ⛔ **Avoid**
