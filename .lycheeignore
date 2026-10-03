@@ -1,0 +1,13 @@
+# URLs skipped by the link checks (lychee) and the repository audit
+# (scripts/health_report.py, scripts/maint/). One regex per line.
+# Every pattern needs a reason above it; prefer fixing the link over adding one.
+
+# Citation of an FAQ in GooseMod's archived wiki, not a listed tool.
+^https://github\.com/GooseMod/GooseMod/wiki/
+
+# Dead upstreams named on purpose in the descriptions of their maintained forks.
+^https://github\.com/hooram/ownphotos
+^https://github\.com/maybe-finance/maybe
+
+# The dSheets app answers every request with HTTP 500 but works in a browser.
+^https://sheets\.fileverse\.io
