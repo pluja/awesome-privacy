@@ -113,6 +113,7 @@
     - [YouTube](#youtube)
 - [Screen Recording](#screen-recording)
 - [Teamworking Tools](#teamworking-tools)
+- [Time Tracking](#time-tracking)
 - [Translation](#translation)
 - [Uncategorized](#uncategorized)
 - [Utilities](#utilities)
@@ -1524,6 +1525,20 @@ These services build a profile from everything you read. A local or self-hosted 
 > Also using any of these modifications/clients [violates](https://x.com/discord/status/1006178587731550208) the [Discord ToS](https://discord.com/terms) so, we are not responsible of any suspension or termination of your account **but**, this should [not happen **yet**](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos).
 
 - [See this section for Discord mods and alternative clients](https://github.com/pluja/awesome-privacy/blob/main/README.md#alternative-clientsmodifications-of-discord)
+
+[Back to top 🔝](#contents)
+
+## Time Tracking
+⛔ **Avoid**
+
+Hosted time-tracking services can collect detailed work records, project names, clients, habits and schedules.
+
+- Toggl Track
+- Clockify
+- Harvest
+
+✅ **Instead use**
+- [HumbleBee](https://github.com/grobmeier/humblebee) - Free and open source local-first time tracking with CLI and desktop GUI. Stores records in a local SQLite database.
 
 [Back to top 🔝](#contents)
 
