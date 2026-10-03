@@ -436,6 +436,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 
 ## Developer Tools
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+- [Daily Toolbox](https://dailytoolbox.org) - 157 free developer utilities (PDF merger/splitter, image watermark, JSON formatter) that run 100% in the browser — files never leave your device, no upload, no account.
 
 ### IDEs
 ⛔ Avoid using privative IDEs that are full of trackers and telemetry.
