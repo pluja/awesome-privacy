@@ -501,6 +501,7 @@ Apps such as Tinder collect and sell your personal intimate information. Tinder 
 - [Motrix](https://github.com/agalwood/Motrix) - A full-featured download manager.
 - [Xtreme Download Manager](https://github.com/subhra74/xdm) - Xtreme Download Manager (XDM) is a powerful tool to increase download speeds up to 500%, save streaming videos from YouTube, DailyMotion, Facebook, Vimeo, Google Video and 1000+ other websites, resume broken/dead downloads, schedule and convert downloads.
 - [axel](https://github.com/axel-download-accelerator/axel) - Lightweight CLI download accelerator. It supports HTTP, HTTPS, FTP and FTPS protocols.
+- [TBD](https://github.com/eliorpom-cmd/to-be-downloaded) - Open-source (AGPL-3.0) macOS app that downloads YouTube video and audio locally through yt-dlp, with no account and no telemetry, replacing ad-filled converter websites.
 
 [Back to top 🔝](#contents)
 
