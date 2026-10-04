@@ -268,6 +268,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [Tinfoil](https://tinfoil.sh/) - Verifiably private AI Chat and OpenAI-compatible inference in the cloud. Uses NVIDIA confidential computing and open source code pinned to a transparency log for end-to-end verifiability.
 - [Open WebUI](https://openwebui.com) - Self-hosted web interface for Ollama and other local models that gives you a private ChatGPT-style chat. BSD-3 licensed.
 - [LibreChat](https://librechat.ai) - Self-hosted chat interface that connects many AI models behind one private UI you control. Open source, MIT licensed.
+- [Move On](https://github.com/ur-grue/move-on) - CLI that parses your ChatGPT, Claude, Gemini, Meta AI, Grok, Le Chat or Perplexity data export, writes the GDPR erasure request, tracks the deadline and drafts the DPA complaint if ignored. Local-only, no network access. Python, MIT licensed.
 
 #### AI Coding
 
