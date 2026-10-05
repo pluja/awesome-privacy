@@ -566,7 +566,7 @@ on the DMCrypt kernel module.
 - [Winden](https://winden.app/) - A convenient version of Magic Wormhole you can use from within your browser. No need to install an app.
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
 - [scrt.link](https://scrt.link/file) - End-to-end encrypted file transfer. Up to 100GB and 30 days retention. Stored in Switzerland.
-
+- [PikaEdit File Share](https://pikaedit.com/en/share) - Temporary encrypted file sharing up to 500MB with password protection and auto-expiry.
 [Back to top 🔝](#contents)
 
 ## Fitness and Health
@@ -761,7 +761,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [tnyr.me](https://tnyr.me) - A zero-trust URL shortener with paswordless end-to-end encryption.
 - [Kutt](https://kutt.it/) - Self-hosted URL shortener with custom domains and password-protected links. Open source, MIT licensed.
 - [Shlink](https://shlink.io/) - Self-hosted URL shortener that keeps its own click analytics on your server. Open source, MIT licensed.
-
+- [PikaEdit URL Shortener](https://pikaedit.com/en/developer/url-shortener) - Free, browser-based URL shortener with optional expiry and click tracking. No account required.
 [Back to top 🔝](#contents)
 
 ## Location tracking
