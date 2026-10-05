@@ -86,6 +86,7 @@
 - [Password Managers](#password-managers)
 - [Pastebin and Secret Sharing](#pastebin-and-secret-sharing)
 - [Payments](#payments)
+- [PDF Tools](#pdf-tools)
 - [Personal Finances](#personal-finances)
 	- [Full Featured Financial Management](#full-featured-financial-management)
  	- [Budget Management](#budget-management)
@@ -1137,6 +1138,28 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ### Where to use Monero and Bitcoin
 
 - [kycnot.me](https://kycnot.me/) - Directory of KYC-free exchanges, payment processors, and other privacy services.
+
+[Back to top 🔝](#contents)
+
+## PDF Tools
+
+⛔ **Avoid**
+
+These all upload your document to a server before touching it, then promise to delete it later.
+
+- **iLovePDF**
+- **Smallpdf**
+- **PDF24**
+- **Sejda**
+- **PDF Candy**
+
+✅ **Instead use**
+
+Tools that do the work on your own machine, so there is no copy to delete.
+
+- [Stirling PDF](https://github.com/Stirling-Tools/Stirling-PDF) - Self-hosted web app with a very large set of PDF operations: merge, split, convert, OCR, redact, sign. Runs in Docker on your own hardware, so files never leave your network.
+- [BentoPDF](https://www.bentopdf.com) - Browser-based PDF toolkit, AGPL-3.0 and self-hostable, with everything processed client-side ([repo](https://github.com/alam00000/bentopdf)).
+- [PDFAirlock](https://pdfairlock.com) - Browser-based PDF toolkit (merge, split, compress, redact, sign, convert) with no upload endpoint, enforced by a `connect-src 'self'` CSP, and working offline after the first load. AGPL-3.0 and self-hostable as static files ([repo](https://github.com/alphanumericentity/pdfairlock)).
 
 [Back to top 🔝](#contents)
 
