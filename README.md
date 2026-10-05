@@ -148,6 +148,7 @@
 - [Ackee](https://ackee.electerious.com/) - Self-hosted website analytics.
 - [Aptabase](https://aptabase.com) - Open-source, privacy-first and simple analytics for mobile and desktop apps.
 - [Cabin](https://withcabin.com) - Privacy-first, carbon conscious web analytics.
+- [Facet](https://github.com/writerslogic/facet) - Cookieless, self-hostable web analytics and A/B testing that runs on Cloudflare Workers; no cookies, no cross-session identity, raw IP never stored (AGPL-3.0).
 - [GoatCounter](https://www.goatcounter.com/) - Privacy aware, lightweight and open-source analytics platform.
 - [Matomo](https://matomo.org/) - Google Analytics alternative that protects your data and your customers' privacy.
 - [Nullitics](https://nullitics.com/) - Zero-effort open-source cheap analytics.
