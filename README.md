@@ -563,6 +563,7 @@ on the DMCrypt kernel module.
 - [Send](https://gitlab.com/timvisee/send) - Simple, private file sharing. (Mozilla Send Fork)
 - [Sharik](https://github.com/marchellodev/sharik) [💀](#icons) - Sharik works with Wi-Fi connection or Tethering (Wi-Fi Hotspot). No internet connection needed. Available for Android, iOS, Linux, MacOS & Windows.
 - [Snapdrop](https://github.com/RobinLinus/snapdrop) - A Progressive Web App for local file sharing inspired by Apple's Airdrop.
+- [Stayput](https://stayput.dev) - HEIC, image and PDF tools that run entirely in the browser; nothing is uploaded. Open source (MIT), works offline. [Source](https://github.com/keenanlk/stayput)
 - [Winden](https://winden.app/) - A convenient version of Magic Wormhole you can use from within your browser. No need to install an app.
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
 - [scrt.link](https://scrt.link/file) - End-to-end encrypted file transfer. Up to 100GB and 30 days retention. Stored in Switzerland.
