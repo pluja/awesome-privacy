@@ -1564,6 +1564,7 @@ These services build a profile from everything you read. A local or self-hosted 
 [Back to top 🔝](#contents)
 
 ## Utilities
+- [awesome-dpi-bypass](https://github.com/ubub111/awesome-dpi-bypass) - A curated directory of modern DPI-evasion    utilities, routing cores (Xray, sing-box), and compatible cross-platform client applications.
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 
 [Back to top 🔝](#contents)
