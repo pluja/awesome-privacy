@@ -1189,6 +1189,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ✅  **Instead use**
 #### Web
 - [miniPaint](https://github.com/viliusle/miniPaint) - Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+- [Shrink Me](https://github.com/Safi1012/shrinkme.app) - Compresses JPG, PNG, WEBP, SVG and PDF files in the browser without uploading them, as an alternative to TinyPNG and iLovePDF. MIT licensed, works offline as a PWA.
 
 #### Desktop
 - [GIMP](https://www.gimp.org/) - The Free & Open Source Image Editor.
