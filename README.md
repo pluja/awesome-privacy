@@ -1261,6 +1261,11 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - An open-source, no-root firewall and DNS changer, with anti-censorship capabilities for Android 6+.
 - [🤖](#icons) [Orbot](https://orbot.app/) - Routes app traffic through the Tor network, system-wide as a VPN or per app. Made by the Guardian Project.
 
+
+### iOS
+
+- [ElectionDeflection](https://github.com/MillerMedia/ElectionDeflection) - Open-source iOS SMS filter that blocks political and election text messages using on-device machine learning. All processing happens entirely on-device — no data ever leaves the phone. [App Store](https://apps.apple.com/us/app/electiondeflection/id6670375536)
+
 [Back to top 🔝](#contents)
 
 ## Remote Access and Control
