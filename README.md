@@ -1566,6 +1566,7 @@ These services build a profile from everything you read. A local or self-hosted 
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 
+- [Local CSV Encoding Checker](https://joysky77.github.io/csv-cleanup-services/csv-encoding-checker.html) - Browser-local utility that checks whether a CSV sample decodes as UTF-8 or GB18030 and previews text without uploading the file.
 [Back to top 🔝](#contents)
 
 ## Version Control
