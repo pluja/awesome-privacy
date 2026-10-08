@@ -1565,6 +1565,8 @@ These services build a profile from everything you read. A local or self-hosted 
 
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
+- [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
+- [Localism](https://github.com/satirrdev/localism) - Open-source, 100% client-side file utility suite running entirely inside the browser via WebAssembly with zero network transit. ([Demo](https://satirrdev.github.io/localism)) `AGPL-3.0`
 
 [Back to top 🔝](#contents)
 
