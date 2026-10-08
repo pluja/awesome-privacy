@@ -1094,6 +1094,9 @@ GNU/Linux is a family of free (as in freedom and as in free beer) and open sourc
 - [Passbolt](https://www.passbolt.com) - An open source password manager designed for team collaboration.
 - [Passky](https://passky.org) - Simple, modern, lightweight, open-source and secure password manager.
 - [Proton Pass](https://proton.me/pass) - Open-source and encrypted password manager by Proton.
+- [MathPass](https://mathpass.voxonlabs.com) - Client-side passphrase generator using mathematical/physical constants and CSPRNG. ([Source Code](https://github.
+  com/sauravsvt/mathpass))
+
 
 ## Pastebin and Secret Sharing
 
