@@ -924,6 +924,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 
 - [Anytype](https://www.anytype.io/) - An open-source Notion alternative. E2EE, cloud and local network sync, can be self-hosted.
 - [AppFlowy](https://appflowy.com/) - Open Source Notion Alternative. You are in charge of your data and customizations.
+- [Cozy](https://cozyjournal.app) - A journal for Mac, Windows, iPhone and iPad. Closed source, but there is no account and no server: entries are plain Markdown files in a folder you choose, and the app has no AI and no telemetry.
 - [HedgeDoc](https://hedgedoc.org/) - Formerly CodiMD (community). An awesome platform to write and share markdown.
 - [Joplin](https://github.com/laurent22/joplin) - Note taking and to-do application with synchronisation and encryption capabilities.
 - [Logseq](https://logseq.com/) - A privacy-first alternative to WorkFlowy.
