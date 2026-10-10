@@ -976,6 +976,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 	- [Ddocs](https://ddocs.new): privacy-enhancing alternative to google docs: onchain, end-to-end encrypted, and decentralized. 
  	- [dSheets](https://sheets.fileverse.io): decentralized alternative to Excel and Google Sheets.
 - [Grist](https://www.getgrist.com) - Self-hostable spreadsheet and database hybrid for organizing data, as an open source Airtable alternative. Apache-2.0 licensed.
+- [OffPDF](https://github.com/McanKul/offpdf) - MIT-licensed desktop PDF editor and converter that processes files locally without accounts, uploads, or telemetry.
 
 [Back to top 🔝](#contents)
 
