@@ -519,6 +519,7 @@ Commercial ebook platforms track your reading habits, tie purchases to accounts 
 - [Calibre](https://calibre-ebook.com/) - Open-source ebook manager for Linux, Windows, and macOS with format conversion, metadata editing, and a built-in reader (GPL-3.0).
 - [Kavita](https://github.com/Kareadita/Kavita) - Cross-platform self-hosted digital library for ebooks and comics with a built-in web reader (GPL-3.0).
 - [Komga](https://github.com/gotson/komga) - Self-hosted media server for comics, magazines, and ebooks with a responsive web interface and OPDS support (MIT).
+- [Nostos](https://github.com/Christian-Gennari/Nostos) - Open-source, local-first ebook catalog and reader with annotation import and no telemetry (GPL-3.0).
 
 [Back to top 🔝](#contents)
 
