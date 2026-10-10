@@ -1261,6 +1261,10 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - An open-source, no-root firewall and DNS changer, with anti-censorship capabilities for Android 6+.
 - [🤖](#icons) [Orbot](https://orbot.app/) - Routes app traffic through the Tor network, system-wide as a VPN or per app. Made by the Guardian Project.
 
+### Web
+
+- [pdfanonym](https://pdfanonym.com/) - Redacts text, anonymizes personal data and removes metadata from PDFs entirely in the browser (MuPDF compiled to WebAssembly), so files are never uploaded; an alternative to upload-based PDF sites. Open source (AGPL-3.0), self-hostable static site ([source](https://github.com/Julien361/pdfanonym)).
+
 [Back to top 🔝](#contents)
 
 ## Remote Access and Control
