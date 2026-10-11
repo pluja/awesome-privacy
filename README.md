@@ -1250,6 +1250,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [OpenSnitch](https://github.com/evilsocket/opensnitch) - Interactive application firewall for GNU/Linux that helps users detect, monitor, and block unwanted outbound connections.
 - [MAT2](https://github.com/jvoisin/mat2) - Removes metadata from images, documents, audio and other files. Command line tool with file manager integrations.
 - [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) - Simple desktop app to view and remove file metadata, built on MAT2.
+- [EXIF Hound](https://github.com/minimallyexceptional/exif-hound) - Open source, MIT licensed desktop app for macOS, Windows and Linux to inspect and map photo EXIF metadata locally, without uploading images, telemetry or accounts.
 - [Mobile Verification Toolkit](https://github.com/mvt-project/mvt) - Forensic tool from Amnesty International that checks Android and iOS devices for traces of spyware such as Pegasus.
 
 ### Android
