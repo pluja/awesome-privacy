@@ -1193,7 +1193,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 ### iOS
 
-- [ElectionDeflection](https://github.com/MillerMedia/ElectionDeflection) - Open-source iOS SMS filter that blocks political and election text messages using on-device machine learning. Message filtering happens entirely on-device; message content is only sent to the developer's server if you manually submit a message through the optional, opt-in feedback feature. [App Store](https://apps.apple.com/us/app/electiondeflection/id6670375536)
+- [ElectionDeflection](https://github.com/mattmillerai/ElectionDeflection) - Open-source iOS SMS filter that blocks political and election text messages using on-device machine learning. Message filtering happens entirely on-device; message content is only sent to the developer's server if you manually submit a message through the optional, opt-in feedback feature. [App Store](https://apps.apple.com/us/app/electiondeflection/id6670375536)
 
 [Back to top 🔝](#contents)
 
