@@ -302,6 +302,7 @@ When using cloud-based AI services, the data you input is often collected and st
 #### Image Generation
 
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) - ComfyUI lets you execute advanced image generation pipelines using an advanced interface. Available on Windows, Linux, and macOS.
+- [ImageLoom](https://github.com/elapen/imageloom) - Local image studio for macOS (Windows build experimental) that creates, edits, upscales and exports images offline with stable-diffusion.cpp, instead of a cloud image generator. No account or telemetry, prompts and images stay on your computer. MIT licensed.
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI) - Generate and create stunning visual media using the latest AI-driven technologies locally.
 - [SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) - Local web interface for Stable Diffusion and other diffusion models, built on a ComfyUI backend. MIT licensed.
 
