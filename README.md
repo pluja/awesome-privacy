@@ -138,6 +138,7 @@
 - [🤖](#icons) [Stratum](https://github.com/stratumauth/app) - Two-Factor Authentication (2FA) client for Android + Wear OS.
 - [Proton Authenticator](https://proton.me/authenticator) - Proton Authenticator is an [open source](https://proton.me/community/open-source#apps) and [end-to-end encrypted](https://proton.me/blog/password-encryption) 2FA app that’s simple and free to use.
 - [2FAS Auth](https://2fas.com/auth) - Open source TOTP authenticator for iOS and Android with a companion browser extension and no account required. GPL-3.0 licensed.
+- [Popout Authenticator](https://github.com/elitekid/popout-authenticator) - Open source TOTP/HOTP authenticator browser extension for Chrome and Edge with an encrypted local vault and no account, which imports backups from the Authenticator extension, Google Authenticator, Aegis and 2FAS. MIT licensed.
 
 [Back to top 🔝](#contents)
 
