@@ -992,6 +992,7 @@ Many websites require phone number verification. These services offer a way to r
 - [Onlinesim](https://onlinesim.io/) - Receive SMS online to virtual phone number. (Based in Russia)
 
 ### Email verification required, accepting crypto
+- [Quackr](https://quackr.io/) - Private non-VoIP phone numbers in 15+ countries for SMS verification, plus free temporary numbers; pay by card or crypto. (Based in United Kingdom)
 - [SmsPVA](https://smspva.com/) - SmsPVA is a service providing a phone number you can send any SMS on and get a text of it. (Based in France)
 
 ## Operating Systems
