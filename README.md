@@ -1565,6 +1565,7 @@ These services build a profile from everything you read. A local or self-hosted 
 
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
+- [Eolietech](https://eolietech.com) - Compress and convert images, merge, split and compress PDFs, remove backgrounds and transcribe audio in the browser, without uploading your files. Alternative to iLovePDF, Smallpdf and TinyPNG. AGPL-3.0, [source](https://github.com/candygoogy/eolietech).
 
 [Back to top 🔝](#contents)
 
