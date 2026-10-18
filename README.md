@@ -939,6 +939,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [TinyList](https://tinylist.app/) - Create and share notes and checklists, without sacrificing your privacy.
 - [Trilium Notes](https://github.com/TriliumNext/Trilium) - Build your personal knowledge base with Trilium Notes 
 - [Vikunja](https://vikunja.io) - The open-source to-do app to organize your life.
+- [writui](https://github.com/aakashns/writui) - MIT-licensed Markdown writing app for macOS and Linux terminals that keeps drafts in a password-encrypted local vault and lets you export plain `.md` files.
 - [YankNote](https://github.com/purocean/yn) - A Hackable Markdown Note Application for Programmers.
 - [🤖](#icons) [Tasks.org](https://tasks.org) - Open source to-do and task manager for Android with CalDAV sync and offline use. GPL-3.0 licensed.
 
