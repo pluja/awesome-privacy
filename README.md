@@ -1260,6 +1260,7 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [Netguard](https://netguard.me/) - A simple way to block access to the internet per application.
 - [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - An open-source, no-root firewall and DNS changer, with anti-censorship capabilities for Android 6+.
 - [🤖](#icons) [Orbot](https://orbot.app/) - Routes app traffic through the Tor network, system-wide as a VPN or per app. Made by the Guardian Project.
+- [RF Sentinel](https://github.com/CIS-C0/RFSentinel) - Passive, receive-only scanner that detects Bluetooth trackers following you, ALPR and body cameras, Remote ID drones and fake cell towers from the signals they broadcast. Android, GPL-3.0, no root, account or trackers.
 
 [Back to top 🔝](#contents)
 
