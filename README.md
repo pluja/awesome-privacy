@@ -729,6 +729,7 @@ The service is in charge of running the servers that allow users to communicate.
 - [Threema](https://threema.com/en) - The messenger that puts security and privacy first. Pay once, chat forever. No collection of user data. Open Source client.
 - [Signal](https://signal.org/) - Extreme focus on privacy, combined with all of the features you expect. Strong encryption by design. 100% Open Source.
   - [🤖](#icons) [Molly](https://github.com/mollyim/mollyim-android) - Signal-compatible fork client with some security enhancements.
+- [🤖](#icons) [FlickerTalk](https://flickertalk.com/) - Messenger with no account or phone number: chat history stays on the phones, messages go phone to phone when possible, end-to-end encrypted, and an optional encrypted mailbox holds undelivered ones for up to 7 days. App and server open source (AGPL-3.0).
 
 ### P2P
 No servers involved. Everything goes directly from one peer to the other peer. No point of failure or control. The features are reduced because of the lack of server, messaging can be slower. Best option for critical chats.
