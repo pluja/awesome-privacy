@@ -735,6 +735,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 
 - [Tox](https://tox.chat/) - Tox is easy-to-use software that connects you with friends and family without anyone else listening in.
 - [Briar](https://briarproject.org/) - Peer-to-peer encrypted messaging and forums.
+- [MeshLive](https://github.com/MeshLive/meshlive-android) - Encrypted voice/video calls and live audio/video broadcasts on Android over a Bluetooth mesh without internet, accounts or servers (GPL-3.0-or-later; beta, not independently audited).
 - [Tinfoil Chat](https://github.com/maqp/tfc) - Onion-routed, endpoint secure messaging system.
 - [Berty](https://berty.tech/) - The privacy-first messaging app that works with or without internet access, cellular data or trust in the network.
 
