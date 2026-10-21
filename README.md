@@ -418,6 +418,7 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 	- [socialstream.ninja](https://github.com/steveseguin/social_stream#readme) - Consolidate your live social messaging streams and much more.
 - [OBS Studio](https://obsproject.com/) - Free and open source software for video recording and live streaming.
 - [Screenity](https://screenity.io/) - A screen recorder that's free, private, and friendly.
+- [CreatorPrivacyKit](https://creatorprivacykit.com) - In-browser tools for creators to strip EXIF/GPS/XMP/C2PA metadata, compress video, run OCR and redact text locally without uploads; a few optional features (AI text detector, image-by-URL fetch) use its server API (MIT, [repo](https://github.com/ggggghhhhyyyy/creatorprivacykit-public)).
 
 [Back to top 🔝](#contents)
 
