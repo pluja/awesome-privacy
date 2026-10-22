@@ -1261,6 +1261,10 @@ This section is dedicated to some tools that may help users analyze the privacy 
 - [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - An open-source, no-root firewall and DNS changer, with anti-censorship capabilities for Android 6+.
 - [🤖](#icons) [Orbot](https://orbot.app/) - Routes app traffic through the Tor network, system-wide as a VPN or per app. Made by the Guardian Project.
 
+### Web / Online
+
+- [OmniKit](https://github.com/Morendais/omnikit) - Open source, zero-knowledge suite of 36+ browser utilities (EXIF metadata stripper, format converters, PDF tools, cryptographic hashes, diff checker) running 100% locally in-browser with zero data uploads. MIT licensed.
+
 [Back to top 🔝](#contents)
 
 ## Remote Access and Control
