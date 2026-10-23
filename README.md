@@ -124,7 +124,7 @@
     - [Browser Addons](#browser-addons) 
     - [Browser Sync](#browser-sync)
 - [Whistleblowing](#whistleblowing)
-
+- [Pdf Tools](#PDFTools)
 ## 2FA
 ⛔ Avoid using apps that won't let you export your keys **easily**.
 - Authy
@@ -1710,6 +1710,10 @@ Please read about what the addon does before installing. If you don't understand
 
 #### Useful Tools
 - [Single File](https://github.com/gildas-lormeau/SingleFile) - Save a faithful copy of an entire web page in a single HTML file so you can use it offline.
+
+## PDF Tools
+
+- [DocPro](https://docpro.pro) - Free PDF and image tools that run entirely in your browser. Files are never uploaded, and no account is needed.
 
 ### Browser Sync
 - [xBrowserSync](https://www.xbrowsersync.org/) - Browser syncing as it should be: secure, anonymous and free!
