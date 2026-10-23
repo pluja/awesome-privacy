@@ -1145,6 +1145,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 ### Full Featured Financial Management
 
 - [Actual](https://actualbudget.org) - Super fast and privacy-focused app for managing your finances.
+- [rMoney](https://skuwikuwamtech.com/rmoney.html) - Offline-first desktop personal finance and 365-day cash flow forecaster with SQLite, budget pacing, and AES-GCM-256 encrypted vaults.
 - [Firefly III](https://www.firefly-iii.org/) - A free and open source personal finance manager.
 - [GnuCash](https://gnucash.org/) - GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X and Microsoft Windows.
 - [Sure](https://github.com/we-promise/sure) - Open Source and secure OS for your personal finances. Community maintained fork of the archived [Maybe](https://github.com/maybe-finance/maybe) project.
