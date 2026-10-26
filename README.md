@@ -533,6 +533,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others. 
 - [age](https://age-encryption.org) - Modern command line file encryption tool with small keys and no configuration or keyring to manage. Open source, BSD-3 licensed.
 - [Tomb](https://dyne.org/software/tomb/) - Command line tool to create and manage encrypted storage folders on GNU/Linux, built on standard LUKS and cryptsetup.
+- [NiceVault](https://github.com/maxib0n/NiceVault) - Encrypted volumes in a single file, with a built-in file manager and password manager, as an alternative to VeraCrypt containers. Open source (GPL-3.0), Linux and Windows, no telemetry.
 
 ### OS Encryption
 
