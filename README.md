@@ -359,6 +359,7 @@ Google captchas use cookies to track users and rank their IPs.
 - [🤖](#icons) [KashCal](https://github.com/KashCal/KashCal) - Offline-first Android calendar with iCloud/CalDAV sync, full-text search, recurring events, and home screen widget. Apache 2.0 licensed.
 - [Nextcloud Calendar](https://apps.nextcloud.com/apps/calendar) - Calendar app for Nextcloud with CalDAV support. Self-hostable.
 - [Proton Calendar](https://proton.me/calendar) - End-to-end encrypted calendar from Proton. Part of the Proton privacy ecosystem.
+- [SilentSuite](https://silentsuite.io) - Open-source, end-to-end encrypted sync for calendars, contacts and tasks, with free self-hosting and optional paid managed hosting.
 
 [Back to top 🔝](#contents)
 
