@@ -623,6 +623,8 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - Google Forms [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
 
 ✅  **Instead use**
+
+- [Palform](https://palform.app) - Simple end-to-end encrypted form builder hosted in the EU, free with unlimited responses (AGPL-3.0).
 - [TypeBot](https://typebot.com) - Open-source conversational forms.
 - [CryptPad Forms](https://cryptpad.fr/form/) - Part of the Cryptpad end-to-end encrypted and open-source collaboration suite.
 - [FramaForms](https://framaforms.org/) - Design your online surveys easily while respecting your audience.
