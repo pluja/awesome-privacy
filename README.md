@@ -34,6 +34,7 @@
 	- [Text To Speech](#text-to-speech)
  	- [Speech To Text](#speech-to-text)
 	- [Image Generation](#image-generation)
+- [Automation](#automation)
 - [Bookmarking](#bookmarking)
     - [Book and web annotations](#book-and-web-annotationshighlights-management)
 - [Captchas](#captchas)
@@ -86,6 +87,7 @@
 - [Password Managers](#password-managers)
 - [Pastebin and Secret Sharing](#pastebin-and-secret-sharing)
 - [Payments](#payments)
+- [PDF Tools](#pdf-tools)
 - [Personal Finances](#personal-finances)
 	- [Full Featured Financial Management](#full-featured-financial-management)
  	- [Budget Management](#budget-management)
@@ -292,6 +294,7 @@ When using cloud-based AI services, the data you input is often collected and st
 	- [OpenAI Whisper](https://github.com/openai/whisper) - Whisper is a general-purpose speech recognition model that can be run locally offline. It can transcribe audio from and to multiple languages.
 		- [whisper.cpp](https://github.com/ggml-org/whisper.cpp) - High-performance inference of OpenAI's Whisper automatic speech recognition (ASR) model.
 		- [faster-whisper](https://github.com/SYSTRAN/faster-whisper) - Reimplementation of Whisper using CTranslate2 that transcribes locally up to four times faster. MIT licensed.
+	- [FunASR](https://github.com/modelscope/FunASR) - Speech recognition toolkit that runs locally, with voice activity detection, punctuation restoration and speaker diarization. Downloads models from ModelScope by default. MIT licensed code, model licenses vary.
 	- [ParakeetTDT](https://parakeettdt.com/) - Efficient audio transcription. Convert speech to text with unprecedented speed and accuracy using NVIDIA advanced AI speech recognition model.
 
 - **Apps and services**
@@ -304,6 +307,16 @@ When using cloud-based AI services, the data you input is often collected and st
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) - ComfyUI lets you execute advanced image generation pipelines using an advanced interface. Available on Windows, Linux, and macOS.
 - [InvokeAI](https://github.com/invoke-ai/InvokeAI) - Generate and create stunning visual media using the latest AI-driven technologies locally.
 - [SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) - Local web interface for Stable Diffusion and other diffusion models, built on a ComfyUI backend. MIT licensed.
+
+[Back to top 🔝](#contents)
+
+## Automation
+⛔ **Avoid**
+- Zapier
+- IFTTT
+
+✅  **Instead use**
+- [Huginn](https://github.com/huginn/huginn) - Self-hosted agents that watch websites, feeds and APIs and act on your behalf, an alternative to IFTTT and Zapier. MIT licensed.
 
 [Back to top 🔝](#contents)
 
@@ -599,6 +612,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [Poppy](https://poppy.usenostr.org) - Poppy is a private period tracker that runs in the browser. It stores data locally, and can sync and backup through Nostr relays without a Poppy server or account, all encrypted end to end.
 
 ### Medical health
+- [🤖](#icons) [MedTimer](https://github.com/Futsch1/medTimer) - Offline medication reminder that keeps all data on your device and needs no internet permission. Available on F-Droid, MIT licensed.
 - [Fasten](https://github.com/fastenhealth/fasten-onprem) [💀](#icons) - Fasten is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 1000's of insurances/hospitals/clinics.
 
 [Back to top 🔝](#contents)
@@ -1140,6 +1154,22 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 
 [Back to top 🔝](#contents)
 
+## PDF Tools
+⛔ **Avoid**
+
+These upload your document to a server before working on it, then promise to delete it later.
+
+- iLovePDF
+- Smallpdf
+- PDF24
+- Sejda
+- PDF Candy
+
+✅  **Instead use**
+- [BentoPDF](https://github.com/alam00000/bentopdf) - Browser-based PDF toolkit to merge, split, compress, convert, sign and redact, with everything processed on your device so files never leave it. Self-hostable, AGPL-3.0 licensed.
+
+[Back to top 🔝](#contents)
+
 ## Personal Finances
 
 ### Full Featured Financial Management
@@ -1197,6 +1227,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [DigiKam](https://www.digikam.org/) - Awesome Professional Photo Management with the Power of Open Source.
 - [Inkscape](https://inkscape.org/) - Inkscape is a free and open-source vector graphics editor used to create vector images.
 - [ImageGlass](https://imageglass.org/) - ImageGlass is a lightweight software application whose purpose is to help you view images in a clean and intuitive working environment.
+- [qView](https://github.com/jurplel/qView) - Minimal, fast cross-platform image viewer that shows just the image with no clutter. GPL-3.0 licensed.
 - [darktable](https://www.darktable.org/) - darktable is an open source photography workflow application and raw developer
 - [RapidRAW](https://github.com/CyberTimon/RapidRAW) - A beautiful, non-destructive and GPU-accelerated RAW image editor built with performance in mind. Lightweight (<20MB) cross-platform alternative to Adobe Lightroom. AGPL-3.0 licensed.
 - [RawTherapee](https://rawtherapee.com) - Offline open source RAW photo developer that pairs well with darktable as a Lightroom alternative. GPL-3.0 licensed.
