@@ -930,6 +930,7 @@ These providers offer apps and services filled with data trackers. Also, most of
 - [Memos](https://github.com/usememos/memos) - An open-source, self-hosted memo hub with knowledge management and socialization. 
 - [Nextcloud Notes](https://github.com/nextcloud/notes/) - The Notes app is a distraction free notes taking app for Nextcloud.
 	- [Nextcloud Notes app](https://github.com/nextcloud/notes-android) - An android client for Nextcloud Notes.
+- [NookNook](https://github.com/MrRealORG/Nook) - A cozy, 100% offline notes desk for Windows. Markdown notes with live preview, tasks, a kanban board and a meeting recorder; all data in one local SQLite file, no accounts, no telemetry. Free and open source.
 - [Notally](https://github.com/OmGodse/Notally) - A beautiful notes app (local only, no sync).
 - [Notesnook](https://notesnook.com/) - Open source zero knowledge private note taking.
 - [Obsidian](https://obsidian.md) - Obsidian is the private and flexible note‑taking app. Closed source but has no trackers (website / apps) and E2EE sync. 
