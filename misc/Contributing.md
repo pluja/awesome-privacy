@@ -8,6 +8,20 @@
 
 > Every project will need investigation. And of course all listings / additions / PRs and issues are open to discussion as I am human and I may make mistakes.
 
+## What makes a good entry
+
+This list recommends tools people can rely on. Most new suggestions are declined, and that is fine. A project is a good fit when:
+
+- **It is open source**, with the code public and linked from the entry. For apps and tools this is required: without the code, nobody can check the privacy claims. A *service* whose servers you cannot inspect anyway (a mail provider, a VPN) can qualify on a long, public privacy record, and its client apps should still be open source where it has them.
+- **It is mature and maintained**: at least 6 months old, a stable release rather than a beta or a concept, and updated within the last year.
+- **People actually use it**: a real user base, packaged releases (F-Droid, Flathub, distro repositories), or a community around it. A fresh repository with a handful of stars is not there yet; come back when it is.
+- **It is private by default.** No trackers on the website (analytics tools from the [Analytics](https://github.com/pluja/awesome-privacy#analytics) section are fine), no telemetry or cloud features switched on without asking, no account where none is needed, and data kept local or end-to-end encrypted where it matters. You stay in control of your data and can export or delete it.
+- **It is secure.** No open critical vulnerabilities, and past ones were fixed promptly and in the open.
+- **It is transparent.** It is clear who makes it and how it is funded.
+- **It replaces something.** Say what mainstream tool it is an alternative to.
+
+If you build or work on the project, say so in the pull request. Self-submissions are welcome when they meet the bar, but undisclosed ones are closed. Low-effort or generated submissions (a one-line pitch for a brand-new tool, a site listing "50+ free tools", a project with no source code) are closed without review.
+
 ## Pull Requests
 
 If you are familiar you can add a *section* or a *service* yourself via **pull request**. This is the better way.
