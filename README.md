@@ -491,6 +491,7 @@ Apps such as Tinder collect and sell your personal intimate information. Tinder 
 ✅ Instead use
 - [OrangeWebsite](https://www.orangewebsite.com/) - Iceland-based, free-speech web hosting with anonymous signup and cryptocurrency or cash payment.
 - [1984 Hosting](https://1984.hosting/) - Iceland-based hosting and domain registrar focused on civil rights, with Monero and anonymous signup.
+- [BuyDomainsCrypto](https://buydomainscrypto.net/) - Prepaid crypto domain shop with email-only signup, WHOIS privacy, and catalog pricing (not an ICANN-accredited registrar claim).
 - [Find more at kycnot.me (VPS Category)](https://kycnot.me/?categories=vps) - KYC-free VPS and hosting providers.
 
 [Back to top 🔝](#contents)
