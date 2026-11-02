@@ -567,7 +567,7 @@ on the DMCrypt kernel module.
 - [Dat-cp](https://github.com/tom-james-watson/dat-cp) [💀](#icons) - Copy files between hosts on a network using the peer-to-peer Dat network.
 - [Destiny](https://leastauthority.com/community-matters/destiny/) - Send files directly to the receiver in real-time. Developed for and with HROs as a free Privacy Enhancing Technology alternative.
 - [Gokapi](https://github.com/Forceu/Gokapi) - Lightweight selfhosted Firefox Send alternative without public upload. AWS S3 supported.
-- [KEIBIDROP](https://keibidrop.com) - Send files between two devices over the internet without WeTransfer or a cloud drive, end-to-end encrypted and with no account, or open the other computer's folder without copying it; the desktop app for Linux, macOS and Windows is [open source](https://github.com/KeibiSoft/KeibiDrop) (AGPL-3.0).
+- [KEIBIDROP](https://keibidrop.com) - Send files between two devices over the internet without WeTransfer or a cloud drive, end-to-end encrypted and with no account, or open the other computer's folder without copying it, in place of sshfs or LucidLink; the desktop app for Linux, macOS and Windows is [open source](https://github.com/KeibiSoft/KeibiDrop) (AGPL-3.0).
 - [Lufi](https://framagit.org/fiat-tux/hat-softwares/lufi) - Let's Upload that FIle — File sharing software.
 - [Localsend](https://localsend.org/) - Share files to nearby devices. Free, open source, cross-platform.
 - [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole) - Get things from one computer to another, safely.
