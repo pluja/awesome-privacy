@@ -585,7 +585,7 @@ If you need an app for **menstrual cycle tracking** please don't use any apps li
 - [🤖](#icons) [Drip](https://dripapp.org/) - Menstrual cycle and fertility tracking. Everything you enter stays on your device.
 - [Euki](https://eukiapp.org/) - The period tracker that doesn’t track you. 
 - [🤖](#icons) [log28](https://codeberg.org/boxedtoast/log28) - a (very) simple no-frills period tracker for Android.
-- [Mooneva Cycle](https://mooneva.se/pages/mooneva_cycle) - Offline period and cycle tracker with on-device AES-256-GCM encryption and no internet permission. No account, imports from drip, Flo and Clue.
+- [Mooneva Cycle](https://github.com/aradar46/Mooneva-Cycle-Private-Period-Tracker) - Offline period and cycle tracker with on-device AES-256-GCM encryption and no internet permission. No account, imports from drip, Flo and Clue. GPL-3.0.
 - [🤖](#icons) [Periodical](https://codeberg.org/askaaron/periodical) - A calendar to track your menstruation and calculate possible fertile days
 - [Poppy](https://poppy.usenostr.org) - Poppy is a private period tracker that runs in the browser. It stores data locally, and can sync and backup through Nostr relays without a Poppy server or account, all encrypted end to end.
 
