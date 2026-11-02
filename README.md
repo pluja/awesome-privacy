@@ -1150,6 +1150,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
 - [scrt.link](https://scrt.link) - Share a secret. End-to-end encrypted. Ephemeral. Open-source.
 - [dele-to](https://dele.to) - Open Source. Modern app to share sensitive credentials and secrets securely with client-side AES-256 encryption, zero-knowledge architecture, and automatic self-destruction.
+- [LastSignal](https://github.com/giovantenne/lastsignal) - Self-hosted, email-first dead man's switch with zero-knowledge end-to-end encryption that delivers your messages to chosen recipients if you stop responding to check-ins (MIT).
 
 [Back to top 🔝](#contents)
 
@@ -1624,7 +1625,6 @@ These services build a profile from everything you read. A local or self-hosted 
 - [Skymap](https://skymaponline.net/) - Open online planetarium program.
 - [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban.
 - [Hetty](https://github.com/dstotijn/hetty) - Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
-- [LastSignal](https://github.com/giovantenne/lastsignal) - Self-hosted, email-first dead man's switch with zero-knowledge end-to-end encryption that delivers your messages to chosen recipients if you stop responding to check-ins (MIT).
 - [Visited](https://github.com/didvc/visited) - Locally collect browsing history over browsers.
 
 [Back to top 🔝](#contents)
