@@ -1624,6 +1624,7 @@ These services build a profile from everything you read. A local or self-hosted 
 - [Skymap](https://skymaponline.net/) - Open online planetarium program.
 - [CrowdSec](https://github.com/crowdsecurity/crowdsec) - An open-source, modernized and collaborative fail2ban.
 - [Hetty](https://github.com/dstotijn/hetty) - Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
+- [LastSignal](https://github.com/giovantenne/lastsignal) - Self-hosted, email-first dead man's switch with zero-knowledge end-to-end encryption that delivers your messages to chosen recipients if you stop responding to check-ins (MIT).
 - [Visited](https://github.com/didvc/visited) - Locally collect browsing history over browsers.
 
 [Back to top 🔝](#contents)
