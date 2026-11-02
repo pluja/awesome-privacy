@@ -1547,6 +1547,7 @@ Odysee website contains some trackers and is a heavy site. You can use these alt
 
 ## Utilities
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
+- [ToolKnit Desktop](https://github.com/ZihangDong/toolknit-desktop) - Windows toolbox for local PDF, image and media processing as an alternative to upload-based converters, with opt-in AI; source-available under PolyForm Noncommercial 1.0.0 and separate PDF-to-Word terms ([Windows download](https://toolknit.com/exe.html)).
 - [Loggit](https://loggit.net) - Simple and Encrypted Life Tracking & Logging.
 
 [Back to top 🔝](#contents)
