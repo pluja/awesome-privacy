@@ -752,6 +752,7 @@ No servers involved. Everything goes directly from one peer to the other peer. N
 - [Briar](https://briarproject.org/) - Peer-to-peer encrypted messaging and forums.
 - [Tinfoil Chat](https://github.com/maqp/tfc) - Onion-routed, endpoint secure messaging system.
 - [Berty](https://berty.tech/) - The privacy-first messaging app that works with or without internet access, cellular data or trust in the network.
+- [DigitalValut Logos](https://github.com/digitalvalut/logos-protocol) - Peer-to-peer, end-to-end encrypted chat and calls with no account or phone number, an alternative to WhatsApp (Apache-2.0, web and Android).
 
 [Back to top 🔝](#contents)
 
