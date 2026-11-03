@@ -1150,6 +1150,7 @@ These tools are useful when sharing secrets, code snippets or any other kind of 
 - [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
 - [scrt.link](https://scrt.link) - Share a secret. End-to-end encrypted. Ephemeral. Open-source.
 - [dele-to](https://dele.to) - Open Source. Modern app to share sensitive credentials and secrets securely with client-side AES-256 encryption, zero-knowledge architecture, and automatic self-destruction.
+- [1time.io](https://github.com/shingrus/1time.io) - Self-destructing, browser-encrypted links for passwords and files instead of email or chat; open source (MIT), self-hostable, with a CLI.
 
 [Back to top 🔝](#contents)
 
