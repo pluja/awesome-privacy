@@ -230,9 +230,8 @@ subsections:
           repo: https://github.com/MM2-0/Kvaesitso
         - name: Bliss Launcher
           url: https://gitlab.e.foundation/e/os/BlissLauncher3
-          description: The default launcher of the /e/ Android-based OS.
+          description: The default launcher of the /e/ Android-based OS. It allows users to easily create and browse group of apps and it displays notification badges on app icons.
           added: 2022-09-28
-    notes: It allows users to easily create and browse group of apps and it displays notification badges on app icons.
   - title: Android SMS
     recommend:
       entries:

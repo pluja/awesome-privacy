@@ -21,7 +21,7 @@
 
 - **💬 Communication & Social**: [Instant Messaging](#instant-messaging) · [Mail Services](#mail-services) · [Online Phone Providers](#online-phone-providers) · [Video and Audio Conferencing](#video-and-audio-conferencing) · [Teamworking Tools](#teamworking-tools) · [Social Networks and Platforms](#social-networks-and-platforms) · [Commenting Engines](#commenting-engines) · [Translation](#translation) · [RSS Readers](#rss-readers)
 - **🌐 Networking & Web**: [VPNs](#vpns) · [Web Browser](#web-browser) · [Search Engines](#search-engines) · [Domains & Hosting](#domains--hosting) · [Link Shorteners](#link-shorteners) · [Link in Bio Tools](#link-in-bio-tools) · [Captchas](#captchas) · [Analytics](#analytics) · [Routers](#routers)
-- **🔐 Security & Encryption**: [2FA](#2fa) · [Password Managers](#password-managers) · [Encryption](#encryption) · [Pastebin and Secret Sharing](#pastebin-and-secret-sharing) · [Privacy Tools](#privacy-tools) · [Cloaking](#cloaking) · [Whistleblowing](#whistleblowing)
+- **🔐 Security & Encryption**: [2FA](#2fa) · [Password Managers](#password-managers) · [Encryption](#encryption) · [Pastebin and Secret Sharing](#pastebin-and-secret-sharing) · [Privacy Tools](#privacy-tools) · [Whistleblowing](#whistleblowing)
 - **📁 Files & Productivity**: [Cloud Storage](#cloud-storage) · [File Management and Sharing](#file-management-and-sharing) · [Download Manager](#download-manager) · [Notes and Tasks](#notes-and-tasks) · [Office](#office) · [PDF Tools](#pdf-tools) · [Calendar](#calendar) · [Bookmarking](#bookmarking) · [Forms](#forms) · [Databases](#databases)
 - **🎬 Media & Creative**: [Media Streaming Platforms](#media-streaming-platforms) · [Music Recognition](#music-recognition) · [Photo Storage](#photo-storage) · [Photo Editing and Management](#photo-editing-and-management) · [Video Editing](#video-editing) · [Screen recording](#screen-recording) · [Design Tools](#design-tools) · [Creator Tools](#creator-tools) · [Fonts](#fonts) · [Games](#games) · [Ebooks](#ebooks)
 - **📱 Mobile & OS**: [Android](#android-2) · [Operating Systems](#operating-systems) · [Home Assistants](#home-assistants)
@@ -630,122 +630,106 @@ Avoid any analytics service that comes from Google, Facebook, Microsoft or any p
 
 ### 2FA
 
+Authenticator apps generate the one-time codes that protect an account even after its password leaks. Pick one that encrypts its vault and lets you export your tokens, so you're never locked in.
+
 **Avoid**
 
-Avoid using apps that won't let you export your keys **easily**.
-
-- **Authy**
-- **Google Authenticator**: [ToS;DR](https://tosdr.org/en/service/217)
-- **Microsoft Authenticator**
+- **Authy**: closed source, and it dropped the desktop apps you could export your tokens from.
+- **Google Authenticator**: closed source, with export limited to QR codes and sync tied to your Google account. [ToS;DR](https://tosdr.org/en/service/217)
+- **Microsoft Authenticator**: closed source, with no way to export your tokens.
 
 **Use instead**
 
-- [2FAS Auth](https://2fas.com/auth) - Open source TOTP authenticator for iOS and Android with a companion browser extension and no account required. GPL-3.0 licensed.
-- [Aegis](https://getaegis.app/) - A free, secure and open source app for Android to manage your 2-step verification tokens. Supports variety of imports from other apps (Google Authenticator, Authy etc.), vault encryption and exporting keys (plaintext or encrypted). `Android`
-- [ente Auth](https://ente.com/auth/) - A free, cross platform, end-to-end encrypted and open source app for managing your 2-step verification tokens. From the makers of [ente Photos](https://ente.com), and uses the same battle tested infrastructure. Needs an ente.io account.
-- [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator. `Android`
-- [Owky](https://github.com/charlietango/owky) - Free and Open Source Two-Factor Authenticator for IOS users. `💀 inactive`
-- [Proton Authenticator](https://proton.me/authenticator) - Proton Authenticator is an [open source](https://proton.me/community/open-source#apps) and [end-to-end encrypted](https://proton.me/blog/password-encryption) 2FA app that’s simple and free to use.
-- [Stratum](https://github.com/stratumauth/app) - Two-Factor Authentication (2FA) client for Android + Wear OS. `Android`
+- [2FAS Auth](https://2fas.com/auth) - Authenticator whose browser extension asks your phone for a code and fills it in, no account needed. `GPL-3.0`
+- [Aegis](https://getaegis.app/) - Encrypted token vault that imports from most other authenticators and exports in plain or encrypted form. `Android` `GPL-3.0`
+- [ente Auth](https://ente.com/auth/) - Authenticator with end-to-end encrypted sync between your devices, from the makers of ente Photos. `AGPL-3.0`
+- [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Fork of FreeOTP with backups, search and dark mode. `Android` `Apache-2.0`
+- [Proton Authenticator](https://proton.me/authenticator) - Authenticator with end-to-end encrypted sync, from the makers of Proton Mail.
+- [Stratum](https://github.com/stratumauth/app) - Authenticator with Wear OS support and encrypted backups. `Android` `GPL-3.0`
 
 ### Password Managers
 
+A password manager lets you use a strong, different password for every account without remembering any of them. Prefer one that encrypts your vault on your device, so not even its sync server can read it.
+
 **Avoid**
 
-- **LastPass**
-- **Dashlane**
+- **LastPass**: closed source, and a 2022 breach exposed customers' encrypted vaults.
+- **Dashlane**: closed source and cloud only, with no way to keep your vault local.
 
 **Use instead**
 
-- [AliasVault](https://www.aliasvault.com) - An open source E2EE password & alias manager with a built-in email alias server
-- [Bitwarden](https://bitwarden.com) - An open source cloud based password manager.
-  - [vaultwarden](https://github.com/dani-garcia/vaultwarden/) - Unofficial Bitwarden compatible self-hosted server, formerly known as bitwarden_rs. `self-host`
-- [CarryPass](https://carrypass.net) - Zero-knowledge PWA password manager with deterministic generation, encrypted vaults, and team collaboration. ([Source](https://github.com/racz-zoltan/racz-zoltan.github.io)) `MIT`
-- [KeepassXC](https://keepassxc.org/) - Securely store passwords using industry standard encryption, no sync just storage.
-  - [KeepassDX](https://www.keepassdx.com/) - for Android.
-  - [KeeWeb](https://keeweb.info/) - for Web and other platforms.
-  - [Strongbox](https://strongboxsafe.com/) - for iOS.
-- [LessPass](https://www.lesspass.com) - Stateless password manager. Remember one master password to access your passwords. No sync needed.
-- [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
-- [Passbolt](https://www.passbolt.com) - An open source password manager designed for team collaboration.
-- [Passky](https://passky.org) - Simple, modern, lightweight, open-source and secure password manager.
-- [Proton Pass](https://proton.me/pass) - Open-source and encrypted password manager by Proton.
+- [AliasVault](https://www.aliasvault.com) - End-to-end encrypted password manager with a built-in email alias server. `self-host` `AGPL-3.0`
+- [Bitwarden](https://bitwarden.com) - Password manager with end-to-end encrypted sync across all your devices. `self-host`
+  - [Vaultwarden](https://github.com/dani-garcia/vaultwarden) - Lightweight, unofficial Bitwarden-compatible server you can host yourself. `self-host` `AGPL-3.0`
+- [KeePassXC](https://keepassxc.org/) - Offline password manager that keeps your vault in an encrypted file you control, with no account or sync service. `Linux` `macOS` `Windows`
+  - [KeePassDX](https://www.keepassdx.com/) - KeePass-compatible password manager for Android. `Android` `GPL-3.0`
+  - [Strongbox](https://strongboxsafe.com/) - KeePass-compatible password manager for iPhone, iPad and Mac. `iOS` `macOS` `AGPL-3.0`
+- [LessPass](https://www.lesspass.com) - Stateless password manager that computes each password from your master password, so there's nothing to store or sync. `GPL-3.0`
+- [Passbolt](https://www.passbolt.com) - Password manager built for teams, with end-to-end encrypted sharing. `self-host` `AGPL-3.0`
+- [Passky](https://passky.org) - Small, simple password manager with a server you can host yourself. `self-host` `EUPL-1.2`
+- [Proton Pass](https://proton.me/pass) - End-to-end encrypted password manager with built-in email aliases, from the makers of Proton Mail.
 
 ### Encryption
 
-Remember: Without strong encryption, you will be spied on systematically by lots of people.
+Encryption keeps your files unreadable to anyone without the key, whether a laptop gets stolen or a cloud provider gets breached. These tools use open, well-reviewed cryptography and keep the keys with you.
 
 **Avoid**
 
-- **BitLocker**: Proprietary Microsoft disk encryption. With device encryption, Windows uploads your recovery key to your Microsoft account by default.
+- **BitLocker**: closed source, and with device encryption Windows uploads your recovery key to your Microsoft account by default.
 
 **Use instead**
 
-- [age](https://age-encryption.org) - Modern command line file encryption tool with small keys and no configuration or keyring to manage. Open source, BSD-3 licensed.
-- [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
-- [Hat.sh](https://hat.sh/) - A Free, Fast, Secure and Serverless File Encryption.
-- [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others.
-- [Shufflecake](https://shufflecake.net/index.html) - Free open source, plausible deniability for multiple hidden filesystems on Linux
-- [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords. `💀 inactive`
-- [Tomb](https://dyne.org/software/tomb/) - Command line tool to create and manage encrypted storage folders on GNU/Linux, built on standard LUKS and cryptsetup.
-- [Veracrypt](https://www.veracrypt.fr/en/Home.html) - VeraCrypt is a free open source disk encryption software for Windows, macOS and Linux.
+- [age](https://age-encryption.org) - Simple, modern file encryption with small keys and nothing to configure. `CLI` `BSD-3-Clause`
+- [Cryptomator](https://cryptomator.org/) - Encrypts files on your device before they reach any cloud storage provider. `GPL-3.0`
+- [Photok](https://github.com/leonlatsch/Photok) - Photo vault that stores your pictures encrypted on the device. `Android` `Apache-2.0`
+- [Shufflecake](https://shufflecake.net/) - Hidden encrypted volumes for Linux with plausible deniability, so nobody can prove the hidden data exists. `Linux`
+- [Stegcloak](https://stegcloak.surge.sh/) - Hides password-protected secrets inside ordinary text using invisible characters. `💀 inactive`
+- [Tomb](https://dyne.org/software/tomb/) - Creates and manages encrypted folders on Linux, built on standard LUKS. `Linux` `CLI` `GPL-3.0`
+- [VeraCrypt](https://veracrypt.io/en/Home.html) - Encrypts whole disks, partitions or file containers, with support for hidden volumes. `Linux` `macOS` `Windows`
 
 #### OS Encryption
 
-- [Cryptsetup](https://gitlab.com/cryptsetup/cryptsetup) - Full disk encryption for Linux. Cryptsetup is a utility used to conveniently set up disk encryption based
-
-on the DMCrypt kernel module.
+- [Cryptsetup](https://gitlab.com/cryptsetup/cryptsetup) - The standard tool for full disk encryption on Linux, built on the kernel's dm-crypt module. `Linux`
 
 ### Pastebin and Secret Sharing
 
-These tools are useful when sharing secrets, code snippets or any other kind of text with others in a private way.
+Sending a password or a private note over chat or email leaves a copy in every inbox and backup. These tools encrypt the text in your browser and let it expire, so the server never sees it and nothing lingers.
 
-- [crypt.fyi](https://www.crypt.fyi) - Ephemeral zero-knowledge sensitive data sharing platform with web, cli, and chrome-extension clients
-- [dele-to](https://dele.to) - Open Source. Modern app to share sensitive credentials and secrets securely with client-side AES-256 encryption, zero-knowledge architecture, and automatic self-destruction.
-- [NoPaste](https://github.com/bokub/nopaste) - Open Source pastebin alternative that works with no database, and no back-end code. Instead, the data is compressed and stored entirely in the link that you share, nowhere else.
-- [PrivateBin](https://github.com/PrivateBin/PrivateBin) - A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.
-- [scrt.link](https://scrt.link) - Share a secret. End-to-end encrypted. Ephemeral. Open-source.
-- [Yopass](https://github.com/jhaals/yopass) - Secure sharing of secrets, passwords and files.
+- [crypt.fyi](https://www.crypt.fyi) - Self-destructing secret sharing with end-to-end encryption, from the web, the command line or a browser extension.
+- [Deleto](https://dele.to) - Shares passwords and other secrets with client-side encryption and automatic self-destruction.
+- [NoPaste](https://github.com/bokub/nopaste) - Pastebin with no server storage at all; the text is compressed into the link you share. `MIT`
+- [PrivateBin](https://github.com/PrivateBin/PrivateBin) - Minimal pastebin where everything is encrypted in the browser, so the server knows nothing about what you paste. `self-host`
+- [scrt.link](https://scrt.link) - Shares end-to-end encrypted secrets that disappear after they're read.
+- [Yopass](https://github.com/jhaals/yopass) - Shares encrypted secrets and files through one-time links that expire. `self-host` `Apache-2.0`
 
 ### Privacy Tools
 
-This section is dedicated to some tools that may help users analyze the privacy status on their devices.
+Tools for checking what your devices and apps leak, and for cutting off what you don't want sent.
 
 #### Desktop
 
-- [BusKill](https://www.buskill.in/) - BusKill is a Dead Man Switch triggered when a magnetic breakaway is tripped, severing a USB connection.
-- [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) - Local DNS proxy supporting DNSCrypt, DoH and Anonymized DNS relays, so resolvers cannot link queries to your IP. ISC licensed.
-- [MAT2](https://github.com/jvoisin/mat2) - Removes metadata from images, documents, audio and other files. Command line tool with file manager integrations.
-- [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) - Simple desktop app to view and remove file metadata, built on MAT2.
-- [Mobile Verification Toolkit](https://github.com/mvt-project/mvt) - Forensic tool from Amnesty International that checks Android and iOS devices for traces of spyware such as Pegasus.
-- [OpenSnitch](https://github.com/evilsocket/opensnitch) - Interactive application firewall for GNU/Linux that helps users detect, monitor, and block unwanted outbound connections.
-- [Whoami Project](https://github.com/owerdogan/whoami-project) - Whoami provides enhanced privacy, anonymity for Debian and Arch based linux distributions. `💀 inactive`
+- [BusKill](https://www.buskill.in/) - USB dead man's switch that locks or wipes your computer when the cable is pulled away. `GPL-3.0`
+- [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) - Local DNS proxy with encrypted DNS and anonymized relays, so resolvers can't link your lookups to your IP. `ISC`
+- [MAT2](https://github.com/jvoisin/mat2) - Removes metadata from images, documents, audio and many other file types. `Linux` `CLI` `LGPL-3.0`
+- [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) - Simple desktop app to view and remove file metadata, built on MAT2. `Linux`
+- [Mobile Verification Toolkit](https://github.com/mvt-project/mvt) - Amnesty International's tool for checking Android and iOS devices for traces of spyware such as Pegasus. `CLI` `⚠️ source-available`
+- [OpenSnitch](https://github.com/evilsocket/opensnitch) - Application firewall that asks before any program connects to the internet. `Linux` `GPL-3.0`
 
 #### Android
 
-- [Netguard](https://netguard.me/) - A simple way to block access to the internet per application.
-- [Orbot](https://orbot.app/) - Routes app traffic through the Tor network, system-wide as a VPN or per app. Made by the Guardian Project. `Android`
-- [Plexus](https://plexus.techlore.tech/) - Remove the fear of Android app compatibility on de-Googled devices. Find if an app will work on a De-Googled device.
-- [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - An open-source, no-root firewall and DNS changer, with anti-censorship capabilities for Android 6+.
-- [εxodus](https://reports.exodus-privacy.eu.org/en/) - The privacy audit platform for Android applications. Find how many trackers your apps have.
-  - [ClassyShark3xodus](https://f-droid.org/en/packages/com.oF2pks.classyshark3xodus/) - Checks apk(s) for known trackers (provided by Exodus) +other warnings and specs.
-
-### Cloaking
-
-#### Images
-
-- [Fawkes](https://github.com/Shawn-Shan/fawkes) - privacy preserving tool against facial recognition systems. `💀 inactive`
-  - [CloakMe](https://github.com/pluja/CloakMe) - Web interface for Fawkes algorithm. `💀 inactive`
-- [ImageScrubber](https://github.com/everestpipkin/image-scrubber) - A friendly browser-based tool for anonymizing photographs taken at protests ([hosted version provided by everestpipkin](https://everestpipkin.github.io/image-scrubber/)). `💀 inactive`
-
-#### Text
-
-- [Stegcloak](https://stegcloak.surge.sh/) - Hide secrets with invisible characters in plain text securely using passwords ([repo](https://github.com/kurolabs/stegcloak)). `💀 inactive`
+- [NetGuard](https://netguard.me/) - Blocks internet access per app, no root needed. `Android` `GPL-3.0`
+- [Orbot](https://orbot.app/) - Routes app traffic through Tor, for all apps or only the ones you choose. Made by the Guardian Project. `Android`
+- [Plexus](https://plexus.techlore.tech/) - Community database of which apps work on de-Googled Android. `Android`
+- [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - Firewall and encrypted DNS client in one, no root needed. `Android` `Apache-2.0`
+- [εxodus](https://reports.exodus-privacy.eu.org/en/) - Shows which trackers and permissions an Android app contains, before you install it. `AGPL-3.0`
+  - [ClassyShark3xodus](https://f-droid.org/en/packages/com.oF2pks.classyshark3xodus/) - Checks the apps on your phone for known trackers, using the εxodus database. `Android`
 
 ### Whistleblowing
 
-- [GlobaLeaks](https://www.globaleaks.org/) - Self-hostable whistleblowing platform for organisations, newsrooms and activists, replacing hosted reporting portals. Open source (AGPL-3.0). `self-host` `AGPL-3.0`
-- [SecureDrop](https://securedrop.org/) - Self-hosted submission system that lets newsrooms receive documents from anonymous sources over Tor, replacing email and cloud uploads. Open source (AGPL-3.0). `self-host`
+Platforms for receiving leaks and reports without exposing the source. They run on infrastructure the organisation controls instead of a hosted portal or email inbox.
+
+- [GlobaLeaks](https://www.globaleaks.org/) - Whistleblowing platform for organisations, newsrooms and activists, reachable over Tor. `self-host` `AGPL-3.0`
+- [SecureDrop](https://securedrop.org/) - Submission system that lets newsrooms receive documents from anonymous sources over Tor. `self-host`
 
 ## 📁 Files & Productivity
 
@@ -1317,15 +1301,13 @@ Third-party launchers found on the play store. They may contain ads/trackers and
 
 **Use instead**
 
-- [Bliss Launcher](https://gitlab.e.foundation/e/os/BlissLauncher3) - The default launcher of the /e/ Android-based OS.
+- [Bliss Launcher](https://gitlab.e.foundation/e/os/BlissLauncher3) - The default launcher of the /e/ Android-based OS. It allows users to easily create and browse group of apps and it displays notification badges on app icons.
 - [KISS](https://kisslauncher.com/) - Lightning fast, open-source, < 200kb Android launcher.
 - [Kvaesitso](https://github.com/MM2-0/Kvaesitso) - Search-focused, free and open source launcher for Android. GPL-3.0 licensed.
 - [Lawnchair](https://lawnchair.app/) - No clever tagline needed.
 - [Olauncher](https://github.com/tanujnotes/Olauncher) - Minimal AF (ad-free) launcher app for Android.
 - [OpenLauncher](https://github.com/OpenLauncherTeam/openlauncher) - Customizable and Open Source Launcher for Android. `💀 inactive`
 - [Pie Launcher](https://github.com/markusfisch/PieLauncher) - Android home screen launcher that uses a dynamic pie menu instead of fixed positioned icons.
-
-It allows users to easily create and browse group of apps and it displays notification badges on app icons.
 
 #### Android SMS
 

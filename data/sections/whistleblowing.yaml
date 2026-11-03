@@ -1,22 +1,23 @@
 title: Whistleblowing
 slug: whistleblowing
+intro: Platforms for receiving leaks and reports without exposing the source. They run on infrastructure the organisation controls instead of a hosted portal or email inbox.
 recommend:
   entries:
     - name: GlobaLeaks
       url: https://www.globaleaks.org/
-      description: Self-hostable whistleblowing platform for organisations, newsrooms and activists, replacing hosted reporting portals. Open source (AGPL-3.0).
       repo: https://github.com/globaleaks/globaleaks-whistleblowing-software
+      description: Whistleblowing platform for organisations, newsrooms and activists, reachable over Tor.
       license: AGPL-3.0
-      added: 2026-09-30
       tags:
         - self-host
         - tor
+      added: 2026-09-30
     - name: SecureDrop
       url: https://securedrop.org/
-      description: Self-hosted submission system that lets newsrooms receive documents from anonymous sources over Tor, replacing email and cloud uploads. Open source (AGPL-3.0).
       repo: https://github.com/freedomofpress/securedrop
-      added: 2026-09-30
+      description: Submission system that lets newsrooms receive documents from anonymous sources over Tor.
       tags:
         - self-host
         - tor
         - audited
+      added: 2026-09-30
