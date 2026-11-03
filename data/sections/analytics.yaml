@@ -79,12 +79,3 @@ recommend:
       caveats:
         - website-trackers
       added: 2021-05-18
-    - name: Unidentified Analytics
-      url: https://unidentifiedanalytics.web.app/
-      repo: https://github.com/actuallymentor/unidentified-analytics
-      description: IP-based hit counter that works anywhere a URL can load, from web pages to the command line, with no account.
-      license: MIT
-      tags:
-        - no-account
-      status: inactive
-      added: 2024-04-05

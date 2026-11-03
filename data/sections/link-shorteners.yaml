@@ -7,13 +7,6 @@ avoid:
       reason: built around tracking every click for marketing analytics.
 recommend:
   entries:
-    - name: Dub
-      url: https://dub.co
-      repo: https://github.com/dubinc/dub.link
-      description: Link management platform with click analytics that you can host yourself.
-      tags:
-        - self-host
-      added: 2024-09-25
     - name: Kutt
       url: https://kutt.to/
       repo: https://github.com/thedevs-network/kutt

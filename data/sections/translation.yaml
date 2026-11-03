@@ -12,15 +12,6 @@ subsections:
   - title: Text translation
     recommend:
       entries:
-        - name: Mozilla Translate
-          url: https://mozilla.github.io/translate/
-          repo: https://github.com/mozilla/translate
-          description: Web page that translates entirely in your browser with local models; deprecated in favor of Firefox's built-in translation.
-          license: MPL-2.0
-          status: inactive
-          tags:
-            - offline
-          added: 2022-10-10
         - name: LibreTranslate
           url: https://libretranslate.com/
           repo: https://github.com/LibreTranslate/LibreTranslate
@@ -64,15 +55,6 @@ subsections:
   - title: Alternative Google Translate frontends
     recommend:
       entries:
-        - name: Lingva
-          url: https://github.com/TheDavidDelta/lingva-translate
-          repo: https://github.com/TheDavidDelta/lingva-translate
-          description: Frontend that proxies Google Translate, so Google doesn't see who you are.
-          license: AGPL-3.0
-          status: inactive
-          tags:
-            - self-host
-          added: 2021-03-31
         - name: SimplyTranslate
           url: https://simplytranslate.org/
           repo: https://codeberg.org/ManeraKai/simplytranslate

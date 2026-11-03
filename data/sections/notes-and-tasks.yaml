@@ -20,16 +20,6 @@ avoid:
       reason: closed source, and notes sync through Microsoft's servers without end-to-end encryption.
 recommend:
   entries:
-    - name: Anytype
-      url: https://anytype.io/
-      repo: https://github.com/anyproto/anytype-ts
-      description: Local-first Notion alternative with end-to-end encrypted sync over the cloud or your local network.
-      caveats:
-        - source-available
-      added: 2023-09-22
-      tags:
-        - self-host
-        - e2ee
     - name: AppFlowy
       url: https://appflowy.com/
       repo: https://github.com/AppFlowy-IO/AppFlowy
@@ -118,10 +108,12 @@ recommend:
         - e2ee
     - name: Obsidian
       url: https://obsidian.md
-      description: Markdown notes kept as plain files on your device, with optional end-to-end encrypted sync; the app itself is closed source.
+      description: Markdown notes kept as plain files on your device, with optional end-to-end encrypted sync.
       added: 2023-08-25
       tags:
         - e2ee
+      caveats:
+        - closed-source
     - name: Quillpad
       url: https://quillpad.github.io/
       repo: https://github.com/quillpad/quillpad

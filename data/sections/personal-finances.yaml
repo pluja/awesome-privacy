@@ -131,17 +131,7 @@ subsections:
           added: 2021-02-25
   - title: Others
     recommend:
-      entries:
-        - name: Debitum
-          url: https://github.com/Marmo/debitum
-          repo: https://github.com/Marmo/debitum
-          description: Keeps track of IOUs, whether money or lent items.
-          platforms:
-            - android
-          license: GPL-3.0
-          status: inactive
-          package_id: org.ebur.debitum
-          added: 2021-07-13
+      entries: []
   - title: Portfolio trackers
     recommend:
       entries:

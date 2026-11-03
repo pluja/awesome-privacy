@@ -19,6 +19,8 @@ subsections:
           description: Chromium-based browser that blocks ads and trackers out of the box.
           license: MPL-2.0
           added: 2021-01-12
+          caveats:
+            - telemetry-opt-out
         - name: Cromite
           url: https://github.com/uazo/cromite
           repo: https://github.com/uazo/cromite
@@ -35,6 +37,7 @@ subsections:
           description: Mozilla's browser, with its own engine on Android and Enhanced Tracking Protection on by default.
           caveats:
             - website-trackers
+            - telemetry-opt-out
           added: 2021-01-12
           children:
             - name: IronFox
@@ -82,12 +85,15 @@ subsections:
           description: Chromium-based browser that blocks ads and trackers out of the box.
           license: MPL-2.0
           added: 2021-01-12
+          caveats:
+            - telemetry-opt-out
         - name: Firefox
           url: https://www.firefox.com/en-US/
           repo: https://github.com/mozilla-firefox/firefox
           description: Independent browser from Mozilla that needs some [hardening](https://anonymousplanet.net/guide/#hardening-firefox) for strong privacy.
           caveats:
             - website-trackers
+            - telemetry-opt-out
           added: 2021-01-12
           children:
             - name: LibreWolf

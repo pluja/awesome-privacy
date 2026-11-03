@@ -21,15 +21,6 @@ subsections:
   - title: Video and Audio
     recommend:
       entries:
-        - name: Dim
-          url: https://github.com/Dusk-Labs/dim
-          repo: https://github.com/Dusk-Labs/dim
-          description: Self-hosted media manager that organizes your films and shows and streams them to your devices.
-          license: AGPL-3.0
-          tags:
-            - self-host
-          status: inactive
-          added: 2021-10-27
         - name: Jellyfin
           url: https://jellyfin.org/
           repo: https://github.com/jellyfin/jellyfin
@@ -102,15 +93,6 @@ subsections:
             - windows
           license: AGPL-3.0
           added: 2020-12-09
-        - name: Subsonic
-          url: https://www.subsonic.org/pages/index.jsp
-          description: Personal music streaming server, closed source since version 6.
-          tags:
-            - self-host
-          caveats:
-            - website-trackers
-          status: inactive
-          added: 2020-12-09
     subsections:
       - title: Spotify alternative clients
         intro: These clients cut out Spotify's own apps and their tracking, but you still stream from Spotify's servers, so Spotify still sees what you play.
@@ -134,35 +116,15 @@ subsections:
                 - windows
               license: MIT
               added: 2021-02-20
-            - name: Spot
-              url: https://github.com/xou816/spot
-              repo: https://github.com/xou816/spot
-              description: Native GTK Spotify client written in Rust. Needs Spotify Premium.
-              platforms:
-                - linux
-              license: MIT
-              status: inactive
-              added: 2021-02-20
             - name: Spotube
               url: https://spotube.cc/
               repo: https://github.com/team-spotube/spotube
               description: Plugin-based music player that can load your Spotify playlists and stream the audio from other sources, no Premium needed.
               license: AGPL-3.0
-              caveats:
-                - website-trackers
               added: 2022-04-04
       - title: YouTube Music alternative clients
         recommend:
           entries:
-            - name: Beatbump
-              url: https://github.com/snuffyDev/Beatbump
-              repo: https://github.com/snuffyDev/Beatbump
-              description: Alternative YouTube Music web frontend with no ads.
-              platforms:
-                - web
-              license: AGPL-3.0
-              status: inactive
-              added: 2022-02-26
             - name: SimpMusic
               url: https://simpmusic.org/
               repo: https://github.com/maxrave-dev/SimpMusic

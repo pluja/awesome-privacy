@@ -47,13 +47,7 @@ subsections:
     subsections:
       - title: Alternative Medium frontends
         recommend:
-          entries:
-            - name: Scribe
-              url: https://git.sr.ht/~edwardloveall/scribe/
-              repo: https://git.sr.ht/~edwardloveall/scribe/
-              description: Medium frontend that serves articles without Medium's scripts or paywall prompts.
-              status: inactive
-              added: 2022-03-20
+          entries: []
   - title: Instagram
     avoid:
       items:
@@ -77,14 +71,7 @@ subsections:
           reason: the site is full of ads and third-party trackers, and hides answers until you sign in.
           tosdr: en_314
     recommend:
-      entries:
-        - name: Quetre
-          url: https://github.com/zyachel/quetre
-          repo: https://github.com/zyachel/quetre
-          description: Quora frontend that shows answers without an account, ads or trackers.
-          license: AGPL-3.0
-          status: inactive
-          added: 2022-10-02
+      entries: []
   - title: YouTube
     avoid:
       items:
@@ -93,13 +80,6 @@ subsections:
           tosdr: en_274
     recommend:
       entries:
-        - name: DTube
-          url: https://github.com/dtube/dtube
-          repo: https://github.com/dtube/dtube
-          description: Decentralized video sharing site; the open source codebase is deprecated and the new d.tube is closed source.
-          license: GPL-3.0
-          status: inactive
-          added: 2020-12-08
         - name: Odysee
           url: https://odysee.com/
           repo: https://github.com/OdyseeTeam/odysee-frontend
@@ -152,16 +132,6 @@ subsections:
       - title: YouTube alternative clients (apps)
         recommend:
           entries:
-            - name: Clipious
-              url: https://github.com/lamarios/clipious
-              repo: https://github.com/lamarios/clipious
-              description: Android client for Invidious instances.
-              platforms:
-                - android
-              license: AGPL-3.0
-              status: inactive
-              package_id: com.github.lamarios.clipious
-              added: 2023-05-22
             - name: FreeTube
               url: https://freetubeapp.io/
               repo: https://github.com/FreeTubeApp/FreeTube
@@ -217,14 +187,7 @@ subsections:
           reason: collects extensive data about you and your device to drive a feed designed to be hard to put down.
           tosdr: en_1448
     recommend:
-      entries:
-        - name: ProxiTok
-          url: https://github.com/pablouser1/ProxiTok
-          repo: https://github.com/pablouser1/ProxiTok
-          description: TikTok frontend that fetches everything server-side, so your browser never contacts TikTok.
-          license: AGPL-3.0
-          status: inactive
-          added: 2022-03-07
+      entries: []
   - title: Twitter
     avoid:
       items:
@@ -234,15 +197,7 @@ subsections:
     subsections:
       - title: Self-hosted
         recommend:
-          entries:
-            - name: Memos
-              url: https://usememos.com/
-              repo: https://github.com/usememos/memos
-              description: Self-hosted timeline of short notes where you choose what stays private and what to publish.
-              license: MIT
-              tags:
-                - self-host
-              added: 2022-12-20
+          entries: []
       - title: Decentralized
         callouts:
           - type: note
@@ -284,14 +239,6 @@ subsections:
       - title: Alternative Frontends
         recommend:
           entries:
-            - name: Feetter
-              url: https://codeberg.org/pluja/Feetter
-              repo: https://codeberg.org/pluja/Feetter
-              description: Create and sync Nitter feeds from any device without an account.
-              tags:
-                - no-account
-              status: inactive
-              added: 2021-06-19
             - name: Nitter
               url: https://github.com/zedeus/nitter
               repo: https://github.com/zedeus/nitter
@@ -318,19 +265,6 @@ subsections:
       - title: Reddit alternatives
         recommend:
           entries:
-            - name: Aether
-              url: https://getaether.net/
-              repo: https://github.com/aethereans/aether-app
-              description: Desktop app for peer-to-peer public communities whose posts expire over time.
-              platforms:
-                - desktop
-              license: AGPL-3.0
-              tags:
-                - p2p
-              caveats:
-                - website-trackers
-              status: inactive
-              added: 2020-12-09
             - name: Lemmy
               url: https://join-lemmy.org/
               repo: https://github.com/LemmyNet/lemmy

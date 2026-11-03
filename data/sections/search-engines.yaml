@@ -24,13 +24,6 @@ recommend:
       url: https://duckduckgo.com
       description: Search engine that doesn't build a profile on you, with results drawn largely from Bing.
       added: 2021-05-25
-    - name: librengine
-      url: https://github.com/liameno/librengine
-      repo: https://github.com/liameno/librengine
-      description: Search engine with its own crawler and index that you run yourself.
-      license: AGPL-3.0
-      status: inactive
-      added: 2022-09-21
     - name: Marginalia
       url: https://marginalia-search.com/
       repo: https://github.com/MarginaliaSearch/MarginaliaSearch

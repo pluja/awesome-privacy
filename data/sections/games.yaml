@@ -11,13 +11,6 @@ subsections:
           repo: https://github.com/KartKrewDev/RingRacers
           description: Technical kart racer built on the Sonic Robo Blast 2 engine, the sequel to SRB2Kart.
           license: GPL-2.0
-        - name: Sonic Robo Blast 2 Kart
-          url: https://mb.srb2.org/addons/srb2kart.2435/
-          repo: https://github.com/STJr/Kart-Public
-          description: Classic-style kart racer built on the Sonic Robo Blast 2 engine, succeeded by Ring Racers.
-          license: GPL-2.0
-          status: inactive
-          added: 2024-01-02
         - name: SuperTuxKart
           url: https://supertuxkart.net/Main_Page
           repo: https://github.com/supertuxkart/stk-code

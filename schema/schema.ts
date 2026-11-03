@@ -2,7 +2,7 @@ import * as v from "valibot";
 
 export const PLATFORMS = ["android", "ios", "linux", "macos", "windows", "desktop", "web", "browser", "cli"] as const;
 export const TAGS = ["self-host", "e2ee", "p2p", "no-account", "no-kyc", "tor", "offline", "activitypub", "audited", "fork"] as const;
-export const CAVEATS = ["source-available", "website-trackers", "telemetry-opt-out", "closed-server", "account-required"] as const;
+export const CAVEATS = ["closed-source", "source-available", "website-trackers", "telemetry-opt-out", "closed-server", "account-required"] as const;
 
 const Url = v.pipe(v.string(), v.url());
 const Markdown = v.pipe(v.string(), v.trim(), v.nonEmpty());

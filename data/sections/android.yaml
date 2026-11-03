@@ -25,15 +25,6 @@ subsections:
             - android
           added: 2021-05-29
           children:
-            - name: Aurora Droid
-              url: https://github.com/whyorean/AuroraDroid
-              repo: https://github.com/whyorean/AuroraDroid
-              description: F-Droid client with a Material design, no longer updated.
-              platforms:
-                - android
-              license: GPL-3.0
-              status: inactive
-              added: 2021-05-29
             - name: Droid-ify
               url: https://droidify.app/
               repo: https://github.com/Droid-ify/client
@@ -43,16 +34,6 @@ subsections:
               license: GPL-3.0
               package_id: com.looker.droidify
               added: 2021-10-30
-            - name: Foxy Droid
-              url: https://github.com/kitsunyan/foxy-droid
-              repo: https://github.com/kitsunyan/foxy-droid
-              description: F-Droid client in the style of the classic one, no longer updated.
-              platforms:
-                - android
-              license: GPL-3.0
-              status: inactive
-              package_id: nya.kitsunyan.foxydroid
-              added: 2021-06-19
         - name: FossDroid
           url: https://fossdroid.com/
           repo: https://github.com/SnaKKo/Fossdroid-Core
@@ -68,15 +49,6 @@ subsections:
           license: GPL-3.0
           package_id: dev.imranr.obtainium.fdroid
           added: 2023-02-28
-        - name: SkyDroid
-          url: https://github.com/redsolver/skydroid
-          repo: https://github.com/redsolver/skydroid
-          description: Decentralized, domain-based app store, archived by its developer.
-          platforms:
-            - android
-          license: GPL-3.0
-          status: inactive
-          added: 2021-09-29
   - title: Alternative Google Play Store clients
     recommend:
       entries:
@@ -214,15 +186,6 @@ subsections:
             - android
           package_id: org.smc.inputmethod.indic
           added: 2021-10-01
-        - name: OpenBoard
-          url: https://github.com/openboard-team/openboard
-          repo: https://github.com/openboard-team/openboard
-          description: AOSP-based keyboard without Google libraries, no longer updated. HeliBoard is its maintained fork.
-          platforms:
-            - android
-          license: GPL-3.0
-          status: inactive
-          added: 2020-12-22
         - name: Simple Keyboard
           url: https://github.com/rkkr/simple-keyboard
           repo: https://github.com/rkkr/simple-keyboard
@@ -308,15 +271,6 @@ subsections:
             - android
           license: GPL-3.0
           package_id: app.olauncher
-          added: 2021-06-01
-        - name: OpenLauncher
-          url: https://github.com/OpenLauncherTeam/openlauncher
-          repo: https://github.com/OpenLauncherTeam/openlauncher
-          description: Customizable launcher, no longer updated.
-          platforms:
-            - android
-          license: Apache-2.0
-          status: inactive
           added: 2021-06-01
         - name: Pie Launcher
           url: https://github.com/markusfisch/PieLauncher

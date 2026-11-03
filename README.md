@@ -27,7 +27,7 @@
 - **📱 Mobile & OS**: [Android](#android-2) · [Operating Systems](#operating-systems) · [Home Assistants](#home-assistants)
 - **🛠️ Developer & Self-hosting**: [Developer Tools](#developer-tools) · [Version Control](#version-control) · [Remote Access and Control](#remote-access-and-control) · [Artificial Intelligence](#artificial-intelligence) · [Automation](#automation)
 - **💸 Money**: [Payments](#payments) · [Personal Finances](#personal-finances)
-- **🧭 Everyday**: [Maps and Navigation](#maps-and-navigation) · [Fitness and Health](#fitness-and-health) · [Dating Apps](#dating-apps) · [Location tracking](#location-tracking) · [Utilities](#utilities) · [Uncategorized](#uncategorized)
+- **🧭 Everyday**: [Maps and Navigation](#maps-and-navigation) · [Fitness and Health](#fitness-and-health) · [Dating Apps](#dating-apps) · [Location tracking](#location-tracking) · [Utilities](#utilities)
 
 ## 💬 Communication & Social
 
@@ -50,7 +50,6 @@ Many independently run servers talk to each other, so there is no single point o
 
 - [DeltaChat](https://delta.chat/) - Messenger that runs over email, with end-to-end encryption and no phone number needed. `GPL-3.0`
 - [Jabber / XMPP (Protocol)](https://xmpp.org/) - Long-standing open messaging standard with many servers and clients, and OMEMO for end-to-end encryption.
-  - [AstraChat](https://astrachat.com/) - Commercial XMPP messaging suite for organizations that run their own servers.
   - [Conversations](https://conversations.im/) - XMPP client built for phones, with OMEMO encryption on by default. `Android`
   - [Dino](https://dino.im/) - Desktop XMPP client with OMEMO and OpenPGP end-to-end encryption. `Linux` `GPL-3.0`
   - [Gajim](https://gajim.org/) - Desktop XMPP client with OMEMO encryption. `Linux` `macOS` `Windows` `GPL-3.0`
@@ -165,13 +164,11 @@ The big meeting apps log who you call and when, and their apps ship with ad and 
 - [BigBlueButton](https://bigbluebutton.org/) - Self-hosted web conferencing built for online classes, with whiteboard, breakout rooms and recordings. `self-host` `LGPL-3.0` `⚠️ website trackers`
 - [Briefing](https://brie.fi/ng) - Group video chat in the browser over direct WebRTC connections, with no account. `self-host` `AGPL-3.0`
 - [Chitchatter](https://chitchatter.im/) - Serverless, ephemeral peer-to-peer chat with audio, video, screen and file sharing. `GPL-2.0`
-- [Jam](https://github.com/jam-systems/jam) - Self-hostable audio rooms for small conferences and communities, like Clubhouse. `AGPL-3.0` `💀 inactive`
 - [Jami](https://jami.net/) - Peer-to-peer audio and video calls and chat with no central servers or account needed. `GPL-3.0`
 - [Jitsi Meet](https://jitsi.org/jitsi-meet/) - Video conferencing you can self-host; the official instance requires you to log in. `self-host` `Apache-2.0`
 - [MiroTalk P2P](https://p2p.mirotalk.com/) - Browser-based peer-to-peer video calls up to 4K, with nothing to install. `AGPL-3.0`
 - [Mumble](https://www.mumble.info/) - Low-latency voice chat with encrypted connections, on servers you can run yourself. `self-host`
 - [Nextcloud Talk](https://nextcloud.com/talk/) - Video calls and chat that run inside your own Nextcloud server. `self-host` `AGPL-3.0`
-- [PeerCalls](https://github.com/peer-calls/peer-calls) - Group peer-to-peer video calls in the browser, self-hostable. `Apache-2.0` `💀 inactive`
 
 #### Alternative clients/modifications of Discord
 
@@ -181,7 +178,6 @@ The big meeting apps log who you call and when, and their apps ship with ad and 
 
 - [Aliucord](https://github.com/Aliucord/Aliucord) - Mod for the Android Discord app that [disables Discord's tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java). `Android` `OSL-3.0`
 - [BetterDiscord](https://betterdiscord.app/) - Discord client mod; add the [DoNotTrack](https://betterdiscord.app/plugins/DoNotTrack) plugin to block trackers. `Apache-2.0`
-- [Kernel](https://github.com/kernel-mod/electron) - Small Electron client mod; add the [Discord Utilities](https://github.com/discord-modifications/discord-utilities) package to block trackers. `MIT` `💀 inactive`
 - [Legcord](https://legcord.app) - Lightweight Discord client that blocks Discord's known trackers by default, formerly ArmCord. `OSL-3.0`
 - [OpenAsar](https://openasar.dev/) - Drop-in replacement for part of the Discord desktop app, with a [No Tracking](https://github.com/GooseMod/OpenAsar#readme) option that turns off crash and error reporting. `AGPL-3.0`
 - [Replugged](https://replugged.dev/) - Discord client mod that continues the discontinued Powercord. `MIT`
@@ -245,8 +241,6 @@ The big platforms profile you from everything you read, watch and like, and thei
 
 ##### Alternative Medium frontends
 
-- [Scribe](https://git.sr.ht/~edwardloveall/scribe/) - Medium frontend that serves articles without Medium's scripts or paywall prompts. `💀 inactive`
-
 #### Instagram
 
 **Avoid**
@@ -265,8 +259,6 @@ The big platforms profile you from everything you read, watch and like, and thei
 
 **Use instead**
 
-- [Quetre](https://github.com/zyachel/quetre) - Quora frontend that shows answers without an account, ads or trackers. `AGPL-3.0` `💀 inactive`
-
 #### YouTube
 
 **Avoid**
@@ -275,7 +267,6 @@ The big platforms profile you from everything you read, watch and like, and thei
 
 **Use instead**
 
-- [DTube](https://github.com/dtube/dtube) - Decentralized video sharing site; the open source codebase is deprecated and the new d.tube is closed source. `GPL-3.0` `💀 inactive`
 - [Odysee](https://odysee.com/) - Video platform built on the LBRY protocol. `MIT` `⚠️ website trackers`
 - [PeerTube](https://joinpeertube.org/en/) - Federated video hosting where anyone can run an instance and follow channels across others. `ActivityPub` `AGPL-3.0`
 
@@ -288,7 +279,6 @@ The big platforms profile you from everything you read, watch and like, and thei
 
 ##### YouTube alternative clients (apps)
 
-- [Clipious](https://github.com/lamarios/clipious) - Android client for Invidious instances. `Android` `AGPL-3.0` `💀 inactive`
 - [FreeTube](https://freetubeapp.io/) - Desktop YouTube app that keeps subscriptions, playlists and history on your computer, without Google's cookies or scripts. `Desktop` `AGPL-3.0`
 - [LibreTube](https://libretube.dev/) - Android YouTube app that fetches videos through Piped instead of Google's servers. `Android` `GPL-3.0`
 - [NewPipe](https://newpipe.net/) - Lightweight Android YouTube app with background play and downloads, no Google services or account needed. `Android` `GPL-3.0`
@@ -303,8 +293,6 @@ The big platforms profile you from everything you read, watch and like, and thei
 
 **Use instead**
 
-- [ProxiTok](https://github.com/pablouser1/ProxiTok) - TikTok frontend that fetches everything server-side, so your browser never contacts TikTok. `AGPL-3.0` `💀 inactive`
-
 #### Twitter
 
 **Avoid**
@@ -312,8 +300,6 @@ The big platforms profile you from everything you read, watch and like, and thei
 - **Twitter (X)**: profiles you from who you follow and what you like and repost, with [privacy-invasive defaults](https://www.eff.org/deeplinks/2017/05/how-opt-out-twitters-new-privacy-settings). [ToS;DR](https://tosdr.org/en/service/195)
 
 ##### Self-hosted
-
-- [Memos](https://usememos.com/) - Self-hosted timeline of short notes where you choose what stays private and what to publish. `self-host` `MIT`
 
 ##### Decentralized
 
@@ -328,7 +314,6 @@ The big platforms profile you from everything you read, watch and like, and thei
 
 ##### Alternative Frontends
 
-- [Feetter](https://codeberg.org/pluja/Feetter) - Create and sync Nitter feeds from any device without an account. `💀 inactive`
 - [Nitter](https://github.com/zedeus/nitter) - Twitter frontend without JavaScript or ads that proxies every request; see the [instances list](https://github.com/zedeus/nitter/wiki/Instances). `AGPL-3.0` `💀 inactive`
 - [Squawker](https://github.com/j-fbriere/squawker) - Android Twitter client with no account, tracking or ads, keeping subscriptions on the device; the maintained fork of Fritter. `Android` `MIT`
 
@@ -340,7 +325,6 @@ The big platforms profile you from everything you read, watch and like, and thei
 
 ##### Reddit alternatives
 
-- [Aether](https://getaether.net/) - Desktop app for peer-to-peer public communities whose posts expire over time. `Desktop` `AGPL-3.0` `⚠️ website trackers` `💀 inactive`
 - [Lemmy](https://join-lemmy.org/) - Federated link aggregator and discussion forum, organized into communities like subreddits. `ActivityPub` `AGPL-3.0`
 - [Mbin](https://joinmbin.org/) - Federated link aggregator with microblogging, the community-run continuation of kbin. `ActivityPub` `AGPL-3.0`
 
@@ -423,13 +407,11 @@ Online translators keep the text you paste in, which often includes private mess
 - [Apertium](https://apertium.org/) - Rule-based machine translation platform that can run offline on your computer. `GPL-2.0`
 - [LibreTranslate](https://libretranslate.com/) - Self-hosted machine translation API and web app with no ties to proprietary services. `self-host` `AGPL-3.0`
 - [Linguist](https://linguister.io) - Browser extension for translating pages and selected text, with a built-in offline translator and [custom translators](https://linguister.io/docs/CustomTranslator). `Browser` `BSD-3-Clause`
-- [Mozilla Translate](https://mozilla.github.io/translate/) - Web page that translates entirely in your browser with local models; deprecated in favor of Firefox's built-in translation. `MPL-2.0` `💀 inactive`
 - [Softcatala](https://www.softcatala.org/traductor/) - Online translator between Catalan and languages such as Spanish, English, French and Portuguese, run by a nonprofit. `⚠️ website trackers`
 - [TranslateLocally](https://github.com/XapaJIaMnu/translateLocally) - Desktop app for neural machine translation that runs entirely offline on your computer. `MIT`
 
 #### Alternative Google Translate frontends
 
-- [Lingva](https://github.com/TheDavidDelta/lingva-translate) - Frontend that proxies Google Translate, so Google doesn't see who you are. `self-host` `AGPL-3.0` `💀 inactive`
 - [Mozhi](https://codeberg.org/aryak/mozhi) - Frontend that proxies Google Translate, DeepL, Yandex and other engines behind one interface. `self-host`
 - [SimplyTranslate](https://simplytranslate.org/) - Frontend that proxies your requests to Google Translate and other engines. `self-host`
 
@@ -488,9 +470,9 @@ Your browser sees everything you do online, and the big ones are built by ad and
 
 #### Android / iOS
 
-- [Brave](https://brave.com/) - Chromium-based browser that blocks ads and trackers out of the box. `MPL-2.0`
+- [Brave](https://brave.com/) - Chromium-based browser that blocks ads and trackers out of the box. `MPL-2.0` `⚠️ telemetry opt-out`
 - [Cromite](https://github.com/uazo/cromite) - Chromium fork, successor to Bromite, with built-in ad blocking and anti-fingerprinting measures. `Android` `Linux` `Windows` `GPL-3.0`
-- [Firefox](https://www.firefox.com/en-US/mobile/) - Mozilla's browser, with its own engine on Android and Enhanced Tracking Protection on by default. `⚠️ website trackers`
+- [Firefox](https://www.firefox.com/en-US/mobile/) - Mozilla's browser, with its own engine on Android and Enhanced Tracking Protection on by default. `⚠️ website trackers` `⚠️ telemetry opt-out`
   - [IronFox](https://gitlab.com/ironfox-oss/IronFox) - Hardened Firefox for Android with proprietary blobs removed, a fork of the discontinued Mull. `Android`
 - [Privacy Browser](https://www.stoutner.com/privacy-browser-android/) - Browser that keeps JavaScript, cookies and other tracking features off until you allow them per site. `Android`
 - [Tor Browser](https://www.torproject.org/) - Hardened Firefox that routes your traffic through the Tor network to resist tracking and censorship. `Android` `Linux` `macOS` `Windows`
@@ -501,8 +483,8 @@ Your browser sees everything you do online, and the big ones are built by ad and
 > [!TIP]
 > The [Hitchhiker's Guide to Online Anonymity](https://anonymousplanet.net/guide/#hardening-browsers) explains how to harden your browser. If you don't understand a change, leave it alone; it can hurt your privacy more than it helps.
 
-- [Brave](https://brave.com/) - Chromium-based browser that blocks ads and trackers out of the box. `MPL-2.0`
-- [Firefox](https://www.firefox.com/en-US/) - Independent browser from Mozilla that needs some [hardening](https://anonymousplanet.net/guide/#hardening-firefox) for strong privacy. `⚠️ website trackers`
+- [Brave](https://brave.com/) - Chromium-based browser that blocks ads and trackers out of the box. `MPL-2.0` `⚠️ telemetry opt-out`
+- [Firefox](https://www.firefox.com/en-US/) - Independent browser from Mozilla that needs some [hardening](https://anonymousplanet.net/guide/#hardening-firefox) for strong privacy. `⚠️ website trackers` `⚠️ telemetry opt-out`
   - [LibreWolf](https://librewolf.net/) - Firefox fork with telemetry removed, stricter defaults and uBlock Origin built in. `Linux` `macOS` `Windows`
 - [Floorp](https://floorp.app/) - Firefox fork with telemetry disabled and extensive layout customization. `Linux` `macOS` `Windows` `MPL-2.0`
 - [Mullvad Browser](https://mullvad.net/en/browser/) - Tor Browser's anti-fingerprinting without the Tor network, made by the Tor Project and Mullvad. `Linux` `macOS` `Windows`
@@ -548,7 +530,6 @@ Your searches say more about you than almost anything else, and the big engines 
 
 - [Brave Search](https://search.brave.com) - Search engine with [its own independent index](https://brave.com/search-independence/), from the makers of Brave.
 - [DuckDuckGo](https://duckduckgo.com) - Search engine that doesn't build a profile on you, with results drawn largely from Bing.
-- [librengine](https://github.com/liameno/librengine) - Search engine with its own crawler and index that you run yourself. `AGPL-3.0` `💀 inactive`
 - [Marginalia](https://marginalia-search.com/) - Independent search engine with its own crawler and index that favors text-heavy, non-commercial pages. `self-host`
 - [Mojeek](https://www.mojeek.com/) - UK search engine with its own crawler and index and a no-tracking policy.
 - [Qwant](https://www.qwant.com/) - French search engine, hosted in the EU, that doesn't track your searches.
@@ -573,7 +554,6 @@ Hosted shorteners sit between every click and its destination, so they can log w
 
 **Use instead**
 
-- [Dub](https://dub.co) - Link management platform with click analytics that you can host yourself. `self-host`
 - [Kutt](https://kutt.to/) - Shortener with custom domains and password-protected links that you can host yourself. `self-host` `MIT`
 - [MagLit](https://maglit.me) - Shortener that encrypts links with a password and also handles torrent magnet links. `AGPL-3.0`
 - [Shlink](https://shlink.io/) - Self-hosted shortener that keeps its click statistics on your own server. `self-host` `MIT`
@@ -618,7 +598,6 @@ Analytics from Google, Facebook or Microsoft feeds your visitors' data into thei
 - [Shynet](https://github.com/milesmcc/shynet) - Self-hosted web analytics that works without cookies or JavaScript. `Apache-2.0`
 - [Swetrix](https://swetrix.com) - Cookie-free web analytics, as a hosted service or on your own server. `self-host` `AGPL-3.0`
 - [Umami](https://umami.is/) - Lightweight, cookie-free web analytics, as a hosted service or on your own server. `MIT` `⚠️ website trackers`
-- [Unidentified Analytics](https://unidentifiedanalytics.web.app/) - IP-based hit counter that works anywhere a URL can load, from web pages to the command line, with no account. `MIT` `💀 inactive`
 
 ### Routers
 
@@ -781,9 +760,7 @@ Upload-and-share services keep a readable copy of your files on their servers an
 **Use instead**
 
 - [Blaze](https://blaze.vercel.app/) - Peer-to-peer file sharing in the browser, between two or more devices at once. `MIT` `⚠️ website trackers` `💀 inactive`
-- [Blindsend](https://github.com/blindnet-io/blindsend) - End-to-end encrypted file exchange through a web link. `MIT` `💀 inactive`
 - [Croc](https://github.com/schollz/croc) - Sends files between two computers with end-to-end encryption, using a short code phrase. `CLI` `MIT`
-- [Dat-cp](https://github.com/tom-james-watson/dat-cp) - Copies files between hosts over the peer-to-peer Dat network. `CLI` `MIT` `💀 inactive`
 - [Destiny](https://leastauthority.com/community-matters/destiny/) - Magic Wormhole app for sending end-to-end encrypted files without revealing who you are, built with human rights organisations. `MIT`
 - [Gokapi](https://github.com/Forceu/Gokapi) - Lightweight self-hosted alternative to Firefox Send, where only you can upload and links expire. `self-host` `AGPL-3.0`
 - [Localsend](https://localsend.org/) - Shares files with nearby devices over your local network, with no internet connection or account needed. `Apache-2.0`
@@ -795,7 +772,6 @@ Upload-and-share services keep a readable copy of your files on their servers an
 - [QRcp](https://github.com/claudiodangelis/qrcp) - Transfers files over Wi-Fi from your computer to your phone by scanning a QR code in the terminal. `CLI` `MIT`
 - [scrt.link](https://scrt.link/file) - End-to-end encrypted file transfer of up to 100 GB, stored in Switzerland for up to 30 days. `MIT`
 - [Send](https://gitlab.com/timvisee/send) - Fork of Firefox Send that encrypts files in the browser and expires links after a set time or number of downloads. `self-host` `fork`
-- [Sharik](https://github.com/marchellodev/sharik) - Shares files between devices over Wi-Fi or a hotspot, with no internet connection needed. `MIT` `💀 inactive`
 - [Snapdrop](https://snapdrop.me) - Local file sharing in the browser, inspired by Apple's AirDrop. `self-host` `GPL-3.0`
 - [Winden](https://winden.app/) - Magic Wormhole in the browser, for end-to-end encrypted transfers without installing anything. `MIT`
 - [Yopass](https://github.com/jhaals/yopass) - Shares encrypted secrets and files through one-time links that expire. `self-host` `Apache-2.0`
@@ -824,7 +800,6 @@ Popular note apps store everything you write on their servers, usually readable 
 
 **Use instead**
 
-- [Anytype](https://anytype.io/) - Local-first Notion alternative with end-to-end encrypted sync over the cloud or your local network. `self-host` `⚠️ source-available`
 - [AppFlowy](https://appflowy.com/) - Notion alternative for docs, wikis and task boards that you can run locally or host yourself. `AGPL-3.0` `⚠️ website trackers`
 - [HedgeDoc](https://hedgedoc.org/) - Self-hosted collaborative Markdown editor for writing and sharing notes in real time, formerly CodiMD. `self-host` `AGPL-3.0`
 - [Joplin](https://github.com/laurent22/joplin) - Markdown notes and to-dos with optional end-to-end encrypted sync through a server of your choice.
@@ -835,7 +810,7 @@ Popular note apps store everything you write on their servers, usually readable 
   - [Nextcloud Notes app](https://github.com/nextcloud/notes-android) - Android client for Nextcloud Notes. `Android` `GPL-3.0`
 - [Notally](https://github.com/OmGodse/Notally) - Minimal notes app that keeps everything on your device, with no sync. `Android` `GPL-3.0`
 - [Notesnook](https://notesnook.com/) - End-to-end encrypted notes app with sync across your devices, as an Evernote alternative. `GPL-3.0`
-- [Obsidian](https://obsidian.md) - Markdown notes kept as plain files on your device, with optional end-to-end encrypted sync; the app itself is closed source.
+- [Obsidian](https://obsidian.md) - Markdown notes kept as plain files on your device, with optional end-to-end encrypted sync. `⚠️ closed source`
 - [Quillpad](https://quillpad.github.io/) - Markdown notes and task lists for Android, with optional Nextcloud sync, forked from Quillnote. `Android` `fork` `GPL-3.0`
 - [SiYuan](https://github.com/siyuan-note/siyuan) - Local-first personal knowledge base built from blocks you can link, embed and query. `AGPL-3.0`
 - [Standard Notes](https://standardnotes.com/) - End-to-end encrypted notes app that syncs across all your devices. `AGPL-3.0`
@@ -912,7 +887,7 @@ Bookmarks and read-later lists reveal a lot about what you read and care about. 
 - [42links](https://42links.tuxproject.de) - Minimalist self-hosted bookmark storage. `self-host`
 - [Floccus](https://floccus.org/) - Syncs your bookmarks across browsers and devices through your own Nextcloud, WebDAV or Git server. `MPL-2.0`
 - [Grimoire](https://github.com/goniszewski/grimoire) - Self-hosted bookmark manager that extracts and keeps the readable content of what you save. `self-host` `MIT`
-- [Karakeep](https://karakeep.com/) - Self-hosted app for saving links, notes and images, with full-text search and optional AI tagging, formerly Hoarder. `self-host` `AGPL-3.0` `⚠️ website trackers`
+- [Karakeep](https://karakeep.com/) - Self-hosted app for saving links, notes and images, with full-text search and optional AI tagging, formerly Hoarder. `self-host` `AGPL-3.0`
 - [LinkAce](https://github.com/Kovah/LinkAce) - Self-hosted bookmark archive that monitors and organizes your saved links. `self-host` `GPL-3.0`
 - [LinkDing](https://github.com/sissbruecker/linkding) - Minimal, fast self-hosted bookmark manager that is easy to run with Docker. `self-host` `MIT`
 - [Linkwarden](https://linkwarden.app) - Self-hosted bookmark manager that saves and archives full copies of the pages you collect. `self-host` `AGPL-3.0`
@@ -975,7 +950,6 @@ Streaming services log everything you watch and listen to, and their apps are fu
 
 #### Video and Audio
 
-- [Dim](https://github.com/Dusk-Labs/dim) - Self-hosted media manager that organizes your films and shows and streams them to your devices. `self-host` `AGPL-3.0` `💀 inactive`
 - [Jellyfin](https://jellyfin.org/) - Media server you host yourself for films, shows and music, with no account on anyone else's servers. `self-host` `GPL-2.0`
 - [Stremio](https://www.stremio.com/) - Media center that gathers video from add-ons into one library and player. `GPL-2.0` `⚠️ website trackers`
 
@@ -987,7 +961,6 @@ Streaming services log everything you watch and listen to, and their apps are fu
 - [mucke](https://github.com/moritz-weber/mucke) - Player for local music files with custom playback rules. `Android` `GPL-3.0`
 - [Navidrome](https://www.navidrome.org/) - Lightweight music server for your own collection, compatible with Subsonic apps. `self-host` `GPL-3.0` `⚠️ website trackers`
 - [Nuclear](https://nuclearplayer.com/) - Desktop music player that streams from free sources, with no account. `Linux` `macOS` `Windows` `AGPL-3.0`
-- [Subsonic](https://www.subsonic.org/pages/index.jsp) - Personal music streaming server, closed source since version 6. `self-host` `⚠️ website trackers` `💀 inactive`
 
 ##### Spotify alternative clients
 
@@ -995,12 +968,10 @@ These clients cut out Spotify's own apps and their tracking, but you still strea
 
 - [ncspot](https://github.com/hrkfdn/ncspot) - Terminal Spotify client written in Rust, inspired by ncmpc. Needs Spotify Premium. `CLI` `BSD-2-Clause`
 - [psst](https://github.com/jpochyla/psst) - Fast Spotify client with a native GUI written in Rust. Needs Spotify Premium. `Linux` `macOS` `Windows` `MIT`
-- [Spot](https://github.com/xou816/spot) - Native GTK Spotify client written in Rust. Needs Spotify Premium. `Linux` `MIT` `💀 inactive`
-- [Spotube](https://spotube.cc/) - Plugin-based music player that can load your Spotify playlists and stream the audio from other sources, no Premium needed. `AGPL-3.0` `⚠️ website trackers`
+- [Spotube](https://spotube.cc/) - Plugin-based music player that can load your Spotify playlists and stream the audio from other sources, no Premium needed. `AGPL-3.0`
 
 ##### YouTube Music alternative clients
 
-- [Beatbump](https://github.com/snuffyDev/Beatbump) - Alternative YouTube Music web frontend with no ads. `Web` `AGPL-3.0` `💀 inactive`
 - [SimpMusic](https://simpmusic.org/) - YouTube Music client with no ads and SponsorBlock built in, successor to the discontinued ViMusic and RiMusic. `Android` `Desktop` `GPL-3.0` `⚠️ website trackers`
 
 ##### Deezer alternative clients
@@ -1051,11 +1022,10 @@ Cloud photo services scan your library for faces, places and objects and tie it 
 #### Self-hosted
 
 - [Ente](https://ente.com/) - End-to-end encrypted photo and video backup whose cryptography was [independently audited](https://ente.com/blog/cryptography-audit/). `self-host` `AGPL-3.0` `⚠️ website trackers`
-- [Immich](https://immich.app/) - Self-hosted photo and video backup straight from your phone, the closest match to Google Photos. `self-host` `AGPL-3.0` `⚠️ website trackers`
+- [Immich](https://immich.app/) - Self-hosted photo and video backup straight from your phone, the closest match to Google Photos. `self-host` `AGPL-3.0`
 - [LibrePhotos](https://github.com/LibrePhotos/librephotos) - Self-hosted photo management service, an active fork of [OwnPhotos](https://github.com/hooram/ownphotos). `self-host` `MIT`
 - [Nextcloud](https://nextcloud.com/) - Self-hosted cloud suite whose [Photos](https://github.com/nextcloud/photos) app organizes and displays your pictures. `self-host` `AGPL-3.0`
 - [PhotoPrism](https://www.photoprism.app/) - Self-hosted photo library with automatic tagging and face recognition that runs on your own server. `self-host`
-- [PhotoStructure](https://photostructure.com/) - Self-hosted library that organizes a lifetime of photos and videos, though the app is closed source. `self-host`
 - [Photoview](https://photoview.github.io/) - Self-hosted photo gallery that works on your existing folders, with face recognition. `self-host` `AGPL-3.0`
 - [PiGallery2](https://bpatrik.github.io/pigallery2/) - Self-hosted, directory-first photo gallery website. `self-host` `MIT`
 - [Stingle Photos](https://stingle.org/) - End-to-end encrypted photo backup and sync for your phone. `Android` `iOS` `GPL-3.0`
@@ -1118,7 +1088,6 @@ Commercial video editors are closed source and often tied to an online account, 
 
 - [Kdenlive](https://kdenlive.org/) - Non-linear video editor from KDE. `Linux` `macOS` `Windows` `GPL-3.0`
 - [LosslessCut](https://github.com/mifi/lossless-cut) - FFmpeg front end for fast, lossless trimming and cutting of video and audio files. `Linux` `macOS` `Windows` `GPL-2.0`
-- [Olive Video Editor](https://olivevideoeditor.org/) - Non-linear video editor, still in alpha. `Linux` `macOS` `Windows` `GPL-3.0` `💀 inactive`
 - [OpenCut](https://opencut.app/) - CapCut alternative, still in beta. `MIT`
 - [Shotcut](https://www.shotcut.org/) - Cross-platform video editor with wide format support. `Linux` `macOS` `Windows` `GPL-3.0` `⚠️ website trackers`
 
@@ -1185,7 +1154,6 @@ Big-name games and engines often come with mandatory accounts, telemetry and pai
 Nintendo [collects data from Switch owners](https://www.reddit.com/r/privacy/comments/qtj9xt/til_nintendo_collects_data_from_switch_owners/), and an update [turned data sharing back on](https://www.altchar.com/game-news/the-latest-nintendo-switch-update-secretly-turns-on-user-data-sharing-adSyV7t35NPg) for people who had disabled it. Online play also needs a paid subscription.
 
 - [Dr. Robotnik's Ring Racers](https://www.kartkrew.org/) - Technical kart racer built on the Sonic Robo Blast 2 engine, the sequel to SRB2Kart. `GPL-2.0`
-- [Sonic Robo Blast 2 Kart](https://mb.srb2.org/addons/srb2kart.2435/) - Classic-style kart racer built on the Sonic Robo Blast 2 engine, succeeded by Ring Racers. `GPL-2.0` `💀 inactive`
 - [SuperTuxKart](https://supertuxkart.net/Main_Page) - 3D arcade kart racer with many characters, tracks and modes, including online play.
 
 #### Minecraft
@@ -1257,12 +1225,9 @@ Apps to replace the Google and manufacturer defaults on an Android phone, and th
 
 - [Accrescent](https://accrescent.app/) - App store that pins each app's signing key on first install and signs its repository metadata, still in alpha. `Android` `Apache-2.0`
 - [F-Droid](https://f-droid.org/) - Catalogue of open source Android apps, built from source and labelled when they contain trackers or ads. `Android`
-  - [Aurora Droid](https://github.com/whyorean/AuroraDroid) - F-Droid client with a Material design, no longer updated. `Android` `GPL-3.0` `💀 inactive`
   - [Droid-ify](https://droidify.app/) - F-Droid client with a clean interface that can browse any F-Droid repository. `Android` `GPL-3.0`
-  - [Foxy Droid](https://github.com/kitsunyan/foxy-droid) - F-Droid client in the style of the classic one, no longer updated. `Android` `GPL-3.0` `💀 inactive`
 - [FossDroid](https://fossdroid.com/) - Website that lays out the F-Droid catalogue like an app store, sorted by new, trending and popular apps. `MIT`
 - [Obtainium](https://obtainium.imranr.dev/) - Installs and updates apps straight from their release pages, such as GitHub or GitLab, and tells you about new versions. `Android` `GPL-3.0`
-- [SkyDroid](https://github.com/redsolver/skydroid) - Decentralized, domain-based app store, archived by its developer. `Android` `GPL-3.0` `💀 inactive`
 
 #### Alternative Google Play Store clients
 
@@ -1315,7 +1280,6 @@ Preinstalled file managers and those from the Play Store may carry ads or tracke
 - [FUTO Keyboard](https://keyboard.futo.tech/) - Keyboard that works fully offline, including voice input, swipe typing and autocorrect. `Android` `⚠️ source-available`
 - [HeliBoard](https://github.com/HeliBorg/HeliBoard) - Maintained fork of OpenBoard with glide typing, custom dictionaries and themes, and no internet permission. `Android` `GPL-3.0`
 - [Indic Keyboard](https://gitlab.com/indicproject/indic-keyboard) - Keyboard for typing in Indic languages alongside English. `Android`
-- [OpenBoard](https://github.com/openboard-team/openboard) - AOSP-based keyboard without Google libraries, no longer updated. HeliBoard is its maintained fork. `Android` `GPL-3.0` `💀 inactive`
 - [Simple Keyboard](https://github.com/rkkr/simple-keyboard) - Minimal keyboard under 1 MB whose only permission is vibrate. `Android` `Apache-2.0`
 
 #### Android Gallery
@@ -1349,7 +1313,6 @@ Launchers from the Play Store may carry ads or trackers and ask for permissions 
 - [Kvaesitso](https://kvaesitso.mm20.de/) - Search-focused launcher that finds apps, contacts, files and more from one search bar. `Android` `GPL-3.0`
 - [Lawnchair](https://lawnchair.app/) - Launcher in the style of the Pixel Launcher, with more customization. `Android`
 - [Olauncher](https://github.com/tanujnotes/Olauncher) - Minimal text-only launcher with no ads, meant to cut your screen time. `Android` `GPL-3.0`
-- [OpenLauncher](https://github.com/OpenLauncherTeam/openlauncher) - Customizable launcher, no longer updated. `Android` `Apache-2.0` `💀 inactive`
 - [Pie Launcher](https://github.com/markusfisch/PieLauncher) - Launcher that opens apps from a pie menu instead of a grid of icons. `Android` `MIT`
 
 #### Android SMS
@@ -1467,6 +1430,8 @@ Smart speakers keep a microphone on in your home and send recordings to their ma
 Many developer tools phone home with usage data and sometimes snippets of your code. These run locally and keep your work on your machine.
 
 - [Beekeeper Studio](https://www.beekeeperstudio.io) - Desktop SQL editor and database manager for Postgres, MySQL, SQLite and many other databases. `Linux` `macOS` `Windows`
+- [CrowdSec](https://www.crowdsec.net/) - Collaborative intrusion prevention for servers, like fail2ban with crowd-sourced blocklists. `MIT` `⚠️ website trackers`
+- [Hetty](https://hetty.xyz/) - HTTP toolkit for security research, as an alternative to Burp Suite Pro. `MIT`
 
 #### IDEs
 
@@ -1537,7 +1502,6 @@ Cloud AI services see everything you type, tie it to your account and payment de
 - [Aider](https://aider.chat) - Terminal pair programmer that edits code in your local git repository with the model you choose. `CLI` `Apache-2.0`
 - [Cline](https://cline.bot/) - Coding agent for your editor that works with your own API keys or local models. `Apache-2.0` `⚠️ telemetry opt-out`
   - [Zoo Code](https://www.zoocode.dev/) - Community continuation of Roo Code, itself a Cline fork, after the Roo team archived it. `fork` `Apache-2.0`
-- [Continue](https://github.com/continuedev/continue) - Coding assistant for editors and the terminal that works with any model, no longer maintained since Cursor acquired it. `Apache-2.0` `💀 inactive`
 - [OpenCode](https://opencode.ai/) - Coding agent that connects to local models or any of more than 75 model providers. `MIT`
 - [Tabby](https://www.tabbyml.com/) - Self-hosted code completion server that runs on your own hardware, an alternative to GitHub Copilot. `self-host` `⚠️ telemetry opt-out` `⚠️ website trackers`
 
@@ -1657,8 +1621,6 @@ Your transactions reveal where you live, shop and travel. These tools keep your 
 
 #### Others
 
-- [Debitum](https://github.com/Marmo/debitum) - Keeps track of IOUs, whether money or lent items. `Android` `GPL-3.0` `💀 inactive`
-
 #### Portfolio trackers
 
 - [Ghostfolio](https://ghostfol.io) - Wealth management app for tracking stocks, ETFs and crypto, which you can self-host. `AGPL-3.0`
@@ -1687,7 +1649,7 @@ Mainstream map apps log where you go and what you search for. Apps built on Open
 - [CoMaps](https://www.comaps.app/) - Community-led fork of Organic Maps with offline maps and navigation. `Android` `iOS` `fork`
 - [OpenStreetMap (OSM)](https://www.openstreetmap.org/) - Collaborative world map built by volunteers, and the open data behind most apps in this section. `GPL-2.0`
   - [OsmAnd](https://osmand.net/) - Offline maps and navigation built on OpenStreetMap, with a large set of features. `Android` `iOS`
-- [Organic Maps](https://organicmaps.app/) - Offline maps and navigation built on OpenStreetMap, popular with hikers and cyclists. `Android` `iOS` `⚠️ website trackers`
+- [Organic Maps](https://organicmaps.app/) - Offline maps and navigation built on OpenStreetMap, popular with hikers and cyclists. `Android` `iOS`
 - [Pure Maps](https://rinigus.github.io/pure-maps/) - Maps and navigation for Linux phones, Sailfish OS and desktop, fully offline with OSM Scout Server. `Linux` `GPL-3.0`
 
 ### Fitness and Health
@@ -1723,7 +1685,6 @@ Cycle data is intimate. Rather than mainstream trackers like Clue or Period Trac
 
 #### Medical health
 
-- [Fasten](https://github.com/fastenhealth/fasten-onprem) - Self-hosted personal and family medical record that pulls records from insurers, hospitals and clinics. `self-host` `GPL-3.0` `💀 inactive`
 - [MedTimer](https://github.com/Futsch1/medTimer) - Medication reminder that keeps all data on the device and has no internet permission. `Android` `MIT`
 
 ### Dating Apps
@@ -1767,13 +1728,6 @@ Your location history shows where you live, work and sleep. These tools record i
 - [Deskreen](https://deskreen.com/) - Turns any device with a web browser into a second screen for your computer over the local network. `Desktop` `AGPL-3.0` `⚠️ website trackers`
 - [JustDeleteMe](https://justdeleteme.xyz/) - Directory of direct links for deleting your accounts from web services, rated by difficulty; sister project [JustGetMyData](https://github.com/daviddavo/jgmd) covers getting your data out. `MIT`
 - [OpenTabletDriver](https://opentabletdriver.net/) - User-mode driver for drawing tablets that replaces vendor drivers, some of which [report every app you open](https://robertheaton.com/2020/02/05/wacom-drawing-tablets-track-name-of-every-application-you-open/). `Desktop` `LGPL-3.0`
-
-### Uncategorized
-
-- [CrowdSec](https://www.crowdsec.net/) - Collaborative intrusion prevention for servers, like fail2ban with crowd-sourced blocklists. `MIT` `⚠️ website trackers`
-- [Hetty](https://hetty.xyz/) - HTTP toolkit for security research, as an alternative to Burp Suite Pro. `MIT`
-- [Skymap](https://skymaponline.net/) - Online planetarium for exploring the night sky in your browser. `⚠️ website trackers`
-- [Visited](https://github.com/didvc/visited) - Collects your browsing history from several browsers into one local, searchable store. `CLI` `BSD-3-Clause`
 
 ## Privacy vs Security vs Anonymity
 

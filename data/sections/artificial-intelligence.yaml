@@ -100,13 +100,6 @@ subsections:
               tags:
                 - fork
               added: 2026-07-04
-        - name: Continue
-          url: https://github.com/continuedev/continue
-          repo: https://github.com/continuedev/continue
-          description: Coding assistant for editors and the terminal that works with any model, no longer maintained since Cursor acquired it.
-          license: Apache-2.0
-          status: inactive
-          added: 2024-02-10
         - name: OpenCode
           url: https://opencode.ai/
           repo: https://github.com/anomalyco/opencode

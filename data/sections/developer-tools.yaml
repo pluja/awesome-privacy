@@ -12,6 +12,20 @@ recommend:
         - macos
         - windows
       added: 2021-05-29
+    - name: CrowdSec
+      url: https://www.crowdsec.net/
+      repo: https://github.com/crowdsecurity/crowdsec
+      description: Collaborative intrusion prevention for servers, like fail2ban with crowd-sourced blocklists.
+      license: MIT
+      caveats:
+        - website-trackers
+      added: 2020-12-08
+    - name: Hetty
+      url: https://hetty.xyz/
+      repo: https://github.com/dstotijn/hetty
+      description: HTTP toolkit for security research, as an alternative to Burp Suite Pro.
+      license: MIT
+      added: 2020-12-08
 subsections:
   - title: IDEs
     avoid:

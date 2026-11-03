@@ -30,17 +30,6 @@ recommend:
         - windows
       license: GPL-2.0
       added: 2023-01-12
-    - name: Olive Video Editor
-      url: https://olivevideoeditor.org/
-      repo: https://github.com/olive-editor/olive
-      description: Non-linear video editor, still in alpha.
-      platforms:
-        - linux
-        - macos
-        - windows
-      license: GPL-3.0
-      status: inactive
-      added: 2022-01-24
     - name: OpenCut
       url: https://opencut.app/
       repo: https://github.com/OpenCut-app/OpenCut

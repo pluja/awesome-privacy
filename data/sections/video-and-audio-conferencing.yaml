@@ -45,13 +45,6 @@ recommend:
       tags:
         - p2p
       added: 2023-09-06
-    - name: Jam
-      url: https://github.com/jam-systems/jam
-      repo: https://github.com/jam-systems/jam
-      description: Self-hostable audio rooms for small conferences and communities, like Clubhouse.
-      license: AGPL-3.0
-      status: inactive
-      added: 2021-12-10
     - name: Jami
       url: https://jami.net/
       repo: https://git.jami.net/savoirfairelinux/jami-client-qt
@@ -85,15 +78,6 @@ recommend:
       tags:
         - self-host
       added: 2021-12-10
-    - name: PeerCalls
-      url: https://github.com/peer-calls/peer-calls
-      repo: https://github.com/peer-calls/peer-calls
-      description: Group peer-to-peer video calls in the browser, self-hostable.
-      license: Apache-2.0
-      status: inactive
-      tags:
-        - p2p
-      added: 2020-12-08
     - name: Nextcloud Talk
       url: https://nextcloud.com/talk/
       repo: https://github.com/nextcloud/spreed
@@ -135,13 +119,6 @@ subsections:
           repo: https://github.com/Legcord/Legcord
           description: Lightweight Discord client that blocks Discord's known trackers by default, formerly ArmCord.
           license: OSL-3.0
-        - name: Kernel
-          url: https://github.com/kernel-mod/electron
-          repo: https://github.com/kernel-mod/electron
-          description: Small Electron client mod; add the [Discord Utilities](https://github.com/discord-modifications/discord-utilities) package to block trackers.
-          license: MIT
-          status: inactive
-          added: 2022-04-15
         - name: Replugged
           url: https://replugged.dev/
           repo: https://github.com/replugged-org/replugged

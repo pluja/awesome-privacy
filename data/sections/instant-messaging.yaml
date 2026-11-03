@@ -56,10 +56,6 @@ subsections:
                 - android
               package_id: eu.siacs.conversations
               added: 2020-12-07
-            - name: AstraChat
-              url: https://astrachat.com/
-              description: Commercial XMPP messaging suite for organizations that run their own servers.
-              added: 2020-12-07
             - name: Dino
               url: https://dino.im/
               repo: https://github.com/dino/dino

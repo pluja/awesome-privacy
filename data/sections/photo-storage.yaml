@@ -37,8 +37,6 @@ subsections:
           license: AGPL-3.0
           tags:
             - self-host
-          caveats:
-            - website-trackers
           package_id: app.alextran.immich
           added: 2025-06-17
         - name: LibrePhotos
@@ -61,12 +59,6 @@ subsections:
           url: https://www.photoprism.app/
           repo: https://github.com/photoprism/photoprism
           description: Self-hosted photo library with automatic tagging and face recognition that runs on your own server.
-          tags:
-            - self-host
-          added: 2020-12-07
-        - name: PhotoStructure
-          url: https://photostructure.com/
-          description: Self-hosted library that organizes a lifetime of photos and videos, though the app is closed source.
           tags:
             - self-host
           added: 2020-12-07

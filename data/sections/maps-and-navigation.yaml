@@ -37,8 +37,6 @@ recommend:
       platforms:
         - android
         - ios
-      caveats:
-        - website-trackers
       tags:
         - offline
       package_id: app.organicmaps

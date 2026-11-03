@@ -9,6 +9,7 @@ const PLATFORM_LABEL: Record<string, string> = {
 };
 const TAG_LABEL: Record<string, string> = { "self-host": "self-host", activitypub: "ActivityPub", fork: "fork" };
 const CAVEAT_LABEL: Record<string, string> = {
+  "closed-source": "closed source",
   "source-available": "source-available", "website-trackers": "website trackers",
   "telemetry-opt-out": "telemetry opt-out", "closed-server": "closed server", "account-required": "account required",
 };

@@ -20,15 +20,6 @@ recommend:
       added: 2021-02-10
       tags:
         - p2p
-    - name: Blindsend
-      url: https://github.com/blindnet-io/blindsend
-      repo: https://github.com/blindnet-io/blindsend
-      description: End-to-end encrypted file exchange through a web link.
-      license: MIT
-      status: inactive
-      added: 2022-05-14
-      tags:
-        - e2ee
     - name: Croc
       url: https://github.com/schollz/croc
       repo: https://github.com/schollz/croc
@@ -39,17 +30,6 @@ recommend:
       added: 2020-12-09
       tags:
         - e2ee
-    - name: Dat-cp
-      url: https://github.com/tom-james-watson/dat-cp
-      repo: https://github.com/tom-james-watson/dat-cp
-      description: Copies files between hosts over the peer-to-peer Dat network.
-      license: MIT
-      platforms:
-        - cli
-      status: inactive
-      added: 2020-12-09
-      tags:
-        - p2p
     - name: Destiny
       url: https://leastauthority.com/community-matters/destiny/
       repo: https://github.com/LeastAuthority/destiny
@@ -134,14 +114,6 @@ recommend:
         - e2ee
         - self-host
         - fork
-    - name: Sharik
-      url: https://github.com/marchellodev/sharik
-      repo: https://github.com/marchellodev/sharik
-      description: Shares files between devices over Wi-Fi or a hotspot, with no internet connection needed.
-      license: MIT
-      status: inactive
-      package_id: dev.marchello.sharik
-      added: 2021-10-22
     - name: Snapdrop
       url: https://snapdrop.me
       repo: https://github.com/RobinLinus/snapdrop

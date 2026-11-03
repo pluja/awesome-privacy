@@ -135,12 +135,3 @@ subsections:
             - no-account
           package_id: com.futsch1.medtimer
           added: 2026-11-02
-        - name: Fasten
-          url: https://github.com/fastenhealth/fasten-onprem
-          repo: https://github.com/fastenhealth/fasten-onprem
-          description: Self-hosted personal and family medical record that pulls records from insurers, hospitals and clinics.
-          license: GPL-3.0
-          status: inactive
-          tags:
-            - self-host
-          added: 2023-05-16

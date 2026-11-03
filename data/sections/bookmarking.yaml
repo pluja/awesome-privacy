@@ -4,7 +4,7 @@ intro: Bookmarks and read-later lists reveal a lot about what you read and care 
 avoid:
   items:
     - name: Evernote Web Clipper
-      reason: "a [poorly rated privacy policy](https://tosdr.org/en/service/207), and Evernote's apps carry [many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.evernote/latest/) and ask for too many permissions."
+      reason: a [poorly rated privacy policy](https://tosdr.org/en/service/207), and Evernote's apps carry [many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.evernote/latest/) and ask for too many permissions.
 recommend:
   entries:
     - name: 42links
@@ -34,8 +34,6 @@ recommend:
       repo: https://github.com/karakeep-app/karakeep
       description: Self-hosted app for saving links, notes and images, with full-text search and optional AI tagging, formerly Hoarder.
       license: AGPL-3.0
-      caveats:
-        - website-trackers
       added: 2025-11-05
       tags:
         - self-host
