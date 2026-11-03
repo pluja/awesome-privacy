@@ -41,7 +41,6 @@
 - [Captchas](#captchas)
 - [Calendar](#calendar)
 - [Commenting Engines (disqus)](#commenting-engines)
-- [Cloaking](#cloaking)
 - [Cloud Storage](#cloud-storage)
 - [Creator Tools](#creator-tools)
 - [Databases](#databases)
@@ -137,7 +136,6 @@
 ✅ Instead use
 - [🤖](#icons) [Aegis](https://getaegis.app/) - A free, secure and open source app for Android to manage your 2-step verification tokens. Supports variety of imports from other apps (Google Authenticator, Authy etc.), vault encryption and exporting keys (plaintext or encrypted).
 - [ente Auth](https://ente.com/auth/) - A free, cross platform, end-to-end encrypted and open source app for managing your 2-step verification tokens. From the makers of [ente Photos](https://ente.com), and uses the same battle tested infrastructure. Needs an ente.io account.
-- [Owky](https://github.com/charlietango/owky) [💀](#icons) - Free and Open Source Two-Factor Authenticator for IOS users.
 - [🤖](#icons) [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator.
 - [🤖](#icons) [Stratum](https://github.com/stratumauth/app) - Two-Factor Authentication (2FA) client for Android + Wear OS.
 - [Proton Authenticator](https://proton.me/authenticator) - Proton Authenticator is an [open source](https://proton.me/community/open-source#apps) and [end-to-end encrypted](https://proton.me/blog/password-encryption) 2FA app that’s simple and free to use.
@@ -395,17 +393,6 @@ Google captchas use cookies to track users and rank their IPs.
 - [Isso](https://github.com/isso-comments/isso) - A lightweight, self hosted, commenting server written in Python and JavaScript. It aims to be a drop-in replacement for Disqus.
 - [Remark42](https://remark42.com) - Self-hosted, lightweight, and simple (yet functional) comment engine, which doesn't spy on users.
 - [Giscus](https://giscus.app) - Commenting system that stores discussions in GitHub Discussions, with no database, ads, or tracking. Open source, MIT licensed.
-
-[Back to top 🔝](#contents)
-
-## Cloaking
-### Images
-- [Fawkes](https://github.com/Shawn-Shan/fawkes) [💀](#icons) - privacy preserving tool against facial recognition systems.
-  - [CloakMe](https://github.com/pluja/CloakMe) [💀](#icons) - Web interface for Fawkes algorithm.
-- [ImageScrubber](https://github.com/everestpipkin/image-scrubber) [💀](#icons) - A friendly browser-based tool for anonymizing photographs taken at protests ([hosted version provided by everestpipkin](https://everestpipkin.github.io/image-scrubber/)).
-
-### Text
-- [Stegcloak](https://stegcloak.surge.sh/) [💀](#icons) - Hide secrets with invisible characters in plain text securely using passwords ([repo](https://github.com/kurolabs/stegcloak)).
 
 [Back to top 🔝](#contents)
 
@@ -1128,13 +1115,10 @@ GNU/Linux is a family of free (as in freedom and as in free beer) and open sourc
 - [AliasVault](https://www.aliasvault.com) - An open source E2EE password & alias manager with a built-in email alias server
 - [Bitwarden](https://bitwarden.com) - An open source cloud based password manager.
   - [vaultwarden](https://github.com/dani-garcia/vaultwarden/) - Unofficial Bitwarden compatible self-hosted server, formerly known as bitwarden_rs.
-- [CarryPass](https://carrypass.net) - Zero-knowledge PWA password manager with deterministic generation, encrypted vaults, and team collaboration. ([Source](https://github.com/racz-zoltan/racz-zoltan.github.io)) `MIT`
 - [KeepassXC](https://keepassxc.org/) - Securely store passwords using industry standard encryption, no sync just storage.
   - [KeepassDX](https://www.keepassdx.com/) for Android.
   - [Strongbox](https://strongboxsafe.com/) for iOS.
-  - [KeeWeb](https://keeweb.info/) for Web and other platforms.
 - [LessPass](https://www.lesspass.com) - Stateless password manager. Remember one master password to access your passwords. No sync needed.
-- [Padloc](https://padloc.app/) - The last password manager you'll ever want to use.
 - [Passbolt](https://www.passbolt.com) - An open source password manager designed for team collaboration.
 - [Passky](https://passky.org) - Simple, modern, lightweight, open-source and secure password manager.
 - [Proton Pass](https://proton.me/pass) - Open-source and encrypted password manager by Proton.
@@ -1306,7 +1290,6 @@ This section is dedicated to some tools that may help users analyze the privacy 
 
 ### Desktop
 
-- [Whoami Project](https://github.com/owerdogan/whoami-project) [💀](#icons) - Whoami provides enhanced privacy, anonymity for Debian and Arch based linux distributions.
 - [BusKill](https://www.buskill.in/) - BusKill is a Dead Man Switch triggered when a magnetic breakaway is tripped, severing a USB connection.
 - [OpenSnitch](https://github.com/evilsocket/opensnitch) - Interactive application firewall for GNU/Linux that helps users detect, monitor, and block unwanted outbound connections.
 - [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy) - Local DNS proxy supporting DNSCrypt, DoH and Anonymized DNS relays, so resolvers cannot link queries to your IP. ISC licensed.
