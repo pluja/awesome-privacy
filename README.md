@@ -275,6 +275,7 @@ When using cloud-based AI services, the data you input is often collected and st
 - [Tinfoil](https://tinfoil.sh/) - Verifiably private AI Chat and OpenAI-compatible inference in the cloud. Uses NVIDIA confidential computing and open source code pinned to a transparency log for end-to-end verifiability.
 - [Open WebUI](https://openwebui.com) - Self-hosted web interface for Ollama and other local models that gives you a private ChatGPT-style chat. BSD-3 licensed.
 - [LibreChat](https://librechat.ai) - Self-hosted chat interface that connects many AI models behind one private UI you control. Open source, MIT licensed.
+- [ZTDS](https://github.com/moxno/ztds.ai) - Local CLI and open protocol (RFC v1.0) that sanitizes PII and secrets in memory before prompts reach cloud LLMs, replacing server-side DLP gateways. Apache-2.0 licensed.
 
 #### AI Coding
 
