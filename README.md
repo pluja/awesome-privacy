@@ -140,6 +140,7 @@
 - [🤖](#icons) [Stratum](https://github.com/stratumauth/app) - Two-Factor Authentication (2FA) client for Android + Wear OS.
 - [Proton Authenticator](https://proton.me/authenticator) - Proton Authenticator is an [open source](https://proton.me/community/open-source#apps) and [end-to-end encrypted](https://proton.me/blog/password-encryption) 2FA app that’s simple and free to use.
 - [2FAS Auth](https://2fas.com/auth) - Open source TOTP authenticator for iOS and Android with a companion browser extension and no account required. GPL-3.0 licensed.
+- [RYZ Authenticator](https://github.com/riyazalsodie/RYZ-Authenticator) - Free, open-source, cross-platform 2FA/TOTP/HOTP authenticator (Windows, macOS, Linux, Android, iOS) built with Rust and Tauri. Features local AES-256-GCM + PBKDF2-SHA256 vault encryption, zero-knowledge self-hosted cloud sync, and easy import/export (Google Authenticator QR batch migration, encrypted `.ryz`, JSON, and URI lists). MIT licensed.
 
 [Back to top 🔝](#contents)
 
