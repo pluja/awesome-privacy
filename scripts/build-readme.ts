@@ -95,7 +95,13 @@ export function buildReadme(): string {
   });
   const legend = [
     "## Legend", "",
-    "Badges after an entry: platforms, license and features. `💀 inactive` means development has stalled; it still works and has no maintained alternative, so check before relying on it.",
+    "Badges after an entry show its platforms, license and features. Some point out a trade-off:", "",
+    "- `💀 inactive`: development has stalled. It still works and has no maintained alternative, so check before relying on it.",
+    "- `⚠️ closed source`: the code isn't public. Listed only because of a long, trusted record.",
+    "- `⚠️ source-available`: the code is public, but the license isn't an open source one.",
+    "- `⚠️ website trackers`: the project's website loads third-party trackers. That says nothing about the app itself.",
+    "- `⚠️ telemetry opt-out`: the app sends usage data by default, but a setting turns it off.",
+    "- `⚠️ closed server` and `⚠️ account required`: the server code isn't public, or an account is needed to use it.",
     "",
   ];
   return [meta.header, "", "## Contents", "", ...toc, "", ...body, ...appendix, ...legend].join("\n").replace(/\n{3,}/g, "\n\n").trimEnd() + "\n";

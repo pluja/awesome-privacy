@@ -1,24 +1,21 @@
 # Contributing Guide
 
-## Requirements for a service to be listed:
-
-- [x] Clear privacy-oriented / own your data policy.
-- [x] No user-tracking on project website. Only tracking listed under [Analytics](https://github.com/pluja/awesome-privacy#analytics) allowed.
-- [x] Open source code is very valuable since it allows you to trust in the project (you can review the code) and not just trust the words. But some service without Open Source code may be added if there is special trust from community and has a good history privacy-wise.
-
-> Every project will need investigation. And of course all listings / additions / PRs and issues are open to discussion as I am human and I may make mistakes.
-
 ## What makes a good entry
 
-This list recommends tools people can rely on. Most new suggestions are declined, and that is fine. A project is a good fit when:
+This list is for people looking for trustworthy alternatives to services that don't respect their privacy. It is not a place to promote projects: things are added once they have shown they last, not to help them get noticed. Most new suggestions are declined, and that is fine. A project is a good fit when:
 
-- **It is open source**, with the code public and linked from the entry. For apps and tools this is required: without the code, nobody can check the privacy claims. A *service* whose servers you cannot inspect anyway (a mail provider, a VPN) can qualify on a long, public privacy record, and its client apps should still be open source where it has them.
-- **It is mature and maintained**: at least 6 months old, a stable release rather than a beta or a concept, and updated within the last year.
-- **People actually use it**: a real user base, packaged releases (F-Droid, Flathub, distro repositories), or a community around it. A fresh repository with a handful of stars is not there yet; come back when it is.
-- **It is private by default.** No trackers on the website (analytics tools from the [Analytics](https://github.com/pluja/awesome-privacy#analytics) section are fine), no telemetry or cloud features switched on without asking, no account where none is needed, and data kept local or end-to-end encrypted where it matters. You stay in control of your data and can export or delete it.
+- **Its code is public**, linked from the entry, and you can build it yourself. An open source license is preferred; source-available code is accepted and marked `source-available`. A *service* whose servers you cannot inspect anyway (a mail provider, a VPN) can qualify on a long, public privacy record, and its client apps should still be open where it has them. Closed-source apps are a rare exception for long-trusted projects, marked `closed source`.
+- **It is mature and maintained**: at least 6 months of steady work, usable today rather than a concept or a waitlist, and updated within the last year. A beta or 0.x version is fine if people already rely on it. Age counts from when the current code started, not from when the repository was created; if the history looks short for a good reason (it moved from another host, or the code was opened later), say so in the pull request.
+- **People actually use it**: a real user base, packaged releases (F-Droid, Flathub, distro repositories), or a community around it. A fresh repository with a handful of stars is not there yet; come back when it is. A single developer is fine, and building a community around the project helps.
+- **It is private by default.** No account where none is needed, data kept local or end-to-end encrypted where it matters, and you can export or delete it. Telemetry or cloud features that you cannot turn off rule a project out. If they are on by default but a setting turns them off easily, the entry is marked `telemetry opt-out`.
 - **It is secure.** No open critical vulnerabilities, and past ones were fixed promptly and in the open.
+- **Security tools need a longer track record.** If people trust it with secrets or money (encryption, password managers, 2FA, secret sharing, wallets), six months isn't enough: look for about a year or more of steady maintenance, with issues and fixes handled in the open. A project that invents its own encryption or protocol instead of using well-known ones should have an independent audit.
 - **It is transparent.** It is clear who makes it and how it is funded.
 - **It replaces something.** Say what mainstream tool it is an alternative to.
+
+Trackers on a project's *website* don't rule it out, but the entry is marked `website trackers`. Cookieless analytics don't count: the tools in the [Analytics](https://github.com/pluja/awesome-privacy#analytics) section, Fathom, Simple Analytics and Cloudflare Web Analytics are fine.
+
+Every listing is open to discussion. If something here looks wrong, open an issue.
 
 If you build or work on the project, say so in the pull request. Self-submissions are welcome when they meet the bar, but undisclosed ones are closed. Low-effort or generated submissions (a one-line pitch for a brand-new tool, a site listing "50+ free tools", a project with no source code) are closed without review.
 
