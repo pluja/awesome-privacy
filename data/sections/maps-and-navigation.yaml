@@ -1,8 +1,10 @@
 title: Maps and Navigation
 slug: maps-and-navigation
+intro: Mainstream map apps log where you go and what you search for. Apps built on OpenStreetMap data can work offline, so your location stays on your device.
 avoid:
   items:
     - name: Google Maps
+      reason: saves your map searches to your Google account through Web & App Activity.
     - name: Apple Maps
     - name: Yandex Maps
     - name: Bing Maps
@@ -12,29 +14,51 @@ avoid:
     - name: Petal Maps
 recommend:
   entries:
-    - name: Open Street Map (OSM)
+    - name: OpenStreetMap (OSM)
       url: https://www.openstreetmap.org/
-      description: OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.
+      repo: https://github.com/openstreetmap/openstreetmap-website
+      description: Collaborative world map built by volunteers, and the open data behind most apps in this section.
+      license: GPL-2.0
       children:
-        - name: OSMAnd
+        - name: OsmAnd
           url: https://osmand.net/
-          description: Android/iOS Navigation app using OSM. It is a feature-rich app with all you expect.
+          repo: https://github.com/osmandapp/OsmAnd
+          description: Offline maps and navigation built on OpenStreetMap, with a large set of features.
+          platforms:
+            - android
+            - ios
           package_id: net.osmand.plus
           added: 2020-12-08
       added: 2020-12-08
     - name: Organic Maps
       url: https://organicmaps.app/
-      description: Great offline maps for hikers and cyclists.
-      package_id: app.organicmaps
-      added: 2021-06-01
+      repo: https://github.com/organicmaps/organicmaps
+      description: Offline maps and navigation built on OpenStreetMap, popular with hikers and cyclists.
+      platforms:
+        - android
+        - ios
+      caveats:
+        - website-trackers
       tags:
         - offline
+      package_id: app.organicmaps
+      added: 2021-06-01
     - name: CoMaps
       url: https://www.comaps.app/
-      description: A community-led free & open source maps app based on OSM
+      repo: https://codeberg.org/comaps/comaps
+      description: Community-led fork of Organic Maps with offline maps and navigation.
+      platforms:
+        - android
+        - ios
+      tags:
+        - fork
+        - offline
       package_id: app.comaps.fdroid
       added: 2025-07-05
     - name: Pure Maps
-      url: https://github.com/rinigus/pure-maps
-      description: Map and navigation app for Linux phones, Sailfish OS and desktop that can work fully offline with OSM Scout Server. GPL-3.0 licensed.
+      url: https://rinigus.github.io/pure-maps/
       repo: https://github.com/rinigus/pure-maps
+      description: Maps and navigation for Linux phones, Sailfish OS and desktop, fully offline with OSM Scout Server.
+      platforms:
+        - linux
+      license: GPL-3.0

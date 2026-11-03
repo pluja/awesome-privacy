@@ -1,53 +1,86 @@
 title: Office
 slug: office
+intro: Cloud office suites keep your documents on the provider's servers in a form it can read. Prefer an offline suite, or a collaborative one that encrypts documents end to end or runs on your own server.
 avoid:
   items:
     - name: Microsoft Office
+      reason: closed source, and documents saved to OneDrive are not end-to-end encrypted.
       tosdr: en_244
     - name: Google Docs
+      reason: documents are stored on Google's servers without end-to-end encryption.
       tosdr: en_217
 recommend:
   entries:
     - name: LibreOffice
       url: https://www.libreoffice.org/
-      description: Free and open source offline office.
+      repo: https://github.com/LibreOffice/core
+      description: Full desktop office suite that works entirely offline and opens Microsoft Office formats.
+      license: GPL-3.0
+      platforms:
+        - desktop
       added: 2020-12-13
       tags:
         - offline
     - name: OnlyOffice
       url: https://www.onlyoffice.com/
-      description: Free and open source online office for collaboration.
+      repo: https://github.com/ONLYOFFICE/DocumentServer
+      description: Office suite built around Microsoft formats, with a document server you can host for real-time collaboration.
+      license: AGPL-3.0
+      caveats:
+        - website-trackers
       added: 2020-12-13
-    - name: Cryptpad
-      url: https://cryptpad.fr/
-      description: Collaboration suite, encrypted and open-source.
+      tags:
+        - self-host
+    - name: CryptPad
+      url: https://cryptpad.org/
+      repo: https://github.com/cryptpad/cryptpad
+      description: Collaborative documents, spreadsheets and more, end-to-end encrypted so the server can't read them.
+      license: AGPL-3.0
       added: 2021-02-03
+      tags:
+        - e2ee
+        - self-host
     - name: Etherpad
       url: https://etherpad.org/
-      description: Highly customizable open source online editor providing collaborative editing in really real-time.
+      repo: https://github.com/ether/etherpad
+      description: Self-hosted editor for writing documents together in real time.
+      license: Apache-2.0
       added: 2021-06-03
+      tags:
+        - self-host
     - name: Fileverse
       url: https://fileverse.io
-      description: Fileverse is building healthier alternatives with self-sovereignty, privacy by design, and standards compliance at its core.
+      description: End-to-end encrypted workspace and collaboration apps, as an alternative to Google Workspace.
+      added: 2025-07-21
+      tags:
+        - e2ee
       children:
-        - name: Ddocs
+        - name: dDocs
           url: https://ddocs.new
-          description: "privacy-enhancing alternative to google docs: onchain, end-to-end encrypted, and decentralized."
-          children:
-            - name: dSheets
-              url: https://sheets.fileverse.io
-              description: decentralized alternative to Excel and Google Sheets.
-              added: 2025-07-21
+          repo: https://github.com/fileverse/fileverse-ddocs
+          description: End-to-end encrypted, decentralized alternative to Google Docs.
+          license: AGPL-3.0
           added: 2025-07-21
           tags:
             - e2ee
-      added: 2025-07-21
+          children:
+            - name: dSheets
+              url: https://sheets.fileverse.io
+              repo: https://github.com/fileverse/fileverse-dsheets
+              description: Decentralized alternative to Excel and Google Sheets.
+              license: AGPL-3.0
+              added: 2025-07-21
     - name: Grist
       url: https://www.getgrist.com
-      description: Self-hostable spreadsheet and database hybrid for organizing data, as an open source Airtable alternative. Apache-2.0 licensed.
+      repo: https://github.com/gristlabs/grist-core
+      description: Spreadsheet and database hybrid you can host yourself, as an Airtable alternative.
+      license: Apache-2.0
+      caveats:
+        - website-trackers
       added: 2026-07-04
       tags:
         - self-host
     - name: Collabora Office
-      url: https://www.collaboraoffice.com/
-      description: LibreOffice-based office suite with apps for Android, iOS and desktop. Open source, MPL-2.0 licensed.
+      url: https://www.collaboraonline.com/collabora-office/
+      repo: https://github.com/CollaboraOnline/online
+      description: LibreOffice-based office suite for desktop and mobile, from the team behind Collabora Online.

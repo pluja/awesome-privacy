@@ -1,46 +1,48 @@
 title: Social Networks and Platforms
 slug: social-networks-and-platforms
+intro: The big platforms profile you from everything you read, watch and like, and their feeds are built to keep you there. Federated networks let you choose your server and still reach everyone, and alternative frontends let you read the big sites without an account or their tracking.
 callouts:
   - type: note
     text: |-
       **The fediverse**
 
-      The fediverse is a "**fed**erated" "un**iverse**" of social network platforms that are able to talk to one another through a standard and open protocol. This means that you can consume content on any network from any of these networks. You are not locked to a single provider, you are free to choose. Please [watch this video](https://framatube.org/w/9dRFC6Ya11NCVeYKn8ZhiD?start=8s) by FramaSoft that illustrates the concept very good.
+      The fediverse is a network of independent servers and apps that talk to each other over the open ActivityPub protocol. You can follow people on any of them from whichever one you join, and move elsewhere if you're unhappy. [This video by Framasoft](https://framatube.org/w/9dRFC6Ya11NCVeYKn8ZhiD?start=8s) explains the idea.
 
-      Ideally, we should all move to the fediverse and abandon the centralized and monopolized social networks that are now the most popular (Twitter, Reddit, Instagram...).
-
-      All the apps compatible with the Fediverse (ActivityPub) are marked with a [🧩](#icons)
+      Apps that speak ActivityPub carry the `ActivityPub` badge.
   - type: note
     text: |-
       **Alternative frontends and clients**
 
-      Alternative frontends are good to protect your individual privacy. You can still consume the contents of privative and privacy-harmful services with protection over your privacy and some anonymity. Even using most these alternative frontends, still, the privative services will receive requests about the content you are consuming (even not knowing it is you). This sitll harms the collective privacy and adds data to their algorithms in some ways. Only the alternative frontends (or clients) that act as a proxy will hide your real IP from the content provider.
+      Frontends let you read these services without an account, ads or their scripts. The service still sees requests for the content you view, and only frontends that route everything through their own server hide your IP address from it. Public instances get blocked often, so expect to switch instances or self-host.
 
-      You can use these browser extensions and apps to automatically redirect any links to privacy-respecting alternative frontends:
-      - [LibRedirect](https://github.com/libredirect/browser_extension#get) - A web extension that redirects YouTube, Twitter... requests to alternative privacy friendly frontends and backends.
-      - [UntrackMe](https://www.f-droid.org/en/packages/app.fedilab.nitterizeme/) - Transform Youtube, Twitter & other links to their free and open source alternatives.
+      These tools redirect links to alternative frontends automatically:
+      - [LibRedirect](https://github.com/libredirect/browser_extension#get): browser extension that sends YouTube, Reddit, X and other links to alternative frontends.
+      - [UntrackMe](https://www.f-droid.org/en/packages/app.fedilab.nitterizeme/): Android app that rewrites YouTube, Twitter and other links to their open source alternatives.
 subsections:
   - title: Blogging platforms (Medium)
     avoid:
       items:
         - name: Medium
-          reason: website has Google trackers and ads.
+          reason: the site carries Google trackers and ads.
         - name: Blogger
-          reason: Google owned, has google trackers and ads.
+          reason: owned by Google, with Google trackers and ads.
     recommend:
       entries:
         - name: Plume
-          url: https://github.com/Plume-org/Plume
+          url: https://joinplu.me/
+          repo: https://git.joinplu.me/plume/plume
+          description: Federated blogging engine where readers can follow and comment from any ActivityPub account.
           tags:
             - activitypub
-          description: Federated blogging application, thanks to ActivityPub.
-          repo: https://github.com/Plume-org/Plume
+          status: inactive
           added: 2022-10-04
         - name: WriteFreely
           url: https://writefreely.org/
+          repo: https://github.com/writefreely/writefreely
+          description: Minimal, distraction-free blogging platform that can federate posts over ActivityPub.
+          license: AGPL-3.0
           tags:
             - activitypub
-          description: An open source platform for building a writing space on the web.
           added: 2022-10-04
     subsections:
       - title: Alternative Medium frontends
@@ -48,272 +50,327 @@ subsections:
           entries:
             - name: Scribe
               url: https://git.sr.ht/~edwardloveall/scribe/
-              description: Medium alternative forntend inspired by Invidious.
               repo: https://git.sr.ht/~edwardloveall/scribe/
+              description: Medium frontend that serves articles without Medium's scripts or paywall prompts.
+              status: inactive
               added: 2022-03-20
   - title: Instagram
-    intro: "[![](https://shields.tosdr.org/en_219.svg)](https://tosdr.org/en/service/219)"
     avoid:
-      items: []
-      intro: Don't use Instagram (or at least the official client). Instagram is a very privacy-invasive app with biased results and feeds based on user profiles, it is also used as a manipulation tool and has a lot of censorship going against free speech. Lastly, it has an addictive and toxic UI design.
-    subsections:
-      - title: Alternatives to Instagram
-        recommend:
-          entries:
-            - name: Pixelfed
-              url: https://pixelfed.org/
-              tags:
-                - activitypub
-              description: Decentralized, federated and Open Source alternative to Instagram with posts, videos, stories, tags, etc.
-              added: 2020-12-07
-  - title: Quora
-    avoid:
-      items: []
-      intro: Quora's website has ads and trackers that are used to get your data which is then sold/shared to third parties. Their [privacy policy](https://tosdr.org/en/service/314) is bad.
-    subsections:
-      - title: Quora alternative frontends (web-based)
-        recommend:
-          entries:
-            - name: Quetre
-              url: https://github.com/zyachel/quetre
-              description: Quetre is an alternative front-end to Quora. It enables you to see answers without ads, trackers, and other such bloat.
-              repo: https://github.com/zyachel/quetre
-              added: 2022-10-02
-  - title: YouTube
-    intro: "[![](https://shields.tosdr.org/en_274.svg)](https://tosdr.org/en/service/274)"
-    avoid:
-      items: []
-      intro: "Don't use YouTube (or at least the official client). YouTube is very privacy invasive, it generates a very accurate profile based on your interests. Also it is a [radicalization tool](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization) which shows [biased content to users](https://arxiv.org/pdf/1908.08313.pdf) in order to get more engagement and to get them to watch more and more content creating an [addiction](https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883). It never shows you [alternative opinions](https://arxiv.org/pdf/1908.08313.pdf) to your ideology/bias. YouTube censors a lot. YouTube collects a LOT of your data: interests, free time, ideology, likes, dislikes, music taste, etc."
+      items:
+        - name: Instagram
+          reason: owned by Meta, which builds an ad profile from what you view, like and follow, and the feed is designed to keep you scrolling.
+          tosdr: en_219
     recommend:
       entries:
-        - name: Peertube
-          url: https://joinpeertube.org/en/
+        - name: Pixelfed
+          url: https://pixelfed.org/
+          repo: https://github.com/pixelfed/pixelfed
+          description: Federated photo sharing with posts, stories and a chronological feed, without ads.
+          license: AGPL-3.0
           tags:
             - activitypub
-          description: A free, open and decentralized alternative to video platforms.
           added: 2020-12-07
-        - name: Odysee
-          url: https://odysee.com/
-          description: Odysee is a video platform backed by the creators of lbry and uses the lbry blockchain protocol.
-          package_id: com.odysee.floss
-          added: 2020-12-09
+  - title: Quora
+    avoid:
+      items:
+        - name: Quora
+          reason: the site is full of ads and third-party trackers, and hides answers until you sign in.
+          tosdr: en_314
+    recommend:
+      entries:
+        - name: Quetre
+          url: https://github.com/zyachel/quetre
+          repo: https://github.com/zyachel/quetre
+          description: Quora frontend that shows answers without an account, ads or trackers.
+          license: AGPL-3.0
+          status: inactive
+          added: 2022-10-02
+  - title: YouTube
+    avoid:
+      items:
+        - name: YouTube
+          reason: Google builds a detailed profile from everything you watch, and the recommendations have been [studied](https://arxiv.org/pdf/1908.08313.pdf) for [pushing viewers toward more extreme content](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization).
+          tosdr: en_274
+    recommend:
+      entries:
         - name: DTube
           url: https://github.com/dtube/dtube
-          description: A full-featured video sharing website, decentralized.
           repo: https://github.com/dtube/dtube
+          description: Decentralized video sharing site; the open source codebase is deprecated and the new d.tube is closed source.
+          license: GPL-3.0
+          status: inactive
           added: 2020-12-08
+        - name: Odysee
+          url: https://odysee.com/
+          repo: https://github.com/OdyseeTeam/odysee-frontend
+          description: Video platform built on the LBRY protocol.
+          license: MIT
+          caveats:
+            - website-trackers
+          package_id: com.odysee.floss
+          added: 2020-12-09
+        - name: PeerTube
+          url: https://joinpeertube.org/en/
+          repo: https://github.com/Chocobozzz/PeerTube
+          description: Federated video hosting where anyone can run an instance and follow channels across others.
+          license: AGPL-3.0
+          tags:
+            - activitypub
+          added: 2020-12-07
     subsections:
       - title: YouTube alternative frontends (web-based)
         recommend:
           entries:
             - name: Invidious
-              url: https://github.com/iv-org/invidious
-              description: Alternative and privacy respecting YouTube frontend.
+              url: https://invidious.io/
               repo: https://github.com/iv-org/invidious
+              description: YouTube frontend with no ads or Google scripts and subscriptions without an account; see the [public instances](https://docs.invidious.io/instances/).
+              license: AGPL-3.0
               added: 2020-12-07
             - name: Piped
               url: https://github.com/TeamPiped/Piped
-              description: An alternative privacy-friendly YouTube frontend which is efficient by design.
               repo: https://github.com/TeamPiped/Piped
+              description: YouTube frontend that never connects your browser to Google, with feeds, playlists and SponsorBlock.
+              license: AGPL-3.0
               added: 2020-12-07
             - name: ViewTube
               url: https://github.com/ViewTube/viewtube
-              description: ViewTube is an alternative privacy-friendly YouTube frontend written in Vue.js
               repo: https://github.com/ViewTube/viewtube
+              description: YouTube frontend without ads or tracking, with its own accounts, subscriptions and SponsorBlock.
+              license: AGPL-3.0
               added: 2021-10-29
-            - name: Youtube-Local
+            - name: youtube-local
               url: https://github.com/user234683/youtube-local
-              description: browser-based client for watching Youtube anonymously and with greater page performance.
               repo: https://github.com/user234683/youtube-local
+              description: YouTube client that runs on your computer and opens in the browser, with local subscriptions and optional routing through Tor.
+              platforms:
+                - desktop
+              license: AGPL-3.0
+              tags:
+                - tor
               added: 2021-09-15
       - title: YouTube alternative clients (apps)
         recommend:
           entries:
-            - name: NewPipe
-              url: https://newpipe.net/
-              platforms:
-                - android
-              description: Alternative Android YouTube app. No account needed, privacy respecting, no ads.
-              package_id: org.schabi.newpipe
-              added: 2020-12-07
-              tags:
-                - no-account
-            - name: SkyTube
-              url: https://github.com/SkyTubeTeam/SkyTube
-              platforms:
-                - android
-              description: Alternative Android YouTube app. No account needed, privacy respecting, no ads.
-              repo: https://github.com/SkyTubeTeam/SkyTube
-              package_id: free.rm.skytube.oss
-              added: 2021-05-29
-              tags:
-                - no-account
-            - name: FreeTube
-              url: https://github.com/FreeTubeApp/FreeTube
-              description: FreeTube is an open source desktop YouTube player built with privacy in mind. (Uses Local RSS API or Invidious for backend).
-              repo: https://github.com/FreeTubeApp/FreeTube
-              added: 2020-12-08
-            - name: LibreTube
-              url: https://github.com/Libre-tube/LibreTube
-              platforms:
-                - android
-              description: An alternative frontend for YouTube, for Android using Piped.
-              repo: https://github.com/Libre-tube/LibreTube
-              package_id: com.github.libretube
-              added: 2022-03-19
-            - name: Yattee
-              url: https://github.com/yattee/yattee
-              description: Alternative YouTube frontend for iOS, tvOS and macOS built with Invidious and Piped.
-              repo: https://github.com/yattee/yattee
-              added: 2022-03-20
             - name: Clipious
               url: https://github.com/lamarios/clipious
+              repo: https://github.com/lamarios/clipious
+              description: Android client for Invidious instances.
               platforms:
                 - android
+              license: AGPL-3.0
               status: inactive
-              description: Invidious client for android
-              repo: https://github.com/lamarios/clipious
               package_id: com.github.lamarios.clipious
               added: 2023-05-22
+            - name: FreeTube
+              url: https://freetubeapp.io/
+              repo: https://github.com/FreeTubeApp/FreeTube
+              description: Desktop YouTube app that keeps subscriptions, playlists and history on your computer, without Google's cookies or scripts.
+              platforms:
+                - desktop
+              license: AGPL-3.0
+              added: 2020-12-08
+            - name: LibreTube
+              url: https://libretube.dev/
+              repo: https://github.com/libre-tube/LibreTube
+              description: Android YouTube app that fetches videos through Piped instead of Google's servers.
+              platforms:
+                - android
+              license: GPL-3.0
+              package_id: com.github.libretube
+              added: 2022-03-19
+            - name: NewPipe
+              url: https://newpipe.net/
+              repo: https://github.com/TeamNewPipe/NewPipe
+              description: Lightweight Android YouTube app with background play and downloads, no Google services or account needed.
+              platforms:
+                - android
+              license: GPL-3.0
+              tags:
+                - no-account
+              package_id: org.schabi.newpipe
+              added: 2020-12-07
+            - name: SkyTube
+              url: https://github.com/SkyTubeTeam/SkyTube
+              repo: https://github.com/SkyTubeTeam/SkyTube
+              description: Android YouTube app with local subscriptions, downloads and a channel and video blocker.
+              platforms:
+                - android
+              license: GPL-3.0
+              tags:
+                - no-account
+              package_id: free.rm.skytube.oss
+              added: 2021-05-29
+            - name: Yattee
+              url: https://github.com/yattee/yattee
+              repo: https://github.com/yattee/yattee
+              description: Native YouTube player for iPhone, iPad, Apple TV and Mac that works through Invidious or Piped.
+              platforms:
+                - ios
+                - macos
+              license: AGPL-3.0
+              added: 2022-03-20
   - title: TikTok
-    intro: "[![](https://shields.tosdr.org/en_1448.svg)](https://tosdr.org/en/service/1448)"
     avoid:
-      items: []
-      intro: Avoid using TikTok, it is a toxic-designed application that harms not only the user privacy but also user integrity. You can take a read on [these several posts](https://www.reddit.com/r/privacy/search?q=tiktok&restrict_sr=on&sort=top&t=all).
-    subsections:
-      - title: TikTok alternative frontends (web-based)
-        recommend:
-          entries:
-            - name: ProxiTok
-              url: https://github.com/pablouser1/ProxiTok
-              description: Open source alternative frontend for TikTok
-              repo: https://github.com/pablouser1/ProxiTok
-              added: 2022-03-07
+      items:
+        - name: TikTok
+          reason: collects extensive data about you and your device to drive a feed designed to be hard to put down.
+          tosdr: en_1448
+    recommend:
+      entries:
+        - name: ProxiTok
+          url: https://github.com/pablouser1/ProxiTok
+          repo: https://github.com/pablouser1/ProxiTok
+          description: TikTok frontend that fetches everything server-side, so your browser never contacts TikTok.
+          license: AGPL-3.0
+          status: inactive
+          added: 2022-03-07
   - title: Twitter
-    intro: "[![](https://shields.tosdr.org/en_195.svg)](https://tosdr.org/en/service/195)"
     avoid:
-      items: []
-      intro: Avoid using Twitter official app / website. It tracks users and creates user profiles based on what they follow, retweet and like. Twitter harms and violates user privacy with their policies [by default](https://www.eff.org/deeplinks/2017/05/how-opt-out-twitters-new-privacy-settings).
+      items:
+        - name: Twitter (X)
+          reason: profiles you from who you follow and what you like and repost, with [privacy-invasive defaults](https://www.eff.org/deeplinks/2017/05/how-opt-out-twitters-new-privacy-settings).
+          tosdr: en_195
     subsections:
       - title: Self-hosted
         recommend:
           entries:
             - name: Memos
-              url: https://github.com/usememos/memos
-              description: An open-source, self-hosted memo hub with knowledge management and socialization.
+              url: https://usememos.com/
               repo: https://github.com/usememos/memos
-              added: 2022-12-20
+              description: Self-hosted timeline of short notes where you choose what stays private and what to publish.
+              license: MIT
               tags:
                 - self-host
+              added: 2022-12-20
       - title: Decentralized
+        callouts:
+          - type: note
+            text: "**Federated social networks** aren't a single website: they're thousands of communities run by different people and organizations, which can all follow and reply to each other."
         recommend:
           entries:
-            - name: Nostr
-              url: https://nostr.com/
-              description: "Open protocol that is able to create a censorship-resistant global \"social\" network. It doesn't rely on any trusted central server, hence it is resilient; it is based on cryptographic keys and signatures, so it is tamperproof; it does not rely on P2P techniques, therefore it works. **Note**: Nostr is a protocol, so it is capable of offering much more than a Twitter alternative."
-              repo: https://nostr.com/
-              added: 2022-12-15
-              tags:
-                - p2p
             - name: Mastodon
               url: https://joinmastodon.org/
+              repo: https://github.com/mastodon/mastodon
+              description: Federated microblogging, the largest network in the fediverse.
+              license: AGPL-3.0
               tags:
                 - activitypub
-              description: Free, federated microblogging social network built on open protocols.
+              package_id: org.joinmastodon.android
+              added: 2020-12-09
               children:
                 - name: Mastodon Apps
                   url: https://joinmastodon.org/apps
-                  description: List of Mastodon apps for Android, iOS, Web and Desktop.
+                  description: Official directory of Mastodon apps for Android, iOS, web and desktop.
                   added: 2022-04-15
-              package_id: org.joinmastodon.android
-              added: 2020-12-09
+            - name: Nostr
+              url: https://nostr.com/
+              repo: https://github.com/nostr-protocol/nips
+              description: Open protocol where posts are signed with your own keys and spread across relays, so no single server controls your account.
+              added: 2022-12-15
             - name: Pleroma
               url: https://pleroma.social/
+              repo: https://git.pleroma.social/pleroma/pleroma
+              description: Lightweight federated social network server.
               tags:
                 - activitypub
-              description: Pleroma is a free, federated social networking server built on open protocols.
+              added: 2020-12-09
               children:
                 - name: Soapbox
                   url: https://gitlab.com/soapbox-pub/soapbox-fe
-                  description: A frontend for Pleroma with a focus on custom branding and ease of use.
                   repo: https://gitlab.com/soapbox-pub/soapbox-fe
+                  description: Web frontend for Pleroma focused on custom branding and ease of use.
                   added: 2020-12-09
-              added: 2020-12-09
-        callouts:
-          - type: note
-            text: "**Federated social networks**: A federated social network isn't a single website like Twitter or Facebook, it's a network of thousands of communities operated by different organizations and individuals that provide a seamless social media experience."
       - title: Alternative Frontends
         recommend:
           entries:
-            - name: Nitter
-              url: https://github.com/zedeus/nitter/wiki/Instances
+            - name: Feetter
+              url: https://codeberg.org/pluja/Feetter
+              repo: https://codeberg.org/pluja/Feetter
+              description: Create and sync Nitter feeds from any device without an account.
+              tags:
+                - no-account
               status: inactive
-              description: Nitter is a free and open source alternative Twitter front-end focused on privacy.
-              repo: https://github.com/zedeus/nitter/wiki/Instances
+              added: 2021-06-19
+            - name: Nitter
+              url: https://github.com/zedeus/nitter
+              repo: https://github.com/zedeus/nitter
+              description: Twitter frontend without JavaScript or ads that proxies every request; see the [instances list](https://github.com/zedeus/nitter/wiki/Instances).
+              license: AGPL-3.0
+              status: inactive
               added: 2020-12-09
             - name: Squawker
               url: https://github.com/j-fbriere/squawker
-              description: Open source Twitter client for Android, the maintained fork of Fritter.
               repo: https://github.com/j-fbriere/squawker
-              package_id: org.ca.squawker
-              added: 2021-03-21
+              description: Android Twitter client with no account, tracking or ads, keeping subscriptions on the device; the maintained fork of Fritter.
               platforms:
                 - android
-            - name: Feetter
-              url: https://codeberg.org/pluja/Feetter
-              status: inactive
-              description: Create, sync and manage Nitter feeds without registration from any device.
-              repo: https://codeberg.org/pluja/Feetter
-              added: 2021-06-19
-              tags:
-                - no-account
+              license: MIT
+              package_id: org.ca.squawker
+              added: 2021-03-21
   - title: Reddit
-    intro: "[![](https://shields.tosdr.org/en_194.svg)](https://tosdr.org/en/service/194)"
     avoid:
-      items: []
-      intro: Try to avoid using Reddit or at least avoid their official clients as they are plenty of trackers, ads and share unnecessary user data with their servers.
+      items:
+        - name: Reddit
+          reason: the official site and apps are full of trackers and ads.
+          tosdr: en_194
     subsections:
       - title: Reddit alternatives
         recommend:
           entries:
             - name: Aether
               url: https://getaether.net/
-              description: Peer-to-peer ephemeral public communities.
-              added: 2020-12-09
+              repo: https://github.com/aethereans/aether-app
+              description: Desktop app for peer-to-peer public communities whose posts expire over time.
+              platforms:
+                - desktop
+              license: AGPL-3.0
               tags:
                 - p2p
-            - name: Mbin
-              url: https://github.com/MbinOrg/mbin
-              tags:
-                - activitypub
-              description: A reddit-like content aggregator and micro-blogging platform for the fediverse; the community-maintained continuation of kbin.
-              repo: https://github.com/MbinOrg/mbin
-              added: 2026-07-04
+              caveats:
+                - website-trackers
+              status: inactive
+              added: 2020-12-09
             - name: Lemmy
               url: https://join-lemmy.org/
+              repo: https://github.com/LemmyNet/lemmy
+              description: Federated link aggregator and discussion forum, organized into communities like subreddits.
+              license: AGPL-3.0
               tags:
                 - activitypub
-              description: A federated and open alternative to Reddit in Rust.
               added: 2020-12-09
+            - name: Mbin
+              url: https://joinmbin.org/
+              repo: https://github.com/MbinOrg/mbin
+              description: Federated link aggregator with microblogging, the community-run continuation of kbin.
+              license: AGPL-3.0
+              tags:
+                - activitypub
+              added: 2026-07-04
       - title: Privacy respecting Reddit clients
         recommend:
           entries:
             - name: Redlib
               url: https://github.com/redlib-org/redlib
-              description: An alternative private front-end to Reddit, with its origins in Libreddit.
               repo: https://github.com/redlib-org/redlib
+              description: Reddit frontend without JavaScript that proxies all requests, media included; see the [instances](https://github.com/redlib-org/redlib-instances). Formerly Libreddit.
+              license: AGPL-3.0
               added: 2024-04-10
   - title: Streaming Platforms (Twitch)
-    intro: "[![](https://shields.tosdr.org/en_200.svg)](https://tosdr.org/en/service/200)"
     avoid:
-      items: []
-      intro: Avoid using platforms as Twitch, Patreon, YouTube as they are very privacy-invasive with your viewers (and you!). Instead, you can try using some self-hosted platforms that do take care of everyone's privacy.
+      items:
+        - name: Twitch
+          reason: owned by Amazon and funded by ads, so viewers are tracked for advertising.
+          tosdr: en_200
     recommend:
       entries:
         - name: Owncast
-          url: https://github.com/owncast/owncast
-          description: Take control over your live stream video by running it yourself. Streaming + chat out of the box.
+          url: https://owncast.online/
           repo: https://github.com/owncast/owncast
+          description: Self-hosted live streaming server with built-in chat, so you own the stream and your viewers' data.
+          license: MIT
+          tags:
+            - self-host
           added: 2020-12-21
     subsections:
       - title: Privacy respecting Twitch clients
@@ -321,49 +378,52 @@ subsections:
           entries:
             - name: Twire
               url: https://github.com/twireapp/Twire
+              repo: https://github.com/twireapp/Twire
+              description: Android Twitch client with built-in ad blocking, VODs with chat replay, and optional login.
               platforms:
                 - android
-              description: Open source, ad-free Twitch browser and stream player for Android.
-              repo: https://github.com/twireapp/Twire
+              license: GPL-3.0
               package_id: com.perflyst.twire
               added: 2026-09-30
   - title: Imgur
-    intro: "[![](https://shields.tosdr.org/en_325.svg)](https://tosdr.org/en/service/325)"
     avoid:
-      items: []
-      intro: Imgur website is plenty of bloat, gifs, cookies, javascript and trackers.
+      items:
+        - name: Imgur
+          reason: the site is heavy with ads, cookies, scripts and trackers.
+          tosdr: en_325
     recommend:
       entries:
         - name: rimgo
-          url: https://codeberg.org/rimgo/rimgo#instances
-          description: An alternative frontend for Imgur. Read-only, no-js, Based on rimgu and rewritten in Go.
+          url: https://codeberg.org/rimgo/rimgo
           repo: https://codeberg.org/rimgo/rimgo
+          description: Read-only Imgur frontend that works without JavaScript; see the [instances](https://rimgo.codeberg.page/).
           added: 2022-03-08
   - title: IMDb
     avoid:
-      items: []
-      intro: IMDb is owned by Amazon and its website is loaded with ads and third-party trackers.
-    subsections:
-      - title: IMDb alternative frontends
-        recommend:
-          entries:
-            - name: libremdb
-              url: https://libremdb.iket.me/
-              description: Alternative privacy-respecting frontend for IMDb that removes ads and trackers. Open source and self-hostable (AGPL-3.0).
-              added: 2026-07-04
-              tags:
-                - self-host
+      items:
+        - name: IMDb
+          reason: owned by Amazon, with ads and third-party trackers on the site.
+    recommend:
+      entries:
+        - name: libremdb
+          url: https://github.com/zyachel/libremdb
+          repo: https://github.com/zyachel/libremdb
+          description: IMDb frontend without ads or tracking that proxies images and video through the instance.
+          license: AGPL-3.0
+          tags:
+            - self-host
+          added: 2026-07-04
   - title: Fandom
     avoid:
-      items: []
-      intro: Fandom wikis (formerly Wikia) are overloaded with ads, autoplaying video, and trackers.
-    subsections:
-      - title: Fandom alternative frontends
-        recommend:
-          entries:
-            - name: BreezeWiki
-              url: https://breezewiki.com/
-              description: Alternative frontend for Fandom wikis that strips ads, video, and clutter. Open source and self-hostable.
-              added: 2026-07-04
-              tags:
-                - self-host
+      items:
+        - name: Fandom
+          reason: wikis are loaded with ads, autoplaying video and trackers.
+    recommend:
+      entries:
+        - name: BreezeWiki
+          url: https://breezewiki.com/
+          repo: https://gitdab.com/cadence/breezewiki
+          description: Fandom frontend that strips ads, video and suggested content; also on several [mirrors](https://docs.breezewiki.com/Links.html).
+          tags:
+            - self-host
+          added: 2026-07-04

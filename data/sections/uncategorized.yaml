@@ -4,20 +4,29 @@ recommend:
   entries:
     - name: Skymap
       url: https://skymaponline.net/
-      description: Open online planetarium program.
+      description: Online planetarium for exploring the night sky in your browser.
+      caveats:
+        - website-trackers
       added: 2020-12-09
     - name: CrowdSec
-      url: https://github.com/crowdsecurity/crowdsec
-      description: An open-source, modernized and collaborative fail2ban.
+      url: https://www.crowdsec.net/
       repo: https://github.com/crowdsecurity/crowdsec
+      description: Collaborative intrusion prevention for servers, like fail2ban with crowd-sourced blocklists.
+      license: MIT
+      caveats:
+        - website-trackers
       added: 2020-12-08
     - name: Hetty
-      url: https://github.com/dstotijn/hetty
-      description: Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
+      url: https://hetty.xyz/
       repo: https://github.com/dstotijn/hetty
+      description: HTTP toolkit for security research, as an alternative to Burp Suite Pro.
+      license: MIT
       added: 2020-12-08
     - name: Visited
       url: https://github.com/didvc/visited
-      description: Locally collect browsing history over browsers.
       repo: https://github.com/didvc/visited
+      description: Collects your browsing history from several browsers into one local, searchable store.
+      platforms:
+        - cli
+      license: BSD-3-Clause
       added: 2022-01-05

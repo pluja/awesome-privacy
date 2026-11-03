@@ -1,22 +1,26 @@
 title: Routers
 slug: routers
+intro: Every byte your household sends passes through the router, yet stock firmware is closed and often goes years without security fixes. Open firmware, or a spare PC running a firewall distribution, puts you back in control.
 avoid:
   items:
-    - name: "Stock ISP routers and vendor firmware: closed source, slow or missing security updates, and often phone home to the vendor or ISP."
+    - name: Stock ISP routers and vendor firmware
+      reason: closed source, slow or missing security updates, and often phone home to the vendor or ISP.
 recommend:
   entries:
+    - name: IPFire
+      url: https://www.ipfire.org/
+      description: Hardened Linux firewall distribution with intrusion prevention and a web interface.
+      added: 2026-09-30
     - name: OpenWrt
       url: https://openwrt.org/
-      description: Open source Linux firmware that replaces the stock software on hundreds of consumer routers, with years of security updates.
       repo: https://github.com/openwrt/openwrt
+      description: Linux firmware that replaces the stock software on hundreds of consumer routers and keeps them updated.
       added: 2026-09-30
     - name: OPNsense
       url: https://opnsense.org/
-      description: Open source firewall and routing platform based on FreeBSD, for dedicated hardware or a spare PC.
       repo: https://github.com/opnsense/core
+      description: FreeBSD-based firewall and router for dedicated hardware or a spare PC.
       license: BSD-2-Clause
-      added: 2026-09-30
-    - name: IPFire
-      url: https://www.ipfire.org/
-      description: Hardened open source Linux firewall distribution with intrusion prevention and a web interface.
+      caveats:
+        - website-trackers
       added: 2026-09-30

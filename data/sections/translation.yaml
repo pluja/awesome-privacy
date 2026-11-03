@@ -1,5 +1,6 @@
 title: Translation
 slug: translation
+intro: Online translators keep the text you paste in, which often includes private messages and documents. Translating on your own device, or through a self-hosted or proxy frontend, keeps that text away from big providers.
 avoid:
   items:
     - name: Google Translate
@@ -13,55 +14,76 @@ subsections:
       entries:
         - name: Mozilla Translate
           url: https://mozilla.github.io/translate/
-          description: Open Source, runs model locally in your browser.
-          added: 2022-10-10
-        - name: Libretranslate
-          url: https://libretranslate.com/
-          description: Open Source Machine Translation - 100% Self-Hosted. No Limits. No Ties to Proprietary Services.
-          added: 2020-12-22
-          tags:
-            - self-host
-        - name: Apertium
-          url: https://apertium.org/
-          description: A free/open-source machine translation platform, runs offline on your computer
-          added: 2020-12-22
+          repo: https://github.com/mozilla/translate
+          description: Web page that translates entirely in your browser with local models; deprecated in favor of Firefox's built-in translation.
+          license: MPL-2.0
+          status: inactive
           tags:
             - offline
+          added: 2022-10-10
+        - name: LibreTranslate
+          url: https://libretranslate.com/
+          repo: https://github.com/LibreTranslate/LibreTranslate
+          description: Self-hosted machine translation API and web app with no ties to proprietary services.
+          license: AGPL-3.0
+          tags:
+            - self-host
+          added: 2020-12-22
+        - name: Apertium
+          url: https://apertium.org/
+          repo: https://github.com/apertium/apertium
+          description: Rule-based machine translation platform that can run offline on your computer.
+          license: GPL-2.0
+          tags:
+            - offline
+          added: 2020-12-22
         - name: Softcatala
           url: https://www.softcatala.org/traductor/
-          description: Open Source Translation tool - Only Catalan/Spanish/English/French (uses apertium)
+          description: Online translator between Catalan and languages such as Spanish, English, French and Portuguese, run by a nonprofit.
+          caveats:
+            - website-trackers
           added: 2020-12-22
         - name: TranslateLocally
           url: https://github.com/XapaJIaMnu/translateLocally
-          description: Free/open-source neural MT, runs offline on your computer
-          added: 2021-08-15
+          repo: https://github.com/XapaJIaMnu/translateLocally
+          description: Desktop app for neural machine translation that runs entirely offline on your computer.
+          license: MIT
           tags:
             - offline
-          repo: https://github.com/XapaJIaMnu/translateLocally
+          added: 2021-08-15
         - name: Linguist
           url: https://linguister.io
-          description: A free and Open Source full-featured translation solution in-browser with embedded offline translator and [custom translators](https://linguister.io/docs/CustomTranslator). Full-page translation, TTS, dictionary, translation for user input and selected text on page.
-          added: 2025-08-26
+          repo: https://github.com/translate-tools/linguist
+          description: Browser extension for translating pages and selected text, with a built-in offline translator and [custom translators](https://linguister.io/docs/CustomTranslator).
+          platforms:
+            - browser
+          license: BSD-3-Clause
           tags:
             - offline
+          added: 2025-08-26
   - title: Alternative Google Translate frontends
     recommend:
       entries:
         - name: Lingva
           url: https://github.com/TheDavidDelta/lingva-translate
-          status: inactive
-          description: Alternative front-end for Google Translate. [Demo](https://lingva.ml/).
           repo: https://github.com/TheDavidDelta/lingva-translate
+          description: Frontend that proxies Google Translate, so Google doesn't see who you are.
+          license: AGPL-3.0
+          status: inactive
+          tags:
+            - self-host
           added: 2021-03-31
-        - name: Simplytranslate
-          url: https://codeberg.org/ManeraKai/simplytranslate
-          description: Alternative front-end for Google Translate and LibreTranslate. [Demo](https://simplytranslate.org/)
+        - name: SimplyTranslate
+          url: https://simplytranslate.org/
           repo: https://codeberg.org/ManeraKai/simplytranslate
+          description: Frontend that proxies your requests to Google Translate and other engines.
+          tags:
+            - self-host
           added: 2021-05-25
         - name: Mozhi
           url: https://codeberg.org/aryak/mozhi
-          description: Alternative frontend that aggregates Google Translate, DeepL, Yandex, and other engines behind one private UI. Self-hostable, AGPL-3.0 licensed.
           repo: https://codeberg.org/aryak/mozhi
-          added: 2026-07-04
+          description: Frontend that proxies Google Translate, DeepL, Yandex and other engines behind one interface.
           tags:
             - self-host
+          added: 2026-07-04

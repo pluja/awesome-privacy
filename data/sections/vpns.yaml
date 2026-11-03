@@ -1,49 +1,63 @@
 title: VPNs
 slug: vpns
-recommend:
-  entries:
+intro: A VPN doesn't make you anonymous; it moves the trust from your ISP to the VPN provider. Pick one that asks for no personal details, takes anonymous payment and publishes the source of its apps.
+avoid:
+  items:
     - name: Free VPNs
       url: https://techcrunch.com/2020/09/24/free-vpn-bad-for-privacy/
-      description: from Google Play or any appstore. These services are not free as they will suck your connections' data, keep logs and profile you to [sell your data to advertisers](https://thenextweb.com/news/be-cautious-free-vpns-are-selling-your-data-to-3rd-parties). If a government wants to track someone, such apps will be the first ones to fall.
-    - name: Closed source VPN apps such as Surfshark or NordVPN may be less trustworthy as nobody can be sure how they handle your data. Also, paying with Credit Card will get you identified on the payment. Furthermore, if you need to give your email it will also identify you if this same email has been used in other services.
-    - name: IVPN
-      url: https://ivpn.net
-      description: No-logs VPN with open source apps, no-email signup, and cash, Monero, or Bitcoin payment.
-      package_id: net.ivpn.client
-      added: 2022-07-28
-    - name: nadanada
-      url: https://nadanada.me
-      description: (formerly LNVPN) Pay-per-use WireGuard VPN with no account, paid by Lightning Network or other cryptocurrency.
-      added: 2025-06-17
-      tags:
-        - no-account
-    - name: Mullvad VPN
-      url: https://mullvad.net
-      description: No-logs VPN with open source apps, anonymous numbered accounts, and cash or cryptocurrency payment.
-      package_id: net.mullvad.mullvadvpn
-      added: 2022-07-28
-    - name: Proton VPN
-      url: https://protonvpn.com
-      description: Swiss no-logs VPN with open source, audited apps on every platform and a no-data-cap free tier.
-      package_id: ch.protonvpn.android
-      added: 2023-01-21
-      tags:
-        - audited
-    - name: SPN
-      url: https://safing.io/
-      description: Open source, system-wide network that routes each app connection through its own path across multiple nodes, giving per-connection IP separation instead of a single shared exit. Built into the Safing Portmaster firewall for Windows and Linux.
-      added: 2022-07-28
+      reason: someone pays for the servers, and it's usually you, through logs and [data sold to advertisers](https://thenextweb.com/news/be-cautious-free-vpns-are-selling-your-data-to-3rd-parties).
+    - name: Closed source VPNs such as NordVPN or Surfshark
+      reason: nobody can check how their apps handle your data, and paying by card or signing up with an email ties the account to you.
+recommend:
+  entries:
     - name: Amnezia VPN
       url: https://amnezia.org
-      description: Self-hosted, censorship-resistant VPN that you deploy on your own server, with audited open source apps (GPL-3.0).
-      added: 2026-07-04
+      repo: https://github.com/amnezia-vpn/amnezia-client
+      description: VPN client that sets up a server on a VPS you rent, with protocols designed to get past censorship.
+      license: GPL-3.0
       tags:
         - self-host
         - audited
+      added: 2026-07-04
     - name: Find more at kycnot.me (VPN Category)
       url: https://kycnot.me/?categories=vpn
-      description: KYC-free VPN providers.
-      added: 2026-07-04
+      description: Directory of VPN providers that don't ask for identity documents.
       tags:
         - no-kyc
-notes: "Here are some open source and truly private (no personal data and/or credit card needed) options:"
+      added: 2026-07-04
+    - name: IVPN
+      url: https://ivpn.net
+      repo: https://github.com/ivpn
+      description: No-logs VPN that needs no email to sign up and takes cash, Monero or Bitcoin.
+      package_id: net.ivpn.client
+      added: 2022-07-28
+    - name: Mullvad VPN
+      url: https://mullvad.net
+      repo: https://github.com/mullvad/mullvadvpn-app
+      description: No-logs VPN with anonymous numbered accounts instead of email, payable in cash or cryptocurrency.
+      license: GPL-3.0
+      package_id: net.mullvad.mullvadvpn
+      added: 2022-07-28
+    - name: nadanada
+      url: https://nadanada.me
+      description: Pay-per-use WireGuard VPN with no account, payable in Bitcoin, Monero and other cryptocurrencies, formerly LNVPN.
+      tags:
+        - no-account
+      added: 2025-06-17
+    - name: Proton VPN
+      url: https://protonvpn.com
+      repo: https://github.com/ProtonVPN
+      description: Swiss no-logs VPN with audited apps and a free tier with no data cap.
+      tags:
+        - audited
+      package_id: ch.protonvpn.android
+      added: 2023-01-21
+    - name: SPN
+      url: https://safing.io/spn/
+      repo: https://github.com/safing/portmaster
+      description: Paid add-on to the Portmaster firewall that routes each app's connections over separate multi-hop paths.
+      platforms:
+        - linux
+        - windows
+      license: GPL-3.0
+      added: 2022-07-28

@@ -1,34 +1,45 @@
 title: Commenting Engines
 slug: commenting-engines
+intro: Embedded comment widgets load third-party trackers on every page that uses them, profiling your readers across sites. A self-hosted engine keeps comments and reader data on your own server.
 avoid:
   items:
     - name: Disqus
-      reason: "Many trackers are in their sites. Disqus collects (as per their Privacy Policy): IP address, unique Cookie ID, Device ID, your login data, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform and other technology on the devices you use to access the Service."
+      reason: loads many trackers, and its privacy policy lists collecting your IP address, cookie and device IDs, browser and plug-in details, time zone and location.
 recommend:
   entries:
     - name: Comentario
       url: https://comentario.app
-      description: Tiny, Privacy-focused, Open-source web comment engine, which adds discussion functionality to plain, boring web pages.
+      repo: https://gitlab.com/comentario/comentario
+      description: Small self-hosted comment engine that adds discussions to static pages.
+      license: MIT
+      tags:
+        - self-host
       added: 2024-09-25
     - name: Disgus
       url: https://github.com/carlitoplatanito/disgus
-      description: Embeddable comments for your website, backed by Nostr. Like Disqus but Nostr.
       repo: https://github.com/carlitoplatanito/disgus
+      description: Embeddable comments for your website, stored on Nostr instead of a company's servers.
+      license: GPL-2.0
       added: 2023-10-20
     - name: Isso
-      url: https://github.com/isso-comments/isso
-      description: A lightweight, self hosted, commenting server written in Python and JavaScript. It aims to be a drop-in replacement for Disqus.
+      url: https://isso-comments.de
       repo: https://github.com/isso-comments/isso
-      added: 2023-01-08
+      description: Lightweight self-hosted comment server, meant as a drop-in replacement for Disqus.
+      license: MIT
       tags:
         - self-host
+      added: 2023-01-08
     - name: Remark42
       url: https://remark42.com
-      description: Self-hosted, lightweight, and simple (yet functional) comment engine, which doesn't spy on users.
-      added: 2023-01-08
+      repo: https://github.com/umputun/remark42
+      description: Lightweight self-hosted comment engine that doesn't track your readers.
+      license: MIT
       tags:
         - self-host
+      added: 2023-01-08
     - name: Giscus
       url: https://giscus.app
-      description: Commenting system that stores discussions in GitHub Discussions, with no database, ads, or tracking. Open source, MIT licensed.
+      repo: https://github.com/giscus/giscus
+      description: Comments stored in GitHub Discussions, with no database, ads or tracking; readers need a GitHub account to post.
+      license: MIT
       added: 2026-07-04

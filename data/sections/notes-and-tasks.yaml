@@ -1,129 +1,201 @@
 title: Notes and Tasks
 slug: notes-and-tasks
+intro: Popular note apps store everything you write on their servers, usually readable by the provider and wrapped in trackers. Prefer apps that keep notes on your device or encrypt them end to end before syncing.
 avoid:
   items:
     - name: Google Keep
+      reason: notes are stored on Google's servers without end-to-end encryption.
       tools:
         - name: Keep To Markdown
           url: https://github.com/erikelisath/keep-to-markdown
-          description: Convert your Google Keep notes into a standard markdown + YAML header format.
           repo: https://github.com/erikelisath/keep-to-markdown
+          description: Converts your Google Keep notes to Markdown files with a YAML header.
           added: 2024-11-08
     - name: Evernote
+      reason: notes are stored on Evernote's servers without end-to-end encryption.
     - name: Squid
     - name: Notion
+      reason: no end-to-end encryption, so Notion can read everything in your workspace.
     - name: OneNote
-  intro: These providers offer apps and services filled with data trackers. Also, most of them store your notes on their servers and do not offer any kind of encryption.
+      reason: closed source, and notes sync through Microsoft's servers without end-to-end encryption.
 recommend:
   entries:
     - name: Anytype
-      url: https://www.anytype.io/
-      description: An open-source Notion alternative. E2EE, cloud and local network sync, can be self-hosted.
+      url: https://anytype.io/
+      repo: https://github.com/anyproto/anytype-ts
+      description: Local-first Notion alternative with end-to-end encrypted sync over the cloud or your local network.
+      caveats:
+        - source-available
       added: 2023-09-22
       tags:
         - self-host
         - e2ee
     - name: AppFlowy
       url: https://appflowy.com/
-      description: Open Source Notion Alternative. You are in charge of your data and customizations.
+      repo: https://github.com/AppFlowy-IO/AppFlowy
+      description: Notion alternative for docs, wikis and task boards that you can run locally or host yourself.
+      license: AGPL-3.0
+      caveats:
+        - website-trackers
       added: 2021-12-14
     - name: HedgeDoc
       url: https://hedgedoc.org/
-      description: Formerly CodiMD (community). An awesome platform to write and share markdown.
+      repo: https://github.com/hedgedoc/hedgedoc
+      description: Self-hosted collaborative Markdown editor for writing and sharing notes in real time, formerly CodiMD.
+      license: AGPL-3.0
       added: 2021-12-14
+      tags:
+        - self-host
     - name: Joplin
       url: https://github.com/laurent22/joplin
-      description: Note taking and to-do application with synchronisation and encryption capabilities.
       repo: https://github.com/laurent22/joplin
+      description: Markdown notes and to-dos with optional end-to-end encrypted sync through a server of your choice.
       package_id: net.cozic.joplin
       added: 2021-05-25
+      tags:
+        - e2ee
     - name: Logseq
       url: https://logseq.com/
-      description: A privacy-first alternative to WorkFlowy.
+      repo: https://github.com/logseq/logseq
+      description: Outliner for linked notes and journals, stored as plain Markdown files on your device.
+      license: AGPL-3.0
+      caveats:
+        - telemetry-opt-out
       package_id: com.logseq.app
       added: 2021-05-26
     - name: Lockbook
-      url: https://github.com/lockbook/lockbook
-      description: End-to-end encrypted Evernote alternative for notes, documents and drawings, with apps for Android, iOS, macOS, Windows and Linux plus a CLI. Public domain (Unlicense), self-hostable.
+      url: https://lockbook.net
       repo: https://github.com/lockbook/lockbook
+      description: End-to-end encrypted notebook for notes, documents and drawings, as an Evernote alternative.
+      license: Unlicense
+      tags:
+        - e2ee
     - name: Memos
       url: https://github.com/usememos/memos
-      description: An open-source, self-hosted memo hub with knowledge management and socialization.
       repo: https://github.com/usememos/memos
+      description: Self-hosted hub for quick notes and memos, shown as a timeline.
+      license: MIT
       added: 2022-12-20
       tags:
         - self-host
     - name: Nextcloud Notes
       url: https://github.com/nextcloud/notes/
-      description: The Notes app is a distraction free notes taking app for Nextcloud.
+      repo: https://github.com/nextcloud/notes/
+      description: Distraction-free notes app for your Nextcloud server.
+      license: AGPL-3.0
+      added: 2021-06-02
+      tags:
+        - self-host
       children:
         - name: Nextcloud Notes app
           url: https://github.com/nextcloud/notes-android
-          description: An android client for Nextcloud Notes.
           repo: https://github.com/nextcloud/notes-android
+          description: Android client for Nextcloud Notes.
+          platforms:
+            - android
+          license: GPL-3.0
           package_id: it.niedermann.owncloud.notes
           added: 2021-06-02
-      repo: https://github.com/nextcloud/notes/
-      added: 2021-06-02
     - name: Notally
       url: https://github.com/OmGodse/Notally
-      description: A beautiful notes app (local only, no sync).
       repo: https://github.com/OmGodse/Notally
+      description: Minimal notes app that keeps everything on your device, with no sync.
+      platforms:
+        - android
+      license: GPL-3.0
       package_id: com.omgodse.notally
       added: 2021-03-21
+      tags:
+        - offline
     - name: Notesnook
       url: https://notesnook.com/
-      description: Open source zero knowledge private note taking.
+      repo: https://github.com/streetwriters/notesnook
+      description: End-to-end encrypted notes app with sync across your devices, as an Evernote alternative.
+      license: GPL-3.0
       package_id: com.streetwriters.notesnook
       added: 2022-09-02
+      tags:
+        - e2ee
     - name: Obsidian
       url: https://obsidian.md
-      description: Obsidian is the private and flexible note‑taking app. Closed source but has no trackers (website / apps) and E2EE sync.
+      description: Markdown notes kept as plain files on your device, with optional end-to-end encrypted sync; the app itself is closed source.
       added: 2023-08-25
       tags:
         - e2ee
     - name: Quillpad
       url: https://quillpad.github.io/
-      description: Take beautiful markdown notes and stay organized with task lists. Fork of Quillnote.
+      repo: https://github.com/quillpad/quillpad
+      description: Markdown notes and task lists for Android, with optional Nextcloud sync, forked from Quillnote.
+      platforms:
+        - android
+      license: GPL-3.0
       package_id: io.github.quillpad
       added: 2024-04-28
+      tags:
+        - fork
     - name: SiYuan
       url: https://github.com/siyuan-note/siyuan
-      description: A local-first personal knowledge management system.
       repo: https://github.com/siyuan-note/siyuan
+      description: Local-first personal knowledge base built from blocks you can link, embed and query.
+      license: AGPL-3.0
       added: 2022-10-23
     - name: Standard Notes
       url: https://standardnotes.com/
-      description: A free, open-source, and completely encrypted notes app.
+      repo: https://github.com/standardnotes/app
+      description: End-to-end encrypted notes app that syncs across all your devices.
+      license: AGPL-3.0
       package_id: com.standardnotes
       added: 2021-03-21
+      tags:
+        - e2ee
     - name: Super Productivity
-      url: https://github.com/super-productivity/super-productivity
-      description: To-do list and time tracker that keeps data local with no account, with optional sync over WebDAV or Dropbox. MIT licensed.
+      url: https://super-productivity.com
       repo: https://github.com/super-productivity/super-productivity
+      description: To-do list and time tracker that keeps data local with no account, with optional sync over WebDAV or Dropbox.
+      license: MIT
+      tags:
+        - no-account
     - name: TinyList
       url: https://tinylist.app/
-      description: Create and share notes and checklists, without sacrificing your privacy.
+      repo: https://github.com/baggachipz/tinylist
+      description: Notes and checklists you can share without an account, with no ads or tracking.
+      license: MIT
       added: 2021-03-21
+      tags:
+        - no-account
     - name: Trilium Notes
       url: https://github.com/TriliumNext/Trilium
-      description: Build your personal knowledge base with Trilium Notes
       repo: https://github.com/TriliumNext/Trilium
+      description: Hierarchical personal knowledge base you can sync through your own server, with optional encryption for individual notes.
+      license: AGPL-3.0
       added: 2023-01-09
+      tags:
+        - self-host
     - name: Vikunja
       url: https://vikunja.io
-      description: The open-source to-do app to organize your life.
+      repo: https://github.com/go-vikunja/vikunja
+      description: Self-hosted to-do app with lists, kanban boards and Gantt charts.
+      license: AGPL-3.0
       added: 2021-06-08
+      tags:
+        - self-host
     - name: YankNote
       url: https://github.com/purocean/yn
-      description: A Hackable Markdown Note Application for Programmers.
       repo: https://github.com/purocean/yn
+      description: Extensible Markdown editor for programmers that stores notes as local files.
+      license: AGPL-3.0
+      platforms:
+        - desktop
       added: 2022-05-19
     - name: Tasks.org
       url: https://tasks.org
+      repo: https://github.com/tasks/tasks
+      description: To-do and task manager that works offline, with CalDAV sync.
       platforms:
         - android
-      description: Open source to-do and task manager for Android with CalDAV sync and offline use. GPL-3.0 licensed.
+      license: GPL-3.0
+      caveats:
+        - website-trackers
       package_id: org.tasks
       added: 2026-07-04
       tags:

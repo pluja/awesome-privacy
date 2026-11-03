@@ -1,21 +1,21 @@
 title: Domains & Hosting
 slug: domains-hosting
-avoid:
-  items: []
-  intro: Avoid using domain registrars who are privacy invasive.
+intro: Most registrars and hosts want your real identity and a card on file, which ties your site straight back to you. These accept anonymous signup and cryptocurrency payment.
 recommend:
   entries:
-    - name: OrangeWebsite
-      url: https://www.orangewebsite.com/
-      description: Iceland-based, free-speech web hosting with anonymous signup and cryptocurrency or cash payment.
-      added: 2022-01-14
     - name: 1984 Hosting
       url: https://1984.hosting/
-      description: Iceland-based hosting and domain registrar focused on civil rights, with Monero and anonymous signup.
+      description: Icelandic hosting and domain registrar focused on civil liberties, with anonymous signup and Monero payment.
       added: 2022-01-14
     - name: Find more at kycnot.me (VPS Category)
       url: https://kycnot.me/?categories=vps
-      description: KYC-free VPS and hosting providers.
-      added: 2026-07-04
+      description: Directory of VPS and hosting providers that don't ask for identity documents.
       tags:
         - no-kyc
+      added: 2026-07-04
+    - name: OrangeWebsite
+      url: https://orangewebsite.com/
+      description: Icelandic web host focused on free speech, with anonymous signup and cryptocurrency or cash payment.
+      caveats:
+        - website-trackers
+      added: 2022-01-14

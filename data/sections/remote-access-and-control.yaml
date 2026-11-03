@@ -1,47 +1,80 @@
 title: Remote Access and Control
 slug: remote-access-and-control
+intro: Remote desktop tools can see and control everything on a machine, so trust matters more here than almost anywhere. Prefer open tools you can run on your own server, with no vendor account in the middle.
 avoid:
   items:
-    - name: TeamViewer
     - name: AnyDesk
+      reason: closed source, and attackers breached its production systems in 2024.
+    - name: TeamViewer
+      reason: closed source, and a state-backed group breached its corporate network in 2024.
 recommend:
   entries:
+    - name: Apache Guacamole
+      url: https://guacamole.apache.org
+      repo: https://github.com/apache/guacamole-server
+      description: Self-hosted gateway that gives you RDP, VNC and SSH access from a browser, with no client to install.
+      license: Apache-2.0
+      tags:
+        - self-host
+      added: 2026-07-04
+    - name: Aspia
+      url: https://aspia.org/
+      repo: https://github.com/dchapyshev/aspia
+      description: Remote desktop and file transfer with a router you can host yourself, so connections don't depend on a vendor.
+      license: GPL-3.0
+      tags:
+        - self-host
+    - name: MeshCentral
+      url: https://meshcentral.com/
+      repo: https://github.com/Ylianst/MeshCentral
+      description: Self-hosted web server for managing and remotely controlling many devices from a browser.
+      license: Apache-2.0
+      tags:
+        - self-host
+      added: 2021-05-27
+    - name: Remmina
+      url: https://remmina.org/
+      repo: https://gitlab.com/Remmina/Remmina
+      description: Remote desktop client for Linux that connects over RDP, VNC, SPICE and SSH.
+      platforms:
+        - linux
+      added: 2021-05-23
     - name: RustDesk
       url: https://rustdesk.com/
-      description: Open-source remote desktop client software, written in Rust. Works out of the box, full control of your data, with no concerns about security.
+      repo: https://github.com/rustdesk/rustdesk
+      description: Remote desktop app that connects through its developers' public relay by default, or through a server you host.
+      license: AGPL-3.0
+      tags:
+        - self-host
+      caveats:
+        - website-trackers
       package_id: com.carriez.flutter_hbb
       added: 2021-05-23
     - name: screego
       url: https://screego.net/
-      description: Screen sharing for developers.
-      added: 2021-05-23
-    - name: Remmina
-      url: https://remmina.org/
-      description: Remote access screen and file sharing to your desktop (RDP).
-      added: 2021-05-23
-    - name: UltraVNC
-      url: https://www.uvnc.com/
-      description: UltraVNC is a powerful, easy to use and free - remote pc access softwares - that can display the screen of another computer (via internet or network) on your own screen.
-      added: 2021-05-23
-    - name: MeshCentral
-      url: https://meshcentral.com/
-      description: The open source, multi-platform, self-hosted, feature packed web site for remote device management.
-      added: 2021-05-27
+      repo: https://github.com/screego/server
+      description: Self-hosted screen sharing over WebRTC, built for developers.
+      license: GPL-3.0
       tags:
         - self-host
-    - name: Apache Guacamole
-      url: https://guacamole.apache.org
-      description: Clientless self-hosted remote desktop gateway that gives RDP, VNC, and SSH access from a browser. Apache-2.0 licensed.
-      added: 2026-07-04
-      tags:
-        - self-host
+      added: 2021-05-23
     - name: Sunshine + Moonlight
       url: https://app.lizardbyte.dev/Sunshine
-      description: Self-hosted desktop and game streaming host (Sunshine) with matching clients (Moonlight). Open source, GPL-3.0 licensed.
-      added: 2026-07-04
+      repo: https://github.com/LizardByte/Sunshine
+      description: Low-latency desktop and game streaming, with Sunshine on the host and Moonlight clients connecting to it.
+      license: GPL-3.0
       tags:
         - self-host
-    - name: Aspia
-      url: https://github.com/dchapyshev/aspia
-      description: Remote desktop and file transfer for Windows hosts, with a self-hostable router for NAT traversal. GPL-3.0 licensed.
-      repo: https://github.com/dchapyshev/aspia
+      caveats:
+        - website-trackers
+      added: 2026-07-04
+    - name: UltraVNC
+      url: https://uvnc.com/
+      repo: https://github.com/ultravnc/UltraVNC
+      description: VNC server and viewer for Windows, with file transfer and optional encryption plugins.
+      platforms:
+        - windows
+      license: GPL-3.0
+      caveats:
+        - website-trackers
+      added: 2021-05-23

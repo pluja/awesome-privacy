@@ -36,6 +36,8 @@ recommend:
       license: AGPL-3.0
       tags:
         - e2ee
+      caveats:
+        - website-trackers
       added: 2022-12-15
     - name: FreeOTPPlus
       url: https://github.com/helloworld1/FreeOTPPlus

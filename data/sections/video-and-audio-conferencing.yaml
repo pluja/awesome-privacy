@@ -1,131 +1,170 @@
 title: Video and Audio Conferencing
 slug: video-and-audio-conferencing
+intro: The big meeting apps log who you call and when, and their apps ship with ad and analytics trackers. Prefer tools you can self-host or that connect participants directly, with encryption you don't have to trust a company for.
 avoid:
   items:
     - name: Zoom
-      reason: "[Very bad privacy policy](https://tosdr.org/en/service/2198). Apps have [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/us.zoom.videomeetings/latest/). Many permissions required."
+      reason: "[very bad privacy policy](https://tosdr.org/en/service/2198), apps with [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/us.zoom.videomeetings/latest/) and many permissions."
     - name: Skype
-      reason: "[Very bad privacy policy](https://tosdr.org/en/service/244). Apps have [Google and Microsoft trackers](https://reports.exodus-privacy.eu.org/en/reports/com.skype.insiders/latest/). Way too many permissions required."
+      reason: "[very bad privacy policy](https://tosdr.org/en/service/244), apps with [Google and Microsoft trackers](https://reports.exodus-privacy.eu.org/en/reports/com.skype.insiders/latest/) and far too many permissions."
     - name: Google Meet
-      reason: "[Very bad privacy policy](https://tosdr.org/en/service/217). Apps have [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/com.google.android.apps.tachyon/latest/) embeded (as it is a Google app). Way too many permissions required."
-    - name: Whatsapp
-      reason: "[Bad privacy policy](https://tosdr.org/en/service/198). Apps have [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/com.whatsapp/latest/) and most probably Facebook trackers embeded (as it is a Facebook app). Way too many permissions required."
+      reason: "[very bad privacy policy](https://tosdr.org/en/service/217), apps with [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/com.google.android.apps.tachyon/latest/) and far too many permissions."
+    - name: WhatsApp
+      reason: "[bad privacy policy](https://tosdr.org/en/service/198), apps with [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/com.whatsapp/latest/) and far too many permissions."
     - name: Instagram
-      reason: "[Very bad privacy policy](https://tosdr.org/en/service/219). Apps have [Facebook trackers](https://reports.exodus-privacy.eu.org/en/reports/com.instagram.android/latest/). Way too many permissions required."
+      reason: "[very bad privacy policy](https://tosdr.org/en/service/219), apps with [Facebook trackers](https://reports.exodus-privacy.eu.org/en/reports/com.instagram.android/latest/) and far too many permissions."
     - name: Discord
-      reason: "[Very bad privacy policy.](https://tosdr.org/en/service/536). Apps have [various trackers](https://reports.exodus-privacy.eu.org/en/reports/com.discord/latest/). Many permissions required."
+      reason: "[very bad privacy policy](https://tosdr.org/en/service/536), apps with [various trackers](https://reports.exodus-privacy.eu.org/en/reports/com.discord/latest/) and many permissions."
     - name: Clubhouse
 recommend:
   entries:
     - name: BigBlueButton
       url: https://bigbluebutton.org/
-      description: BigBlueButton is a web conferencing system designed for online learning.
+      repo: https://github.com/bigbluebutton/bigbluebutton
+      description: Self-hosted web conferencing built for online classes, with whiteboard, breakout rooms and recordings.
+      license: LGPL-3.0
+      tags:
+        - self-host
+      caveats:
+        - website-trackers
       added: 2020-12-07
     - name: Briefing
-      url: https://github.com/holtwick/briefing/
-      description: Secure direct video group chat. Only open technologies (such as WebRTC) are used, which work with all modern browsers.
-      repo: https://github.com/holtwick/briefing/
+      url: https://brie.fi/ng
+      repo: https://github.com/holtwick/briefing
+      description: Group video chat in the browser over direct WebRTC connections, with no account.
+      license: AGPL-3.0
+      tags:
+        - p2p
+        - self-host
       added: 2024-10-21
     - name: Chitchatter
       url: https://chitchatter.im/
-      description: Secure P2P chat that is serverless, decentralized, and ephemeral. Supports text, audio, video, screen, and file sharing.
-      added: 2023-09-06
+      repo: https://github.com/jeremyckahn/chitchatter
+      description: Serverless, ephemeral peer-to-peer chat with audio, video, screen and file sharing.
+      license: GPL-2.0
       tags:
         - p2p
+      added: 2023-09-06
     - name: Jam
       url: https://github.com/jam-systems/jam
-      status: inactive
-      description: Jam is your own open source Clubhouse for mini conferences, friends, communities.
       repo: https://github.com/jam-systems/jam
+      description: Self-hostable audio rooms for small conferences and communities, like Clubhouse.
+      license: AGPL-3.0
+      status: inactive
       added: 2021-12-10
     - name: Jami
       url: https://jami.net/
-      description: P2P audio and video conferences.
+      repo: https://git.jami.net/savoirfairelinux/jami-client-qt
+      description: Peer-to-peer audio and video calls and chat with no central servers or account needed.
+      license: GPL-3.0
+      tags:
+        - p2p
       package_id: cx.ring
       added: 2020-12-07
-      tags:
-        - p2p
     - name: Jitsi Meet
-      url: https://github.com/jitsi/jitsi-meet
-      description: More secure, more flexible, and completely free video conferencing. If you use the official instance, you will need to login. Self-hosting is recommended.
+      url: https://jitsi.org/jitsi-meet/
       repo: https://github.com/jitsi/jitsi-meet
-      package_id: org.jitsi.meet
-      added: 2020-12-07
+      description: Video conferencing you can self-host; the official instance requires you to log in.
+      license: Apache-2.0
       tags:
         - self-host
-    - name: Mirotalk P2P
+      package_id: org.jitsi.meet
+      added: 2020-12-07
+    - name: MiroTalk P2P
       url: https://p2p.mirotalk.com/
-      description: Free WebRTC - P2P - Simple, Secure, Fast Real-Time Video Conferences Up to 4k and 60fps, compatible with all browsers and platforms.
-      added: 2022-09-12
+      repo: https://github.com/miroslavpejic85/mirotalk
+      description: Browser-based peer-to-peer video calls up to 4K, with nothing to install.
+      license: AGPL-3.0
       tags:
         - p2p
+      added: 2022-09-12
     - name: Mumble
       url: https://www.mumble.info/
-      description: Mumble is an open source voice communication application with advanced features.
+      repo: https://github.com/mumble-voip/mumble
+      description: Low-latency voice chat with encrypted connections, on servers you can run yourself.
+      tags:
+        - self-host
       added: 2021-12-10
     - name: PeerCalls
       url: https://github.com/peer-calls/peer-calls
-      description: Group peer to peer video calls for everyone written in Go and TypeScript.
-      added: 2020-12-08
+      repo: https://github.com/peer-calls/peer-calls
+      description: Group peer-to-peer video calls in the browser, self-hostable.
+      license: Apache-2.0
+      status: inactive
       tags:
         - p2p
-      repo: https://github.com/peer-calls/peer-calls
+      added: 2020-12-08
     - name: Nextcloud Talk
       url: https://nextcloud.com/talk/
-      description: Self-hosted video calls and chat that run inside your own Nextcloud server over WebRTC (AGPL-3.0).
-      package_id: com.nextcloud.talk2
-      added: 2020-12-09
+      repo: https://github.com/nextcloud/spreed
+      description: Video calls and chat that run inside your own Nextcloud server.
+      license: AGPL-3.0
       tags:
         - self-host
+      package_id: com.nextcloud.talk2
+      added: 2020-12-09
 subsections:
   - title: Alternative clients/modifications of Discord
     callouts:
       - type: warning
         text: |-
-          Your IP and messages will still be shared and belong to Discord and they are not encrypted.\
-          Also using any of these modifications/clients [violates](https://x.com/discord/status/1006178587731550208) the [Discord ToS](https://discord.com/terms) so, we are not responsible of any suspension or termination of your account **but**, this should [not happen **yet**](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos).
+          Discord still sees your IP and your messages, which are not end-to-end encrypted.\
+          Client mods [violate](https://x.com/discord/status/1006178587731550208) the [Discord ToS](https://discord.com/terms), so your account could be suspended, although this has [not been enforced so far](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos).
     recommend:
       entries:
         - name: OpenAsar
           url: https://openasar.dev/
-          description: An open-source alternative of Discord desktop's app.asar that comes with a [No Tracking](https://github.com/GooseMod/OpenAsar#readme) option that disables Discord's crash and error reporting.
+          repo: https://github.com/GooseMod/OpenAsar
+          description: Drop-in replacement for part of the Discord desktop app, with a [No Tracking](https://github.com/GooseMod/OpenAsar#readme) option that turns off crash and error reporting.
+          license: AGPL-3.0
           added: 2022-04-15
         - name: Vencord
-          url: https://github.com/Vendicated/Vencord
-          description: A Discord client mod that does things differently.
+          url: https://vencord.dev
           repo: https://github.com/Vendicated/Vencord
+          description: Discord client mod with plugins, including one that blocks Discord's tracking.
+          license: GPL-3.0
           added: 2022-10-10
         - name: BetterDiscord
           url: https://betterdiscord.app/
-          description: A client modification for Discord, also you need to install a [DoNotTrack](https://betterdiscord.app/plugin/DoNotTrack) plugin to block trackers.
+          repo: https://github.com/BetterDiscord/BetterDiscord
+          description: Discord client mod; add the [DoNotTrack](https://betterdiscord.app/plugins/DoNotTrack) plugin to block trackers.
+          license: Apache-2.0
           added: 2022-04-15
         - name: Legcord
-          url: https://github.com/Legcord/Legcord
-          description: Lightweight custom Discord client (formerly ArmCord) that blocks Discord's known trackers by default. OSL-3.0 licensed.
+          url: https://legcord.app
           repo: https://github.com/Legcord/Legcord
+          description: Lightweight Discord client that blocks Discord's known trackers by default, formerly ArmCord.
+          license: OSL-3.0
         - name: Kernel
           url: https://github.com/kernel-mod/electron
-          status: inactive
-          description: A super small and fast Electron client mod with the most capability, also you need to install a [Discord Utilities](https://github.com/slow/discord-utilities) package to block trackers.
           repo: https://github.com/kernel-mod/electron
+          description: Small Electron client mod; add the [Discord Utilities](https://github.com/discord-modifications/discord-utilities) package to block trackers.
+          license: MIT
+          status: inactive
           added: 2022-04-15
         - name: Replugged
           url: https://replugged.dev/
-          description: A continuation of the deprecated client mod [Powercord](https://powercord.dev).
+          repo: https://github.com/replugged-org/replugged
+          description: Discord client mod that continues the discontinued Powercord.
+          license: MIT
           added: 2022-10-10
         - name: WebCord
           url: https://github.com/SpacingBat3/WebCord
-          description: A Discord and Fosscord API-less client made with the Electron.
           repo: https://github.com/SpacingBat3/WebCord
+          description: Discord client that loads the web app in Electron instead of using the Discord API, with extra privacy settings.
+          license: MIT
           added: 2022-04-15
         - name: Aliucord
           url: https://github.com/Aliucord/Aliucord
+          repo: https://github.com/Aliucord/Aliucord
+          description: Mod for the Android Discord app that [disables Discord's tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
           platforms:
             - android
-          description: A modification for the Android Discord app that fully [disables the Discord Tracking](https://github.com/Aliucord/Aliucord/blob/main/Aliucord/src/main/java/com/aliucord/coreplugins/NoTrack.java).
-          repo: https://github.com/Aliucord/Aliucord
+          license: OSL-3.0
           added: 2021-09-13
         - name: Vesktop
           url: https://vesktop.dev/
-          description: Standalone desktop client for Discord that blocks its telemetry and ships with Vencord built in. Open source, GPL-3.0 licensed.
+          repo: https://github.com/Vencord/Vesktop
+          description: Desktop Discord client with Vencord built in, which blocks Discord's telemetry.
+          license: GPL-3.0
           added: 2026-07-04

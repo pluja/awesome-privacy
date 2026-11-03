@@ -1,15 +1,19 @@
 title: Link in Bio Tools
 slug: link-in-bio-tools
+intro: Hosted link pages put your profile and everyone who visits it on someone else's platform. These let you host the page yourself, or link your accounts with cryptographic proofs instead.
 recommend:
   entries:
     - name: Keyoxide
       url: https://keyoxide.org/
-      description: A modern, secure and privacy-friendly platform to establish your decentralized online identity.
+      repo: https://codeberg.org/keyoxide/keyoxide-web
+      description: Proves you own your online accounts with cryptographic signatures, with no central service to trust.
       package_id: org.keyoxide.keyoxide
       added: 2022-12-14
     - name: LinkStack
       url: https://linkstack.org/
-      description: Self-hosted open-source Linktree alternative.
-      added: 2023-09-27
+      repo: https://github.com/LinkStackOrg/LinkStack
+      description: Linktree alternative you host yourself.
+      license: AGPL-3.0
       tags:
         - self-host
+      added: 2023-09-27

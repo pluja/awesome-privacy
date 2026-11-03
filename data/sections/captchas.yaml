@@ -1,28 +1,37 @@
 title: Captchas
 slug: captchas
+intro: Mainstream captchas tell humans from bots by profiling visitors. These make the visitor's browser solve a small proof-of-work puzzle instead, with no tracking needed.
 avoid:
   items:
     - name: Google reCAPTCHA
+      reason: uses cookies to track visitors and score their IP addresses.
       tosdr: en_217
     - name: hCaptcha
       tosdr: en_2207
-  intro: Google captchas use cookies to track users and rank their IPs.
 recommend:
   entries:
-    - name: Altcha.org
+    - name: ALTCHA
       url: https://altcha.org
-      description: Free, open-source and self-hosted CAPTCHA alternative using proof-of-work mechanism.
-      added: 2024-06-17
+      repo: https://github.com/altcha-org/altcha
+      description: Self-hosted proof-of-work captcha with no cookies or tracking.
+      license: MIT
       tags:
         - self-host
+      added: 2024-06-17
     - name: mCaptcha
-      url: http://mcaptcha.org/
-      description: ([repo](https://github.com/mCaptcha/mCaptcha)) An open-source CAPTCHA system with seamless UX. mCaptcha uses SHA256 based proof-of-work (PoW) to rate limit users.
+      url: https://mcaptcha.org/
+      repo: https://github.com/mCaptcha/mCaptcha
+      description: Proof-of-work captcha that rate-limits bots by making each request cost some computation.
+      license: AGPL-3.0
+      tags:
+        - self-host
       added: 2023-08-09
     - name: Private Captcha
-      url: https://github.com/PrivateCaptcha/PrivateCaptcha
-      description: Privacy-first and self-hosted Proof-of-Work CAPTCHA alternative, made in EU.
+      url: https://privatecaptcha.com
       repo: https://github.com/PrivateCaptcha/PrivateCaptcha
-      added: 2025-10-20
+      description: EU-made proof-of-work captcha, as a hosted service or on your own server.
       tags:
         - self-host
+      caveats:
+        - source-available
+      added: 2025-10-20

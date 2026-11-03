@@ -1,41 +1,45 @@
 title: Ebooks
 slug: ebooks
+intro: Commercial ebook platforms track your reading, tie your books to an account that can be revoked, and expect you to stay online. Keep your library on your own devices or your own server instead.
 avoid:
   items:
     - name: Amazon Kindle
-      reason: Tracks reading activity, requires an Amazon account, and has a documented history of [remote deletion](https://www.nytimes.com/2009/07/18/technology/18kindle.html).
+      reason: tracks your reading, requires an Amazon account, and Amazon has [remotely deleted books](https://www.nytimes.com/2009/07/18/technology/18kindle.html) from customers' devices.
     - name: Google Play Books
-      reason: Tied to a Google account, tracks reading data, and does not offer an offline-only mode.
+      reason: tied to your Google account, and tracks your reading.
     - name: Kobo / Apple Books
-      reason: Require accounts and sync reading data to company servers by default.
-  intro: Commercial ebook platforms track your reading habits, tie purchases to accounts that can be revoked, and require constant online activation.
+      reason: require an account and sync your reading data to company servers by default.
 recommend:
   entries:
     - name: Calibre
       url: https://calibre-ebook.com/
-      description: Open-source ebook manager for Linux, Windows, and macOS with format conversion, metadata editing, and a built-in reader (GPL-3.0).
       repo: https://github.com/kovidgoyal/calibre
-      license: GPL-3.0
-      added: 2026-09-30
+      description: Ebook manager with format conversion, metadata editing and a built-in reader, all offline.
       platforms:
         - linux
-        - windows
         - macos
+        - windows
+      license: GPL-3.0
       tags:
         - offline
+      caveats:
+        - website-trackers
+      added: 2026-09-30
     - name: Kavita
-      url: https://github.com/Kareadita/Kavita
-      description: Cross-platform self-hosted digital library for ebooks and comics with a built-in web reader (GPL-3.0).
+      url: https://www.kavitareader.com/
       repo: https://github.com/Kareadita/Kavita
+      description: Self-hosted digital library for ebooks and comics with a built-in web reader.
       license: GPL-3.0
-      added: 2026-09-30
       tags:
         - self-host
+      caveats:
+        - website-trackers
+      added: 2026-09-30
     - name: Komga
-      url: https://github.com/gotson/komga
-      description: Self-hosted media server for comics, magazines, and ebooks with a responsive web interface and OPDS support (MIT).
+      url: https://komga.org/
       repo: https://github.com/gotson/komga
+      description: Self-hosted server for comics, magazines and ebooks with a web reader and OPDS support.
       license: MIT
-      added: 2026-09-30
       tags:
         - self-host
+      added: 2026-09-30

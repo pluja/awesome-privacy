@@ -1,35 +1,45 @@
 title: Version Control
 slug: version-control
+intro: Hosting your code on a big platform hands your activity and your code to one company. A non-profit host or a forge you run yourself keeps you in charge of both.
 avoid:
   items:
-    - name: Github
-      reason: ", although the privacy policy is not very bad, it is owned by Microsoft, and it's common knowledge that it uses the code it hosts to train AI models."
+    - name: GitHub
+      reason: owned by Microsoft, and public code hosted there was used to train Copilot.
       tosdr: en_297
 recommend:
   entries:
     - name: Codeberg
       url: https://codeberg.org/
-      description: Codeberg is a collaboration platform providing Git hosting and services for free and open source software, content and projects.
+      description: Non-profit Git hosting for free software projects, run on Forgejo by a German association.
       added: 2024-04-04
     - name: Forgejo
       url: https://forgejo.org/
-      description: Forgejo is a self-hosted lightweight software forge.
-      added: 2024-04-04
+      repo: https://codeberg.org/forgejo/forgejo
+      description: Lightweight self-hosted Git forge developed by a community under the non-profit Codeberg e.V.
       tags:
         - self-host
+      added: 2024-04-04
+    - name: Gitea
+      url: https://about.gitea.com/
+      repo: https://github.com/go-gitea/gitea
+      description: Lightweight self-hosted Git forge, and the project Forgejo was forked from.
+      license: MIT
+      tags:
+        - self-host
+      caveats:
+        - website-trackers
+      added: 2026-07-04
     - name: GitLab
       url: https://about.gitlab.com/
-      description: GitLab a DevOps software package that can develop, secure, and operate software.
+      repo: https://gitlab.com/gitlab-org/gitlab
+      description: Full DevOps platform with Git hosting, CI and issue tracking that you can run on your own server.
+      caveats:
+        - website-trackers
       added: 2024-04-04
     - name: Radicle
       url: https://radicle.dev/
-      description: An open source, peer-to-peer code collaboration stack built on Git. Unlike centralized code hosting platforms, there is no single entity controlling the network. Repositories are replicated across peers in a decentralized manner, and users are in full control of their data and workflow.
-      added: 2024-07-06
+      repo: https://radicle.network/seeds/seed.radicle.dev/rad:z3gqcJUoA1n9HaHKufZs5FCSGazv5
+      description: Peer-to-peer code collaboration on Git, with repositories replicated across peers and no central server in control.
       tags:
         - p2p
-    - name: Gitea
-      url: https://gitea.com
-      description: Lightweight self-hosted Git forge and the project Forgejo was forked from. Open source, MIT licensed.
-      added: 2026-07-04
-      tags:
-        - self-host
+      added: 2024-07-06

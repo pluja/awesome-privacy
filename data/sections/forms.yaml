@@ -1,28 +1,41 @@
 title: Forms
 slug: forms
+intro: Hosted form builders collect every answer your respondents give on the provider's servers. Prefer a form tool that encrypts responses end to end or runs on your own server.
 avoid:
   items:
     - name: Google Forms
+      reason: responses are stored on Google's servers without end-to-end encryption.
       tosdr: en_217
 recommend:
   entries:
     - name: TypeBot
       url: https://typebot.com
-      description: Open-source conversational forms.
+      repo: https://github.com/baptisteArno/typebot.io
+      description: Builder for conversational, chat-style forms that you can host yourself.
+      caveats:
+        - source-available
       added: 2022-05-19
+      tags:
+        - self-host
     - name: CryptPad Forms
       url: https://cryptpad.fr/form/
-      description: Part of the Cryptpad end-to-end encrypted and open-source collaboration suite.
+      repo: https://github.com/cryptpad/cryptpad
+      description: End-to-end encrypted forms and polls, part of the CryptPad collaboration suite.
+      license: AGPL-3.0
       added: 2022-05-19
       tags:
         - e2ee
+        - self-host
     - name: FramaForms
       url: https://framaforms.org/
-      description: Design your online surveys easily while respecting your audience.
+      description: Online form and survey service run by the French nonprofit Framasoft.
       added: 2022-05-19
     - name: Formbricks
       url: https://formbricks.com
-      description: Self-hosted survey and form builder for collecting responses without handing your data to a third party (AGPL-3.0).
+      repo: https://github.com/formbricks/formbricks
+      description: Self-hosted survey and form builder, so responses stay on your own server.
+      caveats:
+        - website-trackers
       added: 2026-07-04
       tags:
         - self-host

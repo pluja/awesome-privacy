@@ -1,16 +1,16 @@
 title: Privacy vs Security vs Anonymity
 slug: privacy-vs-security-vs-anonymity
 intro: |-
-  Anonymity, Privacy, and Security are often used interchangeably, but they actually represent distinct concepts. It is important to understand the differences between them.
+  Privacy, security and anonymity are often used interchangeably, but they mean different things.
 
-  - Privacy is about regulating who has access to your personal information, being aware of the data that is being collected about you, and having the ability to decide who can access it and how. In short, privacy involves controlling your personal information.
+  - Privacy is control over your personal information: knowing what is collected about you, and deciding who can access it and how.
 
-  - Security refers to safeguarding your personal information from unauthorized access or theft. It involves ensuring that your data is protected and stored in a secure manner, making it difficult for malicious actors to access it.
+  - Security is protection of your information from unauthorized access or theft, so attackers can't get at it.
 
-  - Anonymity is about ensuring that your actions cannot be traced back to you. This means that even if someone discovers what you are doing, they will not be able to identify you as the source.
+  - Anonymity means your actions can't be traced back to you. Someone may see what is done, but not who did it.
 
-  It is important to note that privacy and security are not necessarily interdependent. For instance, Google systems are secure and unlikely to be hacked, but Google still has access to your personal data and makes use of it.
+  Privacy and security don't always come together. Google's systems are secure and hard to break into, yet Google still has access to your personal data and uses it.
 
-  Privacy and anonymity are also not necessarily linked, services like Signal offer high levels of privacy since they do not collect any data about what you say, who you talk to or how you use the app, but they may not be anonymous since you still need to register using your phone number (which is in many cases linked to your identity).
+  Privacy and anonymity don't always come together either. Signal doesn't collect what you say, who you talk to or how you use the app, so it offers strong privacy, but it isn't anonymous: you register with a phone number, which is often tied to your identity.
 
-  Finally, there are services that may offer all three: anonymity, privacy, and security. The primary focus of this list is to provide alternatives that prioritize privacy. These alternatives give you control over your data and do not collect or sell it.
+  Some services offer all three. This list focuses on privacy: alternatives that give you control over your data and don't collect or sell it.

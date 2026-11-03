@@ -1,26 +1,40 @@
 title: Developer Tools
 slug: developer-tools
+intro: Many developer tools phone home with usage data and sometimes snippets of your code. These run locally and keep your work on your machine.
 recommend:
   entries:
     - name: Beekeeper Studio
       url: https://www.beekeeperstudio.io
-      description: Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+      repo: https://github.com/beekeeper-studio/beekeeper-studio
+      description: Desktop SQL editor and database manager for Postgres, MySQL, SQLite and many other databases.
+      platforms:
+        - linux
+        - macos
+        - windows
       added: 2021-05-29
 subsections:
   - title: IDEs
     avoid:
+      intro: Proprietary editors often ship with telemetry turned on by default.
       items: []
-      intro: Avoid using privative IDEs that are full of trackers and telemetry.
     recommend:
       entries:
+        - name: GNU Emacs
+          url: https://www.gnu.org/software/emacs/
+          repo: https://git.savannah.gnu.org/cgit/emacs.git
+          description: Extensible, self-documenting editor from the GNU Project that you can shape into a full IDE.
         - name: Neovim
           url: https://neovim.io/
-          description: Hyperextensible Vim-based text editor.
+          repo: https://github.com/neovim/neovim
+          description: Extensible Vim-based editor with built-in Lua scripting and language server support.
           added: 2021-09-26
         - name: VSCodium
           url: https://vscodium.com/
-          description: Free/Libre Open Source Software Binaries of VSCode. Vscode source code is open source (MIT-licensed), but the product available for download (Visual Studio Code) is licensed under [this not-FLOSS license](https://code.visualstudio.com/license) and contains telemetry/tracking.
+          repo: https://github.com/VSCodium/vscodium
+          description: VS Code built from its open source code, without Microsoft's telemetry or its [proprietary license](https://code.visualstudio.com/license).
+          platforms:
+            - linux
+            - macos
+            - windows
+          license: MIT
           added: 2021-09-26
-        - name: GNU Emacs
-          url: https://www.gnu.org/software/emacs/
-          description: Extensible, customizable free software text editor and IDE maintained by the GNU Project. GPL-3.0 licensed.

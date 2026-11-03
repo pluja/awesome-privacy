@@ -1,24 +1,38 @@
 title: Download Manager
 slug: download-manager
+intro: A download manager sees every file you fetch and every site you fetch it from. These resume and speed up downloads without ads or bundled extras, and their code is open to inspect.
 recommend:
   entries:
     - name: Persepolis Download Manager
-      url: https://github.com/persepolisdm/persepolis
-      description: Persepolis is a download manager & a GUI for Aria2. It's written in Python. Persepolis is a sample of free and open source software. It's developed for GNU/Linux distributions, BSDs, MacOS, and Microsoft Windows.
+      url: https://persepolisdm.github.io
       repo: https://github.com/persepolisdm/persepolis
+      description: Graphical front end for aria2 with download scheduling and video grabbing.
+      license: GPL-3.0
+      platforms:
+        - desktop
       added: 2021-10-22
     - name: Motrix
-      url: https://github.com/agalwood/Motrix
-      description: A full-featured download manager.
+      url: https://motrix.app
       repo: https://github.com/agalwood/Motrix
+      description: Full-featured download manager for HTTP, FTP, BitTorrent and magnet links.
+      platforms:
+        - desktop
       added: 2021-10-22
     - name: Xtreme Download Manager
-      url: https://github.com/subhra74/xdm
-      description: Xtreme Download Manager (XDM) is a powerful tool to increase download speeds up to 500%, save streaming videos from YouTube, DailyMotion, Facebook, Vimeo, Google Video and 1000+ other websites, resume broken/dead downloads, schedule and convert downloads.
+      url: https://xtremedownloadmanager.com/
       repo: https://github.com/subhra74/xdm
+      description: Download accelerator that resumes broken downloads and saves streaming video from many sites.
+      license: GPL-3.0
+      platforms:
+        - desktop
+      caveats:
+        - website-trackers
       added: 2021-10-22
     - name: axel
       url: https://github.com/axel-download-accelerator/axel
-      description: Lightweight CLI download accelerator. It supports HTTP, HTTPS, FTP and FTPS protocols.
       repo: https://github.com/axel-download-accelerator/axel
+      description: Lightweight download accelerator for HTTP, HTTPS, FTP and FTPS.
+      license: GPL-2.0
+      platforms:
+        - cli
       added: 2021-11-23

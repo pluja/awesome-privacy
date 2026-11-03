@@ -1,66 +1,90 @@
 title: Analytics
 slug: analytics
-avoid:
-  items: []
-  intro: Avoid any analytics service that comes from Google, Facebook, Microsoft or any private service. These kind of analytics hurt user privacy.
+intro: Analytics from Google, Facebook or Microsoft feeds your visitors' data into their ad businesses. These tools give you the numbers without profiling visitors, and most can run on your own server.
 recommend:
   entries:
     - name: Ackee
       url: https://ackee.electerious.com/
-      description: Self-hosted website analytics.
-      added: 2021-06-12
+      repo: https://github.com/electerious/Ackee
+      description: Self-hosted website analytics with no cookies and no tracking of unique users.
+      license: MIT
       tags:
         - self-host
+      added: 2021-06-12
     - name: Aptabase
       url: https://aptabase.com
-      description: Open-source, privacy-first and simple analytics for mobile and desktop apps.
+      repo: https://github.com/aptabase/aptabase
+      description: Analytics for mobile and desktop apps, built to collect no personal data.
+      license: AGPL-3.0
       added: 2023-05-02
     - name: Cabin
       url: https://withcabin.com
-      description: Privacy-first, carbon conscious web analytics.
+      description: Lightweight web analytics with no cookies, IP logging or fingerprinting, plus a carbon footprint report.
       added: 2022-09-21
     - name: GoatCounter
       url: https://www.goatcounter.com/
-      description: Privacy aware, lightweight and open-source analytics platform.
+      repo: https://github.com/arp242/goatcounter
+      description: Lightweight web analytics, as a hosted service or on your own server.
       added: 2023-09-28
     - name: Matomo
       url: https://matomo.org/
-      description: Google Analytics alternative that protects your data and your customers' privacy.
+      repo: https://github.com/matomo-org/matomo
+      description: Full-featured Google Analytics replacement that keeps the data on your own server.
+      license: GPL-3.0
       added: 2020-12-08
     - name: Nullitics
       url: https://nullitics.com/
-      description: Zero-effort open-source cheap analytics.
+      repo: https://github.com/nullitics/nullitics
+      description: Minimal cookie-free analytics for a flat monthly fee, also usable as a library on your own server.
+      license: MIT
+      status: inactive
       added: 2021-05-27
     - name: Pirsch
       url: https://pirsch.io/
-      description: Pirsch is a simple, privacy-friendly, open-source alternative to Google Analytics — lightweight, cookie-free and easily integrated into any website or backend.
+      repo: https://github.com/pirsch-analytics/pirsch
+      description: Cookie-free web analytics that can also track server-side from your backend.
+      license: AGPL-3.0
       added: 2021-12-29
     - name: Plausible
       url: https://plausible.io/
-      description: Simple and privacy-friendly alternative to Google Analytics.
+      repo: https://github.com/plausible/analytics
+      description: Lightweight, cookie-free web analytics, as a hosted service or on your own server.
+      license: AGPL-3.0
       added: 2020-12-08
+    - name: Rybbit
+      url: https://rybbit.com
+      repo: https://github.com/rybbit-io/rybbit
+      description: Cookie-free web analytics, as a hosted service or on your own server.
+      license: AGPL-3.0
+      added: 2025-06-17
     - name: Shynet
       url: https://github.com/milesmcc/shynet
-      description: Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
       repo: https://github.com/milesmcc/shynet
+      description: Self-hosted web analytics that works without cookies or JavaScript.
+      license: Apache-2.0
       added: 2021-06-01
     - name: Swetrix
       url: https://swetrix.com
-      description: Privacy-focused, fully cookieless and opensource (and selfhostable) web-analytics service.
-      added: 2022-06-15
+      repo: https://github.com/Swetrix/swetrix
+      description: Cookie-free web analytics, as a hosted service or on your own server.
+      license: AGPL-3.0
       tags:
         - self-host
+      added: 2022-06-15
     - name: Umami
       url: https://umami.is/
-      description: A simple, fast, website analytics alternative to Google Analytics.
+      repo: https://github.com/umami-software/umami
+      description: Lightweight, cookie-free web analytics, as a hosted service or on your own server.
+      license: MIT
+      caveats:
+        - website-trackers
       added: 2021-05-18
     - name: Unidentified Analytics
       url: https://unidentifiedanalytics.web.app/
-      description: Naive ip-based tracking that works everywhere (web, command-line, email, etc). No account required. Developer friendly.
-      added: 2024-04-05
+      repo: https://github.com/actuallymentor/unidentified-analytics
+      description: IP-based hit counter that works anywhere a URL can load, from web pages to the command line, with no account.
+      license: MIT
       tags:
         - no-account
-    - name: Rybbit
-      url: https://rybbit.com
-      description: Open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive.
-      added: 2025-06-17
+      status: inactive
+      added: 2024-04-05

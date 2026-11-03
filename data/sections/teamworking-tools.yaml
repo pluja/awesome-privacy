@@ -1,48 +1,65 @@
 title: Teamworking Tools
 slug: teamworking-tools
+intro: Workplace chat holds your team's most sensitive conversations on someone else's servers. Prefer tools you can host yourself, so the messages and files stay with your organization.
+avoid:
+  items:
+    - name: Slack
+      tosdr: en_206
+    - name: Google Meet
+      tosdr: en_217
+    - name: Microsoft Teams
+      tosdr: en_244
+    - name: Discord
+      tosdr: en_536
 recommend:
   entries:
-    - name: "!["
-      url: https://shields.tosdr.org/en_206.svg
-      description: "](https://tosdr.org/en/service/206)"
-    - name: Google Meet [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
-    - name: Microsoft Teams [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
-    - name: "!["
-      url: https://shields.tosdr.org/en_536.svg
-      description: "](https://tosdr.org/en/service/536)"
     - name: Zulip
       url: https://zulip.com/
-      description: Chat for distributed teams.
+      repo: https://github.com/zulip/zulip
+      description: Team chat organized into topic threads, which you can host yourself.
+      license: Apache-2.0
+      tags:
+        - self-host
       package_id: com.zulipmobile
       added: 2020-12-09
     - name: Stoat
       url: https://stoat.chat/
-      description: (formerly Revolt) User-first chat platform built with modern web technologies.
+      repo: https://github.com/stoatchat/stoatchat
+      description: Discord-like chat platform with servers and channels, which you can host yourself, formerly Revolt.
+      tags:
+        - self-host
       added: 2021-09-13
-    - name: Twake
+    - name: Twake Chat
       url: https://twake.app/
-      description: Work in a team faster. Twake covers all of your organizational needs through a single platform.
+      repo: https://github.com/linagora/twake-on-matrix
+      description: Workplace chat built on Matrix, part of Linagora's Twake Workplace suite.
+      license: AGPL-3.0
       added: 2020-12-09
-    - name: RocketChat
-      url: https://rocket.chat/
-      description: Control your communication, manage your data, and have your own collaboration platform to improve team productivity.
+    - name: Rocket.Chat
+      url: https://www.rocket.chat/
+      repo: https://github.com/RocketChat/Rocket.Chat
+      description: Self-hosted team chat with end-to-end encrypted rooms and federation.
+      tags:
+        - self-host
+      caveats:
+        - website-trackers
       added: 2020-12-09
     - name: Nextcloud Talk
       url: https://nextcloud.com/talk/
-      description: Keep conversations private with Nextcloud Talk.
+      repo: https://github.com/nextcloud/spreed
+      description: Chat and video calls that run inside your own Nextcloud server.
+      license: AGPL-3.0
       package_id: com.nextcloud.talk2
       added: 2020-12-09
       tags:
         - self-host
     - name: Mattermost
       url: https://mattermost.com/
-      description: Open-source Slack alternative.
+      repo: https://github.com/mattermost/mattermost
+      description: Self-hosted Slack alternative for teams.
+      tags:
+        - self-host
+      caveats:
+        - website-trackers
       added: 2020-12-09
-    - name: See this section for Discord mods and alternative clients
-      url: https://github.com/pluja/awesome-privacy/blob/main/README.md#alternative-clientsmodifications-of-discord
-callouts:
-  - type: warning
-    text: |-
-      **Alternative clients/modifications of Discord:**
-      Your IP and messages will still be shared and belong to Discord and they are not encrypted.\
-      Also using any of these modifications/clients [violates](https://x.com/discord/status/1006178587731550208) the [Discord ToS](https://discord.com/terms) so, we are not responsible of any suspension or termination of your account **but**, this should [not happen **yet**](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos).
+notes: Discord mods and alternative clients, and the risks of using them, are listed under [Alternative clients/modifications of Discord](#alternative-clientsmodifications-of-discord).

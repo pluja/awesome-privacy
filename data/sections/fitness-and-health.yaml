@@ -1,127 +1,146 @@
 title: Fitness and Health
 slug: fitness-and-health
-avoid:
-  items: []
-  intro: |-
-    Your health is a **very** important piece of your **private data** and you should care **a lot** about it. Also, health related data is among the most coveted. Please don't use apps from Google, Fitbit, Huawei, Xiaomi or any company that seeks the gathering of your personal data.
-
-    If you need an app for **menstrual cycle tracking** please don't use any apps like Clue, Period Tracker, etc. Those cute pink apps are greedy for your menstrual cycle and intimate life data and will sell it for sure, protect your private life. Check the list below and you will find nice alternatives.
+intro: Health data is among the most sensitive data you have, and the most sought after. Skip the apps from Google, Fitbit, Huawei, Xiaomi and other data-hungry companies, and pick ones that keep your records on your device or your own server.
 subsections:
   - title: Fitness trackers
     recommend:
       entries:
-        - name: Fitotrack
+        - name: FitoTrack
           url: https://codeberg.org/jannis/FitoTrack
+          repo: https://codeberg.org/jannis/FitoTrack
+          description: Workout tracker that records your GPS activities and keeps them on the device.
           platforms:
             - android
-          description: A privacy oriented fitness tracker for Android.
-          repo: https://codeberg.org/jannis/FitoTrack
           package_id: de.tadris.fitness
           added: 2020-12-28
         - name: OpenTracks
-          url: https://codeberg.org/OpenTracksApp/OpenTracks
+          url: https://opentracksapp.com/
+          repo: https://codeberg.org/OpenTracksApp/OpenTracks
+          description: Sport tracker that records your activities on the device and has no internet permission.
           platforms:
             - android
-          description: OpenTracks is a sport tracking application that completely respects your privacy.
-          repo: https://codeberg.org/OpenTracksApp/OpenTracks
+          tags:
+            - offline
           added: 2021-06-15
         - name: Gadgetbridge
-          url: https://codeberg.org/Freeyourgadget/Gadgetbridge
+          url: https://gadgetbridge.org/
+          repo: https://codeberg.org/Freeyourgadget/Gadgetbridge
+          description: Use your smartwatch or fitness band without the vendor's app or cloud.
           platforms:
             - android
-          description: A free and cloudless replacement for your gadget vendors' closed source Android applications.
-          repo: https://codeberg.org/Freeyourgadget/Gadgetbridge
           added: 2024-07-22
         - name: FitTrackee
           url: https://codeberg.org/FitTrackee/FitTrackee
-          description: Self-hosted web app to record and analyze outdoor activities from GPS files, as a Strava alternative (AGPL-3.0).
           repo: https://codeberg.org/FitTrackee/FitTrackee
-          added: 2026-07-04
+          description: Self-hosted Strava alternative for recording and analyzing outdoor activities from GPS files.
           tags:
             - self-host
+          added: 2026-07-04
         - name: RunnerUp
           url: https://github.com/jonasoreland/runnerup
+          repo: https://github.com/jonasoreland/runnerup
+          description: Run and bike tracker that keeps activities on the device, with optional sync to services like Strava.
           platforms:
             - android
-          description: Open source run and bike tracker for Android that keeps activities on the device, with optional sync to services like Strava. GPL-3.0 licensed.
-          repo: https://github.com/jonasoreland/runnerup
+          license: GPL-3.0
   - title: Workout planners
     recommend:
       entries:
         - name: wger
-          url: https://wger.de/en/software/features
-          description: A free, open source, self-hosted web application that manages your exercises, workouts and nutrition.
-          added: 2020-12-28
+          url: https://wger.de/
+          repo: https://github.com/wger-project/wger
+          description: Self-hosted manager for your workouts, exercises and nutrition.
+          license: AGPL-3.0
           tags:
             - self-host
+          added: 2020-12-28
   - title: Food
     recommend:
       entries:
-        - name: OpenFoodFacts
+        - name: Open Food Facts
           url: https://world.openfoodfacts.org/
-          description: Open Food Facts is a food products database made by everyone, for everyone. You can use it to make better food choices.
+          repo: https://github.com/openfoodfacts/openfoodfacts-server
+          description: Collaborative database of food products, with ingredients, additives and nutrition data.
+          license: AGPL-3.0
           children:
             - name: OFF Apps
               url: https://world.openfoodfacts.org/open-food-facts-mobile-app
-              description: Open source Android and iOS apps to scan food barcodes and read ingredient, additive, and nutrition data.
+              repo: https://github.com/openfoodfacts/smooth-app
+              description: Mobile apps that scan a product's barcode and show its ingredients, additives and nutrition data.
+              platforms:
+                - android
+                - ios
+              license: Apache-2.0
               added: 2020-12-28
           added: 2020-12-28
   - title: Menstrual cycle trackers
+    intro: Cycle data is intimate. Rather than mainstream trackers like Clue or Period Tracker, use one that keeps it on your device or encrypts it end to end.
     recommend:
       entries:
         - name: Bluemoon
           url: https://gitlab.com/ngrob/bluemoon-android
+          repo: https://gitlab.com/ngrob/bluemoon-android
+          description: Period tracker that keeps your data on the device.
           platforms:
             - android
-          description: Open source, privacy friendly menstruation tracking app. Your period, your data!
-          repo: https://gitlab.com/ngrob/bluemoon-android
           package_id: ch.nilsgrob.android.bluemoon
           added: 2024-04-30
         - name: Drip
           url: https://dripapp.org/
+          repo: https://gitlab.com/bloodyhealth/drip
+          description: Menstrual cycle and fertility tracker that keeps everything you enter on your device.
           platforms:
             - android
-          description: Menstrual cycle and fertility tracking. Everything you enter stays on your device.
+            - ios
           package_id: com.drip
           added: 2020-12-28
         - name: Euki
           url: https://eukiapp.org/
-          description: The period tracker that doesn’t track you.
+          repo: https://github.com/Euki-Inc/Euki-Android
+          description: Period and sexual health tracker built to keep your data on your phone.
+          platforms:
+            - android
+            - ios
+          license: GPL-3.0
+          caveats:
+            - website-trackers
           added: 2024-04-30
         - name: Periodical
           url: https://codeberg.org/askaaron/periodical
+          repo: https://codeberg.org/askaaron/periodical
+          description: Calendar for tracking your period and estimating fertile days.
           platforms:
             - android
-          description: A calendar to track your menstruation and calculate possible fertile days
-          repo: https://codeberg.org/askaaron/periodical
           package_id: de.arnowelzel.android.periodical
           added: 2024-09-25
         - name: Poppy
           url: https://poppy.usenostr.org
-          description: Poppy is a private period tracker that runs in the browser. It stores data locally, and can sync and backup through Nostr relays without a Poppy server or account, all encrypted end to end.
-          added: 2026-05-25
+          description: Period tracker in the browser that stores data locally and can sync end-to-end encrypted through Nostr relays, no account needed.
           tags:
             - e2ee
+            - no-account
+          added: 2026-05-25
   - title: Medical health
     recommend:
       entries:
         - name: MedTimer
           url: https://github.com/Futsch1/medTimer
+          repo: https://github.com/Futsch1/medTimer
+          description: Medication reminder that keeps all data on the device and has no internet permission.
           platforms:
             - android
-          description: Offline medication reminder that keeps all data on your device and needs no internet permission. Available on F-Droid, MIT licensed.
-          repo: https://github.com/Futsch1/medTimer
           license: MIT
-          package_id: com.futsch1.medtimer
-          added: 2026-11-02
           tags:
             - offline
             - no-account
+          package_id: com.futsch1.medtimer
+          added: 2026-11-02
         - name: Fasten
           url: https://github.com/fastenhealth/fasten-onprem
-          status: inactive
-          description: Fasten is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 1000's of insurances/hospitals/clinics.
           repo: https://github.com/fastenhealth/fasten-onprem
-          added: 2023-05-16
+          description: Self-hosted personal and family medical record that pulls records from insurers, hospitals and clinics.
+          license: GPL-3.0
+          status: inactive
           tags:
             - self-host
+          added: 2023-05-16

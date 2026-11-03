@@ -1,70 +1,89 @@
 title: Bookmarking
 slug: bookmarking
+intro: Bookmarks and read-later lists reveal a lot about what you read and care about. Prefer a manager you host yourself, or one that syncs bookmarks through storage you already control.
 avoid:
   items:
     - name: Evernote Web Clipper
-      reason: "[Bad privacy policy](https://tosdr.org/en/service/207). [Apps have many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.evernote/latest/) and require too many permissions."
+      reason: "a [poorly rated privacy policy](https://tosdr.org/en/service/207), and Evernote's apps carry [many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.evernote/latest/) and ask for too many permissions."
 recommend:
   entries:
     - name: 42links
       url: https://42links.tuxproject.de
-      description: Open-source, self-hosted, minimalist bookmark storage service.
+      repo: https://code.rosaelefanten.org/42links
+      description: Minimalist self-hosted bookmark storage.
       added: 2025-11-05
       tags:
         - self-host
     - name: Floccus
       url: https://floccus.org/
-      description: Sync your bookmarks privately across browsers and devices.
+      repo: https://github.com/floccusaddon/floccus
+      description: Syncs your bookmarks across browsers and devices through your own Nextcloud, WebDAV or Git server.
+      license: MPL-2.0
       package_id: org.handmadeideas.floccus
       added: 2024-10-27
     - name: Grimoire
       url: https://github.com/goniszewski/grimoire
-      description: Modern, open source, self-hosted bookmark manager.
       repo: https://github.com/goniszewski/grimoire
+      description: Self-hosted bookmark manager that extracts and keeps the readable content of what you save.
+      license: MIT
       added: 2023-11-30
       tags:
         - self-host
     - name: Karakeep
-      url: https://karakeep.app/
-      description: (previously Hoarder) Open source "Bookmark Everything" app that uses AI for automatically tagging the content you throw at it.
+      url: https://karakeep.com/
+      repo: https://github.com/karakeep-app/karakeep
+      description: Self-hosted app for saving links, notes and images, with full-text search and optional AI tagging, formerly Hoarder.
+      license: AGPL-3.0
+      caveats:
+        - website-trackers
       added: 2025-11-05
+      tags:
+        - self-host
     - name: LinkAce
       url: https://github.com/Kovah/LinkAce
-      description: Open source, self-hosted bookmark archive that monitors and organizes your saved links (GPL-3.0).
       repo: https://github.com/Kovah/LinkAce
+      description: Self-hosted bookmark archive that monitors and organizes your saved links.
+      license: GPL-3.0
       added: 2022-09-19
       tags:
         - self-host
     - name: LinkDing
       url: https://github.com/sissbruecker/linkding
-      description: Open source, self-hosted bookmark manager built to be minimal, fast, and easy to run with Docker (MIT).
       repo: https://github.com/sissbruecker/linkding
+      description: Minimal, fast self-hosted bookmark manager that is easy to run with Docker.
+      license: MIT
       added: 2022-09-19
       tags:
         - self-host
     - name: Shiori
       url: https://github.com/go-shiori/shiori
-      description: Open source, self-hosted bookmark manager written in Go, usable as a CLI or web app (MIT).
       repo: https://github.com/go-shiori/shiori
+      description: Self-hosted bookmark manager written in Go, usable from the command line or a web interface.
+      license: MIT
       added: 2022-09-19
       tags:
         - self-host
     - name: Wallabag
       url: https://wallabag.org/
-      description: Open-source, optionally self-hosted, read it later server. Provides paid hosted service with privacy in mind.
+      repo: https://github.com/wallabag/wallabag
+      description: Read-it-later server you can host yourself, or use through a paid hosted service.
+      license: MIT
       package_id: fr.gaulupeau.apps.InThePoche
       added: 2022-09-19
       tags:
         - self-host
     - name: Linkwarden
       url: https://linkwarden.app
-      description: Self-hosted bookmark manager that saves and archives full copies of the pages you collect (AGPL-3.0).
+      repo: https://github.com/linkwarden/linkwarden
+      description: Self-hosted bookmark manager that saves and archives full copies of the pages you collect.
+      license: AGPL-3.0
       added: 2026-07-04
       tags:
         - self-host
     - name: Readeck
       url: https://readeck.org
-      description: Single-binary self-hosted read-it-later app that saves and archives articles for offline reading (AGPL-3.0).
+      repo: https://codeberg.org/readeck/readeck
+      description: Single-binary self-hosted read-it-later app that saves articles for offline reading.
       added: 2026-07-04
       tags:
         - self-host
@@ -75,16 +94,20 @@ subsections:
       entries:
         - name: Blasta
           url: https://git.xmpp-it.net/sch/Blasta
-          description: A collaborative bookmarks manager for organizing online content.
           repo: https://git.xmpp-it.net/sch/Blasta
+          description: Federated, collaborative bookmark manager built on XMPP PubSub.
           added: 2024-11-20
         - name: Hypothesis
           url: https://github.com/hypothesis/h/
-          description: Annotate the web, with anyone, anywhere.
           repo: https://github.com/hypothesis/h/
+          description: Annotates web pages and PDFs, privately or in shared groups.
+          license: BSD-2-Clause
           added: 2022-10-17
         - name: Kobuddy
           url: https://github.com/karlicoss/kobuddy
-          description: Get your Kobo e-reader device bookmarks and annotations in a .txt file.
           repo: https://github.com/karlicoss/kobuddy
+          description: Extracts highlights, notes and reading progress from your Kobo e-reader's database.
+          license: MIT
+          platforms:
+            - cli
           added: 2022-10-17

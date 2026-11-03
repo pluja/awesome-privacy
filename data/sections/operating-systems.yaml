@@ -1,149 +1,174 @@
 title: Operating Systems
 slug: operating-systems
+intro: The operating system sees everything you do on a device. These replace or strip down the systems that report back to Google, Apple and Microsoft.
 subsections:
   - title: Android
     avoid:
+      intro: Avoid Google's Android and the versions phone makers such as Samsung, Xiaomi or Huawei ship, which send data to their servers. The systems below build on the open source [AOSP](https://source.android.com/) without that.
       items: []
-      intro: Try to avoid using Google Android or any Android that has been modified and tuned by any manufacturer such as Xiaomi, Huawei, Samsung, etc. Android is an Open Source project - [AOSP - Android Open Source Project](https://source.android.com/) - and it has many versions that will respect the user privacy and data and won't share it with private servers from manufacturers or service providers.
     callouts:
       - type: note
-        text: |-
-          **Android app compatibility**:
-          Although all of these Operating Systems are Android, app compatibility may not be perfect due to a lack of GMS (Google Mobile Services) which some apps require. You can check how well apps work with microg (a free and open source alternative to GMS) or no GMS at all with [Plexus](https://plexus.techlore.tech/) where the community can report how well android apps perform in those environments.
+        text: "**App compatibility**: without Google Mobile Services, some apps won't work. [Plexus](https://plexus.techlore.tech/) collects community reports on how apps run with microG or with no Google services at all."
       - type: note
-        text: "**Android security**: Custom ROMs can improve your privacy the same as they can decrease the Android security, always use ROMs that support verified boot and encryption and **DO NOT** have root enabled by default. If possible, don't use userdebug builds. If your threat model requires security, buy a Google Pixel and install GrapheneOS on it. [Read more on PrivacyGuides](https://www.privacyguides.org/android/overview)."
+        text: "**Security**: a custom ROM can improve your privacy and still weaken security. Pick one that supports verified boot and encryption and doesn't enable root by default, and avoid userdebug builds. If security matters most, use GrapheneOS on a Google Pixel. [More on Privacy Guides](https://www.privacyguides.org/en/os/android-overview/)."
     subsections:
       - title: Android-Based
-        intro: "**GrapheneOS** has a strong focus on security and privacy. It deploys technologies to mitigate many vulnerabilities and makes exploiting of vulnerabilities substantially more difficult. It improves the security of both the OS and the apps running on it."
+        intro: "**GrapheneOS** is the pick for security: its hardening and exploit mitigations make vulnerabilities much harder to exploit, both in the OS and in the apps running on it."
         recommend:
           entries:
-            - name: GrapheneOS
-              url: https://grapheneos.org/
-              description: GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility. Only **Google Pixel** phones are supported.
-              added: 2020-12-08
+            - name: /e/OS
+              url: https://e.foundation/e-os/
+              repo: https://gitlab.e.foundation/e
+              description: Degoogled Android from Murena that bundles microG and optional Murena cloud services.
+              added: 2026-07-04
             - name: CalyxOS
               url: https://calyxos.org/
-              description: Privacy by Design ROM. Offers better security than LineageOS or Replicant.
+              repo: https://gitlab.com/CalyxOS
+              description: Degoogled Android with optional microG, for Pixel, Fairphone and Motorola phones.
               added: 2020-12-08
+            - name: GrapheneOS
+              url: https://grapheneos.org/
+              repo: https://github.com/GrapheneOS
+              description: Hardened Android with optional sandboxed Google Play, for **Google Pixel** phones only.
+              added: 2020-12-08
+            - name: iodéOS
+              url: https://iode.tech/iodeos/
+              repo: https://gitlab.com/iode
+              description: Degoogled Android with a built-in firewall that blocks ads and trackers across apps.
+              added: 2026-07-04
             - name: LineageOS
               url: https://lineageos.org/
-              description: A free and open-source operating system for various devices, based on the Android mobile platform.
+              repo: https://github.com/LineageOS
+              description: Community Android distribution that keeps a wide range of devices updated after their makers stop.
               added: 2020-12-08
             - name: LineageOS for microG
               url: https://lineage.microg.org/
-              description: LineageOS builds that ship microG instead of Google Play Services and include F-Droid.
-            - name: /e/OS
-              url: https://e.foundation/e-os
-              description: Degoogled Android ROM by Murena that bundles microG and optional cloud services. Open source, GPL-3.0 licensed.
-              added: 2026-07-04
-            - name: iodéOS
-              url: https://iode.tech/iodeos
-              description: Degoogled Android ROM with a built-in network firewall that blocks ads and trackers. Open source, GPL-3.0 licensed.
-              added: 2026-07-04
-        notes: These ROMs also offer good priavcy and/or extended support for a wider range of devices. Note that these may also reduce security, increasing the attack surface of the operating system.
+              repo: https://github.com/lineageos4microg
+              description: LineageOS builds that ship microG instead of Google Play Services, with F-Droid included.
+        notes: The other ROMs support many more devices and offer good privacy, but they can be less secure than GrapheneOS, with a larger attack surface.
       - title: Based on Linux
         recommend:
           entries:
-            - name: UBPorts
-              url: https://www.ubports.com/
-              description: Ubuntu Touch is the touch-friendly mobile version of Ubuntu.
-              added: 2020-12-08
+            - name: Mobian
+              url: https://mobian-project.org/
+              repo: https://salsa.debian.org/Mobian-team
+              description: Debian packaged for mobile devices such as the PinePhone and Librem 5.
+              added: 2021-02-03
             - name: Nura
               url: https://nura.eco/
-              description: (formerly postmarketOS) Touch optimised and pre-configured version of Alpine Linux.
-              added: 2020-12-09
-            - name: PureOS
-              url: https://www.pureos.net/
-              description: Operating system developed by purism for the Librem 5.
+              repo: https://gitlab.postmarketos.org/postmarketOS/pmaports
+              description: Alpine Linux tuned for phones and other devices, built to keep old hardware useful, formerly postmarketOS.
               added: 2020-12-09
             - name: Plasma Mobile
-              url: https://www.plasma-mobile.org/
-              description: Plasma, in your pocket. Privacy-respecting, open source and secure phone ecosystem.
+              url: https://plasma-mobile.org/
+              repo: https://invent.kde.org/plasma-mobile
+              description: KDE's Plasma desktop adapted for phones, offered by distributions such as Nura.
               added: 2020-12-15
-            - name: mobian
-              url: https://mobian-project.org/
-              description: Debian for mobile.
-              added: 2021-02-03
+            - name: PureOS
+              url: https://www.pureos.net/
+              repo: https://source.puri.sm/pureos
+              description: Purism's Debian-based system for its Librem laptops and the Librem 5 phone.
+              added: 2020-12-09
+            - name: Ubuntu Touch
+              url: https://ubports.com/
+              repo: https://gitlab.com/ubports
+              description: Mobile version of Ubuntu, maintained by the UBports community.
+              added: 2020-12-08
   - title: Smart TV
     avoid:
+      intro: Avoid Android TV, LG webOS and the other systems preinstalled on smart TVs.
       items: []
-      intro: Don't use Google's Android TV, LG WebOS or any other privacy-invasive common TV OS that comes preinstalled with your TV.
     recommend:
       entries:
-        - name: LibreELEC
-          url: https://github.com/LibreELEC/LibreELEC.tv
-          description: Minimal "just enough OS" Linux distribution that boots straight into Kodi on Raspberry Pi, x86 and other devices. GPL-2.0 licensed.
-          repo: https://github.com/LibreELEC/LibreELEC.tv
         - name: Kodi
           url: https://kodi.tv/
-          description: It is an entertainment hub that brings all your digital media together into a beautiful and user friendly package. It is 100% free and open source, very customisable and runs on a wide variety of devices.
+          repo: https://github.com/xbmc/xbmc
+          description: Media center that plays your local and network media libraries on almost any device.
           added: 2020-12-08
+        - name: LibreELEC
+          url: https://libreelec.tv/
+          repo: https://github.com/LibreELEC/LibreELEC.tv
+          description: Minimal Linux system that boots straight into Kodi on Raspberry Pi, x86 and other devices.
         - name: OSMC
           url: https://osmc.tv/
-          description: OSMC is a free and open source media center built for the people, by the people.
+          repo: https://github.com/osmc/osmc
+          description: Kodi-based media center system for the Raspberry Pi and OSMC's own Vero boxes.
+          license: GPL-2.0
           added: 2020-12-08
     notes: |-
-      The following software is not an **Operating System** but comprises apps that can be used on almost any OS. These apps respect your privacy and offer features similar to those of a Smart TV. A recommended setup involves connecting a [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) running a GNU/Linux operating system to your TV, installing tools like [KDE Connect](https://kdeconnect.kde.org/) to control media from your phone, and then adding the apps listed below:
+      Kodi is an app, not an operating system, so you can also build your own setup: a [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) running Linux, plugged into your TV, with [KDE Connect](https://kdeconnect.kde.org/) to control playback from your phone.
 
-      You can also check out [Media Streaming Platforms](https://github.com/pluja/awesome-privacy#media-streaming-platforms) section.
+      See also [Media Streaming Platforms](#media-streaming-platforms).
   - title: PC / MacOS
     avoid:
       items:
         - name: MS Windows
-          reason: Owned by Microsoft it is known for collecting many user data and tricking users to own a Microsoft account. If you still want and happen to use Windows 10 or 11, you can use [Win11Debloat](https://github.com/Raphire/Win11Debloat), or [this other tool](https://www.w10privacy.de/english-home/) to see and disable the tons of privacy-invasive settings of MS Windows.
-        - name: MacOS.
+          reason: collects a lot of user data and pushes you into a Microsoft account. If you stay on Windows 10 or 11, [Win11Debloat](https://github.com/Raphire/Win11Debloat) or [W10Privacy](https://www.w10privacy.de/english-home/) can turn off many of its privacy-invasive settings.
+        - name: macOS
     subsections:
       - title: "[GNU/Linux](https://www.linux.com/what-is-linux/)"
-        intro: "GNU/Linux is a family of free (as in freedom and as in free beer) and open source Operating Systems mostly developed by the community. If you don't know where to start these are good options for beginners:"
+        intro: "GNU/Linux is a family of open source operating systems, mostly built by their communities. Good places to start:"
         recommend:
           entries:
             - name: Fedora
               url: https://fedoraproject.org/
-              description: Community Linux distribution sponsored by Red Hat, shipping recent open source software on a six-month cycle.
+              description: Community distribution sponsored by Red Hat, with recent software on a six-month release cycle.
               added: 2022-09-29
+            - name: Kicksecure
+              url: https://www.kicksecure.com/
+              repo: https://github.com/Kicksecure
+              description: Debian hardened by the Whonix developers, with security settings turned on by default.
+              added: 2026-09-30
             - name: Mint (Cinnamon)
-              url: https://linuxmint.com/edition.php?id=305
-              description: is a beginner friendly distribution.
+              url: https://linuxmint.com/
+              repo: https://github.com/linuxmint
+              description: Beginner-friendly distribution based on Ubuntu, with a desktop that feels familiar to Windows users.
               added: 2022-09-29
             - name: Qubes OS
-              url: https://qubes-os.org/
-              description: is a security-oriented operating system that isolates various workspaces into separate virtual machines to enhance privacy and security.
+              url: https://www.qubes-os.org/
+              repo: https://github.com/QubesOS
+              description: Runs each part of your digital life in its own isolated virtual machine, so one compromise doesn't spread.
               added: 2024-04-04
+            - name: secureblue
+              url: https://secureblue.dev/
+              repo: https://github.com/secureblue/secureblue
+              description: Hardened images built on Fedora Atomic Desktops, with security-focused defaults and a hardened browser.
+              license: Apache-2.0
+              added: 2026-09-30
             - name: Tails
               url: https://tails.net/
-              description: is a portable operating system that protects against surveillance and censorship. It always starts from the same clean state and everything you do disappears automatically when you shut down Tails.
+              repo: https://gitlab.tails.net/tails/tails
+              description: Portable system that routes everything through Tor and forgets everything when you shut it down.
               added: 2024-04-04
             - name: Whonix
               url: https://www.whonix.org/
-              description: is an operating system that runs inside virtual machines and forces every connection through Tor.
-              added: 2026-09-30
-            - name: Kicksecure
-              url: https://www.kicksecure.com/
-              description: is a hardened Debian-based distribution from the Whonix developers, secure by default.
-              added: 2026-09-30
-            - name: secureblue
-              url: https://secureblue.dev/
-              description: is a hardened image built on Fedora Atomic Desktops, with security-focused defaults and a hardened browser.
+              repo: https://github.com/Whonix
+              description: Runs inside virtual machines and forces every connection through Tor, so apps can't leak your real IP.
               added: 2026-09-30
         callouts:
           - type: tip
-            text: If you want to try it out without installing it to your computer, you can use a [Live USB Stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm). You can also investigate [Ventoy](https://www.ventoy.net) to easily download and test linux distros with a USB stick.
+            text: To try a distribution without installing it, boot it from a [live USB stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm), or use [Ventoy](https://www.ventoy.net) to keep several on one stick.
           - type: tip
-            text: If you want to install Linux but keep your current operating System, you can set up [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
+            text: To keep your current system, install Linux alongside it with [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
           - type: note
-            text: Not all Linux distributions are free (as in freedom), free (as in free beer) or respect user privacy. There are tons of GNU/Linux distributions and you should investigate a bit before jumping into one of them!
+            text: Distributions differ in how free they are and how well they respect your privacy, so read up before you pick one.
       - title: Other OS
         recommend:
           entries:
             - name: AtlasOS
               url: https://atlasos.net/
-              description: An open-source modification of Windows 10, designed to optimize performance, and latency. Atlas removes all types of tracking embedded within Windows and implements numerous group policies to minimize data collection.
+              repo: https://github.com/Atlas-OS/Atlas
+              description: Modified Windows that strips out built-in tracking and tunes it for performance and latency.
+              license: GPL-3.0
               added: 2023-01-01
             - name: ReactOS
               url: https://reactos.org/
-              description: ReactOS is an operating system able to run Windows software, Windows drivers that looks-like Windows and is free and open source.
+              repo: https://github.com/reactos/reactos
+              description: Reimplementation of Windows that can run Windows apps and drivers, still in alpha.
+              license: GPL-2.0
               added: 2021-09-26
             - name: RedoxOS
               url: https://www.redox-os.org/
-              description: A WIP project aiming to provide a Unix-like Operating System written in Rust.
+              repo: https://gitlab.redox-os.org/redox-os/redox
+              description: Unix-like operating system written in Rust, still in development.
               added: 2022-09-29

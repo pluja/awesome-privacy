@@ -1,11 +1,11 @@
 title: RSS Readers
 slug: rss-readers
+intro: These services build a profile from everything you read. A local or self-hosted reader fetches feeds directly, so nobody sees your reading list.
 avoid:
   items:
     - name: Feedly
     - name: Inoreader
     - name: Google News
-notes: These services build a profile from everything you read. A local or self-hosted reader fetches feeds directly, so nobody sees your reading list.
 recommend:
   entries:
     - name: FreshRSS
@@ -26,7 +26,7 @@ recommend:
         - self-host
     - name: NetNewsWire
       url: https://netnewswire.com/
-      description: Open source RSS reader for macOS and iOS that works locally or syncs with self-hosted services.
+      description: RSS reader for Mac, iPhone and iPad that works locally or syncs with self-hosted services.
       repo: https://github.com/Ranchero-Software/NetNewsWire
       license: MIT
       added: 2026-09-30
@@ -37,7 +37,7 @@ recommend:
         - no-account
     - name: Fluent Reader
       url: https://github.com/yang991178/fluent-reader
-      description: Open source desktop RSS reader for Windows, macOS and Linux.
+      description: Desktop RSS reader that keeps your feeds locally, with optional sync to self-hosted services.
       repo: https://github.com/yang991178/fluent-reader
       license: BSD-3-Clause
       added: 2026-09-30
@@ -49,7 +49,7 @@ recommend:
         - no-account
     - name: NewsFlash
       url: https://gitlab.com/news-flash/news_flash_gtk
-      description: Open source RSS reader for Linux that works locally or with self-hosted services such as Miniflux and FreshRSS.
+      description: RSS reader for Linux that works locally or with self-hosted services such as Miniflux and FreshRSS.
       repo: https://gitlab.com/news-flash/news_flash_gtk
       license: GPL-3.0
       added: 2026-09-30
@@ -59,7 +59,7 @@ recommend:
         - no-account
     - name: Newsboat
       url: https://newsboat.org/
-      description: RSS reader for the terminal.
+      description: RSS reader for the terminal, configured with plain text files.
       repo: https://github.com/newsboat/newsboat
       license: MIT
       added: 2026-09-30
@@ -73,7 +73,7 @@ recommend:
       url: https://github.com/spacecowboy/Feeder
       platforms:
         - android
-      description: Open source RSS reader for Android that fetches feeds directly on your device, with no account.
+      description: RSS reader that fetches feeds directly on your device, with no account.
       repo: https://github.com/spacecowboy/Feeder
       license: GPL-3.0
       added: 2026-09-30
@@ -83,7 +83,7 @@ recommend:
       url: https://github.com/ReadYouApp/ReadYou
       platforms:
         - android
-      description: Open source Material You RSS reader for Android, local or synced with self-hosted services.
+      description: Material You RSS reader, local or synced with self-hosted services.
       repo: https://github.com/ReadYouApp/ReadYou
       license: GPL-3.0
       added: 2026-09-30
@@ -93,7 +93,7 @@ recommend:
       url: https://github.com/jocmp/capyreader
       platforms:
         - android
-      description: Open source RSS reader for Android, local or synced with Miniflux and FreshRSS.
+      description: Small RSS reader, local or synced with Miniflux and FreshRSS.
       repo: https://github.com/jocmp/capyreader
       license: GPL-3.0
       package_id: com.capyreader.app

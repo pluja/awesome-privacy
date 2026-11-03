@@ -1,42 +1,54 @@
 title: Link Shorteners
 slug: link-shorteners
+intro: Hosted shorteners sit between every click and its destination, so they can log who opened what. Host your own, or use one that encrypts the target so the service can't read it.
 avoid:
   items:
     - name: Bit.ly
+      reason: built around tracking every click for marketing analytics.
 recommend:
   entries:
+    - name: Dub
+      url: https://dub.co
+      repo: https://github.com/dubinc/dub.link
+      description: Link management platform with click analytics that you can host yourself.
+      tags:
+        - self-host
+      added: 2024-09-25
+    - name: Kutt
+      url: https://kutt.to/
+      repo: https://github.com/thedevs-network/kutt
+      description: Shortener with custom domains and password-protected links that you can host yourself.
+      license: MIT
+      tags:
+        - self-host
+      added: 2026-07-04
     - name: MagLit
       url: https://maglit.me
-      description: An encrypted and privacy respecting Link Shortener service that also supports Magnet Links.
+      repo: https://github.com/NayamAmarshe/thiss.link
+      description: Shortener that encrypts links with a password and also handles torrent magnet links.
+      license: AGPL-3.0
       added: 2022-04-30
-    - name: Dub
-      url: https://github.com/dubinc/dub.link
-      description: You can self-host Dub.co for greater control over your data and design.
-      repo: https://github.com/dubinc/dub.link
-      added: 2024-09-25
-      tags:
-        - self-host
-    - name: Yourls
-      url: https://yourls.org/
-      description: Self hosted URL shortener in PHP.
-      added: 2024-09-25
-      tags:
-        - self-host
-    - name: tnyr.me
-      url: https://tnyr.me
-      description: A zero-trust URL shortener with paswordless end-to-end encryption.
-      added: 2025-08-26
-      tags:
-        - e2ee
-    - name: Kutt
-      url: https://kutt.it/
-      description: Self-hosted URL shortener with custom domains and password-protected links. Open source, MIT licensed.
-      added: 2026-07-04
-      tags:
-        - self-host
     - name: Shlink
       url: https://shlink.io/
-      description: Self-hosted URL shortener that keeps its own click analytics on your server. Open source, MIT licensed.
-      added: 2026-07-04
+      repo: https://github.com/shlinkio/shlink
+      description: Self-hosted shortener that keeps its click statistics on your own server.
+      license: MIT
       tags:
         - self-host
+      added: 2026-07-04
+    - name: tnyr.me
+      url: https://tnyr.me
+      repo: https://github.com/Sevi-py/tnyr.me
+      description: Shortener with passwordless end-to-end encryption, so the server can't see where links point.
+      license: MIT
+      tags:
+        - e2ee
+      added: 2025-08-26
+    - name: YOURLS
+      url: https://yourls.org/
+      repo: https://github.com/YOURLS/YOURLS
+      description: Self-hosted shortener written in PHP, with its own click stats and a plugin system.
+      license: MIT
+      tags:
+        - self-host
+      added: 2024-09-25

@@ -1,29 +1,35 @@
 title: Online Phone Providers
 slug: online-phone-providers
-intro: Many websites require phone number verification. These services offer a way to receive (and sometimes send) SMS messages in a privacy-focused manner.
+intro: Many sites demand a phone number for verification, which ties your account to your real identity. These paid services give you a number to receive (and sometimes send) SMS without handing over your own.
 subsections:
   - title: No email verification, accepting monero
     recommend:
       entries:
         - name: Crypton
           url: https://crypton.sh/
-          description: Secure SMS Sim Card in the cloud. (Based in Iceland)
+          description: Rents real SIM cards hosted in the cloud, with incoming SMS encrypted under a key you choose.
           added: 2022-09-02
         - name: MoneroSMS
           url: https://monerosms.com/
-          description: Virtual numbers for SMS/MMS messaging and verifications. CLI and web app. (Based in United States)
+          description: Virtual numbers for sending and receiving SMS, paid in Monero, with a web app, a CLI and Tor support.
+          tags:
+            - tor
           added: 2022-11-23
   - title: Email verification required, accepting monero
     recommend:
       entries:
         - name: Onlinesim
           url: https://onlinesim.io/
-          description: Receive SMS online to virtual phone number. (Based in Russia)
+          description: Temporary virtual numbers for receiving verification codes.
+          caveats:
+            - website-trackers
           added: 2022-09-02
   - title: Email verification required, accepting crypto
     recommend:
       entries:
         - name: SmsPVA
           url: https://smspva.com/
-          description: SmsPVA is a service providing a phone number you can send any SMS on and get a text of it. (Based in France)
+          description: Temporary virtual numbers in many countries for receiving verification codes.
+          caveats:
+            - website-trackers
           added: 2022-09-02
