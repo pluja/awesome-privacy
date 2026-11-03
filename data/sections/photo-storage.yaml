@@ -40,6 +40,7 @@ subsections:
             - self-host
           package_id: app.alextran.immich
           added: 2025-06-17
+          fdroid: true
         - name: LibrePhotos
           url: https://github.com/LibrePhotos/librephotos
           repo: https://github.com/LibrePhotos/librephotos
@@ -91,6 +92,7 @@ subsections:
             - e2ee
           package_id: org.stingle.photos
           added: 2020-12-07
+          fdroid: true
   - title: Third-party
     recommend:
       entries:
@@ -125,6 +127,7 @@ subsections:
             - e2ee
           package_id: org.stingle.photos
           added: 2020-12-07
+          fdroid: true
   - title: Local
     recommend:
       entries:
@@ -157,3 +160,4 @@ subsections:
           license: Apache-2.0
           package_id: dev.leonlatsch.photok
           added: 2022-01-24
+          fdroid: true

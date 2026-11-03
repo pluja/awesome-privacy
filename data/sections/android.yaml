@@ -34,6 +34,7 @@ subsections:
               license: GPL-3.0
               package_id: com.looker.droidify
               added: 2021-10-30
+              fdroid: true
         - name: FossDroid
           url: https://fossdroid.com/
           repo: https://github.com/SnaKKo/Fossdroid-Core
@@ -49,6 +50,7 @@ subsections:
           license: GPL-3.0
           package_id: dev.imranr.obtainium.fdroid
           added: 2023-02-28
+          fdroid: true
   - title: Alternative Google Play Store clients
     recommend:
       entries:
@@ -91,6 +93,7 @@ subsections:
           license: GPL-3.0
           package_id: org.fossify.phone
           added: 2025-08-06
+          fdroid: true
   - title: Android File Manager
     avoid:
       intro: Preinstalled file managers and those from the Play Store may carry ads or trackers and ask for permissions they don't need.
@@ -106,6 +109,7 @@ subsections:
           license: GPL-3.0
           package_id: com.amaze.filemanager
           added: 2021-10-22
+          fdroid: true
         - name: Fossify File Manager
           url: https://www.fossify.org/apps/file-manager/
           repo: https://github.com/FossifyOrg/File-Manager
@@ -115,6 +119,7 @@ subsections:
           license: GPL-3.0
           package_id: org.fossify.filemanager
           added: 2026-07-04
+          fdroid: true
         - name: Ghost Commander
           url: https://f-droid.org/packages/com.ghostsq.commander/
           repo: https://sourceforge.net/p/ghostcommander/svn/HEAD/tree/
@@ -123,6 +128,7 @@ subsections:
             - android
           package_id: com.ghostsq.commander
           added: 2021-10-22
+          fdroid: true
         - name: Material Files
           url: https://github.com/zhanghai/MaterialFiles
           repo: https://github.com/zhanghai/MaterialFiles
@@ -132,6 +138,7 @@ subsections:
           license: GPL-3.0
           package_id: me.zhanghai.android.files
           added: 2021-10-22
+          fdroid: true
   - title: Android Keyboard
     avoid:
       items:
@@ -158,6 +165,7 @@ subsections:
           license: Apache-2.0
           package_id: dev.patrickgold.florisboard
           added: 2020-12-22
+          fdroid: true
         - name: FUTO Keyboard
           url: https://keyboard.futo.tech/
           repo: https://gitlab.futo.org/keyboard/latinime
@@ -178,6 +186,7 @@ subsections:
           license: GPL-3.0
           package_id: helium314.keyboard
           added: 2024-04-08
+          fdroid: true
         - name: Indic Keyboard
           url: https://gitlab.com/indicproject/indic-keyboard
           repo: https://gitlab.com/indicproject/indic-keyboard
@@ -186,6 +195,7 @@ subsections:
             - android
           package_id: org.smc.inputmethod.indic
           added: 2021-10-01
+          fdroid: true
         - name: Simple Keyboard
           url: https://github.com/rkkr/simple-keyboard
           repo: https://github.com/rkkr/simple-keyboard
@@ -195,6 +205,7 @@ subsections:
           license: Apache-2.0
           package_id: rkr.simplekeyboard.inputmethod
           added: 2021-10-22
+          fdroid: true
   - title: Android Gallery
     intro: Your photos show where you've been and who you were with, including friends and family who never agreed to be in anyone's cloud. Pick a gallery that keeps them on your phone.
     callouts:
@@ -218,6 +229,7 @@ subsections:
           license: BSD-3-Clause
           package_id: deckers.thibault.aves.libre
           added: 2024-01-22
+          fdroid: true
         - name: Fossify Gallery
           url: https://www.fossify.org/apps/gallery/
           repo: https://github.com/FossifyOrg/Gallery
@@ -227,6 +239,7 @@ subsections:
           license: GPL-3.0
           package_id: org.fossify.gallery
           added: 2024-01-22
+          fdroid: true
   - title: Android Launcher
     avoid:
       intro: Launchers from the Play Store may carry ads or trackers and ask for permissions they don't need.
@@ -249,6 +262,7 @@ subsections:
           license: GPL-3.0
           package_id: fr.neamar.kiss
           added: 2021-06-01
+          fdroid: true
         - name: Kvaesitso
           url: https://kvaesitso.mm20.de/
           repo: https://github.com/MM2-0/Kvaesitso
@@ -273,6 +287,7 @@ subsections:
           license: GPL-3.0
           package_id: app.olauncher
           added: 2021-06-01
+          fdroid: true
         - name: Pie Launcher
           url: https://github.com/markusfisch/PieLauncher
           repo: https://github.com/markusfisch/PieLauncher
@@ -282,6 +297,7 @@ subsections:
           license: MIT
           package_id: de.markusfisch.android.pielauncher
           added: 2022-01-14
+          fdroid: true
   - title: Android SMS
     recommend:
       entries:

@@ -48,18 +48,18 @@ Mainstream messengers collect who you talk to, when and from where, even when th
 
 Many independently run servers talk to each other, so there is no single point of control or failure and you can pick a server or run your own. Federation is more complex and leaves some extra metadata on the servers involved.
 
-- [DeltaChat](https://delta.chat/) - Messenger that runs over email, with end-to-end encryption and no phone number needed. `GPL-3.0`
+- [DeltaChat](https://delta.chat/) - Messenger that runs over email, with end-to-end encryption and no phone number needed. `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.b44t.messenger/)
 - [Jabber / XMPP (Protocol)](https://xmpp.org/) - Long-standing open messaging standard with many servers and clients, and OMEMO for end-to-end encryption.
-  - [Conversations](https://conversations.im/) - XMPP client built for phones, with OMEMO encryption on by default. `Android`
+  - [Conversations](https://conversations.im/) - XMPP client built for phones, with OMEMO encryption on by default. `Android` [F-Droid](https://f-droid.org/packages/eu.siacs.conversations/)
   - [Dino](https://dino.im/) - Desktop XMPP client with OMEMO and OpenPGP end-to-end encryption. `Linux` `GPL-3.0`
   - [Gajim](https://gajim.org/) - Desktop XMPP client with OMEMO encryption. `Linux` `macOS` `Windows` `GPL-3.0`
-  - [Snikket](https://snikket.org/) - Self-hosted XMPP service you set up with one command, with matching apps for your family or group. `self-host` `Apache-2.0`
+  - [Snikket](https://snikket.org/) - Self-hosted XMPP service you set up with one command, with matching apps for your family or group. `self-host` `Apache-2.0` [F-Droid](https://f-droid.org/packages/org.snikket.android/)
 - [Matrix (Protocol)](https://matrix.org/) - Open standard for federated chat and calls, with end-to-end encryption between clients. `Apache-2.0`
   - [Cinny](https://cinny.in/) - Matrix client with a clean, minimal interface. `AGPL-3.0`
   - [Element](https://element.io/) - The flagship Matrix client, with end-to-end encryption on by default for private chats. `AGPL-3.0` `⚠️ website trackers`
-- [Session](https://getsession.org/) - Messenger that needs no phone number and routes messages through an onion network of community-run nodes. `GPL-3.0`
-- [SimpleX Chat](https://simplex.chat/) - Messenger with no user IDs at all, so its servers can't see who talks to whom. `AGPL-3.0`
-- [Status](https://status.app/) - Peer-to-peer messenger that needs no phone number, bundled with a crypto wallet and web3 browser. `MPL-2.0`
+- [Session](https://getsession.org/) - Messenger that needs no phone number and routes messages through an onion network of community-run nodes. `GPL-3.0` [F-Droid](https://f-droid.org/packages/network.loki.messenger.fdroid/)
+- [SimpleX Chat](https://simplex.chat/) - Messenger with no user IDs at all, so its servers can't see who talks to whom. `AGPL-3.0` [F-Droid](https://f-droid.org/packages/chat.simplex.app/)
+- [Status](https://status.app/) - Peer-to-peer messenger that needs no phone number, bundled with a crypto wallet and web3 browser. `MPL-2.0` [F-Droid](https://f-droid.org/packages/app.status.mobile/)
 
 #### Centralized
 
@@ -113,8 +113,8 @@ Free webmail is paid for with your data. And email itself was never built for pr
 
 ##### Android / iOS
 
-- [FairEmail](https://email.faircode.eu/) - Full-featured email app that blocks tracking images and keeps everything on your device. `Android` `GPL-3.0`
-- [Thunderbird for Android](https://www.thunderbird.net/en-US/mobile/) - Mozilla's email app for Android, built on K-9 Mail, which still ships from the same code. `Android` `Apache-2.0`
+- [FairEmail](https://email.faircode.eu/) - Full-featured email app that blocks tracking images and keeps everything on your device. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/eu.faircode.email/)
+- [Thunderbird for Android](https://www.thunderbird.net/en-US/mobile/) - Mozilla's email app for Android, built on K-9 Mail, which still ships from the same code. `Android` `Apache-2.0` [F-Droid](https://f-droid.org/packages/net.thunderbird.android/)
 
 ##### Desktop
 
@@ -164,11 +164,11 @@ The big meeting apps log who you call and when, and their apps ship with ad and 
 - [BigBlueButton](https://bigbluebutton.org/) - Self-hosted web conferencing built for online classes, with whiteboard, breakout rooms and recordings. `self-host` `LGPL-3.0` `⚠️ website trackers`
 - [Briefing](https://brie.fi/ng) - Group video chat in the browser over direct WebRTC connections, with no account. `self-host` `AGPL-3.0`
 - [Chitchatter](https://chitchatter.im/) - Serverless, ephemeral peer-to-peer chat with audio, video, screen and file sharing. `GPL-2.0`
-- [Jami](https://jami.net/) - Peer-to-peer audio and video calls and chat with no central servers or account needed. `GPL-3.0`
-- [Jitsi Meet](https://jitsi.org/jitsi-meet/) - Video conferencing you can self-host; the official instance requires you to log in. `self-host` `Apache-2.0`
+- [Jami](https://jami.net/) - Peer-to-peer audio and video calls and chat with no central servers or account needed. `GPL-3.0` [F-Droid](https://f-droid.org/packages/cx.ring/)
+- [Jitsi Meet](https://jitsi.org/jitsi-meet/) - Video conferencing you can self-host; the official instance requires you to log in. `self-host` `Apache-2.0` [F-Droid](https://f-droid.org/packages/org.jitsi.meet/) (Play Store version has trackers)
 - [MiroTalk P2P](https://p2p.mirotalk.com/) - Browser-based peer-to-peer video calls up to 4K, with nothing to install. `AGPL-3.0`
 - [Mumble](https://www.mumble.info/) - Low-latency voice chat with encrypted connections, on servers you can run yourself. `self-host`
-- [Nextcloud Talk](https://nextcloud.com/talk/) - Video calls and chat that run inside your own Nextcloud server. `self-host` `AGPL-3.0`
+- [Nextcloud Talk](https://nextcloud.com/talk/) - Video calls and chat that run inside your own Nextcloud server. `self-host` `AGPL-3.0` [F-Droid](https://f-droid.org/packages/com.nextcloud.talk2/)
 
 #### Alternative clients/modifications of Discord
 
@@ -199,11 +199,11 @@ Workplace chat holds your team's most sensitive conversations on someone else's 
 **Use instead**
 
 - [Mattermost](https://mattermost.com/) - Self-hosted Slack alternative for teams. `self-host` `⚠️ website trackers`
-- [Nextcloud Talk](https://nextcloud.com/talk/) - Chat and video calls that run inside your own Nextcloud server. `self-host` `AGPL-3.0`
+- [Nextcloud Talk](https://nextcloud.com/talk/) - Chat and video calls that run inside your own Nextcloud server. `self-host` `AGPL-3.0` [F-Droid](https://f-droid.org/packages/com.nextcloud.talk2/)
 - [Rocket.Chat](https://www.rocket.chat/) - Self-hosted team chat with end-to-end encrypted rooms and federation. `self-host` `⚠️ website trackers`
 - [Stoat](https://stoat.chat/) - Discord-like chat platform with servers and channels, which you can host yourself, formerly Revolt. `self-host`
 - [Twake Chat](https://twake.app/) - Workplace chat built on Matrix, part of Linagora's Twake Workplace suite. `AGPL-3.0`
-- [Zulip](https://zulip.com/) - Team chat organized into topic threads, which you can host yourself. `self-host` `Apache-2.0`
+- [Zulip](https://zulip.com/) - Team chat organized into topic threads, which you can host yourself. `self-host` `Apache-2.0` [F-Droid](https://f-droid.org/packages/com.zulipmobile/)
 
 Discord mods and alternative clients, and the risks of using them, are listed under [Alternative clients/modifications of Discord](#alternative-clientsmodifications-of-discord).
 
@@ -267,7 +267,7 @@ The big platforms profile you from everything you read, watch and like, and thei
 
 **Use instead**
 
-- [Odysee](https://odysee.com/) - Video platform built on the LBRY protocol. `MIT` `⚠️ website trackers`
+- [Odysee](https://odysee.com/) - Video platform built on the LBRY protocol. `MIT` `⚠️ website trackers` [F-Droid](https://f-droid.org/packages/com.odysee.floss/)
 - [PeerTube](https://joinpeertube.org/en/) - Federated video hosting where anyone can run an instance and follow channels across others. `ActivityPub` `AGPL-3.0`
 
 ##### YouTube alternative frontends (web-based)
@@ -280,9 +280,9 @@ The big platforms profile you from everything you read, watch and like, and thei
 ##### YouTube alternative clients (apps)
 
 - [FreeTube](https://freetubeapp.io/) - Desktop YouTube app that keeps subscriptions, playlists and history on your computer, without Google's cookies or scripts. `Desktop` `AGPL-3.0`
-- [LibreTube](https://libretube.dev/) - Android YouTube app that fetches videos through Piped instead of Google's servers. `Android` `GPL-3.0`
-- [NewPipe](https://newpipe.net/) - Lightweight Android YouTube app with background play and downloads, no Google services or account needed. `Android` `GPL-3.0`
-- [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - Android YouTube app with local subscriptions, downloads and a channel and video blocker. `Android` `GPL-3.0`
+- [LibreTube](https://libretube.dev/) - Android YouTube app that fetches videos through Piped instead of Google's servers. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.github.libretube/)
+- [NewPipe](https://newpipe.net/) - Lightweight Android YouTube app with background play and downloads, no Google services or account needed. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/org.schabi.newpipe/)
+- [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - Android YouTube app with local subscriptions, downloads and a channel and video blocker. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/free.rm.skytube.oss/)
 - [Yattee](https://github.com/yattee/yattee) - Native YouTube player for iPhone, iPad, Apple TV and Mac that works through Invidious or Piped. `iOS` `macOS` `AGPL-3.0`
 
 #### TikTok
@@ -306,7 +306,7 @@ The big platforms profile you from everything you read, watch and like, and thei
 > [!NOTE]
 > **Federated social networks** aren't a single website: they're thousands of communities run by different people and organizations, which can all follow and reply to each other.
 
-- [Mastodon](https://joinmastodon.org/) - Federated microblogging, the largest network in the fediverse. `ActivityPub` `AGPL-3.0`
+- [Mastodon](https://joinmastodon.org/) - Federated microblogging, the largest network in the fediverse. `ActivityPub` `AGPL-3.0` [F-Droid](https://f-droid.org/packages/org.joinmastodon.android/)
   - [Mastodon Apps](https://joinmastodon.org/apps) - Official directory of Mastodon apps for Android, iOS, web and desktop.
 - [Nostr](https://nostr.com/) - Open protocol where posts are signed with your own keys and spread across relays, so no single server controls your account.
 - [Pleroma](https://pleroma.social/) - Lightweight federated social network server. `ActivityPub`
@@ -315,7 +315,7 @@ The big platforms profile you from everything you read, watch and like, and thei
 ##### Alternative Frontends
 
 - [Nitter](https://github.com/zedeus/nitter) - Twitter frontend without JavaScript or ads that proxies every request; see the [instances list](https://github.com/zedeus/nitter/wiki/Instances). `AGPL-3.0` `💀 inactive`
-- [Squawker](https://github.com/j-fbriere/squawker) - Android Twitter client with no account, tracking or ads, keeping subscriptions on the device; the maintained fork of Fritter. `Android` `MIT`
+- [Squawker](https://github.com/j-fbriere/squawker) - Android Twitter client with no account, tracking or ads, keeping subscriptions on the device; the maintained fork of Fritter. `Android` `MIT` [F-Droid](https://f-droid.org/packages/org.ca.squawker/)
 
 #### Reddit
 
@@ -344,7 +344,7 @@ The big platforms profile you from everything you read, watch and like, and thei
 
 ##### Privacy respecting Twitch clients
 
-- [Twire](https://github.com/twireapp/Twire) - Android Twitch client with built-in ad blocking, VODs with chat replay, and optional login. `Android` `GPL-3.0`
+- [Twire](https://github.com/twireapp/Twire) - Android Twitch client with built-in ad blocking, VODs with chat replay, and optional login. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.perflyst.twire/)
 
 #### Imgur
 
@@ -427,7 +427,7 @@ These services build a profile from everything you read. A local or self-hosted 
 
 **Use instead**
 
-- [Capy Reader](https://github.com/jocmp/capyreader) - Small RSS reader, local or synced with Miniflux and FreshRSS. `Android` `GPL-3.0`
+- [Capy Reader](https://github.com/jocmp/capyreader) - Small RSS reader, local or synced with Miniflux and FreshRSS. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.capyreader.app/)
 - [Feeder](https://github.com/spacecowboy/Feeder) - RSS reader that fetches feeds directly on your device, with no account. `Android` `GPL-3.0`
 - [Fluent Reader](https://github.com/yang991178/fluent-reader) - Desktop RSS reader that keeps your feeds locally, with optional sync to self-hosted services. `Linux` `Windows` `macOS` `BSD-3-Clause`
 - [FreshRSS](https://freshrss.org/) - Self-hosted feed aggregator with a web interface, multi-user support and an API for mobile apps. `self-host` `AGPL-3.0`
@@ -452,10 +452,10 @@ A VPN doesn't make you anonymous; it moves the trust from your ISP to the VPN pr
 
 - [Amnezia VPN](https://amnezia.org) - VPN client that sets up a server on a VPS you rent, with protocols designed to get past censorship. `self-host` `GPL-3.0`
 - [Find more at kycnot.me (VPN Category)](https://kycnot.me/?categories=vpn) - Directory of VPN providers that don't ask for identity documents.
-- [IVPN](https://ivpn.net) - No-logs VPN that needs no email to sign up and takes cash, Monero or Bitcoin.
-- [Mullvad VPN](https://mullvad.net) - No-logs VPN with anonymous numbered accounts instead of email, payable in cash or cryptocurrency. `GPL-3.0`
+- [IVPN](https://ivpn.net) - No-logs VPN that needs no email to sign up and takes cash, Monero or Bitcoin. [F-Droid](https://f-droid.org/packages/net.ivpn.client/)
+- [Mullvad VPN](https://mullvad.net) - No-logs VPN with anonymous numbered accounts instead of email, payable in cash or cryptocurrency. `GPL-3.0` [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
 - [nadanada](https://nadanada.me) - Pay-per-use WireGuard VPN with no account, payable in Bitcoin, Monero and other cryptocurrencies, formerly LNVPN.
-- [Proton VPN](https://protonvpn.com) - Swiss no-logs VPN with audited apps and a free tier with no data cap.
+- [Proton VPN](https://protonvpn.com) - Swiss no-logs VPN with audited apps and a free tier with no data cap. [F-Droid](https://f-droid.org/packages/ch.protonvpn.android/)
 - [SPN](https://safing.io/spn/) - Paid add-on to the Portmaster firewall that routes each app's connections over separate multi-hop paths. `Linux` `Windows` `GPL-3.0`
 
 ### Web Browser
@@ -564,7 +564,7 @@ Hosted shorteners sit between every click and its destination, so they can log w
 
 Hosted link pages put your profile and everyone who visits it on someone else's platform. These let you host the page yourself, or link your accounts with cryptographic proofs instead.
 
-- [Keyoxide](https://keyoxide.org/) - Proves you own your online accounts with cryptographic signatures, with no central service to trust.
+- [Keyoxide](https://keyoxide.org/) - Proves you own your online accounts with cryptographic signatures, with no central service to trust. [F-Droid](https://f-droid.org/packages/org.keyoxide.keyoxide/)
 - [LinkStack](https://linkstack.org/) - Linktree alternative you host yourself. `self-host` `AGPL-3.0`
 
 ### Captchas
@@ -628,10 +628,10 @@ Authenticator apps generate the one-time codes that protect an account even afte
 **Use instead**
 
 - [2FAS Auth](https://2fas.com/auth) - Authenticator whose browser extension asks your phone for a code and fills it in, no account needed. `GPL-3.0`
-- [Aegis](https://getaegis.app/) - Encrypted token vault that imports from most other authenticators and exports in plain or encrypted form. `Android` `GPL-3.0`
+- [Aegis](https://getaegis.app/) - Encrypted token vault that imports from most other authenticators and exports in plain or encrypted form. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.beemdevelopment.aegis/)
 - [ente Auth](https://ente.com/auth/) - Authenticator with end-to-end encrypted sync between your devices, from the makers of ente Photos. `AGPL-3.0` `⚠️ website trackers`
-- [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Fork of FreeOTP with backups, search and dark mode. `Android` `Apache-2.0`
-- [Proton Authenticator](https://proton.me/authenticator) - Authenticator with end-to-end encrypted sync, from the makers of Proton Mail.
+- [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Fork of FreeOTP with backups, search and dark mode. `Android` `Apache-2.0` [F-Droid](https://f-droid.org/packages/org.liberty.android.freeotpplus/)
+- [Proton Authenticator](https://proton.me/authenticator) - Authenticator with end-to-end encrypted sync, from the makers of Proton Mail. [F-Droid](https://f-droid.org/packages/proton.android.authenticator.fdroid/)
 - [Stratum](https://github.com/stratumauth/app) - Authenticator with Wear OS support and encrypted backups. `Android` `GPL-3.0`
 
 ### Password Managers
@@ -649,12 +649,12 @@ A password manager lets you use a strong, different password for every account w
 - [Bitwarden](https://bitwarden.com) - Password manager with end-to-end encrypted sync across all your devices. `self-host` `⚠️ website trackers`
   - [Vaultwarden](https://github.com/dani-garcia/vaultwarden) - Lightweight, unofficial Bitwarden-compatible server you can host yourself. `self-host` `AGPL-3.0`
 - [KeePassXC](https://keepassxc.org/) - Offline password manager that keeps your vault in an encrypted file you control, with no account or sync service. `Linux` `macOS` `Windows`
-  - [KeePassDX](https://www.keepassdx.com/) - KeePass-compatible password manager for Android. `Android` `GPL-3.0`
+  - [KeePassDX](https://www.keepassdx.com/) - KeePass-compatible password manager for Android. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.kunzisoft.keepass.libre/)
   - [Strongbox](https://strongboxsafe.com/) - KeePass-compatible password manager for iPhone, iPad and Mac. `iOS` `macOS` `AGPL-3.0`
-- [LessPass](https://www.lesspass.com) - Stateless password manager that computes each password from your master password, so there's nothing to store or sync. `GPL-3.0`
+- [LessPass](https://www.lesspass.com) - Stateless password manager that computes each password from your master password, so there's nothing to store or sync. `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.lesspass.android/)
 - [Passbolt](https://www.passbolt.com) - Password manager built for teams, with end-to-end encrypted sharing. `self-host` `AGPL-3.0` `⚠️ website trackers`
-- [Passky](https://passky.org) - Small, simple password manager with a server you can host yourself. `self-host` `EUPL-1.2`
-- [Proton Pass](https://proton.me/pass) - End-to-end encrypted password manager with built-in email aliases, from the makers of Proton Mail.
+- [Passky](https://passky.org) - Small, simple password manager with a server you can host yourself. `self-host` `EUPL-1.2` [F-Droid](https://f-droid.org/packages/com.rabbitcompany.passky/)
+- [Proton Pass](https://proton.me/pass) - End-to-end encrypted password manager with built-in email aliases, from the makers of Proton Mail. [F-Droid](https://f-droid.org/packages/proton.android.pass.fdroid/)
 
 ### Encryption
 
@@ -667,8 +667,8 @@ Encryption keeps your files unreadable to anyone without the key, whether a lapt
 **Use instead**
 
 - [age](https://age-encryption.org) - Simple, modern file encryption with small keys and nothing to configure. `CLI` `BSD-3-Clause`
-- [Cryptomator](https://cryptomator.org/) - Encrypts files on your device before they reach any cloud storage provider. `GPL-3.0`
-- [Photok](https://github.com/leonlatsch/Photok) - Photo vault that stores your pictures encrypted on the device. `Android` `Apache-2.0`
+- [Cryptomator](https://cryptomator.org/) - Encrypts files on your device before they reach any cloud storage provider. `GPL-3.0` [F-Droid](https://f-droid.org/packages/org.cryptomator.lite/)
+- [Photok](https://github.com/leonlatsch/Photok) - Photo vault that stores your pictures encrypted on the device. `Android` `Apache-2.0` [F-Droid](https://f-droid.org/packages/dev.leonlatsch.photok/)
 - [Shufflecake](https://shufflecake.net/) - Hidden encrypted volumes for Linux with plausible deniability, so nobody can prove the hidden data exists. `Linux`
 - [Stegcloak](https://stegcloak.surge.sh/) - Hides password-protected secrets inside ordinary text using invisible characters. `⚠️ website trackers` `💀 inactive`
 - [Tomb](https://dyne.org/software/tomb/) - Creates and manages encrypted folders on Linux, built on standard LUKS. `Linux` `CLI` `GPL-3.0`
@@ -704,12 +704,12 @@ Tools for checking what your devices and apps leak, and for cutting off what you
 
 #### Android
 
-- [NetGuard](https://netguard.me/) - Blocks internet access per app, no root needed. `Android` `GPL-3.0`
+- [NetGuard](https://netguard.me/) - Blocks internet access per app, no root needed. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/eu.faircode.netguard/)
 - [Orbot](https://orbot.app/) - Routes app traffic through Tor, for all apps or only the ones you choose. Made by the Guardian Project. `Android`
-- [Plexus](https://plexus.techlore.tech/) - Community database of which apps work on de-Googled Android. `Android`
-- [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - Firewall and encrypted DNS client in one, no root needed. `Android` `Apache-2.0`
+- [Plexus](https://plexus.techlore.tech/) - Community database of which apps work on de-Googled Android. `Android` [F-Droid](https://f-droid.org/packages/tech.techlore.plexus/)
+- [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - Firewall and encrypted DNS client in one, no root needed. `Android` `Apache-2.0` [F-Droid](https://f-droid.org/packages/com.celzero.bravedns/)
 - [εxodus](https://reports.exodus-privacy.eu.org/en/) - Shows which trackers and permissions an Android app contains, before you install it. `AGPL-3.0`
-  - [ClassyShark3xodus](https://f-droid.org/en/packages/com.oF2pks.classyshark3xodus/) - Checks the apps on your phone for known trackers, using the εxodus database. `Android`
+  - [ClassyShark3xodus](https://f-droid.org/en/packages/com.oF2pks.classyshark3xodus/) - Checks the apps on your phone for known trackers, using the εxodus database. `Android` [F-Droid](https://f-droid.org/packages/com.oF2pks.classyshark3xodus/)
 
 ### Whistleblowing
 
@@ -742,7 +742,7 @@ Mainstream cloud drives can read everything you upload and scan it on their serv
 
 #### Other useful tools
 
-- [Cryptomator](https://cryptomator.org) - Encrypts files on your device before they reach any cloud storage provider. `GPL-3.0`
+- [Cryptomator](https://cryptomator.org) - Encrypts files on your device before they reach any cloud storage provider. `GPL-3.0` [F-Droid](https://f-droid.org/packages/org.cryptomator.lite/)
 - [git-annex](https://git-annex.branchable.com/) - Manages and syncs large files with git without storing their contents in git, across drives and many cloud and offline backends.
 - [Rclone](https://rclone.org/) - Command-line tool to manage files on dozens of cloud providers, with an encryption layer so they only see ciphertext. `CLI` `MIT`
 - [Restic](https://restic.net/) - Backup tool that encrypts and deduplicates snapshots before storing them locally or with a cloud provider. `CLI` `BSD-2-Clause`
@@ -763,7 +763,7 @@ Upload-and-share services keep a readable copy of your files on their servers an
 - [Croc](https://github.com/schollz/croc) - Sends files between two computers with end-to-end encryption, using a short code phrase. `CLI` `MIT`
 - [Destiny](https://leastauthority.com/community-matters/destiny/) - Magic Wormhole app for sending end-to-end encrypted files without revealing who you are, built with human rights organisations. `MIT`
 - [Gokapi](https://github.com/Forceu/Gokapi) - Lightweight self-hosted alternative to Firefox Send, where only you can upload and links expire. `self-host` `AGPL-3.0`
-- [Localsend](https://localsend.org/) - Shares files with nearby devices over your local network, with no internet connection or account needed. `Apache-2.0`
+- [Localsend](https://localsend.org/) - Shares files with nearby devices over your local network, with no internet connection or account needed. `Apache-2.0` [F-Droid](https://f-droid.org/packages/org.localsend.localsend_app/)
 - [Lufi](https://framagit.org/fiat-tux/hat-softwares/lufi) - File sharing server that encrypts uploads in your browser, so the server never sees the contents. `self-host`
 - [Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole) - Sends files from one computer to another with end-to-end encryption, using a short one-time code. `CLI` `MIT`
 - [OnionShare](https://github.com/onionshare/onionshare) - Shares files, hosts websites and runs chat rooms over Tor onion services, anonymously and without a third-party server.
@@ -802,20 +802,20 @@ Popular note apps store everything you write on their servers, usually readable 
 
 - [AppFlowy](https://appflowy.com/) - Notion alternative for docs, wikis and task boards that you can run locally or host yourself. `AGPL-3.0` `⚠️ website trackers`
 - [HedgeDoc](https://hedgedoc.org/) - Self-hosted collaborative Markdown editor for writing and sharing notes in real time, formerly CodiMD. `self-host` `AGPL-3.0`
-- [Joplin](https://github.com/laurent22/joplin) - Markdown notes and to-dos with optional end-to-end encrypted sync through a server of your choice.
+- [Joplin](https://github.com/laurent22/joplin) - Markdown notes and to-dos with optional end-to-end encrypted sync through a server of your choice. [F-Droid](https://f-droid.org/packages/net.cozic.joplin/)
 - [Lockbook](https://lockbook.net) - End-to-end encrypted notebook for notes, documents and drawings, as an Evernote alternative. `Unlicense`
-- [Logseq](https://logseq.com/) - Outliner for linked notes and journals, stored as plain Markdown files on your device. `AGPL-3.0` `⚠️ telemetry opt-out`
+- [Logseq](https://logseq.com/) - Outliner for linked notes and journals, stored as plain Markdown files on your device. `AGPL-3.0` `⚠️ telemetry opt-out` [F-Droid](https://f-droid.org/packages/com.logseq.app/)
 - [Memos](https://github.com/usememos/memos) - Self-hosted hub for quick notes and memos, shown as a timeline. `self-host` `MIT`
 - [Nextcloud Notes](https://github.com/nextcloud/notes/) - Distraction-free notes app for your Nextcloud server. `self-host` `AGPL-3.0`
-  - [Nextcloud Notes app](https://github.com/nextcloud/notes-android) - Android client for Nextcloud Notes. `Android` `GPL-3.0`
-- [Notally](https://github.com/OmGodse/Notally) - Minimal notes app that keeps everything on your device, with no sync. `Android` `GPL-3.0`
-- [Notesnook](https://notesnook.com/) - End-to-end encrypted notes app with sync across your devices, as an Evernote alternative. `GPL-3.0`
+  - [Nextcloud Notes app](https://github.com/nextcloud/notes-android) - Android client for Nextcloud Notes. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/it.niedermann.owncloud.notes/)
+- [Notally](https://github.com/OmGodse/Notally) - Minimal notes app that keeps everything on your device, with no sync. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.omgodse.notally/)
+- [Notesnook](https://notesnook.com/) - End-to-end encrypted notes app with sync across your devices, as an Evernote alternative. `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.streetwriters.notesnook/)
 - [Obsidian](https://obsidian.md) - Markdown notes kept as plain files on your device, with optional end-to-end encrypted sync. `⚠️ closed source`
-- [Quillpad](https://quillpad.github.io/) - Markdown notes and task lists for Android, with optional Nextcloud sync, forked from Quillnote. `Android` `fork` `GPL-3.0`
+- [Quillpad](https://quillpad.github.io/) - Markdown notes and task lists for Android, with optional Nextcloud sync, forked from Quillnote. `Android` `fork` `GPL-3.0` [F-Droid](https://f-droid.org/packages/io.github.quillpad/)
 - [SiYuan](https://github.com/siyuan-note/siyuan) - Local-first personal knowledge base built from blocks you can link, embed and query. `AGPL-3.0`
-- [Standard Notes](https://standardnotes.com/) - End-to-end encrypted notes app that syncs across all your devices. `AGPL-3.0`
+- [Standard Notes](https://standardnotes.com/) - End-to-end encrypted notes app that syncs across all your devices. `AGPL-3.0` [F-Droid](https://f-droid.org/packages/com.standardnotes/)
 - [Super Productivity](https://super-productivity.com) - To-do list and time tracker that keeps data local with no account, with optional sync over WebDAV or Dropbox. `MIT`
-- [Tasks.org](https://tasks.org) - To-do and task manager that works offline, with CalDAV sync. `Android` `GPL-3.0` `⚠️ website trackers`
+- [Tasks.org](https://tasks.org) - To-do and task manager that works offline, with CalDAV sync. `Android` `GPL-3.0` `⚠️ website trackers` [F-Droid](https://f-droid.org/packages/org.tasks/) (Play Store version has trackers)
 - [TinyList](https://tinylist.app/) - Notes and checklists you can share without an account, with no ads or tracking. `MIT`
 - [Trilium Notes](https://github.com/TriliumNext/Trilium) - Hierarchical personal knowledge base you can sync through your own server, with optional encryption for individual notes. `self-host` `AGPL-3.0`
 - [Vikunja](https://vikunja.io) - Self-hosted to-do app with lists, kanban boards and Gantt charts. `self-host` `AGPL-3.0`
@@ -868,9 +868,9 @@ Your calendar shows where you'll be, when and with whom. Prefer a calendar that 
 
 **Use instead**
 
-- [Etar](https://github.com/Etar-Group/Etar-Calendar) - Calendar app that works with any CalDAV server through a sync adapter. `Android` `GPL-3.0`
-- [Fossify Calendar](https://github.com/FossifyOrg/Calendar) - Offline calendar with widgets and no ads, which can also sync with your device's CalDAV accounts. `Android` `GPL-3.0`
-- [KashCal](https://github.com/KashCal/KashCal) - Offline-first calendar with built-in iCloud and CalDAV sync, full-text search and widgets. `Android`
+- [Etar](https://github.com/Etar-Group/Etar-Calendar) - Calendar app that works with any CalDAV server through a sync adapter. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/ws.xsoh.etar/)
+- [Fossify Calendar](https://github.com/FossifyOrg/Calendar) - Offline calendar with widgets and no ads, which can also sync with your device's CalDAV accounts. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/org.fossify.calendar/)
+- [KashCal](https://github.com/KashCal/KashCal) - Offline-first calendar with built-in iCloud and CalDAV sync, full-text search and widgets. `Android` [F-Droid](https://f-droid.org/packages/org.onekash.kashcal/)
 - [Nextcloud Calendar](https://apps.nextcloud.com/apps/calendar) - Calendar app for your Nextcloud server, with CalDAV sync to your other devices. `self-host` `AGPL-3.0`
 - [Proton Calendar](https://proton.me/calendar) - End-to-end encrypted calendar from the makers of Proton Mail.
 
@@ -885,7 +885,7 @@ Bookmarks and read-later lists reveal a lot about what you read and care about. 
 **Use instead**
 
 - [42links](https://42links.tuxproject.de) - Minimalist self-hosted bookmark storage. `self-host`
-- [Floccus](https://floccus.org/) - Syncs your bookmarks across browsers and devices through your own Nextcloud, WebDAV or Git server. `MPL-2.0`
+- [Floccus](https://floccus.org/) - Syncs your bookmarks across browsers and devices through your own Nextcloud, WebDAV or Git server. `MPL-2.0` [F-Droid](https://f-droid.org/packages/org.handmadeideas.floccus/)
 - [Grimoire](https://github.com/goniszewski/grimoire) - Self-hosted bookmark manager that extracts and keeps the readable content of what you save. `self-host` `MIT`
 - [Karakeep](https://karakeep.com/) - Self-hosted app for saving links, notes and images, with full-text search and optional AI tagging, formerly Hoarder. `self-host` `AGPL-3.0`
 - [LinkAce](https://github.com/Kovah/LinkAce) - Self-hosted bookmark archive that monitors and organizes your saved links. `self-host` `GPL-3.0`
@@ -893,7 +893,7 @@ Bookmarks and read-later lists reveal a lot about what you read and care about. 
 - [Linkwarden](https://linkwarden.app) - Self-hosted bookmark manager that saves and archives full copies of the pages you collect. `self-host` `AGPL-3.0`
 - [Readeck](https://readeck.org) - Single-binary self-hosted read-it-later app that saves articles for offline reading. `self-host`
 - [Shiori](https://github.com/go-shiori/shiori) - Self-hosted bookmark manager written in Go, usable from the command line or a web interface. `self-host` `MIT`
-- [Wallabag](https://wallabag.org/) - Read-it-later server you can host yourself, or use through a paid hosted service. `self-host` `MIT`
+- [Wallabag](https://wallabag.org/) - Read-it-later server you can host yourself, or use through a paid hosted service. `self-host` `MIT` [F-Droid](https://f-droid.org/packages/fr.gaulupeau.apps.InThePoche/)
 
 #### Book and web annotations/highlights management
 
@@ -958,7 +958,7 @@ Streaming services log everything you watch and listen to, and their apps are fu
 - [Ampache](https://ampache.org/) - Web-based server for streaming your own music and video collection. `self-host` `AGPL-3.0`
 - [Funkwhale](https://www.funkwhale.audio/) - Federated platform for hosting, sharing and listening to music, a SoundCloud alternative. `self-host` `ActivityPub`
 - [Koel](https://koel.dev/) - Personal music streaming server with a web player. `self-host` `MIT`
-- [mucke](https://github.com/moritz-weber/mucke) - Player for local music files with custom playback rules. `Android` `GPL-3.0`
+- [mucke](https://github.com/moritz-weber/mucke) - Player for local music files with custom playback rules. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/rocks.mucke/)
 - [Navidrome](https://www.navidrome.org/) - Lightweight music server for your own collection, compatible with Subsonic apps. `self-host` `GPL-3.0` `⚠️ website trackers`
 - [Nuclear](https://nuclearplayer.com/) - Desktop music player that streams from free sources, with no account. `Linux` `macOS` `Windows` `AGPL-3.0`
 
@@ -972,7 +972,7 @@ These clients cut out Spotify's own apps and their tracking, but you still strea
 
 ##### YouTube Music alternative clients
 
-- [SimpMusic](https://simpmusic.org/) - YouTube Music client with no ads and SponsorBlock built in, successor to the discontinued ViMusic and RiMusic. `Android` `Desktop` `GPL-3.0` `⚠️ website trackers`
+- [SimpMusic](https://simpmusic.org/) - YouTube Music client with no ads and SponsorBlock built in, successor to the discontinued ViMusic and RiMusic. `Android` `Desktop` `GPL-3.0` `⚠️ website trackers` [F-Droid](https://f-droid.org/packages/com.maxrave.simpmusic/)
 
 ##### Deezer alternative clients
 
@@ -989,7 +989,7 @@ These clients cut out Spotify's own apps and their tracking, but you still strea
 
 **Use instead**
 
-- [AntennaPod](https://antennapod.org) - Podcast player that subscribes to any RSS feed, with no account needed. `Android` `GPL-3.0`
+- [AntennaPod](https://antennapod.org) - Podcast player that subscribes to any RSS feed, with no account needed. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/de.danoeh.antennapod/)
 - [Castopod](https://castopod.org) - Podcast hosting you run yourself, so your show and your audience stay yours, with fediverse integration. `self-host` `ActivityPub` `AGPL-3.0`
 - [Funkwhale](https://www.funkwhale.audio/) - Federated platform for hosting, sharing and listening to podcasts and music. `self-host` `ActivityPub`
 
@@ -1022,25 +1022,25 @@ Cloud photo services scan your library for faces, places and objects and tie it 
 #### Self-hosted
 
 - [Ente](https://ente.com/) - End-to-end encrypted photo and video backup whose cryptography was [independently audited](https://ente.com/blog/cryptography-audit/). `self-host` `AGPL-3.0` `⚠️ website trackers`
-- [Immich](https://immich.app/) - Self-hosted photo and video backup straight from your phone, the closest match to Google Photos. `self-host` `AGPL-3.0`
+- [Immich](https://immich.app/) - Self-hosted photo and video backup straight from your phone, the closest match to Google Photos. `self-host` `AGPL-3.0` [F-Droid](https://f-droid.org/packages/app.alextran.immich/)
 - [LibrePhotos](https://github.com/LibrePhotos/librephotos) - Self-hosted photo management service, an active fork of [OwnPhotos](https://github.com/hooram/ownphotos). `self-host` `MIT`
 - [Nextcloud](https://nextcloud.com/) - Self-hosted cloud suite whose [Photos](https://github.com/nextcloud/photos) app organizes and displays your pictures. `self-host` `AGPL-3.0`
 - [PhotoPrism](https://www.photoprism.app/) - Self-hosted photo library with automatic tagging and face recognition that runs on your own server. `self-host`
 - [Photoview](https://photoview.github.io/) - Self-hosted photo gallery that works on your existing folders, with face recognition. `self-host` `AGPL-3.0`
 - [PiGallery2](https://bpatrik.github.io/pigallery2/) - Self-hosted, directory-first photo gallery website. `self-host` `MIT`
-- [Stingle Photos](https://stingle.org/) - End-to-end encrypted photo backup and sync for your phone. `Android` `iOS` `GPL-3.0`
+- [Stingle Photos](https://stingle.org/) - End-to-end encrypted photo backup and sync for your phone. `Android` `iOS` `GPL-3.0` [F-Droid](https://f-droid.org/packages/org.stingle.photos/)
 
 #### Third-party
 
 - [Cryptee](https://crypt.ee/) - Encrypted storage for your photos, documents and notes, based in Estonia.
 - [Ente](https://ente.com/) - End-to-end encrypted photo and video backup whose cryptography was [independently audited](https://ente.com/blog/cryptography-audit/). `self-host` `AGPL-3.0` `⚠️ website trackers`
-- [Stingle Photos](https://stingle.org/) - End-to-end encrypted photo backup and sync for your phone. `Android` `iOS` `GPL-3.0`
+- [Stingle Photos](https://stingle.org/) - End-to-end encrypted photo backup and sync for your phone. `Android` `iOS` `GPL-3.0` [F-Droid](https://f-droid.org/packages/org.stingle.photos/)
 
 #### Local
 
 - [digiKam](https://www.digikam.org/) - Photo manager for large collections, with tagging, face recognition and editing, all on your own files. `Linux` `macOS` `Windows`
 - [ImageGlass](https://imageglass.org/) - Lightweight image viewer with a clean interface. `Windows` `⚠️ website trackers`
-- [Photok](https://github.com/leonlatsch/Photok) - Photo vault that encrypts your pictures on the device and hides them from your gallery. `Android` `Apache-2.0`
+- [Photok](https://github.com/leonlatsch/Photok) - Photo vault that encrypts your pictures on the device and hides them from your gallery. `Android` `Apache-2.0` [F-Droid](https://f-droid.org/packages/dev.leonlatsch.photok/)
 
 ### Photo Editing and Management
 
@@ -1070,8 +1070,8 @@ Mainstream photo editors push your work into their cloud and collect usage data 
 
 #### Android
 
-- [ImagePipe](https://codeberg.org/Starfish/Imagepipe) - Shrinks images and strips their Exif data when you share them. `Android`
-- [Pocket Paint](https://github.com/Catrobat/Paintroid) - Image editor and painting app from the Catrobat project. `Android`
+- [ImagePipe](https://codeberg.org/Starfish/Imagepipe) - Shrinks images and strips their Exif data when you share them. `Android` [F-Droid](https://f-droid.org/packages/de.kaffeemitkoffein.imagepipe/)
+- [Pocket Paint](https://github.com/Catrobat/Paintroid) - Image editor and painting app from the Catrobat project. `Android` [F-Droid](https://f-droid.org/packages/org.catrobat.paintroid/)
 - [Scrambled Exif](https://gitlab.com/juanitobananas/scrambled-exif) - Removes Exif data from pictures before you share them. `Android`
 
 ### Video Editing
@@ -1154,7 +1154,7 @@ Big-name games and engines often come with mandatory accounts, telemetry and pai
 Nintendo [collects data from Switch owners](https://www.reddit.com/r/privacy/comments/qtj9xt/til_nintendo_collects_data_from_switch_owners/), and an update [turned data sharing back on](https://www.altchar.com/game-news/the-latest-nintendo-switch-update-secretly-turns-on-user-data-sharing-adSyV7t35NPg) for people who had disabled it. Online play also needs a paid subscription.
 
 - [Dr. Robotnik's Ring Racers](https://www.kartkrew.org/) - Technical kart racer built on the Sonic Robo Blast 2 engine, the sequel to SRB2Kart. `GPL-2.0`
-- [SuperTuxKart](https://supertuxkart.net/Main_Page) - 3D arcade kart racer with many characters, tracks and modes, including online play.
+- [SuperTuxKart](https://supertuxkart.net/Main_Page) - 3D arcade kart racer with many characters, tracks and modes, including online play. [F-Droid](https://f-droid.org/packages/org.supertuxkart.stk/)
 
 #### Minecraft
 
@@ -1167,7 +1167,7 @@ Minecraft needs a Microsoft account, and Microsoft has [forced](https://github.c
 **Use instead**
 
 - [Cubyz](https://github.com/PixelGuys/Cubyz) - Voxel sandbox game with far view distances, 3D chunks and procedural crafting. `GPL-3.0`
-- [Luanti](https://www.luanti.org/) - Voxel game engine and platform for Minecraft-like games and mods, formerly Minetest.
+- [Luanti](https://www.luanti.org/) - Voxel game engine and platform for Minecraft-like games and mods, formerly Minetest. [F-Droid](https://f-droid.org/packages/net.minetest.minetest/)
   - [Mineclonia](https://content.luanti.org/packages/ryvnf/mineclonia/) - Minecraft-like survival game for Luanti, a fork of MineClone2 focused on stability and multiplayer performance.
 
 ##### Plugins for Minecraft
@@ -1225,9 +1225,9 @@ Apps to replace the Google and manufacturer defaults on an Android phone, and th
 
 - [Accrescent](https://accrescent.app/) - App store that pins each app's signing key on first install and signs its repository metadata, still in alpha. `Android` `Apache-2.0`
 - [F-Droid](https://f-droid.org/) - Catalogue of open source Android apps, built from source and labelled when they contain trackers or ads. `Android`
-  - [Droid-ify](https://droidify.app/) - F-Droid client with a clean interface that can browse any F-Droid repository. `Android` `GPL-3.0`
+  - [Droid-ify](https://droidify.app/) - F-Droid client with a clean interface that can browse any F-Droid repository. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.looker.droidify/)
 - [FossDroid](https://fossdroid.com/) - Website that lays out the F-Droid catalogue like an app store, sorted by new, trending and popular apps. `MIT`
-- [Obtainium](https://obtainium.imranr.dev/) - Installs and updates apps straight from their release pages, such as GitHub or GitLab, and tells you about new versions. `Android` `GPL-3.0`
+- [Obtainium](https://obtainium.imranr.dev/) - Installs and updates apps straight from their release pages, such as GitHub or GitLab, and tells you about new versions. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/dev.imranr.obtainium.fdroid/)
 
 #### Alternative Google Play Store clients
 
@@ -1251,7 +1251,7 @@ Dialers from the Play Store may carry ads or trackers and ask for permissions th
 
 **Use instead**
 
-- [Fossify Phone](https://www.fossify.org/apps/phone/) - Phone app with a phonebook, number blocking and multi-SIM support, part of the Fossify fork of Simple Mobile Tools. `Android` `GPL-3.0`
+- [Fossify Phone](https://www.fossify.org/apps/phone/) - Phone app with a phonebook, number blocking and multi-SIM support, part of the Fossify fork of Simple Mobile Tools. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/org.fossify.phone/)
 
 #### Android File Manager
 
@@ -1261,10 +1261,10 @@ Preinstalled file managers and those from the Play Store may carry ads or tracke
 
 **Use instead**
 
-- [Amaze File Manager](https://github.com/TeamAmaze/AmazeFileManager) - Material Design file manager with root access and a built-in FTP server. `Android` `GPL-3.0`
-- [Fossify File Manager](https://www.fossify.org/apps/file-manager/) - File manager with no ads or tracking that works without internet access. `Android` `GPL-3.0`
-- [Ghost Commander](https://f-droid.org/packages/com.ghostsq.commander/) - Dual-panel file manager. `Android`
-- [Material Files](https://github.com/zhanghai/MaterialFiles) - Material Design file manager with root, archive, FTP, SFTP, SMB and WebDAV support. `Android` `GPL-3.0`
+- [Amaze File Manager](https://github.com/TeamAmaze/AmazeFileManager) - Material Design file manager with root access and a built-in FTP server. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.amaze.filemanager/)
+- [Fossify File Manager](https://www.fossify.org/apps/file-manager/) - File manager with no ads or tracking that works without internet access. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/org.fossify.filemanager/)
+- [Ghost Commander](https://f-droid.org/packages/com.ghostsq.commander/) - Dual-panel file manager. `Android` [F-Droid](https://f-droid.org/packages/com.ghostsq.commander/)
+- [Material Files](https://github.com/zhanghai/MaterialFiles) - Material Design file manager with root, archive, FTP, SFTP, SMB and WebDAV support. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/me.zhanghai.android.files/)
 
 #### Android Keyboard
 
@@ -1276,11 +1276,11 @@ Preinstalled file managers and those from the Play Store may carry ads or tracke
 **Use instead**
 
 - [AnySoftKeyboard](https://anysoftkeyboard.github.io/) - Keyboard with more than 50 languages through add-on packs, plus themes. `Android` `Apache-2.0`
-- [FlorisBoard](https://florisboard.org/) - Customizable keyboard with themes and add-ons, still in beta. `Android` `Apache-2.0`
+- [FlorisBoard](https://florisboard.org/) - Customizable keyboard with themes and add-ons, still in beta. `Android` `Apache-2.0` [F-Droid](https://f-droid.org/packages/dev.patrickgold.florisboard/)
 - [FUTO Keyboard](https://keyboard.futo.tech/) - Keyboard that works fully offline, including voice input, swipe typing and autocorrect. `Android` `⚠️ source-available`
-- [HeliBoard](https://github.com/HeliBorg/HeliBoard) - Maintained fork of OpenBoard with glide typing, custom dictionaries and themes, and no internet permission. `Android` `GPL-3.0`
-- [Indic Keyboard](https://gitlab.com/indicproject/indic-keyboard) - Keyboard for typing in Indic languages alongside English. `Android`
-- [Simple Keyboard](https://github.com/rkkr/simple-keyboard) - Minimal keyboard under 1 MB whose only permission is vibrate. `Android` `Apache-2.0`
+- [HeliBoard](https://github.com/HeliBorg/HeliBoard) - Maintained fork of OpenBoard with glide typing, custom dictionaries and themes, and no internet permission. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/helium314.keyboard/)
+- [Indic Keyboard](https://gitlab.com/indicproject/indic-keyboard) - Keyboard for typing in Indic languages alongside English. `Android` [F-Droid](https://f-droid.org/packages/org.smc.inputmethod.indic/)
+- [Simple Keyboard](https://github.com/rkkr/simple-keyboard) - Minimal keyboard under 1 MB whose only permission is vibrate. `Android` `Apache-2.0` [F-Droid](https://f-droid.org/packages/rkr.simplekeyboard.inputmethod/)
 
 #### Android Gallery
 
@@ -1297,8 +1297,8 @@ Your photos show where you've been and who you were with, including friends and 
 
 **Use instead**
 
-- [Aves](https://github.com/deckerst/aves) - Gallery and metadata explorer that can view, edit and remove photo metadata such as location. `Android` `BSD-3-Clause`
-- [Fossify Gallery](https://www.fossify.org/apps/gallery/) - Photo and video gallery with no ads, a fork of Simple Gallery. `Android` `GPL-3.0`
+- [Aves](https://github.com/deckerst/aves) - Gallery and metadata explorer that can view, edit and remove photo metadata such as location. `Android` `BSD-3-Clause` [F-Droid](https://f-droid.org/packages/deckers.thibault.aves.libre/)
+- [Fossify Gallery](https://www.fossify.org/apps/gallery/) - Photo and video gallery with no ads, a fork of Simple Gallery. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/org.fossify.gallery/)
 
 #### Android Launcher
 
@@ -1309,11 +1309,11 @@ Launchers from the Play Store may carry ads or trackers and ask for permissions 
 **Use instead**
 
 - [Bliss Launcher](https://gitlab.e.foundation/e/os/BlissLauncher3) - Default launcher of /e/OS, with app folders and notification badges on icons. `Android`
-- [KISS](https://kisslauncher.com/) - Search-first launcher that finds apps, contacts and settings as you type. `Android` `GPL-3.0`
+- [KISS](https://kisslauncher.com/) - Search-first launcher that finds apps, contacts and settings as you type. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/fr.neamar.kiss/)
 - [Kvaesitso](https://kvaesitso.mm20.de/) - Search-focused launcher that finds apps, contacts, files and more from one search bar. `Android` `GPL-3.0`
 - [Lawnchair](https://lawnchair.app/) - Launcher in the style of the Pixel Launcher, with more customization. `Android`
-- [Olauncher](https://github.com/tanujnotes/Olauncher) - Minimal text-only launcher with no ads, meant to cut your screen time. `Android` `GPL-3.0`
-- [Pie Launcher](https://github.com/markusfisch/PieLauncher) - Launcher that opens apps from a pie menu instead of a grid of icons. `Android` `MIT`
+- [Olauncher](https://github.com/tanujnotes/Olauncher) - Minimal text-only launcher with no ads, meant to cut your screen time. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/app.olauncher/)
+- [Pie Launcher](https://github.com/markusfisch/PieLauncher) - Launcher that opens apps from a pie menu instead of a grid of icons. `Android` `MIT` [F-Droid](https://f-droid.org/packages/de.markusfisch.android.pielauncher/)
 
 #### Android SMS
 
@@ -1476,7 +1476,7 @@ Remote desktop tools can see and control everything on a machine, so trust matte
 - [Aspia](https://aspia.org/) - Remote desktop and file transfer with a router you can host yourself, so connections don't depend on a vendor. `self-host` `GPL-3.0`
 - [MeshCentral](https://meshcentral.com/) - Self-hosted web server for managing and remotely controlling many devices from a browser. `self-host` `Apache-2.0`
 - [Remmina](https://remmina.org/) - Remote desktop client for Linux that connects over RDP, VNC, SPICE and SSH. `Linux`
-- [RustDesk](https://rustdesk.com/) - Remote desktop app that connects through its developers' public relay by default, or through a server you host. `self-host` `AGPL-3.0` `⚠️ website trackers`
+- [RustDesk](https://rustdesk.com/) - Remote desktop app that connects through its developers' public relay by default, or through a server you host. `self-host` `AGPL-3.0` `⚠️ website trackers` [F-Droid](https://f-droid.org/packages/com.carriez.flutter_hbb/)
 - [screego](https://screego.net/) - Self-hosted screen sharing over WebRTC, built for developers. `self-host` `GPL-3.0`
 - [Sunshine + Moonlight](https://app.lizardbyte.dev/Sunshine) - Low-latency desktop and game streaming, with Sunshine on the host and Moonlight clients connecting to it. `self-host` `GPL-3.0` `⚠️ website trackers`
 - [UltraVNC](https://uvnc.com/) - VNC server and viewer for Windows, with file transfer and optional encryption plugins. `Windows` `GPL-3.0` `⚠️ website trackers`
@@ -1508,7 +1508,7 @@ Cloud AI services see everything you type, tie it to your account and payment de
 #### Text to Speech
 
 - [Chatterbox](https://github.com/resemble-ai/chatterbox) - Text-to-speech model with voice cloning that runs entirely on your own machine. `MIT`
-- [eSpeak NG](https://github.com/espeak-ng/espeak-ng) - Compact offline speech synthesizer for more than a hundred languages, robotic-sounding but very light. `GPL-3.0`
+- [eSpeak NG](https://github.com/espeak-ng/espeak-ng) - Compact offline speech synthesizer for more than a hundred languages, robotic-sounding but very light. `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.reecedunn.espeak/)
 - [Kokoro FastAPI](https://github.com/remsky/Kokoro-FastAPI) - Self-hosted OpenAI-compatible server for the [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) text-to-speech model, on CPU or GPU. `Apache-2.0`
 - [Piper](https://github.com/OHF-Voice/piper1-gpl) - Fast local neural text-to-speech that runs well even on a Raspberry Pi. `GPL-3.0`
 
@@ -1599,8 +1599,8 @@ Your transactions reveal where you live, shop and travel. These tools keep your 
 
 #### Budget Management
 
-- [My Expenses](https://www.myexpenses.mobi/) - Expense tracker with multiple accounts, budgets and optional sync through your own cloud storage. `Android` `GPL-3.0`
-- [ProExpense](https://github.com/arduia/ProExpense) - Expense notebook for recording your daily spending on the phone. `Android` `GPL-3.0`
+- [My Expenses](https://www.myexpenses.mobi/) - Expense tracker with multiple accounts, budgets and optional sync through your own cloud storage. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/org.totschnig.myexpenses/) (Play Store version has trackers)
+- [ProExpense](https://github.com/arduia/ProExpense) - Expense notebook for recording your daily spending on the phone. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.arduia.expense/) (Play Store version has trackers)
 - [Wallos](https://wallosapp.com) - Self-hosted tracker for subscriptions and recurring expenses, with renewal reminders. `self-host` `GPL-3.0`
 
 #### Shared Expenses
@@ -1613,9 +1613,9 @@ Your transactions reveal where you live, shop and travel. These tools keep your 
 **Use instead**
 
 - [IHateMoney](https://ihatemoney.org/) - Shared budget manager for groups and trips, hosted or self-hosted.
-  - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster) - Android client for Nextcloud Cospend and IHateMoney. `Android`
+  - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster) - Android client for Nextcloud Cospend and IHateMoney. `Android` [F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/)
 - [Nextcloud Cospend](https://apps.nextcloud.com/apps/cospend) - Nextcloud app for managing shared budgets, inspired by IHateMoney. `AGPL-3.0`
-  - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster) - Android client for Nextcloud Cospend and IHateMoney. `Android`
+  - [MoneyBuster](https://gitlab.com/eneiluj/moneybuster) - Android client for Nextcloud Cospend and IHateMoney. `Android` [F-Droid](https://f-droid.org/packages/net.eneiluj.moneybuster/)
 - [Spliit](https://spliit.app) - Splitwise alternative for sharing expenses with friends and family, no account needed. `MIT`
 - [SplitPro](https://splitpro.app) - Splitwise alternative for sharing expenses with friends, which you can self-host. `MIT`
 
@@ -1646,10 +1646,10 @@ Mainstream map apps log where you go and what you search for. Apps built on Open
 
 **Use instead**
 
-- [CoMaps](https://www.comaps.app/) - Community-led fork of Organic Maps with offline maps and navigation. `Android` `iOS` `fork`
+- [CoMaps](https://www.comaps.app/) - Community-led fork of Organic Maps with offline maps and navigation. `Android` `iOS` `fork` [F-Droid](https://f-droid.org/packages/app.comaps.fdroid/)
 - [OpenStreetMap (OSM)](https://www.openstreetmap.org/) - Collaborative world map built by volunteers, and the open data behind most apps in this section. `GPL-2.0`
-  - [OsmAnd](https://osmand.net/) - Offline maps and navigation built on OpenStreetMap, with a large set of features. `Android` `iOS`
-- [Organic Maps](https://organicmaps.app/) - Offline maps and navigation built on OpenStreetMap, popular with hikers and cyclists. `Android` `iOS`
+  - [OsmAnd](https://osmand.net/) - Offline maps and navigation built on OpenStreetMap, with a large set of features. `Android` `iOS` [F-Droid](https://f-droid.org/packages/net.osmand.plus/)
+- [Organic Maps](https://organicmaps.app/) - Offline maps and navigation built on OpenStreetMap, popular with hikers and cyclists. `Android` `iOS` [F-Droid](https://f-droid.org/packages/app.organicmaps/)
 - [Pure Maps](https://rinigus.github.io/pure-maps/) - Maps and navigation for Linux phones, Sailfish OS and desktop, fully offline with OSM Scout Server. `Linux` `GPL-3.0`
 
 ### Fitness and Health
@@ -1658,7 +1658,7 @@ Health data is among the most sensitive data you have, and the most sought after
 
 #### Fitness trackers
 
-- [FitoTrack](https://codeberg.org/jannis/FitoTrack) - Workout tracker that records your GPS activities and keeps them on the device. `Android`
+- [FitoTrack](https://codeberg.org/jannis/FitoTrack) - Workout tracker that records your GPS activities and keeps them on the device. `Android` [F-Droid](https://f-droid.org/packages/de.tadris.fitness/)
 - [FitTrackee](https://codeberg.org/FitTrackee/FitTrackee) - Self-hosted Strava alternative for recording and analyzing outdoor activities from GPS files. `self-host`
 - [Gadgetbridge](https://gadgetbridge.org/) - Use your smartwatch or fitness band without the vendor's app or cloud. `Android`
 - [OpenTracks](https://opentracksapp.com/) - Sport tracker that records your activities on the device and has no internet permission. `Android`
@@ -1677,15 +1677,15 @@ Health data is among the most sensitive data you have, and the most sought after
 
 Cycle data is intimate. Rather than mainstream trackers like Clue or Period Tracker, use one that keeps it on your device or encrypts it end to end.
 
-- [Bluemoon](https://gitlab.com/ngrob/bluemoon-android) - Period tracker that keeps your data on the device. `Android`
-- [Drip](https://dripapp.org/) - Menstrual cycle and fertility tracker that keeps everything you enter on your device. `Android` `iOS`
+- [Bluemoon](https://gitlab.com/ngrob/bluemoon-android) - Period tracker that keeps your data on the device. `Android` [F-Droid](https://f-droid.org/packages/ch.nilsgrob.android.bluemoon/)
+- [Drip](https://dripapp.org/) - Menstrual cycle and fertility tracker that keeps everything you enter on your device. `Android` `iOS` [F-Droid](https://f-droid.org/packages/com.drip/)
 - [Euki](https://eukiapp.org/) - Period and sexual health tracker built to keep your data on your phone. `Android` `iOS` `GPL-3.0` `⚠️ website trackers`
-- [Periodical](https://codeberg.org/askaaron/periodical) - Calendar for tracking your period and estimating fertile days. `Android`
+- [Periodical](https://codeberg.org/askaaron/periodical) - Calendar for tracking your period and estimating fertile days. `Android` [F-Droid](https://f-droid.org/packages/de.arnowelzel.android.periodical/)
 - [Poppy](https://poppy.usenostr.org) - Period tracker in the browser that stores data locally and can sync end-to-end encrypted through Nostr relays, no account needed.
 
 #### Medical health
 
-- [MedTimer](https://github.com/Futsch1/medTimer) - Medication reminder that keeps all data on the device and has no internet permission. `Android` `MIT`
+- [MedTimer](https://github.com/Futsch1/medTimer) - Medication reminder that keeps all data on the device and has no internet permission. `Android` `MIT` [F-Droid](https://f-droid.org/packages/com.futsch1.medtimer/)
 
 ### Dating Apps
 
@@ -1700,7 +1700,7 @@ Mainstream dating apps collect intimate data and profit from it. Tinder in parti
 
 **Use instead**
 
-- [Alovoa](https://alovoa.com/) - Dating platform with no ads, no paid features and no selling of your data. `AGPL-3.0`
+- [Alovoa](https://alovoa.com/) - Dating platform with no ads, no paid features and no selling of your data. `AGPL-3.0` [F-Droid](https://f-droid.org/packages/com.alovoa.expo/)
 
 ### Location tracking
 
@@ -1715,13 +1715,13 @@ Your location history shows where you live, work and sleep. These tools record i
 
 - [Dawarich](https://dawarich.app) - Self-hosted alternative to Google Timeline for storing and browsing your location history. `self-host` `AGPL-3.0`
 - [Nextcloud PhoneTrack](https://apps.nextcloud.com/apps/phonetrack) - Nextcloud app for your location history, fed by its [Android app](https://gitlab.com/eneiluj/phonetrack-android) or [other loggers](https://github.com/julien-nc/phonetrack/blob/main/doc/user.md#logging-methods), which can cache positions offline and upload them in batches. `AGPL-3.0`
-- [OwnTracks](https://owntracks.org/) - Phone app that sends your location to your own server, focused on where you are now rather than full history. `Android` `iOS` `EPL-1.0`
+- [OwnTracks](https://owntracks.org/) - Phone app that sends your location to your own server, focused on where you are now rather than full history. `Android` `iOS` `EPL-1.0` [F-Droid](https://f-droid.org/packages/org.owntracks.android/)
 - [Traccar](https://www.traccar.org/) - Self-hosted GPS tracking server, made for dedicated GPS tracking devices. `self-host` `Apache-2.0` `⚠️ website trackers`
 
 #### Find My Device
 
 - [Find My Device](https://fmd-foss.org/) - Locate and control your Android phone remotely over SMS, messengers or a self-hosted FMD Server. `Android`
-- [GPSLogger](https://gpslogger.app/) - Lightweight GPS logger that saves your tracks to local files, with optional uploads to places you choose. `Android`
+- [GPSLogger](https://gpslogger.app/) - Lightweight GPS logger that saves your tracks to local files, with optional uploads to places you choose. `Android` [F-Droid](https://f-droid.org/packages/com.mendhak.gpslogger/)
 
 ### Utilities
 

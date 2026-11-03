@@ -73,6 +73,7 @@ subsections:
           license: GPL-3.0
           package_id: rocks.mucke
           added: 2023-05-22
+          fdroid: true
         - name: Navidrome
           url: https://www.navidrome.org/
           repo: https://github.com/navidrome/navidrome
@@ -137,6 +138,7 @@ subsections:
                 - website-trackers
               package_id: com.maxrave.simpmusic
               added: 2026-07-04
+              fdroid: true
       - title: Deezer alternative clients
         recommend:
           entries:
@@ -170,6 +172,7 @@ subsections:
           license: GPL-3.0
           package_id: de.danoeh.antennapod
           added: 2020-12-09
+          fdroid: true
         - name: Castopod
           url: https://castopod.org
           repo: https://github.com/ad-aures/castopod

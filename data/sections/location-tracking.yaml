@@ -29,6 +29,7 @@ subsections:
           license: EPL-1.0
           package_id: org.owntracks.android
           added: 2021-06-07
+          fdroid: true
         - name: Traccar
           url: https://www.traccar.org/
           repo: https://github.com/traccar/traccar
@@ -65,3 +66,4 @@ subsections:
             - android
           package_id: com.mendhak.gpslogger
           added: 2022-11-17
+          fdroid: true

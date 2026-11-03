@@ -29,6 +29,7 @@ recommend:
             - ios
           package_id: net.osmand.plus
           added: 2020-12-08
+          fdroid: true
       added: 2020-12-08
     - name: Organic Maps
       url: https://organicmaps.app/
@@ -41,6 +42,7 @@ recommend:
         - offline
       package_id: app.organicmaps
       added: 2021-06-01
+      fdroid: true
     - name: CoMaps
       url: https://www.comaps.app/
       repo: https://codeberg.org/comaps/comaps
@@ -53,6 +55,7 @@ recommend:
         - offline
       package_id: app.comaps.fdroid
       added: 2025-07-05
+      fdroid: true
     - name: Pure Maps
       url: https://rinigus.github.io/pure-maps/
       repo: https://github.com/rinigus/pure-maps

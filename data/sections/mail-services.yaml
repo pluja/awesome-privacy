@@ -111,6 +111,7 @@ subsections:
               license: GPL-3.0
               package_id: eu.faircode.email
               added: 2021-05-18
+              fdroid: true
             - name: Thunderbird for Android
               url: https://www.thunderbird.net/en-US/mobile/
               repo: https://github.com/thunderbird/thunderbird-android
@@ -120,6 +121,7 @@ subsections:
               license: Apache-2.0
               package_id: net.thunderbird.android
               added: 2021-05-18
+              fdroid: true
       - title: Desktop
         recommend:
           entries:

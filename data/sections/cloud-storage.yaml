@@ -75,6 +75,7 @@ subsections:
           license: GPL-3.0
           package_id: org.cryptomator.lite
           added: 2020-12-07
+          fdroid: true
         - name: Syncthing
           url: https://syncthing.net/
           repo: https://github.com/syncthing/syncthing

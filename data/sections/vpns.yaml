@@ -31,6 +31,7 @@ recommend:
       description: No-logs VPN that needs no email to sign up and takes cash, Monero or Bitcoin.
       package_id: net.ivpn.client
       added: 2022-07-28
+      fdroid: true
     - name: Mullvad VPN
       url: https://mullvad.net
       repo: https://github.com/mullvad/mullvadvpn-app
@@ -38,6 +39,7 @@ recommend:
       license: GPL-3.0
       package_id: net.mullvad.mullvadvpn
       added: 2022-07-28
+      fdroid: true
     - name: nadanada
       url: https://nadanada.me
       description: Pay-per-use WireGuard VPN with no account, payable in Bitcoin, Monero and other cryptocurrencies, formerly LNVPN.
@@ -52,6 +54,7 @@ recommend:
         - audited
       package_id: ch.protonvpn.android
       added: 2023-01-21
+      fdroid: true
     - name: SPN
       url: https://safing.io/spn/
       repo: https://github.com/safing/portmaster

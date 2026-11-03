@@ -60,6 +60,9 @@ subsections:
           license: GPL-3.0
           package_id: com.arduia.expense
           added: 2021-02-25
+          fdroid: true
+          caveats:
+            - play-store-trackers
         - name: My Expenses
           url: https://www.myexpenses.mobi/
           repo: https://github.com/mtotschnig/MyExpenses
@@ -69,6 +72,9 @@ subsections:
           license: GPL-3.0
           package_id: org.totschnig.myexpenses
           added: 2021-05-25
+          fdroid: true
+          caveats:
+            - play-store-trackers
         - name: Wallos
           url: https://wallosapp.com
           repo: https://github.com/ellite/Wallos
@@ -113,6 +119,7 @@ subsections:
                 - android
               package_id: net.eneiluj.moneybuster
               added: 2021-02-25
+              fdroid: true
           added: 2021-02-25
         - name: Nextcloud Cospend
           url: https://apps.nextcloud.com/apps/cospend
@@ -128,6 +135,7 @@ subsections:
                 - android
               package_id: net.eneiluj.moneybuster
               added: 2021-02-25
+              fdroid: true
           added: 2021-02-25
   - title: Others
     recommend:

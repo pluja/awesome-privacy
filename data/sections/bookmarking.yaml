@@ -21,6 +21,7 @@ recommend:
       license: MPL-2.0
       package_id: org.handmadeideas.floccus
       added: 2024-10-27
+      fdroid: true
     - name: Grimoire
       url: https://github.com/goniszewski/grimoire
       repo: https://github.com/goniszewski/grimoire
@@ -70,6 +71,7 @@ recommend:
       added: 2022-09-19
       tags:
         - self-host
+      fdroid: true
     - name: Linkwarden
       url: https://linkwarden.app
       repo: https://github.com/linkwarden/linkwarden

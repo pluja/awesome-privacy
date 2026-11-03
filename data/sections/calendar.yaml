@@ -16,6 +16,7 @@ recommend:
       license: GPL-3.0
       package_id: ws.xsoh.etar
       added: 2026-02-16
+      fdroid: true
     - name: Fossify Calendar
       url: https://github.com/FossifyOrg/Calendar
       repo: https://github.com/FossifyOrg/Calendar
@@ -27,6 +28,7 @@ recommend:
       added: 2026-02-16
       tags:
         - offline
+      fdroid: true
     - name: KashCal
       url: https://github.com/KashCal/KashCal
       repo: https://github.com/KashCal/KashCal
@@ -37,6 +39,7 @@ recommend:
       added: 2026-02-16
       tags:
         - offline
+      fdroid: true
     - name: Nextcloud Calendar
       url: https://apps.nextcloud.com/apps/calendar
       repo: https://github.com/nextcloud/calendar

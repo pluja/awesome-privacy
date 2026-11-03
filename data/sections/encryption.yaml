@@ -22,6 +22,7 @@ recommend:
       license: GPL-3.0
       package_id: org.cryptomator.lite
       added: 2020-12-07
+      fdroid: true
     - name: Photok
       url: https://github.com/leonlatsch/Photok
       repo: https://github.com/leonlatsch/Photok
@@ -31,6 +32,7 @@ recommend:
       license: Apache-2.0
       package_id: dev.leonlatsch.photok
       added: 2022-01-24
+      fdroid: true
     - name: Shufflecake
       url: https://shufflecake.net/
       description: Hidden encrypted volumes for Linux with plausible deniability, so nobody can prove the hidden data exists.

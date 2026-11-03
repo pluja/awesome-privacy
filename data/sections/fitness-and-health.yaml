@@ -13,6 +13,7 @@ subsections:
             - android
           package_id: de.tadris.fitness
           added: 2020-12-28
+          fdroid: true
         - name: OpenTracks
           url: https://opentracksapp.com/
           repo: https://codeberg.org/OpenTracksApp/OpenTracks
@@ -86,6 +87,7 @@ subsections:
             - android
           package_id: ch.nilsgrob.android.bluemoon
           added: 2024-04-30
+          fdroid: true
         - name: Drip
           url: https://dripapp.org/
           repo: https://gitlab.com/bloodyhealth/drip
@@ -95,6 +97,7 @@ subsections:
             - ios
           package_id: com.drip
           added: 2020-12-28
+          fdroid: true
         - name: Euki
           url: https://eukiapp.org/
           repo: https://github.com/Euki-Inc/Euki-Android
@@ -114,6 +117,7 @@ subsections:
             - android
           package_id: de.arnowelzel.android.periodical
           added: 2024-09-25
+          fdroid: true
         - name: Poppy
           url: https://poppy.usenostr.org
           description: Period tracker in the browser that stores data locally and can sync end-to-end encrypted through Nostr relays, no account needed.
@@ -136,3 +140,4 @@ subsections:
             - no-account
           package_id: com.futsch1.medtimer
           added: 2026-11-02
+          fdroid: true

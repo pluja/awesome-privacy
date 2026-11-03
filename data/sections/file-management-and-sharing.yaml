@@ -64,6 +64,7 @@ recommend:
       added: 2023-03-22
       tags:
         - no-account
+      fdroid: true
     - name: Magic Wormhole
       url: https://github.com/magic-wormhole/magic-wormhole
       repo: https://github.com/magic-wormhole/magic-wormhole

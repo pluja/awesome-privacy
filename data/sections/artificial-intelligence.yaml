@@ -132,6 +132,7 @@ subsections:
           license: GPL-3.0
           package_id: com.reecedunn.espeak
           added: 2023-04-28
+          fdroid: true
         - name: Kokoro FastAPI
           url: https://github.com/remsky/Kokoro-FastAPI
           repo: https://github.com/remsky/Kokoro-FastAPI

@@ -9,6 +9,7 @@ recommend:
       description: Proves you own your online accounts with cryptographic signatures, with no central service to trust.
       package_id: org.keyoxide.keyoxide
       added: 2022-12-14
+      fdroid: true
     - name: LinkStack
       url: https://linkstack.org/
       repo: https://github.com/LinkStackOrg/LinkStack

@@ -44,6 +44,7 @@ recommend:
       added: 2021-05-25
       tags:
         - e2ee
+      fdroid: true
     - name: Logseq
       url: https://logseq.com/
       repo: https://github.com/logseq/logseq
@@ -53,6 +54,7 @@ recommend:
         - telemetry-opt-out
       package_id: com.logseq.app
       added: 2021-05-26
+      fdroid: true
     - name: Lockbook
       url: https://lockbook.net
       repo: https://github.com/lockbook/lockbook
@@ -87,6 +89,7 @@ recommend:
           license: GPL-3.0
           package_id: it.niedermann.owncloud.notes
           added: 2021-06-02
+          fdroid: true
     - name: Notally
       url: https://github.com/OmGodse/Notally
       repo: https://github.com/OmGodse/Notally
@@ -98,6 +101,7 @@ recommend:
       added: 2021-03-21
       tags:
         - offline
+      fdroid: true
     - name: Notesnook
       url: https://notesnook.com/
       repo: https://github.com/streetwriters/notesnook
@@ -107,6 +111,7 @@ recommend:
       added: 2022-09-02
       tags:
         - e2ee
+      fdroid: true
     - name: Obsidian
       url: https://obsidian.md
       description: Markdown notes kept as plain files on your device, with optional end-to-end encrypted sync.
@@ -126,6 +131,7 @@ recommend:
       added: 2024-04-28
       tags:
         - fork
+      fdroid: true
     - name: SiYuan
       url: https://github.com/siyuan-note/siyuan
       repo: https://github.com/siyuan-note/siyuan
@@ -141,6 +147,7 @@ recommend:
       added: 2021-03-21
       tags:
         - e2ee
+      fdroid: true
     - name: Super Productivity
       url: https://super-productivity.com
       repo: https://github.com/super-productivity/super-productivity
@@ -190,7 +197,9 @@ recommend:
       license: GPL-3.0
       caveats:
         - website-trackers
+        - play-store-trackers
       package_id: org.tasks
       added: 2026-07-04
       tags:
         - offline
+      fdroid: true

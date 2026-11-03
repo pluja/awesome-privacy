@@ -22,6 +22,7 @@ recommend:
         - self-host
       package_id: com.zulipmobile
       added: 2020-12-09
+      fdroid: true
     - name: Stoat
       url: https://stoat.chat/
       repo: https://github.com/stoatchat/stoatchat
@@ -53,6 +54,7 @@ recommend:
       added: 2020-12-09
       tags:
         - self-host
+      fdroid: true
     - name: Mattermost
       url: https://mattermost.com/
       repo: https://github.com/mattermost/mattermost

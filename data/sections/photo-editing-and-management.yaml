@@ -128,6 +128,7 @@ subsections:
             - android
           package_id: de.kaffeemitkoffein.imagepipe
           added: 2020-12-09
+          fdroid: true
         - name: Pocket Paint
           url: https://github.com/Catrobat/Paintroid
           repo: https://github.com/Catrobat/Paintroid
@@ -136,6 +137,7 @@ subsections:
             - android
           package_id: org.catrobat.paintroid
           added: 2020-12-09
+          fdroid: true
         - name: Scrambled Exif
           url: https://gitlab.com/juanitobananas/scrambled-exif
           repo: https://gitlab.com/juanitobananas/scrambled-exif

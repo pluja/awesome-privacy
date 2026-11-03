@@ -67,6 +67,7 @@ subsections:
                 - android
               package_id: com.oF2pks.classyshark3xodus
               added: 2022-03-02
+              fdroid: true
         - name: NetGuard
           url: https://netguard.me/
           repo: https://github.com/M66B/NetGuard
@@ -76,6 +77,7 @@ subsections:
           license: GPL-3.0
           package_id: eu.faircode.netguard
           added: 2022-03-02
+          fdroid: true
         - name: Orbot
           url: https://orbot.app/
           repo: https://github.com/guardianproject/orbot-android
@@ -93,6 +95,7 @@ subsections:
             - android
           package_id: tech.techlore.plexus
           added: 2021-10-09
+          fdroid: true
         - name: RethinkDNS + Firewall
           url: https://github.com/celzero/rethink-app
           repo: https://github.com/celzero/rethink-app
@@ -102,3 +105,4 @@ subsections:
           license: Apache-2.0
           package_id: com.celzero.bravedns
           added: 2022-05-09
+          fdroid: true

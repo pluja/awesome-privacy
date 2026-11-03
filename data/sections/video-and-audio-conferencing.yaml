@@ -54,6 +54,7 @@ recommend:
         - p2p
       package_id: cx.ring
       added: 2020-12-07
+      fdroid: true
     - name: Jitsi Meet
       url: https://jitsi.org/jitsi-meet/
       repo: https://github.com/jitsi/jitsi-meet
@@ -63,6 +64,9 @@ recommend:
         - self-host
       package_id: org.jitsi.meet
       added: 2020-12-07
+      fdroid: true
+      caveats:
+        - play-store-trackers
     - name: MiroTalk P2P
       url: https://p2p.mirotalk.com/
       repo: https://github.com/miroslavpejic85/mirotalk
@@ -87,6 +91,7 @@ recommend:
         - self-host
       package_id: com.nextcloud.talk2
       added: 2020-12-09
+      fdroid: true
 subsections:
   - title: Alternative clients/modifications of Discord
     callouts:

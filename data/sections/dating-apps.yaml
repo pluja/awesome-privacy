@@ -18,3 +18,4 @@ recommend:
       license: AGPL-3.0
       package_id: com.alovoa.expo
       added: 2022-03-02
+      fdroid: true

@@ -56,6 +56,7 @@ subsections:
                 - android
               package_id: eu.siacs.conversations
               added: 2020-12-07
+              fdroid: true
             - name: Dino
               url: https://dino.im/
               repo: https://github.com/dino/dino
@@ -85,6 +86,7 @@ subsections:
                 - self-host
               package_id: org.snikket.android
               added: 2026-07-04
+              fdroid: true
         - name: DeltaChat
           url: https://delta.chat/
           repo: https://github.com/deltachat/deltachat-android
@@ -92,6 +94,7 @@ subsections:
           license: GPL-3.0
           package_id: com.b44t.messenger
           added: 2020-12-07
+          fdroid: true
         - name: Session
           url: https://getsession.org/
           repo: https://github.com/session-foundation/session-android
@@ -99,6 +102,7 @@ subsections:
           license: GPL-3.0
           package_id: network.loki.messenger.fdroid
           added: 2020-12-07
+          fdroid: true
         - name: SimpleX Chat
           url: https://simplex.chat/
           repo: https://github.com/simplex-chat/simplex-chat
@@ -108,6 +112,7 @@ subsections:
             - e2ee
           package_id: chat.simplex.app
           added: 2021-12-09
+          fdroid: true
         - name: Status
           url: https://status.app/
           repo: https://github.com/status-im/status-app
@@ -115,6 +120,7 @@ subsections:
           license: MPL-2.0
           package_id: app.status.mobile
           added: 2020-12-07
+          fdroid: true
   - title: Centralized
     intro: One provider runs the servers, which is a single point of failure and control. That can still be trustworthy when the protocol and code are open and audited.
     recommend:

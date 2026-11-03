@@ -89,6 +89,7 @@ subsections:
             - website-trackers
           package_id: com.odysee.floss
           added: 2020-12-09
+          fdroid: true
         - name: PeerTube
           url: https://joinpeertube.org/en/
           repo: https://github.com/Chocobozzz/PeerTube
@@ -149,6 +150,7 @@ subsections:
               license: GPL-3.0
               package_id: com.github.libretube
               added: 2022-03-19
+              fdroid: true
             - name: NewPipe
               url: https://newpipe.net/
               repo: https://github.com/TeamNewPipe/NewPipe
@@ -160,6 +162,7 @@ subsections:
                 - no-account
               package_id: org.schabi.newpipe
               added: 2020-12-07
+              fdroid: true
             - name: SkyTube
               url: https://github.com/SkyTubeTeam/SkyTube
               repo: https://github.com/SkyTubeTeam/SkyTube
@@ -171,6 +174,7 @@ subsections:
                 - no-account
               package_id: free.rm.skytube.oss
               added: 2021-05-29
+              fdroid: true
             - name: Yattee
               url: https://github.com/yattee/yattee
               repo: https://github.com/yattee/yattee
@@ -218,6 +222,7 @@ subsections:
                   url: https://joinmastodon.org/apps
                   description: Official directory of Mastodon apps for Android, iOS, web and desktop.
                   added: 2022-04-15
+              fdroid: true
             - name: Nostr
               url: https://nostr.com/
               repo: https://github.com/nostr-protocol/nips
@@ -255,6 +260,7 @@ subsections:
               license: MIT
               package_id: org.ca.squawker
               added: 2021-03-21
+              fdroid: true
   - title: Reddit
     avoid:
       items:
@@ -319,6 +325,7 @@ subsections:
               license: GPL-3.0
               package_id: com.perflyst.twire
               added: 2026-09-30
+              fdroid: true
   - title: Imgur
     avoid:
       items:

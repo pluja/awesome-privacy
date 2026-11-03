@@ -51,6 +51,7 @@ recommend:
         - website-trackers
       package_id: com.carriez.flutter_hbb
       added: 2021-05-23
+      fdroid: true
     - name: screego
       url: https://screego.net/
       repo: https://github.com/screego/server
