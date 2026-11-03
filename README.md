@@ -562,6 +562,7 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 - [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others. 
 - [age](https://age-encryption.org) - Modern command line file encryption tool with small keys and no configuration or keyring to manage. Open source, BSD-3 licensed.
 - [Tomb](https://dyne.org/software/tomb/) - Command line tool to create and manage encrypted storage folders on GNU/Linux, built on standard LUKS and cryptsetup.
+- [PaperVault](https://github.com/boazeb/papervault) - Encrypts secrets in the browser with AES-256-GCM and splits the key into printable QR codes using Shamir's Secret Sharing, an offline alternative to a single paper backup or cloud password manager emergency access. Open source (MIT), self-hostable, works on any modern browser.
 
 ### OS Encryption
 
