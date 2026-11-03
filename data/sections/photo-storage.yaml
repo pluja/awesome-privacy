@@ -1,0 +1,108 @@
+title: Photo Storage
+slug: photo-storage
+avoid:
+  items:
+    - name: Google Photos
+      tosdr: en_217
+      tools:
+        - name: Google Photos Takeout Helper
+          url: https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper
+          status: inactive
+          description: Script that organizes the Google Takeout messy archive into one big chronological folder. Use this script to get out of Google Photos :).
+          repo: https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper
+    - name: Amazon Photos
+subsections:
+  - title: Self-hosted
+    recommend:
+      entries:
+        - name: Immich
+          url: https://github.com/immich-app/immich
+          description: Self-hosted photo and video backup solution directly from your mobile phone.
+          repo: https://github.com/immich-app/immich
+          package_id: app.alextran.immich
+          added: 2025-06-17
+          tags:
+            - self-host
+        - name: LibrePhotos
+          url: https://github.com/LibrePhotos/librephotos
+          description: Active [OwnPhotos](https://github.com/hooram/ownphotos) fork. Self hosted alternative to Google Photos.
+          repo: https://github.com/LibrePhotos/librephotos
+          added: 2020-12-14
+          tags:
+            - self-host
+        - name: Nextcloud
+          url: https://nextcloud.com/
+          description: The open source self-hosted productivity platform that keeps you in control. It has a [*Photos*](https://github.com/nextcloud/photos) plugin to help you organize and visualize your photos.
+          added: 2020-12-07
+          tags:
+            - self-host
+        - name: Photoprism
+          url: https://photoprism.app
+          description: Feature rich server-based application for browsing, organizing and sharing your personal photo collection. The most similar to Google Photos.
+          added: 2020-12-07
+        - name: Pigallery2
+          url: http://bpatrik.github.io/pigallery2/
+          description: A self-hosted directory-first photo gallery website.
+          added: 2021-06-04
+          tags:
+            - self-host
+        - name: Photoview
+          url: https://photoview.github.io/
+          description: Photo gallery for self-hosted personal servers with Facial Recognition.
+          added: 2021-05-01
+          tags:
+            - self-host
+        - name: Photostructure
+          url: https://photostructure.com/
+          description: Self-hosted photo library that makes browsing and sharing a lifetime of memories delightful.
+          added: 2020-12-07
+          tags:
+            - self-host
+        - name: Stingle Photos
+          url: https://stingle.org/
+          description: Open source solution that provides strong security, privacy and encryption to backup your photos.
+          package_id: org.stingle.photos
+          added: 2020-12-07
+        - name: Ente
+          url: https://ente.com/
+          description: End-to-end encrypted storage for photos and videos. Open source, [audited](https://ente.com/blog/cryptography-audit/) independently.
+          added: 2021-05-23
+          tags:
+            - e2ee
+            - audited
+  - title: Third-party
+    recommend:
+      entries:
+        - name: Crypt.ee
+          url: https://crypt.ee/
+          description: A private and encrypted place for all your photos, documents, notes and more.
+          added: 2020-12-07
+        - name: Ente
+          url: https://ente.com/
+          description: End-to-end encrypted storage for photos and videos. Open source, [audited](https://ente.com/blog/cryptography-audit/) independently.
+          added: 2021-05-23
+          tags:
+            - e2ee
+            - audited
+        - name: Stingle Photos
+          url: https://stingle.org/
+          description: Open source solution that provides strong security, privacy and encryption to backup your photos.
+          package_id: org.stingle.photos
+          added: 2020-12-07
+  - title: Local
+    recommend:
+      entries:
+        - name: DigiKam
+          url: https://www.digikam.org/
+          description: Awesome Professional Photo Management with the Power of Open Source.
+          added: 2021-05-18
+        - name: Photok
+          url: https://github.com/leonlatsch/Photok
+          description: Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others.
+          repo: https://github.com/leonlatsch/Photok
+          package_id: dev.leonlatsch.photok
+          added: 2022-01-24
+        - name: ImageGlass
+          url: https://imageglass.org/
+          description: ImageGlass is a lightweight software application whose purpose is to help you view images in a clean and intuitive working environment.
+          added: 2022-03-28

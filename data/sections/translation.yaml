@@ -1,0 +1,67 @@
+title: Translation
+slug: translation
+avoid:
+  items:
+    - name: Google Translate
+      tosdr: en_217
+    - name: DeepL
+    - name: Bing Translator
+      tosdr: en_244
+subsections:
+  - title: Text translation
+    recommend:
+      entries:
+        - name: Mozilla Translate
+          url: https://mozilla.github.io/translate/
+          description: Open Source, runs model locally in your browser.
+          added: 2022-10-10
+        - name: Libretranslate
+          url: https://libretranslate.com/
+          description: Open Source Machine Translation - 100% Self-Hosted. No Limits. No Ties to Proprietary Services.
+          added: 2020-12-22
+          tags:
+            - self-host
+        - name: Apertium
+          url: https://apertium.org/
+          description: A free/open-source machine translation platform, runs offline on your computer
+          added: 2020-12-22
+          tags:
+            - offline
+        - name: Softcatala
+          url: https://www.softcatala.org/traductor/
+          description: Open Source Translation tool - Only Catalan/Spanish/English/French (uses apertium)
+          added: 2020-12-22
+        - name: TranslateLocally
+          url: https://github.com/XapaJIaMnu/translateLocally
+          description: Free/open-source neural MT, runs offline on your computer
+          added: 2021-08-15
+          tags:
+            - offline
+          repo: https://github.com/XapaJIaMnu/translateLocally
+        - name: Linguist
+          url: https://linguister.io
+          description: A free and Open Source full-featured translation solution in-browser with embedded offline translator and [custom translators](https://linguister.io/docs/CustomTranslator). Full-page translation, TTS, dictionary, translation for user input and selected text on page.
+          added: 2025-08-26
+          tags:
+            - offline
+  - title: Alternative Google Translate frontends
+    recommend:
+      entries:
+        - name: Lingva
+          url: https://github.com/TheDavidDelta/lingva-translate
+          status: inactive
+          description: Alternative front-end for Google Translate. [Demo](https://lingva.ml/).
+          repo: https://github.com/TheDavidDelta/lingva-translate
+          added: 2021-03-31
+        - name: Simplytranslate
+          url: https://codeberg.org/ManeraKai/simplytranslate
+          description: Alternative front-end for Google Translate and LibreTranslate. [Demo](https://simplytranslate.org/)
+          repo: https://codeberg.org/ManeraKai/simplytranslate
+          added: 2021-05-25
+        - name: Mozhi
+          url: https://codeberg.org/aryak/mozhi
+          description: Alternative frontend that aggregates Google Translate, DeepL, Yandex, and other engines behind one private UI. Self-hostable, AGPL-3.0 licensed.
+          repo: https://codeberg.org/aryak/mozhi
+          added: 2026-07-04
+          tags:
+            - self-host

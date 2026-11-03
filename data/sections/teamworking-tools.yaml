@@ -1,0 +1,48 @@
+title: Teamworking Tools
+slug: teamworking-tools
+recommend:
+  entries:
+    - name: "!["
+      url: https://shields.tosdr.org/en_206.svg
+      description: "](https://tosdr.org/en/service/206)"
+    - name: Google Meet [![](https://shields.tosdr.org/en_217.svg)](https://tosdr.org/en/service/217)
+    - name: Microsoft Teams [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
+    - name: "!["
+      url: https://shields.tosdr.org/en_536.svg
+      description: "](https://tosdr.org/en/service/536)"
+    - name: Zulip
+      url: https://zulip.com/
+      description: Chat for distributed teams.
+      package_id: com.zulipmobile
+      added: 2020-12-09
+    - name: Stoat
+      url: https://stoat.chat/
+      description: (formerly Revolt) User-first chat platform built with modern web technologies.
+      added: 2021-09-13
+    - name: Twake
+      url: https://twake.app/
+      description: Work in a team faster. Twake covers all of your organizational needs through a single platform.
+      added: 2020-12-09
+    - name: RocketChat
+      url: https://rocket.chat/
+      description: Control your communication, manage your data, and have your own collaboration platform to improve team productivity.
+      added: 2020-12-09
+    - name: Nextcloud Talk
+      url: https://nextcloud.com/talk/
+      description: Keep conversations private with Nextcloud Talk.
+      package_id: com.nextcloud.talk2
+      added: 2020-12-09
+      tags:
+        - self-host
+    - name: Mattermost
+      url: https://mattermost.com/
+      description: Open-source Slack alternative.
+      added: 2020-12-09
+    - name: See this section for Discord mods and alternative clients
+      url: https://github.com/pluja/awesome-privacy/blob/main/README.md#alternative-clientsmodifications-of-discord
+callouts:
+  - type: warning
+    text: |-
+      **Alternative clients/modifications of Discord:**
+      Your IP and messages will still be shared and belong to Discord and they are not encrypted.\
+      Also using any of these modifications/clients [violates](https://x.com/discord/status/1006178587731550208) the [Discord ToS](https://discord.com/terms) so, we are not responsible of any suspension or termination of your account **but**, this should [not happen **yet**](https://github.com/GooseMod/GooseMod/wiki/FAQ#is-goosemod-against-discord-tos).

@@ -1,0 +1,40 @@
+title: Maps and Navigation
+slug: maps-and-navigation
+avoid:
+  items:
+    - name: Google Maps
+    - name: Apple Maps
+    - name: Yandex Maps
+    - name: Bing Maps
+    - name: Waze
+    - name: Sygic
+    - name: HERE WeGo
+    - name: Petal Maps
+recommend:
+  entries:
+    - name: Open Street Map (OSM)
+      url: https://www.openstreetmap.org/
+      description: OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.
+      children:
+        - name: OSMAnd
+          url: https://osmand.net/
+          description: Android/iOS Navigation app using OSM. It is a feature-rich app with all you expect.
+          package_id: net.osmand.plus
+          added: 2020-12-08
+      added: 2020-12-08
+    - name: Organic Maps
+      url: https://organicmaps.app/
+      description: Great offline maps for hikers and cyclists.
+      package_id: app.organicmaps
+      added: 2021-06-01
+      tags:
+        - offline
+    - name: CoMaps
+      url: https://www.comaps.app/
+      description: A community-led free & open source maps app based on OSM
+      package_id: app.comaps.fdroid
+      added: 2025-07-05
+    - name: Pure Maps
+      url: https://github.com/rinigus/pure-maps
+      description: Map and navigation app for Linux phones, Sailfish OS and desktop that can work fully offline with OSM Scout Server. GPL-3.0 licensed.
+      repo: https://github.com/rinigus/pure-maps

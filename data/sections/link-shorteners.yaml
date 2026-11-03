@@ -1,0 +1,42 @@
+title: Link Shorteners
+slug: link-shorteners
+avoid:
+  items:
+    - name: Bit.ly
+recommend:
+  entries:
+    - name: MagLit
+      url: https://maglit.me
+      description: An encrypted and privacy respecting Link Shortener service that also supports Magnet Links.
+      added: 2022-04-30
+    - name: Dub
+      url: https://github.com/dubinc/dub.link
+      description: You can self-host Dub.co for greater control over your data and design.
+      repo: https://github.com/dubinc/dub.link
+      added: 2024-09-25
+      tags:
+        - self-host
+    - name: Yourls
+      url: https://yourls.org/
+      description: Self hosted URL shortener in PHP.
+      added: 2024-09-25
+      tags:
+        - self-host
+    - name: tnyr.me
+      url: https://tnyr.me
+      description: A zero-trust URL shortener with paswordless end-to-end encryption.
+      added: 2025-08-26
+      tags:
+        - e2ee
+    - name: Kutt
+      url: https://kutt.it/
+      description: Self-hosted URL shortener with custom domains and password-protected links. Open source, MIT licensed.
+      added: 2026-07-04
+      tags:
+        - self-host
+    - name: Shlink
+      url: https://shlink.io/
+      description: Self-hosted URL shortener that keeps its own click analytics on your server. Open source, MIT licensed.
+      added: 2026-07-04
+      tags:
+        - self-host

@@ -1,0 +1,16 @@
+title: Dating Apps
+slug: dating-apps
+intro: Apps such as Tinder collect and sell your personal intimate information. Tinder in particular has been found to [charge users up to five times more for same service](https://www.mozillafoundation.org/en/blog/new-research-tinders-opaque-unfair-pricing-algorithm-can-charge-users-up-to-five-times-more-for-same-service/), [extrapolate estimations on your intelligence and other psychometrics and sell it to third-parties](https://www.reddit.com/r/privacy/comments/k7x4s7/tinder_extrapolates_estimations_on_your/), [it may know more about you than yourself](https://www.theguardian.com/technology/2017/sep/26/tinder-personal-data-dating-app-messages-hacked-sold), and many more bad things you can find on the internet.
+recommend:
+  entries:
+    - name: "!["
+      url: https://shields.tosdr.org/en_462.svg
+      description: "](https://tosdr.org/en/service/462)"
+    - name: Grindr
+    - name: Badoo
+    - name: Lovoo
+    - name: Alovoa
+      url: https://alovoa.com/
+      description: Free and open-source dating platform that respects your privacy.
+      package_id: com.alovoa.expo
+      added: 2022-03-02

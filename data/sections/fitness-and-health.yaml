@@ -1,0 +1,127 @@
+title: Fitness and Health
+slug: fitness-and-health
+avoid:
+  items: []
+  intro: |-
+    Your health is a **very** important piece of your **private data** and you should care **a lot** about it. Also, health related data is among the most coveted. Please don't use apps from Google, Fitbit, Huawei, Xiaomi or any company that seeks the gathering of your personal data.
+
+    If you need an app for **menstrual cycle tracking** please don't use any apps like Clue, Period Tracker, etc. Those cute pink apps are greedy for your menstrual cycle and intimate life data and will sell it for sure, protect your private life. Check the list below and you will find nice alternatives.
+subsections:
+  - title: Fitness trackers
+    recommend:
+      entries:
+        - name: Fitotrack
+          url: https://codeberg.org/jannis/FitoTrack
+          platforms:
+            - android
+          description: A privacy oriented fitness tracker for Android.
+          repo: https://codeberg.org/jannis/FitoTrack
+          package_id: de.tadris.fitness
+          added: 2020-12-28
+        - name: OpenTracks
+          url: https://codeberg.org/OpenTracksApp/OpenTracks
+          platforms:
+            - android
+          description: OpenTracks is a sport tracking application that completely respects your privacy.
+          repo: https://codeberg.org/OpenTracksApp/OpenTracks
+          added: 2021-06-15
+        - name: Gadgetbridge
+          url: https://codeberg.org/Freeyourgadget/Gadgetbridge
+          platforms:
+            - android
+          description: A free and cloudless replacement for your gadget vendors' closed source Android applications.
+          repo: https://codeberg.org/Freeyourgadget/Gadgetbridge
+          added: 2024-07-22
+        - name: FitTrackee
+          url: https://codeberg.org/FitTrackee/FitTrackee
+          description: Self-hosted web app to record and analyze outdoor activities from GPS files, as a Strava alternative (AGPL-3.0).
+          repo: https://codeberg.org/FitTrackee/FitTrackee
+          added: 2026-07-04
+          tags:
+            - self-host
+        - name: RunnerUp
+          url: https://github.com/jonasoreland/runnerup
+          platforms:
+            - android
+          description: Open source run and bike tracker for Android that keeps activities on the device, with optional sync to services like Strava. GPL-3.0 licensed.
+          repo: https://github.com/jonasoreland/runnerup
+  - title: Workout planners
+    recommend:
+      entries:
+        - name: wger
+          url: https://wger.de/en/software/features
+          description: A free, open source, self-hosted web application that manages your exercises, workouts and nutrition.
+          added: 2020-12-28
+          tags:
+            - self-host
+  - title: Food
+    recommend:
+      entries:
+        - name: OpenFoodFacts
+          url: https://world.openfoodfacts.org/
+          description: Open Food Facts is a food products database made by everyone, for everyone. You can use it to make better food choices.
+          children:
+            - name: OFF Apps
+              url: https://world.openfoodfacts.org/open-food-facts-mobile-app
+              description: Open source Android and iOS apps to scan food barcodes and read ingredient, additive, and nutrition data.
+              added: 2020-12-28
+          added: 2020-12-28
+  - title: Menstrual cycle trackers
+    recommend:
+      entries:
+        - name: Bluemoon
+          url: https://gitlab.com/ngrob/bluemoon-android
+          platforms:
+            - android
+          description: Open source, privacy friendly menstruation tracking app. Your period, your data!
+          repo: https://gitlab.com/ngrob/bluemoon-android
+          package_id: ch.nilsgrob.android.bluemoon
+          added: 2024-04-30
+        - name: Drip
+          url: https://dripapp.org/
+          platforms:
+            - android
+          description: Menstrual cycle and fertility tracking. Everything you enter stays on your device.
+          package_id: com.drip
+          added: 2020-12-28
+        - name: Euki
+          url: https://eukiapp.org/
+          description: The period tracker that doesn’t track you.
+          added: 2024-04-30
+        - name: Periodical
+          url: https://codeberg.org/askaaron/periodical
+          platforms:
+            - android
+          description: A calendar to track your menstruation and calculate possible fertile days
+          repo: https://codeberg.org/askaaron/periodical
+          package_id: de.arnowelzel.android.periodical
+          added: 2024-09-25
+        - name: Poppy
+          url: https://poppy.usenostr.org
+          description: Poppy is a private period tracker that runs in the browser. It stores data locally, and can sync and backup through Nostr relays without a Poppy server or account, all encrypted end to end.
+          added: 2026-05-25
+          tags:
+            - e2ee
+  - title: Medical health
+    recommend:
+      entries:
+        - name: MedTimer
+          url: https://github.com/Futsch1/medTimer
+          platforms:
+            - android
+          description: Offline medication reminder that keeps all data on your device and needs no internet permission. Available on F-Droid, MIT licensed.
+          repo: https://github.com/Futsch1/medTimer
+          license: MIT
+          package_id: com.futsch1.medtimer
+          added: 2026-11-02
+          tags:
+            - offline
+            - no-account
+        - name: Fasten
+          url: https://github.com/fastenhealth/fasten-onprem
+          status: inactive
+          description: Fasten is an open-source, self-hosted, personal/family electronic medical record aggregator, designed to integrate with 1000's of insurances/hospitals/clinics.
+          repo: https://github.com/fastenhealth/fasten-onprem
+          added: 2023-05-16
+          tags:
+            - self-host

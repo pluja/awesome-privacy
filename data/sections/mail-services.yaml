@@ -1,0 +1,119 @@
+title: Mail Services
+slug: mail-services
+avoid:
+  items:
+    - name: Gmail
+    - name: Outlook
+    - name: Yandex Mail
+    - name: Yahoo! Mail
+subsections:
+  - title: Third-Party owned
+    recommend:
+      entries:
+        - name: Forward Email
+          url: https://forwardemail.net
+          description: the 100% open-source and privacy-focused email service.
+          added: 2023-02-22
+        - name: ProtonMail
+          url: https://proton.me/mail
+          description: Secure Email. Based in Switzerland. [Read this article over Climate activist arrest](https://proton.me/blog/climate-activist-arrest).
+          added: 2021-05-18
+        - name: Tuta
+          url: https://tuta.com/
+          description: Secure email for everybody. Open Source.
+          added: 2024-04-15
+        - name: mailbox.org
+          url: https://mailbox.org/
+          description: Paid email, calendar and office suite based in Germany, with built-in PGP encryption and no ads.
+          added: 2026-09-30
+        - name: Riseup
+          url: https://riseup.net/en/about-us
+          description: Online communication tools for people and groups working on liberatory social change.
+          added: 2021-05-18
+        - name: Mailfence
+          url: https://mailfence.com
+          description: Secure and private email.
+          added: 2022-09-21
+        - name: Posteo
+          url: https://posteo.de/en
+          description: Ad-free email service from Germany, running since 2009 and funded only by its users, with sign-up and payment that need no personal details.
+  - title: Self-Hosted
+    recommend:
+      entries:
+        - name: Docker mail server
+          url: https://github.com/docker-mailserver/docker-mailserver
+          description: A fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) using Docker.
+          repo: https://github.com/docker-mailserver/docker-mailserver
+          added: 2021-10-27
+        - name: "Mailcow: dockerized"
+          url: https://github.com/mailcow/mailcow-dockerized
+          description: The mailserver suite with the 'moo'.
+          repo: https://github.com/mailcow/mailcow-dockerized
+          added: 2022-09-28
+        - name: Mail-in-a-box
+          url: https://github.com/mail-in-a-box/mailinabox
+          description: "Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box."
+          repo: https://github.com/mail-in-a-box/mailinabox
+          added: 2021-10-27
+        - name: Mox
+          url: https://github.com/mjl-/mox
+          description: Modern full-featured open source secure mail server for low-maintenance self-hosted email.
+          repo: https://github.com/mjl-/mox
+          added: 2023-02-26
+          tags:
+            - self-host
+        - name: Stalwart
+          url: https://stalw.art/
+          description: All-in-one mail server written in Rust that covers SMTP, IMAP, and JMAP, with two independent security audits (AGPL-3.0).
+          added: 2026-07-04
+          tags:
+            - audited
+  - title: Clients
+    subsections:
+      - title: Android / iOS
+        recommend:
+          entries:
+            - name: FairEmail
+              url: https://github.com/M66B/FairEmail
+              platforms:
+                - android
+              description: Fully featured, open source, privacy friendly email app for Android.
+              repo: https://github.com/M66B/FairEmail
+              package_id: eu.faircode.email
+              added: 2021-05-18
+            - name: K9
+              url: https://k9mail.app/
+              platforms:
+                - android
+              description: Open Source Email App for Android.
+              package_id: com.fsck.k9
+              added: 2021-05-18
+      - title: Desktop
+        recommend:
+          entries:
+            - name: Thunderbird
+              url: https://www.thunderbird.net
+              description: A free customizable open source email client.
+              added: 2021-05-27
+            - name: NeoMutt
+              url: https://github.com/neomutt/neomutt
+              description: Terminal email client with built-in PGP/GPG support, a maintained fork of Mutt. GPL-2.0 licensed.
+              repo: https://github.com/neomutt/neomutt
+  - title: Email Alias Services (Anonymous Forwarding)
+    intro: With email aliases, you can finally create a different identity for each website. Defend against spams, phishing and data breach. You can choose self-hosting any of the following options or you can also use their own platform as a service.
+    recommend:
+      entries:
+        - name: SimpleLogin
+          url: https://github.com/simple-login/app
+          description: Open source, self-hostable email aliasing service now owned by Proton (AGPL-3.0).
+          repo: https://github.com/simple-login/app
+          added: 2021-05-29
+          tags:
+            - self-host
+        - name: AnonAddy
+          url: https://github.com/anonaddy/anonaddy
+          description: Open source, self-hostable email aliasing and forwarding service, now named addy.io (AGPL-3.0).
+          repo: https://github.com/anonaddy/anonaddy
+          added: 2021-05-29
+          tags:
+            - self-host

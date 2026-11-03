@@ -1,0 +1,15 @@
+title: Link in Bio Tools
+slug: link-in-bio-tools
+recommend:
+  entries:
+    - name: Keyoxide
+      url: https://keyoxide.org/
+      description: A modern, secure and privacy-friendly platform to establish your decentralized online identity.
+      package_id: org.keyoxide.keyoxide
+      added: 2022-12-14
+    - name: LinkStack
+      url: https://linkstack.org/
+      description: Self-hosted open-source Linktree alternative.
+      added: 2023-09-27
+      tags:
+        - self-host

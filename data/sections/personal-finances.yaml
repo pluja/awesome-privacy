@@ -1,0 +1,120 @@
+title: Personal Finances
+slug: personal-finances
+subsections:
+  - title: Full Featured Financial Management
+    recommend:
+      entries:
+        - name: Actual
+          url: https://actualbudget.org
+          description: Super fast and privacy-focused app for managing your finances.
+          added: 2025-01-20
+        - name: Firefly III
+          url: https://www.firefly-iii.org/
+          description: A free and open source personal finance manager.
+          added: 2025-01-20
+        - name: GnuCash
+          url: https://gnucash.org/
+          description: GnuCash is personal and small-business financial-accounting software, freely licensed under the GNU GPL and available for GNU/Linux, BSD, Solaris, Mac OS X and Microsoft Windows.
+          added: 2021-06-07
+        - name: Sure
+          url: https://github.com/we-promise/sure
+          description: Open Source and secure OS for your personal finances. Community maintained fork of the archived [Maybe](https://github.com/maybe-finance/maybe) project.
+          repo: https://github.com/we-promise/sure
+          added: 2025-08-13
+        - name: ezBookkeeping
+          url: https://ezbookkeeping.mayswind.net/
+          description: A lightweight, self-hosted personal finance app with a user-friendly interface and powerful bookkeeping features.
+          added: 2025-10-20
+          tags:
+            - self-host
+  - title: Budget Management
+    recommend:
+      entries:
+        - name: ProExpense
+          url: https://github.com/arduia/ProExpense/
+          description: A simple free finance note to safely record daily expenses.
+          repo: https://github.com/arduia/ProExpense/
+          package_id: com.arduia.expense
+          added: 2021-02-25
+        - name: My Expenses
+          url: https://github.com/mtotschnig/MyExpenses
+          description: Featureful GPL licenced Android Expense Tracking App.
+          repo: https://github.com/mtotschnig/MyExpenses
+          package_id: org.totschnig.myexpenses
+          added: 2021-05-25
+        - name: Wallos
+          url: https://wallosapp.com
+          description: Self-hosted tracker for subscriptions and recurring expenses, with reminders and spending statistics. Open source, GPL-3.0 licensed.
+          added: 2026-07-04
+          tags:
+            - self-host
+  - title: Shared Expenses
+    avoid:
+      items:
+        - name: Tricount
+          reason: App size is massive (~200MB) and contains many trackers from Facebook, Google and Huawei.
+        - name: Splitwise
+          reason: App contains trackers from Google and Amazon.
+    recommend:
+      entries:
+        - name: Spliit
+          url: https://github.com/spliit-app/spliit#readme
+          description: Share Expenses with Friends & Family. No ads. No account. Open Source. Forever Free.
+          repo: https://github.com/spliit-app/spliit#readme
+          added: 2025-01-20
+          tags:
+            - no-account
+        - name: SplitPro
+          url: https://github.com/oss-apps/split-pro#readme
+          description: "[Website](https://splitpro.app) - Split Expenses with your friends for free. An open source alternative to SplitWise."
+          repo: https://github.com/oss-apps/split-pro#readme
+          added: 2025-01-20
+        - name: IHateMoney
+          url: https://ihatemoney.org/
+          description: Manage your shared expenses, easily. Lacks unequal splitting.
+          children:
+            - name: MoneyBuster
+              url: https://gitlab.com/eneiluj/moneybuster/
+              description: Android client for Nextcloud Cospend and IHateMoney servers.
+              repo: https://gitlab.com/eneiluj/moneybuster/
+              package_id: net.eneiluj.moneybuster
+              added: 2021-02-25
+          added: 2021-02-25
+        - name: Nextcloud Cospend
+          url: https://apps.nextcloud.com/apps/cospend
+          description: A group/shared budget manager inspired by the great IHateMoney.
+          children:
+            - name: MoneyBuster
+              url: https://gitlab.com/eneiluj/moneybuster/
+              description: Android client for Nextcloud Cospend and IHateMoney servers.
+              repo: https://gitlab.com/eneiluj/moneybuster/
+              package_id: net.eneiluj.moneybuster
+              added: 2021-02-25
+          added: 2021-02-25
+  - title: Others
+    recommend:
+      entries:
+        - name: Debitum
+          url: https://github.com/Marmo/debitum
+          status: inactive
+          description: With Debitum you can track all kinds of IOUs, be it money or lent items.
+          repo: https://github.com/Marmo/debitum
+          package_id: org.ebur.debitum
+          added: 2021-07-13
+  - title: Portfolio trackers
+    recommend:
+      entries:
+        - name: Ghostfolio
+          url: https://github.com/ghostfolio/ghostfolio#readme
+          description: open source wealth management software built with web technology.
+          repo: https://github.com/ghostfolio/ghostfolio#readme
+          added: 2025-01-20
+        - name: PortfolioPerformance
+          url: https://www.portfolio-performance.info/en/
+          description: An open source tool to calculate the overall performance of an investment portfolio-
+          added: 2025-01-20
+        - name: Rotki
+          url: https://github.com/rotki/rotki
+          description: An awesome portfolio tracking, analytics, accounting and tax reporting application that protects your privacy.
+          repo: https://github.com/rotki/rotki
+          added: 2021-02-25

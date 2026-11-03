@@ -1,0 +1,59 @@
+title: Payments
+slug: payments
+avoid:
+  items:
+    - name: Visa / Mastercard
+    - name: PayPal
+      tosdr: en_230
+    - name: WeChat
+    - name: _insertBigTechHere_Pay
+    - name: Bank payments (wire, SEPA, etc)
+recommend:
+  entries:
+    - name: Monero
+      url: https://www.getmonero.org/
+      description: Monero is cash for a connected world. It's fast, private, untraceable and secure.
+      added: 2021-02-03
+    - name: Cash
+      description: Use person-to-person payments using physical notes and coins.
+callouts:
+  - type: warning
+    text: "[Bitcoin](https://bitcoin.org) is not anonymous nor private. Bitcoin is traceable, transparent and pseudonymous. For a basic introduction, [see aantonop's video](https://yewtu.be/watch?v=JN1Bowgcle8). More advanced users can watch this [Bitcoin privacy series](https://yewtu.be/watch?v=QEnL5k0R08w)."
+subsections:
+  - title: Wallets
+    recommend:
+      entries:
+        - name: Sparrow Wallet
+          url: https://www.sparrowwallet.com/
+          description: An open source, cross-platform desktop wallet that gives you many privacy-preserving spending tools.
+          added: 2023-01-05
+        - name: Wasabi Wallet
+          url: https://www.wasabiwallet.io/
+          description: An open source, non-custodial, privacy-focused Bitcoin wallet available on Desktop.
+          added: 2023-01-10
+        - name: Cake Wallet
+          url: https://cakewallet.com
+          description: Open source, non-custodial wallet for Monero, Bitcoin, and other coins on mobile and desktop. MIT licensed.
+          added: 2026-07-04
+        - name: Feather Wallet
+          url: https://featherwallet.org/
+          description: Lightweight open source Monero desktop wallet with built-in Tor and coin control. BSD-3 licensed.
+          added: 2026-07-04
+  - title: Payment Processors
+    recommend:
+      entries:
+        - name: BTCPay Server
+          url: https://btcpayserver.org
+          description: Self-hosted, non-custodial cryptocurrency payment processor for merchants, as an alternative to PayPal or BitPay. MIT licensed.
+          added: 2026-07-04
+          tags:
+            - self-host
+  - title: Where to use Monero and Bitcoin
+    recommend:
+      entries:
+        - name: kycnot.me
+          url: https://kycnot.me/
+          description: Directory of KYC-free exchanges, payment processors, and other privacy services.
+          added: 2026-07-04
+          tags:
+            - no-kyc

@@ -1,0 +1,93 @@
+title: Photo Editing and Management
+slug: photo-editing-and-management
+recommend:
+  entries:
+    - name: "!["
+      url: https://shields.tosdr.org/en_417.svg
+      description: "](https://tosdr.org/en/service/417)"
+    - name: VSCO
+subsections:
+  - title: Web
+    recommend:
+      entries:
+        - name: miniPaint
+          url: https://github.com/viliusle/miniPaint
+          description: Open Source alternative to Photopea. miniPaint operates directly in the browser. Nothing will be sent to any server. Everything stays in your browser.
+          repo: https://github.com/viliusle/miniPaint
+          added: 2021-12-14
+  - title: Desktop
+    recommend:
+      entries:
+        - name: GIMP
+          url: https://www.gimp.org/
+          description: The Free & Open Source Image Editor.
+          added: 2020-12-09
+        - name: Krita
+          url: https://github.com/KDE/krita
+          description: Krita is a free and open source digital painting application
+          repo: https://github.com/KDE/krita
+          added: 2020-12-28
+        - name: Czkawka
+          url: https://github.com/qarmin/czkawka
+          description: Multi functional app to find duplicates and similar images etc.
+          repo: https://github.com/qarmin/czkawka
+          added: 2021-05-18
+        - name: DigiKam
+          url: https://www.digikam.org/
+          description: Awesome Professional Photo Management with the Power of Open Source.
+          added: 2021-05-18
+        - name: Inkscape
+          url: https://inkscape.org/
+          description: Inkscape is a free and open-source vector graphics editor used to create vector images.
+          added: 2021-06-02
+        - name: ImageGlass
+          url: https://imageglass.org/
+          description: ImageGlass is a lightweight software application whose purpose is to help you view images in a clean and intuitive working environment.
+          added: 2022-03-28
+        - name: qView
+          url: https://github.com/jurplel/qView
+          description: Minimal, fast cross-platform image viewer that shows just the image with no clutter. GPL-3.0 licensed.
+          repo: https://github.com/jurplel/qView
+          license: GPL-3.0
+          added: 2026-11-02
+          platforms:
+            - linux
+            - windows
+            - macos
+          tags:
+            - offline
+        - name: darktable
+          url: https://www.darktable.org/
+          description: darktable is an open source photography workflow application and raw developer
+          added: 2024-07-18
+        - name: RapidRAW
+          url: https://github.com/CyberTimon/RapidRAW
+          description: A beautiful, non-destructive and GPU-accelerated RAW image editor built with performance in mind. Lightweight (<20MB) cross-platform alternative to Adobe Lightroom. AGPL-3.0 licensed.
+          repo: https://github.com/CyberTimon/RapidRAW
+          added: 2026-07-04
+        - name: RawTherapee
+          url: https://rawtherapee.com
+          description: Offline open source RAW photo developer that pairs well with darktable as a Lightroom alternative. GPL-3.0 licensed.
+          added: 2026-07-04
+          tags:
+            - offline
+  - title: Android
+    recommend:
+      entries:
+        - name: Pocket Paint
+          url: https://github.com/Catrobat/Paintroid
+          description: The standard image manipulation app for Catroid.
+          repo: https://github.com/Catrobat/Paintroid
+          package_id: org.catrobat.paintroid
+          added: 2020-12-09
+        - name: Scrambled Exif
+          url: https://gitlab.com/juanitobananas/scrambled-exif
+          description: Remove Exif data from pictures before sharing them.
+          repo: https://gitlab.com/juanitobananas/scrambled-exif
+          added: 2020-12-09
+        - name: ImagePipe
+          url: https://codeberg.org/Starfish/Imagepipe
+          description: Reduces image size and removes exif-tags when sharing images on android devices.
+          repo: https://codeberg.org/Starfish/Imagepipe
+          package_id: de.kaffeemitkoffein.imagepipe
+          added: 2020-12-09

@@ -1,0 +1,23 @@
+title: PDF Tools
+slug: pdf-tools
+avoid:
+  items:
+    - name: iLovePDF
+    - name: Smallpdf
+    - name: PDF24
+    - name: Sejda
+    - name: PDF Candy
+  intro: These upload your document to a server before working on it, then promise to delete it later.
+recommend:
+  entries:
+    - name: BentoPDF
+      url: https://github.com/alam00000/bentopdf
+      description: Browser-based PDF toolkit to merge, split, compress, convert, sign and redact, with everything processed on your device so files never leave it. Self-hostable, AGPL-3.0 licensed.
+      repo: https://github.com/alam00000/bentopdf
+      license: AGPL-3.0
+      added: 2026-11-02
+      platforms:
+        - web
+      tags:
+        - self-host
+        - offline

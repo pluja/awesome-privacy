@@ -1,0 +1,125 @@
+title: Instant Messaging
+slug: instant-messaging
+intro: "**Check out [this site](https://www.securemessagingapps.com/) for comparisons*."
+avoid:
+  items:
+    - name: WhatsApp
+      tosdr: en_198
+    - name: Instagram DM
+      tosdr: en_219
+    - name: Facebook Messenger
+      tosdr: en_182
+    - name: Skype
+      tosdr: en_244
+    - name: Zoom
+      tosdr: en_2198
+    - name: Google Hangouts / Chat
+      tosdr: en_217
+subsections:
+  - title: Decentralized
+    intro: No single point of control or failure. A decentralized network operated by different servers from different volunteers around the globe. You choose where your data stays or you can self-host your own server. Somewhat more complex protocols (because of federation between servers) and some extra metadata is added to the messages (without compromising privacy).
+    recommend:
+      entries:
+        - name: Matrix (Protocol)
+          url: https://matrix.org/
+          description: An open network for secure, decentralized communication.
+          children:
+            - name: Element
+              url: https://element.io/
+              description: All-in-one secure chat app for teams, friends and organisations. Keeps conversations in your control, safe from data-mining and ads. End-to-end encryption.
+              added: 2020-12-07
+              tags:
+                - e2ee
+            - name: Cinny
+              url: https://cinny.in/
+              description: A Matrix client focusing primarily on simple, elegant and secure interface.
+              added: 2023-01-12
+          added: 2021-02-11
+        - name: Jabber / XMPP (Protocol)
+          url: https://xmpp.org/
+          description: The universal and open messaging standard. Tried and tested. Independent. Privacy-focused. E2E encrypted.
+          children:
+            - name: Conversations
+              url: https://conversations.im/
+              platforms:
+                - android
+              description: Jabber/XMPP client for Android 4.0+ smartphones that has been optimized to provide a unique mobile experience.
+              package_id: eu.siacs.conversations
+              added: 2020-12-07
+            - name: AstraChat
+              url: https://astrachat.com/
+              description: Another XMPP client.
+              added: 2020-12-07
+            - name: Dino
+              url: https://dino.im/
+              description: Modern XMPP desktop client for Linux with OMEMO and OpenPGP end-to-end encryption. Open source, GPL-3.0 licensed.
+              added: 2026-07-04
+              tags:
+                - e2ee
+            - name: Gajim
+              url: https://gajim.org/
+              description: Cross-platform XMPP client with OMEMO encryption, running on Linux, Windows, and macOS. Open source, GPL-3.0 licensed.
+              added: 2026-07-04
+            - name: Snikket
+              url: https://snikket.org/
+              description: One-command self-hosted XMPP service that bundles a server with matching mobile and desktop clients. Open source and Docker-based.
+              package_id: org.snikket.android
+              added: 2026-07-04
+              tags:
+                - self-host
+          added: 2020-12-07
+        - name: DeltaChat
+          url: https://delta.chat/
+          description: Chat over encrypted e-mail.
+          package_id: com.b44t.messenger
+          added: 2020-12-07
+        - name: Session
+          url: https://getsession.org/
+          description: Extreme focus on privacy and anonymity. Blockchain technology.
+          package_id: network.loki.messenger.fdroid
+          added: 2020-12-07
+        - name: SimpleX Chat
+          url: https://simplex.chat/
+          description: The first chat platform that is 100% private by design - it has no access to your connection graph
+          package_id: chat.simplex.app
+          added: 2021-12-09
+        - name: Status
+          url: https://status.app/
+          description: Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.
+          package_id: app.status.mobile
+          added: 2020-12-07
+  - title: Centralized
+    intro: The service is in charge of running the servers that allow users to communicate. Single point of failure and control, but still 100% safe and trustworthy if the protocols and code are open and audited.
+    recommend:
+      entries:
+        - name: Threema
+          url: https://threema.com/en
+          description: The messenger that puts security and privacy first. Pay once, chat forever. No collection of user data. Open Source client.
+          added: 2021-02-11
+        - name: Signal
+          url: https://signal.org/
+          description: Extreme focus on privacy, combined with all of the features you expect. Strong encryption by design. 100% Open Source.
+          added: 2020-12-07
+  - title: P2P
+    intro: No servers involved. Everything goes directly from one peer to the other peer. No point of failure or control. The features are reduced because of the lack of server, messaging can be slower. Best option for critical chats.
+    recommend:
+      entries:
+        - name: Tox
+          url: https://tox.chat/
+          description: Tox is easy-to-use software that connects you with friends and family without anyone else listening in.
+          added: 2020-12-07
+        - name: Briar
+          url: https://briarproject.org/
+          description: Peer-to-peer encrypted messaging and forums.
+          added: 2020-12-07
+          tags:
+            - p2p
+        - name: Tinfoil Chat
+          url: https://github.com/maqp/tfc
+          description: Onion-routed, endpoint secure messaging system.
+          repo: https://github.com/maqp/tfc
+          added: 2020-12-08
+        - name: Berty
+          url: https://berty.tech/
+          description: The privacy-first messaging app that works with or without internet access, cellular data or trust in the network.
+          added: 2020-12-07

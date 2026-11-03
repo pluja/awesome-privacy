@@ -1,0 +1,21 @@
+title: Domains & Hosting
+slug: domains-hosting
+avoid:
+  items: []
+  intro: Avoid using domain registrars who are privacy invasive.
+recommend:
+  entries:
+    - name: OrangeWebsite
+      url: https://www.orangewebsite.com/
+      description: Iceland-based, free-speech web hosting with anonymous signup and cryptocurrency or cash payment.
+      added: 2022-01-14
+    - name: 1984 Hosting
+      url: https://1984.hosting/
+      description: Iceland-based hosting and domain registrar focused on civil rights, with Monero and anonymous signup.
+      added: 2022-01-14
+    - name: Find more at kycnot.me (VPS Category)
+      url: https://kycnot.me/?categories=vps
+      description: KYC-free VPS and hosting providers.
+      added: 2026-07-04
+      tags:
+        - no-kyc

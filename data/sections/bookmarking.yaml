@@ -1,0 +1,90 @@
+title: Bookmarking
+slug: bookmarking
+avoid:
+  items:
+    - name: Evernote Web Clipper
+      reason: "[Bad privacy policy](https://tosdr.org/en/service/207). [Apps have many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.evernote/latest/) and require too many permissions."
+recommend:
+  entries:
+    - name: 42links
+      url: https://42links.tuxproject.de
+      description: Open-source, self-hosted, minimalist bookmark storage service.
+      added: 2025-11-05
+      tags:
+        - self-host
+    - name: Floccus
+      url: https://floccus.org/
+      description: Sync your bookmarks privately across browsers and devices.
+      package_id: org.handmadeideas.floccus
+      added: 2024-10-27
+    - name: Grimoire
+      url: https://github.com/goniszewski/grimoire
+      description: Modern, open source, self-hosted bookmark manager.
+      repo: https://github.com/goniszewski/grimoire
+      added: 2023-11-30
+      tags:
+        - self-host
+    - name: Karakeep
+      url: https://karakeep.app/
+      description: (previously Hoarder) Open source "Bookmark Everything" app that uses AI for automatically tagging the content you throw at it.
+      added: 2025-11-05
+    - name: LinkAce
+      url: https://github.com/Kovah/LinkAce
+      description: Open source, self-hosted bookmark archive that monitors and organizes your saved links (GPL-3.0).
+      repo: https://github.com/Kovah/LinkAce
+      added: 2022-09-19
+      tags:
+        - self-host
+    - name: LinkDing
+      url: https://github.com/sissbruecker/linkding
+      description: Open source, self-hosted bookmark manager built to be minimal, fast, and easy to run with Docker (MIT).
+      repo: https://github.com/sissbruecker/linkding
+      added: 2022-09-19
+      tags:
+        - self-host
+    - name: Shiori
+      url: https://github.com/go-shiori/shiori
+      description: Open source, self-hosted bookmark manager written in Go, usable as a CLI or web app (MIT).
+      repo: https://github.com/go-shiori/shiori
+      added: 2022-09-19
+      tags:
+        - self-host
+    - name: Wallabag
+      url: https://wallabag.org/
+      description: Open-source, optionally self-hosted, read it later server. Provides paid hosted service with privacy in mind.
+      package_id: fr.gaulupeau.apps.InThePoche
+      added: 2022-09-19
+      tags:
+        - self-host
+    - name: Linkwarden
+      url: https://linkwarden.app
+      description: Self-hosted bookmark manager that saves and archives full copies of the pages you collect (AGPL-3.0).
+      added: 2026-07-04
+      tags:
+        - self-host
+    - name: Readeck
+      url: https://readeck.org
+      description: Single-binary self-hosted read-it-later app that saves and archives articles for offline reading (AGPL-3.0).
+      added: 2026-07-04
+      tags:
+        - self-host
+        - offline
+subsections:
+  - title: Book and web annotations/highlights management
+    recommend:
+      entries:
+        - name: Blasta
+          url: https://git.xmpp-it.net/sch/Blasta
+          description: A collaborative bookmarks manager for organizing online content.
+          repo: https://git.xmpp-it.net/sch/Blasta
+          added: 2024-11-20
+        - name: Hypothesis
+          url: https://github.com/hypothesis/h/
+          description: Annotate the web, with anyone, anywhere.
+          repo: https://github.com/hypothesis/h/
+          added: 2022-10-17
+        - name: Kobuddy
+          url: https://github.com/karlicoss/kobuddy
+          description: Get your Kobo e-reader device bookmarks and annotations in a .txt file.
+          repo: https://github.com/karlicoss/kobuddy
+          added: 2022-10-17

@@ -1,0 +1,58 @@
+title: 2FA
+slug: 2fa
+avoid:
+  items:
+    - name: Authy
+    - name: Google Authenticator
+      tosdr: en_217
+    - name: Microsoft Authenticator
+  intro: Avoid using apps that won't let you export your keys **easily**.
+recommend:
+  entries:
+    - name: Aegis
+      url: https://getaegis.app/
+      platforms:
+        - android
+      description: A free, secure and open source app for Android to manage your 2-step verification tokens. Supports variety of imports from other apps (Google Authenticator, Authy etc.), vault encryption and exporting keys (plaintext or encrypted).
+      package_id: com.beemdevelopment.aegis
+      added: 2021-05-12
+    - name: ente Auth
+      url: https://ente.com/auth/
+      description: A free, cross platform, end-to-end encrypted and open source app for managing your 2-step verification tokens. From the makers of [ente Photos](https://ente.com), and uses the same battle tested infrastructure. Needs an ente.io account.
+      added: 2022-12-15
+      tags:
+        - e2ee
+    - name: Owky
+      url: https://github.com/charlietango/owky
+      status: inactive
+      description: Free and Open Source Two-Factor Authenticator for IOS users.
+      repo: https://github.com/charlietango/owky
+      added: 2023-02-28
+    - name: FreeOTPPlus
+      url: https://github.com/helloworld1/FreeOTPPlus
+      platforms:
+        - android
+      description: Enhanced fork of FreeOTP-Android providing a feature-rich 2FA authenticator.
+      repo: https://github.com/helloworld1/FreeOTPPlus
+      package_id: org.liberty.android.freeotpplus
+      added: 2021-05-12
+    - name: Stratum
+      url: https://github.com/stratumauth/app
+      platforms:
+        - android
+      description: Two-Factor Authentication (2FA) client for Android + Wear OS.
+      repo: https://github.com/stratumauth/app
+      added: 2021-07-10
+    - name: Proton Authenticator
+      url: https://proton.me/authenticator
+      description: Proton Authenticator is an [open source](https://proton.me/community/open-source#apps) and [end-to-end encrypted](https://proton.me/blog/password-encryption) 2FA app that’s simple and free to use.
+      package_id: proton.android.authenticator.fdroid
+      added: 2026-07-07
+      tags:
+        - e2ee
+    - name: 2FAS Auth
+      url: https://2fas.com/auth
+      description: Open source TOTP authenticator for iOS and Android with a companion browser extension and no account required. GPL-3.0 licensed.
+      added: 2026-07-04
+      tags:
+        - no-account

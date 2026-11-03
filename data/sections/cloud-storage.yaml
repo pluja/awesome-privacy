@@ -1,0 +1,69 @@
+title: Cloud Storage
+slug: cloud-storage
+avoid:
+  items:
+    - name: Google Drive
+      reason: Google owned, so privacy policy is [very bad](https://tosdr.org/en/service/217). The data is stored in their remote servers where you lose control of it. They use trackers. No encryption available.
+    - name: DropBox
+      reason: "[Bad privacy policy](https://tosdr.org/en/service/270). The app has [various trackers](https://reports.exodus-privacy.eu.org/en/reports/com.dropbox.android/latest/) and requires many permissions."
+    - name: OneDrive
+      reason: Microsoft owned, privacy policy is [very bad](https://tosdr.org/en/service/244). The data is stored in their remote servers where you lose control of it. They use trackers. No encryption available.
+recommend:
+  entries:
+    - name: Nextcloud
+      url: https://nextcloud.com/
+      description: The open source self-hosted productivity platform that keeps you in control.
+      added: 2020-12-07
+      tags:
+        - self-host
+    - name: Seafile
+      url: https://www.seafile.com/en/home/
+      description: High performance file syncing and sharing. It includes a Wiki, WYSIWYG editing and other knowledge management features.
+      added: 2020-12-09
+    - name: Peergos
+      url: https://peergos.org/
+      description: Secure and private space online where you can store, share and view your photos, videos, music and documents. Also includes a calendar, news feed, task lists, chat and email client. Open source and self-hostable.
+      added: 2022-09-21
+      tags:
+        - self-host
+    - name: Proton Drive
+      url: https://proton.me/drive
+      description: End-to-end encrypted Swiss vault for your files that protects your data. [Read this article over Climate activist arrest](https://proton.me/blog/climate-activist-arrest).
+      added: 2022-09-28
+      tags:
+        - e2ee
+    - name: PrivateStorage
+      url: https://private.storage/
+      description: Accountless, privacy-focused cloud storage and folder synchronization with client-side encryption.
+      added: 2023-04-05
+    - name: Filen
+      url: https://filen.io/
+      description: Zero-knowledge, end-to-end encrypted cloud storage from Germany with [open source](https://github.com/FilenCloudDienste) desktop, mobile and web clients.
+    - name: Sync-in
+      url: https://github.com/Sync-in/server
+      description: Self-hosted file storage, sharing and sync platform with WebDAV, desktop sync clients and Collabora or OnlyOffice editing. AGPL-3.0 licensed.
+      repo: https://github.com/Sync-in/server
+subsections:
+  - title: Other useful tools
+    recommend:
+      entries:
+        - name: Cryptomator
+          url: https://cryptomator.org
+          description: Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service
+          package_id: org.cryptomator.lite
+          added: 2020-12-07
+        - name: Syncthing
+          url: https://syncthing.net/
+          description: Continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes.
+          added: 2020-12-07
+        - name: git-annex
+          url: https://git-annex.branchable.com/
+          description: Manages and syncs large files with git without storing their contents in git, across drives and many cloud and offline backends. AGPL-3.0 licensed.
+        - name: Rclone
+          url: https://rclone.org/
+          description: Rclone is a command line program to manage files on cloud storage. It is a feature rich alternative to cloud vendors' web storage interfaces and like the tools listed above enables encryption for encrypting files in the cloud.
+          added: 2020-12-09
+        - name: Restic
+          url: https://restic.net/
+          description: Restic is also command line program to manage files on various cloud storage providers. Restic uses encryption by default. Few noteworthy features of restic include browsing through storage as git like snapshots at no extra storage cost, deduplication and significant savings through compression.
+          added: 2023-03-06

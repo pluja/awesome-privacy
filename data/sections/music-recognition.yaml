@@ -1,0 +1,28 @@
+title: Music Recognition
+slug: music-recognition
+avoid:
+  items:
+    - name: Shazam
+      reason: It's under [Apple's privacy policy](https://tosdr.org/en/service/158). The android app [has a few Google trackers](https://reports.exodus-privacy.eu.org/en/reports/com.shazam.android/latest/).
+    - name: SoundHound
+      reason: Has way too many [trackers](https://reports.exodus-privacy.eu.org/en/reports/com.melodis.midomiMusicIdentifier.freemium/latest/) for a music recognition app.
+    - name: Musicxmatch
+      reason: The app [has trackers](https://reports.exodus-privacy.eu.org/en/reports/com.musixmatch.android.lyrify/latest/) and requires a dangerous amount of permissions.
+subsections:
+  - title: Shazam alternative clients
+    recommend:
+      entries:
+        - name: SongRec
+          url: https://github.com/marin-m/SongRec
+          description: An open-source Shazam client for Linux, written in Rust.
+          repo: https://github.com/marin-m/SongRec
+          added: 2022-09-12
+        - name: SongID Telegram Bot
+          url: https://github.com/smcclennon/SongID
+          description: A Telegram bot that can identify music in audio/video files you send it.
+          repo: https://github.com/smcclennon/SongID
+          added: 2022-09-12
+        - name: Audile
+          url: https://github.com/AudileTeam/Audile
+          description: Open source Android music recognition app that queries Shazam, AudD or ACRCloud and keeps your history on the device. GPL-3.0 licensed.
+          repo: https://github.com/AudileTeam/Audile

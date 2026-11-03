@@ -1,0 +1,53 @@
+title: Office
+slug: office
+avoid:
+  items:
+    - name: Microsoft Office
+      tosdr: en_244
+    - name: Google Docs
+      tosdr: en_217
+recommend:
+  entries:
+    - name: LibreOffice
+      url: https://www.libreoffice.org/
+      description: Free and open source offline office.
+      added: 2020-12-13
+      tags:
+        - offline
+    - name: OnlyOffice
+      url: https://www.onlyoffice.com/
+      description: Free and open source online office for collaboration.
+      added: 2020-12-13
+    - name: Cryptpad
+      url: https://cryptpad.fr/
+      description: Collaboration suite, encrypted and open-source.
+      added: 2021-02-03
+    - name: Etherpad
+      url: https://etherpad.org/
+      description: Highly customizable open source online editor providing collaborative editing in really real-time.
+      added: 2021-06-03
+    - name: Fileverse
+      url: https://fileverse.io
+      description: Fileverse is building healthier alternatives with self-sovereignty, privacy by design, and standards compliance at its core.
+      children:
+        - name: Ddocs
+          url: https://ddocs.new
+          description: "privacy-enhancing alternative to google docs: onchain, end-to-end encrypted, and decentralized."
+          children:
+            - name: dSheets
+              url: https://sheets.fileverse.io
+              description: decentralized alternative to Excel and Google Sheets.
+              added: 2025-07-21
+          added: 2025-07-21
+          tags:
+            - e2ee
+      added: 2025-07-21
+    - name: Grist
+      url: https://www.getgrist.com
+      description: Self-hostable spreadsheet and database hybrid for organizing data, as an open source Airtable alternative. Apache-2.0 licensed.
+      added: 2026-07-04
+      tags:
+        - self-host
+    - name: Collabora Office
+      url: https://www.collaboraoffice.com/
+      description: LibreOffice-based office suite with apps for Android, iOS and desktop. Open source, MPL-2.0 licensed.

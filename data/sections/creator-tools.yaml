@@ -1,0 +1,23 @@
+title: Creator Tools
+slug: creator-tools
+intro: Opt for open-source and P2P alternatives that prioritize data privacy, eliminate third-party interference, and offer transparent, community-backed functionalities over mainstream tools like Riverside.fm, Restream and Camtasia.
+recommend:
+  entries:
+    - name: vdo.ninja
+      url: https://vdo.ninja/
+      description: Powerful tool that lets you bring remote video feeds into OBS or other studio software via WebRTC.
+      children:
+        - name: socialstream.ninja
+          url: https://github.com/steveseguin/social_stream#readme
+          description: Consolidate your live social messaging streams and much more.
+          repo: https://github.com/steveseguin/social_stream#readme
+          added: 2023-10-08
+      added: 2023-10-08
+    - name: OBS Studio
+      url: https://obsproject.com/
+      description: Free and open source software for video recording and live streaming.
+      added: 2023-10-08
+    - name: Screenity
+      url: https://screenity.io/
+      description: A screen recorder that's free, private, and friendly.
+      added: 2025-07-21

@@ -1,0 +1,28 @@
+title: Forms
+slug: forms
+avoid:
+  items:
+    - name: Google Forms
+      tosdr: en_217
+recommend:
+  entries:
+    - name: TypeBot
+      url: https://typebot.com
+      description: Open-source conversational forms.
+      added: 2022-05-19
+    - name: CryptPad Forms
+      url: https://cryptpad.fr/form/
+      description: Part of the Cryptpad end-to-end encrypted and open-source collaboration suite.
+      added: 2022-05-19
+      tags:
+        - e2ee
+    - name: FramaForms
+      url: https://framaforms.org/
+      description: Design your online surveys easily while respecting your audience.
+      added: 2022-05-19
+    - name: Formbricks
+      url: https://formbricks.com
+      description: Self-hosted survey and form builder for collecting responses without handing your data to a third party (AGPL-3.0).
+      added: 2026-07-04
+      tags:
+        - self-host

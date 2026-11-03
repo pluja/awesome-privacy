@@ -1,0 +1,246 @@
+title: Android
+slug: android
+subsections:
+  - title: Android App Store
+    avoid:
+      items:
+        - name: Google Play Store
+          tosdr: en_217
+    recommend:
+      entries:
+        - name: F-Droid
+          url: https://f-droid.org/
+          description: F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform.
+          children:
+            - name: Droid-ify
+              url: https://github.com/Droid-ify/client
+              description: Lightweight F-Droid client with Material UI.
+              repo: https://github.com/Droid-ify/client
+              package_id: com.looker.droidify
+              added: 2021-10-30
+            - name: Aurora Droid
+              url: https://github.com/whyorean/AuroraDroid
+              status: inactive
+              description: Aurora Droid is a modern FOSS client for F-Droid.
+              added: 2021-05-29
+              repo: https://github.com/whyorean/AuroraDroid
+            - name: Foxy Droid
+              url: https://github.com/kitsunyan/foxy-droid
+              status: inactive
+              description: Unofficial F-Droid client in the style of the classic one.
+              repo: https://github.com/kitsunyan/foxy-droid
+              package_id: nya.kitsunyan.foxydroid
+              added: 2021-06-19
+          added: 2021-05-29
+        - name: FossDroid
+          url: https://fossdroid.com/
+          description: "Fossdroid's aim is to promote free and open source apps on the Android platform: newest, trendiest and the most popular ones."
+          added: 2021-05-29
+        - name: SkyDroid
+          url: https://github.com/redsolver/skydroid
+          status: inactive
+          description: Decentralized App Store for Android
+          added: 2021-09-29
+          repo: https://github.com/redsolver/skydroid
+        - name: Obtainium
+          url: https://github.com/ImranR98/Obtainium
+          description: Get app updates directly from the source.
+          repo: https://github.com/ImranR98/Obtainium
+          package_id: dev.imranr.obtainium.fdroid
+          added: 2023-02-28
+        - name: Accrescent
+          url: https://github.com/accrescent/accrescent
+          description: A novel Android app store focused on security, privacy, and usability.
+          repo: https://github.com/accrescent/accrescent
+          added: 2023-05-22
+  - title: Alternative Google Play Store clients
+    recommend:
+      entries:
+        - name: Aurora Store
+          url: https://auroraoss.com/download/#aurora-store
+          description: Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.
+          added: 2021-05-29
+  - title: Android Debloat Tools
+    avoid:
+      items:
+        - name: ADB AppControl
+          reason: A simple adb wrapper with a [terrible privacy policy](https://adbappcontrol.com/en/terms/) to collect things like device information and what applications you install/uninstall.
+    recommend:
+      entries:
+        - name: Universal Android Debloater Next Generation
+          url: https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/
+          description: Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device.
+          repo: https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/
+          added: 2025-08-06
+  - title: Android Dialer
+    avoid:
+      items: []
+      intro: Third-party dialers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
+    recommend:
+      entries:
+        - name: Fossify Phone
+          url: https://github.com/FossifyOrg/Phone
+          description: A handy phone call manager with phonebook, number blocking and multi-SIM support.
+          repo: https://github.com/FossifyOrg/Phone
+          package_id: org.fossify.phone
+          added: 2025-08-06
+  - title: Android File Manager
+    avoid:
+      items: []
+      intro: Preinstalled file managers and third-party file manager apps found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
+    recommend:
+      entries:
+        - name: Amaze File Manager
+          url: https://github.com/TeamAmaze/AmazeFileManager
+          description: Simple and attractive Material Design file manager for Android.
+          repo: https://github.com/TeamAmaze/AmazeFileManager
+          package_id: com.amaze.filemanager
+          added: 2021-10-22
+        - name: Material Files
+          url: https://github.com/zhanghai/MaterialFiles
+          description: An open source Material Design file manager, for Android 5.0+.
+          repo: https://github.com/zhanghai/MaterialFiles
+          package_id: me.zhanghai.android.files
+          added: 2021-10-22
+        - name: Ghost Commander
+          url: https://f-droid.org/packages/com.ghostsq.commander/
+          description: Dual-panel file manager.
+          package_id: com.ghostsq.commander
+          added: 2021-10-22
+        - name: Fossify File Manager
+          url: https://github.com/FossifyOrg/File-Manager
+          platforms:
+            - android
+          description: Open source file manager for Android with no ads, no tracking, and no internet permission. GPL-3.0 licensed.
+          repo: https://github.com/FossifyOrg/File-Manager
+          package_id: org.fossify.filemanager
+          added: 2026-07-04
+  - title: Android Keyboard
+    avoid:
+      items:
+        - name: GBoard (Google)
+          tosdr: en_217
+        - name: SwiftKey
+          tosdr: en_244
+    recommend:
+      entries:
+        - name: AnySoftKeyboard
+          url: https://anysoftkeyboard.github.io/
+          description: The only Android keyboard you'll ever need. Free as in speech and Free as in beer.
+          added: 2020-12-22
+        - name: FlorisBoard
+          url: https://github.com/florisboard/florisboard
+          description: FlorisBoard is a free and open-source keyboard for Android 6.0+ devices. It aims at being modern, user-friendly and customizable while fully respecting your privacy. Currently in early-beta state.
+          repo: https://github.com/florisboard/florisboard
+          package_id: dev.patrickgold.florisboard
+          added: 2020-12-22
+        - name: Futo Keyboard
+          url: https://keyboard.futo.tech/
+          description: A modern keyboard that respects your privacy and security, with features such as offline voice input, swipe typing and smart autocorrect.
+          added: 2024-07-01
+          tags:
+            - offline
+        - name: Heliboard
+          url: https://github.com/HeliBorg/HeliBoard
+          description: A privacy-conscious and customizable open-source keyboard, based on AOSP / OpenBoard with many additional features and improvements, including support for custom dictionaries, themes, and glide typing.
+          repo: https://github.com/HeliBorg/HeliBoard
+          package_id: helium314.keyboard
+          added: 2024-04-08
+        - name: Indic Keyboard
+          url: https://gitlab.com/indicproject/indic-keyboard
+          description: Indic Keyboard is a versatile keyboard for Android users who wish to use Indic and Indian languages to type messages, compose emails and generally prefer to use them in addition to English on their phone.
+          repo: https://gitlab.com/indicproject/indic-keyboard
+          package_id: org.smc.inputmethod.indic
+          added: 2021-10-01
+        - name: OpenBoard
+          url: https://github.com/openboard-team/openboard
+          status: inactive
+          description: OpenBoard is a 100% foss keyboard based on AOSP, with no dependency on Google binaries, that respects your privacy. It is no longer updated, but still works.
+          repo: https://github.com/openboard-team/openboard
+          added: 2020-12-22
+        - name: Simple Keyboard
+          url: https://github.com/rkkr/simple-keyboard
+          description: Simply keyboard and nothing more.
+          repo: https://github.com/rkkr/simple-keyboard
+          package_id: rkr.simplekeyboard.inputmethod
+          added: 2021-10-22
+  - title: Android Gallery
+    intro: Your phone gallery is a deeply personal aspect of your life, it may contain images and videos that capture intimate moments, locations, and people important to you. Protecting its privacy is essential to prevent misuse of this information, not only for you, but it also ensures the privacy of friends and family captured in these photos, who may not consent to having their images shared.
+    callouts:
+      - type: note
+        text: For a private way to store and backup your photos see [Photo Storage](#photo-storage) section.
+    avoid:
+      items:
+        - name: Google Photos
+          reason: has privacy issues. They collect a lot of data about you, which you can see in their [privacy policy](https://policies.google.com/privacy?hl=en-US#infocollect). Google can scan your photos and might flag them for different reasons, as shown in this [incident](https://petapixel.com/2022/08/22/google-flags-photos-of-fathers-sick-son-as-child-abuse-informs-police/). They also use your photos to improve their AI technology.
+        - name: Amazon Photos
+          reason: also has similar privacy problems. Like Google Photos, it gathers a lot of information from your photo gallery. You can see a bit of what kind of data they collect in their [**examples** list](https://www.amazon.com/gp/help/customer/display.html?nodeId=468496&ref_=footer_privacy#GUID-8966E75F-9B92-4A2B-BFD5-967D57513A40__SECTION_87C837F9CCD84769B4AE2BEB14AF4F01).
+        - name: Samsung, Huawei, Xiaomi, etc.
+          reason: Gallery
+    recommend:
+      entries:
+        - name: Aves
+          url: https://github.com/deckerst/aves
+          description: Beautiful gallery and metadata explorer app, built for Android with Flutter.
+          repo: https://github.com/deckerst/aves
+          package_id: deckers.thibault.aves.libre
+          added: 2024-01-22
+        - name: Fossify Gallery
+          url: https://github.com/FossifyOrg/Gallery
+          description: Fork of Simple Gallery. Browse your memories without any interruptions with this photo and video gallery.
+          repo: https://github.com/FossifyOrg/Gallery
+          package_id: org.fossify.gallery
+          added: 2024-01-22
+  - title: Android Launcher
+    avoid:
+      items: []
+      intro: Third-party launchers found on the play store. They may contain ads/trackers and may ask for unnecessary permissions.
+    recommend:
+      entries:
+        - name: Lawnchair
+          url: https://lawnchair.app/
+          description: No clever tagline needed.
+          added: 2021-06-01
+        - name: OpenLauncher
+          url: https://github.com/OpenLauncherTeam/openlauncher
+          status: inactive
+          description: Customizable and Open Source Launcher for Android.
+          repo: https://github.com/OpenLauncherTeam/openlauncher
+          added: 2021-06-01
+        - name: KISS
+          url: https://kisslauncher.com/
+          description: Lightning fast, open-source, < 200kb Android launcher.
+          package_id: fr.neamar.kiss
+          added: 2021-06-01
+        - name: Olauncher
+          url: https://github.com/tanujnotes/Olauncher
+          description: Minimal AF (ad-free) launcher app for Android.
+          repo: https://github.com/tanujnotes/Olauncher
+          package_id: app.olauncher
+          added: 2021-06-01
+        - name: Pie Launcher
+          url: https://github.com/markusfisch/PieLauncher
+          description: Android home screen launcher that uses a dynamic pie menu instead of fixed positioned icons.
+          repo: https://github.com/markusfisch/PieLauncher
+          package_id: de.markusfisch.android.pielauncher
+          added: 2022-01-14
+        - name: Kvaesitso
+          url: https://github.com/MM2-0/Kvaesitso
+          description: Search-focused, free and open source launcher for Android. GPL-3.0 licensed.
+          repo: https://github.com/MM2-0/Kvaesitso
+        - name: Bliss Launcher
+          url: https://gitlab.e.foundation/e/os/BlissLauncher3
+          description: The default launcher of the /e/ Android-based OS.
+          added: 2022-09-28
+    notes: It allows users to easily create and browse group of apps and it displays notification badges on app icons.
+  - title: Android SMS
+    recommend:
+      entries:
+        - name: Fossify Messages
+          url: https://github.com/FossifyOrg/Messages
+          description: Simple SMS and MMS app for Android with no ads, tracking or internet access. GPL-3.0 licensed.
+          repo: https://github.com/FossifyOrg/Messages
+        - name: QUIK
+          url: https://github.com/quik-sms/quik
+          description: Maintained fork of QKSMS, a clean SMS and MMS messenger for Android. GPL-3.0 licensed.
+          repo: https://github.com/quik-sms/quik

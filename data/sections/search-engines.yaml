@@ -1,0 +1,53 @@
+title: Search Engines
+slug: search-engines
+avoid:
+  items:
+    - name: Google
+      tosdr: en_217
+    - name: Yahoo!
+      tosdr: en_309
+    - name: Bing
+    - name: Yandex
+      tosdr: en_860
+    - name: Ecosia
+      tosdr: en_591
+recommend:
+  entries:
+    - name: librengine
+      url: https://github.com/liameno/librengine
+      status: inactive
+      description: Privacy Web Search Engine
+      repo: https://github.com/liameno/librengine
+      added: 2022-09-21
+    - name: SearxNG
+      url: https://github.com/searxng/searxng
+      description: Free internet metasearch engine which aggregates results from various search services and databases.
+      repo: https://github.com/searxng/searxng
+      added: 2022-07-11
+    - name: DuckDuckGo
+      url: https://duckduckgo.com
+      description: A privacy respecting search engine.
+      added: 2021-05-25
+    - name: Brave Search
+      url: https://search.brave.com
+      description: A privacy respecting search engine with [its own independent index](https://brave.com/search-independence/).
+      added: 2021-07-09
+    - name: Qwant
+      url: https://www.qwant.com/
+      description: A zero tracking search engine made and hosted in France, EU.
+      added: 2020-12-07
+    - name: Marginalia
+      url: https://marginalia-search.com/
+      description: Independent search engine with its own crawler and index that favors text-heavy, non-commercial pages. Self-hostable, AGPL-3.0 licensed.
+      added: 2026-07-04
+      tags:
+        - self-host
+    - name: YaCy
+      url: https://yacy.net/
+      description: Peer-to-peer decentralized search engine where every user runs a node and shares the index. Open source, GPL-2.0 licensed.
+      added: 2026-07-04
+      tags:
+        - p2p
+    - name: Mojeek
+      url: https://www.mojeek.com/
+      description: Independent UK search engine with its own crawler and index and a strict no-tracking privacy policy.

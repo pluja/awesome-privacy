@@ -1,0 +1,24 @@
+title: Download Manager
+slug: download-manager
+recommend:
+  entries:
+    - name: Persepolis Download Manager
+      url: https://github.com/persepolisdm/persepolis
+      description: Persepolis is a download manager & a GUI for Aria2. It's written in Python. Persepolis is a sample of free and open source software. It's developed for GNU/Linux distributions, BSDs, MacOS, and Microsoft Windows.
+      repo: https://github.com/persepolisdm/persepolis
+      added: 2021-10-22
+    - name: Motrix
+      url: https://github.com/agalwood/Motrix
+      description: A full-featured download manager.
+      repo: https://github.com/agalwood/Motrix
+      added: 2021-10-22
+    - name: Xtreme Download Manager
+      url: https://github.com/subhra74/xdm
+      description: Xtreme Download Manager (XDM) is a powerful tool to increase download speeds up to 500%, save streaming videos from YouTube, DailyMotion, Facebook, Vimeo, Google Video and 1000+ other websites, resume broken/dead downloads, schedule and convert downloads.
+      repo: https://github.com/subhra74/xdm
+      added: 2021-10-22
+    - name: axel
+      url: https://github.com/axel-download-accelerator/axel
+      description: Lightweight CLI download accelerator. It supports HTTP, HTTPS, FTP and FTPS protocols.
+      repo: https://github.com/axel-download-accelerator/axel
+      added: 2021-11-23

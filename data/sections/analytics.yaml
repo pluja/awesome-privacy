@@ -1,0 +1,66 @@
+title: Analytics
+slug: analytics
+avoid:
+  items: []
+  intro: Avoid any analytics service that comes from Google, Facebook, Microsoft or any private service. These kind of analytics hurt user privacy.
+recommend:
+  entries:
+    - name: Ackee
+      url: https://ackee.electerious.com/
+      description: Self-hosted website analytics.
+      added: 2021-06-12
+      tags:
+        - self-host
+    - name: Aptabase
+      url: https://aptabase.com
+      description: Open-source, privacy-first and simple analytics for mobile and desktop apps.
+      added: 2023-05-02
+    - name: Cabin
+      url: https://withcabin.com
+      description: Privacy-first, carbon conscious web analytics.
+      added: 2022-09-21
+    - name: GoatCounter
+      url: https://www.goatcounter.com/
+      description: Privacy aware, lightweight and open-source analytics platform.
+      added: 2023-09-28
+    - name: Matomo
+      url: https://matomo.org/
+      description: Google Analytics alternative that protects your data and your customers' privacy.
+      added: 2020-12-08
+    - name: Nullitics
+      url: https://nullitics.com/
+      description: Zero-effort open-source cheap analytics.
+      added: 2021-05-27
+    - name: Pirsch
+      url: https://pirsch.io/
+      description: Pirsch is a simple, privacy-friendly, open-source alternative to Google Analytics — lightweight, cookie-free and easily integrated into any website or backend.
+      added: 2021-12-29
+    - name: Plausible
+      url: https://plausible.io/
+      description: Simple and privacy-friendly alternative to Google Analytics.
+      added: 2020-12-08
+    - name: Shynet
+      url: https://github.com/milesmcc/shynet
+      description: Modern, privacy-friendly, and detailed web analytics that works without cookies or JS.
+      repo: https://github.com/milesmcc/shynet
+      added: 2021-06-01
+    - name: Swetrix
+      url: https://swetrix.com
+      description: Privacy-focused, fully cookieless and opensource (and selfhostable) web-analytics service.
+      added: 2022-06-15
+      tags:
+        - self-host
+    - name: Umami
+      url: https://umami.is/
+      description: A simple, fast, website analytics alternative to Google Analytics.
+      added: 2021-05-18
+    - name: Unidentified Analytics
+      url: https://unidentifiedanalytics.web.app/
+      description: Naive ip-based tracking that works everywhere (web, command-line, email, etc). No account required. Developer friendly.
+      added: 2024-04-05
+      tags:
+        - no-account
+    - name: Rybbit
+      url: https://rybbit.com
+      description: Open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive.
+      added: 2025-06-17

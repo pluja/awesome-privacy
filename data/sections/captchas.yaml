@@ -1,0 +1,28 @@
+title: Captchas
+slug: captchas
+avoid:
+  items:
+    - name: Google reCAPTCHA
+      tosdr: en_217
+    - name: hCaptcha
+      tosdr: en_2207
+  intro: Google captchas use cookies to track users and rank their IPs.
+recommend:
+  entries:
+    - name: Altcha.org
+      url: https://altcha.org
+      description: Free, open-source and self-hosted CAPTCHA alternative using proof-of-work mechanism.
+      added: 2024-06-17
+      tags:
+        - self-host
+    - name: mCaptcha
+      url: http://mcaptcha.org/
+      description: ([repo](https://github.com/mCaptcha/mCaptcha)) An open-source CAPTCHA system with seamless UX. mCaptcha uses SHA256 based proof-of-work (PoW) to rate limit users.
+      added: 2023-08-09
+    - name: Private Captcha
+      url: https://github.com/PrivateCaptcha/PrivateCaptcha
+      description: Privacy-first and self-hosted Proof-of-Work CAPTCHA alternative, made in EU.
+      repo: https://github.com/PrivateCaptcha/PrivateCaptcha
+      added: 2025-10-20
+      tags:
+        - self-host

@@ -1,0 +1,152 @@
+title: Media Streaming Platforms
+slug: media-streaming-platforms
+avoid:
+  items:
+    - name: Amazon Prime
+      reason: "[Bad privacy policy](https://tosdr.org/en/service/2444). Apps have [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/com.amazon.amazonvideo.livingroom/latest/). Many permissions are required for a streaming app."
+    - name: Netflix
+      reason: "[Bad privacy policy](https://tosdr.org/en/service/185). Apps have [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/com.amazon.amazonvideo.livingroom/latest/). Many permissions are required for a streaming app."
+    - name: Disney Plus
+      reason: "[Very bad privacy policy](https://tosdr.org/en/service/2745). Apps have [various trackers](https://reports.exodus-privacy.eu.org/en/reports/com.amazon.amazonvideo.livingroom/latest/). Many permissions are required for a streaming app."
+    - name: Plex
+      reason: "[Dubious privacy policy](https://tosdr.org/en/service/1567). Apps have [many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.plexapp.android/latest/). Way too many permissions are required for a streaming app."
+    - name: Spotify
+      reason: "[Very bad privacy policy](https://tosdr.org/en/service/225). Apps have [many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/). Way too many permissions are required for a streaming app."
+    - name: Deezer
+      reason: "[Bad privacy policy](https://tosdr.org/en/service/2516). Apps have [many trackers](https://reports.exodus-privacy.eu.org/en/reports/deezer.android.tv/latest/). Way too many permissions are required for a streaming app."
+    - name: SoundCloud
+      reason: "[Dubious privacy policy](https://tosdr.org/en/service/276). Apps have [many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.soundcloud.android/latest/). Way too many permissions are required for a streaming app."
+subsections:
+  - title: Video and Audio
+    recommend:
+      entries:
+        - name: Jellyfin
+          url: https://jellyfin.org/
+          description: Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached.
+          added: 2020-12-08
+        - name: Dim
+          url: https://github.com/Dusk-Labs/dim
+          description: Dim is a self-hosted media manager. With minimal setup, Dim will organize and beautify your media collections, letting you access and play them anytime from anywhere.
+          repo: https://github.com/Dusk-Labs/dim
+          added: 2021-10-27
+          tags:
+            - self-host
+        - name: Stremio
+          url: https://www.stremio.com/
+          description: Stremio is a modern media center that's a one-stop solution for your video entertainment.
+          added: 2020-12-09
+  - title: Audio
+    recommend:
+      entries:
+        - name: Funkwhale
+          url: https://funkwhale.audio/
+          description: A social platform to enjoy and share music (SoundCloud alternative).
+          added: 2020-12-09
+        - name: Subsonic
+          url: https://www.subsonic.org/pages/index.jsp
+          description: Your complete, personal music streamer.
+          added: 2020-12-09
+        - name: Ampache
+          url: https://ampache.org/
+          description: A web based audio/video streaming application and file manager.
+          added: 2021-02-20
+        - name: Koel
+          url: https://koel.dev/
+          description: a personal music streaming server that works.
+          added: 2020-12-09
+        - name: Nuclear
+          url: https://nuclearplayer.com/
+          description: Modern music player focused on streaming from free sources.
+          added: 2020-12-09
+        - name: Navidrome
+          url: https://navidrome.org/
+          description: Lightweight, fast and self-contained personal music streamer.
+          added: 2020-12-09
+        - name: mucke
+          url: https://github.com/moritz-weber/mucke
+          platforms:
+            - android
+          description: A music player for local files with unique custom playback options.
+          repo: https://github.com/moritz-weber/mucke
+          package_id: rocks.mucke
+          added: 2023-05-22
+    subsections:
+      - title: Spotify alternative clients
+        recommend:
+          entries:
+            - name: Spot*
+              url: https://github.com/xou816/spot
+              description: Native Spotify client built in GTK and Rust.
+              repo: https://github.com/xou816/spot
+              added: 2021-02-20
+            - name: psst*
+              url: https://github.com/jpochyla/psst
+              description: Fast and multi-platform Spotify client with native GUI.
+              repo: https://github.com/jpochyla/psst
+              added: 2021-02-20
+            - name: ncspot*
+              url: https://github.com/hrkfdn/ncspot
+              description: Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
+              repo: https://github.com/hrkfdn/ncspot
+              added: 2021-02-20
+            - name: Spotube
+              url: https://github.com/team-spotube/spotube
+              description: A lightweight free Spotify crossplatform-client.
+              repo: https://github.com/team-spotube/spotube
+              added: 2022-04-04
+          intro: |-
+            > These clients, although will have less tracking, still DO NOT protect your privacy at all as you will still be streaming from Spotify servers from you own **premium (paid, identified)** account.
+
+            \* Premium required.
+        notes: "No premium required:"
+      - title: Youtube Music alternative clients
+        recommend:
+          entries:
+            - name: Beatbump
+              url: https://github.com/snuffyDev/Beatbump
+              status: inactive
+              description: Alternative frontend for YouTube Music; no ads and custom API wrapper.
+              repo: https://github.com/snuffyDev/Beatbump
+              added: 2022-02-26
+            - name: SimpMusic
+              url: https://github.com/Maxrave-Dev/SimpMusic
+              description: Open source, actively maintained YouTube Music client for Android (successor to the discontinued ViMusic and RiMusic).
+              repo: https://github.com/Maxrave-Dev/SimpMusic
+              package_id: com.maxrave.simpmusic
+              added: 2026-07-04
+      - title: Deezer alternative clients
+        recommend:
+          entries:
+            - name: dzr
+              url: https://github.com/yne/dzr
+              description: Command line Deezer player for Linux, BSD, Android+Termux
+              repo: https://github.com/yne/dzr
+              added: 2021-06-04
+  - title: Podcasts
+    avoid:
+      items:
+        - name: Spotify
+          reason: "[Very bad](https://tosdr.org/en/service/225) privacy policy. They collect tons of data about you: mood, free time, likes, dislikes, friends... Also, their apps have [way too many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/)."
+        - name: iVoox
+          reason: Their apps are [filled with trackers](https://reports.exodus-privacy.eu.org/en/reports/com.ivoox.app/latest/). Their website has trackers.
+        - name: Audible
+          reason: "[Very bad](https://tosdr.org/en/service/190) privacy policy. Their app has [many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.audible.application/latest/)."
+        - name: Deezer
+          reason: "[Bad privacy policy](https://tosdr.org/en/service/2516). Apps have [many trackers](https://reports.exodus-privacy.eu.org/en/reports/deezer.android.tv/latest/). Way too many permissions are required for a streaming app."
+    recommend:
+      entries:
+        - name: Antennapod
+          url: https://antennapod.org
+          description: A podcast player that is completely open. Subscribe to any RSS feed.
+          package_id: de.danoeh.antennapod
+          added: 2020-12-09
+        - name: Castopod
+          url: https://castopod.org
+          description: Self-host your podcasts with ease, keep control over what you create and talk to your audience without any middleman. Your podcast and your audience belong to you and you only.
+          added: 2022-10-05
+          tags:
+            - self-host
+        - name: Funkwhale
+          url: https://funkwhale.audio/
+          description: A social platform to enjoy and share audio.
+          added: 2020-12-09

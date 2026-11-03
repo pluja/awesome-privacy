@@ -1,0 +1,49 @@
+title: VPNs
+slug: vpns
+recommend:
+  entries:
+    - name: Free VPNs
+      url: https://techcrunch.com/2020/09/24/free-vpn-bad-for-privacy/
+      description: from Google Play or any appstore. These services are not free as they will suck your connections' data, keep logs and profile you to [sell your data to advertisers](https://thenextweb.com/news/be-cautious-free-vpns-are-selling-your-data-to-3rd-parties). If a government wants to track someone, such apps will be the first ones to fall.
+    - name: Closed source VPN apps such as Surfshark or NordVPN may be less trustworthy as nobody can be sure how they handle your data. Also, paying with Credit Card will get you identified on the payment. Furthermore, if you need to give your email it will also identify you if this same email has been used in other services.
+    - name: IVPN
+      url: https://ivpn.net
+      description: No-logs VPN with open source apps, no-email signup, and cash, Monero, or Bitcoin payment.
+      package_id: net.ivpn.client
+      added: 2022-07-28
+    - name: nadanada
+      url: https://nadanada.me
+      description: (formerly LNVPN) Pay-per-use WireGuard VPN with no account, paid by Lightning Network or other cryptocurrency.
+      added: 2025-06-17
+      tags:
+        - no-account
+    - name: Mullvad VPN
+      url: https://mullvad.net
+      description: No-logs VPN with open source apps, anonymous numbered accounts, and cash or cryptocurrency payment.
+      package_id: net.mullvad.mullvadvpn
+      added: 2022-07-28
+    - name: Proton VPN
+      url: https://protonvpn.com
+      description: Swiss no-logs VPN with open source, audited apps on every platform and a no-data-cap free tier.
+      package_id: ch.protonvpn.android
+      added: 2023-01-21
+      tags:
+        - audited
+    - name: SPN
+      url: https://safing.io/
+      description: Open source, system-wide network that routes each app connection through its own path across multiple nodes, giving per-connection IP separation instead of a single shared exit. Built into the Safing Portmaster firewall for Windows and Linux.
+      added: 2022-07-28
+    - name: Amnezia VPN
+      url: https://amnezia.org
+      description: Self-hosted, censorship-resistant VPN that you deploy on your own server, with audited open source apps (GPL-3.0).
+      added: 2026-07-04
+      tags:
+        - self-host
+        - audited
+    - name: Find more at kycnot.me (VPN Category)
+      url: https://kycnot.me/?categories=vpn
+      description: KYC-free VPN providers.
+      added: 2026-07-04
+      tags:
+        - no-kyc
+notes: "Here are some open source and truly private (no personal data and/or credit card needed) options:"

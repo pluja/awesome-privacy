@@ -1,0 +1,34 @@
+title: Commenting Engines
+slug: commenting-engines
+avoid:
+  items:
+    - name: Disqus
+      reason: "Many trackers are in their sites. Disqus collects (as per their Privacy Policy): IP address, unique Cookie ID, Device ID, your login data, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform and other technology on the devices you use to access the Service."
+recommend:
+  entries:
+    - name: Comentario
+      url: https://comentario.app
+      description: Tiny, Privacy-focused, Open-source web comment engine, which adds discussion functionality to plain, boring web pages.
+      added: 2024-09-25
+    - name: Disgus
+      url: https://github.com/carlitoplatanito/disgus
+      description: Embeddable comments for your website, backed by Nostr. Like Disqus but Nostr.
+      repo: https://github.com/carlitoplatanito/disgus
+      added: 2023-10-20
+    - name: Isso
+      url: https://github.com/isso-comments/isso
+      description: A lightweight, self hosted, commenting server written in Python and JavaScript. It aims to be a drop-in replacement for Disqus.
+      repo: https://github.com/isso-comments/isso
+      added: 2023-01-08
+      tags:
+        - self-host
+    - name: Remark42
+      url: https://remark42.com
+      description: Self-hosted, lightweight, and simple (yet functional) comment engine, which doesn't spy on users.
+      added: 2023-01-08
+      tags:
+        - self-host
+    - name: Giscus
+      url: https://giscus.app
+      description: Commenting system that stores discussions in GitHub Discussions, with no database, ads, or tracking. Open source, MIT licensed.
+      added: 2026-07-04

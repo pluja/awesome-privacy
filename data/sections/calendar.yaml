@@ -1,0 +1,48 @@
+title: Calendar
+slug: calendar
+avoid:
+  items:
+    - name: Google Calendar
+      reason: Tracks your events, integrates with Google's advertising ecosystem, and your data is stored on Google's servers without end-to-end encryption.
+recommend:
+  entries:
+    - name: Etar
+      url: https://github.com/Etar-Group/Etar-Calendar
+      platforms:
+        - android
+      description: Open-source calendar app for Android that works with any CalDAV server.
+      repo: https://github.com/Etar-Group/Etar-Calendar
+      package_id: ws.xsoh.etar
+      added: 2026-02-16
+    - name: Fossify Calendar
+      url: https://github.com/FossifyOrg/Calendar
+      platforms:
+        - android
+      description: Simple offline calendar app for Android with widget support.
+      repo: https://github.com/FossifyOrg/Calendar
+      package_id: org.fossify.calendar
+      added: 2026-02-16
+      tags:
+        - offline
+    - name: KashCal
+      url: https://github.com/KashCal/KashCal
+      platforms:
+        - android
+      description: Offline-first Android calendar with iCloud/CalDAV sync, full-text search, recurring events, and home screen widget. Apache 2.0 licensed.
+      repo: https://github.com/KashCal/KashCal
+      package_id: org.onekash.kashcal
+      added: 2026-02-16
+      tags:
+        - offline
+    - name: Nextcloud Calendar
+      url: https://apps.nextcloud.com/apps/calendar
+      description: Calendar app for Nextcloud with CalDAV support. Self-hostable.
+      added: 2026-02-16
+      tags:
+        - self-host
+    - name: Proton Calendar
+      url: https://proton.me/calendar
+      description: End-to-end encrypted calendar from Proton. Part of the Proton privacy ecosystem.
+      added: 2026-02-16
+      tags:
+        - e2ee

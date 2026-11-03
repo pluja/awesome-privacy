@@ -1,0 +1,23 @@
+title: Uncategorized
+slug: uncategorized
+recommend:
+  entries:
+    - name: Skymap
+      url: https://skymaponline.net/
+      description: Open online planetarium program.
+      added: 2020-12-09
+    - name: CrowdSec
+      url: https://github.com/crowdsecurity/crowdsec
+      description: An open-source, modernized and collaborative fail2ban.
+      repo: https://github.com/crowdsecurity/crowdsec
+      added: 2020-12-08
+    - name: Hetty
+      url: https://github.com/dstotijn/hetty
+      description: Hetty is an HTTP toolkit for security research. It aims to be an open-source alternative to Burp Suite Pro.
+      repo: https://github.com/dstotijn/hetty
+      added: 2020-12-08
+    - name: Visited
+      url: https://github.com/didvc/visited
+      description: Locally collect browsing history over browsers.
+      repo: https://github.com/didvc/visited
+      added: 2022-01-05

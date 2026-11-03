@@ -1,0 +1,89 @@
+title: Games
+slug: games
+subsections:
+  - title: Mario Kart
+    intro: Nintendo [collects user data](https://www.reddit.com/r/privacy/comments/qtj9xt/til_nintendo_collects_data_from_switch_owners/), and if you disable it, they can [turn it back on](https://www.altchar.com/game-news/the-latest-nintendo-switch-update-secretly-turns-on-user-data-sharing-adSyV7t35NPg). Also, it has a paid plan that is not accessible to everyone economically.
+    recommend:
+      entries:
+        - name: SuperTuxKart
+          url: https://supertuxkart.net/Main_Page
+          description: A 3D open-source arcade racer with a variety characters, tracks, and modes to play.
+          package_id: org.supertuxkart.stk
+          added: 2022-03-09
+        - name: Sonic Robo Blast 2 Kart
+          url: https://mb.srb2.org/addons/srb2kart.2435/
+          description: SRB2Kart is a classic styled kart racer, complete with beautiful courses, and wacky items.
+          added: 2024-01-02
+        - name: Dr. Robotnik's Ring Racers
+          url: https://www.kartkrew.org/
+          description: Technical kart racer and sequel to SRB2Kart, built on the Sonic Robo Blast 2 engine. GPL-2.0 licensed.
+  - title: Minecraft
+    intro: |-
+      [![](https://shields.tosdr.org/en_244.svg)](https://tosdr.org/en/service/244)
+
+      The game is owned by Microsoft. If this is not enough, you need a Microsoft account to play Minecraft since March 11th, 2022. Microsoft locks accounts some time not long after account creation and [forces the user](https://github.com/MultiMC/Launcher/issues/4093) [to provide](https://www.reddit.com/r/privacy/comments/e6x27o/microsoft_forcing_me_to_give_then_my_phone_number/) a **phone number**. See: [Minecraft FAQ](https://help.minecraft.net/hc/en-us/articles/360050865492-Minecraft-Java-Edition-Account-Migration-FAQ), [1](https://www.reddit.com/r/Minecraft/comments/sl8pkv/how_can_my_friend_migrate_her_account_to/hvq2sv6/), [2](https://www.reddit.com/r/privacy/comments/spcuj4/microsoft_is_going_to_attempt_to_move_everyone_on/)
+
+      The game has [telemetry embeded in it since v21w38a which you can't opt-out](https://bugs.mojang.com/browse/MC-237493). Also, [it is tied](https://www.minecraft.net/en-us/terms) to the [Microsoft privacy terms](https://privacy.microsoft.com/en-us/privacystatement) which are a privacy nightmare.
+    recommend:
+      entries:
+        - name: Luanti
+          url: https://www.luanti.org/
+          description: An open source voxel game engine with many features.
+          children:
+            - name: Mineclonia
+              url: https://content.luanti.org/packages/ryvnf/mineclonia/
+              description: Survival sandbox game inspired by Minecraft. Fork of MineClone2 with focus on stability, multiplayer performance and features.
+              added: 2024-01-02
+          package_id: net.minetest.minetest
+          added: 2025-06-17
+        - name: Cubyz
+          url: https://github.com/PixelGuys/Cubyz
+          description: Voxel sandbox game inspired by Minecraft with far view distances, 3D chunks and procedural crafting. GPL-3.0 licensed.
+          repo: https://github.com/PixelGuys/Cubyz
+    subsections:
+      - title: Plugins for Minecraft
+        intro: If you still want to play Minecraft, you can add some plugins that can help you preserve a bit your privacy. But still consider that you are supporting Microsoft this way.
+        recommend:
+          entries:
+            - name: No-Chat-Reports
+              url: https://github.com/Aizistral-Studios/No-Chat-Reports
+              description: A spigot plugin strips cryptographic signatures from player messages, but it breaks any chat plugin by design.
+              repo: https://github.com/Aizistral-Studios/No-Chat-Reports
+              added: 2022-07-21
+            - name: FreedomChat
+              url: https://github.com/ocelotpotpie/FreedomChat
+              description: A great alternative to No-Chat-Reports, since it does not break any chat plugin by design.
+              repo: https://github.com/ocelotpotpie/FreedomChat
+              added: 2023-06-17
+            - name: No-Telemetry
+              url: https://github.com/kb-1000/no-telemetry
+              description: Mod that disables the usage data collection, aka telemetry, introduced in Minecraft 1.18 (snapshot 21w38a).
+              repo: https://github.com/kb-1000/no-telemetry
+              added: 2022-06-27
+            - name: Prism Launcher
+              url: https://github.com/PrismLauncher/PrismLauncher
+              description: Open source Minecraft launcher for managing multiple instances and mods without the official launcher. GPL-3.0 licensed.
+              repo: https://github.com/PrismLauncher/PrismLauncher
+  - title: Pokemon
+    intro: Nintendo [collects user data](https://www.reddit.com/r/privacy/comments/qtj9xt/til_nintendo_collects_data_from_switch_owners/), and if you disable it, they can [turn it back on](https://www.altchar.com/game-news/the-latest-nintendo-switch-update-secretly-turns-on-user-data-sharing-adSyV7t35NPg). Also, it has a paid plan that is not accessible to everyone economically.
+    recommend:
+      entries:
+        - name: Pokete
+          url: https://github.com/lxgr-linux/pokete
+          description: A small terminal based game in the style of a very popular and old game by Gamefreak.
+          repo: https://github.com/lxgr-linux/pokete
+          added: 2022-11-23
+  - title: Sonic the Hedgehog
+    recommend:
+      entries:
+        - name: Sonic Robo Blast 2
+          url: https://www.srb2.org/
+          description: Sonic Robo Blast 2 is a 3D open-source Sonic the Hedgehog fangame built using a modified version of the Doom Legacy port of Doom.
+          added: 2022-09-21
+  - title: Unity / Unreal Engine
+    recommend:
+      entries:
+        - name: Godot Engine
+          url: https://github.com/godotengine/godot
+          description: Free and open source 2D and 3D game engine with no account, royalties or telemetry. MIT licensed.
+          repo: https://github.com/godotengine/godot

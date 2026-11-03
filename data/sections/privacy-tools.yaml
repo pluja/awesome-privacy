@@ -1,0 +1,76 @@
+title: Privacy Tools
+slug: privacy-tools
+intro: This section is dedicated to some tools that may help users analyze the privacy status on their devices.
+subsections:
+  - title: Desktop
+    recommend:
+      entries:
+        - name: Whoami Project
+          url: https://github.com/owerdogan/whoami-project
+          status: inactive
+          description: Whoami provides enhanced privacy, anonymity for Debian and Arch based linux distributions.
+          repo: https://github.com/owerdogan/whoami-project
+          added: 2022-04-11
+        - name: BusKill
+          url: https://www.buskill.in/
+          description: BusKill is a Dead Man Switch triggered when a magnetic breakaway is tripped, severing a USB connection.
+          added: 2023-01-08
+        - name: OpenSnitch
+          url: https://github.com/evilsocket/opensnitch
+          description: Interactive application firewall for GNU/Linux that helps users detect, monitor, and block unwanted outbound connections.
+          repo: https://github.com/evilsocket/opensnitch
+          added: 2026-09-30
+        - name: dnscrypt-proxy
+          url: https://github.com/DNSCrypt/dnscrypt-proxy
+          description: Local DNS proxy supporting DNSCrypt, DoH and Anonymized DNS relays, so resolvers cannot link queries to your IP. ISC licensed.
+          repo: https://github.com/DNSCrypt/dnscrypt-proxy
+        - name: MAT2
+          url: https://github.com/jvoisin/mat2
+          description: Removes metadata from images, documents, audio and other files. Command line tool with file manager integrations.
+          repo: https://github.com/jvoisin/mat2
+          added: 2026-09-30
+        - name: Metadata Cleaner
+          url: https://gitlab.com/rmnvgr/metadata-cleaner
+          description: Simple desktop app to view and remove file metadata, built on MAT2.
+          repo: https://gitlab.com/rmnvgr/metadata-cleaner
+          added: 2026-09-30
+        - name: Mobile Verification Toolkit
+          url: https://github.com/mvt-project/mvt
+          description: Forensic tool from Amnesty International that checks Android and iOS devices for traces of spyware such as Pegasus.
+          repo: https://github.com/mvt-project/mvt
+          added: 2026-09-30
+  - title: Android
+    recommend:
+      entries:
+        - name: εxodus
+          url: https://reports.exodus-privacy.eu.org/en/
+          description: The privacy audit platform for Android applications. Find how many trackers your apps have.
+          children:
+            - name: ClassyShark3xodus
+              url: https://f-droid.org/en/packages/com.oF2pks.classyshark3xodus/
+              description: Checks apk(s) for known trackers (provided by Exodus) +other warnings and specs.
+              package_id: com.oF2pks.classyshark3xodus
+              added: 2022-03-02
+          added: 2022-03-02
+        - name: Plexus
+          url: https://plexus.techlore.tech/
+          description: Remove the fear of Android app compatibility on de-Googled devices. Find if an app will work on a De-Googled device.
+          package_id: tech.techlore.plexus
+          added: 2021-10-09
+        - name: Netguard
+          url: https://netguard.me/
+          description: A simple way to block access to the internet per application.
+          package_id: eu.faircode.netguard
+          added: 2022-03-02
+        - name: RethinkDNS + Firewall
+          url: https://github.com/celzero/rethink-app
+          description: An open-source, no-root firewall and DNS changer, with anti-censorship capabilities for Android 6+.
+          repo: https://github.com/celzero/rethink-app
+          package_id: com.celzero.bravedns
+          added: 2022-05-09
+        - name: Orbot
+          url: https://orbot.app/
+          platforms:
+            - android
+          description: Routes app traffic through the Tor network, system-wide as a VPN or per app. Made by the Guardian Project.
+          added: 2026-09-30

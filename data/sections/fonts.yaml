@@ -1,0 +1,29 @@
+title: Fonts
+slug: fonts
+avoid:
+  items:
+    - name: Google Fonts (no selfhosted)
+      tosdr: en_217
+subsections:
+  - title: Google Fonts Replacements
+    recommend:
+      entries:
+        - name: coolLabs Fonts
+          url: https://fonts.coollabs.io/
+          description: A privacy-friendly drop-in replacement for Google Fonts.
+          added: 2022-05-09
+        - name: Bunny Fonts
+          url: https://fonts.bunny.net/
+          description: Bunny Fonts is an open-source, privacy-first web font platform designed to put privacy back into the internet.
+          added: 2026-03-17
+  - title: Foundries
+    recommend:
+      entries:
+        - name: Velvetyne
+          url: https://www.velvetyne.fr/
+          description: French type foundry distributing libre, open source typefaces free for personal and commercial use.
+          added: 2021-05-29
+        - name: OpenFoundry
+          url: https://open-foundry.com/
+          description: Curated platform showcasing open source typefaces that are free to use and modify.
+          added: 2021-05-12

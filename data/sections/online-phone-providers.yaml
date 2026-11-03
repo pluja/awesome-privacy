@@ -1,0 +1,29 @@
+title: Online Phone Providers
+slug: online-phone-providers
+intro: Many websites require phone number verification. These services offer a way to receive (and sometimes send) SMS messages in a privacy-focused manner.
+subsections:
+  - title: No email verification, accepting monero
+    recommend:
+      entries:
+        - name: Crypton
+          url: https://crypton.sh/
+          description: Secure SMS Sim Card in the cloud. (Based in Iceland)
+          added: 2022-09-02
+        - name: MoneroSMS
+          url: https://monerosms.com/
+          description: Virtual numbers for SMS/MMS messaging and verifications. CLI and web app. (Based in United States)
+          added: 2022-11-23
+  - title: Email verification required, accepting monero
+    recommend:
+      entries:
+        - name: Onlinesim
+          url: https://onlinesim.io/
+          description: Receive SMS online to virtual phone number. (Based in Russia)
+          added: 2022-09-02
+  - title: Email verification required, accepting crypto
+    recommend:
+      entries:
+        - name: SmsPVA
+          url: https://smspva.com/
+          description: SmsPVA is a service providing a phone number you can send any SMS on and get a text of it. (Based in France)
+          added: 2022-09-02

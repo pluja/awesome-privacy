@@ -1,0 +1,48 @@
+title: Location tracking
+slug: location-tracking
+avoid:
+  items:
+    - name: Google location history
+      tosdr: en_217
+    - name: Google FindMyDevice
+      tosdr: en_217
+subsections:
+  - title: Tracking
+    recommend:
+      entries:
+        - name: Nextcloud Phonetrack
+          url: https://apps.nextcloud.com/apps/phonetrack
+          description: Nextcloud app to track location history with an [Android app](https://gitlab.com/eneiluj/phonetrack-android) ([other apps also supported](https://github.com/julien-nc/phonetrack/blob/main/doc/user.md#logging-methods)). Supports caching positions offline and sending them to the server in batches. The first-party app has good battery saving options.
+          added: 2021-06-07
+          tags:
+            - offline
+        - name: OwnTracks
+          url: https://owntracks.org/
+          description: Location tracking for displaying the current location only (limited location history functionality).
+          package_id: org.owntracks.android
+          added: 2021-06-07
+        - name: Traccar
+          url: https://www.traccar.org/
+          description: Location tracking software made for dedicated GPS logging devices.
+          added: 2021-06-07
+        - name: Dawarich
+          url: https://github.com/Freika/dawarich
+          description: Self-hosted alternative to Google Location History.
+          repo: https://github.com/Freika/dawarich
+          added: 2024-09-05
+          tags:
+            - self-host
+  - title: Find My Device
+    recommend:
+      entries:
+        - name: Find My Device
+          url: https://gitlab.com/fmd-foss/fmd-android
+          description: Find your Android Device via SMS.
+          repo: https://gitlab.com/fmd-foss/fmd-android
+          added: 2021-06-07
+        - name: GPSlogger
+          url: https://github.com/mendhak/gpslogger
+          description: Lightweight GPS Logging Application For Android. No servers, no internet. Saved to a simple file to local storage.
+          repo: https://github.com/mendhak/gpslogger
+          package_id: com.mendhak.gpslogger
+          added: 2022-11-17

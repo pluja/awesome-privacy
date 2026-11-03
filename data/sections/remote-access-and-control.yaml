@@ -1,0 +1,47 @@
+title: Remote Access and Control
+slug: remote-access-and-control
+avoid:
+  items:
+    - name: TeamViewer
+    - name: AnyDesk
+recommend:
+  entries:
+    - name: RustDesk
+      url: https://rustdesk.com/
+      description: Open-source remote desktop client software, written in Rust. Works out of the box, full control of your data, with no concerns about security.
+      package_id: com.carriez.flutter_hbb
+      added: 2021-05-23
+    - name: screego
+      url: https://screego.net/
+      description: Screen sharing for developers.
+      added: 2021-05-23
+    - name: Remmina
+      url: https://remmina.org/
+      description: Remote access screen and file sharing to your desktop (RDP).
+      added: 2021-05-23
+    - name: UltraVNC
+      url: https://www.uvnc.com/
+      description: UltraVNC is a powerful, easy to use and free - remote pc access softwares - that can display the screen of another computer (via internet or network) on your own screen.
+      added: 2021-05-23
+    - name: MeshCentral
+      url: https://meshcentral.com/
+      description: The open source, multi-platform, self-hosted, feature packed web site for remote device management.
+      added: 2021-05-27
+      tags:
+        - self-host
+    - name: Apache Guacamole
+      url: https://guacamole.apache.org
+      description: Clientless self-hosted remote desktop gateway that gives RDP, VNC, and SSH access from a browser. Apache-2.0 licensed.
+      added: 2026-07-04
+      tags:
+        - self-host
+    - name: Sunshine + Moonlight
+      url: https://app.lizardbyte.dev/Sunshine
+      description: Self-hosted desktop and game streaming host (Sunshine) with matching clients (Moonlight). Open source, GPL-3.0 licensed.
+      added: 2026-07-04
+      tags:
+        - self-host
+    - name: Aspia
+      url: https://github.com/dchapyshev/aspia
+      description: Remote desktop and file transfer for Windows hosts, with a self-hostable router for NAT traversal. GPL-3.0 licensed.
+      repo: https://github.com/dchapyshev/aspia

@@ -1,0 +1,143 @@
+title: Web Browser
+slug: web-browser
+avoid:
+  items:
+    - name: Google Chrome
+      reason: Owned by google and built upon the open-source Chromium project (also Google-owned). It comes with many privacy-invasive features, it is connected to your Google account most times. It is under [Google's privacy policy](https://tosdr.org/en/service/217) which is known to be very bad. Google is willing to enforce the [Manifest v3](https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening) which is outright harmful to privacy efforts.
+    - name: Microsoft Edge
+      reason: It's a Microsoft-themed version of Chromium with Microsoft trackers instead of Google ones. Under [Microsoft's privacy policy](https://tosdr.org/en/service/244), which is also very bad. If you still want to use it, you can [follow this guide](https://anonymousplanet.net/guide/#hardening-edge) to harden it a bit.
+    - name: Opera
+      reason: Opera was [acquired by a consortium of Chinese investors](https://en.wikipedia.org/wiki/Opera_(web_browser)#Acquisition_by_Chinese_consortium). The app has [many trackers](https://reports.exodus-privacy.eu.org/de/reports/com.opera.browser/latest/).
+subsections:
+  - title: Android / iOS
+    recommend:
+      entries:
+        - name: Brave
+          url: https://brave.com/
+          description: Android/iOS. Brave offers a pretty good out-of-the-box set of privacy and tracker protections.
+          added: 2021-01-12
+        - name: Firefox
+          url: https://www.firefox.com/en-US/mobile/
+          description: Android/iOS
+          children:
+            - name: IronFox
+              url: https://gitlab.com/ironfox-oss/IronFox
+              platforms:
+                - android
+              description: Mull browser fork. A hardened fork of Firefox for Android, with proprietary blobs removed.
+              repo: https://gitlab.com/ironfox-oss/IronFox
+              added: 2025-02-24
+          added: 2021-01-12
+        - name: Vanadium
+          url: https://vanadium.app/
+          platforms:
+            - android
+          description: Privacy and security enhanced releases of Chromium by GrapheneOS.
+          added: 2021-01-12
+        - name: Privacy Browser
+          url: https://www.stoutner.com/privacy-browser/
+          platforms:
+            - android
+          added: 2021-01-12
+        - name: Tor Browser
+          url: https://www.torproject.org/
+          description: iOS/Android. Defend yourself against tracking and surveillance and circumvent censorship.
+          added: 2021-01-12
+          tags:
+            - tor
+        - name: Cromite
+          url: https://github.com/uazo/cromite
+          description: Cromite is a Chromium fork based on Bromite with built-in support for ad blocking and an eye for privacy.
+          added: 2024-06-17
+          repo: https://github.com/uazo/cromite
+  - title: Desktop
+    recommend:
+      entries:
+        - name: Ungoogled Chromium
+          url: https://github.com/ungoogled-software/ungoogled-chromium
+          description: A lightweight approach to removing Google web service dependency. Ungoogled-chromium is Google Chromium, sans dependency on Google web services.
+          repo: https://github.com/ungoogled-software/ungoogled-chromium
+          added: 2021-01-12
+        - name: Brave
+          url: https://brave.com/
+          description: Brave offers a pretty good out-of-the-box set of privacy and tracker protections.
+          added: 2021-01-12
+        - name: Firefox
+          url: https://www.firefox.com/en-US/
+          description: Open Source, independent browser. It needs some [hardening and tweaking](https://anonymousplanet.net/guide/#hardening-firefox) to achieve great privacy.
+          children:
+            - name: LibreWolf
+              url: https://librewolf.net/
+              description: Privacy-focused Firefox fork.
+              added: 2021-06-02
+          added: 2021-01-12
+        - name: Tor Browser
+          url: https://www.torproject.org/
+          description: Hardened Firefox that routes traffic through the Tor network to resist tracking, surveillance, and censorship.
+          added: 2021-01-12
+          tags:
+            - tor
+        - name: Mullvad Browser
+          url: https://mullvad.net/en/browser/
+          description: Browser with the privacy and security implications of the Tor Browser, without the use of the Tor network.
+          added: 2023-05-02
+          tags:
+            - tor
+        - name: Zen Browser
+          url: https://zen-browser.app/
+          description: Firefox-based browser with enhanced tracking protection on by default and a focus on calm, uncluttered browsing. MPL-2.0 licensed.
+          added: 2026-07-04
+        - name: Floorp
+          url: https://floorp.app/
+          description: Firefox fork with telemetry disabled and extra customization, built with privacy in mind. Open source, MPL-2.0 licensed.
+          added: 2026-07-04
+    callouts:
+      - type: tip
+        text: It may be interesting to learn what you can do to harden your browser. You can follow this [Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.net/guide/#hardening-browsers) section to do it. Please, if you don't understand what you are doing, don't do it as you may be causing more harm than good to your privacy.
+  - title: Browser Addons
+    subsections:
+      - title: Anti-tracking
+        intro: Please read about what the addon does before installing. If you don't understand what you are doing you could end up damaging your privacy. Also, too many addons can slow down your browsing experience.
+        recommend:
+          entries:
+            - name: uBlock Origin
+              url: https://github.com/gorhill/uBlock
+              description: Free, open-source ad content blocker. Easy on CPU and memory.
+              children:
+                - name: Read the extension docs
+                  url: https://github.com/gorhill/uBlock/wiki/Blocking-mode
+                  description: and pick one of the recommended modes to increase your privacy.
+                  added: 2023-02-22
+                - name: Go to settings > filters list > annoyances, turn on easylist-cookies. This will avoid you the annoying Cookie popups.
+              added: 2022-02-02
+              repo: https://github.com/gorhill/uBlock
+            - name: LibRedirect
+              url: https://github.com/libredirect/browser_extension
+              description: A simple web extension that redirects Twitter, YouTube, Google Maps and many more requests to privacy friendly alternatives. Former Privacy Redirect is no longer maintained, LibRedirect is a maintained fork.
+              repo: https://github.com/libredirect/browser_extension
+              added: 2022-02-21
+            - name: Privacy Badger
+              url: https://privacybadger.org/
+              description: Browser extension from the EFF that learns to block trackers as you browse. Open source, GPL-3.0 licensed.
+              added: 2026-07-04
+            - name: ClearURLs
+              url: https://clearurls.xyz/
+              description: Browser extension that automatically strips tracking parameters from links and URLs. Open source, LGPL-3.0 licensed.
+              added: 2022-02-02
+      - title: Useful Tools
+        recommend:
+          entries:
+            - name: Single File
+              url: https://github.com/gildas-lormeau/SingleFile
+              description: Save a faithful copy of an entire web page in a single HTML file so you can use it offline.
+              repo: https://github.com/gildas-lormeau/SingleFile
+              added: 2022-02-02
+              tags:
+                - offline
+  - title: Browser Sync
+    recommend:
+      entries:
+        - name: xBrowserSync
+          url: https://www.xbrowsersync.org/
+          description: "Browser syncing as it should be: secure, anonymous and free!"
+          added: 2021-01-12

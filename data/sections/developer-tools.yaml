@@ -1,0 +1,26 @@
+title: Developer Tools
+slug: developer-tools
+recommend:
+  entries:
+    - name: Beekeeper Studio
+      url: https://www.beekeeperstudio.io
+      description: Open Source SQL Editor and Database Manager with a privacy commitment in their mission statement.
+      added: 2021-05-29
+subsections:
+  - title: IDEs
+    avoid:
+      items: []
+      intro: Avoid using privative IDEs that are full of trackers and telemetry.
+    recommend:
+      entries:
+        - name: Neovim
+          url: https://neovim.io/
+          description: Hyperextensible Vim-based text editor.
+          added: 2021-09-26
+        - name: VSCodium
+          url: https://vscodium.com/
+          description: Free/Libre Open Source Software Binaries of VSCode. Vscode source code is open source (MIT-licensed), but the product available for download (Visual Studio Code) is licensed under [this not-FLOSS license](https://code.visualstudio.com/license) and contains telemetry/tracking.
+          added: 2021-09-26
+        - name: GNU Emacs
+          url: https://www.gnu.org/software/emacs/
+          description: Extensible, customizable free software text editor and IDE maintained by the GNU Project. GPL-3.0 licensed.

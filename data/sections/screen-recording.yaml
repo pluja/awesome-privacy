@@ -1,0 +1,12 @@
+title: Screen recording
+slug: screen-recording
+recommend:
+  entries:
+    - name: Screenity
+      url: https://screenity.io/
+      description: A powerful privacy-friendly screen recorder and annotation tool to make better videos for work, education, and more.
+      added: 2025-07-21
+    - name: OBS
+      url: https://obsproject.com/
+      description: Free and open source software for video recording and live streaming.
+      added: 2023-10-08
