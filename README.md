@@ -556,7 +556,6 @@ Remember: Without strong encryption, you will be spied on systematically by lots
 ✅  **Instead use**
 - [Veracrypt](https://www.veracrypt.fr/en/Home.html) - VeraCrypt is a free open source disk encryption software for Windows, macOS and Linux.
 - [Shufflecake](https://shufflecake.net/index.html) - Free open source, plausible deniability for multiple hidden filesystems on Linux
-- [Hat.sh](https://hat.sh/) - A Free, Fast, Secure and Serverless File Encryption.
 - [Cryptomator](https://cryptomator.org/) - Cryptomator encrypts your data quickly and easily. Afterwards you upload them protected to your favorite cloud service.
 - [Stegcloak](https://stegcloak.surge.sh/) [💀](#icons) - Hide secrets with invisible characters in plain text securely using passwords.
 - [Photok](https://github.com/leonlatsch/Photok) - Photok is a free Photo-Safe. It stores your photos encrypted on your device and hides them from others. 
