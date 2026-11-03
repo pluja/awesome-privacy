@@ -468,6 +468,13 @@ Opt for open-source and P2P alternatives that prioritize data privacy, eliminate
 - [VSCodium](https://vscodium.com/) - Free/Libre Open Source Software Binaries of VSCode. Vscode source code is open source (MIT-licensed), but the product available for download (Visual Studio Code) is licensed under [this not-FLOSS license](https://code.visualstudio.com/license) and contains telemetry/tracking.
 - [GNU Emacs](https://www.gnu.org/software/emacs/) - Extensible, customizable free software text editor and IDE maintained by the GNU Project. GPL-3.0 licensed.
 
+### Favicon & link-preview assets
+
+Hosted favicon and Open Graph generators upload your images to third-party servers. These tools run entirely in the browser; nothing leaves your device.
+
+- [Favikit](https://arnavjhajharia.github.io/favikit/) - Favicon and PWA icon pack generator; alternative to cloud favicon SaaS. [Source](https://github.com/arnavjhajharia/favikit) (MIT).
+- [ogkit](https://arnavjhajharia.github.io/ogkit/) - Open Graph / social card image generator (1200×630); alternative to hosted OG-image APIs. [Source](https://github.com/arnavjhajharia/ogkit) (MIT).
+
 [Back to top 🔝](#contents)
 
 ## Dating Apps
