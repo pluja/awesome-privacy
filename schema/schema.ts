@@ -2,7 +2,7 @@ import * as v from "valibot";
 
 export const PLATFORMS = ["android", "ios", "linux", "macos", "windows", "desktop", "web", "browser", "cli"] as const;
 export const TAGS = ["self-host", "e2ee", "p2p", "no-account", "no-kyc", "tor", "offline", "activitypub", "audited", "fork"] as const;
-export const CAVEATS = ["closed-source", "source-available", "website-trackers", "telemetry-opt-out", "closed-server", "account-required"] as const;
+export const CAVEATS = ["closed-source", "source-available", "website-trackers", "telemetry-opt-out", "play-store-trackers", "closed-server", "account-required"] as const;
 
 const Url = v.pipe(v.string(), v.url());
 const Markdown = v.pipe(v.string(), v.trim(), v.nonEmpty());
@@ -20,6 +20,7 @@ export type Entry = {
   status?: "inactive";
   tosdr?: string;
   package_id?: string;
+  fdroid?: boolean;
   added?: string;
   children?: Entry[];
 };
@@ -36,6 +37,7 @@ export const EntrySchema: v.GenericSchema<Entry> = v.strictObject({
   status: v.optional(v.literal("inactive")),
   tosdr: v.optional(v.string()),
   package_id: v.optional(v.pipe(v.string(), v.regex(/^[a-zA-Z][\w]*(\.[a-zA-Z][\w]*)+$/))),
+  fdroid: v.optional(v.boolean()), // package_id is on F-Droid; kept up to date by the health report
   added: v.optional(IsoDate),
   children: v.optional(v.lazy(() => v.array(EntrySchema))),
 });

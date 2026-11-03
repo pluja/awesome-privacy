@@ -11,7 +11,8 @@ const TAG_LABEL: Record<string, string> = { "self-host": "self-host", activitypu
 const CAVEAT_LABEL: Record<string, string> = {
   "closed-source": "closed source",
   "source-available": "source-available", "website-trackers": "website trackers",
-  "telemetry-opt-out": "telemetry opt-out", "closed-server": "closed server", "account-required": "account required",
+  "telemetry-opt-out": "telemetry opt-out",
+  "closed-server": "closed server", "account-required": "account required",
 };
 
 const badge = (s: string) => `\`${s}\``;
@@ -21,7 +22,7 @@ function badges(e: Entry): string {
     ...(e.platforms ?? []).map((p) => PLATFORM_LABEL[p]),
     ...(e.tags ?? []).filter((t) => TAG_LABEL[t]).map((t) => TAG_LABEL[t]),
     ...(e.license ? [e.license] : []),
-    ...(e.caveats ?? []).map((c) => `⚠️ ${CAVEAT_LABEL[c]}`),
+    ...(e.caveats ?? []).filter((c) => c !== "play-store-trackers").map((c) => `⚠️ ${CAVEAT_LABEL[c]}`),
     ...(e.status === "inactive" ? ["💀 inactive"] : []),
   ];
   return out.length ? " " + out.map(badge).join(" ") : "";
@@ -33,7 +34,9 @@ function renderEntries(list: Entry[], depth = 0): string[] {
   return [...list].sort(byName).flatMap((e) => {
     const name = e.url ? `[${e.name}](${e.url})` : e.name;
     const desc = e.description ? ` - ${e.description}` : "";
-    return [`${"  ".repeat(depth)}- ${name}${desc}${badges(e)}`, ...renderEntries(e.children ?? [], depth + 1)];
+    const playTrackers = e.caveats?.includes("play-store-trackers") ? " (Play Store version has trackers)" : "";
+    const fdroid = (e.fdroid && e.package_id ? ` [F-Droid](https://f-droid.org/packages/${e.package_id}/)` : "") + playTrackers;
+    return [`${"  ".repeat(depth)}- ${name}${desc}${badges(e)}${fdroid}`, ...renderEntries(e.children ?? [], depth + 1)];
   });
 }
 
@@ -102,6 +105,8 @@ export function buildReadme(): string {
     "- `⚠️ website trackers`: the project's website loads third-party trackers. That says nothing about the app itself.",
     "- `⚠️ telemetry opt-out`: the app sends usage data by default, but a setting turns it off.",
     "- `⚠️ closed server` and `⚠️ account required`: the server code isn't public, or an account is needed to use it.",
+    "",
+    "Android apps link to their [F-Droid](https://f-droid.org) build. \"Play Store version has trackers\" means the Google Play build includes ads or analytics libraries, according to [Exodus Privacy](https://exodus-privacy.eu.org), while the F-Droid build doesn't.",
     "",
   ];
   return [meta.header, "", "## Contents", "", ...toc, "", ...body, ...appendix, ...legend].join("\n").replace(/\n{3,}/g, "\n\n").trimEnd() + "\n";

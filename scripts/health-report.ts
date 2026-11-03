@@ -46,6 +46,13 @@ const add = (group: string, at: Located, text: string) => findings.push({ group,
 type Fix = { at: Located; text: string; apply: (node: any) => void };
 const fixes: Fix[] = [];
 const fix = (at: Located, text: string, apply: Fix["apply"]) => fixes.push({ at, text, apply });
+const addCaveat = (c: string) => (n: any) => { const l = n.get("caveats"); if (isSeq(l)) l.add(c); else n.set("caveats", [c]); };
+const removeCaveat = (c: string) => (n: any) => {
+  const l = n.get("caveats");
+  if (!isSeq(l)) return;
+  l.items = l.items.filter((i: any) => String(isScalar(i) ? i.value : i) !== c);
+  if (!l.items.length) n.delete("caveats");
+};
 
 // --- repositories (one API call per repo keeps this inside GITHUB_TOKEN's hourly budget) ---
 async function repoInfo(e: Entry) {
@@ -105,10 +112,7 @@ for (let i = 0; i < sites.length; i += 8) {
     const marked = at.entry.caveats?.includes("website-trackers");
     // The same site can be listed in several sections; mark every copy.
     if (loads) for (const x of all.filter((y) => norm(y.entry.url) === norm(at.entry.url) && !y.entry.caveats?.includes("website-trackers"))) {
-      fix(x, `added the \`website-trackers\` caveat: ${loads.text.replace(/: needs.*$/, "")}`, (n) => {
-        const list = n.get("caveats");
-        if (isSeq(list)) list.add("website-trackers"); else n.set("caveats", ["website-trackers"]);
-      });
+      fix(x, `added the \`website-trackers\` caveat: ${loads.text.replace(/: needs.*$/, "")}`, addCaveat("website-trackers"));
     }
     // Absence proves little (trackers injected by JavaScript aren't in the HTML), so this is only a hint.
     if (!loads && marked && !result.some((f) => f.text.startsWith("website not reachable") || f.text.startsWith("website returned"))) {
@@ -137,14 +141,35 @@ if (lycheePath && existsSync(lycheePath)) {
   }
 }
 
-// --- Android apps: known trackers via Exodus Privacy ---
+// --- Android apps: F-Droid's declared anti-features, and trackers in the Play build via Exodus ---
+const apps = entries.filter(({ entry: e }) => e.package_id);
+const SERIOUS = ["Tracking", "Ads", "KnownVuln", "NoSourceSince"]; // NonFreeNet etc. are expected for many clients
+let fdroid: Map<string, string[]> | undefined;
+let fdroidNote = "";
+try {
+  const res = await fetch("https://f-droid.org/repo/index-v2.json", { signal: AbortSignal.timeout(180_000) });
+  const index = await res.json();
+  fdroid = new Map(Object.entries<any>(index.packages).map(([id, p]) => {
+    const latest = Object.values<any>(p.versions).sort((a, b) => b.manifest.versionCode - a.manifest.versionCode)[0];
+    return [id, Object.keys(latest?.antiFeatures ?? {})];
+  }));
+} catch (e) {
+  fdroidNote = `F-Droid index unavailable (${(e as Error).name}); F-Droid checks skipped.`;
+}
+if (fdroid) for (const at of apps) {
+  const af = fdroid.get(at.entry.package_id!);
+  if (af && !at.entry.fdroid) fix(at, "linked the F-Droid build", (n) => n.set("fdroid", true));
+  if (!af && at.entry.fdroid) fix(at, "removed the F-Droid link: no longer on F-Droid", (n) => n.delete("fdroid"));
+  const serious = (af ?? []).filter((x) => SERIOUS.includes(x));
+  if (serious.length) add("F-Droid: declared anti-features", at, `F-Droid's build declares ${serious.join(", ")}`);
+}
+
 const exodusKey = process.env.EXODUS_PRIVACY_API_KEY;
 let exodusNote = "";
 const crashReporters: string[] = [];
 if (!exodusKey) exodusNote = "Skipped: `EXODUS_PRIVACY_API_KEY` is not set.";
 else {
   const lookup = exodusClient(exodusKey);
-  const apps = entries.filter(({ entry: e }) => e.package_id);
   let scanned = 0;
   for (const at of apps) {
     const r = await lookup(at.entry.package_id!);
@@ -158,11 +183,17 @@ else {
     // Crash reporters that send to the developer's own endpoint, usually only when the user agrees.
     const benign = r.trackers.filter((t) => /^(ACRA|Sentry|OpenTelemetry|Bugsnag)\b/i.test(t));
     const bad = r.trackers.filter((t) => !benign.includes(t));
-    if (bad.length) add("Android: trackers found", at, `\`${at.entry.package_id}\`: ${bad.join(", ")}${benign.length ? ` (also ${benign.join(", ")})` : ""}`);
-    else if (benign.length) crashReporters.push(`${at.entry.name} (${benign.join(", ")})`);
+    const af = fdroid?.get(at.entry.package_id!);
+    const cleanFdroid = af !== undefined && !af.some((x) => x === "Tracking" || x === "Ads");
+    const marked = at.entry.caveats?.includes("play-store-trackers");
+    if (bad.length && cleanFdroid && !marked) fix(at, `added \`play-store-trackers\`: the Play build has ${bad.join(", ")}; the F-Droid build declares none`, addCaveat("play-store-trackers"));
+    else if (bad.length && !cleanFdroid) add("Android: trackers found", at, `\`${at.entry.package_id}\`: ${bad.join(", ")}, and no clean F-Droid build`);
+    else if (!bad.length && marked) fix(at, "removed `play-store-trackers`: Exodus no longer finds ads or analytics in the Play build", removeCaveat("play-store-trackers"));
+    if (!bad.length && benign.length) crashReporters.push(`${at.entry.name} (${benign.join(", ")})`);
   }
   exodusNote ||= `${scanned} of ${apps.length} Android apps scanned.`;
 }
+if (fdroidNote) exodusNote = `${exodusNote} ${fdroidNote}`;
 
 // --- apply fixes (each entry is found by file, name and website) ---
 if (FIX && fixes.length) {
@@ -182,12 +213,13 @@ if (FIX && fixes.length) {
 }
 
 // --- report: what was fixed, then a checklist of what needs a decision ---
-const ORDER = ["Repository gone", "Archived", "Dead links", "Android: trackers found", "Stale", "Website trackers: check by hand", "Android: no Exodus report"];
+const ORDER = ["Repository gone", "Archived", "Dead links", "Android: trackers found", "F-Droid: declared anti-features", "Stale", "Website trackers: check by hand", "Android: no Exodus report"];
 const HELP: Record<string, string> = {
   "Repository gone": "Remove the entry, or point it to where the project lives now.",
   "Archived": "Remove it if a maintained alternative exists; otherwise keep it as `status: inactive`.",
   "Dead links": "A temporary outage, a new address, or a dead project?",
-  "Android: trackers found": "Ads and analytics SDKs, or crash reporting that goes to Google. Exodus scans the Play Store build; an F-Droid build may be clean.",
+  "Android: trackers found": "Ads or analytics in the Play Store build, and no clean F-Droid build to point to instead.",
+  "F-Droid: declared anti-features": "F-Droid flags these even in its own build. Tracking can be anything from an update check to analytics; KnownVuln means a known security hole.",
   "Stale": "Quiet isn't dead. Check that it still works before marking it inactive.",
   "Website trackers: check by hand": "Open the site with the browser's network tab before removing the badge.",
 };

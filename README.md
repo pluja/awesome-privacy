@@ -1755,3 +1755,5 @@ Badges after an entry show its platforms, license and features. Some point out a
 - `⚠️ website trackers`: the project's website loads third-party trackers. That says nothing about the app itself.
 - `⚠️ telemetry opt-out`: the app sends usage data by default, but a setting turns it off.
 - `⚠️ closed server` and `⚠️ account required`: the server code isn't public, or an account is needed to use it.
+
+Android apps link to their [F-Droid](https://f-droid.org) build. "Play Store version has trackers" means the Google Play build includes ads or analytics libraries, according to [Exodus Privacy](https://exodus-privacy.eu.org), while the F-Droid build doesn't.

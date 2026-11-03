@@ -32,7 +32,7 @@ Add your entry to the right section file:
   description: What it is, plus the privacy property that matters.
 ```
 
-Optional fields: `platforms` (only if it runs on some platforms, e.g. `[android]`), `tags` (`self-host`, `e2ee`, `p2p`, `no-account`, `tor`, `offline`...) and `package_id` for Android apps. Leave out `license` and `added`: CI checks the license and stamps the date after merge. The full schema is in `schema/schema.ts`.
+Optional fields: `platforms` (only if it runs on some platforms, e.g. `[android]`), `tags` (`self-host`, `e2ee`, `p2p`, `no-account`, `tor`, `offline`...) and `package_id` for Android apps. Leave out `license`, `added` and `fdroid`: CI checks the license, stamps the date after merge, and links the F-Droid build when the app is on F-Droid. The full schema is in `schema/schema.ts`.
 
 The description is one plain sentence: what the project is and why it's better for privacy. No marketing words, no license or platform list (those are fields).
 
