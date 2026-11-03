@@ -1614,7 +1614,7 @@ These services build a profile from everything you read. A local or self-hosted 
 - [Deskreen](https://github.com/pavlobu/deskreen) - Turn any device into a secondary screen for your computer.
 - [JustDeleteMe](https://github.com/jdm-contrib/jdm) - Directory of direct links and difficulty ratings for deleting your accounts from web services. Sister project [JustGetMyData](https://github.com/daviddavo/jgmd) covers getting your data out.
 - [OpenTabletDriver](https://github.com/OpenTabletDriver/OpenTabletDriver) - Open source, cross-platform user-mode driver for drawing tablets that replaces proprietary vendor drivers. LGPL-3.0 licensed.
-- [PDFShed](https://www.pdfshed.com/) - Free suite of 100+ PDF tools (merge, split, compress, convert, OCR, sign, edit) that process files entirely client-side in your browser via WebAssembly; documents never leave your device and there is no account.
+- [PDFShed](https://pdfshed.com/) - Free suite of 100+ PDF tools (merge, split, compress, convert, OCR, sign, edit) that process files entirely client-side in your browser via WebAssembly; documents never leave your device and there is no account.
 
 [Back to top 🔝](#contents)
 
