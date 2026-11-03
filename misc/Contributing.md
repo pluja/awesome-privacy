@@ -19,47 +19,30 @@ Every listing is open to discussion. If something here looks wrong, open an issu
 
 If you build or work on the project, say so in the pull request. Self-submissions are welcome when they meet the bar, but undisclosed ones are closed. Low-effort or generated submissions (a one-line pitch for a brand-new tool, a site listing "50+ free tools", a project with no source code) are closed without review.
 
-## Pull Requests
+## Adding a project
 
-If you are familiar you can add a *section* or a *service* yourself via **pull request**. This is the better way.
+New projects are added through pull requests. The list lives in `data/sections/`, one YAML file per section; `README.md` is generated from it, so please don't edit the README.
 
-If you are not familiar with Github and PRs you can open a new issue and explain what you want to add there.
+Add your entry to the right section file:
 
-### Adding a new section
-To add a new section copy the following template and complete with the information:
-
+```yaml
+- name: Example
+  url: https://example.org                    # the project's website
+  repo: https://github.com/example/example    # its source code
+  description: What it is, plus the privacy property that matters.
 ```
-## Section Title
 
-<img width="16" src="misc/forbidden.png"> </img> **Avoid**
+Optional fields: `platforms` (only if it runs on some platforms, e.g. `[android]`), `tags` (`self-host`, `e2ee`, `p2p`, `no-account`, `tor`, `offline`...) and `package_id` for Android apps. Leave out `license` and `added`: CI checks the license and stamps the date after merge. The full schema is in `schema/schema.ts`.
 
-[OPTIONAL EXPLANATION OF WHY THESE SERVICES ARE BAD]
+The description is one plain sentence: what the project is and why it's better for privacy. No marketing words, no license or platform list (those are fields).
 
-- Bad Service 1
-- Bad Service 2
-- Bad Service 3
+To check your change locally: `npm ci && npm run validate`. To preview the README: `npm run build`, then discard the README change before committing.
 
-<img width="16" src="misc/check.png"> </img>  **Instead use**
+A new section needs a file in `data/sections/` and a line in `data/meta.yaml`, under the category it belongs to.
 
-[OPTIONAL EXPLANATION OF WHY THESE SERVICES ARE GOOD]
+### Reporting a problem
 
-- [Good Service 1](https://link-to-source-or-page1) - Little description of the service.
-- [Good Service 2](https://link-to-source-or-page2) - Little description of the service.
-- [Good Service 2](https://link-to-source-or-page3) - Little description of the service.
-```
-You also need to add the section to the **Table of Contents (Contents)** at the top of the document:
-
-`- [Section Title](#section-title)`
-
-### Adding a new service
-
-To add a new service just take the following template and add it to the section where it belongs:
-
-`- [Service Name](https://link-to-source-or-page) - Little description of the service`
-
-Every entry needs a description. Keep it to one sentence: say what the tool does and what it replaces. Where it applies, note the license, the platform, and whether the tool is self-hostable.
-
-> You can add either a *good* (use) or a *bad* (avoid) service.
+If a listed project is dead, changed hands, added trackers or changed its license, open an issue with a link that shows it.
 
 ## Maintenance policy
 
@@ -79,5 +62,6 @@ Pull requests are reviewed in monthly batches. A slow response is not a rejectio
 
 ### Automated checks
 
-- Every pull request that touches `README.md` runs a link check and an entry-format check. Fix the reported problems before asking for a review.
+- Every pull request validates the data and posts a comment with checks on each added project: age, releases, activity, license, unpatched security advisories, website trackers, telemetry libraries in the code, duplicates, and whether the submitter owns the project. These are signals for the reviewer, not a verdict.
+- After a merge, CI stamps the `added` date on new entries and regenerates `README.md`.
 - On the first of each month a job scans the whole list for dead links and for archived or stale repositories, then opens a single "Health report" issue. Delisting and 💀 flagging happen from that report.
