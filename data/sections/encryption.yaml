@@ -43,6 +43,8 @@ recommend:
       description: Hides password-protected secrets inside ordinary text using invisible characters.
       status: inactive
       added: 2020-12-08
+      caveats:
+        - website-trackers
     - name: Tomb
       url: https://dyne.org/software/tomb/
       repo: https://github.com/dyne/tomb

@@ -590,7 +590,7 @@ Analytics from Google, Facebook or Microsoft feeds your visitors' data into thei
 - [Aptabase](https://aptabase.com) - Analytics for mobile and desktop apps, built to collect no personal data. `AGPL-3.0`
 - [Cabin](https://withcabin.com) - Lightweight web analytics with no cookies, IP logging or fingerprinting, plus a carbon footprint report.
 - [GoatCounter](https://www.goatcounter.com/) - Lightweight web analytics, as a hosted service or on your own server.
-- [Matomo](https://matomo.org/) - Full-featured Google Analytics replacement that keeps the data on your own server. `GPL-3.0`
+- [Matomo](https://matomo.org/) - Full-featured Google Analytics replacement that keeps the data on your own server. `GPL-3.0` `⚠️ website trackers`
 - [Nullitics](https://nullitics.com/) - Minimal cookie-free analytics for a flat monthly fee, also usable as a library on your own server. `MIT` `💀 inactive`
 - [Pirsch](https://pirsch.io/) - Cookie-free web analytics that can also track server-side from your backend. `AGPL-3.0`
 - [Plausible](https://plausible.io/) - Lightweight, cookie-free web analytics, as a hosted service or on your own server. `AGPL-3.0`
@@ -646,13 +646,13 @@ A password manager lets you use a strong, different password for every account w
 **Use instead**
 
 - [AliasVault](https://www.aliasvault.com) - End-to-end encrypted password manager with a built-in email alias server. `self-host` `AGPL-3.0`
-- [Bitwarden](https://bitwarden.com) - Password manager with end-to-end encrypted sync across all your devices. `self-host`
+- [Bitwarden](https://bitwarden.com) - Password manager with end-to-end encrypted sync across all your devices. `self-host` `⚠️ website trackers`
   - [Vaultwarden](https://github.com/dani-garcia/vaultwarden) - Lightweight, unofficial Bitwarden-compatible server you can host yourself. `self-host` `AGPL-3.0`
 - [KeePassXC](https://keepassxc.org/) - Offline password manager that keeps your vault in an encrypted file you control, with no account or sync service. `Linux` `macOS` `Windows`
   - [KeePassDX](https://www.keepassdx.com/) - KeePass-compatible password manager for Android. `Android` `GPL-3.0`
   - [Strongbox](https://strongboxsafe.com/) - KeePass-compatible password manager for iPhone, iPad and Mac. `iOS` `macOS` `AGPL-3.0`
 - [LessPass](https://www.lesspass.com) - Stateless password manager that computes each password from your master password, so there's nothing to store or sync. `GPL-3.0`
-- [Passbolt](https://www.passbolt.com) - Password manager built for teams, with end-to-end encrypted sharing. `self-host` `AGPL-3.0`
+- [Passbolt](https://www.passbolt.com) - Password manager built for teams, with end-to-end encrypted sharing. `self-host` `AGPL-3.0` `⚠️ website trackers`
 - [Passky](https://passky.org) - Small, simple password manager with a server you can host yourself. `self-host` `EUPL-1.2`
 - [Proton Pass](https://proton.me/pass) - End-to-end encrypted password manager with built-in email aliases, from the makers of Proton Mail.
 
@@ -670,7 +670,7 @@ Encryption keeps your files unreadable to anyone without the key, whether a lapt
 - [Cryptomator](https://cryptomator.org/) - Encrypts files on your device before they reach any cloud storage provider. `GPL-3.0`
 - [Photok](https://github.com/leonlatsch/Photok) - Photo vault that stores your pictures encrypted on the device. `Android` `Apache-2.0`
 - [Shufflecake](https://shufflecake.net/) - Hidden encrypted volumes for Linux with plausible deniability, so nobody can prove the hidden data exists. `Linux`
-- [Stegcloak](https://stegcloak.surge.sh/) - Hides password-protected secrets inside ordinary text using invisible characters. `💀 inactive`
+- [Stegcloak](https://stegcloak.surge.sh/) - Hides password-protected secrets inside ordinary text using invisible characters. `⚠️ website trackers` `💀 inactive`
 - [Tomb](https://dyne.org/software/tomb/) - Creates and manages encrypted folders on Linux, built on standard LUKS. `Linux` `CLI` `GPL-3.0`
 - [VeraCrypt](https://veracrypt.io/en/Home.html) - Encrypts whole disks, partitions or file containers, with support for hidden volumes. `Linux` `macOS` `Windows`
 

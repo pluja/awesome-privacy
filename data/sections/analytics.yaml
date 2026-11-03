@@ -32,6 +32,8 @@ recommend:
       description: Full-featured Google Analytics replacement that keeps the data on your own server.
       license: GPL-3.0
       added: 2020-12-08
+      caveats:
+        - website-trackers
     - name: Nullitics
       url: https://nullitics.com/
       repo: https://github.com/nullitics/nullitics
