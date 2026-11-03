@@ -93,7 +93,7 @@ for (const { entry, where } of added.slice(0, DEEP_CHECK_LIMIT)) {
     }
     findings.push(...(await checkTelemetry(repo)));
   }
-  if (entry.url) findings.push(...(await checkWebsite(entry.url)));
+  if (entry.url) findings.push(...(await checkWebsite(entry.url, entry.caveats?.includes("website-trackers"))));
   lines.push(`### ${entry.name}`, "", `${where}${facts ? ` · ${facts}` : ""}`, "");
   lines.push(...(findings.length ? findings.map((f) => `- ${icon[f.level]} ${f.text}`) : ["- ✅ no issues found"]), "");
 }

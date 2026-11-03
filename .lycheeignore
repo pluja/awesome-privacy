@@ -1,5 +1,5 @@
 # URLs skipped by the link checks (lychee) and the repository audit
-# (scripts/health_report.py, scripts/maint/). One regex per line.
+# (scripts/health-report.ts). One regex per line.
 # Every pattern needs a reason above it; prefer fixing the link over adding one.
 
 # Citation of an FAQ in GooseMod's archived wiki, not a listed tool.

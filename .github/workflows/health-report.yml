@@ -1,35 +1,40 @@
 name: Health report
 
-# Monthly maintenance + open-source audit of README.md. Finds dead links and
-# repos (GitHub, Codeberg, GitLab) that are gone, archived, stale (no push in
-# 18+ months), unlicensed, have no real source code, or were renamed; and 💀
-# entries that are active again. Opens one issue with the findings, nothing when
-# clean. URLs in .lycheeignore are skipped by both lychee and the repo audit.
-# Logic lives in scripts/health_report.py so it can be run and tested locally.
+# Monthly check of every entry in data/: dead links, repositories that are gone, archived,
+# stale, moved or changed license, inactive entries that came back, website trackers that
+# don't match the caveats, and known trackers in Android apps (Exodus Privacy).
+# Safe fixes (moved repos, license changes, revived entries, new website trackers) come as
+# one pull request whose description lists what needs a decision; with nothing to fix, an
+# issue instead. Logic: scripts/health-report.ts.
 
 on:
   schedule:
-    - cron: '0 6 1 * *'   # 06:00 UTC on the 1st of each month
-  workflow_dispatch:       # allow manual runs for testing
+    - cron: "0 6 1 * *" # 06:00 UTC on the 1st of each month
+  workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+  pull-requests: write
   issues: write
 
 jobs:
   health-report:
-    name: Scan links and repositories
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     steps:
-      - name: Checkout
-        uses: actions/checkout@v5
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
 
-      - name: Run lychee on README.md
-        uses: lycheeverse/lychee-action@v2
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci --ignore-scripts
+
+      - name: Check links with lychee
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
         with:
           lycheeVersion: v0.23.0
-          # Whole file, JSON output for the parser in health_report.py.
-          # fail:false keeps the job green so we can build the report either way.
           args: >-
             --no-progress
             --cache
@@ -45,26 +50,42 @@ jobs:
           fail: false
           failIfEmpty: false
 
-      - name: Build report (dead links + repository issues)
+      - name: Build the report
         id: scan
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 scripts/health_report.py --lychee lychee/out.json --out health-report.md
-
-      - name: Ensure maintenance label exists
-        if: steps.scan.outputs.has_findings == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+          EXODUS_PRIVACY_API_KEY: ${{ secrets.EXODUS_PRIVACY_API_KEY }}
         run: |
-          gh label create maintenance \
-            --color BFDADC \
-            --description "Repository maintenance tasks" \
-            --force || true
+          if [ -z "$EXODUS_PRIVACY_API_KEY" ]; then echo "::warning::EXODUS_PRIVACY_API_KEY is not set; the Android tracker scan is skipped."; fi
+          node scripts/health-report.ts --fix --lychee lychee/out.json --out health-report.md
 
-      - name: Open health report issue
-        if: steps.scan.outputs.has_findings == 'true'
-        uses: peter-evans/create-issue-from-file@v6
+      - name: Ensure the maintenance label exists
+        if: steps.scan.outputs.has_fixes == 'true' || steps.scan.outputs.has_findings == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh label create maintenance --color BFDADC --description "Repository maintenance tasks" --force || true
+
+      - name: Rebuild the README with the fixes
+        if: steps.scan.outputs.has_fixes == 'true'
+        run: npm run build
+
+      - name: Open the health report pull request
+        if: steps.scan.outputs.has_fixes == 'true'
+        uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676 # v7
         with:
-          title: "🔗 Health report — ${{ steps.scan.outputs.date }}"
+          branch: health/${{ steps.scan.outputs.date }}
+          commit-message: "fix: apply the ${{ steps.scan.outputs.date }} health report"
+          title: "Health report ${{ steps.scan.outputs.date }}"
+          body-path: health-report.md
+          labels: maintenance
+          add-paths: |
+            data/**
+            README.md
+
+      - name: Open the health report issue
+        if: steps.scan.outputs.has_fixes != 'true' && steps.scan.outputs.has_findings == 'true'
+        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6
+        with:
+          title: "Health report ${{ steps.scan.outputs.date }}"
           content-filepath: ./health-report.md
           labels: maintenance

@@ -17,21 +17,34 @@ export const MIN_STARS = 100;
 // Third-party trackers that earn the `website-trackers` caveat. Cookieless analytics
 // (the Analytics section, Fathom, Simple Analytics, Cloudflare Web Analytics) are not listed on purpose.
 export const TRACKERS: Record<string, string> = {
-  "googletagmanager.com": "Google Tag Manager",
-  "google-analytics.com": "Google Analytics",
-  "gtag(": "Google Analytics",
-  "doubleclick.net": "Google Ads",
-  "posthog": "PostHog",
-  "mixpanel": "Mixpanel",
+  // Script hosts and init calls only; plain mentions (e.g. "vs Mixpanel" on a comparison page) don't count.
+  "googletagmanager.com/": "Google Tag Manager",
+  "google-analytics.com/": "Google Analytics",
+  "gtag('config'": "Google Analytics",
+  'gtag("config"': "Google Analytics",
+  "doubleclick.net/": "Google Ads",
+  "posthog.init(": "PostHog",
+  "i.posthog.com": "PostHog",
+  "cdn.mxpnl.com": "Mixpanel",
+  "mixpanel.init(": "Mixpanel",
   "cdn.segment.com": "Segment",
-  "hotjar": "Hotjar",
-  "clarity.ms": "Microsoft Clarity",
+  "static.hotjar.com": "Hotjar",
+  "clarity.ms/tag": "Microsoft Clarity",
   "connect.facebook.net": "Facebook Pixel",
   "events.framer.com": "Framer analytics",
   "hs-scripts.com": "HubSpot",
-  "intercom": "Intercom",
-  "amplitude.com": "Amplitude",
-  "polyfill.io": "polyfill.io",
+  "hs-analytics.net": "HubSpot",
+  "googlesyndication.com": "Google AdSense",
+  "cdn.optimizely.com": "Optimizely",
+  "munchkin.marketo.net": "Marketo",
+  "cdn.bizible.com": "Bizible",
+  "snap.licdn.com": "LinkedIn Insight",
+  "static.ads-twitter.com": "X (Twitter) Ads",
+  "cdn.heapanalytics.com": "Heap",
+  "js.hsforms.net": "HubSpot",
+  "widget.intercom.io": "Intercom",
+  "cdn.amplitude.com": "Amplitude",
+  "polyfill.io/": "polyfill.io",
 };
 
 // SDKs whose presence in a repo means the app may phone home; a reviewer checks the defaults.
@@ -84,14 +97,17 @@ export async function checkRepo(repo: string): Promise<{ facts?: RepoFacts; find
   return { facts, findings };
 }
 
-export async function checkWebsite(url: string): Promise<Finding[]> {
+export async function checkWebsite(url: string, marked = false): Promise<Finding[]> {
   if (/^https:\/\/(github\.com|gitlab\.com|codeberg\.org)\//.test(url)) return [];
   try {
     const res = await fetch(url, { headers: { "User-Agent": BROWSER_UA }, redirect: "follow", signal: AbortSignal.timeout(20_000) });
     if (!res.ok) return [{ level: "warn", text: `website returned HTTP ${res.status}` }];
-    const html = (await res.text()).toLowerCase();
-    const found = [...new Set(Object.entries(TRACKERS).filter(([needle]) => html.includes(needle)).map(([, name]) => name))];
-    const findings: Finding[] = found.length ? [{ level: "warn", text: `website loads ${found.join(", ")}: needs the \`website-trackers\` caveat` }] : [];
+    // Only script tags count (their src and inline code); prefetch hints and plain mentions don't.
+    const scripts = ((await res.text()).toLowerCase().match(/<script\b[\s\S]*?<\/script>/g) ?? []).join("\n");
+    const found = [...new Set(Object.entries(TRACKERS).filter(([needle]) => scripts.includes(needle)).map(([, name]) => name))];
+    const findings: Finding[] = !found.length ? []
+      : marked ? [{ level: "info", text: `website loads ${found.join(", ")} (already marked \`website-trackers\`)` }]
+      : [{ level: "warn", text: `website loads ${found.join(", ")}: needs the \`website-trackers\` caveat` }];
     if (new URL(res.url).host !== new URL(url).host) findings.push({ level: "info", text: `website redirects to ${res.url}` });
     return findings;
   } catch (e) {
@@ -110,4 +126,38 @@ export async function checkTelemetry(repo: string): Promise<Finding[]> {
     await new Promise((ok) => setTimeout(ok, 6500)); // stay under 10 code searches per minute
   }
   return hits.length ? [{ level: "warn", text: `telemetry SDKs in the code: ${hits.join(", ")}. Check whether they're on by default and whether a setting turns them off` }] : [];
+}
+
+// Exodus Privacy: known trackers in the latest scanned APK of an Android app.
+// Needs EXODUS_PRIVACY_API_KEY; stay well under their rate limits.
+const EXODUS = "https://reports.exodus-privacy.eu.org";
+export type ExodusResult = { trackers: string[] } | { error: "no-report" | "rejected" | "rate-limited" | "failed" };
+
+export function exodusClient(key: string) {
+  const headers = { Authorization: `Token ${key}`, Accept: "application/json", "User-Agent": "awesome-privacy/1.0" };
+  let names: Record<string, string> | undefined;
+  const get = async (path: string) => {
+    const res = await fetch(`${EXODUS}${path}`, { headers, signal: AbortSignal.timeout(25_000) });
+    return { status: res.status, data: res.ok ? await res.json() : undefined };
+  };
+  return async function trackers(packageId: string): Promise<ExodusResult> {
+    try {
+      if (!names) {
+        const t = await get("/api/trackers");
+        if (t.status === 401 || t.status === 403) return { error: "rejected" };
+        names = Object.fromEntries(Object.entries<any>(t.data?.trackers ?? {}).map(([id, v]) => [id, v.name]));
+      }
+      await new Promise((ok) => setTimeout(ok, 400));
+      const r = await get(`/api/search/${encodeURIComponent(packageId)}`);
+      if (r.status === 401 || r.status === 403) return { error: "rejected" };
+      if (r.status === 429 || r.status === 503) return { error: "rate-limited" };
+      const app = r.data?.[packageId] ?? Object.values<any>(r.data ?? {})[0];
+      const reports: any[] = app?.reports ?? [];
+      if (!reports.length) return { error: "no-report" };
+      const latest = reports.reduce((a, b) => (String(b.updated_at) > String(a.updated_at) ? b : a));
+      return { trackers: (latest.trackers ?? []).map((id: number) => names?.[String(id)] ?? `#${id}`).sort() };
+    } catch {
+      return { error: "failed" };
+    }
+  };
 }
