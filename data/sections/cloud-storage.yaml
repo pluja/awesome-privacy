@@ -55,6 +55,7 @@ recommend:
       description: End-to-end encrypted cloud storage from Germany, with desktop, mobile and web clients you can inspect.
       tags:
         - e2ee
+      added: 2026-11-02
     - name: Sync-in
       url: https://sync-in.com/
       repo: https://github.com/Sync-in/server
@@ -62,6 +63,7 @@ recommend:
       license: AGPL-3.0
       tags:
         - self-host
+      added: 2026-11-02
 subsections:
   - title: Other useful tools
     recommend:
@@ -84,6 +86,7 @@ subsections:
         - name: git-annex
           url: https://git-annex.branchable.com/
           description: Manages and syncs large files with git without storing their contents in git, across drives and many cloud and offline backends.
+          added: 2026-11-02
         - name: Rclone
           url: https://rclone.org/
           repo: https://github.com/rclone/rclone

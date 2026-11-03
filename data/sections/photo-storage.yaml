@@ -13,6 +13,7 @@ avoid:
           description: Script that sorts the messy Google Takeout archive into one chronological folder, to help you move out of Google Photos.
           license: Apache-2.0
           status: inactive
+          added: 2021-06-07
     - name: Amazon Photos
 subsections:
   - title: Self-hosted

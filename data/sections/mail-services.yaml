@@ -53,6 +53,7 @@ subsections:
         - name: Posteo
           url: https://posteo.de/en
           description: Ad-free email from Germany, funded only by its users, with optional encrypted storage and sign-up and payment that need no personal details.
+          added: 2026-11-02
   - title: Self-Hosted
     recommend:
       entries:
@@ -136,6 +137,7 @@ subsections:
                 - macos
                 - cli
               license: GPL-2.0
+              added: 2026-11-02
   - title: Email Alias Services (Anonymous Forwarding)
     intro: An alias service gives you a different address for each website, forwarded to your real inbox, so you can cut off spam and see who leaked your address. You can use their hosted service or run your own.
     recommend:

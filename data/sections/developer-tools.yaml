@@ -37,6 +37,7 @@ subsections:
           url: https://www.gnu.org/software/emacs/
           repo: https://git.savannah.gnu.org/cgit/emacs.git
           description: Extensible, self-documenting editor from the GNU Project that you can shape into a full IDE.
+          added: 2026-11-02
         - name: Neovim
           url: https://neovim.io/
           repo: https://github.com/neovim/neovim

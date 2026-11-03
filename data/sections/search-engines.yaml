@@ -34,6 +34,7 @@ recommend:
     - name: Mojeek
       url: https://www.mojeek.com/
       description: UK search engine with its own crawler and index and a no-tracking policy.
+      added: 2026-11-02
     - name: Qwant
       url: https://www.qwant.com/
       description: French search engine, hosted in the EU, that doesn't track your searches.

@@ -25,6 +25,7 @@ recommend:
       added: 2021-02-03
     - name: Cash
       description: Paying in person with notes and coins leaves no record linked to you.
+      added: 2021-02-03
 subsections:
   - title: Wallets
     recommend:

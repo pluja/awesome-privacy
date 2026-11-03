@@ -60,6 +60,7 @@ recommend:
       license: Unlicense
       tags:
         - e2ee
+      added: 2026-11-02
     - name: Memos
       url: https://github.com/usememos/memos
       repo: https://github.com/usememos/memos
@@ -147,6 +148,7 @@ recommend:
       license: MIT
       tags:
         - no-account
+      added: 2026-11-02
     - name: TinyList
       url: https://tinylist.app/
       repo: https://github.com/baggachipz/tinylist

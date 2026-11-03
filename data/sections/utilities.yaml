@@ -17,6 +17,7 @@ recommend:
       repo: https://github.com/jdm-contrib/jdm
       description: Directory of direct links for deleting your accounts from web services, rated by difficulty; sister project [JustGetMyData](https://github.com/daviddavo/jgmd) covers getting your data out.
       license: MIT
+      added: 2026-11-02
     - name: OpenTabletDriver
       url: https://opentabletdriver.net/
       repo: https://github.com/OpenTabletDriver/OpenTabletDriver
@@ -24,3 +25,4 @@ recommend:
       platforms:
         - desktop
       license: LGPL-3.0
+      added: 2026-11-02

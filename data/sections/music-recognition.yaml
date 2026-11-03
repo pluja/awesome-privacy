@@ -20,6 +20,7 @@ subsections:
           platforms:
             - android
           license: GPL-3.0
+          added: 2026-11-02
         - name: SongID Telegram Bot
           url: https://github.com/smcclennon/SongID
           repo: https://github.com/smcclennon/SongID

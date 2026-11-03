@@ -119,6 +119,7 @@ subsections:
           repo: https://github.com/Legcord/Legcord
           description: Lightweight Discord client that blocks Discord's known trackers by default, formerly ArmCord.
           license: OSL-3.0
+          added: 2026-11-02
         - name: Replugged
           url: https://replugged.dev/
           repo: https://github.com/replugged-org/replugged

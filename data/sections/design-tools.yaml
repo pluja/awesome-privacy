@@ -60,6 +60,7 @@ subsections:
             - macos
             - windows
           license: GPL-2.0
+          added: 2026-11-02
   - title: Figma
     recommend:
       entries:

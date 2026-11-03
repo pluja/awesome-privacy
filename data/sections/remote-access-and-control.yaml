@@ -24,6 +24,7 @@ recommend:
       license: GPL-3.0
       tags:
         - self-host
+      added: 2026-11-02
     - name: MeshCentral
       url: https://meshcentral.com/
       repo: https://github.com/Ylianst/MeshCentral

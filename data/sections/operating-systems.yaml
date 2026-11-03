@@ -45,6 +45,7 @@ subsections:
               url: https://lineage.microg.org/
               repo: https://github.com/lineageos4microg
               description: LineageOS builds that ship microG instead of Google Play Services, with F-Droid included.
+              added: 2026-11-02
         notes: The other ROMs support many more devices and offer good privacy, but they can be less secure than GrapheneOS, with a larger attack surface.
       - title: Based on Linux
         recommend:
@@ -89,6 +90,7 @@ subsections:
           url: https://libreelec.tv/
           repo: https://github.com/LibreELEC/LibreELEC.tv
           description: Minimal Linux system that boots straight into Kodi on Raspberry Pi, x86 and other devices.
+          added: 2026-11-02
         - name: OSMC
           url: https://osmc.tv/
           repo: https://github.com/osmc/osmc

@@ -256,6 +256,7 @@ subsections:
           platforms:
             - android
           license: GPL-3.0
+          added: 2026-11-02
         - name: Lawnchair
           url: https://lawnchair.app/
           repo: https://github.com/LawnchairLauncher/lawnchair
@@ -291,6 +292,7 @@ subsections:
           platforms:
             - android
           license: GPL-3.0
+          added: 2026-11-02
         - name: QUIK
           url: https://github.com/quik-sms/quik
           repo: https://github.com/quik-sms/quik
@@ -298,3 +300,4 @@ subsections:
           platforms:
             - android
           license: GPL-3.0
+          added: 2026-11-02

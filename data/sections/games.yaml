@@ -11,6 +11,7 @@ subsections:
           repo: https://github.com/KartKrewDev/RingRacers
           description: Technical kart racer built on the Sonic Robo Blast 2 engine, the sequel to SRB2Kart.
           license: GPL-2.0
+          added: 2026-11-02
         - name: SuperTuxKart
           url: https://supertuxkart.net/Main_Page
           repo: https://github.com/supertuxkart/stk-code
@@ -31,6 +32,7 @@ subsections:
           repo: https://github.com/PixelGuys/Cubyz
           description: Voxel sandbox game with far view distances, 3D chunks and procedural crafting.
           license: GPL-3.0
+          added: 2026-11-02
         - name: Luanti
           url: https://www.luanti.org/
           repo: https://github.com/luanti-org/luanti
@@ -75,6 +77,7 @@ subsections:
                 - macos
                 - windows
               license: GPL-3.0
+              added: 2026-11-02
   - title: Pokemon
     intro: Nintendo [collects data from Switch owners](https://www.reddit.com/r/privacy/comments/qtj9xt/til_nintendo_collects_data_from_switch_owners/), and an update [turned data sharing back on](https://www.altchar.com/game-news/the-latest-nintendo-switch-update-secretly-turns-on-user-data-sharing-adSyV7t35NPg) for people who had disabled it. Online play also needs a paid subscription.
     recommend:
@@ -104,3 +107,4 @@ subsections:
           repo: https://github.com/godotengine/godot
           description: 2D and 3D game engine with no account, royalties or telemetry.
           license: MIT
+          added: 2026-11-02
