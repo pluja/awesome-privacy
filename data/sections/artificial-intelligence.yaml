@@ -191,6 +191,21 @@ subsections:
       - title: Apps and services
         recommend:
           entries:
+            - name: FUTO Voice Input
+              url: https://voiceinput.futo.org/
+              repo: https://gitlab.futo.org/alex/voiceinput
+              description: Voice input for Android that works with other keyboards and runs entirely on the device.
+              platforms:
+                - android
+              tags:
+                - offline
+              caveats:
+                - source-available
+              package_id: org.futo.voiceinput
+            - name: Minutes
+              url: https://useminutes.app/
+              repo: https://github.com/silverstein/minutes
+              description: Records and transcribes meetings and voice memos on your device, with search over the history for local AI tools.
             - name: OpenWhispr
               url: https://openwhispr.com/
               repo: https://github.com/OpenWhispr/openwhispr
