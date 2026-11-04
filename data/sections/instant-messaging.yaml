@@ -4,18 +4,25 @@ intro: Mainstream messengers collect who you talk to, when and from where, even 
 avoid:
   items:
     - name: WhatsApp
-      reason: shares metadata such as who you talk to and when with Meta.
+      reason: in 2021 Ireland fined it €225 million for not properly explaining what data it shares with Facebook.
       tosdr: en_198
+      source: https://www.dataprotection.ie/en/news-media/press-releases/data-protection-commission-announces-decision-whatsapp-inquiry
+      site: https://www.whatsapp.com/
     - name: Facebook Messenger
-      reason: Meta's messenger, with 5 trackers in its Android app.
+      reason: chats have been encrypted since 2023, but Meta still sees who you message, when, and who your contacts are.
       tosdr: en_182
       exodus: com.facebook.orca
+      source: https://www.eff.org/deeplinks/2023/12/meta-announces-end-end-encryption-default-messenger
+      site: https://www.messenger.com/
     - name: Instagram DM
-      reason: messages live inside Meta's ad platform, under a very poorly rated privacy policy.
+      reason: in 2026 Meta ended its opt-in end-to-end encryption for Instagram DMs, so Meta can read every message.
       tosdr: en_219
+      source: https://www.helpnetsecurity.com/2026/03/16/instagram-end-to-end-encrypted-messaging-ending/
+      site: https://www.instagram.com/
     - name: Google Chat
       reason: messages aren't end-to-end encrypted and sit on Google's servers.
       tosdr: en_217
+      site: https://chat.google.com/
 subsections:
   - title: Decentralized
     intro: Many independently run servers talk to each other, so there is no single point of control or failure and you can pick a server or run your own. Federation is more complex and leaves some extra metadata on the servers involved.
@@ -101,6 +108,8 @@ subsections:
           repo: https://github.com/session-foundation/session-android
           description: Messenger that needs no phone number and routes messages through an onion network of community-run nodes.
           license: GPL-3.0
+          tags:
+            - no-account
           package_id: network.loki.messenger.fdroid
           added: 2020-12-07
           fdroid: true
@@ -111,6 +120,7 @@ subsections:
           license: AGPL-3.0
           tags:
             - e2ee
+            - no-account
           package_id: chat.simplex.app
           added: 2021-12-09
           fdroid: true
@@ -125,6 +135,7 @@ subsections:
           license: AGPL-3.0
           tags:
             - e2ee
+            - anonymous-account
           added: 2021-02-11
         - name: Signal
           url: https://signal.org/
@@ -134,6 +145,19 @@ subsections:
           tags:
             - e2ee
           added: 2020-12-07
+        - name: Wire
+          url: https://wire.com/
+          repo: https://github.com/wireapp/wire-server
+          description: End-to-end encrypted messaging, calls and file sharing, with public and audited code for both the apps and the server.
+          license: AGPL-3.0
+          tags:
+            - e2ee
+            - audited
+          caveats:
+            - website-trackers
+            - play-store-trackers
+          package_id: com.wire
+          fdroid: true
   - title: P2P
     intro: Messages go straight from one device to another, with no server to control or fail. You lose some features and delivery can be slower, but it's the strongest option for sensitive chats.
     recommend:
@@ -153,6 +177,7 @@ subsections:
           tags:
             - p2p
             - tor
+            - no-account
           added: 2020-12-07
         - name: Tinfoil Chat
           url: https://github.com/maqp/tfc

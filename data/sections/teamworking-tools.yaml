@@ -4,17 +4,23 @@ intro: Workplace chat holds your team's most sensitive conversations on someone 
 avoid:
   items:
     - name: Slack
-      reason: messages aren't end-to-end encrypted, and workspace admins can export them.
+      reason: your messages feed its recommendation models unless a workspace owner emails Slack to opt out.
       tosdr: en_206
+      source: https://slack.com/trust/data-management/privacy-principles
+      site: https://slack.com/
     - name: Google Meet
       reason: calls run through Google and are tied to your Google account.
       tosdr: en_217
+      site: https://meet.google.com/
     - name: Microsoft Teams
       reason: chats aren't end-to-end encrypted, under a very poorly rated privacy policy.
       tosdr: en_244
+      site: https://www.microsoft.com/microsoft-teams
     - name: Discord
-      reason: messages aren't end-to-end encrypted, under a very poorly rated privacy policy.
+      reason: a 2025 breach at a support vendor exposed government ID photos of about 70,000 users.
       tosdr: en_536
+      source: https://discord.com/press-releases/update-on-security-incident-involving-third-party-customer-service
+      site: https://discord.com/
 recommend:
   entries:
     - name: Zulip

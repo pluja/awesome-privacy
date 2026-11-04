@@ -4,22 +4,29 @@ intro: The big meeting apps log who you call and when, and their apps ship with 
 avoid:
   items:
     - name: Zoom
-      reason: claimed end-to-end encryption that its meetings didn't have.
+      reason: paid $85 million in 2021 to settle claims it shared user data with Facebook, Google and LinkedIn.
       tosdr: en_2198
-      source: https://theintercept.com/2020/03/31/zoom-meeting-encryption/
+      source: https://www.cnbc.com/2021/08/01/zoom-reaches-85-million-settlement-over-user-privacy-and-hacker-zoombombing.html
+      site: https://zoom.us/
     - name: Google Meet
       reason: calls run through Google and are tied to your Google account.
       tosdr: en_217
+      site: https://meet.google.com/
     - name: Microsoft Teams
       reason: meetings are tied to a Microsoft account, under a very poorly rated privacy policy.
       tosdr: en_244
+      site: https://www.microsoft.com/microsoft-teams
     - name: WhatsApp
-      reason: shares metadata such as who you call and when with Meta.
+      reason: in 2021 Ireland fined it €225 million for not properly explaining what data it shares with Facebook.
       tosdr: en_198
+      source: https://www.dataprotection.ie/en/news-media/press-releases/data-protection-commission-announces-decision-whatsapp-inquiry
+      site: https://www.whatsapp.com/
     - name: Discord
-      reason: 3 trackers in its Android app, under a very poorly rated privacy policy.
+      reason: a 2025 breach at a support vendor exposed government ID photos of about 70,000 users.
       tosdr: en_536
       exodus: com.discord
+      source: https://discord.com/press-releases/update-on-security-incident-involving-third-party-customer-service
+      site: https://discord.com/
 recommend:
   entries:
     - name: BigBlueButton
@@ -98,6 +105,7 @@ recommend:
       fdroid: true
 subsections:
   - title: Alternative clients/modifications of Discord
+    term: alternative-client
     callouts:
       - type: warning
         text: |-

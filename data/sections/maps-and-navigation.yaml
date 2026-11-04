@@ -4,17 +4,22 @@ intro: Mainstream map apps log where you go and what you search for. Apps built 
 avoid:
   items:
     - name: Google Maps
-      reason: saves your searches and the places you go to your Google account.
+      reason: a 2018 AP investigation found it saved your location whenever you opened Maps, even with Location History off.
       tosdr: en_217
+      source: https://www.deseret.com/2018/8/13/20651153/ap-exclusive-google-tracks-your-movements-like-it-or-not/
+      site: https://maps.google.com/
     - name: Yandex Maps
       reason: 11 trackers in its Android app, from a company bound by Russian surveillance law.
       exodus: ru.yandex.yandexmaps
+      site: https://yandex.com/maps/
     - name: Sygic
       reason: 8 trackers in its Android app.
       exodus: com.sygic.aura
+      site: https://www.sygic.com/
     - name: Bing Maps
       reason: under Microsoft's very poorly rated privacy policy.
       tosdr: en_244
+      site: https://www.bing.com/maps
 recommend:
   entries:
     - name: OpenStreetMap (OSM)

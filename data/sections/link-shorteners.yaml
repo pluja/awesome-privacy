@@ -6,6 +6,7 @@ avoid:
     - name: Bitly
       reason: built to track every click for marketing analytics.
       tosdr: en_224
+      site: https://bitly.com/
 recommend:
   entries:
     - name: Kutt

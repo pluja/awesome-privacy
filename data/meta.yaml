@@ -1,6 +1,7 @@
 header: |-
   # Awesome Privacy
-  <p align="center"><img width="500" src="misc/logo.png"> </img></p>
+  <p align="center"><a href="https://awesomeprivacy.org"><img width="500" src="misc/logo.png" alt="Awesome Privacy"></a></p>
+  <h3 align="center"><a href="https://awesomeprivacy.org">awesomeprivacy.org</a></h3>
   <p align="center">
   	<img src="https://awesome.re/badge.svg" alt="Awesome">
   	<a href="https://codeberg.org/pluja/awesome-privacy"><img alt="Mirror" src="https://img.shields.io/badge/Mirror-Codeberg-blue"></img></a>
@@ -98,3 +99,12 @@ categories:
       - utilities
 appendix:
   - privacy-vs-security-vs-anonymity
+terms:
+  third-party: "A company or organization runs it for you: sign up and use it. It's the easiest way to start, but you trust them with your data, so look for end-to-end encryption and a good track record."
+  self-hosted: You install and run it yourself, on a computer at home or a rented server. Your data stays with you, but setup, updates and backups are up to you.
+  local: Works on your own device without a server, so nothing leaves it. Backing up your files is up to you.
+  decentralized: Many independently run servers talk to each other, so no single company controls the network. You can pick a server you trust or run your own.
+  centralized: One provider runs all the servers. It's simple to use, but that provider is a single point of control, so open code and audits matter.
+  p2p: Devices talk to each other directly, with no server in between. Nobody in the middle can watch or shut it down, but both sides usually need to be online.
+  alternative-client: An unofficial app for a service you already use, usually without its ads or tracking. Your account stays with that service, and using an unofficial app can break its rules.
+  alternative-frontend: A website that shows content from a service, like videos or articles, without its account, ads or scripts. The service still sees what you view, and only frontends that relay everything through their own server hide your IP address. Public instances get blocked often, so expect to switch or self-host.

@@ -4,8 +4,10 @@ intro: Loading fonts from Google's servers hands every visitor's IP address to G
 avoid:
   items:
     - name: Google Fonts (loaded from Google)
-      reason: every page that loads them sends the visitor's IP address to Google.
+      reason: a German court ruled in 2022 that a site broke the GDPR by sending visitors' IP addresses to Google this way.
       tosdr: en_217
+      source: https://www.activemind.legal/guides/ruling-google-fonts/
+      site: https://fonts.google.com/
 subsections:
   - title: Google Fonts Replacements
     recommend:

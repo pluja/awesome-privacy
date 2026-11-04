@@ -4,12 +4,16 @@ intro: Cloud office suites keep your documents on the provider's servers in a fo
 avoid:
   items:
     - name: Microsoft Office
-      reason: documents saved to OneDrive aren't end-to-end encrypted, and the Android app has 6 trackers.
+      reason: in 2025 Austria's regulator ruled that Microsoft 365 Education illegally tracked pupils with cookies.
       tosdr: en_244
       exodus: com.microsoft.office.officehubrow
+      source: https://noyb.eu/en/noyb-win-microsoft-365-education-tracks-school-children
+      site: https://www.office.com/
     - name: Google Docs
-      reason: documents are stored on Google's servers without end-to-end encryption.
+      reason: files are scanned automatically, and a 2017 bug locked people out of their own docs as abusive content.
       tosdr: en_217
+      source: https://9to5google.com/2017/11/02/google-explains-tuesdays-drive-and-docs-bug/
+      site: https://docs.google.com/
 recommend:
   entries:
     - name: LibreOffice
@@ -64,13 +68,12 @@ recommend:
           added: 2025-07-21
           tags:
             - e2ee
-          children:
-            - name: dSheets
-              url: https://sheets.fileverse.io
-              repo: https://github.com/fileverse/fileverse-dsheets
-              description: Decentralized alternative to Excel and Google Sheets.
-              license: AGPL-3.0
-              added: 2025-07-21
+        - name: dSheets
+          url: https://sheets.fileverse.io
+          repo: https://github.com/fileverse/fileverse-dsheets
+          description: Decentralized alternative to Excel and Google Sheets.
+          license: AGPL-3.0
+          added: 2025-07-21
     - name: Grist
       url: https://www.getgrist.com
       repo: https://github.com/gristlabs/grist-core

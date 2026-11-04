@@ -4,8 +4,10 @@ intro: Upload-and-share services keep a readable copy of your files on their ser
 avoid:
   items:
     - name: WeTransfer
-      reason: files aren't end-to-end encrypted, and the site carries trackers.
+      reason: in 2025 it changed its terms to license your uploaded files for machine learning, then backed down.
       tosdr: en_214
+      source: https://www.malwarebytes.com/blog/news/2025/07/wetransfer-walks-back-clause-that-said-it-would-train-ai-on-your-files
+      site: https://wetransfer.com/
 recommend:
   entries:
     - name: Blaze

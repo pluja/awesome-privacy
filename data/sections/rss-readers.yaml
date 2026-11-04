@@ -6,6 +6,7 @@ avoid:
     - name: Google News
       reason: records what you read for Google's profile of you.
       tosdr: en_217
+      site: https://news.google.com/
 recommend:
   entries:
     - name: FreshRSS

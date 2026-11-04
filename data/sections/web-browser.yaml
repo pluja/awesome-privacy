@@ -4,17 +4,21 @@ intro: Your browser sees everything you do online, and the big ones are built by
 avoid:
   items:
     - name: Google Chrome
-      reason: tied to your Google account, and Manifest V3 limits what content blockers can do.
+      reason: Google agreed in 2024 to delete billions of records it collected from people browsing in Incognito.
       tosdr: en_217
-      source: https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening
+      source: https://www.nbcnews.com/tech/tech-news/google-destroy-browsing-data-settle-consumer-privacy-lawsuit-rcna145881
+      site: https://www.google.com/chrome/
     - name: Microsoft Edge
-      reason: Microsoft's tracking in place of Google's, and 6 trackers in its Android app.
+      reason: in 2023 an on-by-default feature sent nearly every page address you visited to Microsoft's Bing.
       tosdr: en_244
       exodus: com.microsoft.emmx
+      source: https://9to5google.com/2023/04/26/microsoft-edge-bing-urls/
+      site: https://www.microsoft.com/edge
     - name: Opera
       reason: 6 trackers in its Android app, and owned by a Chinese consortium since 2016.
       exodus: com.opera.browser
       source: https://en.wikipedia.org/wiki/Opera_(web_browser)
+      site: https://www.opera.com/
 subsections:
   - title: Android / iOS
     recommend:
@@ -234,6 +238,6 @@ subsections:
           license: GPL-3.0
           tags:
             - e2ee
-            - no-account
+            - anonymous-account
           status: inactive
           added: 2021-01-12

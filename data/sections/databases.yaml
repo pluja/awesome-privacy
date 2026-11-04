@@ -6,6 +6,7 @@ avoid:
     - name: Google Firebase
       reason: cloud only, so your app's data, and your users', always lives on Google's servers.
       tosdr: en_217
+      site: https://firebase.google.com/
 recommend:
   entries:
     - name: Appwrite

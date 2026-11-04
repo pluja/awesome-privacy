@@ -4,8 +4,8 @@ intro: A VPN doesn't make you anonymous; it moves the trust from your ISP to the
 avoid:
   items:
     - name: Free VPNs
-      reason: someone pays for the servers, usually you, through logs and data sold to advertisers.
-      source: https://thenextweb.com/news/be-cautious-free-vpns-are-selling-your-data-to-3rd-parties
+      reason: a 2017 study of 283 Android VPN apps found 75% used trackers and 38% contained malware.
+      source: https://torrentfreak.com/researchers-issue-security-warning-over-android-vpn-apps-170125/
 recommend:
   entries:
     - name: Amnezia VPN
@@ -27,6 +27,8 @@ recommend:
       url: https://ivpn.net
       repo: https://github.com/ivpn
       description: No-logs VPN that needs no email to sign up and takes cash, Monero or Bitcoin.
+      tags:
+        - anonymous-account
       package_id: net.ivpn.client
       added: 2022-07-28
       fdroid: true
@@ -35,6 +37,8 @@ recommend:
       repo: https://github.com/mullvad/mullvadvpn-app
       description: No-logs VPN with anonymous numbered accounts instead of email, payable in cash or cryptocurrency.
       license: GPL-3.0
+      tags:
+        - anonymous-account
       package_id: net.mullvad.mullvadvpn
       added: 2022-07-28
       fdroid: true

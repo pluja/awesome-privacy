@@ -6,6 +6,7 @@ avoid:
     - name: Google Calendar
       reason: your events sit on Google's servers without end-to-end encryption, tied to your account.
       tosdr: en_217
+      site: https://calendar.google.com/
 recommend:
   entries:
     - name: Etar

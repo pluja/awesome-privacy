@@ -6,6 +6,7 @@ avoid:
     - name: GitHub
       reason: owned by Microsoft, and public code hosted there was used to train Copilot.
       tosdr: en_297
+      site: https://github.com/
 recommend:
   entries:
     - name: Codeberg

@@ -6,12 +6,16 @@ avoid:
     - name: Authy
       reason: needs your phone number, and a 2024 leak exposed 33 million of them.
       source: https://www.malwarebytes.com/blog/news/2024/07/authy-phone-numbers-accessed-by-cybercriminals-warns-twilio
+      site: https://www.authy.com/
     - name: Google Authenticator
-      reason: syncs your codes to your Google account, and only exports them as QR codes.
+      reason: since 2023 it can sync your codes to Google, where researchers found Google could read them.
       tosdr: en_217
+      source: https://www.macrumors.com/2023/04/27/google-authenticator-cloud-sync-no-e2e/
+      site: https://www.google.com/
     - name: Microsoft Authenticator
       reason: 5 trackers in its Android app, and no way to export your tokens to another app.
       exodus: com.azure.authenticator
+      site: https://www.microsoft.com/en-us/security/mobile-authenticator-app
 recommend:
   entries:
     - name: 2FAS Auth

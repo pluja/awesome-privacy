@@ -6,14 +6,18 @@ avoid:
     - name: Shazam
       reason: owned by Apple, and its Android app carries Google's analytics trackers.
       exodus: com.shazam.android
+      site: https://www.shazam.com/
     - name: SoundHound
       reason: 11 trackers in its Android app.
       exodus: com.melodis.midomiMusicIdentifier.freemium
+      site: https://www.soundhound.com/
     - name: Musixmatch
       reason: 8 trackers in its Android app.
       exodus: com.musixmatch.android.lyrify
+      site: https://www.musixmatch.com/
 subsections:
   - title: Shazam alternative clients
+    term: alternative-client
     recommend:
       entries:
         - name: Audile

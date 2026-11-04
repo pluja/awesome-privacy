@@ -25,9 +25,11 @@ subsections:
         - name: Medium
           reason: the site carries trackers, under a poorly rated privacy policy.
           tosdr: en_1003
+          site: https://medium.com/
         - name: Blogger
           reason: owned by Google, with Google trackers and ads.
           tosdr: en_217
+          site: https://www.blogger.com/
     recommend:
       entries:
         - name: Plume
@@ -46,16 +48,14 @@ subsections:
           tags:
             - activitypub
           added: 2022-10-04
-    subsections:
-      - title: Alternative Medium frontends
-        recommend:
-          entries: []
   - title: Instagram
     avoid:
       items:
         - name: Instagram
-          reason: Meta builds an ad profile from what you view, like and follow.
+          reason: Ireland fined Meta €405 million in 2022 for exposing children's emails and phone numbers on Instagram.
           tosdr: en_219
+          source: https://www.dataprotection.ie/en/news-media/press-releases/data-protection-commission-announces-decision-instagram-inquiry
+          site: https://www.instagram.com/
     recommend:
       entries:
         - name: Pixelfed
@@ -70,8 +70,10 @@ subsections:
     avoid:
       items:
         - name: YouTube
-          reason: Google builds a detailed profile from everything you watch.
+          reason: Google paid a record $170 million in 2019 for collecting children's data on YouTube without parental consent.
           tosdr: en_274
+          source: https://www.ftc.gov/news-events/news/press-releases/2019/09/google-youtube-will-pay-record-170-million-alleged-violations-childrens-privacy-law
+          site: https://www.youtube.com/
     recommend:
       entries:
         - name: PeerTube
@@ -83,7 +85,7 @@ subsections:
             - activitypub
           added: 2020-12-07
     subsections:
-      - title: YouTube alternative frontends (web-based)
+      - title: Frontends
         recommend:
           entries:
             - name: Invidious
@@ -114,7 +116,7 @@ subsections:
               tags:
                 - tor
               added: 2021-09-15
-      - title: YouTube alternative clients (apps)
+      - title: Apps
         recommend:
           entries:
             - name: FreeTube
@@ -172,16 +174,12 @@ subsections:
     avoid:
       items:
         - name: Twitter (X)
-          reason: profiles you from who you follow and what you like and repost.
+          reason: paid $150 million in 2022 for using phone numbers given for account security to target ads.
           tosdr: en_195
+          source: https://www.ftc.gov/news-events/news/press-releases/2022/05/ftc-charges-twitter-deceptively-using-account-security-data-sell-targeted-ads
+          site: https://x.com/
     subsections:
-      - title: Self-hosted
-        recommend:
-          entries: []
       - title: Decentralized
-        callouts:
-          - type: note
-            text: "**Federated social networks** aren't a single website: they're thousands of communities run by different people and organizations, which can all follow and reply to each other."
         recommend:
           entries:
             - name: Mastodon
@@ -217,7 +215,7 @@ subsections:
                   repo: https://gitlab.com/soapbox-pub/soapbox-fe
                   description: Web frontend for Pleroma focused on custom branding and ease of use.
                   added: 2020-12-09
-      - title: Alternative Frontends
+      - title: Frontends
         recommend:
           entries:
             - name: Nitter
@@ -241,10 +239,12 @@ subsections:
     avoid:
       items:
         - name: Reddit
-          reason: the official site and apps are full of trackers and ads.
+          reason: sold Google the right to train AI on users' posts in a 2024 deal valued at about $60 million.
           tosdr: en_194
+          source: https://www.cbsnews.com/news/google-reddit-60-million-deal-ai-training/
+          site: https://www.reddit.com/
     subsections:
-      - title: Reddit alternatives
+      - title: Alternatives
         recommend:
           entries:
             - name: Lemmy
@@ -263,7 +263,7 @@ subsections:
               tags:
                 - activitypub
               added: 2026-07-04
-      - title: Privacy respecting Reddit clients
+      - title: Apps and frontends
         recommend:
           entries:
             - name: Redlib
@@ -276,8 +276,10 @@ subsections:
     avoid:
       items:
         - name: Twitch
-          reason: owned by Amazon and funded by ads, so viewers are tracked for advertising.
+          reason: a 2021 breach leaked 125GB of its data, including source code and three years of creator payouts.
           tosdr: en_200
+          source: https://fortune.com/2021/10/06/twitch-data-leak-hack-source-code-creator-payouts-4chan/
+          site: https://www.twitch.tv/
     recommend:
       entries:
         - name: Owncast
@@ -289,7 +291,7 @@ subsections:
             - self-host
           added: 2020-12-21
     subsections:
-      - title: Privacy respecting Twitch clients
+      - title: Apps
         recommend:
           entries:
             - name: Twire
@@ -306,9 +308,11 @@ subsections:
     avoid:
       items:
         - name: Imgur
-          reason: 23 trackers in its Android app, and a site heavy with ads.
+          reason: a 2014 hack stole about 1.7 million email addresses and passwords, which it only learned of in 2017.
           tosdr: en_325
           exodus: com.imgur.mobile
+          source: https://techcrunch.com/2017/11/27/imgur-says-1-7m-emails-and-passwords-were-breached-in-2014-hack/
+          site: https://imgur.com/
     recommend:
       entries:
         - name: rimgo
@@ -323,6 +327,7 @@ subsections:
           reason: owned by Amazon, with 8 trackers in its Android app.
           tosdr: en_313
           exodus: com.imdb.mobile
+          site: https://www.imdb.com/
     recommend:
       entries:
         - name: libremdb
@@ -340,6 +345,7 @@ subsections:
           reason: wikis loaded with ads and autoplaying video, and 8 trackers in the app.
           tosdr: en_2256
           exodus: com.fandom.app
+          site: https://www.fandom.com/
     recommend:
       entries:
         - name: BreezeWiki

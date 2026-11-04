@@ -6,12 +6,16 @@ avoid:
     - name: Google Translate
       reason: sends everything you translate to Google.
       tosdr: en_217
+      site: https://translate.google.com/
     - name: DeepL
-      reason: the free version stores your texts and may use them to train its models.
+      reason: the free version may train on your texts, and its terms forbid entering any personal data.
       tosdr: en_2073
+      source: https://www.deepl.com/en/terms-of-use
+      site: https://www.deepl.com/
     - name: Bing Translator
       reason: sends everything you translate to Microsoft.
       tosdr: en_244
+      site: https://www.bing.com/translator
 subsections:
   - title: Text translation
     recommend:
@@ -49,6 +53,7 @@ subsections:
             - offline
           added: 2025-08-26
   - title: Alternative Google Translate frontends
+    term: alternative-frontend
     recommend:
       entries:
         - name: SimplyTranslate
