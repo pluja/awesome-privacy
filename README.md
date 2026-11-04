@@ -782,7 +782,7 @@ Mainstream cloud drives can read everything you upload and scan it on their serv
 - **[PrivateStorage](https://private.storage/)** - Client-side encrypted storage and folder sync with no account, paid for in a way that isn't linked to your files.
 - **[Proton Drive](https://proton.me/drive)** - End-to-end encrypted cloud storage from the makers of Proton Mail.
 - **[Seafile](https://www.seafile.com/en/home/)** - Fast self-hosted file sync and sharing, with optional per-library client-side encryption and a built-in wiki. <sub>self-host</sub>
-- **[Sync-in](https://sync-in.com/)** - Self-hosted file storage, sharing and sync with WebDAV, desktop clients and Collabora or OnlyOffice editing. <sub>self-host · AGPL-3.0</sub>
+- **[Sync-in](https://sync-in.com/)** - Self-hosted file storage, sharing and sync with WebDAV, desktop clients and online document editing. <sub>self-host · AGPL-3.0</sub>
 
 #### Other useful tools
 
@@ -858,6 +858,7 @@ Popular note apps store everything you write on their servers, usually readable 
 - **[Notally](https://github.com/OmGodse/Notally)** - Minimal notes app that keeps everything on your device, with no sync. <sub>Android · GPL-3.0 · [F-Droid](https://f-droid.org/packages/com.omgodse.notally/)</sub>
 - **[Notesnook](https://notesnook.com/)** - End-to-end encrypted notes app with sync across your devices, as an Evernote alternative. <sub>GPL-3.0 · [F-Droid](https://f-droid.org/packages/com.streetwriters.notesnook/)</sub>
 - **[Obsidian](https://obsidian.md)** - Markdown notes kept as plain files on your device, with optional end-to-end encrypted sync. `⚠️ closed source`
+- **[OpenHabitTracker](https://openhabittracker.net/)** - Habit, task and note tracker that keeps your data on the device, or syncs to a server you run yourself. `⚠️ website trackers`
 - **[Quillpad](https://quillpad.github.io/)** - Markdown notes and task lists for Android, with optional Nextcloud sync, forked from Quillnote. <sub>Android · fork · GPL-3.0 · [F-Droid](https://f-droid.org/packages/io.github.quillpad/)</sub>
 - **[SiYuan](https://github.com/siyuan-note/siyuan)** - Local-first personal knowledge base built from blocks you can link, embed and query. <sub>AGPL-3.0</sub>
 - **[Standard Notes](https://standardnotes.com/)** - End-to-end encrypted notes app that syncs across all your devices. <sub>AGPL-3.0 · [F-Droid](https://f-droid.org/packages/com.standardnotes/)</sub>
@@ -1620,6 +1621,8 @@ Cloud AI services see everything you type, tie it to your account and payment de
 
 ##### Apps and services
 
+- **[FUTO Voice Input](https://voiceinput.futo.org/)** - Voice input for Android that works with other keyboards and runs entirely on the device. `⚠️ source-available` <sub>Android</sub>
+- **[Minutes](https://useminutes.app/)** - Records and transcribes meetings and voice memos on your device, with search over the history for local AI tools.
 - **[OpenWhispr](https://openwhispr.com/)** - Desktop dictation app that can transcribe fully offline with local models, with cloud processing as an option. `⚠️ website trackers` <sub>Linux · macOS · Windows · MIT</sub>
 - **[Sasayaki](https://pluja.github.io/sasayaki/)** - Tiny dictation app that types what you say using any OpenAI-compatible speech server, including your own. <sub>Android</sub>
 - **[Speaches](https://speaches.ai/)** - Self-hosted OpenAI-compatible server for streaming transcription, translation and speech generation. <sub>MIT</sub>

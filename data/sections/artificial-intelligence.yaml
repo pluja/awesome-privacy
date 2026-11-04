@@ -202,10 +202,12 @@ subsections:
               caveats:
                 - source-available
               package_id: org.futo.voiceinput
+              added: 2026-11-04
             - name: Minutes
               url: https://useminutes.app/
               repo: https://github.com/silverstein/minutes
               description: Records and transcribes meetings and voice memos on your device, with search over the history for local AI tools.
+              added: 2026-11-04
             - name: OpenWhispr
               url: https://openwhispr.com/
               repo: https://github.com/OpenWhispr/openwhispr
