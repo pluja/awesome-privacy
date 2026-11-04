@@ -142,7 +142,8 @@ export async function checkRepo(repo: string): Promise<{ facts?: RepoFacts; find
     else findings.push({ level: "warn", text: "no release or tag on GitHub (fine for sites and directories, not for an app)" });
   }
 
-  findings.push(await community(d.full_name));
+  // Mirrors (Blender, Firefox) turn issues off on GitHub and keep their community elsewhere.
+  findings.push(d.has_issues ? await community(d.full_name) : { level: "info", text: "issues are turned off on GitHub; the project tracks them elsewhere" });
 
   const adv = await gh<any[]>(`repos/${d.full_name}/security-advisories?per_page=50`);
   const open = (adv.data ?? []).filter((a) => ["critical", "high"].includes(a.severity) && !(a.vulnerabilities ?? []).some((v: any) => v.patched_versions));
@@ -218,7 +219,8 @@ export async function checkTelemetry(repo: string): Promise<Finding[]> {
   if (!TOKEN) return [];
   const hits: string[] = [];
   for (const sdk of TELEMETRY_SDKS) {
-    const r = await gh(`search/code?q=${encodeURIComponent(`${sdk} repo:${repo}`)}&per_page=1`);
+    const query = `search/code?q=${encodeURIComponent(`${sdk} repo:${repo}`)}&per_page=1`;
+    const r = await gh(query);
     if (!r.data) return [{ level: "info", text: `telemetry scan unavailable (code search returned HTTP ${r.status}); check the code by hand` }];
     if (r.data.total_count) hits.push(`${sdk.replaceAll('"', "")} (${r.data.total_count} files)`);
     await new Promise((ok) => setTimeout(ok, 6500)); // stay under 10 code searches per minute
