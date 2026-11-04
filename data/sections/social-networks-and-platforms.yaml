@@ -80,16 +80,6 @@ subsections:
           tosdr: en_274
     recommend:
       entries:
-        - name: Odysee
-          url: https://odysee.com/
-          repo: https://github.com/OdyseeTeam/odysee-frontend
-          description: Video platform built on the LBRY protocol.
-          license: MIT
-          caveats:
-            - website-trackers
-          package_id: com.odysee.floss
-          added: 2020-12-09
-          fdroid: true
         - name: PeerTube
           url: https://joinpeertube.org/en/
           repo: https://github.com/Chocobozzz/PeerTube

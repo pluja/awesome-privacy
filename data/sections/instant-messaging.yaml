@@ -113,14 +113,6 @@ subsections:
           package_id: chat.simplex.app
           added: 2021-12-09
           fdroid: true
-        - name: Status
-          url: https://status.app/
-          repo: https://github.com/status-im/status-app
-          description: Peer-to-peer messenger that needs no phone number, bundled with a crypto wallet and web3 browser.
-          license: MPL-2.0
-          package_id: app.status.mobile
-          added: 2020-12-07
-          fdroid: true
   - title: Centralized
     intro: One provider runs the servers, which is a single point of failure and control. That can still be trustworthy when the protocol and code are open and audited.
     recommend:

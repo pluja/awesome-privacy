@@ -59,7 +59,6 @@ Many independently run servers talk to each other, so there is no single point o
   - [Element](https://element.io/) - The flagship Matrix client, with end-to-end encryption on by default for private chats. `AGPL-3.0` `⚠️ website trackers`
 - [Session](https://getsession.org/) - Messenger that needs no phone number and routes messages through an onion network of community-run nodes. `GPL-3.0` [F-Droid](https://f-droid.org/packages/network.loki.messenger.fdroid/)
 - [SimpleX Chat](https://simplex.chat/) - Messenger with no user IDs at all, so its servers can't see who talks to whom. `AGPL-3.0` [F-Droid](https://f-droid.org/packages/chat.simplex.app/)
-- [Status](https://status.app/) - Peer-to-peer messenger that needs no phone number, bundled with a crypto wallet and web3 browser. `MPL-2.0` [F-Droid](https://f-droid.org/packages/app.status.mobile/)
 
 #### Centralized
 
@@ -268,7 +267,6 @@ The big platforms profile you from everything you read, watch and like, and thei
 
 **Use instead**
 
-- [Odysee](https://odysee.com/) - Video platform built on the LBRY protocol. `MIT` `⚠️ website trackers` [F-Droid](https://f-droid.org/packages/com.odysee.floss/)
 - [PeerTube](https://joinpeertube.org/en/) - Federated video hosting where anyone can run an instance and follow channels across others. `ActivityPub` `AGPL-3.0`
 
 ##### YouTube alternative frontends (web-based)
@@ -632,7 +630,6 @@ Authenticator apps generate the one-time codes that protect an account even afte
 - [Aegis](https://getaegis.app/) - Encrypted token vault that imports from most other authenticators and exports in plain or encrypted form. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.beemdevelopment.aegis/)
 - [ente Auth](https://ente.com/auth/) - Authenticator with end-to-end encrypted sync between your devices, from the makers of ente Photos. `AGPL-3.0` `⚠️ website trackers`
 - [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Fork of FreeOTP with backups, search and dark mode. `Android` `Apache-2.0` [F-Droid](https://f-droid.org/packages/org.liberty.android.freeotpplus/)
-- [Proton Authenticator](https://proton.me/authenticator) - Authenticator with end-to-end encrypted sync, from the makers of Proton Mail. [F-Droid](https://f-droid.org/packages/proton.android.authenticator.fdroid/)
 - [Stratum](https://github.com/stratumauth/app) - Authenticator with Wear OS support and encrypted backups. `Android` `GPL-3.0`
 
 ### Password Managers
