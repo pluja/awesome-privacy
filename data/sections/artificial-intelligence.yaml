@@ -210,6 +210,18 @@ subsections:
               platforms:
                 - android
               added: 2026-03-21
+            - name: Vocalinux
+              url: https://vocalinux.com/
+              repo: https://github.com/VocaHQ/vocalinux
+              description: Voice dictation for Linux that types into any app, with speech recognition running on your computer.
+              platforms:
+                - linux
+              license: AGPL-3.0
+              tags:
+                - offline
+              caveats:
+                - website-trackers
+              added: 2026-11-04
             - name: Speaches
               url: https://speaches.ai/
               repo: https://github.com/speaches-ai/speaches

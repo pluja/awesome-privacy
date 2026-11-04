@@ -64,4 +64,18 @@ recommend:
       caveats:
         - website-trackers
       added: 2020-12-09
+    - name: Wire
+      url: https://wire.com/
+      repo: https://github.com/wireapp/wire-server
+      description: End-to-end encrypted messaging, calls and file sharing for teams, with public and audited code for both the apps and the server.
+      license: AGPL-3.0
+      tags:
+        - e2ee
+        - audited
+      caveats:
+        - website-trackers
+        - play-store-trackers
+      package_id: com.wire
+      fdroid: true
+      added: 2026-11-04
 notes: Discord mods and alternative clients, and the risks of using them, are listed under [Alternative clients/modifications of Discord](#alternative-clientsmodifications-of-discord).

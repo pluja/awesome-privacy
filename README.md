@@ -203,6 +203,7 @@ Workplace chat holds your team's most sensitive conversations on someone else's 
 - [Rocket.Chat](https://www.rocket.chat/) - Self-hosted team chat with end-to-end encrypted rooms and federation. `self-host` `⚠️ website trackers`
 - [Stoat](https://stoat.chat/) - Discord-like chat platform with servers and channels, which you can host yourself, formerly Revolt. `self-host`
 - [Twake Chat](https://twake.app/) - Workplace chat built on Matrix, part of Linagora's Twake Workplace suite. `AGPL-3.0`
+- [Wire](https://wire.com/) - End-to-end encrypted messaging, calls and file sharing for teams, with public and audited code for both the apps and the server. `AGPL-3.0` `⚠️ website trackers` [F-Droid](https://f-droid.org/packages/com.wire/) (Play Store version has trackers)
 - [Zulip](https://zulip.com/) - Team chat organized into topic threads, which you can host yourself. `self-host` `Apache-2.0` [F-Droid](https://f-droid.org/packages/com.zulipmobile/)
 
 Discord mods and alternative clients, and the risks of using them, are listed under [Alternative clients/modifications of Discord](#alternative-clientsmodifications-of-discord).
@@ -1528,6 +1529,7 @@ Cloud AI services see everything you type, tie it to your account and payment de
 - [OpenWhispr](https://openwhispr.com/) - Desktop dictation app that can transcribe fully offline with local models, with cloud processing as an option. `Linux` `macOS` `Windows` `MIT` `⚠️ website trackers`
 - [Sasayaki](https://pluja.github.io/sasayaki/) - Tiny dictation app that types what you say using any OpenAI-compatible speech server, including your own. `Android`
 - [Speaches](https://speaches.ai/) - Self-hosted OpenAI-compatible server for streaming transcription, translation and speech generation. `MIT`
+- [Vocalinux](https://vocalinux.com/) - Voice dictation for Linux that types into any app, with speech recognition running on your computer. `Linux` `AGPL-3.0` `⚠️ website trackers`
 
 #### Image Generation
 
