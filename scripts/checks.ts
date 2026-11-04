@@ -195,6 +195,24 @@ export async function checkWebsite(url: string, marked = false): Promise<Finding
   }
 }
 
+// A soft signal only: a fresh domain often goes with self-promotion, but projects buy domains at any time.
+// RDAP covers most generic TLDs; many country TLDs have no public RDAP, and those are skipped.
+export async function checkDomain(url: string): Promise<Finding[]> {
+  const host = new URL(url).hostname;
+  if (/(^|\.)(github\.com|gitlab\.com|codeberg\.org|github\.io)$/.test(host)) return [];
+  const labels = host.split(".");
+  const domain = labels.slice(/^(co|com|org|net|ac|gov|edu)$/.test(labels.at(-2) ?? "") && labels.at(-1)!.length === 2 ? -3 : -2).join(".");
+  try {
+    const res = await fetch(`https://rdap.org/domain/${domain}`, { headers: { Accept: "application/rdap+json", "User-Agent": "awesome-privacy-checks" }, signal: AbortSignal.timeout(15_000) });
+    if (!res.ok) return [];
+    const registered = ((await res.json()).events ?? []).find((e: any) => e.eventAction === "registration")?.eventDate;
+    const days = registered ? daysSince(registered) : undefined;
+    return days !== undefined && days < 365 ? [{ level: "info", text: `${domain} was registered ${Math.round(days / 30)} months ago (${registered.slice(0, 10)})` }] : [];
+  } catch {
+    return [];
+  }
+}
+
 // Code search is rate limited, so this runs once per added repo and only reports hits.
 export async function checkTelemetry(repo: string): Promise<Finding[]> {
   if (!TOKEN) return [];

@@ -7,7 +7,7 @@ import { writeFileSync } from "node:fs";
 import { parse } from "yaml";
 import { loadData, type Data } from "./data.ts";
 import type { Entry, Section } from "../schema/schema.ts";
-import { checkRepo, checkTelemetry, checkWebsite, gh, githubRepo, type Finding } from "./checks.ts";
+import { checkDomain, checkRepo, checkTelemetry, checkWebsite, gh, githubRepo, type Finding } from "./checks.ts";
 
 const arg = (name: string) => { const i = process.argv.indexOf(name); return i > 0 ? process.argv[i + 1] : undefined; };
 const base = arg("--base");
@@ -94,6 +94,7 @@ for (const { entry, where } of added.slice(0, DEEP_CHECK_LIMIT)) {
     findings.push(...(await checkTelemetry(repo)));
   }
   if (entry.url) findings.push(...(await checkWebsite(entry.url, entry.caveats?.includes("website-trackers"))));
+  if (entry.url) findings.push(...(await checkDomain(entry.url)));
   lines.push(`### ${entry.name}`, "", `${where}${facts ? ` · ${facts}` : ""}`, "");
   lines.push(...(findings.length ? findings.map((f) => `- ${icon[f.level]} ${f.text}`) : ["- ✅ no issues found"]), "");
 }
