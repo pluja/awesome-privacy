@@ -115,6 +115,13 @@ recommend:
       tags:
         - e2ee
       fdroid: true
+    - name: OpenHabitTracker
+      url: https://openhabittracker.net/
+      repo: https://github.com/Jinjinov/OpenHabitTracker
+      description: Habit, task and note tracker that keeps your data on the device, or syncs to a server you run yourself.
+      caveats:
+        - website-trackers
+      package_id: net.openhabittracker
     - name: Obsidian
       url: https://obsidian.md
       description: Markdown notes kept as plain files on your device, with optional end-to-end encrypted sync.
