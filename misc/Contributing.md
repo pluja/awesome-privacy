@@ -62,6 +62,6 @@ Pull requests are reviewed in monthly batches. A slow response is not a rejectio
 
 ### Automated checks
 
-- Every pull request validates the data and posts a comment with checks on each added project: age, releases, activity, license, unpatched security advisories, website trackers, telemetry libraries in the code, duplicates, and whether the submitter owns the project. These are signals for the reviewer, not a verdict.
+- Every pull request validates the data and posts a comment with checks on each added project: age and commit history, releases, activity, issues and pull requests from outside contributors, license, unpatched security advisories, website trackers, telemetry libraries in the code, duplicates, and whether the submitter owns the project. These are signals for the reviewer, not a verdict.
 - After a merge, CI stamps the `added` date on new entries and regenerates `README.md`.
 - On the first of each month a job checks every entry: dead links, repositories that are gone, archived, stale or moved, license changes, inactive entries that came back, website trackers that don't match the `website trackers` badge, and known trackers in Android apps through [Exodus Privacy](https://exodus-privacy.eu.org). It opens a single "Health report" issue; delisting and 💀 flagging happen from that report.

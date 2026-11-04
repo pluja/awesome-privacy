@@ -83,6 +83,27 @@ export function githubRepo(e: Pick<Entry, "url" | "repo">): string | undefined {
   return m ? `${m[1]}/${m[2].replace(/\.git$/, "")}` : undefined;
 }
 
+// Issues and pull requests opened by people outside the project: a sign that others use it and care.
+// Reads the 300 most recent, which is enough to tell "none yet" from "plenty".
+const INSIDERS = new Set(["OWNER", "MEMBER", "COLLABORATOR"]);
+const isBot = (u: any) => u?.type === "Bot" || /\[bot\]$|^dependabot|^renovate|^github-actions/i.test(u?.login ?? "");
+async function community(repo: string): Promise<Finding> {
+  const items: any[] = [];
+  for (let page = 1; page <= 3; page++) {
+    const r = await gh<any[]>(`repos/${repo}/issues?state=all&per_page=100&page=${page}`);
+    items.push(...(r.data ?? []));
+    if ((r.data?.length ?? 0) < 100) break;
+  }
+  const outside = items.filter((i) => !INSIDERS.has(i.author_association) && !isBot(i.user));
+  const prs = outside.filter((i) => i.pull_request);
+  const merged = prs.filter((i) => i.pull_request.merged_at).length;
+  const people = new Set(outside.map((i) => i.user.login)).size;
+  const more = items.length >= 300 ? "+" : "";
+  if (!people) return { level: "warn", text: "no issues or pull requests from people outside the project yet" };
+  const n = (count: number, word: string) => `${count}${more} ${word}${count === 1 && !more ? "" : "s"}`;
+  return { level: "info", text: `outside the project: ${n(people, "person").replace(/persons$/, "people")}, ${n(outside.length - prs.length, "issue")}, ${n(prs.length, "pull request")} (${merged} merged)` };
+}
+
 export type RepoFacts = { fullName: string; stars: number; ageDays: number; idleDays: number; license?: string; release?: string; ownerLogin: string };
 
 export async function checkRepo(repo: string): Promise<{ facts?: RepoFacts; findings: Finding[] }> {
@@ -114,6 +135,8 @@ export async function checkRepo(repo: string): Promise<{ facts?: RepoFacts; find
     if (tags.data?.length) facts.release = `tag ${tags.data[0].name}`;
     else findings.push({ level: "warn", text: "no release or tag on GitHub (fine for sites and directories, not for an app)" });
   }
+
+  findings.push(await community(d.full_name));
 
   const adv = await gh<any[]>(`repos/${d.full_name}/security-advisories?per_page=50`);
   const open = (adv.data ?? []).filter((a) => ["critical", "high"].includes(a.severity) && !(a.vulnerabilities ?? []).some((v: any) => v.patched_versions));
