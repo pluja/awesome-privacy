@@ -51,11 +51,31 @@ export const TRACKERS: Record<string, string> = {
 // Quoted where the bare word has other meanings (audio amplitude); code search has no OR.
 export const TELEMETRY_SDKS = ["posthog", "sentry", "mixpanel", '"amplitude-js"', '"@amplitude/analytics"', '"com.amplitude"', "firebase-analytics", "crashlytics", "segment-analytics", "scarf", "aptabase"];
 
-export async function gh<T = any>(path: string): Promise<{ status: number; data?: T }> {
+export async function gh<T = any>(path: string): Promise<{ status: number; data?: T; link?: string }> {
   const res = await fetch(`https://api.github.com/${path.replace(/^\//, "")}`, {
     headers: { Accept: "application/vnd.github+json", "User-Agent": "awesome-privacy-checks", ...(TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}) },
   });
-  return res.ok ? { status: res.status, data: (await res.json()) as T } : { status: res.status };
+  return res.ok ? { status: res.status, data: (await res.json()) as T, link: res.headers.get("link") ?? undefined } : { status: res.status };
+}
+
+const iso = (ms: number) => new Date(ms).toISOString();
+const commitDate = (c: any): string | undefined => c?.commit?.committer?.date;
+
+// With one commit per page, the last page holds the oldest commit.
+async function oldestCommit(repo: string, since: string, until: string): Promise<string | undefined> {
+  const q = `repos/${repo}/commits?per_page=1&since=${since}&until=${until}`;
+  const first = await gh<any[]>(q);
+  const last = first.link?.match(/[?&]page=(\d+)>; rel="last"/)?.[1];
+  return commitDate((last ? await gh<any[]>(`${q}&page=${last}`) : first).data?.[0]);
+}
+
+// A repository created years ago whose commits only resumed this year: the creation date overstates its age.
+async function resumedAfterPause(repo: string): Promise<{ since: string; before: string } | undefined> {
+  const since = await oldestCommit(repo, iso(Date.now() - 365 * DAY), iso(Date.now()));
+  if (!since) return;
+  const prev = await gh<any[]>(`repos/${repo}/commits?per_page=1&until=${iso(Date.parse(since) - 1000)}`);
+  const before = commitDate(prev.data?.[0]);
+  if (before && Date.parse(since) - Date.parse(before) > 365 * DAY) return { since, before };
 }
 
 export function githubRepo(e: Pick<Entry, "url" | "repo">): string | undefined {
@@ -75,6 +95,10 @@ export async function checkRepo(repo: string): Promise<{ facts?: RepoFacts; find
   if (d.archived) findings.push({ level: "fail", text: "repository is archived" });
   if (facts.ageDays < MIN_AGE_DAYS) findings.push({ level: "fail", text: `only ${facts.ageDays} days old (minimum is 6 months)` });
   if (facts.idleDays > MAX_IDLE_DAYS) findings.push({ level: "fail", text: `no push in ${facts.idleDays} days` });
+  if (facts.ageDays >= MIN_AGE_DAYS && facts.idleDays <= MAX_IDLE_DAYS) {
+    const pause = await resumedAfterPause(d.full_name);
+    if (pause) findings.push({ level: "warn", text: `created ${d.created_at.slice(0, 4)}, but the current commits only start on ${pause.since.slice(0, 10)}, after a pause since ${pause.before.slice(0, 10)}. Judge age from the restart unless there's a reason (moved from another host, code opened later)` });
+  }
   if (facts.stars < MIN_STARS) findings.push({ level: "warn", text: `${facts.stars} stars` });
   const spdx = d.license?.spdx_id;
   if (!spdx) findings.push({ level: "warn", text: "no license detected; check for a LICENSE file" });
