@@ -428,7 +428,7 @@ These services build a profile from everything you read. A local or self-hosted 
 
 **Use instead**
 
-- [Capy Reader](https://github.com/jocmp/capyreader) - Small RSS reader, local or synced with Miniflux and FreshRSS. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.capyreader.app/)
+- [Capy Reader](https://github.com/jocmp/capyreader) - Small RSS reader, local or synced with Miniflux and FreshRSS. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.capyreader.app/) (Play Store version has trackers)
 - [Feeder](https://github.com/spacecowboy/Feeder) - RSS reader that fetches feeds directly on your device, with no account. `Android` `GPL-3.0`
 - [Fluent Reader](https://github.com/yang991178/fluent-reader) - Desktop RSS reader that keeps your feeds locally, with optional sync to self-hosted services. `Linux` `Windows` `macOS` `BSD-3-Clause`
 - [FreshRSS](https://freshrss.org/) - Self-hosted feed aggregator with a web interface, multi-user support and an API for mobile apps. `self-host` `AGPL-3.0`
@@ -708,7 +708,7 @@ Tools for checking what your devices and apps leak, and for cutting off what you
 - [NetGuard](https://netguard.me/) - Blocks internet access per app, no root needed. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/eu.faircode.netguard/)
 - [Orbot](https://orbot.app/) - Routes app traffic through Tor, for all apps or only the ones you choose. Made by the Guardian Project. `Android`
 - [Plexus](https://plexus.techlore.tech/) - Community database of which apps work on de-Googled Android. `Android` [F-Droid](https://f-droid.org/packages/tech.techlore.plexus/)
-- [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - Firewall and encrypted DNS client in one, no root needed. `Android` `Apache-2.0` [F-Droid](https://f-droid.org/packages/com.celzero.bravedns/)
+- [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - Firewall and encrypted DNS client in one, no root needed. `Android` `Apache-2.0` [F-Droid](https://f-droid.org/packages/com.celzero.bravedns/) (Play Store version has trackers)
 - [εxodus](https://reports.exodus-privacy.eu.org/en/) - Shows which trackers and permissions an Android app contains, before you install it. `AGPL-3.0`
   - [ClassyShark3xodus](https://f-droid.org/en/packages/com.oF2pks.classyshark3xodus/) - Checks the apps on your phone for known trackers, using the εxodus database. `Android` [F-Droid](https://f-droid.org/packages/com.oF2pks.classyshark3xodus/)
 

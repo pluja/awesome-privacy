@@ -106,3 +106,5 @@ subsections:
           package_id: com.celzero.bravedns
           added: 2022-05-09
           fdroid: true
+          caveats:
+            - play-store-trackers
