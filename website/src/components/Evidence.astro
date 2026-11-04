@@ -1,0 +1,30 @@
+---
+import { evidenceLinks } from "../../../scripts/labels.ts";
+import { reviewOf, type AvoidItem } from "../lib/site.ts";
+
+interface Props {
+  item: AvoidItem;
+}
+
+const { item } = Astro.props;
+const grade = reviewOf(item)?.grade;
+---
+
+<span class="evidence">
+  {
+    evidenceLinks(item).map((l) =>
+      l.label === "ToS;DR" && grade ? (
+        <a class:list={["grade", `g${grade}`]} href={l.url} rel="noopener" title={`ToS;DR rates these terms ${grade}, on a scale from A (best) to E`}>ToS;DR {grade}</a>
+      ) : (
+        <a href={l.url} rel="noopener">{l.label}</a>
+      ),
+    )
+  }
+</span>
+
+<style>
+  .grade { padding: 0 0.35rem; border-radius: 4px; text-decoration: none; font-variant-numeric: tabular-nums; }
+  .gD, .gE { color: var(--danger); background: color-mix(in srgb, var(--danger) 12%, transparent); }
+  .gC { color: var(--warn); background: color-mix(in srgb, var(--warn) 12%, transparent); }
+  .gA, .gB { background: var(--subtle); }
+</style>

@@ -1,0 +1,491 @@
+{
+ "en_1003": {
+  "service": "Medium",
+  "grade": "D",
+  "points": [
+   "Tracking pixels are used in service-to-user communication",
+   "Extra data may be collected about you through promotions",
+   "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+   "Your personal data may be used for marketing purposes",
+   "Your data may be processed and stored anywhere in the world",
+   "Third-party cookies are used for statistics"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_1817": {
+  "service": "Notion",
+  "grade": "C",
+  "points": [
+   "Information is gathered about you through third parties",
+   "Extra data may be collected about you through promotions",
+   "Third-party cookies are used for statistics",
+   "You must provide your identifiable information",
+   "Your data may be processed and stored anywhere in the world"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_182": {
+  "service": "Facebook",
+  "grade": "E",
+  "points": [
+   "Your identity is used in ads that are shown to other users",
+   "Private messages can be read",
+   "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+   "Your personal data is used for automated decision-making, profiling or AI training",
+   "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+   "This service shares your personal data with third parties that are not essential to its operation"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_185": {
+  "service": "Netflix",
+  "grade": "D",
+  "points": [
+   "Location data may be collected, used and/or shared",
+   "Referring and/or exit pages are tracked",
+   "Third-party cookies are used for advertising",
+   "Information is gathered about you through third parties",
+   "Your personal data may be used for marketing purposes",
+   "Your biometric data is collected"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_190": {
+  "service": "Amazon",
+  "grade": "D",
+  "points": [
+   "Information is gathered about you through third parties",
+   "Your personal data may be disclosed to comply with government requests without notice to you",
+   "Your biometric data is collected",
+   "Your personal information is used for many different purposes",
+   "Your provided identifiable information is actively checked by the service",
+   "Your personal data may be used for marketing purposes"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_194": {
+  "service": "Reddit",
+  "grade": "D",
+  "points": [
+   "Private messages can be read",
+   "Your personal data is used for automated decision-making, profiling or AI training",
+   "Third-party cookies are used for advertising",
+   "Referring and/or exit pages are tracked",
+   "Location data may be collected, used and/or shared",
+   "Information is gathered about you through third parties"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_195": {
+  "service": "X (Twitter)",
+  "grade": "E",
+  "points": [
+   "Private messages can be read",
+   "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+   "Your personal data is used for automated decision-making, profiling or AI training",
+   "Your personal data may be disclosed to comply with government requests without notice to you",
+   "This service assumes no liability for unauthorized access to your personal information",
+   "Your biometric data is collected"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_198": {
+  "service": "WhatsApp",
+  "grade": "E",
+  "points": [
+   "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+   "Private messages can be read",
+   "This service receives your precise location through GPS coordinates",
+   "Location data may be collected, used and/or shared",
+   "Many different types of personal data are collected",
+   "This service shares your personal data with third parties that are not essential to its operation"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_200": {
+  "service": "Twitch",
+  "grade": "D",
+  "points": [
+   "Third-party cookies are used for advertising",
+   "Third-party cookies are used for statistics",
+   "Third-party cookies are employed, but with opt out instructions",
+   "You are being tracked via social media cookies/pixels"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_206": {
+  "service": "Slack",
+  "grade": "C",
+  "points": [
+   "Your personal data is used for automated decision-making, profiling or AI training",
+   "Extra data may be collected about you through promotions"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_207": {
+  "service": "Evernote",
+  "grade": "D",
+  "points": [
+   "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+   "Your data is processed and stored in a country that is less friendly to user privacy protection",
+   "Your data may be processed and stored anywhere in the world",
+   "This service assumes no liability for unauthorized access to your personal information",
+   "Information is gathered about you through third parties",
+   "Location data may be collected, used and/or shared"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_2073": {
+  "service": "DeepL Translator",
+  "grade": "C",
+  "points": [],
+  "checked": "2026-11-04"
+ },
+ "en_2131": {
+  "service": "Zapier",
+  "grade": "C",
+  "points": [
+   "Many third parties are involved in operating the service",
+   "Many different types of personal data are collected",
+   "Your personal data may be used for marketing purposes"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_214": {
+  "service": "WeTransfer",
+  "grade": "D",
+  "points": [
+   "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+   "Referring and/or exit pages are tracked",
+   "Your data may be processed and stored anywhere in the world",
+   "Information is gathered about you through third parties",
+   "Your personal data may be used for marketing purposes",
+   "Your personal data is used to employ targeted third-party advertising"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_217": {
+  "service": "Google",
+  "grade": "E",
+  "points": [
+   "Your identity is used in ads that are shown to other users",
+   "You may still be tracked even after opting out from tracking",
+   "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+   "Your browsing history can be viewed by the service",
+   "Your personal data is used for automated decision-making, profiling or AI training",
+   "This service receives your precise location through GPS coordinates"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_219": {
+  "service": "Instagram",
+  "grade": "E",
+  "points": [
+   "Private messages can be read",
+   "Your identity is used in ads that are shown to other users",
+   "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+   "Third-party cookies are used for statistics",
+   "Many different types of personal data are collected",
+   "You are being tracked via social media cookies/pixels"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_2198": {
+  "service": "Zoom Video Communications",
+  "grade": "D",
+  "points": [
+   "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+   "Your personal data may be sold unless you opt out",
+   "Information is gathered about you through third parties",
+   "Referring and/or exit pages are tracked",
+   "Location data may be collected, used and/or shared",
+   "Third-party cookies are employed, but with opt out instructions"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_2207": {
+  "service": "hCaptcha",
+  "grade": "D",
+  "points": [
+   "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+   "You must provide your identifiable information",
+   "Your provided identifiable information is actively checked by the service",
+   "Information is gathered about you through third parties",
+   "You must provide your legal name, pseudonyms are not allowed"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_224": {
+  "service": "Bitly",
+  "grade": "D",
+  "points": [
+   "Your personal information is used for many different purposes",
+   "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_225": {
+  "service": "Spotify",
+  "grade": "E",
+  "points": [
+   "Your personal data is used for automated decision-making, profiling or AI training",
+   "Many third parties are involved in operating the service",
+   "Your personal data is used to employ targeted third-party advertising",
+   "Extra data may be collected about you through promotions",
+   "Location data may be collected, used and/or shared",
+   "Your profile is combined across various products"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_2256": {
+  "service": "Fandom",
+  "grade": "D",
+  "points": [
+   "Information is gathered about you through third parties",
+   "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+   "Third-party cookies are used for statistics",
+   "This service assumes no liability for unauthorized access to your personal information",
+   "You may be tracked on other websites",
+   "Extra data may be collected about you through promotions"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_230": {
+  "service": "PayPal",
+  "grade": "E",
+  "points": [
+   "Your personal data is used for automated decision-making, profiling or AI training",
+   "Sensitive data is collected and shared to target advertising",
+   "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+   "You may still be tracked even after opting out from tracking",
+   "Your personal information is used for many different purposes",
+   "Location data may be collected, used and/or shared"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_236": {
+  "service": "IFTTT",
+  "grade": "D",
+  "points": [
+   "App required for this service requires broad device permissions",
+   "Information is gathered about you through third parties",
+   "Your data may be processed and stored anywhere in the world",
+   "Your personal data may be disclosed to comply with government requests without notice to you",
+   "Third-party cookies are used for statistics",
+   "This service shares your personal data with third parties that are not essential to its operation"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_239": {
+  "service": "Disqus",
+  "grade": "D",
+  "points": [
+   "This service shares your personal data with third parties that are not essential to its operation",
+   "Your data may be processed and stored anywhere in the world",
+   "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+   "Tracking pixels are used in service-to-user communication",
+   "Third-party cookies are used for advertising"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_244": {
+  "service": "Microsoft Services",
+  "grade": "E",
+  "points": [
+   "Information is gathered about you through third parties",
+   "Many third parties are involved in operating the service",
+   "Location data may be collected, used and/or shared",
+   "Third-party cookies are used for statistics",
+   "Third-party cookies are used for advertising",
+   "You are being tracked via social media cookies/pixels"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_2444": {
+  "service": "Amazon Prime Video",
+  "grade": "D",
+  "points": [
+   "Referring and/or exit pages are tracked",
+   "Your biometric data is collected",
+   "Many third parties are involved in operating the service",
+   "This service shares your personal data with third parties that are not essential to its operation",
+   "Your profile is combined across various products",
+   "Your personal data is used to employ targeted third-party advertising"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_270": {
+  "service": "Dropbox",
+  "grade": "D",
+  "points": [
+   "Many third parties are involved in operating the service",
+   "This service receives your precise location through GPS coordinates",
+   "Third-party cookies are used for advertising",
+   "Your personal data may be sold unless you opt out",
+   "Tracking pixels are used in service-to-user communication",
+   "Many different types of personal data are collected"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_274": {
+  "service": "YouTube",
+  "grade": "E",
+  "points": [
+   "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+   "You may still be tracked even after opting out from tracking",
+   "Your personal data is used for automated decision-making, profiling or AI training",
+   "Sensitive data is collected and shared to target advertising",
+   "Referring and/or exit pages are tracked",
+   "App required for this service requires broad device permissions"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_2745": {
+  "service": "Disney+",
+  "grade": "E",
+  "points": [
+   "Private messages can be read",
+   "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+   "You may still be tracked even after opting out from tracking",
+   "Tracking pixels are used in service-to-user communication",
+   "This service assumes no liability for unauthorized access to your personal information",
+   "Information is gathered about you through third parties"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_276": {
+  "service": "SoundCloud",
+  "grade": "E",
+  "points": [
+   "You may still be tracked even after opting out from tracking",
+   "You may be tracked on other websites",
+   "Tracking pixels are used in service-to-user communication",
+   "Your personal data may be used for marketing purposes",
+   "Referring and/or exit pages are tracked",
+   "Location data may be collected, used and/or shared"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_297": {
+  "service": "GitHub",
+  "grade": "D",
+  "points": [
+   "This service assumes no liability for unauthorized access to your personal information",
+   "Third-party cookies are used for advertising",
+   "You are being tracked via social media cookies/pixels",
+   "Information is gathered about you through third parties",
+   "Referring and/or exit pages are tracked",
+   "Tracking pixels are used in service-to-user communication"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_2986": {
+  "service": "VSCO",
+  "grade": "E",
+  "points": [
+   "Private messages can be read",
+   "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+   "This service receives your precise location through GPS coordinates",
+   "This service shares your personal data with third parties that are not essential to its operation",
+   "Third-party cookies are used for advertising"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_309": {
+  "service": "Yahoo!",
+  "grade": "E",
+  "points": [
+   "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+   "Private messages can be read",
+   "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+   "Information is gathered about you through third parties",
+   "Your personal data may be used for marketing purposes",
+   "Location data may be collected, used and/or shared"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_313": {
+  "service": "IMDb",
+  "grade": "D",
+  "points": [
+   "Third-party cookies are used for statistics",
+   "Third-party cookies are used for advertising",
+   "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+   "Your personal data may be disclosed to comply with government requests without notice to you",
+   "Location data may be collected, used and/or shared",
+   "Many different types of personal data are collected"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_325": {
+  "service": "Imgur",
+  "grade": "D",
+  "points": [
+   "Private messages can be read",
+   "Third-party cookies are used for statistics",
+   "Your personal data is used to employ targeted third-party advertising"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_462": {
+  "service": "Tinder",
+  "grade": "E",
+  "points": [
+   "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+   "Your personal data is used for automated decision-making, profiling or AI training",
+   "Sensitive data is collected and shared to target advertising",
+   "Third-party cookies are used for statistics",
+   "Your profile is combined across various products",
+   "Third-party cookies are used for advertising"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_536": {
+  "service": "Discord",
+  "grade": "E",
+  "points": [
+   "Your personal information may be collected, regardless of whether you interacted directly with the service or not",
+   "Your personal data is used for automated decision-making, profiling or AI training",
+   "Information is gathered about you through third parties",
+   "Extra data may be collected about you through promotions",
+   "You are being tracked via social media cookies/pixels",
+   "App required for this service requires broad device permissions"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_6244": {
+  "service": "smallpdf",
+  "grade": "C",
+  "points": [],
+  "checked": "2026-11-04"
+ },
+ "en_7468": {
+  "service": "Splitwise",
+  "grade": "D",
+  "points": [
+   "Your personal data may be disclosed to comply with government requests without notice to you"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_7842": {
+  "service": "I Love PDF",
+  "grade": "D",
+  "points": [
+   "Third-party cookies are used for statistics"
+  ],
+  "checked": "2026-11-04"
+ },
+ "en_860": {
+  "service": "Yandex",
+  "grade": "E",
+  "points": [
+   "Your browsing history can be viewed by the service",
+   "Your personal data is used to employ targeted third-party advertising",
+   "You are tracked via web beacons, tracking pixels, browser fingerprinting, and/or device fingerprinting",
+   "Your profile is combined across various products",
+   "App required for this service requires broad device permissions",
+   "You must provide your identifiable information"
+  ],
+  "checked": "2026-11-04"
+ }
+}

@@ -1,0 +1,147 @@
+---
+import "../styles/global.css";
+import interUrl from "@fontsource-variable/inter/files/inter-latin-wght-normal.woff2?url";
+import IconSprite from "../components/IconSprite.astro";
+import Search from "../components/Search.astro";
+import { REPO } from "../lib/site.ts";
+
+interface Props {
+  title?: string;
+  description?: string;
+  noindex?: boolean;
+  jsonLd?: object;
+  image?: string; // share image path, from /og/
+  feed?: { title: string; href: string };
+}
+
+const SITE = "Awesome Privacy";
+const { title, description = "Private, open source alternatives to the apps and services you use every day.", noindex = false, jsonLd, image = "/og/home.png", feed } = Astro.props;
+const fullTitle = title ? `${title} · ${SITE}` : `${SITE}: private alternatives to the apps you use`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const here = Astro.url.pathname;
+const nav = [
+  { href: "/#topics", label: "Topics" },
+  { href: "/replace/", label: "A to Z" },
+  { href: "/new/", label: "New" },
+  { href: "/about/", label: "About" },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    {noindex ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonical} />}
+    <link rel="preload" href={interUrl} as="font" type="font/woff2" crossorigin />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="Awesome Privacy: recently added" href="/feed.xml" />
+    {feed && <link rel="alternate" type="application/rss+xml" title={feed.title} href={feed.href} />}
+    <link rel="search" type="application/opensearchdescription+xml" title="Awesome Privacy" href="/opensearch.xml" />
+    <meta name="theme-color" content="#fcfcfc" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0d0d0f" media="(prefers-color-scheme: dark)" />
+    <meta name="referrer" content="no-referrer" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE} />
+    <meta property="og:title" content={title ?? SITE} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL(image, Astro.site)} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={title ?? SITE} />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    {jsonLd && <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd).replace(/</g, "\\u003c")} />}
+  </head>
+  <body>
+    <IconSprite />
+    <a class="skip" href="#main">Skip to content</a>
+    <header class:list={["top", { home: here === "/" }]}>
+      <div class="container bar">
+        <a class="brand glitch" href="/" aria-label="Awesome Privacy, home">Awesome<br />Privacy</a>
+        <Search />
+        <nav class="nav" aria-label="Main">
+          {nav.map((n) => <a href={n.href} aria-current={here === n.href ? "page" : undefined}>{n.label}</a>)}
+          <a class="gh" href={REPO} rel="noopener" aria-label="Awesome Privacy on GitHub">
+            <svg viewBox="0 0 16 16" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+          </a>
+        </nav>
+        <details class="menu">
+          <summary aria-label="Menu">
+            <svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><path d="M3 6h14M3 10h14M3 14h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path></svg>
+          </summary>
+          <nav aria-label="Main">
+            {nav.map((n) => <a href={n.href}>{n.label}</a>)}
+            <a href={REPO} rel="noopener">GitHub</a>
+          </nav>
+        </details>
+      </div>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="foot">
+      <div class="container cols">
+        <div>
+          <p class="tag glitch">Friends don't spy.</p>
+          <p class="note">A community list, built in the open since 2020. This site has no trackers, sets no cookies and loads nothing from other servers.</p>
+        </div>
+        <nav aria-label="Footer">
+          <a href={REPO} rel="noopener">GitHub</a>
+          <a href="https://codeberg.org/pluja/awesome-privacy" rel="noopener">Codeberg</a>
+          <a href="/feed.xml">RSS feed</a>
+          <a href="/about/#contribute">Suggest a project</a>
+          <a href={`${REPO}/issues/new/choose`} rel="noopener">Report a problem</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .skip { position: absolute; left: 0.5rem; top: -3rem; z-index: 30; padding: 0.5rem 0.9rem; border-radius: 8px; background: var(--text); color: var(--bg); }
+  .skip:focus { top: 0.5rem; }
+
+  .top {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: color-mix(in srgb, var(--bg) 85%, transparent);
+    backdrop-filter: saturate(1.4) blur(12px);
+    border-bottom: 1px solid var(--line);
+  }
+  .bar { display: flex; align-items: center; gap: 1.25rem; height: var(--header); }
+  .brand { flex: none; font-size: 0.8rem; font-weight: 800; line-height: 0.92; letter-spacing: 0.01em; text-transform: uppercase; }
+  .bar > :global(.search) { flex: 1; max-width: 30rem; }
+  .home .bar > :global(.search) { visibility: hidden; opacity: 0; transition: opacity 0.15s, visibility 0.15s; }
+  :global(.past-hero) .home .bar > :global(.search) { visibility: visible; opacity: 1; }
+  .nav { display: flex; align-items: center; gap: 0.1rem; margin-left: auto; }
+  .nav a { padding: 0.4rem 0.65rem; border-radius: 7px; font-size: 0.9rem; font-weight: 500; color: var(--text-2); }
+  .nav a:hover, .nav a[aria-current] { color: var(--text); background: var(--hover); }
+  .gh { display: grid; place-items: center; }
+
+  .menu { display: none; position: relative; }
+  .menu summary { display: grid; place-items: center; width: 2.25rem; height: 2.25rem; border-radius: 8px; cursor: pointer; list-style: none; color: var(--text-2); }
+  .menu summary::-webkit-details-marker { display: none; }
+  .menu[open] summary { background: var(--hover); }
+  .menu nav { position: absolute; right: 0; top: calc(100% + 0.5rem); display: grid; min-width: 11rem; padding: 0.35rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: 0 10px 30px rgb(0 0 0 / 0.12); }
+  .menu nav a { padding: 0.55rem 0.75rem; border-radius: 7px; font-weight: 500; }
+  .menu nav a:hover { background: var(--hover); }
+
+  @media (max-width: 52rem) {
+    .bar { gap: 0.75rem; }
+    .nav { display: none; }
+    .menu { display: block; margin-left: auto; }
+    .bar > :global(.search) { max-width: none; }
+  }
+
+  .foot { margin-top: 4rem; border-top: 1px solid var(--line); padding: 2rem 0 2.5rem; font-size: 0.875rem; color: var(--text-3); }
+  .cols { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1.5rem 3rem; }
+  .tag { font-weight: 800; font-size: 1.05rem; text-transform: uppercase; color: var(--text); margin-bottom: 0.35rem; }
+  .note { max-width: 30rem; }
+  .foot nav { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; align-content: flex-start; }
+  .foot nav a:hover { color: var(--text); }
+</style>

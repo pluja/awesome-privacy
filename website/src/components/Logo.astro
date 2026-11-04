@@ -1,0 +1,54 @@
+---
+import { avoidLogoOf, logoOf, plain, type AvoidItem } from "../lib/site.ts";
+
+interface Props {
+  name: string;
+  avoid?: AvoidItem;
+  size?: 20 | 24 | 28 | 32;
+}
+
+const { name, avoid, size = 32 } = Astro.props;
+const found = avoid ? avoidLogoOf(avoid) : { src: logoOf(name), glyph: false };
+const src = found?.src;
+const initial = plain(name).match(/\p{L}|\p{N}/u)?.[0]?.toUpperCase() ?? "•";
+const classes = ["logo", `s${size}`, { avoid: !!avoid, glyph: found?.glyph }];
+---
+
+{
+  src ? (
+    <img class:list={classes} src={src} width={size} height={size} alt="" loading="lazy" decoding="async" />
+  ) : (
+    <span class:list={[...classes, "initial"]} aria-hidden="true">{initial}</span>
+  )
+}
+
+<style>
+  .s20 { --size: 20px; }
+  .s24 { --size: 24px; }
+  .s28 { --size: 28px; }
+  .s32 { --size: 32px; }
+  .logo {
+    flex: none;
+    width: var(--size);
+    height: var(--size);
+    border-radius: calc(var(--size) * 0.24);
+    background: var(--logo-tile);
+    box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0.08);
+    padding: calc(var(--size) * 0.06);
+    object-fit: contain;
+  }
+  /* Grey, so the service being left never outshines the picks. */
+  .avoid { filter: grayscale(1); opacity: 0.8; }
+  .glyph { background: none; box-shadow: none; padding: calc(var(--size) * 0.12); filter: none; opacity: 1; }
+  .initial {
+    display: inline-grid;
+    place-items: center;
+    padding: 0;
+    background: var(--subtle);
+    box-shadow: inset 0 0 0 1px var(--line);
+    color: var(--text-3);
+    font-size: calc(var(--size) * 0.45);
+    font-weight: 650;
+    line-height: 1;
+  }
+</style>

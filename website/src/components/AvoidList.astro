@@ -1,0 +1,57 @@
+---
+import EntryRow from "./EntryRow.astro";
+import Evidence from "./Evidence.astro";
+import Logo from "./Logo.astro";
+import { avoidedByItem, idOf, md, sentence, sorted, type Section } from "../lib/site.ts";
+
+interface Props {
+  section: Section;
+}
+
+const { section } = Astro.props;
+const avoid = section.avoid!;
+---
+
+<div class="avoid">
+  <p class="label">
+    <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"></circle><path d="m3.5 12.5 9-9" stroke="currentColor" stroke-width="1.5"></path></svg>
+    Avoid
+  </p>
+  {avoid.intro && <div class="prose intro" set:html={md(avoid.intro)} />}
+  <ul role="list">
+    {
+      avoid.items.map((a) => (
+        <li id={idOf(a)}>
+          <Logo name={a.name} avoid={a} size={24} />
+          <p class="line">
+            <a class="service" href={avoidedByItem.get(a)!.url} title={`Alternatives to ${a.name}`}>{a.name}</a>
+            <span class="reason">{sentence(a.reason)}</span>
+            <Evidence item={a} />
+          </p>
+          {a.tools && (
+            <div class="tools">
+              <p class="eyebrow">Tools to help you leave</p>
+              <ul role="list">{sorted(a.tools).map((t) => <EntryRow entry={t} section={section} child />)}</ul>
+            </div>
+          )}
+        </li>
+      ))
+    }
+  </ul>
+</div>
+
+<style>
+  .avoid { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); padding: 0.85rem 1rem 0.35rem; }
+  .label { display: flex; align-items: center; gap: 0.4rem; font-size: 0.75rem; font-weight: 650; letter-spacing: 0.06em; text-transform: uppercase; color: var(--danger); margin-bottom: 0.35rem; }
+  .intro { font-size: 0.9rem; margin-bottom: 0.5rem; }
+  ul { margin: 0; padding: 0; list-style: none; }
+  li { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 0 0.7rem; align-items: start; padding: 0.55rem 0; font-size: 0.92rem; }
+  .line { margin: 0; padding-top: 0.1rem; }
+  li + li { border-top: 1px solid var(--line); }
+  .service { font-weight: 600; margin-right: 0.4rem; color: var(--text); }
+  .service:hover { color: var(--accent); }
+  .reason { color: var(--text-2); }
+  .tools { grid-column: 2; margin-top: 0.5rem; }
+  .tools .eyebrow { margin-bottom: 0.1rem; }
+  .tools li { display: grid; font-size: 1rem; }
+</style>

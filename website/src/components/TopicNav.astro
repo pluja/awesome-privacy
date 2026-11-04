@@ -1,0 +1,66 @@
+---
+import CategoryIcon from "./CategoryIcon.astro";
+import { appendix, categories, idOf, type Page } from "../lib/site.ts";
+
+interface Props {
+  current: Page;
+}
+
+const { current } = Astro.props;
+---
+
+<nav class="topics" aria-label="Topics">
+  {
+    categories.map((c) => (
+      <details open={c === current.category}>
+        <summary><CategoryIcon category={c} />{c.title}</summary>
+        <ul role="list">
+          {c.pages.map((p) => (
+            <li>
+              <a href={p.url} aria-current={p === current ? "page" : undefined}>
+                {p.section.title}
+                <span class="n">{p.count}</span>
+              </a>
+              {p === current && (p.section.subsections?.length ?? 0) > 0 && (
+                <ul role="list" class="sub">
+                  {p.section.subsections!.map((s) => <li><a href={`#${idOf(s)}`}>{s.title}</a></li>)}
+                </ul>
+              )}
+            </li>
+          ))}
+        </ul>
+      </details>
+    ))
+  }
+  {appendix.map((p) => <a class="extra" href={p.url} aria-current={p === current ? "page" : undefined}>{p.section.title}</a>)}
+</nav>
+
+<style>
+  .topics { display: grid; gap: 0.1rem; font-size: 0.875rem; }
+  summary {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.4rem 0.5rem;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--text);
+    list-style: none;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary:hover { background: var(--hover); }
+  summary :global(.icon) { color: var(--text-3); }
+  summary::after { content: ""; margin-left: auto; width: 0.4rem; height: 0.4rem; border: solid var(--text-3); border-width: 0 1.5px 1.5px 0; rotate: -45deg; transition: rotate 0.15s; }
+  details[open] > summary::after { rotate: 45deg; }
+  ul { margin: 0 0 0.4rem; padding: 0 0 0 0.75rem; list-style: none; }
+  li a { display: flex; justify-content: space-between; gap: 0.5rem; padding: 0.28rem 0.5rem; border-radius: 6px; color: var(--text-2); }
+  li a:hover { background: var(--hover); color: var(--text); }
+  a[aria-current] { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+  .n { color: var(--text-3); font-size: 0.78rem; font-variant-numeric: tabular-nums; }
+  a[aria-current] .n { color: inherit; }
+  .sub { margin: 0.1rem 0 0.25rem; padding-left: 0.6rem; border-left: 1px solid var(--line); margin-left: 0.6rem; }
+  .sub a { padding-block: 0.2rem; font-size: 0.82rem; }
+  .extra { margin-top: 0.5rem; padding: 0.4rem 0.5rem; border-radius: 7px; font-weight: 600; }
+  .extra:hover { background: var(--hover); }
+</style>

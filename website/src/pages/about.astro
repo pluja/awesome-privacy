@@ -1,0 +1,93 @@
+---
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
+import Base from "../layouts/Base.astro";
+import { CAVEAT_LABEL, CAVEAT_MEANING, PLAY_STORE_TRACKERS } from "../../../scripts/labels.ts";
+import { REPO, appendix, md, sentence, terms } from "../lib/site.ts";
+
+// The entry bar lives in the contributing guide; show that part as-is so the two never drift apart.
+const guide = readFileSync(resolve(process.cwd(), "../misc/Contributing.md"), "utf8");
+const bar = guide.split(/^## What makes a good entry\n/m)[1].split(/^## /m)[0];
+
+const TERM_LABEL: { [key: string]: string } = { p2p: "Peer-to-peer" };
+const termLabel = (key: string) => TERM_LABEL[key] ?? sentence(key.replace(/-/g, " "));
+
+const badges = (Object.keys(CAVEAT_MEANING) as (keyof typeof CAVEAT_MEANING)[]).map((key) => ({
+  key,
+  label: key === "inactive" ? "inactive" : CAVEAT_LABEL[key],
+  meaning: sentence(CAVEAT_MEANING[key]),
+}));
+---
+
+<Base title="About" description="What Awesome Privacy is, how to read an entry, and what it takes to be listed.">
+  <div class="container page">
+    <h1>About</h1>
+    <div class="prose lede">
+      <p>Awesome Privacy is a list of apps and services that respect your privacy, most of them free and open source. It started on GitHub in 2020 and is kept up by its community: anyone can suggest a change, and every one is discussed in the open.</p>
+      <p>It isn't a guarantee. Projects change, so take a look yourself before you trust one with something important.</p>
+      {appendix.map((p) => <p>New to privacy? Start with <a href={p.url}>{p.section.title}</a>.</p>)}
+    </div>
+
+    <h2 id="legend">How to read an entry</h2>
+    <div class="prose">
+      <p>Each topic starts with the mainstream services worth leaving, then lists what to use instead.</p>
+    </div>
+    <dl>
+      <dt class="avoid">Avoid</dt>
+      <dd>Mainstream services and the main privacy problem with each. Every reason links to its evidence: <a class="link" href="https://tosdr.org" rel="noopener">ToS;DR</a> grades privacy policies, <a class="link" href="https://exodus-privacy.eu.org" rel="noopener">Exodus Privacy</a> lists the trackers in Android apps, and Source points to a report.</dd>
+      <dt><span class="badge new">New</span></dt>
+      <dd>Added in the last two months. See everything on <a class="link" href="/new/">Recently added</a>.</dd>
+      {badges.map((b) => (
+        <>
+          <dt><span class="badge warn">{b.label}</span></dt>
+          <dd>{b.meaning}</dd>
+        </>
+      ))}
+      <dt class="facts">End-to-end encrypted · GPL-3.0</dt>
+      <dd>Grey text under the description lists features worth knowing about, like self-hosting or not needing an account, and the license.</dd>
+      <dt class="facts">{PLAY_STORE_TRACKERS}</dt>
+      <dd>The Google Play build includes ads or analytics libraries, according to Exodus Privacy, while the F-Droid build doesn't.</dd>
+      <dt class="facts">Website · Source · F-Droid</dt>
+      <dd>Links to the project's site, its code, and its F-Droid build for Android apps. The flag next to them opens a report if something about the entry is wrong.</dd>
+    </dl>
+    <p class="small">Logos belong to their projects. They're fetched from each project's own site and served from here, so nothing loads from other servers.</p>
+
+    <h2 id="terms">Words used here</h2>
+    <dl class="terms">
+      {terms.map(([key, text]) => (
+        <>
+          <dt id={`term-${key}`}>{termLabel(key)}</dt>
+          <dd set:html={md(text)} />
+        </>
+      ))}
+    </dl>
+
+    <h2 id="bar">What gets listed</h2>
+    <div class="prose" set:html={md(bar)} />
+
+    <h2 id="contribute">Suggest a project</h2>
+    <div class="prose">
+      <p>The list lives in plain YAML files on <a href={REPO} rel="noopener">GitHub</a>, and this site and the README are built from them. Read the <a href={`${REPO}/blob/main/misc/Contributing.md`} rel="noopener">contributing guide</a>, then open a pull request. If a listed project went bad, <a href={`${REPO}/issues/new/choose`} rel="noopener">open an issue</a> with a link that shows it.</p>
+      <p>Most projects here are made by volunteers. If one of them helps you, think about supporting it.</p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .page { max-width: var(--measure); padding-top: 2rem; }
+  h1 { font-size: clamp(1.75rem, 4vw, 2.4rem); font-weight: 700; letter-spacing: -0.025em; margin-bottom: 1rem; }
+  h2 { margin: 2.5rem 0 0.75rem; font-size: 1.3rem; scroll-margin-top: calc(var(--header) + 1rem); }
+  .lede { font-size: 1.05rem; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.75rem 1.25rem; align-items: baseline; margin: 1rem 0 0; font-size: 0.93rem; }
+  dt { justify-self: start; }
+  dd { margin: 0; color: var(--text-2); }
+  .avoid { font-size: 0.75rem; font-weight: 650; letter-spacing: 0.06em; text-transform: uppercase; color: var(--danger); }
+  .facts { font-size: 0.8rem; color: var(--text-3); }
+  .terms dt { font-weight: 600; }
+  .terms dd :global(p) { margin: 0; }
+  .small { margin-top: 1rem; font-size: 0.85rem; color: var(--text-3); }
+  @media (max-width: 34rem) {
+    dl { grid-template-columns: 1fr; gap: 0.25rem; }
+    dd { margin-bottom: 0.75rem; }
+  }
+</style>

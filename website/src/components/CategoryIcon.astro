@@ -1,0 +1,14 @@
+---
+import Icon, { ICONS, type IconName } from "./Icon.astro";
+import type { Category } from "../lib/site.ts";
+
+interface Props {
+  category: Category;
+  size?: number;
+}
+
+const { category, size = 16 } = Astro.props;
+const name = `cat-${category.slug}`;
+---
+
+{name in ICONS ? <Icon name={name as IconName} size={size} /> : <span aria-hidden="true">{category.emoji}</span>}

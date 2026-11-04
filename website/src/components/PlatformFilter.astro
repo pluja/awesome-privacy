@@ -1,0 +1,72 @@
+---
+import Icon, { type IconName } from "./Icon.astro";
+import { PLATFORM_FILTERS } from "../lib/platforms.ts";
+
+const ICON: Record<(typeof PLATFORM_FILTERS)[number][0], IconName> = { android: "android", ios: "ios", desktop: "desktop", web: "website" };
+---
+
+<div class="filter" role="group" aria-label="Show apps for" hidden>
+  <button type="button" data-value="all" aria-pressed="true">All</button>
+  {PLATFORM_FILTERS.map(([value, label]) => <button type="button" data-value={value} aria-pressed="false"><Icon name={ICON[value]} size={14} />{label}</button>)}
+</div>
+
+<script>
+  import { PLATFORM_FILTERS } from "../lib/platforms.ts";
+
+  const KEY = "platform";
+  const VALUES = new Set(PLATFORM_FILTERS.map(([v]) => v));
+  const filter = document.querySelector<HTMLElement>(".filter");
+
+  function apply(value: string) {
+    const root = document.documentElement;
+    if (VALUES.has(value as never)) root.dataset.platform = value;
+    else delete root.dataset.platform;
+    filter?.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.value === (root.dataset.platform ?? "all"))));
+    for (const list of document.querySelectorAll<HTMLElement>("ul.entries")) {
+      const visible = [...list.children].some((li) => (li as HTMLElement).offsetParent !== null);
+      const empty = list.parentElement?.querySelector<HTMLElement>(".filtered-out");
+      if (empty) empty.hidden = visible;
+    }
+  }
+
+  if (filter) {
+    filter.hidden = false;
+    filter.addEventListener("click", (e) => {
+      const value = (e.target as HTMLElement).closest("button")?.dataset.value;
+      if (!value) return;
+      localStorage.setItem(KEY, value);
+      apply(value);
+    });
+    apply(localStorage.getItem(KEY) ?? "all");
+  }
+</script>
+
+<style>
+  .filter { display: inline-flex; flex-wrap: wrap; gap: 0.15rem; padding: 0.2rem; border: 1px solid var(--line); border-radius: 9px; background: var(--subtle); }
+  .filter[hidden] { display: none; }
+  button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    height: 1.85rem;
+    padding: 0 0.7rem;
+    border: 0;
+    border-radius: 7px;
+    background: transparent;
+    color: var(--text-2);
+    font: inherit;
+    font-size: 0.82rem;
+    font-weight: 550;
+    cursor: pointer;
+  }
+  button:hover { color: var(--text); }
+  @media (max-width: 40rem) { button { gap: 0.3rem; padding: 0 0.5rem; } }
+  button :global(.icon) { color: var(--text-3); }
+  button:hover :global(.icon), button[aria-pressed="true"] :global(.icon) { color: currentColor; }
+  button[aria-pressed="true"] { background: var(--surface); color: var(--text); box-shadow: 0 1px 2px rgb(0 0 0 / 0.08), 0 0 0 1px var(--line); }
+
+  :global(html[data-platform="android"] .entry:not([data-p~="android"], [data-p~="all"])),
+  :global(html[data-platform="ios"] .entry:not([data-p~="ios"], [data-p~="all"])),
+  :global(html[data-platform="desktop"] .entry:not([data-p~="desktop"], [data-p~="all"])),
+  :global(html[data-platform="web"] .entry:not([data-p~="web"], [data-p~="all"])) { display: none; }
+</style>
