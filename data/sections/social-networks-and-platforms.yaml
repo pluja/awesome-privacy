@@ -219,7 +219,7 @@ subsections:
               description: Open protocol where posts are signed with your own keys and spread across relays, so no single server controls your account.
               added: 2022-12-15
             - name: Pleroma
-              url: https://pleroma.social/
+              url: https://git.pleroma.social/pleroma/pleroma
               repo: https://git.pleroma.social/pleroma/pleroma
               description: Lightweight federated social network server.
               tags:

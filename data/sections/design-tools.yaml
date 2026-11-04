@@ -6,7 +6,7 @@ subsections:
     recommend:
       entries:
         - name: Scribus
-          url: https://www.scribus.net/
+          url: https://github.com/scribusproject/scribus
           repo: https://github.com/scribusproject/scribus
           description: Desktop publishing app for print-ready layouts, typesetting and interactive PDFs.
           platforms:

@@ -308,7 +308,7 @@ The big platforms profile you from everything you read, watch and like, and thei
 - [Mastodon](https://joinmastodon.org/) - Federated microblogging, the largest network in the fediverse. `ActivityPub` `AGPL-3.0` [F-Droid](https://f-droid.org/packages/org.joinmastodon.android/)
   - [Mastodon Apps](https://joinmastodon.org/apps) - Official directory of Mastodon apps for Android, iOS, web and desktop.
 - [Nostr](https://nostr.com/) - Open protocol where posts are signed with your own keys and spread across relays, so no single server controls your account.
-- [Pleroma](https://pleroma.social/) - Lightweight federated social network server. `ActivityPub`
+- [Pleroma](https://git.pleroma.social/pleroma/pleroma) - Lightweight federated social network server. `ActivityPub`
   - [Soapbox](https://gitlab.com/soapbox-pub/soapbox-fe) - Web frontend for Pleroma focused on custom branding and ease of use.
 
 ##### Alternative Frontends
@@ -1101,7 +1101,7 @@ Adobe's tools collect data through [Creative Cloud](https://tosdr.org/en/service
 
 #### InDesign
 
-- [Scribus](https://www.scribus.net/) - Desktop publishing app for print-ready layouts, typesetting and interactive PDFs. `Linux` `macOS` `Windows`
+- [Scribus](https://github.com/scribusproject/scribus) - Desktop publishing app for print-ready layouts, typesetting and interactive PDFs. `Linux` `macOS` `Windows`
 
 #### Photoshop / Illustrator
 
