@@ -34,14 +34,6 @@ subsections:
           caveats:
             - website-trackers
           added: 2020-12-22
-        - name: TranslateLocally
-          url: https://github.com/XapaJIaMnu/translateLocally
-          repo: https://github.com/XapaJIaMnu/translateLocally
-          description: Desktop app for neural machine translation that runs entirely offline on your computer.
-          license: MIT
-          tags:
-            - offline
-          added: 2021-08-15
         - name: Linguist
           url: https://linguister.io
           repo: https://github.com/translate-tools/linguist

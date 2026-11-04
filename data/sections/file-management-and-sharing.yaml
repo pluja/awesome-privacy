@@ -30,15 +30,6 @@ recommend:
       added: 2020-12-09
       tags:
         - e2ee
-    - name: Destiny
-      url: https://leastauthority.com/community-matters/destiny/
-      repo: https://github.com/LeastAuthority/destiny
-      description: Magic Wormhole app for sending end-to-end encrypted files without revealing who you are, built with human rights organisations.
-      license: MIT
-      added: 2023-03-06
-      tags:
-        - e2ee
-        - no-account
     - name: Gokapi
       url: https://github.com/Forceu/Gokapi
       repo: https://github.com/Forceu/Gokapi
