@@ -220,7 +220,11 @@ export async function checkTelemetry(repo: string): Promise<Finding[]> {
   const hits: string[] = [];
   for (const sdk of TELEMETRY_SDKS) {
     const query = `search/code?q=${encodeURIComponent(`${sdk} repo:${repo}`)}&per_page=1`;
-    const r = await gh(query);
+    let r = await gh(query);
+    if (r.status === 429 || r.status === 403) { // rate limited: wait for the window to reset and retry once
+      await new Promise((ok) => setTimeout(ok, 65_000));
+      r = await gh(query);
+    }
     if (!r.data) return [{ level: "info", text: `telemetry scan unavailable (code search returned HTTP ${r.status}); check the code by hand` }];
     if (r.data.total_count) hits.push(`${sdk.replaceAll('"', "")} (${r.data.total_count} files)`);
     await new Promise((ok) => setTimeout(ok, 6500)); // stay under 10 code searches per minute
