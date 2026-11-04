@@ -47,6 +47,12 @@ export const TRACKERS: Record<string, string> = {
   "polyfill.io/": "polyfill.io",
 };
 
+// Tracker IDs set in a page's config object, for sites that load the script later from JavaScript.
+const TRACKER_IDS: [RegExp, string][] = [
+  [/["']gtm-[a-z0-9]{6,8}["']/, "Google Tag Manager"],
+  [/["']phc_[a-z0-9]{30,}["']/, "PostHog"],
+];
+
 // SDKs whose presence in a repo means the app may phone home; a reviewer checks the defaults.
 // Quoted where the bare word has other meanings (audio amplitude); code search has no OR.
 export const TELEMETRY_SDKS = ["posthog", "sentry", "mixpanel", '"amplitude-js"', '"@amplitude/analytics"', '"com.amplitude"', "firebase-analytics", "crashlytics", "segment-analytics", "scarf", "aptabase"];
@@ -136,7 +142,8 @@ export async function checkRepo(repo: string): Promise<{ facts?: RepoFacts; find
     else findings.push({ level: "warn", text: "no release or tag on GitHub (fine for sites and directories, not for an app)" });
   }
 
-  findings.push(await community(d.full_name));
+  // Mirrors (Blender, Firefox) turn issues off on GitHub and keep their community elsewhere.
+  findings.push(d.has_issues ? await community(d.full_name) : { level: "info", text: "issues are turned off on GitHub; the project tracks them elsewhere" });
 
   const adv = await gh<any[]>(`repos/${d.full_name}/security-advisories?per_page=50`);
   const open = (adv.data ?? []).filter((a) => ["critical", "high"].includes(a.severity) && !(a.vulnerabilities ?? []).some((v: any) => v.patched_versions));
@@ -144,14 +151,41 @@ export async function checkRepo(repo: string): Promise<{ facts?: RepoFacts; find
   return { facts, findings };
 }
 
+const siteOf = (host: string) => host.split(".").slice(-2).join(".");
+const MAX_BUNDLES = 8;
+const MAX_BUNDLE_CHARS = 3_000_000;
+
+// Many sites load their trackers from their own JavaScript bundles, so those are read too.
+async function ownBundles(html: string, page: string): Promise<string> {
+  const site = siteOf(new URL(page).host);
+  const srcs = [...html.matchAll(/<script\b[^>]*\bsrc=["']([^"']+)["']/gi)]
+    .map((m) => { try { return new URL(m[1], page); } catch { return undefined; } })
+    .filter((u): u is URL => !!u && siteOf(u.host) === site)
+    .slice(0, MAX_BUNDLES);
+  const texts = await Promise.all(srcs.map(async (u) => {
+    try {
+      const r = await fetch(u, { headers: { "User-Agent": BROWSER_UA }, signal: AbortSignal.timeout(15_000) });
+      return r.ok ? (await r.text()).slice(0, MAX_BUNDLE_CHARS) : "";
+    } catch { return ""; }
+  }));
+  return texts.join("\n");
+}
+
 export async function checkWebsite(url: string, marked = false): Promise<Finding[]> {
   if (/^https:\/\/(github\.com|gitlab\.com|codeberg\.org)\//.test(url)) return [];
   try {
     const res = await fetch(url, { headers: { "User-Agent": BROWSER_UA }, redirect: "follow", signal: AbortSignal.timeout(20_000) });
     if (!res.ok) return [{ level: "warn", text: `website returned HTTP ${res.status}` }];
-    // Only script tags count (their src and inline code); prefetch hints and plain mentions don't.
-    const scripts = ((await res.text()).toLowerCase().match(/<script\b[\s\S]*?<\/script>/g) ?? []).join("\n");
-    const found = [...new Set(Object.entries(TRACKERS).filter(([needle]) => scripts.includes(needle)).map(([, name]) => name))];
+    const html = await res.text();
+    // What actually loads: script tags, <noscript> fallbacks (Tag Manager's iframe) and script preloads.
+    // Prefetch and preconnect hints, and plain mentions in the page text, don't count.
+    const preloads = (html.match(/<link\b[^>]*>/gi) ?? []).filter((t) => /rel=["']?modulepreload/i.test(t) || (/rel=["']?preload/i.test(t) && /as=["']?script/i.test(t)));
+    const inline = [...(html.match(/<(script|noscript)\b[\s\S]*?<\/\1>/gi) ?? []), ...preloads].join("\n");
+    const code = (inline + "\n" + (await ownBundles(html, res.url))).toLowerCase();
+    const found = [...new Set([
+      ...Object.entries(TRACKERS).filter(([needle]) => code.includes(needle)).map(([, name]) => name),
+      ...TRACKER_IDS.filter(([id]) => id.test(code)).map(([, name]) => name),
+    ])];
     const findings: Finding[] = !found.length ? []
       : marked ? [{ level: "info", text: `website loads ${found.join(", ")} (already marked \`website-trackers\`)` }]
       : [{ level: "warn", text: `website loads ${found.join(", ")}: needs the \`website-trackers\` caveat` }];
@@ -162,12 +196,35 @@ export async function checkWebsite(url: string, marked = false): Promise<Finding
   }
 }
 
+// A soft signal only: a fresh domain often goes with self-promotion, but projects buy domains at any time.
+// RDAP covers most generic TLDs; many country TLDs have no public RDAP, and those are skipped.
+export async function checkDomain(url: string): Promise<Finding[]> {
+  const host = new URL(url).hostname;
+  if (/(^|\.)(github\.com|gitlab\.com|codeberg\.org|github\.io)$/.test(host)) return [];
+  const labels = host.split(".");
+  const domain = labels.slice(/^(co|com|org|net|ac|gov|edu)$/.test(labels.at(-2) ?? "") && labels.at(-1)!.length === 2 ? -3 : -2).join(".");
+  try {
+    const res = await fetch(`https://rdap.org/domain/${domain}`, { headers: { Accept: "application/rdap+json", "User-Agent": "awesome-privacy-checks" }, signal: AbortSignal.timeout(15_000) });
+    if (!res.ok) return [];
+    const registered = ((await res.json()).events ?? []).find((e: any) => e.eventAction === "registration")?.eventDate;
+    const days = registered ? daysSince(registered) : undefined;
+    return days !== undefined && days < 365 ? [{ level: "info", text: `${domain} was registered ${Math.round(days / 30)} months ago (${registered.slice(0, 10)})` }] : [];
+  } catch {
+    return [];
+  }
+}
+
 // Code search is rate limited, so this runs once per added repo and only reports hits.
 export async function checkTelemetry(repo: string): Promise<Finding[]> {
   if (!TOKEN) return [];
   const hits: string[] = [];
   for (const sdk of TELEMETRY_SDKS) {
-    const r = await gh(`search/code?q=${encodeURIComponent(`${sdk} repo:${repo}`)}&per_page=1`);
+    const query = `search/code?q=${encodeURIComponent(`${sdk} repo:${repo}`)}&per_page=1`;
+    let r = await gh(query);
+    if (r.status === 429 || r.status === 403) { // rate limited: wait for the window to reset and retry once
+      await new Promise((ok) => setTimeout(ok, 65_000));
+      r = await gh(query);
+    }
     if (!r.data) return [{ level: "info", text: `telemetry scan unavailable (code search returned HTTP ${r.status}); check the code by hand` }];
     if (r.data.total_count) hits.push(`${sdk.replaceAll('"', "")} (${r.data.total_count} files)`);
     await new Promise((ok) => setTimeout(ok, 6500)); // stay under 10 code searches per minute

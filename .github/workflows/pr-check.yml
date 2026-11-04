@@ -39,8 +39,10 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           PR_AUTHOR: ${{ github.event.pull_request.user.login }}
           PR_BODY: ${{ github.event.pull_request.body }}
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
-        run: node scripts/pr-report.ts --base "$BASE_SHA" --out pr-report.md
+        # HEAD is GitHub's test merge of the PR into main; its first parent is exactly the main it was
+        # merged onto. The event's base.sha can be older when main moves, which would blame main's
+        # own changes on the PR.
+        run: node scripts/pr-report.ts --base "$(git rev-parse HEAD^1)" --out pr-report.md
 
       - name: Save the report for the comment workflow
         if: always()
