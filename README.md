@@ -909,7 +909,6 @@ Hosted form builders collect every answer your respondents give on the provider'
 **Use instead**
 
 - [CryptPad Forms](https://cryptpad.fr/form/) - End-to-end encrypted forms and polls, part of the CryptPad collaboration suite. `self-host` `AGPL-3.0`
-- [Formbricks](https://formbricks.com) - Self-hosted survey and form builder, so responses stay on your own server. `self-host` `⚠️ website trackers`
 - [FramaForms](https://framaforms.org/) - Online form and survey service run by the French nonprofit Framasoft.
 - [TypeBot](https://typebot.com) - Builder for conversational, chat-style forms that you can host yourself. `self-host` `⚠️ source-available`
 
