@@ -47,6 +47,12 @@ export const TRACKERS: Record<string, string> = {
   "polyfill.io/": "polyfill.io",
 };
 
+// Tracker IDs set in a page's config object, for sites that load the script later from JavaScript.
+const TRACKER_IDS: [RegExp, string][] = [
+  [/["']gtm-[a-z0-9]{6,8}["']/, "Google Tag Manager"],
+  [/["']phc_[a-z0-9]{30,}["']/, "PostHog"],
+];
+
 // SDKs whose presence in a repo means the app may phone home; a reviewer checks the defaults.
 // Quoted where the bare word has other meanings (audio amplitude); code search has no OR.
 export const TELEMETRY_SDKS = ["posthog", "sentry", "mixpanel", '"amplitude-js"', '"@amplitude/analytics"', '"com.amplitude"', "firebase-analytics", "crashlytics", "segment-analytics", "scarf", "aptabase"];
@@ -144,14 +150,41 @@ export async function checkRepo(repo: string): Promise<{ facts?: RepoFacts; find
   return { facts, findings };
 }
 
+const siteOf = (host: string) => host.split(".").slice(-2).join(".");
+const MAX_BUNDLES = 8;
+const MAX_BUNDLE_CHARS = 3_000_000;
+
+// Many sites load their trackers from their own JavaScript bundles, so those are read too.
+async function ownBundles(html: string, page: string): Promise<string> {
+  const site = siteOf(new URL(page).host);
+  const srcs = [...html.matchAll(/<script\b[^>]*\bsrc=["']([^"']+)["']/gi)]
+    .map((m) => { try { return new URL(m[1], page); } catch { return undefined; } })
+    .filter((u): u is URL => !!u && siteOf(u.host) === site)
+    .slice(0, MAX_BUNDLES);
+  const texts = await Promise.all(srcs.map(async (u) => {
+    try {
+      const r = await fetch(u, { headers: { "User-Agent": BROWSER_UA }, signal: AbortSignal.timeout(15_000) });
+      return r.ok ? (await r.text()).slice(0, MAX_BUNDLE_CHARS) : "";
+    } catch { return ""; }
+  }));
+  return texts.join("\n");
+}
+
 export async function checkWebsite(url: string, marked = false): Promise<Finding[]> {
   if (/^https:\/\/(github\.com|gitlab\.com|codeberg\.org)\//.test(url)) return [];
   try {
     const res = await fetch(url, { headers: { "User-Agent": BROWSER_UA }, redirect: "follow", signal: AbortSignal.timeout(20_000) });
     if (!res.ok) return [{ level: "warn", text: `website returned HTTP ${res.status}` }];
-    // Only script tags count (their src and inline code); prefetch hints and plain mentions don't.
-    const scripts = ((await res.text()).toLowerCase().match(/<script\b[\s\S]*?<\/script>/g) ?? []).join("\n");
-    const found = [...new Set(Object.entries(TRACKERS).filter(([needle]) => scripts.includes(needle)).map(([, name]) => name))];
+    const html = await res.text();
+    // What actually loads: script tags, <noscript> fallbacks (Tag Manager's iframe) and script preloads.
+    // Prefetch and preconnect hints, and plain mentions in the page text, don't count.
+    const preloads = (html.match(/<link\b[^>]*>/gi) ?? []).filter((t) => /rel=["']?modulepreload/i.test(t) || (/rel=["']?preload/i.test(t) && /as=["']?script/i.test(t)));
+    const inline = [...(html.match(/<(script|noscript)\b[\s\S]*?<\/\1>/gi) ?? []), ...preloads].join("\n");
+    const code = (inline + "\n" + (await ownBundles(html, res.url))).toLowerCase();
+    const found = [...new Set([
+      ...Object.entries(TRACKERS).filter(([needle]) => code.includes(needle)).map(([, name]) => name),
+      ...TRACKER_IDS.filter(([id]) => id.test(code)).map(([, name]) => name),
+    ])];
     const findings: Finding[] = !found.length ? []
       : marked ? [{ level: "info", text: `website loads ${found.join(", ")} (already marked \`website-trackers\`)` }]
       : [{ level: "warn", text: `website loads ${found.join(", ")}: needs the \`website-trackers\` caveat` }];
