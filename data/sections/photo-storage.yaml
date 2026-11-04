@@ -1,0 +1,163 @@
+title: Photo Storage
+slug: photo-storage
+intro: Cloud photo services scan your library for faces, places and objects and tie it all to your account. Host your own photo server, or use an end-to-end encrypted service so only you can see your pictures.
+avoid:
+  items:
+    - name: Google Photos
+      reason: scans your photos for faces, places and objects, and ties your library to your Google account.
+      tosdr: en_217
+      tools:
+        - name: Google Photos Takeout Helper
+          url: https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper
+          repo: https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper
+          description: Script that sorts the messy Google Takeout archive into one chronological folder, to help you move out of Google Photos.
+          license: Apache-2.0
+          status: inactive
+          added: 2021-06-07
+    - name: Amazon Photos
+subsections:
+  - title: Self-hosted
+    recommend:
+      entries:
+        - name: Ente
+          url: https://ente.com/
+          repo: https://github.com/ente/ente
+          description: End-to-end encrypted photo and video backup whose cryptography was [independently audited](https://ente.com/blog/cryptography-audit/).
+          license: AGPL-3.0
+          tags:
+            - e2ee
+            - audited
+            - self-host
+          caveats:
+            - website-trackers
+          added: 2021-05-23
+        - name: Immich
+          url: https://immich.app/
+          repo: https://github.com/immich-app/immich
+          description: Self-hosted photo and video backup straight from your phone, the closest match to Google Photos.
+          license: AGPL-3.0
+          tags:
+            - self-host
+          package_id: app.alextran.immich
+          added: 2025-06-17
+          fdroid: true
+        - name: LibrePhotos
+          url: https://github.com/LibrePhotos/librephotos
+          repo: https://github.com/LibrePhotos/librephotos
+          description: Self-hosted photo management service, an active fork of [OwnPhotos](https://github.com/hooram/ownphotos).
+          license: MIT
+          tags:
+            - self-host
+          added: 2020-12-14
+        - name: Nextcloud
+          url: https://nextcloud.com/
+          repo: https://github.com/nextcloud/server
+          description: Self-hosted cloud suite whose [Photos](https://github.com/nextcloud/photos) app organizes and displays your pictures.
+          license: AGPL-3.0
+          tags:
+            - self-host
+          added: 2020-12-07
+        - name: PhotoPrism
+          url: https://www.photoprism.app/
+          repo: https://github.com/photoprism/photoprism
+          description: Self-hosted photo library with automatic tagging and face recognition that runs on your own server.
+          tags:
+            - self-host
+          added: 2020-12-07
+        - name: Photoview
+          url: https://photoview.github.io/
+          repo: https://github.com/photoview/photoview
+          description: Self-hosted photo gallery that works on your existing folders, with face recognition.
+          license: AGPL-3.0
+          tags:
+            - self-host
+          added: 2021-05-01
+        - name: PiGallery2
+          url: https://bpatrik.github.io/pigallery2/
+          repo: https://github.com/bpatrik/pigallery2
+          description: Self-hosted, directory-first photo gallery website.
+          license: MIT
+          tags:
+            - self-host
+          added: 2021-06-04
+        - name: Stingle Photos
+          url: https://stingle.org/
+          repo: https://github.com/stingle/stingle-photos-android
+          description: End-to-end encrypted photo backup and sync for your phone.
+          platforms:
+            - android
+            - ios
+          license: GPL-3.0
+          tags:
+            - e2ee
+          package_id: org.stingle.photos
+          added: 2020-12-07
+          fdroid: true
+  - title: Third-party
+    recommend:
+      entries:
+        - name: Cryptee
+          url: https://crypt.ee/
+          repo: https://github.com/cryptee/web-client
+          description: Encrypted storage for your photos, documents and notes, based in Estonia.
+          tags:
+            - e2ee
+          added: 2020-12-07
+        - name: Ente
+          url: https://ente.com/
+          repo: https://github.com/ente/ente
+          description: End-to-end encrypted photo and video backup whose cryptography was [independently audited](https://ente.com/blog/cryptography-audit/).
+          license: AGPL-3.0
+          tags:
+            - e2ee
+            - audited
+            - self-host
+          caveats:
+            - website-trackers
+          added: 2021-05-23
+        - name: Stingle Photos
+          url: https://stingle.org/
+          repo: https://github.com/stingle/stingle-photos-android
+          description: End-to-end encrypted photo backup and sync for your phone.
+          platforms:
+            - android
+            - ios
+          license: GPL-3.0
+          tags:
+            - e2ee
+          package_id: org.stingle.photos
+          added: 2020-12-07
+          fdroid: true
+  - title: Local
+    recommend:
+      entries:
+        - name: digiKam
+          url: https://www.digikam.org/
+          repo: https://invent.kde.org/graphics/digikam
+          description: Photo manager for large collections, with tagging, face recognition and editing, all on your own files.
+          platforms:
+            - linux
+            - macos
+            - windows
+          tags:
+            - offline
+          added: 2021-05-18
+        - name: ImageGlass
+          url: https://imageglass.org/
+          repo: https://github.com/d2phap/ImageGlass
+          description: Lightweight image viewer with a clean interface.
+          platforms:
+            - windows
+          caveats:
+            - website-trackers
+          added: 2022-03-28
+        - name: Photok
+          url: https://github.com/leonlatsch/Photok
+          repo: https://github.com/leonlatsch/Photok
+          description: Photo vault that encrypts your pictures on the device and hides them from your gallery.
+          platforms:
+            - android
+          license: Apache-2.0
+          package_id: dev.leonlatsch.photok
+          added: 2022-01-24
+          fdroid: true

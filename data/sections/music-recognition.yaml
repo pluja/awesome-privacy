@@ -1,0 +1,37 @@
+title: Music Recognition
+slug: music-recognition
+intro: Song recognition apps listen through your microphone and tend to bundle a lot of trackers. The clients below still ask a recognition service to match the song, but without the official apps' tracking.
+avoid:
+  items:
+    - name: Shazam
+      reason: owned by Apple and covered by [its privacy terms](https://tosdr.org/en/service/158), and the Android app [has Google trackers](https://reports.exodus-privacy.eu.org/en/reports/com.shazam.android/latest/).
+    - name: SoundHound
+      reason: the Android app has [far too many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.melodis.midomiMusicIdentifier.freemium/latest/) for a music recognition app.
+    - name: Musixmatch
+      reason: the Android app [has trackers](https://reports.exodus-privacy.eu.org/en/reports/com.musixmatch.android.lyrify/latest/) and asks for a lot of permissions.
+subsections:
+  - title: Shazam alternative clients
+    recommend:
+      entries:
+        - name: Audile
+          url: https://github.com/AudileTeam/Audile
+          repo: https://github.com/AudileTeam/Audile
+          description: Music recognition app that queries Shazam, AudD or ACRCloud and keeps your history on the device.
+          platforms:
+            - android
+          license: GPL-3.0
+          added: 2026-11-02
+        - name: SongID Telegram Bot
+          url: https://github.com/smcclennon/SongID
+          repo: https://github.com/smcclennon/SongID
+          description: Telegram bot that identifies the music in audio and video files you send it.
+          license: Apache-2.0
+          added: 2022-09-12
+        - name: SongRec
+          url: https://github.com/marin-m/SongRec
+          repo: https://github.com/marin-m/SongRec
+          description: Shazam client for Linux written in Rust, no account needed.
+          platforms:
+            - linux
+          license: GPL-3.0
+          added: 2022-09-12

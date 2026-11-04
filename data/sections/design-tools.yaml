@@ -1,0 +1,74 @@
+title: Design Tools
+slug: design-tools
+intro: "Adobe's tools collect data through [Creative Cloud](https://tosdr.org/en/service/417), its mobile apps [carry trackers](https://reports.exodus-privacy.eu.org/en/reports/com.adobe.psmobile/latest/), there's [no Linux version](https://helpx.adobe.com/in/download-install/kb/operating-system-guidelines.html), and artists worry it may [train its AI on their work](https://mastodon.art/@Krita/109632425661190494). These alternatives run on any desktop and keep your files yours."
+subsections:
+  - title: InDesign
+    recommend:
+      entries:
+        - name: Scribus
+          url: https://www.scribus.net/
+          repo: https://github.com/scribusproject/scribus
+          description: Desktop publishing app for print-ready layouts, typesetting and interactive PDFs.
+          platforms:
+            - linux
+            - macos
+            - windows
+          added: 2023-08-16
+  - title: Photoshop / Illustrator
+    recommend:
+      entries:
+        - name: Excalidraw
+          url: https://excalidraw.com/
+          repo: https://github.com/excalidraw/excalidraw
+          description: Virtual whiteboard for hand-drawn style sketches and diagrams, with end-to-end encrypted collaboration.
+          platforms:
+            - web
+          license: MIT
+          tags:
+            - e2ee
+          added: 2023-08-29
+        - name: GIMP
+          url: https://www.gimp.org/
+          repo: https://gitlab.gnome.org/GNOME/gimp
+          description: Raster image editor for retouching, compositing and drawing, a Photoshop alternative.
+          platforms:
+            - linux
+            - macos
+            - windows
+          added: 2020-12-09
+        - name: Inkscape
+          url: https://inkscape.org/
+          repo: https://gitlab.com/inkscape/inkscape
+          description: Vector graphics editor, an Illustrator alternative.
+          platforms:
+            - linux
+            - macos
+            - windows
+          added: 2021-06-02
+        - name: Krita
+          url: https://krita.org/
+          repo: https://github.com/KDE/krita
+          description: Digital painting app built for artists.
+          license: GPL-3.0
+          added: 2020-12-28
+        - name: LibreSprite
+          url: https://libresprite.github.io/
+          repo: https://github.com/LibreSprite/LibreSprite
+          description: Sprite editor and pixel-art animation tool, forked from Aseprite before its license change.
+          platforms:
+            - linux
+            - macos
+            - windows
+          license: GPL-2.0
+          added: 2026-11-02
+  - title: Figma
+    recommend:
+      entries:
+        - name: Penpot
+          url: https://penpot.app/
+          repo: https://github.com/penpot/penpot
+          description: Design and prototyping platform for product teams that you can host yourself.
+          license: MPL-2.0
+          tags:
+            - self-host
+          added: 2023-08-16

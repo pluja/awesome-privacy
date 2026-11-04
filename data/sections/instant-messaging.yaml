@@ -1,0 +1,177 @@
+title: Instant Messaging
+slug: instant-messaging
+intro: Mainstream messengers collect who you talk to, when and from where, even when the messages themselves are encrypted. Look for end-to-end encryption by default, open source clients, and as little metadata and identifying info (like a phone number) as possible; [this site](https://www.securemessagingapps.com/) compares many of them.
+avoid:
+  items:
+    - name: WhatsApp
+      tosdr: en_198
+    - name: Instagram DM
+      tosdr: en_219
+    - name: Facebook Messenger
+      tosdr: en_182
+    - name: Skype
+      tosdr: en_244
+    - name: Zoom
+      tosdr: en_2198
+    - name: Google Hangouts / Chat
+      tosdr: en_217
+subsections:
+  - title: Decentralized
+    intro: Many independently run servers talk to each other, so there is no single point of control or failure and you can pick a server or run your own. Federation is more complex and leaves some extra metadata on the servers involved.
+    recommend:
+      entries:
+        - name: Matrix (Protocol)
+          url: https://matrix.org/
+          repo: https://github.com/matrix-org/matrix-spec
+          description: Open standard for federated chat and calls, with end-to-end encryption between clients.
+          license: Apache-2.0
+          added: 2021-02-11
+          children:
+            - name: Element
+              url: https://element.io/
+              repo: https://github.com/element-hq/element-web
+              description: The flagship Matrix client, with end-to-end encryption on by default for private chats.
+              license: AGPL-3.0
+              tags:
+                - e2ee
+              caveats:
+                - website-trackers
+              added: 2020-12-07
+            - name: Cinny
+              url: https://cinny.in/
+              repo: https://github.com/cinnyapp/cinny
+              description: Matrix client with a clean, minimal interface.
+              license: AGPL-3.0
+              added: 2023-01-12
+        - name: Jabber / XMPP (Protocol)
+          url: https://xmpp.org/
+          description: Long-standing open messaging standard with many servers and clients, and OMEMO for end-to-end encryption.
+          added: 2020-12-07
+          children:
+            - name: Conversations
+              url: https://conversations.im/
+              repo: https://codeberg.org/iNPUTmice/Conversations
+              description: XMPP client built for phones, with OMEMO encryption on by default.
+              platforms:
+                - android
+              package_id: eu.siacs.conversations
+              added: 2020-12-07
+              fdroid: true
+            - name: Dino
+              url: https://dino.im/
+              repo: https://github.com/dino/dino
+              description: Desktop XMPP client with OMEMO and OpenPGP end-to-end encryption.
+              platforms:
+                - linux
+              license: GPL-3.0
+              tags:
+                - e2ee
+              added: 2026-07-04
+            - name: Gajim
+              url: https://gajim.org/
+              repo: https://gitlab.com/gajim/gajim
+              description: Desktop XMPP client with OMEMO encryption.
+              platforms:
+                - linux
+                - macos
+                - windows
+              license: GPL-3.0
+              added: 2026-07-04
+            - name: Snikket
+              url: https://snikket.org/
+              repo: https://github.com/snikket-im/snikket-server
+              description: Self-hosted XMPP service you set up with one command, with matching apps for your family or group.
+              license: Apache-2.0
+              tags:
+                - self-host
+              package_id: org.snikket.android
+              added: 2026-07-04
+              fdroid: true
+        - name: DeltaChat
+          url: https://delta.chat/
+          repo: https://github.com/deltachat/deltachat-android
+          description: Messenger that runs over email, with end-to-end encryption and no phone number needed.
+          license: GPL-3.0
+          package_id: com.b44t.messenger
+          added: 2020-12-07
+          fdroid: true
+        - name: Session
+          url: https://getsession.org/
+          repo: https://github.com/session-foundation/session-android
+          description: Messenger that needs no phone number and routes messages through an onion network of community-run nodes.
+          license: GPL-3.0
+          package_id: network.loki.messenger.fdroid
+          added: 2020-12-07
+          fdroid: true
+        - name: SimpleX Chat
+          url: https://simplex.chat/
+          repo: https://github.com/simplex-chat/simplex-chat
+          description: Messenger with no user IDs at all, so its servers can't see who talks to whom.
+          license: AGPL-3.0
+          tags:
+            - e2ee
+          package_id: chat.simplex.app
+          added: 2021-12-09
+          fdroid: true
+        - name: Status
+          url: https://status.app/
+          repo: https://github.com/status-im/status-app
+          description: Peer-to-peer messenger that needs no phone number, bundled with a crypto wallet and web3 browser.
+          license: MPL-2.0
+          package_id: app.status.mobile
+          added: 2020-12-07
+          fdroid: true
+  - title: Centralized
+    intro: One provider runs the servers, which is a single point of failure and control. That can still be trustworthy when the protocol and code are open and audited.
+    recommend:
+      entries:
+        - name: Threema
+          url: https://threema.com/en
+          repo: https://github.com/threema-ch/threema-android
+          description: Paid messenger from Switzerland that works without a phone number or email.
+          license: AGPL-3.0
+          tags:
+            - e2ee
+          added: 2021-02-11
+        - name: Signal
+          url: https://signal.org/
+          repo: https://github.com/signalapp/Signal-Android
+          description: Messenger with end-to-end encryption for everything by default, run by a nonprofit that keeps almost no user data.
+          license: AGPL-3.0
+          tags:
+            - e2ee
+          added: 2020-12-07
+  - title: P2P
+    intro: Messages go straight from one device to another, with no server to control or fail. You lose some features and delivery can be slower, but it's the strongest option for sensitive chats.
+    recommend:
+      entries:
+        - name: Tox
+          url: https://tox.chat/
+          repo: https://github.com/TokTok/c-toxcore
+          description: Peer-to-peer protocol for encrypted chat and calls, with no central servers or accounts.
+          license: GPL-3.0
+          tags:
+            - p2p
+          added: 2020-12-07
+        - name: Briar
+          url: https://briarproject.org/
+          repo: https://code.briarproject.org/briar/briar
+          description: Peer-to-peer messenger that syncs over Tor, Wi-Fi or Bluetooth, so it keeps working when the internet is down.
+          tags:
+            - p2p
+            - tor
+          added: 2020-12-07
+        - name: Tinfoil Chat
+          url: https://github.com/maqp/tfc
+          repo: https://github.com/maqp/tfc
+          description: Onion-routed messaging system that keeps keys on separate, isolated computers to resist endpoint compromise.
+          tags:
+            - tor
+          added: 2020-12-08
+        - name: Berty
+          url: https://berty.tech/
+          repo: https://github.com/berty/berty
+          description: Peer-to-peer messenger that works with or without internet access, with no phone number or email.
+          tags:
+            - p2p
+          added: 2020-12-07

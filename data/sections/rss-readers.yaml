@@ -1,0 +1,103 @@
+title: RSS Readers
+slug: rss-readers
+intro: These services build a profile from everything you read. A local or self-hosted reader fetches feeds directly, so nobody sees your reading list.
+avoid:
+  items:
+    - name: Feedly
+    - name: Inoreader
+    - name: Google News
+recommend:
+  entries:
+    - name: FreshRSS
+      url: https://freshrss.org/
+      description: Self-hosted feed aggregator with a web interface, multi-user support and an API for mobile apps.
+      repo: https://github.com/FreshRSS/FreshRSS
+      license: AGPL-3.0
+      added: 2026-09-30
+      tags:
+        - self-host
+    - name: Miniflux
+      url: https://miniflux.app/
+      description: Minimalist self-hosted feed reader with no tracking, written in Go.
+      repo: https://github.com/miniflux/v2
+      license: Apache-2.0
+      added: 2026-09-30
+      tags:
+        - self-host
+    - name: NetNewsWire
+      url: https://netnewswire.com/
+      description: RSS reader for Mac, iPhone and iPad that works locally or syncs with self-hosted services.
+      repo: https://github.com/Ranchero-Software/NetNewsWire
+      license: MIT
+      added: 2026-09-30
+      platforms:
+        - macos
+        - ios
+      tags:
+        - no-account
+    - name: Fluent Reader
+      url: https://github.com/yang991178/fluent-reader
+      description: Desktop RSS reader that keeps your feeds locally, with optional sync to self-hosted services.
+      repo: https://github.com/yang991178/fluent-reader
+      license: BSD-3-Clause
+      added: 2026-09-30
+      platforms:
+        - linux
+        - windows
+        - macos
+      tags:
+        - no-account
+    - name: NewsFlash
+      url: https://gitlab.com/news-flash/news_flash_gtk
+      description: RSS reader for Linux that works locally or with self-hosted services such as Miniflux and FreshRSS.
+      repo: https://gitlab.com/news-flash/news_flash_gtk
+      license: GPL-3.0
+      added: 2026-09-30
+      platforms:
+        - linux
+      tags:
+        - no-account
+    - name: Newsboat
+      url: https://newsboat.org/
+      description: RSS reader for the terminal, configured with plain text files.
+      repo: https://github.com/newsboat/newsboat
+      license: MIT
+      added: 2026-09-30
+      platforms:
+        - linux
+        - macos
+        - cli
+      tags:
+        - no-account
+    - name: Feeder
+      url: https://github.com/spacecowboy/Feeder
+      platforms:
+        - android
+      description: RSS reader that fetches feeds directly on your device, with no account.
+      repo: https://github.com/spacecowboy/Feeder
+      license: GPL-3.0
+      added: 2026-09-30
+      tags:
+        - no-account
+    - name: Read You
+      url: https://github.com/ReadYouApp/ReadYou
+      platforms:
+        - android
+      description: Material You RSS reader, local or synced with self-hosted services.
+      repo: https://github.com/ReadYouApp/ReadYou
+      license: GPL-3.0
+      added: 2026-09-30
+      tags:
+        - no-account
+    - name: Capy Reader
+      url: https://github.com/jocmp/capyreader
+      platforms:
+        - android
+      description: Small RSS reader, local or synced with Miniflux and FreshRSS.
+      repo: https://github.com/jocmp/capyreader
+      license: GPL-3.0
+      package_id: com.capyreader.app
+      added: 2026-09-30
+      tags:
+        - no-account
+      fdroid: true

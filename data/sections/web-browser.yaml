@@ -1,0 +1,224 @@
+title: Web Browser
+slug: web-browser
+intro: Your browser sees everything you do online, and the big ones are built by ad and data companies. Prefer one that blocks trackers out of the box and doesn't tie your browsing to an account.
+avoid:
+  items:
+    - name: Google Chrome
+      reason: tied to your Google account under [Google's privacy policy](https://tosdr.org/en/service/217), and Google's [Manifest V3](https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening) limits what content blockers can do.
+    - name: Microsoft Edge
+      reason: Chromium with Microsoft's tracking in place of Google's, under [Microsoft's privacy policy](https://tosdr.org/en/service/244). If you must use it, [harden it](https://anonymousplanet.net/guide/#hardening-edge).
+    - name: Opera
+      reason: owned by a [Chinese consortium](https://en.wikipedia.org/wiki/Opera_(web_browser)#Acquisition_by_Chinese_consortium) since 2016, and its Android app ships [many trackers](https://reports.exodus-privacy.eu.org/de/reports/com.opera.browser/latest/).
+subsections:
+  - title: Android / iOS
+    recommend:
+      entries:
+        - name: Brave
+          url: https://brave.com/
+          repo: https://github.com/brave/brave-browser
+          description: Chromium-based browser that blocks ads and trackers out of the box.
+          license: MPL-2.0
+          added: 2021-01-12
+          caveats:
+            - telemetry-opt-out
+        - name: Cromite
+          url: https://github.com/uazo/cromite
+          repo: https://github.com/uazo/cromite
+          description: Chromium fork, successor to Bromite, with built-in ad blocking and anti-fingerprinting measures.
+          platforms:
+            - android
+            - linux
+            - windows
+          license: GPL-3.0
+          added: 2024-06-17
+        - name: Firefox
+          url: https://www.firefox.com/en-US/mobile/
+          repo: https://github.com/mozilla-firefox/firefox
+          description: Mozilla's browser, with its own engine on Android and Enhanced Tracking Protection on by default.
+          caveats:
+            - website-trackers
+            - telemetry-opt-out
+          added: 2021-01-12
+          children:
+            - name: IronFox
+              url: https://gitlab.com/ironfox-oss/IronFox
+              repo: https://gitlab.com/ironfox-oss/IronFox
+              description: Hardened Firefox for Android with proprietary blobs removed, a fork of the discontinued Mull.
+              platforms:
+                - android
+              added: 2025-02-24
+        - name: Privacy Browser
+          url: https://www.stoutner.com/privacy-browser-android/
+          repo: https://gitweb.stoutner.com/?p=PrivacyBrowserAndroid.git;a=summary
+          description: Browser that keeps JavaScript, cookies and other tracking features off until you allow them per site.
+          platforms:
+            - android
+          added: 2021-01-12
+        - name: Tor Browser
+          url: https://www.torproject.org/
+          repo: https://gitlab.torproject.org/tpo/applications/tor-browser
+          description: Hardened Firefox that routes your traffic through the Tor network to resist tracking and censorship.
+          platforms:
+            - android
+            - linux
+            - macos
+            - windows
+          tags:
+            - tor
+          added: 2021-01-12
+        - name: Vanadium
+          url: https://grapheneos.org/features#vanadium
+          repo: https://github.com/GrapheneOS/Vanadium
+          description: Hardened Chromium from the GrapheneOS project, and the default browser on GrapheneOS.
+          platforms:
+            - android
+          added: 2021-01-12
+  - title: Desktop
+    callouts:
+      - type: tip
+        text: The [Hitchhiker's Guide to Online Anonymity](https://anonymousplanet.net/guide/#hardening-browsers) explains how to harden your browser. If you don't understand a change, leave it alone; it can hurt your privacy more than it helps.
+    recommend:
+      entries:
+        - name: Brave
+          url: https://brave.com/
+          repo: https://github.com/brave/brave-browser
+          description: Chromium-based browser that blocks ads and trackers out of the box.
+          license: MPL-2.0
+          added: 2021-01-12
+          caveats:
+            - telemetry-opt-out
+        - name: Firefox
+          url: https://www.firefox.com/en-US/
+          repo: https://github.com/mozilla-firefox/firefox
+          description: Independent browser from Mozilla that needs some [hardening](https://anonymousplanet.net/guide/#hardening-firefox) for strong privacy.
+          caveats:
+            - website-trackers
+            - telemetry-opt-out
+          added: 2021-01-12
+          children:
+            - name: LibreWolf
+              url: https://librewolf.net/
+              repo: https://codeberg.org/librewolf/source
+              description: Firefox fork with telemetry removed, stricter defaults and uBlock Origin built in.
+              platforms:
+                - linux
+                - macos
+                - windows
+              added: 2021-06-02
+        - name: Floorp
+          url: https://floorp.app/
+          repo: https://github.com/Floorp-Projects/Floorp
+          description: Firefox fork with telemetry disabled and extensive layout customization.
+          platforms:
+            - linux
+            - macos
+            - windows
+          license: MPL-2.0
+          added: 2026-07-04
+        - name: Mullvad Browser
+          url: https://mullvad.net/en/browser/
+          repo: https://gitlab.torproject.org/tpo/applications/mullvad-browser
+          description: Tor Browser's anti-fingerprinting without the Tor network, made by the Tor Project and Mullvad.
+          platforms:
+            - linux
+            - macos
+            - windows
+          added: 2023-05-02
+        - name: Tor Browser
+          url: https://www.torproject.org/
+          repo: https://gitlab.torproject.org/tpo/applications/tor-browser
+          description: Hardened Firefox that routes your traffic through the Tor network to resist tracking and censorship.
+          platforms:
+            - android
+            - linux
+            - macos
+            - windows
+          tags:
+            - tor
+          added: 2021-01-12
+        - name: Ungoogled Chromium
+          url: https://github.com/ungoogled-software/ungoogled-chromium
+          repo: https://github.com/ungoogled-software/ungoogled-chromium
+          description: Chromium with Google's web services and background requests stripped out.
+          platforms:
+            - linux
+            - macos
+            - windows
+          license: BSD-3-Clause
+          added: 2021-01-12
+        - name: Zen Browser
+          url: https://zen-browser.app/
+          repo: https://github.com/zen-browser/desktop
+          description: Firefox-based browser with vertical tabs and workspaces, keeping Firefox's tracking protection on by default.
+          platforms:
+            - linux
+            - macos
+            - windows
+          license: MPL-2.0
+          added: 2026-07-04
+  - title: Browser Addons
+    subsections:
+      - title: Anti-tracking
+        intro: Read what an add-on does before installing it. A badly chosen one can hurt your privacy, and too many slow your browser down.
+        callouts:
+          - type: tip
+            text: In uBlock Origin, read about the [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) and pick one. Turning on EasyList Cookie under Filter lists > Annoyances hides most cookie banners.
+        recommend:
+          entries:
+            - name: ClearURLs
+              url: https://clearurls.xyz/
+              repo: https://github.com/ClearURLs/Addon
+              description: Strips tracking parameters from links and URLs.
+              platforms:
+                - browser
+              license: LGPL-3.0
+              added: 2022-02-02
+            - name: LibRedirect
+              url: https://libredirect.manerakai.com/
+              repo: https://github.com/libredirect/browser_extension
+              description: Redirects YouTube, Reddit, Google Maps and other sites to privacy-friendly front ends, successor to Privacy Redirect.
+              platforms:
+                - browser
+              license: GPL-3.0
+              added: 2022-02-21
+            - name: Privacy Badger
+              url: https://privacybadger.org/
+              repo: https://github.com/EFForg/privacybadger
+              description: EFF extension that learns to block trackers by watching them follow you across sites.
+              platforms:
+                - browser
+              added: 2026-07-04
+            - name: uBlock Origin
+              url: https://github.com/gorhill/uBlock
+              repo: https://github.com/gorhill/uBlock
+              description: Light, efficient ad and tracker blocker, in full only on Firefox since Chrome dropped Manifest V2 extensions.
+              platforms:
+                - browser
+              license: GPL-3.0
+              added: 2022-02-02
+      - title: Useful Tools
+        recommend:
+          entries:
+            - name: SingleFile
+              url: https://github.com/gildas-lormeau/SingleFile
+              repo: https://github.com/gildas-lormeau/SingleFile
+              description: Saves a complete web page as a single HTML file you can open offline.
+              platforms:
+                - browser
+              license: AGPL-3.0
+              tags:
+                - offline
+              added: 2022-02-02
+  - title: Browser Sync
+    recommend:
+      entries:
+        - name: xBrowserSync
+          url: https://www.xbrowsersync.org/
+          repo: https://github.com/xbrowsersync/app
+          description: Syncs bookmarks between browsers with client-side encryption and no account, just a sync ID.
+          license: GPL-3.0
+          tags:
+            - e2ee
+            - no-account
+          status: inactive
+          added: 2021-01-12

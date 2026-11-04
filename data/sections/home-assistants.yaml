@@ -1,0 +1,29 @@
+title: Home Assistants
+slug: home-assistants
+intro: Smart speakers keep a microphone on in your home and send recordings to their maker, where they have been stored and reviewed by staff ([1](https://www.theguardian.com/technology/2019/oct/09/alexa-are-you-invading-my-privacy-the-dark-side-of-our-voice-assistants), [2](https://www.theregister.com/2020/08/08/ai_in_brief/), [3](https://www.networkworld.com/article/962546/virtual-assistants-hear-everything-so-watch-what-you-say-i-m-not-kidding.html), [4](https://www.democracynow.org/2017/1/4/privacy_advocates_warn_of_potential_surveillance), [5](https://www.mirror.co.uk/news/weird-news/woman-finds-amazon-thousands-recordings-25240984), [6](https://www.seattletimes.com/business/locked-down-lawyers-warned-alexa-is-hearing-confidential-calls/), [7](https://hide.me/en/blog/assistant-devices-are-a-privacy-nightmare/)). Pick one that runs on your own hardware, and don't give the cloud ones as gifts.
+avoid:
+  items:
+    - name: Google Home
+      tosdr: en_217
+    - name: Alexa
+      tosdr: en_190
+    - name: Cortana
+      tosdr: en_244
+    - name: Siri
+      tosdr: en_158
+recommend:
+  entries:
+    - name: Home Assistant
+      url: https://www.home-assistant.io/
+      repo: https://github.com/home-assistant/core
+      description: Home automation hub that runs on your own hardware and controls your devices locally, no cloud account needed.
+      license: Apache-2.0
+      added: 2022-03-27
+    - name: OpenVoiceOS
+      url: https://www.openvoiceos.org/
+      repo: https://github.com/OpenVoiceOS/ovos-core
+      description: Voice assistant you run on your own hardware, a community successor to Mycroft.
+      license: Apache-2.0
+      tags:
+        - offline
+      added: 2026-07-04

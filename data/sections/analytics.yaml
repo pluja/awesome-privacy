@@ -1,0 +1,83 @@
+title: Analytics
+slug: analytics
+intro: Analytics from Google, Facebook or Microsoft feeds your visitors' data into their ad businesses. These tools give you the numbers without profiling visitors, and most can run on your own server.
+recommend:
+  entries:
+    - name: Ackee
+      url: https://ackee.electerious.com/
+      repo: https://github.com/electerious/Ackee
+      description: Self-hosted website analytics with no cookies and no tracking of unique users.
+      license: MIT
+      tags:
+        - self-host
+      added: 2021-06-12
+    - name: Aptabase
+      url: https://aptabase.com
+      repo: https://github.com/aptabase/aptabase
+      description: Analytics for mobile and desktop apps, built to collect no personal data.
+      license: AGPL-3.0
+      added: 2023-05-02
+    - name: Cabin
+      url: https://withcabin.com
+      description: Lightweight web analytics with no cookies, IP logging or fingerprinting, plus a carbon footprint report.
+      added: 2022-09-21
+    - name: GoatCounter
+      url: https://www.goatcounter.com/
+      repo: https://github.com/arp242/goatcounter
+      description: Lightweight web analytics, as a hosted service or on your own server.
+      added: 2023-09-28
+    - name: Matomo
+      url: https://matomo.org/
+      repo: https://github.com/matomo-org/matomo
+      description: Full-featured Google Analytics replacement that keeps the data on your own server.
+      license: GPL-3.0
+      added: 2020-12-08
+      caveats:
+        - website-trackers
+    - name: Nullitics
+      url: https://nullitics.com/
+      repo: https://github.com/nullitics/nullitics
+      description: Minimal cookie-free analytics for a flat monthly fee, also usable as a library on your own server.
+      license: MIT
+      status: inactive
+      added: 2021-05-27
+    - name: Pirsch
+      url: https://pirsch.io/
+      repo: https://github.com/pirsch-analytics/pirsch
+      description: Cookie-free web analytics that can also track server-side from your backend.
+      license: AGPL-3.0
+      added: 2021-12-29
+    - name: Plausible
+      url: https://plausible.io/
+      repo: https://github.com/plausible/analytics
+      description: Lightweight, cookie-free web analytics, as a hosted service or on your own server.
+      license: AGPL-3.0
+      added: 2020-12-08
+    - name: Rybbit
+      url: https://rybbit.com
+      repo: https://github.com/rybbit-io/rybbit
+      description: Cookie-free web analytics, as a hosted service or on your own server.
+      license: AGPL-3.0
+      added: 2025-06-17
+    - name: Shynet
+      url: https://github.com/milesmcc/shynet
+      repo: https://github.com/milesmcc/shynet
+      description: Self-hosted web analytics that works without cookies or JavaScript.
+      license: Apache-2.0
+      added: 2021-06-01
+    - name: Swetrix
+      url: https://swetrix.com
+      repo: https://github.com/Swetrix/swetrix
+      description: Cookie-free web analytics, as a hosted service or on your own server.
+      license: AGPL-3.0
+      tags:
+        - self-host
+      added: 2022-06-15
+    - name: Umami
+      url: https://umami.is/
+      repo: https://github.com/umami-software/umami
+      description: Lightweight, cookie-free web analytics, as a hosted service or on your own server.
+      license: MIT
+      caveats:
+        - website-trackers
+      added: 2021-05-18

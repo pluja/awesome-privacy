@@ -1,0 +1,147 @@
+title: Photo Editing and Management
+slug: photo-editing-and-management
+intro: Mainstream photo editors push your work into their cloud and collect usage data along the way. These editors run on your own machine, or entirely in your browser, and keep your files local.
+avoid:
+  items:
+    - name: Adobe Photoshop and Lightroom
+      reason: closed source, tied to a Creative Cloud account, and Adobe has a [long record of anti-user practices](https://www.gnu.org/proprietary/malware-adobe.html).
+      tosdr: en_417
+    - name: VSCO
+      reason: the Android app is [full of trackers](https://reports.exodus-privacy.eu.org/en/reports/com.vsco.cam/latest/).
+subsections:
+  - title: Web
+    recommend:
+      entries:
+        - name: miniPaint
+          url: https://github.com/viliusle/miniPaint
+          repo: https://github.com/viliusle/miniPaint
+          description: Photopea alternative that edits images entirely in your browser, with nothing sent to a server.
+          platforms:
+            - web
+          added: 2021-12-14
+  - title: Desktop
+    recommend:
+      entries:
+        - name: Czkawka
+          url: https://github.com/qarmin/czkawka
+          repo: https://github.com/qarmin/czkawka
+          description: Finds duplicate files, similar images and other clutter in your photo folders.
+          platforms:
+            - linux
+            - macos
+            - windows
+          added: 2021-05-18
+        - name: darktable
+          url: https://www.darktable.org/
+          repo: https://github.com/darktable-org/darktable
+          description: Raw developer and photo workflow app, a Lightroom alternative.
+          platforms:
+            - linux
+            - macos
+            - windows
+          license: GPL-3.0
+          tags:
+            - offline
+          added: 2024-07-18
+        - name: digiKam
+          url: https://www.digikam.org/
+          repo: https://invent.kde.org/graphics/digikam
+          description: Photo manager for large collections, with tagging, face recognition and editing, all on your own files.
+          platforms:
+            - linux
+            - macos
+            - windows
+          tags:
+            - offline
+          added: 2021-05-18
+        - name: GIMP
+          url: https://www.gimp.org/
+          repo: https://gitlab.gnome.org/GNOME/gimp
+          description: Raster image editor for retouching, compositing and drawing, a Photoshop alternative.
+          platforms:
+            - linux
+            - macos
+            - windows
+          added: 2020-12-09
+        - name: ImageGlass
+          url: https://imageglass.org/
+          repo: https://github.com/d2phap/ImageGlass
+          description: Lightweight image viewer with a clean interface.
+          platforms:
+            - windows
+          caveats:
+            - website-trackers
+          added: 2022-03-28
+        - name: Inkscape
+          url: https://inkscape.org/
+          repo: https://gitlab.com/inkscape/inkscape
+          description: Vector graphics editor, an Illustrator alternative.
+          platforms:
+            - linux
+            - macos
+            - windows
+          added: 2021-06-02
+        - name: Krita
+          url: https://krita.org/
+          repo: https://github.com/KDE/krita
+          description: Digital painting app built for artists.
+          license: GPL-3.0
+          added: 2020-12-28
+        - name: qView
+          url: https://github.com/jurplel/qView
+          repo: https://github.com/jurplel/qView
+          description: Minimal, fast image viewer that shows just the image with no clutter.
+          platforms:
+            - linux
+            - macos
+            - windows
+          license: GPL-3.0
+          tags:
+            - offline
+          added: 2026-11-02
+        - name: RapidRAW
+          url: https://github.com/CyberTimon/RapidRAW
+          repo: https://github.com/CyberTimon/RapidRAW
+          description: Lightweight, GPU-accelerated non-destructive raw editor, a Lightroom alternative.
+          license: AGPL-3.0
+          added: 2026-07-04
+        - name: RawTherapee
+          url: https://rawtherapee.com
+          repo: https://github.com/RawTherapee/RawTherapee
+          description: Offline raw photo developer that pairs well with darktable as a Lightroom alternative.
+          platforms:
+            - linux
+            - macos
+            - windows
+          license: GPL-3.0
+          tags:
+            - offline
+          added: 2026-07-04
+  - title: Android
+    recommend:
+      entries:
+        - name: ImagePipe
+          url: https://codeberg.org/Starfish/Imagepipe
+          repo: https://codeberg.org/Starfish/Imagepipe
+          description: Shrinks images and strips their Exif data when you share them.
+          platforms:
+            - android
+          package_id: de.kaffeemitkoffein.imagepipe
+          added: 2020-12-09
+          fdroid: true
+        - name: Pocket Paint
+          url: https://github.com/Catrobat/Paintroid
+          repo: https://github.com/Catrobat/Paintroid
+          description: Image editor and painting app from the Catrobat project.
+          platforms:
+            - android
+          package_id: org.catrobat.paintroid
+          added: 2020-12-09
+          fdroid: true
+        - name: Scrambled Exif
+          url: https://gitlab.com/juanitobananas/scrambled-exif
+          repo: https://gitlab.com/juanitobananas/scrambled-exif
+          description: Removes Exif data from pictures before you share them.
+          platforms:
+            - android
+          added: 2020-12-09

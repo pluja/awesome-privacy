@@ -1,0 +1,50 @@
+title: Databases
+slug: databases
+intro: Hosted backends like Google Firebase keep your app's data and your users' accounts on servers you don't control. These backends can run on your own infrastructure instead.
+avoid:
+  items:
+    - name: Google Firebase
+      reason: closed source and cloud only, so your app's data always lives on Google's servers.
+      tosdr: en_217
+recommend:
+  entries:
+    - name: Appwrite
+      url: https://appwrite.io/
+      repo: https://github.com/appwrite/appwrite
+      description: Self-hosted backend with auth, databases, storage and functions for web and mobile apps.
+      license: BSD-3-Clause
+      added: 2021-05-23
+      tags:
+        - self-host
+    - name: Supabase
+      url: https://supabase.com/
+      repo: https://github.com/supabase/supabase
+      description: Postgres-based Firebase alternative with auth, storage and realtime APIs, though [self-hosting](https://github.com/supabase/supabase/issues/4440#issuecomment-992108832) is [limited](https://github.com/supabase/supabase/issues/4934).
+      license: Apache-2.0
+      added: 2021-05-01
+      tags:
+        - self-host
+    - name: Pocketbase
+      url: https://pocketbase.io/
+      repo: https://ganigeorgiev.com/pocketbase/pocketbase
+      description: Backend in a single Go binary, with an embedded SQLite database, realtime subscriptions, auth and an admin UI.
+      added: 2022-07-11
+      tags:
+        - self-host
+    - name: TrailBase
+      url: https://trailbase.io/
+      repo: https://github.com/trailbaseio/trailbase
+      description: Single-executable Firebase alternative built on Rust and SQLite, with REST and realtime APIs, auth and an admin UI.
+      license: OSL-3.0
+      added: 2026-07-04
+      tags:
+        - self-host
+    - name: Baserow
+      url: https://baserow.io/
+      repo: https://gitlab.com/baserow/baserow
+      description: Self-hosted no-code database and spreadsheet, as an Airtable alternative.
+      caveats:
+        - website-trackers
+      added: 2026-07-04
+      tags:
+        - self-host

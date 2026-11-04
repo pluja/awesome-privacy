@@ -1,0 +1,45 @@
+title: Version Control
+slug: version-control
+intro: Hosting your code on a big platform hands your activity and your code to one company. A non-profit host or a forge you run yourself keeps you in charge of both.
+avoid:
+  items:
+    - name: GitHub
+      reason: owned by Microsoft, and public code hosted there was used to train Copilot.
+      tosdr: en_297
+recommend:
+  entries:
+    - name: Codeberg
+      url: https://codeberg.org/
+      description: Non-profit Git hosting for free software projects, run on Forgejo by a German association.
+      added: 2024-04-04
+    - name: Forgejo
+      url: https://forgejo.org/
+      repo: https://codeberg.org/forgejo/forgejo
+      description: Lightweight self-hosted Git forge developed by a community under the non-profit Codeberg e.V.
+      tags:
+        - self-host
+      added: 2024-04-04
+    - name: Gitea
+      url: https://about.gitea.com/
+      repo: https://github.com/go-gitea/gitea
+      description: Lightweight self-hosted Git forge, and the project Forgejo was forked from.
+      license: MIT
+      tags:
+        - self-host
+      caveats:
+        - website-trackers
+      added: 2026-07-04
+    - name: GitLab
+      url: https://about.gitlab.com/
+      repo: https://gitlab.com/gitlab-org/gitlab
+      description: Full DevOps platform with Git hosting, CI and issue tracking that you can run on your own server.
+      caveats:
+        - website-trackers
+      added: 2024-04-04
+    - name: Radicle
+      url: https://radicle.dev/
+      repo: https://radicle.network/seeds/seed.radicle.dev/rad:z3gqcJUoA1n9HaHKufZs5FCSGazv5
+      description: Peer-to-peer code collaboration on Git, with repositories replicated across peers and no central server in control.
+      tags:
+        - p2p
+      added: 2024-07-06

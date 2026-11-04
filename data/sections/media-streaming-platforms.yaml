@@ -1,0 +1,192 @@
+title: Media Streaming Platforms
+slug: media-streaming-platforms
+intro: Streaming services log everything you watch and listen to, and their apps are full of trackers. Host your own media server, or use a client that doesn't report back, to keep your habits to yourself.
+avoid:
+  items:
+    - name: Amazon Prime
+      reason: "[poor privacy terms](https://tosdr.org/en/service/2444), and the Android app has [trackers and asks for dozens of permissions](https://reports.exodus-privacy.eu.org/en/reports/com.amazon.avod.thirdpartyclient/latest/)."
+    - name: Netflix
+      reason: "[poor privacy terms](https://tosdr.org/en/service/185), and the Android app [has trackers](https://reports.exodus-privacy.eu.org/en/reports/com.netflix.mediaclient/latest/)."
+    - name: Disney Plus
+      reason: "[very poor privacy terms](https://tosdr.org/en/service/2745), and the Android app [has trackers](https://reports.exodus-privacy.eu.org/en/reports/com.disney.disneyplus/latest/)."
+    - name: Plex
+      reason: "[dubious privacy terms](https://tosdr.org/en/service/1567), and the Android app [asks for far more permissions](https://reports.exodus-privacy.eu.org/en/reports/com.plexapp.android/latest/) than a media player needs."
+    - name: Spotify
+      reason: "[very poor privacy terms](https://tosdr.org/en/service/225), and the Android app has [trackers and dozens of permissions](https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/)."
+    - name: Deezer
+      reason: "[poor privacy terms](https://tosdr.org/en/service/2516), and the Android app is [full of trackers](https://reports.exodus-privacy.eu.org/en/reports/deezer.android.app/latest/)."
+    - name: SoundCloud
+      reason: "[dubious privacy terms](https://tosdr.org/en/service/276), and the Android app is [full of trackers](https://reports.exodus-privacy.eu.org/en/reports/com.soundcloud.android/latest/)."
+subsections:
+  - title: Video and Audio
+    recommend:
+      entries:
+        - name: Jellyfin
+          url: https://jellyfin.org/
+          repo: https://github.com/jellyfin/jellyfin
+          description: Media server you host yourself for films, shows and music, with no account on anyone else's servers.
+          license: GPL-2.0
+          tags:
+            - self-host
+          added: 2020-12-08
+        - name: Stremio
+          url: https://www.stremio.com/
+          repo: https://github.com/Stremio/stremio-web
+          description: Media center that gathers video from add-ons into one library and player.
+          license: GPL-2.0
+          caveats:
+            - website-trackers
+          added: 2020-12-09
+  - title: Audio
+    recommend:
+      entries:
+        - name: Ampache
+          url: https://ampache.org/
+          repo: https://github.com/ampache/ampache
+          description: Web-based server for streaming your own music and video collection.
+          license: AGPL-3.0
+          tags:
+            - self-host
+          added: 2021-02-20
+        - name: Funkwhale
+          url: https://www.funkwhale.audio/
+          repo: https://dev.funkwhale.audio/funkwhale/funkwhale
+          description: Federated platform for hosting, sharing and listening to music, a SoundCloud alternative.
+          tags:
+            - self-host
+            - activitypub
+          added: 2020-12-09
+        - name: Koel
+          url: https://koel.dev/
+          repo: https://github.com/koel/koel
+          description: Personal music streaming server with a web player.
+          license: MIT
+          tags:
+            - self-host
+          added: 2020-12-09
+        - name: mucke
+          url: https://github.com/moritz-weber/mucke
+          repo: https://github.com/moritz-weber/mucke
+          description: Player for local music files with custom playback rules.
+          platforms:
+            - android
+          license: GPL-3.0
+          package_id: rocks.mucke
+          added: 2023-05-22
+          fdroid: true
+        - name: Navidrome
+          url: https://www.navidrome.org/
+          repo: https://github.com/navidrome/navidrome
+          description: Lightweight music server for your own collection, compatible with Subsonic apps.
+          license: GPL-3.0
+          tags:
+            - self-host
+          caveats:
+            - website-trackers
+          added: 2020-12-09
+        - name: Nuclear
+          url: https://nuclearplayer.com/
+          repo: https://github.com/nukeop/nuclear
+          description: Desktop music player that streams from free sources, with no account.
+          platforms:
+            - linux
+            - macos
+            - windows
+          license: AGPL-3.0
+          added: 2020-12-09
+    subsections:
+      - title: Spotify alternative clients
+        intro: These clients cut out Spotify's own apps and their tracking, but you still stream from Spotify's servers, so Spotify still sees what you play.
+        recommend:
+          entries:
+            - name: ncspot
+              url: https://github.com/hrkfdn/ncspot
+              repo: https://github.com/hrkfdn/ncspot
+              description: Terminal Spotify client written in Rust, inspired by ncmpc. Needs Spotify Premium.
+              platforms:
+                - cli
+              license: BSD-2-Clause
+              added: 2021-02-20
+            - name: psst
+              url: https://github.com/jpochyla/psst
+              repo: https://github.com/jpochyla/psst
+              description: Fast Spotify client with a native GUI written in Rust. Needs Spotify Premium.
+              platforms:
+                - linux
+                - macos
+                - windows
+              license: MIT
+              added: 2021-02-20
+            - name: Spotube
+              url: https://spotube.cc/
+              repo: https://github.com/team-spotube/spotube
+              description: Plugin-based music player that can load your Spotify playlists and stream the audio from other sources, no Premium needed.
+              license: AGPL-3.0
+              added: 2022-04-04
+      - title: YouTube Music alternative clients
+        recommend:
+          entries:
+            - name: SimpMusic
+              url: https://simpmusic.org/
+              repo: https://github.com/maxrave-dev/SimpMusic
+              description: YouTube Music client with no ads and SponsorBlock built in, successor to the discontinued ViMusic and RiMusic.
+              platforms:
+                - android
+                - desktop
+              license: GPL-3.0
+              caveats:
+                - website-trackers
+              package_id: com.maxrave.simpmusic
+              added: 2026-07-04
+              fdroid: true
+      - title: Deezer alternative clients
+        recommend:
+          entries:
+            - name: dzr
+              url: https://github.com/yne/dzr
+              repo: https://github.com/yne/dzr
+              description: Command line Deezer player for Linux, BSD and Android with Termux.
+              platforms:
+                - cli
+              license: Unlicense
+              added: 2021-06-04
+  - title: Podcasts
+    avoid:
+      items:
+        - name: Spotify
+          reason: "[very poor privacy terms](https://tosdr.org/en/service/225) that cover your mood, free time, likes and friends, and the Android app has [trackers and dozens of permissions](https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/)."
+        - name: iVoox
+          reason: the Android app is [full of trackers](https://reports.exodus-privacy.eu.org/en/reports/com.ivoox.app/latest/), and so is the website.
+        - name: Audible
+          reason: "[very poor privacy terms](https://tosdr.org/en/service/190), and the Android app [has trackers](https://reports.exodus-privacy.eu.org/en/reports/com.audible.application/latest/)."
+        - name: Deezer
+          reason: "[poor privacy terms](https://tosdr.org/en/service/2516), and the Android app is [full of trackers](https://reports.exodus-privacy.eu.org/en/reports/deezer.android.app/latest/)."
+    recommend:
+      entries:
+        - name: AntennaPod
+          url: https://antennapod.org
+          repo: https://github.com/AntennaPod/AntennaPod
+          description: Podcast player that subscribes to any RSS feed, with no account needed.
+          platforms:
+            - android
+          license: GPL-3.0
+          package_id: de.danoeh.antennapod
+          added: 2020-12-09
+          fdroid: true
+        - name: Castopod
+          url: https://castopod.org
+          repo: https://github.com/ad-aures/castopod
+          description: Podcast hosting you run yourself, so your show and your audience stay yours, with fediverse integration.
+          license: AGPL-3.0
+          tags:
+            - self-host
+            - activitypub
+          added: 2022-10-05
+        - name: Funkwhale
+          url: https://www.funkwhale.audio/
+          repo: https://dev.funkwhale.audio/funkwhale/funkwhale
+          description: Federated platform for hosting, sharing and listening to podcasts and music.
+          tags:
+            - self-host
+            - activitypub
+          added: 2020-12-09

@@ -1,0 +1,165 @@
+title: Personal Finances
+slug: personal-finances
+intro: Your transactions reveal where you live, shop and travel. These tools keep your financial records on your own device or server instead of a company's cloud.
+subsections:
+  - title: Full Featured Financial Management
+    recommend:
+      entries:
+        - name: Actual
+          url: https://actualbudget.org
+          repo: https://github.com/actualbudget/actual
+          description: Envelope budgeting app that runs locally, with optional end-to-end encrypted sync through your own server.
+          license: MIT
+          tags:
+            - self-host
+          added: 2025-01-20
+        - name: Firefly III
+          url: https://www.firefly-iii.org/
+          repo: https://github.com/firefly-iii/firefly-iii
+          description: Self-hosted personal finance manager with budgets, rules and reports.
+          license: AGPL-3.0
+          tags:
+            - self-host
+          added: 2025-01-20
+        - name: GnuCash
+          url: https://gnucash.org/
+          repo: https://github.com/Gnucash/gnucash
+          description: Double-entry accounting for personal and small-business finances, stored in local files.
+          platforms:
+            - desktop
+          added: 2021-06-07
+        - name: Sure
+          url: https://sure.am
+          repo: https://github.com/we-promise/sure
+          description: Self-hosted personal finance app, a community fork of the archived [Maybe](https://github.com/maybe-finance/maybe).
+          license: AGPL-3.0
+          caveats:
+            - website-trackers
+          tags:
+            - self-host
+          added: 2025-08-13
+        - name: ezBookkeeping
+          url: https://ezbookkeeping.mayswind.net/
+          repo: https://github.com/mayswind/ezbookkeeping
+          description: Lightweight self-hosted bookkeeping app with a mobile-friendly web interface.
+          license: MIT
+          caveats:
+            - website-trackers
+          tags:
+            - self-host
+          added: 2025-10-20
+  - title: Budget Management
+    recommend:
+      entries:
+        - name: ProExpense
+          url: https://github.com/arduia/ProExpense
+          repo: https://github.com/arduia/ProExpense
+          description: Expense notebook for recording your daily spending on the phone.
+          platforms:
+            - android
+          license: GPL-3.0
+          package_id: com.arduia.expense
+          added: 2021-02-25
+          fdroid: true
+          caveats:
+            - play-store-trackers
+        - name: My Expenses
+          url: https://www.myexpenses.mobi/
+          repo: https://github.com/mtotschnig/MyExpenses
+          description: Expense tracker with multiple accounts, budgets and optional sync through your own cloud storage.
+          platforms:
+            - android
+          license: GPL-3.0
+          package_id: org.totschnig.myexpenses
+          added: 2021-05-25
+          fdroid: true
+          caveats:
+            - play-store-trackers
+        - name: Wallos
+          url: https://wallosapp.com
+          repo: https://github.com/ellite/Wallos
+          description: Self-hosted tracker for subscriptions and recurring expenses, with renewal reminders.
+          license: GPL-3.0
+          tags:
+            - self-host
+          added: 2026-07-04
+  - title: Shared Expenses
+    avoid:
+      items:
+        - name: Tricount
+          reason: a ~200 MB app with trackers from Facebook, Google and Huawei.
+        - name: Splitwise
+          reason: the app contains trackers from Google and Amazon.
+    recommend:
+      entries:
+        - name: Spliit
+          url: https://spliit.app
+          repo: https://github.com/spliit-app/spliit
+          description: Splitwise alternative for sharing expenses with friends and family, no account needed.
+          license: MIT
+          tags:
+            - no-account
+          added: 2025-01-20
+        - name: SplitPro
+          url: https://splitpro.app
+          repo: https://github.com/oss-apps/split-pro
+          description: Splitwise alternative for sharing expenses with friends, which you can self-host.
+          license: MIT
+          added: 2025-01-20
+        - name: IHateMoney
+          url: https://ihatemoney.org/
+          repo: https://github.com/spiral-project/ihatemoney
+          description: Shared budget manager for groups and trips, hosted or self-hosted.
+          children:
+            - name: MoneyBuster
+              url: https://gitlab.com/eneiluj/moneybuster
+              repo: https://gitlab.com/eneiluj/moneybuster
+              description: Android client for Nextcloud Cospend and IHateMoney.
+              platforms:
+                - android
+              package_id: net.eneiluj.moneybuster
+              added: 2021-02-25
+              fdroid: true
+          added: 2021-02-25
+        - name: Nextcloud Cospend
+          url: https://apps.nextcloud.com/apps/cospend
+          repo: https://github.com/julien-nc/cospend-nc
+          description: Nextcloud app for managing shared budgets, inspired by IHateMoney.
+          license: AGPL-3.0
+          children:
+            - name: MoneyBuster
+              url: https://gitlab.com/eneiluj/moneybuster
+              repo: https://gitlab.com/eneiluj/moneybuster
+              description: Android client for Nextcloud Cospend and IHateMoney.
+              platforms:
+                - android
+              package_id: net.eneiluj.moneybuster
+              added: 2021-02-25
+              fdroid: true
+          added: 2021-02-25
+  - title: Others
+    recommend:
+      entries: []
+  - title: Portfolio trackers
+    recommend:
+      entries:
+        - name: Ghostfolio
+          url: https://ghostfol.io
+          repo: https://github.com/ghostfolio/ghostfolio
+          description: Wealth management app for tracking stocks, ETFs and crypto, which you can self-host.
+          license: AGPL-3.0
+          added: 2025-01-20
+        - name: Portfolio Performance
+          url: https://www.portfolio-performance.info/en/
+          repo: https://github.com/portfolio-performance/portfolio
+          description: Desktop app that calculates the overall performance of your investment portfolio, with data kept in local files.
+          platforms:
+            - desktop
+          license: EPL-1.0
+          added: 2025-01-20
+        - name: Rotki
+          url: https://rotki.com
+          repo: https://github.com/rotki/rotki
+          description: Portfolio tracking, accounting and tax reporting for crypto and other assets, with your data stored locally.
+          license: AGPL-3.0
+          added: 2021-02-25

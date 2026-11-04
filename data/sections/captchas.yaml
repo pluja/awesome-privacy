@@ -1,0 +1,37 @@
+title: Captchas
+slug: captchas
+intro: Mainstream captchas tell humans from bots by profiling visitors. These make the visitor's browser solve a small proof-of-work puzzle instead, with no tracking needed.
+avoid:
+  items:
+    - name: Google reCAPTCHA
+      reason: uses cookies to track visitors and score their IP addresses.
+      tosdr: en_217
+    - name: hCaptcha
+      tosdr: en_2207
+recommend:
+  entries:
+    - name: ALTCHA
+      url: https://altcha.org
+      repo: https://github.com/altcha-org/altcha
+      description: Self-hosted proof-of-work captcha with no cookies or tracking.
+      license: MIT
+      tags:
+        - self-host
+      added: 2024-06-17
+    - name: mCaptcha
+      url: https://mcaptcha.org/
+      repo: https://github.com/mCaptcha/mCaptcha
+      description: Proof-of-work captcha that rate-limits bots by making each request cost some computation.
+      license: AGPL-3.0
+      tags:
+        - self-host
+      added: 2023-08-09
+    - name: Private Captcha
+      url: https://privatecaptcha.com
+      repo: https://github.com/PrivateCaptcha/PrivateCaptcha
+      description: EU-made proof-of-work captcha, as a hosted service or on your own server.
+      tags:
+        - self-host
+      caveats:
+        - source-available
+      added: 2025-10-20

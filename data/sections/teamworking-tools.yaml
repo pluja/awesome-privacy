@@ -1,0 +1,81 @@
+title: Teamworking Tools
+slug: teamworking-tools
+intro: Workplace chat holds your team's most sensitive conversations on someone else's servers. Prefer tools you can host yourself, so the messages and files stay with your organization.
+avoid:
+  items:
+    - name: Slack
+      tosdr: en_206
+    - name: Google Meet
+      tosdr: en_217
+    - name: Microsoft Teams
+      tosdr: en_244
+    - name: Discord
+      tosdr: en_536
+recommend:
+  entries:
+    - name: Zulip
+      url: https://zulip.com/
+      repo: https://github.com/zulip/zulip
+      description: Team chat organized into topic threads, which you can host yourself.
+      license: Apache-2.0
+      tags:
+        - self-host
+      package_id: com.zulipmobile
+      added: 2020-12-09
+      fdroid: true
+    - name: Stoat
+      url: https://stoat.chat/
+      repo: https://github.com/stoatchat/stoatchat
+      description: Discord-like chat platform with servers and channels, which you can host yourself, formerly Revolt.
+      tags:
+        - self-host
+      added: 2021-09-13
+    - name: Twake Chat
+      url: https://twake.app/
+      repo: https://github.com/linagora/twake-on-matrix
+      description: Workplace chat built on Matrix, part of Linagora's Twake Workplace suite.
+      license: AGPL-3.0
+      added: 2020-12-09
+    - name: Rocket.Chat
+      url: https://www.rocket.chat/
+      repo: https://github.com/RocketChat/Rocket.Chat
+      description: Self-hosted team chat with end-to-end encrypted rooms and federation.
+      tags:
+        - self-host
+      caveats:
+        - website-trackers
+      added: 2020-12-09
+    - name: Nextcloud Talk
+      url: https://nextcloud.com/talk/
+      repo: https://github.com/nextcloud/spreed
+      description: Chat and video calls that run inside your own Nextcloud server.
+      license: AGPL-3.0
+      package_id: com.nextcloud.talk2
+      added: 2020-12-09
+      tags:
+        - self-host
+      fdroid: true
+    - name: Mattermost
+      url: https://mattermost.com/
+      repo: https://github.com/mattermost/mattermost
+      description: Self-hosted Slack alternative for teams.
+      tags:
+        - self-host
+      caveats:
+        - website-trackers
+      added: 2020-12-09
+    - name: Wire
+      url: https://wire.com/
+      repo: https://github.com/wireapp/wire-server
+      description: End-to-end encrypted messaging, calls and file sharing for teams, with public and audited code for both the apps and the server.
+      license: AGPL-3.0
+      tags:
+        - e2ee
+        - audited
+      caveats:
+        - website-trackers
+        - play-store-trackers
+      package_id: com.wire
+      fdroid: true
+      added: 2026-11-04
+notes: Discord mods and alternative clients, and the risks of using them, are listed under [Alternative clients/modifications of Discord](#alternative-clientsmodifications-of-discord).

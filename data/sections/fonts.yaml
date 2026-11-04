@@ -1,0 +1,33 @@
+title: Fonts
+slug: fonts
+intro: Loading fonts from Google's servers hands every visitor's IP address to Google, which a German court ruled a GDPR violation in 2022. Host the font files yourself, or use a drop-in replacement that doesn't log.
+avoid:
+  items:
+    - name: Google Fonts (loaded from Google)
+      reason: every page view sends the visitor's IP address to Google.
+      tosdr: en_217
+subsections:
+  - title: Google Fonts Replacements
+    recommend:
+      entries:
+        - name: Bunny Fonts
+          url: https://fonts.bunny.net/
+          description: Drop-in Google Fonts replacement from EU-based bunny.net, with a no-logging policy.
+          added: 2026-03-17
+        - name: coolLabs Fonts
+          url: https://fonts.coollabs.io/
+          repo: https://github.com/coollabsio/fonts
+          description: Drop-in Google Fonts replacement that logs nothing about your visitors.
+          license: Apache-2.0
+          added: 2022-05-09
+  - title: Foundries
+    recommend:
+      entries:
+        - name: OpenFoundry
+          url: https://open-foundry.com/
+          description: Curated showcase of open source typefaces that you can use and modify.
+          added: 2021-05-12
+        - name: Velvetyne
+          url: https://www.velvetyne.fr/
+          description: French type foundry that publishes libre typefaces for personal and commercial use.
+          added: 2021-05-29

@@ -1,0 +1,19 @@
+title: Automation
+slug: automation
+intro: Cloud automation services hold access tokens for every account you connect and run your workflows on their servers. A self-hosted tool keeps those credentials and your data at home.
+avoid:
+  items:
+    - name: IFTTT
+      reason: closed source, and your workflows run on its servers with tokens to your connected accounts.
+    - name: Zapier
+      reason: closed source, and your workflows run on its servers with tokens to your connected accounts.
+recommend:
+  entries:
+    - name: Huginn
+      url: https://github.com/huginn/huginn
+      repo: https://github.com/huginn/huginn
+      description: Self-hosted agents that watch websites, feeds and APIs and act for you, an alternative to IFTTT and Zapier.
+      license: MIT
+      tags:
+        - self-host
+      added: 2026-11-02

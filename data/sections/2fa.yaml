@@ -1,0 +1,68 @@
+title: 2FA
+slug: 2fa
+intro: Authenticator apps generate the one-time codes that protect an account even after its password leaks. Pick one that encrypts its vault and lets you export your tokens, so you're never locked in.
+avoid:
+  items:
+    - name: Authy
+      reason: closed source, and it dropped the desktop apps you could export your tokens from.
+    - name: Google Authenticator
+      reason: closed source, with export limited to QR codes and sync tied to your Google account.
+      tosdr: en_217
+    - name: Microsoft Authenticator
+      reason: closed source, with no way to export your tokens.
+recommend:
+  entries:
+    - name: 2FAS Auth
+      url: https://2fas.com/auth
+      repo: https://github.com/twofas/2fas-android
+      description: Authenticator whose browser extension asks your phone for a code and fills it in, no account needed.
+      license: GPL-3.0
+      tags:
+        - no-account
+      added: 2026-07-04
+    - name: Aegis
+      url: https://getaegis.app/
+      repo: https://github.com/beemdevelopment/Aegis
+      description: Encrypted token vault that imports from most other authenticators and exports in plain or encrypted form.
+      platforms:
+        - android
+      license: GPL-3.0
+      package_id: com.beemdevelopment.aegis
+      added: 2021-05-12
+      fdroid: true
+    - name: ente Auth
+      url: https://ente.com/auth/
+      repo: https://github.com/ente/ente
+      description: Authenticator with end-to-end encrypted sync between your devices, from the makers of ente Photos.
+      license: AGPL-3.0
+      tags:
+        - e2ee
+      caveats:
+        - website-trackers
+      added: 2022-12-15
+    - name: FreeOTPPlus
+      url: https://github.com/helloworld1/FreeOTPPlus
+      repo: https://github.com/helloworld1/FreeOTPPlus
+      description: Fork of FreeOTP with backups, search and dark mode.
+      platforms:
+        - android
+      license: Apache-2.0
+      package_id: org.liberty.android.freeotpplus
+      added: 2021-05-12
+      fdroid: true
+    - name: Proton Authenticator
+      url: https://proton.me/authenticator
+      description: Authenticator with end-to-end encrypted sync, from the makers of Proton Mail.
+      tags:
+        - e2ee
+      package_id: proton.android.authenticator.fdroid
+      added: 2026-07-07
+      fdroid: true
+    - name: Stratum
+      url: https://github.com/stratumauth/app
+      repo: https://github.com/stratumauth/app
+      description: Authenticator with Wear OS support and encrypted backups.
+      platforms:
+        - android
+      license: GPL-3.0
+      added: 2021-07-10

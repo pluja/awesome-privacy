@@ -1,0 +1,56 @@
+title: Calendar
+slug: calendar
+intro: Your calendar shows where you'll be, when and with whom. Prefer a calendar that keeps events on your device, syncs over open CalDAV with a server you trust, or encrypts them end to end.
+avoid:
+  items:
+    - name: Google Calendar
+      reason: events are stored on Google's servers without end-to-end encryption and tied to your Google account.
+recommend:
+  entries:
+    - name: Etar
+      url: https://github.com/Etar-Group/Etar-Calendar
+      repo: https://github.com/Etar-Group/Etar-Calendar
+      description: Calendar app that works with any CalDAV server through a sync adapter.
+      platforms:
+        - android
+      license: GPL-3.0
+      package_id: ws.xsoh.etar
+      added: 2026-02-16
+      fdroid: true
+    - name: Fossify Calendar
+      url: https://github.com/FossifyOrg/Calendar
+      repo: https://github.com/FossifyOrg/Calendar
+      description: Offline calendar with widgets and no ads, which can also sync with your device's CalDAV accounts.
+      platforms:
+        - android
+      license: GPL-3.0
+      package_id: org.fossify.calendar
+      added: 2026-02-16
+      tags:
+        - offline
+      fdroid: true
+    - name: KashCal
+      url: https://github.com/KashCal/KashCal
+      repo: https://github.com/KashCal/KashCal
+      description: Offline-first calendar with built-in iCloud and CalDAV sync, full-text search and widgets.
+      platforms:
+        - android
+      package_id: org.onekash.kashcal
+      added: 2026-02-16
+      tags:
+        - offline
+      fdroid: true
+    - name: Nextcloud Calendar
+      url: https://apps.nextcloud.com/apps/calendar
+      repo: https://github.com/nextcloud/calendar
+      description: Calendar app for your Nextcloud server, with CalDAV sync to your other devices.
+      license: AGPL-3.0
+      added: 2026-02-16
+      tags:
+        - self-host
+    - name: Proton Calendar
+      url: https://proton.me/calendar
+      description: End-to-end encrypted calendar from the makers of Proton Mail.
+      added: 2026-02-16
+      tags:
+        - e2ee

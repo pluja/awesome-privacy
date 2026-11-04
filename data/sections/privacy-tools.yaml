@@ -1,0 +1,108 @@
+title: Privacy Tools
+slug: privacy-tools
+intro: Tools for checking what your devices and apps leak, and for cutting off what you don't want sent.
+subsections:
+  - title: Desktop
+    recommend:
+      entries:
+        - name: BusKill
+          url: https://www.buskill.in/
+          repo: https://github.com/BusKill/buskill-app
+          description: USB dead man's switch that locks or wipes your computer when the cable is pulled away.
+          license: GPL-3.0
+          added: 2023-01-08
+        - name: dnscrypt-proxy
+          url: https://github.com/DNSCrypt/dnscrypt-proxy
+          repo: https://github.com/DNSCrypt/dnscrypt-proxy
+          description: Local DNS proxy with encrypted DNS and anonymized relays, so resolvers can't link your lookups to your IP.
+          license: ISC
+          added: 2026-11-02
+        - name: MAT2
+          url: https://github.com/jvoisin/mat2
+          repo: https://github.com/jvoisin/mat2
+          description: Removes metadata from images, documents, audio and many other file types.
+          platforms:
+            - linux
+            - cli
+          license: LGPL-3.0
+          added: 2026-09-30
+        - name: Metadata Cleaner
+          url: https://gitlab.com/rmnvgr/metadata-cleaner
+          repo: https://gitlab.com/rmnvgr/metadata-cleaner
+          description: Simple desktop app to view and remove file metadata, built on MAT2.
+          platforms:
+            - linux
+          added: 2026-09-30
+        - name: Mobile Verification Toolkit
+          url: https://github.com/mvt-project/mvt
+          repo: https://github.com/mvt-project/mvt
+          description: Amnesty International's tool for checking Android and iOS devices for traces of spyware such as Pegasus.
+          platforms:
+            - cli
+          caveats:
+            - source-available
+          added: 2026-09-30
+        - name: OpenSnitch
+          url: https://github.com/evilsocket/opensnitch
+          repo: https://github.com/evilsocket/opensnitch
+          description: Application firewall that asks before any program connects to the internet.
+          platforms:
+            - linux
+          license: GPL-3.0
+          added: 2026-09-30
+  - title: Android
+    recommend:
+      entries:
+        - name: εxodus
+          url: https://reports.exodus-privacy.eu.org/en/
+          repo: https://github.com/Exodus-Privacy/exodus
+          description: Shows which trackers and permissions an Android app contains, before you install it.
+          license: AGPL-3.0
+          added: 2022-03-02
+          children:
+            - name: ClassyShark3xodus
+              url: https://f-droid.org/en/packages/com.oF2pks.classyshark3xodus/
+              description: Checks the apps on your phone for known trackers, using the εxodus database.
+              platforms:
+                - android
+              package_id: com.oF2pks.classyshark3xodus
+              added: 2022-03-02
+              fdroid: true
+        - name: NetGuard
+          url: https://netguard.me/
+          repo: https://github.com/M66B/NetGuard
+          description: Blocks internet access per app, no root needed.
+          platforms:
+            - android
+          license: GPL-3.0
+          package_id: eu.faircode.netguard
+          added: 2022-03-02
+          fdroid: true
+        - name: Orbot
+          url: https://orbot.app/
+          repo: https://github.com/guardianproject/orbot-android
+          description: Routes app traffic through Tor, for all apps or only the ones you choose. Made by the Guardian Project.
+          platforms:
+            - android
+          tags:
+            - tor
+          added: 2026-09-30
+        - name: Plexus
+          url: https://plexus.techlore.tech/
+          repo: https://github.com/techlore/Plexus-app
+          description: Community database of which apps work on de-Googled Android.
+          platforms:
+            - android
+          package_id: tech.techlore.plexus
+          added: 2021-10-09
+          fdroid: true
+        - name: RethinkDNS + Firewall
+          url: https://github.com/celzero/rethink-app
+          repo: https://github.com/celzero/rethink-app
+          description: Firewall and encrypted DNS client in one, no root needed.
+          platforms:
+            - android
+          license: Apache-2.0
+          package_id: com.celzero.bravedns
+          added: 2022-05-09
+          fdroid: true

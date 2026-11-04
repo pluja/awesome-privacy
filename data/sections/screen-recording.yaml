@@ -1,0 +1,27 @@
+title: Screen recording
+slug: screen-recording
+intro: Many screen recorders upload your recordings to their own cloud and ask you to sign in first. These record locally, with no account.
+recommend:
+  entries:
+    - name: OBS Studio
+      url: https://obsproject.com/
+      repo: https://github.com/obsproject/obs-studio
+      description: Video recording and live streaming studio that records everything locally.
+      platforms:
+        - linux
+        - macos
+        - windows
+      license: GPL-2.0
+      caveats:
+        - website-trackers
+      added: 2023-10-08
+    - name: Screenity
+      url: https://screenity.io/
+      repo: https://github.com/alyssaxuu/screenity
+      description: Screen recorder and annotation tool for Chrome that keeps your videos on your device, with no sign-in.
+      platforms:
+        - browser
+      license: GPL-3.0
+      tags:
+        - no-account
+      added: 2025-07-21

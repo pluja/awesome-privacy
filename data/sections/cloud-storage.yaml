@@ -1,0 +1,106 @@
+title: Cloud Storage
+slug: cloud-storage
+intro: Mainstream cloud drives can read everything you upload and scan it on their servers. Prefer storage that encrypts files on your device before upload, or a server you run yourself.
+avoid:
+  items:
+    - name: Google Drive
+      reason: files are stored without end-to-end encryption, under a [poorly rated privacy policy](https://tosdr.org/en/service/217).
+    - name: Dropbox
+      reason: no end-to-end encryption, a [poorly rated privacy policy](https://tosdr.org/en/service/270), and an Android app with [several trackers](https://reports.exodus-privacy.eu.org/en/reports/com.dropbox.android/latest/).
+    - name: OneDrive
+      reason: files are stored without end-to-end encryption, under a [poorly rated privacy policy](https://tosdr.org/en/service/244).
+recommend:
+  entries:
+    - name: Nextcloud
+      url: https://nextcloud.com/
+      repo: https://github.com/nextcloud/server
+      description: Self-hosted file sync and sharing platform, with apps for calendars, contacts, office documents and more.
+      license: AGPL-3.0
+      added: 2020-12-07
+      tags:
+        - self-host
+    - name: Seafile
+      url: https://www.seafile.com/en/home/
+      repo: https://github.com/haiwen/seafile
+      description: Fast self-hosted file sync and sharing, with optional per-library client-side encryption and a built-in wiki.
+      added: 2020-12-09
+      tags:
+        - self-host
+    - name: Peergos
+      url: https://peergos.org/
+      repo: https://github.com/Peergos/Peergos
+      description: End-to-end encrypted space for files, photos and documents, with calendar, tasks, chat and email built in.
+      license: AGPL-3.0
+      added: 2022-09-21
+      tags:
+        - e2ee
+        - self-host
+    - name: Proton Drive
+      url: https://proton.me/drive
+      description: End-to-end encrypted cloud storage from the makers of Proton Mail.
+      added: 2022-09-28
+      tags:
+        - e2ee
+    - name: PrivateStorage
+      url: https://private.storage/
+      repo: https://github.com/PrivateStorageio/PrivateStorageDesktop
+      description: Client-side encrypted storage and folder sync with no account, paid for in a way that isn't linked to your files.
+      added: 2023-04-05
+      tags:
+        - e2ee
+        - no-account
+    - name: Filen
+      url: https://filen.io/
+      repo: https://github.com/FilenCloudDienste
+      description: End-to-end encrypted cloud storage from Germany, with desktop, mobile and web clients you can inspect.
+      tags:
+        - e2ee
+      added: 2026-11-02
+    - name: Sync-in
+      url: https://sync-in.com/
+      repo: https://github.com/Sync-in/server
+      description: Self-hosted file storage, sharing and sync with WebDAV, desktop clients and Collabora or OnlyOffice editing.
+      license: AGPL-3.0
+      tags:
+        - self-host
+      added: 2026-11-02
+subsections:
+  - title: Other useful tools
+    recommend:
+      entries:
+        - name: Cryptomator
+          url: https://cryptomator.org
+          repo: https://github.com/cryptomator/cryptomator
+          description: Encrypts files on your device before they reach any cloud storage provider.
+          license: GPL-3.0
+          package_id: org.cryptomator.lite
+          added: 2020-12-07
+          fdroid: true
+        - name: Syncthing
+          url: https://syncthing.net/
+          repo: https://github.com/syncthing/syncthing
+          description: Continuous file sync directly between your own devices, with no central server holding your data.
+          license: MPL-2.0
+          tags:
+            - p2p
+          added: 2020-12-07
+        - name: git-annex
+          url: https://git-annex.branchable.com/
+          description: Manages and syncs large files with git without storing their contents in git, across drives and many cloud and offline backends.
+          added: 2026-11-02
+        - name: Rclone
+          url: https://rclone.org/
+          repo: https://github.com/rclone/rclone
+          description: Command-line tool to manage files on dozens of cloud providers, with an encryption layer so they only see ciphertext.
+          license: MIT
+          platforms:
+            - cli
+          added: 2020-12-09
+        - name: Restic
+          url: https://restic.net/
+          repo: https://github.com/restic/restic
+          description: Backup tool that encrypts and deduplicates snapshots before storing them locally or with a cloud provider.
+          license: BSD-2-Clause
+          platforms:
+            - cli
+          added: 2023-03-06

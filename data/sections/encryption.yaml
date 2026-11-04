@@ -1,0 +1,78 @@
+title: Encryption
+slug: encryption
+intro: Encryption keeps your files unreadable to anyone without the key, whether a laptop gets stolen or a cloud provider gets breached. These tools use open, well-reviewed cryptography and keep the keys with you.
+avoid:
+  items:
+    - name: BitLocker
+      reason: closed source, and with device encryption Windows uploads your recovery key to your Microsoft account by default.
+recommend:
+  entries:
+    - name: age
+      url: https://age-encryption.org
+      repo: https://github.com/FiloSottile/age
+      description: Simple, modern file encryption with small keys and nothing to configure.
+      platforms:
+        - cli
+      license: BSD-3-Clause
+      added: 2026-07-04
+    - name: Cryptomator
+      url: https://cryptomator.org/
+      repo: https://github.com/cryptomator/cryptomator
+      description: Encrypts files on your device before they reach any cloud storage provider.
+      license: GPL-3.0
+      package_id: org.cryptomator.lite
+      added: 2020-12-07
+      fdroid: true
+    - name: Photok
+      url: https://github.com/leonlatsch/Photok
+      repo: https://github.com/leonlatsch/Photok
+      description: Photo vault that stores your pictures encrypted on the device.
+      platforms:
+        - android
+      license: Apache-2.0
+      package_id: dev.leonlatsch.photok
+      added: 2022-01-24
+      fdroid: true
+    - name: Shufflecake
+      url: https://shufflecake.net/
+      description: Hidden encrypted volumes for Linux with plausible deniability, so nobody can prove the hidden data exists.
+      platforms:
+        - linux
+      added: 2022-12-26
+    - name: Stegcloak
+      url: https://stegcloak.surge.sh/
+      repo: https://github.com/KuroLabs/stegcloak
+      description: Hides password-protected secrets inside ordinary text using invisible characters.
+      status: inactive
+      added: 2020-12-08
+      caveats:
+        - website-trackers
+    - name: Tomb
+      url: https://dyne.org/software/tomb/
+      repo: https://github.com/dyne/tomb
+      description: Creates and manages encrypted folders on Linux, built on standard LUKS.
+      platforms:
+        - linux
+        - cli
+      license: GPL-3.0
+      added: 2026-09-30
+    - name: VeraCrypt
+      url: https://veracrypt.io/en/Home.html
+      repo: https://github.com/veracrypt/VeraCrypt
+      description: Encrypts whole disks, partitions or file containers, with support for hidden volumes.
+      platforms:
+        - linux
+        - macos
+        - windows
+      added: 2020-12-09
+subsections:
+  - title: OS Encryption
+    recommend:
+      entries:
+        - name: Cryptsetup
+          url: https://gitlab.com/cryptsetup/cryptsetup
+          repo: https://gitlab.com/cryptsetup/cryptsetup
+          description: The standard tool for full disk encryption on Linux, built on the kernel's dm-crypt module.
+          platforms:
+            - linux
+          added: 2022-06-27

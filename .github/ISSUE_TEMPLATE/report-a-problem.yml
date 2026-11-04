@@ -1,0 +1,18 @@
+name: Report a problem with a listed entry
+description: A dead link, an abandoned project, trackers, a license change, a misleading link, anything wrong in the list.
+labels: ["maintenance"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry?
+      placeholder: e.g. Molly, in Instant Messaging
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+      description: Please include a link that shows it (release page, announcement, archived repo, tracker scan...).
+    validations:
+      required: true

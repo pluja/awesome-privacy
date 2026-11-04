@@ -1,0 +1,253 @@
+title: Artificial Intelligence
+slug: artificial-intelligence
+intro: Cloud AI services see everything you type, tie it to your account and payment details, and may keep it or train on it. Running models on your own hardware keeps your prompts with you; when you do need a cloud model, pick tools that let you choose the provider.
+subsections:
+  - title: ChatGPT
+    recommend:
+      entries:
+        - name: Jan
+          url: https://jan.ai/
+          repo: https://github.com/janhq/jan
+          description: Desktop chat app that runs open models offline, with optional connections to cloud providers.
+          tags:
+            - offline
+          added: 2024-02-10
+        - name: LibreChat
+          url: https://www.librechat.ai/
+          repo: https://github.com/LibreChat-AI/LibreChat
+          description: Self-hosted chat interface that puts many AI providers and local models behind one UI you control.
+          license: MIT
+          tags:
+            - self-host
+          added: 2026-07-04
+        - name: llama.cpp
+          url: https://github.com/ggml-org/llama.cpp
+          repo: https://github.com/ggml-org/llama.cpp
+          description: C/C++ engine that runs open language models locally on ordinary CPUs and GPUs.
+          license: MIT
+          added: 2023-03-12
+        - name: LocalAI
+          url: https://localai.io/
+          repo: https://github.com/mudler/LocalAI
+          description: Self-hosted OpenAI-compatible API that runs language, image and voice models on your own hardware.
+          license: MIT
+          tags:
+            - self-host
+          added: 2023-04-21
+        - name: ollama
+          url: https://ollama.com/
+          repo: https://github.com/ollama/ollama
+          description: Runs open models locally with one command; its optional cloud models can be switched off entirely.
+          license: MIT
+          added: 2023-10-26
+        - name: Open WebUI
+          url: https://openwebui.com
+          repo: https://github.com/open-webui/open-webui
+          description: Self-hosted ChatGPT-style web interface for Ollama and other local or OpenAI-compatible models.
+          tags:
+            - self-host
+          caveats:
+            - source-available
+            - website-trackers
+          added: 2026-07-04
+        - name: PasteGuard
+          url: https://pasteguard.com/
+          repo: https://github.com/sgasser/pasteguard
+          description: Proxy that masks personal data and secrets before your prompts reach a cloud AI provider, then restores them in the reply.
+          license: Apache-2.0
+          tags:
+            - self-host
+          added: 2026-02-16
+        - name: Shimmy
+          url: https://github.com/Michael-A-Kuykendall/shimmy
+          repo: https://github.com/Michael-A-Kuykendall/shimmy
+          description: Rust inference server with an OpenAI-compatible API that runs GGUF models locally on your GPU.
+          license: Apache-2.0
+          added: 2025-10-20
+        - name: Tinfoil
+          url: https://tinfoil.sh/
+          repo: https://github.com/tinfoilsh/tinfoil-webapp
+          description: Cloud AI chat and API that run models inside attested confidential-computing enclaves, so the operator can't read your prompts.
+          license: AGPL-3.0
+          tags:
+            - e2ee
+          added: 2025-10-20
+  - title: AI Coding
+    recommend:
+      entries:
+        - name: Aider
+          url: https://aider.chat
+          repo: https://github.com/Aider-AI/aider
+          description: Terminal pair programmer that edits code in your local git repository with the model you choose.
+          platforms:
+            - cli
+          license: Apache-2.0
+          added: 2026-07-04
+        - name: Cline
+          url: https://cline.bot/
+          repo: https://github.com/cline/cline
+          description: Coding agent for your editor that works with your own API keys or local models.
+          license: Apache-2.0
+          caveats:
+            - telemetry-opt-out
+          added: 2025-08-26
+          children:
+            - name: Zoo Code
+              url: https://www.zoocode.dev/
+              repo: https://github.com/Zoo-Code-Org/Zoo-Code
+              description: Community continuation of Roo Code, itself a Cline fork, after the Roo team archived it.
+              license: Apache-2.0
+              tags:
+                - fork
+              added: 2026-07-04
+        - name: OpenCode
+          url: https://opencode.ai/
+          repo: https://github.com/anomalyco/opencode
+          description: Coding agent that connects to local models or any of more than 75 model providers.
+          license: MIT
+          added: 2026-03-21
+        - name: Tabby
+          url: https://www.tabbyml.com/
+          repo: https://github.com/TabbyML/tabby
+          description: Self-hosted code completion server that runs on your own hardware, an alternative to GitHub Copilot.
+          tags:
+            - self-host
+          caveats:
+            - telemetry-opt-out
+            - website-trackers
+          added: 2026-07-04
+  - title: Text to Speech
+    recommend:
+      entries:
+        - name: Chatterbox
+          url: https://github.com/resemble-ai/chatterbox
+          repo: https://github.com/resemble-ai/chatterbox
+          description: Text-to-speech model with voice cloning that runs entirely on your own machine.
+          license: MIT
+          added: 2026-07-04
+        - name: eSpeak NG
+          url: https://github.com/espeak-ng/espeak-ng
+          repo: https://github.com/espeak-ng/espeak-ng
+          description: Compact offline speech synthesizer for more than a hundred languages, robotic-sounding but very light.
+          license: GPL-3.0
+          package_id: com.reecedunn.espeak
+          added: 2023-04-28
+          fdroid: true
+        - name: Kokoro FastAPI
+          url: https://github.com/remsky/Kokoro-FastAPI
+          repo: https://github.com/remsky/Kokoro-FastAPI
+          description: Self-hosted OpenAI-compatible server for the [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) text-to-speech model, on CPU or GPU.
+          license: Apache-2.0
+          added: 2025-08-26
+        - name: Piper
+          url: https://github.com/OHF-Voice/piper1-gpl
+          repo: https://github.com/OHF-Voice/piper1-gpl
+          description: Fast local neural text-to-speech that runs well even on a Raspberry Pi.
+          license: GPL-3.0
+          added: 2023-04-28
+  - title: Speech to Text
+    subsections:
+      - title: Models
+        recommend:
+          entries:
+            - name: FunASR
+              url: https://github.com/modelscope/FunASR
+              repo: https://github.com/modelscope/FunASR
+              description: Local speech recognition toolkit with voice detection, punctuation and speaker labels; it downloads models from ModelScope by default.
+              license: MIT
+              tags:
+                - offline
+              added: 2026-11-02
+            - name: Moonshine
+              url: https://moonshine.ai/
+              repo: https://github.com/moonshine-ai/moonshine
+              description: Speech recognition models built for fast, low-latency transcription on the device itself.
+              added: 2026-03-21
+            - name: OpenAI Whisper
+              url: https://github.com/openai/whisper
+              repo: https://github.com/openai/whisper
+              description: Speech recognition model you can run offline to transcribe many languages and translate them into English.
+              license: MIT
+              tags:
+                - offline
+              added: 2022-09-23
+              children:
+                - name: faster-whisper
+                  url: https://github.com/SYSTRAN/faster-whisper
+                  repo: https://github.com/SYSTRAN/faster-whisper
+                  description: Whisper reimplemented on CTranslate2, up to four times faster with less memory.
+                  license: MIT
+                  added: 2026-07-04
+                - name: whisper.cpp
+                  url: https://github.com/ggml-org/whisper.cpp
+                  repo: https://github.com/ggml-org/whisper.cpp
+                  description: C/C++ port of Whisper that runs efficiently on ordinary CPUs and GPUs.
+                  license: MIT
+                  added: 2023-04-28
+            - name: Parakeet TDT
+              url: https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3
+              description: NVIDIA speech recognition model that transcribes quickly and accurately on your own hardware.
+              added: 2026-03-21
+      - title: Apps and services
+        recommend:
+          entries:
+            - name: OpenWhispr
+              url: https://openwhispr.com/
+              repo: https://github.com/OpenWhispr/openwhispr
+              description: Desktop dictation app that can transcribe fully offline with local models, with cloud processing as an option.
+              platforms:
+                - linux
+                - macos
+                - windows
+              license: MIT
+              caveats:
+                - website-trackers
+              added: 2026-03-17
+            - name: Sasayaki
+              url: https://pluja.github.io/sasayaki/
+              repo: https://github.com/pluja/sasayaki
+              description: Tiny dictation app that types what you say using any OpenAI-compatible speech server, including your own.
+              platforms:
+                - android
+              added: 2026-03-21
+            - name: Vocalinux
+              url: https://vocalinux.com/
+              repo: https://github.com/VocaHQ/vocalinux
+              description: Voice dictation for Linux that types into any app, with speech recognition running on your computer.
+              platforms:
+                - linux
+              license: AGPL-3.0
+              tags:
+                - offline
+              caveats:
+                - website-trackers
+              added: 2026-11-04
+            - name: Speaches
+              url: https://speaches.ai/
+              repo: https://github.com/speaches-ai/speaches
+              description: Self-hosted OpenAI-compatible server for streaming transcription, translation and speech generation.
+              license: MIT
+              added: 2026-03-21
+  - title: Image Generation
+    recommend:
+      entries:
+        - name: ComfyUI
+          url: https://www.comfy.org/
+          repo: https://github.com/Comfy-Org/ComfyUI
+          description: Node-based interface for building image and video generation pipelines that run on your own machine.
+          license: GPL-3.0
+          caveats:
+            - website-trackers
+          added: 2025-08-26
+        - name: InvokeAI
+          url: https://github.com/invoke-ai/InvokeAI
+          repo: https://github.com/invoke-ai/InvokeAI
+          description: Local image generation studio with a canvas for editing, inpainting and outpainting.
+          license: Apache-2.0
+          added: 2025-08-26
+        - name: SwarmUI
+          url: https://github.com/mcmonkeyprojects/SwarmUI
+          repo: https://github.com/mcmonkeyprojects/SwarmUI
+          description: Local web interface for Stable Diffusion and other image models, running on a ComfyUI backend.
+          license: MIT
+          added: 2026-07-04

@@ -1,0 +1,56 @@
+title: Search Engines
+slug: search-engines
+intro: Your searches say more about you than almost anything else, and the big engines log them to build ad profiles. These don't profile you, and several run their own index instead of reselling Google's or Bing's results.
+avoid:
+  items:
+    - name: Google
+      reason: logs your searches and ties them to your Google account and ad profile.
+      tosdr: en_217
+    - name: Yahoo!
+      tosdr: en_309
+    - name: Bing
+    - name: Yandex
+      reason: Russian company, subject to laws that give the security services access to user data.
+      tosdr: en_860
+    - name: Ecosia
+      tosdr: en_591
+recommend:
+  entries:
+    - name: Brave Search
+      url: https://search.brave.com
+      description: Search engine with [its own independent index](https://brave.com/search-independence/), from the makers of Brave.
+      added: 2021-07-09
+    - name: DuckDuckGo
+      url: https://duckduckgo.com
+      description: Search engine that doesn't build a profile on you, with results drawn largely from Bing.
+      added: 2021-05-25
+    - name: Marginalia
+      url: https://marginalia-search.com/
+      repo: https://github.com/MarginaliaSearch/MarginaliaSearch
+      description: Independent search engine with its own crawler and index that favors text-heavy, non-commercial pages.
+      tags:
+        - self-host
+      added: 2026-07-04
+    - name: Mojeek
+      url: https://www.mojeek.com/
+      description: UK search engine with its own crawler and index and a no-tracking policy.
+      added: 2026-11-02
+    - name: Qwant
+      url: https://www.qwant.com/
+      description: French search engine, hosted in the EU, that doesn't track your searches.
+      added: 2020-12-07
+    - name: SearXNG
+      url: https://docs.searxng.org/
+      repo: https://github.com/searxng/searxng
+      description: Metasearch engine that queries other search services for you; use a [public instance](https://searx.space/) or host your own.
+      license: AGPL-3.0
+      tags:
+        - self-host
+      added: 2022-07-11
+    - name: YaCy
+      url: https://yacy.net/
+      repo: https://github.com/yacy/yacy_search_server
+      description: Peer-to-peer search engine where every user runs a node and shares the index.
+      tags:
+        - p2p
+      added: 2026-07-04

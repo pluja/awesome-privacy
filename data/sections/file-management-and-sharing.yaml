@@ -1,0 +1,150 @@
+title: File Management and Sharing
+slug: file-management-and-sharing
+intro: Upload-and-share services keep a readable copy of your files on their servers and fill their sites with trackers. Prefer tools that send files directly between devices, or encrypt them before they leave yours.
+avoid:
+  items:
+    - name: WeTransfer
+      reason: files are not end-to-end encrypted, the site carries many trackers, and its [privacy policy rates poorly](https://tosdr.org/en/service/214).
+    - name: SendAnywhere
+      reason: no end-to-end encryption, and the site loads trackers from Facebook and Google.
+recommend:
+  entries:
+    - name: Blaze
+      url: https://blaze.vercel.app/
+      repo: https://github.com/blenderskool/blaze
+      description: Peer-to-peer file sharing in the browser, between two or more devices at once.
+      license: MIT
+      status: inactive
+      caveats:
+        - website-trackers
+      added: 2021-02-10
+      tags:
+        - p2p
+    - name: Croc
+      url: https://github.com/schollz/croc
+      repo: https://github.com/schollz/croc
+      description: Sends files between two computers with end-to-end encryption, using a short code phrase.
+      license: MIT
+      platforms:
+        - cli
+      added: 2020-12-09
+      tags:
+        - e2ee
+    - name: Destiny
+      url: https://leastauthority.com/community-matters/destiny/
+      repo: https://github.com/LeastAuthority/destiny
+      description: Magic Wormhole app for sending end-to-end encrypted files without revealing who you are, built with human rights organisations.
+      license: MIT
+      added: 2023-03-06
+      tags:
+        - e2ee
+        - no-account
+    - name: Gokapi
+      url: https://github.com/Forceu/Gokapi
+      repo: https://github.com/Forceu/Gokapi
+      description: Lightweight self-hosted alternative to Firefox Send, where only you can upload and links expire.
+      license: AGPL-3.0
+      added: 2025-08-26
+      tags:
+        - self-host
+    - name: Lufi
+      url: https://framagit.org/fiat-tux/hat-softwares/lufi
+      repo: https://framagit.org/fiat-tux/hat-softwares/lufi
+      description: File sharing server that encrypts uploads in your browser, so the server never sees the contents.
+      added: 2020-12-09
+      tags:
+        - e2ee
+        - self-host
+    - name: Localsend
+      url: https://localsend.org/
+      repo: https://github.com/localsend/localsend
+      description: Shares files with nearby devices over your local network, with no internet connection or account needed.
+      license: Apache-2.0
+      package_id: org.localsend.localsend_app
+      added: 2023-03-22
+      tags:
+        - no-account
+      fdroid: true
+    - name: Magic Wormhole
+      url: https://github.com/magic-wormhole/magic-wormhole
+      repo: https://github.com/magic-wormhole/magic-wormhole
+      description: Sends files from one computer to another with end-to-end encryption, using a short one-time code.
+      license: MIT
+      platforms:
+        - cli
+      added: 2022-01-05
+      tags:
+        - e2ee
+    - name: OnionShare
+      url: https://github.com/onionshare/onionshare
+      repo: https://github.com/onionshare/onionshare
+      description: Shares files, hosts websites and runs chat rooms over Tor onion services, anonymously and without a third-party server.
+      added: 2021-06-07
+      tags:
+        - tor
+    - name: Paperless-ngx
+      url: https://github.com/paperless-ngx/paperless-ngx
+      repo: https://github.com/paperless-ngx/paperless-ngx
+      description: Self-hosted document manager that scans, indexes and archives your paperwork on your own server.
+      license: GPL-3.0
+      added: 2022-10-02
+      tags:
+        - self-host
+    - name: PairDrop
+      url: https://github.com/schlagmichdoch/PairDrop
+      repo: https://github.com/schlagmichdoch/PairDrop
+      description: Snapdrop fork that shares files in the browser on your local network, and with paired devices beyond it.
+      license: GPL-3.0
+      added: 2023-01-21
+      tags:
+        - fork
+    - name: QRcp
+      url: https://github.com/claudiodangelis/qrcp
+      repo: https://github.com/claudiodangelis/qrcp
+      description: Transfers files over Wi-Fi from your computer to your phone by scanning a QR code in the terminal.
+      license: MIT
+      platforms:
+        - cli
+      added: 2020-12-09
+    - name: Send
+      url: https://gitlab.com/timvisee/send
+      repo: https://gitlab.com/timvisee/send
+      description: Fork of Firefox Send that encrypts files in the browser and expires links after a set time or number of downloads.
+      added: 2021-05-09
+      tags:
+        - e2ee
+        - self-host
+        - fork
+    - name: Snapdrop
+      url: https://snapdrop.me
+      repo: https://github.com/RobinLinus/snapdrop
+      description: Local file sharing in the browser, inspired by Apple's AirDrop.
+      license: GPL-3.0
+      added: 2020-12-15
+      tags:
+        - self-host
+    - name: Winden
+      url: https://winden.app/
+      repo: https://github.com/LeastAuthority/winden
+      description: Magic Wormhole in the browser, for end-to-end encrypted transfers without installing anything.
+      license: MIT
+      added: 2023-03-06
+      tags:
+        - e2ee
+    - name: Yopass
+      url: https://github.com/jhaals/yopass
+      repo: https://github.com/jhaals/yopass
+      description: Shares encrypted secrets and files through one-time links that expire.
+      license: Apache-2.0
+      added: 2022-09-21
+      tags:
+        - e2ee
+        - self-host
+    - name: scrt.link
+      url: https://scrt.link/file
+      repo: https://github.com/stophecom/scrt-link-v2
+      description: End-to-end encrypted file transfer of up to 100 GB, stored in Switzerland for up to 30 days.
+      license: MIT
+      added: 2025-06-17
+      tags:
+        - e2ee

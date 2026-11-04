@@ -1,0 +1,100 @@
+header: |-
+  # Awesome Privacy
+  <p align="center"><img width="500" src="misc/logo.png"> </img></p>
+  <p align="center">
+  	<img src="https://awesome.re/badge.svg" alt="Awesome">
+  	<a href="https://codeberg.org/pluja/awesome-privacy"><img alt="Mirror" src="https://img.shields.io/badge/Mirror-Codeberg-blue"></img></a>
+  </p>
+  <p align="center">List of free, open source and privacy respecting services and alternatives to privative services.</p>
+  <p align="center">
+  	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/ABOUT.md"> About </a> | 
+  	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/Contributing.md"> Contributing </a> | 
+  	<a href="https://github.com/pluja/awesome-privacy/blob/main/misc/QUOTES.md"> Quotes </a> | 
+  	<a href="https://github.com/pluja/awesome-privacy/discussions"> Discussions </a>
+  </p>
+
+  > [!IMPORTANT]
+  > Anonymity, Privacy, and Security are often used interchangeably, but they actually represent distinct concepts. It is important to understand the differences between them. [Read more in this section below](#privacy-vs-security-vs-anonymity).
+  > 
+  > The primary focus of this list is to provide alternatives that prioritize privacy. These alternatives give you control over your data and do not collect or sell it.
+categories:
+  - name: 💬 Communication & Social
+    sections:
+      - instant-messaging
+      - mail-services
+      - online-phone-providers
+      - video-and-audio-conferencing
+      - teamworking-tools
+      - social-networks-and-platforms
+      - commenting-engines
+      - translation
+      - rss-readers
+  - name: 🌐 Networking & Web
+    sections:
+      - vpns
+      - web-browser
+      - search-engines
+      - domains-hosting
+      - link-shorteners
+      - link-in-bio-tools
+      - captchas
+      - analytics
+      - routers
+  - name: 🔐 Security & Encryption
+    sections:
+      - 2fa
+      - password-managers
+      - encryption
+      - pastebin-and-secret-sharing
+      - privacy-tools
+      - whistleblowing
+  - name: 📁 Files & Productivity
+    sections:
+      - cloud-storage
+      - file-management-and-sharing
+      - download-manager
+      - notes-and-tasks
+      - office
+      - pdf-tools
+      - calendar
+      - bookmarking
+      - forms
+      - databases
+  - name: 🎬 Media & Creative
+    sections:
+      - media-streaming-platforms
+      - music-recognition
+      - photo-storage
+      - photo-editing-and-management
+      - video-editing
+      - screen-recording
+      - design-tools
+      - creator-tools
+      - fonts
+      - games
+      - ebooks
+  - name: 📱 Mobile & OS
+    sections:
+      - android
+      - operating-systems
+      - home-assistants
+  - name: 🛠️ Developer & Self-hosting
+    sections:
+      - developer-tools
+      - version-control
+      - remote-access-and-control
+      - artificial-intelligence
+      - automation
+  - name: 💸 Money
+    sections:
+      - payments
+      - personal-finances
+  - name: 🧭 Everyday
+    sections:
+      - maps-and-navigation
+      - fitness-and-health
+      - dating-apps
+      - location-tracking
+      - utilities
+appendix:
+  - privacy-vs-security-vs-anonymity

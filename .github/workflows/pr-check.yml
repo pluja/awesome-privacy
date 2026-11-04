@@ -1,0 +1,69 @@
+name: PR Check
+
+# Runs the pull request's own code with a read-only token. It writes a report as an
+# artifact; pr-comment.yml (privileged, never runs PR code) posts it on the PR.
+
+on:
+  pull_request:
+    paths:
+      - "data/**"
+      - "schema/**"
+      - "scripts/**"
+      - "README.md"
+      - "package.json"
+      - "package-lock.json"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Check the PR
+        id: report
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: node scripts/pr-report.ts --base "$BASE_SHA" --out pr-report.md
+
+      - name: Save the report for the comment workflow
+        if: always()
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          mkdir -p report
+          echo "$PR_NUMBER" > report/pr-number
+          if [ -f pr-report.md ]; then cp pr-report.md report/; fi
+
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        if: always()
+        with:
+          name: pr-report
+          path: report/
+          retention-days: 7
+
+      - name: Fail if the PR needs changes before review
+        if: steps.report.outcome == 'failure'
+        run: |
+          if [ -f pr-report.md ]; then
+            echo "::error::The data doesn't validate or README.md was edited by hand. See the PR comment."
+          else
+            echo "::error::The check itself crashed before writing a report. See the 'Check the PR' step log."
+          fi
+          exit 1

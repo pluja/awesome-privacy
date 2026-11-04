@@ -1,0 +1,28 @@
+title: Utilities
+slug: utilities
+recommend:
+  entries:
+    - name: Deskreen
+      url: https://deskreen.com/
+      repo: https://github.com/pavlobu/deskreen
+      description: Turns any device with a web browser into a second screen for your computer over the local network.
+      platforms:
+        - desktop
+      license: AGPL-3.0
+      caveats:
+        - website-trackers
+      added: 2021-02-10
+    - name: JustDeleteMe
+      url: https://justdeleteme.xyz/
+      repo: https://github.com/jdm-contrib/jdm
+      description: Directory of direct links for deleting your accounts from web services, rated by difficulty; sister project [JustGetMyData](https://github.com/daviddavo/jgmd) covers getting your data out.
+      license: MIT
+      added: 2026-11-02
+    - name: OpenTabletDriver
+      url: https://opentabletdriver.net/
+      repo: https://github.com/OpenTabletDriver/OpenTabletDriver
+      description: User-mode driver for drawing tablets that replaces vendor drivers, some of which [report every app you open](https://robertheaton.com/2020/02/05/wacom-drawing-tablets-track-name-of-every-application-you-open/).
+      platforms:
+        - desktop
+      license: LGPL-3.0
+      added: 2026-11-02

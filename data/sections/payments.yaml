@@ -1,0 +1,85 @@
+title: Payments
+slug: payments
+intro: Cards, PayPal and bank transfers tie every purchase to your name and leave a record with several companies. Cash and private cryptocurrencies like Monero let you pay without that trail.
+callouts:
+  - type: warning
+    text: "[Bitcoin](https://bitcoin.org) is not anonymous or private: it is pseudonymous, and every transaction is public and traceable. For a basic introduction, [see aantonop's video](https://yewtu.be/watch?v=JN1Bowgcle8). More advanced users can watch this [Bitcoin privacy series](https://yewtu.be/watch?v=QEnL5k0R08w)."
+avoid:
+  items:
+    - name: Visa / Mastercard
+      reason: every purchase is logged by your bank and the card network, tied to your name.
+    - name: PayPal
+      reason: requires identity verification and keeps a full record of who you pay.
+      tosdr: en_230
+    - name: WeChat
+      reason: payments require a real-name verified account.
+    - name: _insertBigTechHere_Pay
+    - name: Bank payments (wire, SEPA, etc)
+      reason: every transfer carries your name and account number.
+recommend:
+  entries:
+    - name: Monero
+      url: https://www.getmonero.org/
+      repo: https://github.com/monero-project/monero
+      description: Cryptocurrency that hides the sender, receiver and amount of every transaction by default.
+      added: 2021-02-03
+    - name: Cash
+      description: Paying in person with notes and coins leaves no record linked to you.
+      added: 2021-02-03
+subsections:
+  - title: Wallets
+    recommend:
+      entries:
+        - name: Sparrow Wallet
+          url: https://www.sparrowwallet.com/
+          repo: https://github.com/sparrowwallet/sparrow
+          description: Bitcoin desktop wallet with coin control and support for connecting to your own node.
+          platforms:
+            - desktop
+          license: Apache-2.0
+          added: 2023-01-05
+        - name: Wasabi Wallet
+          url: https://www.wasabiwallet.io/
+          repo: https://github.com/WalletWasabi/WalletWasabi
+          description: Non-custodial Bitcoin desktop wallet with built-in Tor and coinjoin support.
+          platforms:
+            - desktop
+          license: MIT
+          added: 2023-01-10
+        - name: Cake Wallet
+          url: https://cakewallet.com
+          repo: https://github.com/cake-tech/cake_wallet
+          description: Non-custodial wallet for Monero, Bitcoin and other coins.
+          license: MIT
+          added: 2026-07-04
+        - name: Feather Wallet
+          url: https://featherwallet.org/
+          repo: https://github.com/feather-wallet/feather
+          description: Lightweight Monero desktop wallet with built-in Tor and coin control.
+          platforms:
+            - desktop
+          license: BSD-3-Clause
+          added: 2026-07-04
+  - title: Payment Processors
+    recommend:
+      entries:
+        - name: BTCPay Server
+          url: https://btcpayserver.org
+          repo: https://github.com/btcpayserver/btcpayserver
+          description: Self-hosted, non-custodial processor for accepting Bitcoin and other cryptocurrencies without a middleman.
+          license: MIT
+          tags:
+            - self-host
+          added: 2026-07-04
+  - title: Where to use Monero and Bitcoin
+    recommend:
+      entries:
+        - name: kycnot.me
+          url: https://kycnot.me/
+          repo: https://github.com/pluja/kycnot.me
+          description: Directory of exchanges, payment processors and other services that don't require identity verification (KYC).
+          caveats:
+            - source-available
+          tags:
+            - no-kyc
+          added: 2026-07-04

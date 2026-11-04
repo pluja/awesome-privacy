@@ -1,0 +1,87 @@
+title: Office
+slug: office
+intro: Cloud office suites keep your documents on the provider's servers in a form it can read. Prefer an offline suite, or a collaborative one that encrypts documents end to end or runs on your own server.
+avoid:
+  items:
+    - name: Microsoft Office
+      reason: closed source, and documents saved to OneDrive are not end-to-end encrypted.
+      tosdr: en_244
+    - name: Google Docs
+      reason: documents are stored on Google's servers without end-to-end encryption.
+      tosdr: en_217
+recommend:
+  entries:
+    - name: LibreOffice
+      url: https://www.libreoffice.org/
+      repo: https://github.com/LibreOffice/core
+      description: Full desktop office suite that works entirely offline and opens Microsoft Office formats.
+      license: GPL-3.0
+      platforms:
+        - desktop
+      added: 2020-12-13
+      tags:
+        - offline
+    - name: OnlyOffice
+      url: https://www.onlyoffice.com/
+      repo: https://github.com/ONLYOFFICE/DocumentServer
+      description: Office suite built around Microsoft formats, with a document server you can host for real-time collaboration.
+      license: AGPL-3.0
+      caveats:
+        - website-trackers
+      added: 2020-12-13
+      tags:
+        - self-host
+    - name: CryptPad
+      url: https://cryptpad.org/
+      repo: https://github.com/cryptpad/cryptpad
+      description: Collaborative documents, spreadsheets and more, end-to-end encrypted so the server can't read them.
+      license: AGPL-3.0
+      added: 2021-02-03
+      tags:
+        - e2ee
+        - self-host
+    - name: Etherpad
+      url: https://etherpad.org/
+      repo: https://github.com/ether/etherpad
+      description: Self-hosted editor for writing documents together in real time.
+      license: Apache-2.0
+      added: 2021-06-03
+      tags:
+        - self-host
+    - name: Fileverse
+      url: https://fileverse.io
+      description: End-to-end encrypted workspace and collaboration apps, as an alternative to Google Workspace.
+      added: 2025-07-21
+      tags:
+        - e2ee
+      children:
+        - name: dDocs
+          url: https://ddocs.new
+          repo: https://github.com/fileverse/fileverse-ddocs
+          description: End-to-end encrypted, decentralized alternative to Google Docs.
+          license: AGPL-3.0
+          added: 2025-07-21
+          tags:
+            - e2ee
+          children:
+            - name: dSheets
+              url: https://sheets.fileverse.io
+              repo: https://github.com/fileverse/fileverse-dsheets
+              description: Decentralized alternative to Excel and Google Sheets.
+              license: AGPL-3.0
+              added: 2025-07-21
+    - name: Grist
+      url: https://www.getgrist.com
+      repo: https://github.com/gristlabs/grist-core
+      description: Spreadsheet and database hybrid you can host yourself, as an Airtable alternative.
+      license: Apache-2.0
+      caveats:
+        - website-trackers
+      added: 2026-07-04
+      tags:
+        - self-host
+    - name: Collabora Office
+      url: https://www.collaboraonline.com/collabora-office/
+      repo: https://github.com/CollaboraOnline/online
+      description: LibreOffice-based office suite for desktop and mobile, from the team behind Collabora Online.
+      added: 2026-11-02

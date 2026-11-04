@@ -1,0 +1,112 @@
+title: Games
+slug: games
+intro: Big-name games and engines often come with mandatory accounts, telemetry and paid online plans. These open alternatives play in a similar spirit without any of that.
+subsections:
+  - title: Mario Kart
+    intro: Nintendo [collects data from Switch owners](https://www.reddit.com/r/privacy/comments/qtj9xt/til_nintendo_collects_data_from_switch_owners/), and an update [turned data sharing back on](https://www.altchar.com/game-news/the-latest-nintendo-switch-update-secretly-turns-on-user-data-sharing-adSyV7t35NPg) for people who had disabled it. Online play also needs a paid subscription.
+    recommend:
+      entries:
+        - name: Dr. Robotnik's Ring Racers
+          url: https://www.kartkrew.org/
+          repo: https://github.com/KartKrewDev/RingRacers
+          description: Technical kart racer built on the Sonic Robo Blast 2 engine, the sequel to SRB2Kart.
+          license: GPL-2.0
+          added: 2026-11-02
+        - name: SuperTuxKart
+          url: https://supertuxkart.net/Main_Page
+          repo: https://github.com/supertuxkart/stk-code
+          description: 3D arcade kart racer with many characters, tracks and modes, including online play.
+          package_id: org.supertuxkart.stk
+          added: 2022-03-09
+          fdroid: true
+  - title: Minecraft
+    intro: Minecraft needs a Microsoft account, and Microsoft has [forced](https://github.com/MultiMC/Launcher/issues/4093) [players](https://www.reddit.com/r/privacy/comments/e6x27o/microsoft_forcing_me_to_give_then_my_phone_number/) to hand over a phone number to keep it. Since snapshot 21w38a the game also sends [telemetry you can't turn off](https://bugs.mojang.com/browse/MC-237493).
+    avoid:
+      items:
+        - name: Minecraft
+          reason: requires a Microsoft account since 2022 and falls under [Microsoft's privacy statement](https://privacy.microsoft.com/en-us/privacystatement).
+          tosdr: en_244
+    recommend:
+      entries:
+        - name: Cubyz
+          url: https://github.com/PixelGuys/Cubyz
+          repo: https://github.com/PixelGuys/Cubyz
+          description: Voxel sandbox game with far view distances, 3D chunks and procedural crafting.
+          license: GPL-3.0
+          added: 2026-11-02
+        - name: Luanti
+          url: https://www.luanti.org/
+          repo: https://github.com/luanti-org/luanti
+          description: Voxel game engine and platform for Minecraft-like games and mods, formerly Minetest.
+          package_id: net.minetest.minetest
+          added: 2025-06-17
+          children:
+            - name: Mineclonia
+              url: https://content.luanti.org/packages/ryvnf/mineclonia/
+              repo: https://codeberg.org/mineclonia/mineclonia
+              description: Minecraft-like survival game for Luanti, a fork of MineClone2 focused on stability and multiplayer performance.
+              added: 2024-01-02
+          fdroid: true
+    subsections:
+      - title: Plugins for Minecraft
+        intro: If you still play Minecraft, these mods and tools claw back a little privacy, though you are still supporting Microsoft.
+        recommend:
+          entries:
+            - name: FreedomChat
+              url: https://github.com/ocelotpotpie/FreedomChat
+              repo: https://github.com/ocelotpotpie/FreedomChat
+              description: Server plugin that makes player chat unreportable while staying compatible with other plugins.
+              license: GPL-3.0
+              added: 2023-06-17
+            - name: No Chat Reports
+              url: https://github.com/Aizistral-Studios/No-Chat-Reports
+              repo: https://github.com/Aizistral-Studios/No-Chat-Reports
+              description: Mod that strips the signatures from your chat messages, so they can't be tied to your Microsoft account or reported.
+              license: WTFPL
+              added: 2022-07-21
+            - name: No Telemetry
+              url: https://github.com/kb-1000/no-telemetry
+              repo: https://github.com/kb-1000/no-telemetry
+              description: Mod that turns off the telemetry added in Minecraft 1.18 (snapshot 21w38a).
+              license: MPL-2.0
+              added: 2022-06-27
+            - name: Prism Launcher
+              url: https://prismlauncher.org/
+              repo: https://github.com/PrismLauncher/PrismLauncher
+              description: Launcher for managing multiple instances and mods without the official launcher.
+              platforms:
+                - linux
+                - macos
+                - windows
+              license: GPL-3.0
+              added: 2026-11-02
+  - title: Pokemon
+    intro: Nintendo [collects data from Switch owners](https://www.reddit.com/r/privacy/comments/qtj9xt/til_nintendo_collects_data_from_switch_owners/), and an update [turned data sharing back on](https://www.altchar.com/game-news/the-latest-nintendo-switch-update-secretly-turns-on-user-data-sharing-adSyV7t35NPg) for people who had disabled it. Online play also needs a paid subscription.
+    recommend:
+      entries:
+        - name: Pokete
+          url: https://github.com/lxgr-linux/pokete
+          repo: https://github.com/lxgr-linux/pokete
+          description: Small terminal game in the style of the classic Pokemon games.
+          platforms:
+            - cli
+          license: GPL-3.0
+          added: 2022-11-23
+  - title: Sonic the Hedgehog
+    recommend:
+      entries:
+        - name: Sonic Robo Blast 2
+          url: https://www.srb2.org/
+          repo: https://github.com/STJr/SRB2
+          description: 3D Sonic the Hedgehog fan game built on a modified Doom Legacy engine.
+          license: GPL-2.0
+          added: 2022-09-21
+  - title: Unity / Unreal Engine
+    recommend:
+      entries:
+        - name: Godot Engine
+          url: https://godotengine.org/
+          repo: https://github.com/godotengine/godot
+          description: 2D and 3D game engine with no account, royalties or telemetry.
+          license: MIT
+          added: 2026-11-02

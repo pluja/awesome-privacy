@@ -1,0 +1,69 @@
+title: Location tracking
+slug: location-tracking
+intro: Your location history shows where you live, work and sleep. These tools record it on your own device or server rather than a Google account.
+avoid:
+  items:
+    - name: Google location history
+      tosdr: en_217
+    - name: Google Find Hub (formerly Find My Device)
+      tosdr: en_217
+subsections:
+  - title: Tracking
+    recommend:
+      entries:
+        - name: Nextcloud PhoneTrack
+          url: https://apps.nextcloud.com/apps/phonetrack
+          repo: https://github.com/julien-nc/phonetrack
+          description: Nextcloud app for your location history, fed by its [Android app](https://gitlab.com/eneiluj/phonetrack-android) or [other loggers](https://github.com/julien-nc/phonetrack/blob/main/doc/user.md#logging-methods), which can cache positions offline and upload them in batches.
+          license: AGPL-3.0
+          tags:
+            - offline
+          added: 2021-06-07
+        - name: OwnTracks
+          url: https://owntracks.org/
+          repo: https://github.com/owntracks/android
+          description: Phone app that sends your location to your own server, focused on where you are now rather than full history.
+          platforms:
+            - android
+            - ios
+          license: EPL-1.0
+          package_id: org.owntracks.android
+          added: 2021-06-07
+          fdroid: true
+        - name: Traccar
+          url: https://www.traccar.org/
+          repo: https://github.com/traccar/traccar
+          description: Self-hosted GPS tracking server, made for dedicated GPS tracking devices.
+          license: Apache-2.0
+          caveats:
+            - website-trackers
+          tags:
+            - self-host
+          added: 2021-06-07
+        - name: Dawarich
+          url: https://dawarich.app
+          repo: https://github.com/Freika/dawarich
+          description: Self-hosted alternative to Google Timeline for storing and browsing your location history.
+          license: AGPL-3.0
+          tags:
+            - self-host
+          added: 2024-09-05
+  - title: Find My Device
+    recommend:
+      entries:
+        - name: Find My Device
+          url: https://fmd-foss.org/
+          repo: https://gitlab.com/fmd-foss/fmd-android
+          description: Locate and control your Android phone remotely over SMS, messengers or a self-hosted FMD Server.
+          platforms:
+            - android
+          added: 2021-06-07
+        - name: GPSLogger
+          url: https://gpslogger.app/
+          repo: https://github.com/mendhak/gpslogger
+          description: Lightweight GPS logger that saves your tracks to local files, with optional uploads to places you choose.
+          platforms:
+            - android
+          package_id: com.mendhak.gpslogger
+          added: 2022-11-17
+          fdroid: true

@@ -1,0 +1,44 @@
+title: Creator Tools
+slug: creator-tools
+intro: Riverside.fm, Restream and Camtasia are closed source, and the hosted ones route your recordings and guests through their servers. These tools run locally or connect people peer to peer.
+recommend:
+  entries:
+    - name: OBS Studio
+      url: https://obsproject.com/
+      repo: https://github.com/obsproject/obs-studio
+      description: Video recording and live streaming studio that records everything locally.
+      platforms:
+        - linux
+        - macos
+        - windows
+      license: GPL-2.0
+      caveats:
+        - website-trackers
+      added: 2023-10-08
+    - name: Screenity
+      url: https://screenity.io/
+      repo: https://github.com/alyssaxuu/screenity
+      description: Screen recorder and annotation tool for Chrome that keeps your videos on your device, with no sign-in.
+      platforms:
+        - browser
+      license: GPL-3.0
+      tags:
+        - no-account
+      added: 2025-07-21
+    - name: VDO.Ninja
+      url: https://vdo.ninja/
+      repo: https://github.com/steveseguin/vdo.ninja
+      description: Brings remote cameras and guests into OBS or other studio software over peer-to-peer WebRTC.
+      platforms:
+        - web
+      license: AGPL-3.0
+      tags:
+        - p2p
+      added: 2023-10-08
+      children:
+        - name: Social Stream Ninja
+          url: https://socialstream.ninja/
+          repo: https://github.com/steveseguin/social_stream
+          description: Gathers live chat from many streaming platforms into one feed and overlay.
+          license: GPL-3.0
+          added: 2023-10-08

@@ -1,0 +1,176 @@
+title: Operating Systems
+slug: operating-systems
+intro: The operating system sees everything you do on a device. These replace or strip down the systems that report back to Google, Apple and Microsoft.
+subsections:
+  - title: Android
+    avoid:
+      intro: Avoid Google's Android and the versions phone makers such as Samsung, Xiaomi or Huawei ship, which send data to their servers. The systems below build on the open source [AOSP](https://source.android.com/) without that.
+      items: []
+    callouts:
+      - type: note
+        text: "**App compatibility**: without Google Mobile Services, some apps won't work. [Plexus](https://plexus.techlore.tech/) collects community reports on how apps run with microG or with no Google services at all."
+      - type: note
+        text: "**Security**: a custom ROM can improve your privacy and still weaken security. Pick one that supports verified boot and encryption and doesn't enable root by default, and avoid userdebug builds. If security matters most, use GrapheneOS on a Google Pixel. [More on Privacy Guides](https://www.privacyguides.org/en/os/android-overview/)."
+    subsections:
+      - title: Android-Based
+        intro: "**GrapheneOS** is the pick for security: its hardening and exploit mitigations make vulnerabilities much harder to exploit, both in the OS and in the apps running on it."
+        recommend:
+          entries:
+            - name: /e/OS
+              url: https://e.foundation/e-os/
+              repo: https://gitlab.e.foundation/e
+              description: Degoogled Android from Murena that bundles microG and optional Murena cloud services.
+              added: 2026-07-04
+            - name: CalyxOS
+              url: https://calyxos.org/
+              repo: https://gitlab.com/CalyxOS
+              description: Degoogled Android with optional microG, for Pixel, Fairphone and Motorola phones.
+              added: 2020-12-08
+            - name: GrapheneOS
+              url: https://grapheneos.org/
+              repo: https://github.com/GrapheneOS
+              description: Hardened Android with optional sandboxed Google Play, for **Google Pixel** phones only.
+              added: 2020-12-08
+            - name: iodéOS
+              url: https://iode.tech/iodeos/
+              repo: https://gitlab.com/iode
+              description: Degoogled Android with a built-in firewall that blocks ads and trackers across apps.
+              added: 2026-07-04
+            - name: LineageOS
+              url: https://lineageos.org/
+              repo: https://github.com/LineageOS
+              description: Community Android distribution that keeps a wide range of devices updated after their makers stop.
+              added: 2020-12-08
+            - name: LineageOS for microG
+              url: https://lineage.microg.org/
+              repo: https://github.com/lineageos4microg
+              description: LineageOS builds that ship microG instead of Google Play Services, with F-Droid included.
+              added: 2026-11-02
+        notes: The other ROMs support many more devices and offer good privacy, but they can be less secure than GrapheneOS, with a larger attack surface.
+      - title: Based on Linux
+        recommend:
+          entries:
+            - name: Mobian
+              url: https://mobian-project.org/
+              repo: https://salsa.debian.org/Mobian-team
+              description: Debian packaged for mobile devices such as the PinePhone and Librem 5.
+              added: 2021-02-03
+            - name: Nura
+              url: https://nura.eco/
+              repo: https://gitlab.postmarketos.org/postmarketOS/pmaports
+              description: Alpine Linux tuned for phones and other devices, built to keep old hardware useful, formerly postmarketOS.
+              added: 2020-12-09
+            - name: Plasma Mobile
+              url: https://plasma-mobile.org/
+              repo: https://invent.kde.org/plasma-mobile
+              description: KDE's Plasma desktop adapted for phones, offered by distributions such as Nura.
+              added: 2020-12-15
+            - name: PureOS
+              url: https://www.pureos.net/
+              repo: https://source.puri.sm/pureos
+              description: Purism's Debian-based system for its Librem laptops and the Librem 5 phone.
+              added: 2020-12-09
+            - name: Ubuntu Touch
+              url: https://ubports.com/
+              repo: https://gitlab.com/ubports
+              description: Mobile version of Ubuntu, maintained by the UBports community.
+              added: 2020-12-08
+  - title: Smart TV
+    avoid:
+      intro: Avoid Android TV, LG webOS and the other systems preinstalled on smart TVs.
+      items: []
+    recommend:
+      entries:
+        - name: Kodi
+          url: https://kodi.tv/
+          repo: https://github.com/xbmc/xbmc
+          description: Media center that plays your local and network media libraries on almost any device.
+          added: 2020-12-08
+        - name: LibreELEC
+          url: https://libreelec.tv/
+          repo: https://github.com/LibreELEC/LibreELEC.tv
+          description: Minimal Linux system that boots straight into Kodi on Raspberry Pi, x86 and other devices.
+          added: 2026-11-02
+        - name: OSMC
+          url: https://osmc.tv/
+          repo: https://github.com/osmc/osmc
+          description: Kodi-based media center system for the Raspberry Pi and OSMC's own Vero boxes.
+          license: GPL-2.0
+          added: 2020-12-08
+    notes: |-
+      Kodi is an app, not an operating system, so you can also build your own setup: a [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) running Linux, plugged into your TV, with [KDE Connect](https://kdeconnect.kde.org/) to control playback from your phone.
+
+      See also [Media Streaming Platforms](#media-streaming-platforms).
+  - title: PC / MacOS
+    avoid:
+      items:
+        - name: MS Windows
+          reason: collects a lot of user data and pushes you into a Microsoft account. If you stay on Windows 10 or 11, [Win11Debloat](https://github.com/Raphire/Win11Debloat) or [W10Privacy](https://www.w10privacy.de/english-home/) can turn off many of its privacy-invasive settings.
+        - name: macOS
+    subsections:
+      - title: "[GNU/Linux](https://www.linux.com/what-is-linux/)"
+        intro: "GNU/Linux is a family of open source operating systems, mostly built by their communities. Good places to start:"
+        recommend:
+          entries:
+            - name: Fedora
+              url: https://fedoraproject.org/
+              description: Community distribution sponsored by Red Hat, with recent software on a six-month release cycle.
+              added: 2022-09-29
+            - name: Kicksecure
+              url: https://www.kicksecure.com/
+              repo: https://github.com/Kicksecure
+              description: Debian hardened by the Whonix developers, with security settings turned on by default.
+              added: 2026-09-30
+            - name: Mint (Cinnamon)
+              url: https://linuxmint.com/
+              repo: https://github.com/linuxmint
+              description: Beginner-friendly distribution based on Ubuntu, with a desktop that feels familiar to Windows users.
+              added: 2022-09-29
+            - name: Qubes OS
+              url: https://www.qubes-os.org/
+              repo: https://github.com/QubesOS
+              description: Runs each part of your digital life in its own isolated virtual machine, so one compromise doesn't spread.
+              added: 2024-04-04
+            - name: secureblue
+              url: https://secureblue.dev/
+              repo: https://github.com/secureblue/secureblue
+              description: Hardened images built on Fedora Atomic Desktops, with security-focused defaults and a hardened browser.
+              license: Apache-2.0
+              added: 2026-09-30
+            - name: Tails
+              url: https://tails.net/
+              repo: https://gitlab.tails.net/tails/tails
+              description: Portable system that routes everything through Tor and forgets everything when you shut it down.
+              added: 2024-04-04
+            - name: Whonix
+              url: https://www.whonix.org/
+              repo: https://github.com/Whonix
+              description: Runs inside virtual machines and forces every connection through Tor, so apps can't leak your real IP.
+              added: 2026-09-30
+        callouts:
+          - type: tip
+            text: To try a distribution without installing it, boot it from a [live USB stick](https://www.fosslinux.com/274/how-to-create-linux-mint-live-usb-drive-on-windows.htm), or use [Ventoy](https://www.ventoy.net) to keep several on one stick.
+          - type: tip
+            text: To keep your current system, install Linux alongside it with [dual boot](https://averagelinuxuser.com/dualboot-linux-windows/).
+          - type: note
+            text: Distributions differ in how free they are and how well they respect your privacy, so read up before you pick one.
+      - title: Other OS
+        recommend:
+          entries:
+            - name: AtlasOS
+              url: https://atlasos.net/
+              repo: https://github.com/Atlas-OS/Atlas
+              description: Modified Windows that strips out built-in tracking and tunes it for performance and latency.
+              license: GPL-3.0
+              added: 2023-01-01
+            - name: ReactOS
+              url: https://reactos.org/
+              repo: https://github.com/reactos/reactos
+              description: Reimplementation of Windows that can run Windows apps and drivers, still in alpha.
+              license: GPL-2.0
+              added: 2021-09-26
+            - name: RedoxOS
+              url: https://www.redox-os.org/
+              repo: https://gitlab.redox-os.org/redox-os/redox
+              description: Unix-like operating system written in Rust, still in development.
+              added: 2022-09-29

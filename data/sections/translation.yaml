@@ -1,0 +1,71 @@
+title: Translation
+slug: translation
+intro: Online translators keep the text you paste in, which often includes private messages and documents. Translating on your own device, or through a self-hosted or proxy frontend, keeps that text away from big providers.
+avoid:
+  items:
+    - name: Google Translate
+      tosdr: en_217
+    - name: DeepL
+    - name: Bing Translator
+      tosdr: en_244
+subsections:
+  - title: Text translation
+    recommend:
+      entries:
+        - name: LibreTranslate
+          url: https://libretranslate.com/
+          repo: https://github.com/LibreTranslate/LibreTranslate
+          description: Self-hosted machine translation API and web app with no ties to proprietary services.
+          license: AGPL-3.0
+          tags:
+            - self-host
+          added: 2020-12-22
+        - name: Apertium
+          url: https://apertium.org/
+          repo: https://github.com/apertium/apertium
+          description: Rule-based machine translation platform that can run offline on your computer.
+          license: GPL-2.0
+          tags:
+            - offline
+          added: 2020-12-22
+        - name: Softcatala
+          url: https://www.softcatala.org/traductor/
+          description: Online translator between Catalan and languages such as Spanish, English, French and Portuguese, run by a nonprofit.
+          caveats:
+            - website-trackers
+          added: 2020-12-22
+        - name: TranslateLocally
+          url: https://github.com/XapaJIaMnu/translateLocally
+          repo: https://github.com/XapaJIaMnu/translateLocally
+          description: Desktop app for neural machine translation that runs entirely offline on your computer.
+          license: MIT
+          tags:
+            - offline
+          added: 2021-08-15
+        - name: Linguist
+          url: https://linguister.io
+          repo: https://github.com/translate-tools/linguist
+          description: Browser extension for translating pages and selected text, with a built-in offline translator and [custom translators](https://linguister.io/docs/CustomTranslator).
+          platforms:
+            - browser
+          license: BSD-3-Clause
+          tags:
+            - offline
+          added: 2025-08-26
+  - title: Alternative Google Translate frontends
+    recommend:
+      entries:
+        - name: SimplyTranslate
+          url: https://simplytranslate.org/
+          repo: https://codeberg.org/ManeraKai/simplytranslate
+          description: Frontend that proxies your requests to Google Translate and other engines.
+          tags:
+            - self-host
+          added: 2021-05-25
+        - name: Mozhi
+          url: https://codeberg.org/aryak/mozhi
+          repo: https://codeberg.org/aryak/mozhi
+          description: Frontend that proxies Google Translate, DeepL, Yandex and other engines behind one interface.
+          tags:
+            - self-host
+          added: 2026-07-04

@@ -3,17 +3,31 @@ name: Mirror to Codeberg
 on:
   push:
     branches: [ "main" ]
+  # Commits pushed by the Build README workflow don't trigger push workflows.
+  workflow_run:
+    workflows: ["Build README"]
+    types: [completed]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mirror
+  cancel-in-progress: false
 
 jobs:
   mirror:
+    if: github.event_name == 'push' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
         with:
+          ref: main
           fetch-depth: 0
 
       - name: Mirror to Codeberg
-        uses: yesolutions/mirror-action@master
+        # Pinned: this third-party action receives the Codeberg token.
+        uses: yesolutions/mirror-action@662fce0eced8996f64d7fa264d76cddd84827f33 # master, 2025-08-11
         with:
           REMOTE: 'https://codeberg.org/pluja/awesome-privacy.git'
           GIT_USERNAME: pluja

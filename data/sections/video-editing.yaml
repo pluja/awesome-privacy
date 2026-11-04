@@ -1,0 +1,50 @@
+title: Video Editing
+slug: video-editing
+intro: Commercial video editors are closed source and often tied to an online account, and Adobe has a [long record of anti-user practices](https://www.gnu.org/proprietary/malware-adobe.html). These editors run locally and need no account.
+avoid:
+  items:
+    - name: Adobe Premiere Pro
+      reason: closed source and tied to a Creative Cloud account.
+      tosdr: en_417
+    - name: Sony Vegas
+    - name: DaVinci Resolve
+recommend:
+  entries:
+    - name: Kdenlive
+      url: https://kdenlive.org/
+      repo: https://github.com/KDE/kdenlive
+      description: Non-linear video editor from KDE.
+      platforms:
+        - linux
+        - macos
+        - windows
+      license: GPL-3.0
+      added: 2022-01-24
+    - name: LosslessCut
+      url: https://github.com/mifi/lossless-cut
+      repo: https://github.com/mifi/lossless-cut
+      description: FFmpeg front end for fast, lossless trimming and cutting of video and audio files.
+      platforms:
+        - linux
+        - macos
+        - windows
+      license: GPL-2.0
+      added: 2023-01-12
+    - name: OpenCut
+      url: https://opencut.app/
+      repo: https://github.com/OpenCut-app/OpenCut
+      description: CapCut alternative, still in beta.
+      license: MIT
+      added: 2025-07-21
+    - name: Shotcut
+      url: https://www.shotcut.org/
+      repo: https://github.com/mltframework/shotcut
+      description: Cross-platform video editor with wide format support.
+      platforms:
+        - linux
+        - macos
+        - windows
+      license: GPL-3.0
+      caveats:
+        - website-trackers
+      added: 2022-01-24

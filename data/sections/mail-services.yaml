@@ -1,0 +1,162 @@
+title: Mail Services
+slug: mail-services
+intro: |-
+  Free webmail is paid for with your data. And email itself was never built for privacy: unless both sides use the same encrypted provider or [PGP](https://ssd.eff.org/module/deep-dive-end-end-encryption-how-do-public-key-encryption-systems-work), every message reaches the provider in a readable form, and the sender and their provider keep a copy too. A provider that encrypts your mailbox protects what's stored there afterwards, from a breach or a later request for your data, not the message on its way in. So pick one that doesn't profile you, asks for as little as possible about you, and encrypts what it stores, or run your own server. For anything really sensitive, use an encrypted messenger instead.
+callouts:
+  - type: tip
+    text: An old mailbox is an archive of your life on someone else's server. Moving mail you've dealt with to your own encrypted device limits what a breach or a court order can expose. [Here's why and how](https://xn--gckvb8fzb.com/inbox-zero-for-privacy-not-productivity/).
+avoid:
+  items:
+    - name: Gmail
+    - name: Outlook
+    - name: Yandex Mail
+    - name: Yahoo! Mail
+subsections:
+  - title: Third-Party owned
+    recommend:
+      entries:
+        - name: Forward Email
+          url: https://forwardemail.net
+          repo: https://github.com/forwardemail/forwardemail.net
+          description: Email forwarding and hosting for your own domain, with its server code published.
+          caveats:
+            - source-available
+          added: 2023-02-22
+        - name: Proton Mail
+          url: https://proton.me/mail
+          repo: https://github.com/ProtonMail/WebClients
+          description: Email from Switzerland, end-to-end encrypted between Proton users and with PGP, and stored encrypted otherwise, where a court order can still force it to log your IP ([2021 case](https://proton.me/blog/climate-activist-arrest)).
+          license: GPL-3.0
+          tags:
+            - e2ee
+          added: 2021-05-18
+        - name: Tuta
+          url: https://tuta.com/
+          repo: https://github.com/tutao/tutanota
+          description: Email and calendar from Germany, end-to-end encrypted between Tuta users, that stores everything encrypted, subject lines included.
+          license: GPL-3.0
+          tags:
+            - e2ee
+          added: 2024-04-15
+        - name: mailbox.org
+          url: https://mailbox.org/
+          description: Paid email, calendar and office suite from Germany, with built-in PGP encryption and no ads.
+          added: 2026-09-30
+        - name: Riseup
+          url: https://riseup.net/en/about-us
+          description: Email and other tools for activists, run by a collective that doesn't log your IP address.
+          added: 2021-05-18
+        - name: Mailfence
+          url: https://mailfence.com
+          description: Email suite from Belgium with built-in OpenPGP encryption.
+          added: 2022-09-21
+        - name: Posteo
+          url: https://posteo.de/en
+          description: Ad-free email from Germany, funded only by its users, with optional encrypted storage and sign-up and payment that need no personal details.
+          added: 2026-11-02
+  - title: Self-Hosted
+    recommend:
+      entries:
+        - name: Docker Mailserver
+          url: https://docker-mailserver.github.io/docker-mailserver/latest/
+          repo: https://github.com/docker-mailserver/docker-mailserver
+          description: Complete mail server (SMTP, IMAP, antispam, antivirus) in a single Docker container, configured with files.
+          license: MIT
+          tags:
+            - self-host
+          added: 2021-10-27
+        - name: "Mailcow: dockerized"
+          url: https://mailcow.email
+          repo: https://github.com/mailcow/mailcow-dockerized
+          description: Docker-based mail server suite with a web admin panel, webmail and groupware.
+          license: GPL-3.0
+          tags:
+            - self-host
+          added: 2022-09-28
+        - name: Mail-in-a-box
+          url: https://mailinabox.email/
+          repo: https://github.com/mail-in-a-box/mailinabox
+          description: Turns a fresh Ubuntu server into a complete mail server with one setup script.
+          license: CC0-1.0
+          tags:
+            - self-host
+          added: 2021-10-27
+        - name: Mox
+          url: https://www.xmox.nl
+          repo: https://github.com/mjl-/mox
+          description: Self-contained mail server in a single binary, built to need little maintenance.
+          license: MIT
+          tags:
+            - self-host
+          added: 2023-02-26
+        - name: Stalwart
+          url: https://stalw.art/
+          repo: https://github.com/stalwartlabs/stalwart
+          description: All-in-one mail and collaboration server in Rust covering SMTP, IMAP and JMAP, with two independent security audits.
+          tags:
+            - self-host
+            - audited
+          added: 2026-07-04
+  - title: Clients
+    subsections:
+      - title: Android / iOS
+        recommend:
+          entries:
+            - name: FairEmail
+              url: https://email.faircode.eu/
+              repo: https://github.com/M66B/FairEmail
+              description: Full-featured email app that blocks tracking images and keeps everything on your device.
+              platforms:
+                - android
+              license: GPL-3.0
+              package_id: eu.faircode.email
+              added: 2021-05-18
+              fdroid: true
+            - name: Thunderbird for Android
+              url: https://www.thunderbird.net/en-US/mobile/
+              repo: https://github.com/thunderbird/thunderbird-android
+              description: Mozilla's email app for Android, built on K-9 Mail, which still ships from the same code.
+              platforms:
+                - android
+              license: Apache-2.0
+              package_id: net.thunderbird.android
+              added: 2021-05-18
+              fdroid: true
+      - title: Desktop
+        recommend:
+          entries:
+            - name: Thunderbird
+              url: https://www.thunderbird.net
+              repo: https://github.com/thunderbird/thunderbird-desktop
+              description: Email, calendar and contacts app with built-in OpenPGP encryption ([setup guide](https://support.mozilla.org/en-US/kb/openpgp-thunderbird-howto-and-faq)).
+              added: 2021-05-27
+            - name: NeoMutt
+              url: https://neomutt.org/
+              repo: https://github.com/neomutt/neomutt
+              description: Terminal email client with built-in PGP/GPG support, a maintained fork of Mutt.
+              platforms:
+                - linux
+                - macos
+                - cli
+              license: GPL-2.0
+              added: 2026-11-02
+  - title: Email Alias Services (Anonymous Forwarding)
+    intro: An alias service gives you a different address for each website, forwarded to your real inbox, so you can cut off spam and see who leaked your address. You can use their hosted service or run your own.
+    recommend:
+      entries:
+        - name: SimpleLogin
+          url: https://simplelogin.io
+          repo: https://github.com/simple-login/app
+          description: Email alias service you can host yourself, owned by Proton.
+          license: AGPL-3.0
+          tags:
+            - self-host
+          added: 2021-05-29
+        - name: addy.io
+          url: https://addy.io
+          repo: https://github.com/anonaddy/anonaddy
+          description: Email alias and forwarding service you can host yourself, formerly AnonAddy.
+          license: AGPL-3.0
+          tags:
+            - self-host
+          added: 2021-05-29

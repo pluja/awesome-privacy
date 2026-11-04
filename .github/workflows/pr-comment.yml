@@ -1,0 +1,58 @@
+name: PR Comment
+
+# Posts the report from PR Check as a single comment that is updated on every push.
+# Runs with write access, so it never checks out or executes code from the pull request.
+# Everything in the artifact was produced by PR code and is treated as untrusted text:
+# the PR number is checked against GitHub's own record of the run, and mentions are defused.
+
+on:
+  workflow_run:
+    workflows: ["PR Check"]
+    types: [completed]
+
+permissions:
+  pull-requests: write
+  actions: read
+
+jobs:
+  comment:
+    if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion != 'cancelled'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: pr-report
+          path: report
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+
+      - name: Post or update the comment
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          HEAD_REPO: ${{ github.event.workflow_run.head_repository.full_name }}
+        run: |
+          pr=$(tr -cd '0-9' < report/pr-number | head -c 10)
+          [ -n "$pr" ] || { echo "no PR number"; exit 1; }
+          [ -f report/pr-report.md ] || { echo "no report to post"; exit 0; }
+
+          # The PR must be the one this run was for, at the commit it ran on.
+          read -r sha repo < <(gh api "repos/$REPO/pulls/$pr" --jq '[.head.sha, .head.repo.full_name] | @tsv')
+          if [ "$sha" != "$HEAD_SHA" ] || [ "$repo" != "$HEAD_REPO" ]; then
+            echo "artifact doesn't match this run (or the PR has newer commits); not posting"
+            exit 0
+          fi
+
+          # No pings from bot comments, and stay under GitHub's comment size limit.
+          sed 's/@/@\xe2\x80\x8b/g' report/pr-report.md | head -c 60000 > body.md
+
+          marker='<!-- awesome-privacy-pr-report -->'
+          id=$(gh api "repos/$REPO/issues/$pr/comments" --paginate \
+            --jq ".[] | select(.user.login == \"github-actions[bot]\" and (.body | startswith(\"$marker\"))) | .id" | head -n1)
+          if [ -n "$id" ]; then
+            gh api -X PATCH "repos/$REPO/issues/comments/$id" -F body=@body.md > /dev/null
+          else
+            gh api -X POST "repos/$REPO/issues/$pr/comments" -F body=@body.md > /dev/null
+          fi
