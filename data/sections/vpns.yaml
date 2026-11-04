@@ -55,6 +55,8 @@ recommend:
       package_id: ch.protonvpn.android
       added: 2023-01-21
       fdroid: true
+      caveats:
+        - telemetry-opt-out
     - name: SPN
       url: https://safing.io/spn/
       repo: https://github.com/safing/portmaster

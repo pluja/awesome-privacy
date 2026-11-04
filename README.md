@@ -453,7 +453,7 @@ A VPN doesn't make you anonymous; it moves the trust from your ISP to the VPN pr
 - [IVPN](https://ivpn.net) - No-logs VPN that needs no email to sign up and takes cash, Monero or Bitcoin. [F-Droid](https://f-droid.org/packages/net.ivpn.client/)
 - [Mullvad VPN](https://mullvad.net) - No-logs VPN with anonymous numbered accounts instead of email, payable in cash or cryptocurrency. `GPL-3.0` [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
 - [nadanada](https://nadanada.me) - Pay-per-use WireGuard VPN with no account, payable in Bitcoin, Monero and other cryptocurrencies, formerly LNVPN.
-- [Proton VPN](https://protonvpn.com) - Swiss no-logs VPN with audited apps and a free tier with no data cap. [F-Droid](https://f-droid.org/packages/ch.protonvpn.android/)
+- [Proton VPN](https://protonvpn.com) - Swiss no-logs VPN with audited apps and a free tier with no data cap. `⚠️ telemetry opt-out` [F-Droid](https://f-droid.org/packages/ch.protonvpn.android/)
 - [SPN](https://safing.io/spn/) - Paid add-on to the Portmaster firewall that routes each app's connections over separate multi-hop paths. `Linux` `Windows` `GPL-3.0`
 
 ### Web Browser
@@ -1476,7 +1476,7 @@ Remote desktop tools can see and control everything on a machine, so trust matte
 - [Aspia](https://aspia.org/) - Remote desktop and file transfer with a router you can host yourself, so connections don't depend on a vendor. `self-host` `GPL-3.0`
 - [MeshCentral](https://meshcentral.com/) - Self-hosted web server for managing and remotely controlling many devices from a browser. `self-host` `Apache-2.0`
 - [Remmina](https://remmina.org/) - Remote desktop client for Linux that connects over RDP, VNC, SPICE and SSH. `Linux`
-- [RustDesk](https://rustdesk.com/) - Remote desktop app that connects through its developers' public relay by default, or through a server you host. `self-host` `AGPL-3.0` `⚠️ website trackers` [F-Droid](https://f-droid.org/packages/com.carriez.flutter_hbb/)
+- [RustDesk](https://rustdesk.com/) - Remote desktop app that connects through its developers' public servers by default, which log your IP address, device and session details, or through a server you host. `self-host` `AGPL-3.0` `⚠️ website trackers` [F-Droid](https://f-droid.org/packages/com.carriez.flutter_hbb/)
 - [screego](https://screego.net/) - Self-hosted screen sharing over WebRTC, built for developers. `self-host` `GPL-3.0`
 - [Sunshine + Moonlight](https://app.lizardbyte.dev/Sunshine) - Low-latency desktop and game streaming, with Sunshine on the host and Moonlight clients connecting to it. `self-host` `GPL-3.0` `⚠️ website trackers`
 - [UltraVNC](https://uvnc.com/) - VNC server and viewer for Windows, with file transfer and optional encryption plugins. `Windows` `GPL-3.0` `⚠️ website trackers`
@@ -1649,7 +1649,7 @@ Mainstream map apps log where you go and what you search for. Apps built on Open
 
 - [CoMaps](https://www.comaps.app/) - Community-led fork of Organic Maps with offline maps and navigation. `Android` `iOS` `fork` [F-Droid](https://f-droid.org/packages/app.comaps.fdroid/)
 - [OpenStreetMap (OSM)](https://www.openstreetmap.org/) - Collaborative world map built by volunteers, and the open data behind most apps in this section. `GPL-2.0`
-  - [OsmAnd](https://osmand.net/) - Offline maps and navigation built on OpenStreetMap, with a large set of features. `Android` `iOS` [F-Droid](https://f-droid.org/packages/net.osmand.plus/)
+  - [OsmAnd](https://osmand.net/) - Offline maps and navigation built on OpenStreetMap, with a large set of features. `Android` `iOS` `⚠️ telemetry opt-out` [F-Droid](https://f-droid.org/packages/net.osmand.plus/)
 - [Organic Maps](https://organicmaps.app/) - Offline maps and navigation built on OpenStreetMap, popular with hikers and cyclists. `Android` `iOS` [F-Droid](https://f-droid.org/packages/app.organicmaps/)
 - [Pure Maps](https://rinigus.github.io/pure-maps/) - Maps and navigation for Linux phones, Sailfish OS and desktop, fully offline with OSM Scout Server. `Linux` `GPL-3.0`
 
