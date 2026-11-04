@@ -1,7 +1,11 @@
 name: Build README
 
-# After a merge: stamp `added` on new entries, regenerate README.md and commit both,
-# so contributors only ever edit data/.
+# After a merge: stamp `added` on new entries, regenerate README.md, fetch logos and ToS;DR
+# reviews for new entries and commit all of it, so contributors only ever edit data/. The
+# monthly run also refreshes logos and reviews older than a month (website/scripts/).
+#
+# Fetching parses files from sites listed in data/, so it runs in its own job with a read-only
+# token and hands over only an artifact; the job that can push checks every file before using it.
 
 on:
   push:
@@ -11,18 +15,72 @@ on:
       - "schema/**"
       - "scripts/build-readme.ts"
       - "scripts/data.ts"
+      - "scripts/labels.ts"
+      - "website/scripts/logos.ts"
+      - "website/scripts/tosdr.ts"
+      - "website/src/lib/logo-id.ts"
+      - "website/src/lib/brand.ts"
+  schedule:
+    - cron: "0 5 15 * *" # 05:00 UTC on the 15th, away from the health report
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: build-readme
   cancel-in-progress: false
 
 jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    # Logos and reviews come from other sites; when this fails, the README and stamps are still committed.
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          ref: main
+          persist-credentials: false
+
+      - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            website/package-lock.json
+
+      - run: npm ci --ignore-scripts
+      - run: npm ci --ignore-scripts
+        working-directory: website
+      - name: Fetch logos
+        continue-on-error: true
+        working-directory: website
+        env:
+          GITHUB_TOKEN: ${{ github.token }} # read-only in this job; raises the API rate limit for org avatars
+        run: node scripts/logos.ts
+      - name: Fetch ToS;DR reviews
+        continue-on-error: true
+        working-directory: website
+        run: node scripts/tosdr.ts
+
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: fetched
+          retention-days: 1
+          path: |
+            website/public/logos/
+            website/src/data/logos.json
+            website/src/data/tosdr.json
+
   build:
+    needs: fetch
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write
     steps:
       # Build from the current tip of main, not the commit that triggered the run,
       # so a queued run after quick successive merges still pushes cleanly.
@@ -33,23 +91,59 @@ jobs:
 
       - uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
         with:
-          node-version: 22
+          node-version: 24
           cache: npm
 
       - run: npm ci --ignore-scripts
       - run: node scripts/stamp-added.ts
       - run: npm run build
 
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        id: fetched
+        continue-on-error: true
+        with:
+          name: fetched
+          path: ${{ runner.temp }}/fetched
+
+      # Only plainly named small WebP files and well-formed JSON get through; anything else drops the batch.
+      - name: Take the fetched logos and reviews
+        if: steps.fetched.outcome == 'success'
+        env:
+          FETCHED: ${{ runner.temp }}/fetched
+        run: |
+          node --input-type=module -e '
+            import { cpSync, lstatSync, readFileSync, readdirSync, rmSync } from "node:fs";
+            const from = process.env.FETCHED;
+            const problems = [];
+            for (const name of readdirSync(`${from}/public/logos`)) {
+              const path = `${from}/public/logos/${name}`;
+              const file = lstatSync(path);
+              const head = file.isFile() ? readFileSync(path).subarray(0, 12) : Buffer.alloc(0);
+              const webp = head.subarray(0, 4).toString("latin1") === "RIFF" && head.subarray(8, 12).toString("latin1") === "WEBP";
+              if (!/^[\p{L}\p{N}_-]+\.webp$/u.test(name) || !webp || file.size > 200_000) problems.push(name);
+            }
+            for (const json of ["logos", "tosdr"]) {
+              try { JSON.parse(readFileSync(`${from}/src/data/${json}.json`, "utf8")); } catch { problems.push(`${json}.json`); }
+            }
+            if (problems.length) {
+              console.log(`::warning::fetched files rejected, keeping the committed ones: ${problems.join(", ")}`);
+              process.exit(0);
+            }
+            rmSync("website/public/logos", { recursive: true, force: true });
+            cpSync(`${from}/public/logos`, "website/public/logos", { recursive: true });
+            for (const json of ["logos", "tosdr"]) cpSync(`${from}/src/data/${json}.json`, `website/src/data/${json}.json`);
+          '
+
       - name: Commit if anything changed
         env:
           TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
         run: |
-          git add data README.md
+          git add data README.md website/public/logos website/src/data/logos.json website/src/data/tosdr.json
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: regenerate README"
+          git commit -m "chore: regenerate README, logos and reviews"
           remote="https://x-access-token:${TOKEN}@github.com/${REPO}.git"
           git pull --rebase "$remote" main
           git push "$remote" HEAD:main
