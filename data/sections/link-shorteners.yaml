@@ -3,8 +3,9 @@ slug: link-shorteners
 intro: Hosted shorteners sit between every click and its destination, so they can log who opened what. Host your own, or use one that encrypts the target so the service can't read it.
 avoid:
   items:
-    - name: Bit.ly
-      reason: built around tracking every click for marketing analytics.
+    - name: Bitly
+      reason: built to track every click for marketing analytics.
+      tosdr: en_224
 recommend:
   entries:
     - name: Kutt

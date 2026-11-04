@@ -4,7 +4,8 @@ intro: Your calendar shows where you'll be, when and with whom. Prefer a calenda
 avoid:
   items:
     - name: Google Calendar
-      reason: events are stored on Google's servers without end-to-end encryption and tied to your Google account.
+      reason: your events sit on Google's servers without end-to-end encryption, tied to your account.
+      tosdr: en_217
 recommend:
   entries:
     - name: Etar

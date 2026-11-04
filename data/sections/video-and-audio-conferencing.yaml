@@ -4,18 +4,22 @@ intro: The big meeting apps log who you call and when, and their apps ship with 
 avoid:
   items:
     - name: Zoom
-      reason: "[very bad privacy policy](https://tosdr.org/en/service/2198), apps with [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/us.zoom.videomeetings/latest/) and many permissions."
-    - name: Skype
-      reason: "[very bad privacy policy](https://tosdr.org/en/service/244), apps with [Google and Microsoft trackers](https://reports.exodus-privacy.eu.org/en/reports/com.skype.insiders/latest/) and far too many permissions."
+      reason: claimed end-to-end encryption that its meetings didn't have.
+      tosdr: en_2198
+      source: https://theintercept.com/2020/03/31/zoom-meeting-encryption/
     - name: Google Meet
-      reason: "[very bad privacy policy](https://tosdr.org/en/service/217), apps with [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/com.google.android.apps.tachyon/latest/) and far too many permissions."
+      reason: calls run through Google and are tied to your Google account.
+      tosdr: en_217
+    - name: Microsoft Teams
+      reason: meetings are tied to a Microsoft account, under a very poorly rated privacy policy.
+      tosdr: en_244
     - name: WhatsApp
-      reason: "[bad privacy policy](https://tosdr.org/en/service/198), apps with [Google trackers](https://reports.exodus-privacy.eu.org/en/reports/com.whatsapp/latest/) and far too many permissions."
-    - name: Instagram
-      reason: "[very bad privacy policy](https://tosdr.org/en/service/219), apps with [Facebook trackers](https://reports.exodus-privacy.eu.org/en/reports/com.instagram.android/latest/) and far too many permissions."
+      reason: shares metadata such as who you call and when with Meta.
+      tosdr: en_198
     - name: Discord
-      reason: "[very bad privacy policy](https://tosdr.org/en/service/536), apps with [various trackers](https://reports.exodus-privacy.eu.org/en/reports/com.discord/latest/) and many permissions."
-    - name: Clubhouse
+      reason: 3 trackers in its Android app, under a very poorly rated privacy policy.
+      tosdr: en_536
+      exodus: com.discord
 recommend:
   entries:
     - name: BigBlueButton

@@ -3,9 +3,9 @@ slug: rss-readers
 intro: These services build a profile from everything you read. A local or self-hosted reader fetches feeds directly, so nobody sees your reading list.
 avoid:
   items:
-    - name: Feedly
-    - name: Inoreader
     - name: Google News
+      reason: records what you read for Google's profile of you.
+      tosdr: en_217
 recommend:
   entries:
     - name: FreshRSS

@@ -4,13 +4,14 @@ intro: Smart speakers keep a microphone on in your home and send recordings to t
 avoid:
   items:
     - name: Google Home
+      reason: an always-listening microphone tied to your Google account.
       tosdr: en_217
     - name: Alexa
+      reason: an always-listening microphone that sends your requests to Amazon.
       tosdr: en_190
-    - name: Cortana
-      tosdr: en_244
     - name: Siri
-      tosdr: en_158
+      reason: Apple contractors regularly listened to Siri recordings, including private moments.
+      source: https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings
 recommend:
   entries:
     - name: Home Assistant

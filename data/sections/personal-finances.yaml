@@ -87,9 +87,12 @@ subsections:
     avoid:
       items:
         - name: Tricount
-          reason: a ~200 MB app with trackers from Facebook, Google and Huawei.
+          reason: 8 trackers in its Android app, from Facebook, Google and Huawei among others.
+          exodus: com.tribab.tricount.android
         - name: Splitwise
-          reason: the app contains trackers from Google and Amazon.
+          reason: Google and Amazon trackers in its Android app, under a poorly rated privacy policy.
+          tosdr: en_7468
+          exodus: com.Splitwise.SplitwiseMobile
     recommend:
       entries:
         - name: Spliit

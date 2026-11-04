@@ -4,14 +4,17 @@ intro: Mainstream map apps log where you go and what you search for. Apps built 
 avoid:
   items:
     - name: Google Maps
-      reason: saves your map searches to your Google account through Web & App Activity.
-    - name: Apple Maps
+      reason: saves your searches and the places you go to your Google account.
+      tosdr: en_217
     - name: Yandex Maps
-    - name: Bing Maps
-    - name: Waze
+      reason: 11 trackers in its Android app, from a company bound by Russian surveillance law.
+      exodus: ru.yandex.yandexmaps
     - name: Sygic
-    - name: HERE WeGo
-    - name: Petal Maps
+      reason: 8 trackers in its Android app.
+      exodus: com.sygic.aura
+    - name: Bing Maps
+      reason: under Microsoft's very poorly rated privacy policy.
+      tosdr: en_244
 recommend:
   entries:
     - name: OpenStreetMap (OSM)

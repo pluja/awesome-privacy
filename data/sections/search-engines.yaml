@@ -6,14 +6,15 @@ avoid:
     - name: Google
       reason: logs your searches and ties them to your Google account and ad profile.
       tosdr: en_217
-    - name: Yahoo!
-      tosdr: en_309
     - name: Bing
+      reason: logs your searches under Microsoft's very poorly rated privacy policy.
+      tosdr: en_244
+    - name: Yahoo!
+      reason: logs your searches under a very poorly rated privacy policy.
+      tosdr: en_309
     - name: Yandex
-      reason: Russian company, subject to laws that give the security services access to user data.
+      reason: Russian law gives the security services access to user data.
       tosdr: en_860
-    - name: Ecosia
-      tosdr: en_591
 recommend:
   entries:
     - name: Brave Search

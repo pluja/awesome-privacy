@@ -4,9 +4,11 @@ intro: Cloud automation services hold access tokens for every account you connec
 avoid:
   items:
     - name: IFTTT
-      reason: closed source, and your workflows run on its servers with tokens to your connected accounts.
+      reason: your workflows run on its servers, holding tokens to all your connected accounts.
+      tosdr: en_236
     - name: Zapier
-      reason: closed source, and your workflows run on its servers with tokens to your connected accounts.
+      reason: your workflows run on its servers, holding tokens to all your connected accounts.
+      tosdr: en_2131
 recommend:
   entries:
     - name: Huginn

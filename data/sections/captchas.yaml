@@ -4,9 +4,10 @@ intro: Mainstream captchas tell humans from bots by profiling visitors. These ma
 avoid:
   items:
     - name: Google reCAPTCHA
-      reason: uses cookies to track visitors and score their IP addresses.
+      reason: scores visitors using cookies and their browsing, for Google.
       tosdr: en_217
     - name: hCaptcha
+      reason: collects device and browsing data to score visitors, under a poorly rated privacy policy.
       tosdr: en_2207
 recommend:
   entries:

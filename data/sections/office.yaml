@@ -4,8 +4,9 @@ intro: Cloud office suites keep your documents on the provider's servers in a fo
 avoid:
   items:
     - name: Microsoft Office
-      reason: closed source, and documents saved to OneDrive are not end-to-end encrypted.
+      reason: documents saved to OneDrive aren't end-to-end encrypted, and the Android app has 6 trackers.
       tosdr: en_244
+      exodus: com.microsoft.office.officehubrow
     - name: Google Docs
       reason: documents are stored on Google's servers without end-to-end encryption.
       tosdr: en_217

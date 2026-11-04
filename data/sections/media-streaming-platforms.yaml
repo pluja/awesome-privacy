@@ -3,20 +3,24 @@ slug: media-streaming-platforms
 intro: Streaming services log everything you watch and listen to, and their apps are full of trackers. Host your own media server, or use a client that doesn't report back, to keep your habits to yourself.
 avoid:
   items:
-    - name: Amazon Prime
-      reason: "[poor privacy terms](https://tosdr.org/en/service/2444), and the Android app has [trackers and asks for dozens of permissions](https://reports.exodus-privacy.eu.org/en/reports/com.amazon.avod.thirdpartyclient/latest/)."
     - name: Netflix
-      reason: "[poor privacy terms](https://tosdr.org/en/service/185), and the Android app [has trackers](https://reports.exodus-privacy.eu.org/en/reports/com.netflix.mediaclient/latest/)."
+      reason: logs what and how you watch, under a poorly rated privacy policy.
+      tosdr: en_185
+    - name: Amazon Prime Video
+      reason: 3 trackers in its Android app, under a poorly rated privacy policy.
+      tosdr: en_2444
+      exodus: com.amazon.avod.thirdpartyclient
     - name: Disney Plus
-      reason: "[very poor privacy terms](https://tosdr.org/en/service/2745), and the Android app [has trackers](https://reports.exodus-privacy.eu.org/en/reports/com.disney.disneyplus/latest/)."
-    - name: Plex
-      reason: "[dubious privacy terms](https://tosdr.org/en/service/1567), and the Android app [asks for far more permissions](https://reports.exodus-privacy.eu.org/en/reports/com.plexapp.android/latest/) than a media player needs."
+      reason: a very poorly rated privacy policy.
+      tosdr: en_2745
     - name: Spotify
-      reason: "[very poor privacy terms](https://tosdr.org/en/service/225), and the Android app has [trackers and dozens of permissions](https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/)."
-    - name: Deezer
-      reason: "[poor privacy terms](https://tosdr.org/en/service/2516), and the Android app is [full of trackers](https://reports.exodus-privacy.eu.org/en/reports/deezer.android.app/latest/)."
+      reason: a very poorly rated privacy policy that covers your mood and friends, and 4 trackers.
+      tosdr: en_225
+      exodus: com.spotify.music
     - name: SoundCloud
-      reason: "[dubious privacy terms](https://tosdr.org/en/service/276), and the Android app is [full of trackers](https://reports.exodus-privacy.eu.org/en/reports/com.soundcloud.android/latest/)."
+      reason: 13 trackers in its Android app, under a very poorly rated privacy policy.
+      tosdr: en_276
+      exodus: com.soundcloud.android
 subsections:
   - title: Video and Audio
     recommend:
@@ -154,13 +158,19 @@ subsections:
     avoid:
       items:
         - name: Spotify
-          reason: "[very poor privacy terms](https://tosdr.org/en/service/225) that cover your mood, free time, likes and friends, and the Android app has [trackers and dozens of permissions](https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/)."
+          reason: a very poorly rated privacy policy that covers your mood and friends, and 4 trackers.
+          tosdr: en_225
+          exodus: com.spotify.music
         - name: iVoox
-          reason: the Android app is [full of trackers](https://reports.exodus-privacy.eu.org/en/reports/com.ivoox.app/latest/), and so is the website.
+          reason: 13 trackers in its Android app, and more on its website.
+          exodus: com.ivoox.app
         - name: Audible
-          reason: "[very poor privacy terms](https://tosdr.org/en/service/190), and the Android app [has trackers](https://reports.exodus-privacy.eu.org/en/reports/com.audible.application/latest/)."
+          reason: 5 trackers in its Android app, under Amazon's poorly rated privacy policy.
+          tosdr: en_190
+          exodus: com.audible.application
         - name: Deezer
-          reason: "[poor privacy terms](https://tosdr.org/en/service/2516), and the Android app is [full of trackers](https://reports.exodus-privacy.eu.org/en/reports/deezer.android.app/latest/)."
+          reason: 11 trackers in its Android app.
+          exodus: deezer.android.app
     recommend:
       entries:
         - name: AntennaPod

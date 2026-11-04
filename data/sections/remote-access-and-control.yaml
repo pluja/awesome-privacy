@@ -1,12 +1,6 @@
 title: Remote Access and Control
 slug: remote-access-and-control
 intro: Remote desktop tools can see and control everything on a machine, so trust matters more here than almost anywhere. Prefer open tools you can run on your own server, with no vendor account in the middle.
-avoid:
-  items:
-    - name: AnyDesk
-      reason: closed source, and attackers breached its production systems in 2024.
-    - name: TeamViewer
-      reason: closed source, and a state-backed group breached its corporate network in 2024.
 recommend:
   entries:
     - name: Apache Guacamole

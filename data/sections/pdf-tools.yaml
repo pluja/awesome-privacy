@@ -4,10 +4,13 @@ intro: Most online PDF tools upload your document to their server before working
 avoid:
   items:
     - name: iLovePDF
+      reason: uploads your documents to its servers, and the Android app has 7 trackers.
+      tosdr: en_7842
+      exodus: com.ilovepdf.www
     - name: Smallpdf
-    - name: PDF24
-    - name: Sejda
-    - name: PDF Candy
+      reason: uploads your documents to its servers, and the Android app has 3 trackers.
+      tosdr: en_6244
+      exodus: com.smallpdf.app.android
 recommend:
   entries:
     - name: BentoPDF

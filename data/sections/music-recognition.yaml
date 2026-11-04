@@ -4,11 +4,14 @@ intro: Song recognition apps listen through your microphone and tend to bundle a
 avoid:
   items:
     - name: Shazam
-      reason: owned by Apple and covered by [its privacy terms](https://tosdr.org/en/service/158), and the Android app [has Google trackers](https://reports.exodus-privacy.eu.org/en/reports/com.shazam.android/latest/).
+      reason: owned by Apple, and its Android app carries Google's analytics trackers.
+      exodus: com.shazam.android
     - name: SoundHound
-      reason: the Android app has [far too many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.melodis.midomiMusicIdentifier.freemium/latest/) for a music recognition app.
+      reason: 11 trackers in its Android app.
+      exodus: com.melodis.midomiMusicIdentifier.freemium
     - name: Musixmatch
-      reason: the Android app [has trackers](https://reports.exodus-privacy.eu.org/en/reports/com.musixmatch.android.lyrify/latest/) and asks for a lot of permissions.
+      reason: 8 trackers in its Android app.
+      exodus: com.musixmatch.android.lyrify
 subsections:
   - title: Shazam alternative clients
     recommend:

@@ -4,7 +4,7 @@ intro: Loading fonts from Google's servers hands every visitor's IP address to G
 avoid:
   items:
     - name: Google Fonts (loaded from Google)
-      reason: every page view sends the visitor's IP address to Google.
+      reason: every page that loads them sends the visitor's IP address to Google.
       tosdr: en_217
 subsections:
   - title: Google Fonts Replacements

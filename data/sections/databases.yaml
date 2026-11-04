@@ -4,7 +4,7 @@ intro: Hosted backends like Google Firebase keep your app's data and your users'
 avoid:
   items:
     - name: Google Firebase
-      reason: closed source and cloud only, so your app's data always lives on Google's servers.
+      reason: cloud only, so your app's data, and your users', always lives on Google's servers.
       tosdr: en_217
 recommend:
   entries:
