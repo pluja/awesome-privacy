@@ -4,12 +4,14 @@ intro: Authenticator apps generate the one-time codes that protect an account ev
 avoid:
   items:
     - name: Authy
-      reason: closed source, and it dropped the desktop apps you could export your tokens from.
+      reason: needs your phone number, and a 2024 leak exposed 33 million of them.
+      source: https://www.malwarebytes.com/blog/news/2024/07/authy-phone-numbers-accessed-by-cybercriminals-warns-twilio
     - name: Google Authenticator
-      reason: closed source, with export limited to QR codes and sync tied to your Google account.
+      reason: syncs your codes to your Google account, and only exports them as QR codes.
       tosdr: en_217
     - name: Microsoft Authenticator
-      reason: closed source, with no way to export your tokens.
+      reason: 5 trackers in its Android app, and no way to export your tokens to another app.
+      exodus: com.azure.authenticator
 recommend:
   entries:
     - name: 2FAS Auth

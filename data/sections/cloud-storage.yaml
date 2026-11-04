@@ -4,11 +4,15 @@ intro: Mainstream cloud drives can read everything you upload and scan it on the
 avoid:
   items:
     - name: Google Drive
-      reason: files are stored without end-to-end encryption, under a [poorly rated privacy policy](https://tosdr.org/en/service/217).
+      reason: files are stored without end-to-end encryption, under a very poorly rated privacy policy.
+      tosdr: en_217
     - name: Dropbox
-      reason: no end-to-end encryption, a [poorly rated privacy policy](https://tosdr.org/en/service/270), and an Android app with [several trackers](https://reports.exodus-privacy.eu.org/en/reports/com.dropbox.android/latest/).
+      reason: no end-to-end encryption, and 4 trackers in its Android app.
+      tosdr: en_270
+      exodus: com.dropbox.android
     - name: OneDrive
-      reason: files are stored without end-to-end encryption, under a [poorly rated privacy policy](https://tosdr.org/en/service/244).
+      reason: files are stored without end-to-end encryption, under a very poorly rated privacy policy.
+      tosdr: en_244
 recommend:
   entries:
     - name: Nextcloud

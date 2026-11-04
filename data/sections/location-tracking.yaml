@@ -4,8 +4,10 @@ intro: Your location history shows where you live, work and sleep. These tools r
 avoid:
   items:
     - name: Google location history
+      reason: records where you go, tied to your Google account.
       tosdr: en_217
     - name: Google Find Hub (formerly Find My Device)
+      reason: reports your devices' locations to Google.
       tosdr: en_217
 subsections:
   - title: Tracking

@@ -4,16 +4,17 @@ intro: Mainstream messengers collect who you talk to, when and from where, even 
 avoid:
   items:
     - name: WhatsApp
+      reason: shares metadata such as who you talk to and when with Meta.
       tosdr: en_198
-    - name: Instagram DM
-      tosdr: en_219
     - name: Facebook Messenger
+      reason: Meta's messenger, with 5 trackers in its Android app.
       tosdr: en_182
-    - name: Skype
-      tosdr: en_244
-    - name: Zoom
-      tosdr: en_2198
-    - name: Google Hangouts / Chat
+      exodus: com.facebook.orca
+    - name: Instagram DM
+      reason: messages live inside Meta's ad platform, under a very poorly rated privacy policy.
+      tosdr: en_219
+    - name: Google Chat
+      reason: messages aren't end-to-end encrypted and sit on Google's servers.
       tosdr: en_217
 subsections:
   - title: Decentralized

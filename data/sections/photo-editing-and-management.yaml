@@ -4,10 +4,12 @@ intro: Mainstream photo editors push your work into their cloud and collect usag
 avoid:
   items:
     - name: Adobe Photoshop and Lightroom
-      reason: closed source, tied to a Creative Cloud account, and Adobe has a [long record of anti-user practices](https://www.gnu.org/proprietary/malware-adobe.html).
-      tosdr: en_417
+      reason: tied to a Creative Cloud account, and Adobe has a long record of anti-user practices.
+      source: https://www.gnu.org/proprietary/malware-adobe.html
     - name: VSCO
-      reason: the Android app is [full of trackers](https://reports.exodus-privacy.eu.org/en/reports/com.vsco.cam/latest/).
+      reason: 14 trackers in its Android app, under a very poorly rated privacy policy.
+      tosdr: en_2986
+      exodus: com.vsco.cam
 subsections:
   - title: Web
     recommend:

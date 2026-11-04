@@ -24,7 +24,7 @@ subsections:
     avoid:
       items:
         - name: Minecraft
-          reason: requires a Microsoft account since 2022 and falls under [Microsoft's privacy statement](https://privacy.microsoft.com/en-us/privacystatement).
+          reason: requires a Microsoft account since 2022, under a very poorly rated privacy policy.
           tosdr: en_244
     recommend:
       entries:

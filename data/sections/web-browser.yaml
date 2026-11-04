@@ -4,11 +4,17 @@ intro: Your browser sees everything you do online, and the big ones are built by
 avoid:
   items:
     - name: Google Chrome
-      reason: tied to your Google account under [Google's privacy policy](https://tosdr.org/en/service/217), and Google's [Manifest V3](https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening) limits what content blockers can do.
+      reason: tied to your Google account, and Manifest V3 limits what content blockers can do.
+      tosdr: en_217
+      source: https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening
     - name: Microsoft Edge
-      reason: Chromium with Microsoft's tracking in place of Google's, under [Microsoft's privacy policy](https://tosdr.org/en/service/244). If you must use it, [harden it](https://anonymousplanet.net/guide/#hardening-edge).
+      reason: Microsoft's tracking in place of Google's, and 6 trackers in its Android app.
+      tosdr: en_244
+      exodus: com.microsoft.emmx
     - name: Opera
-      reason: owned by a [Chinese consortium](https://en.wikipedia.org/wiki/Opera_(web_browser)#Acquisition_by_Chinese_consortium) since 2016, and its Android app ships [many trackers](https://reports.exodus-privacy.eu.org/de/reports/com.opera.browser/latest/).
+      reason: 6 trackers in its Android app, and owned by a Chinese consortium since 2016.
+      exodus: com.opera.browser
+      source: https://en.wikipedia.org/wiki/Opera_(web_browser)
 subsections:
   - title: Android / iOS
     recommend:

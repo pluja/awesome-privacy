@@ -4,7 +4,8 @@ intro: Bookmarks and read-later lists reveal a lot about what you read and care 
 avoid:
   items:
     - name: Evernote Web Clipper
-      reason: a [poorly rated privacy policy](https://tosdr.org/en/service/207), and Evernote's apps carry [many trackers](https://reports.exodus-privacy.eu.org/en/reports/com.evernote/latest/) and ask for too many permissions.
+      reason: saves pages to Evernote without end-to-end encryption, under a poorly rated privacy policy.
+      tosdr: en_207
 recommend:
   entries:
     - name: 42links

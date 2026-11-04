@@ -4,7 +4,8 @@ intro: Encryption keeps your files unreadable to anyone without the key, whether
 avoid:
   items:
     - name: BitLocker
-      reason: closed source, and with device encryption Windows uploads your recovery key to your Microsoft account by default.
+      reason: with device encryption, Windows uploads your recovery key to your Microsoft account.
+      source: https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/
 recommend:
   entries:
     - name: age

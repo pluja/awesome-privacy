@@ -4,10 +4,8 @@ intro: Commercial video editors are closed source and often tied to an online ac
 avoid:
   items:
     - name: Adobe Premiere Pro
-      reason: closed source and tied to a Creative Cloud account.
-      tosdr: en_417
-    - name: Sony Vegas
-    - name: DaVinci Resolve
+      reason: tied to a Creative Cloud account, and Adobe has a long record of anti-user practices.
+      source: https://www.gnu.org/proprietary/malware-adobe.html
 recommend:
   entries:
     - name: Kdenlive

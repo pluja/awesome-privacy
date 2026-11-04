@@ -4,9 +4,13 @@ intro: Online translators keep the text you paste in, which often includes priva
 avoid:
   items:
     - name: Google Translate
+      reason: sends everything you translate to Google.
       tosdr: en_217
     - name: DeepL
+      reason: the free version stores your texts and may use them to train its models.
+      tosdr: en_2073
     - name: Bing Translator
+      reason: sends everything you translate to Microsoft.
       tosdr: en_244
 subsections:
   - title: Text translation

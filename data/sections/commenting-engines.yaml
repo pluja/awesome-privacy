@@ -4,7 +4,8 @@ intro: Embedded comment widgets load third-party trackers on every page that use
 avoid:
   items:
     - name: Disqus
-      reason: loads many trackers, and its privacy policy lists collecting your IP address, cookie and device IDs, browser and plug-in details, time zone and location.
+      reason: loads trackers on every site that embeds it, and logs commenters' IP, device and location.
+      tosdr: en_239
 recommend:
   entries:
     - name: Comentario

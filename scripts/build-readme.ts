@@ -1,7 +1,7 @@
 // Generates README.md from data/. `--check` exits 1 if README.md is out of date.
 import { readFileSync, writeFileSync } from "node:fs";
 import { loadData } from "./data.ts";
-import type { Entry, Section } from "../schema/schema.ts";
+import type { AvoidItem, Entry, Section } from "../schema/schema.ts";
 
 const PLATFORM_LABEL: Record<string, string> = {
   android: "Android", ios: "iOS", linux: "Linux", macos: "macOS", windows: "Windows",
@@ -40,8 +40,13 @@ function renderEntries(list: Entry[], depth = 0): string[] {
   });
 }
 
-function tosdrLink(id: string) {
-  return `[ToS;DR](https://tosdr.org/en/service/${id.replace(/^en_/, "")})`;
+function evidence(a: AvoidItem): string {
+  const links = [
+    a.tosdr ? `[ToS;DR](https://tosdr.org/en/service/${a.tosdr.replace(/^en_/, "")})` : "",
+    a.exodus ? `[Exodus](https://reports.exodus-privacy.eu.org/en/reports/${a.exodus}/latest/)` : "",
+    a.source ? `[Source](${a.source})` : "",
+  ].filter(Boolean);
+  return ` <sub>${links.join(" · ")}</sub>`;
 }
 
 // GitHub heading anchors: lowercase, drop punctuation and emoji, spaces to hyphens, dedupe with -N.
@@ -64,11 +69,7 @@ function renderSection(s: Section, level: number, anchor: (t: string) => string,
   if (s.avoid) {
     out.push("**Avoid**", "");
     if (s.avoid.intro) out.push(s.avoid.intro, "");
-    for (const a of s.avoid.items) {
-      const name = a.url ? `[${a.name}](${a.url})` : a.name;
-      const extra = [a.reason, a.tosdr ? tosdrLink(a.tosdr) : ""].filter(Boolean).join(" ");
-      out.push(`- **${name}**${extra ? `: ${extra}` : ""}`, ...renderEntries(a.tools ?? [], 1));
-    }
+    for (const a of s.avoid.items) out.push(`- **${a.name}**: ${a.reason}${evidence(a)}`, ...renderEntries(a.tools ?? [], 1));
     out.push("");
   }
   if (s.recommend) {

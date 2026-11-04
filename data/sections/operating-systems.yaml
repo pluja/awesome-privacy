@@ -105,8 +105,9 @@ subsections:
     avoid:
       items:
         - name: MS Windows
-          reason: collects a lot of user data and pushes you into a Microsoft account. If you stay on Windows 10 or 11, [Win11Debloat](https://github.com/Raphire/Win11Debloat) or [W10Privacy](https://www.w10privacy.de/english-home/) can turn off many of its privacy-invasive settings.
-        - name: macOS
+          reason: collects usage data and pushes you into a Microsoft account.
+          tosdr: en_244
+    notes: If you stay on Windows, [Win11Debloat](https://github.com/Raphire/Win11Debloat) or [W10Privacy](https://www.w10privacy.de/english-home/) can turn off many of its privacy-invasive settings.
     subsections:
       - title: "[GNU/Linux](https://www.linux.com/what-is-linux/)"
         intro: "GNU/Linux is a family of open source operating systems, mostly built by their communities. Good places to start:"

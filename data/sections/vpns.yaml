@@ -4,10 +4,8 @@ intro: A VPN doesn't make you anonymous; it moves the trust from your ISP to the
 avoid:
   items:
     - name: Free VPNs
-      url: https://techcrunch.com/2020/09/24/free-vpn-bad-for-privacy/
-      reason: someone pays for the servers, and it's usually you, through logs and [data sold to advertisers](https://thenextweb.com/news/be-cautious-free-vpns-are-selling-your-data-to-3rd-parties).
-    - name: Closed source VPNs such as NordVPN or Surfshark
-      reason: nobody can check how their apps handle your data, and paying by card or signing up with an email ties the account to you.
+      reason: someone pays for the servers, usually you, through logs and data sold to advertisers.
+      source: https://thenextweb.com/news/be-cautious-free-vpns-are-selling-your-data-to-3rd-parties
 recommend:
   entries:
     - name: Amnezia VPN

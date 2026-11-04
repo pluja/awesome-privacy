@@ -4,9 +4,8 @@ intro: Upload-and-share services keep a readable copy of your files on their ser
 avoid:
   items:
     - name: WeTransfer
-      reason: files are not end-to-end encrypted, the site carries many trackers, and its [privacy policy rates poorly](https://tosdr.org/en/service/214).
-    - name: SendAnywhere
-      reason: no end-to-end encryption, and the site loads trackers from Facebook and Google.
+      reason: files aren't end-to-end encrypted, and the site carries trackers.
+      tosdr: en_214
 recommend:
   entries:
     - name: Blaze

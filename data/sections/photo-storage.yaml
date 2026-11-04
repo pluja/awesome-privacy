@@ -4,7 +4,7 @@ intro: Cloud photo services scan your library for faces, places and objects and 
 avoid:
   items:
     - name: Google Photos
-      reason: scans your photos for faces, places and objects, and ties your library to your Google account.
+      reason: scans your photos for faces, places and objects, tied to your Google account.
       tosdr: en_217
       tools:
         - name: Google Photos Takeout Helper
@@ -15,6 +15,8 @@ avoid:
           status: inactive
           added: 2021-06-07
     - name: Amazon Photos
+      reason: Amazon gathers data from your library, as its own list of examples shows.
+      source: https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ
 subsections:
   - title: Self-hosted
     recommend:

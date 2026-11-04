@@ -6,6 +6,7 @@ subsections:
     avoid:
       items:
         - name: Google Play Store
+          reason: ties every app you install to your Google account.
           tosdr: en_217
     recommend:
       entries:
@@ -61,7 +62,8 @@ subsections:
     avoid:
       items:
         - name: ADB AppControl
-          reason: an adb wrapper whose [privacy policy](https://adbappcontrol.com/en/terms/) lets it collect device information and which apps you install or uninstall.
+          reason: its privacy policy lets it collect device details and which apps you install or remove.
+          source: https://adbappcontrol.com/en/terms/
     recommend:
       entries:
         - name: Universal Android Debloater Next Generation
@@ -136,10 +138,12 @@ subsections:
   - title: Android Keyboard
     avoid:
       items:
-        - name: GBoard (Google)
+        - name: Gboard
+          reason: Google's keyboard, which sees everything you type, under a very poorly rated privacy policy.
           tosdr: en_217
         - name: SwiftKey
-          tosdr: en_244
+          reason: Microsoft's keyboard, with 4 trackers in its Android app.
+          exodus: com.touchtype.swiftkey
     recommend:
       entries:
         - name: AnySoftKeyboard
@@ -208,10 +212,11 @@ subsections:
     avoid:
       items:
         - name: Google Photos
-          reason: Google [collects a lot of data](https://policies.google.com/privacy?hl=en-US#infocollect) and scans your photos, which once [got a father reported to police](https://petapixel.com/2022/08/22/google-flags-photos-of-fathers-sick-son-as-child-abuse-informs-police/) over pictures of his sick son taken for a doctor.
+          reason: scans your photos, and once got a father reported to police over pictures taken for a doctor.
+          source: https://petapixel.com/2022/08/22/google-flags-photos-of-fathers-sick-son-as-child-abuse-informs-police/
         - name: Amazon Photos
-          reason: gathers similar data from your library, as Amazon's [examples list](https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ) shows.
-        - name: Samsung, Huawei, Xiaomi and other stock galleries
+          reason: Amazon gathers data from your library, as its own list of examples shows.
+          source: https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ
     recommend:
       entries:
         - name: Aves

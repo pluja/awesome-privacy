@@ -7,15 +7,11 @@ callouts:
 avoid:
   items:
     - name: Visa / Mastercard
-      reason: every purchase is logged by your bank and the card network, tied to your name.
+      reason: card networks sell purchase data, grouped into audiences for advertisers.
+      source: https://pirg.org/edfund/resources/how-mastercard-sells-data/
     - name: PayPal
-      reason: requires identity verification and keeps a full record of who you pay.
+      reason: requires identity verification and keeps a record of everyone you pay.
       tosdr: en_230
-    - name: WeChat
-      reason: payments require a real-name verified account.
-    - name: _insertBigTechHere_Pay
-    - name: Bank payments (wire, SEPA, etc)
-      reason: every transfer carries your name and account number.
 recommend:
   entries:
     - name: Monero

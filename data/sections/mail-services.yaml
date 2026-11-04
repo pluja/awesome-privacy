@@ -8,9 +8,19 @@ callouts:
 avoid:
   items:
     - name: Gmail
+      reason: your mail is processed on Google's servers and tied to your Google account.
+      tosdr: en_217
     - name: Outlook
-    - name: Yandex Mail
+      reason: Microsoft can read your mail, and the Android app has 4 trackers.
+      tosdr: en_244
+      exodus: com.microsoft.office.outlook
     - name: Yahoo! Mail
+      reason: 10 trackers in its Android app, under a very poorly rated privacy policy.
+      tosdr: en_309
+      exodus: com.yahoo.mobile.client.android.mail
+    - name: Yandex Mail
+      reason: Russian law gives the security services access to user data.
+      tosdr: en_860
 subsections:
   - title: Third-Party owned
     recommend:

@@ -40,6 +40,22 @@ To check your change locally: `npm ci && npm run validate`. To preview the READM
 
 A new section needs a file in `data/sections/` and a line in `data/meta.yaml`, under the category it belongs to.
 
+### Services to avoid
+
+Each section can name up to five mainstream services that people are likely replacing. Only list a service with a clear, documented harm: it collects, shares, exposes or locks in your data. Being closed source or simply worse isn't enough on its own.
+
+```yaml
+avoid:
+  items:
+    - name: Example Cloud
+      reason: files are stored without end-to-end encryption, under a poorly rated privacy policy.
+      tosdr: en_123                     # its ToS;DR service id
+      exodus: com.example.cloud         # Android package with an Exodus Privacy report
+      source: https://example.org/report  # any other evidence
+```
+
+The reason is one short plain sentence without links, and at least one of `tosdr`, `exodus` or `source` backs it up.
+
 ### Reporting a problem
 
 If a listed project is dead, changed hands, added trackers or changed its license, open an issue with a link that shows it.

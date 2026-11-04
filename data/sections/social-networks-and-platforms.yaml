@@ -23,9 +23,11 @@ subsections:
     avoid:
       items:
         - name: Medium
-          reason: the site carries Google trackers and ads.
+          reason: the site carries trackers, under a poorly rated privacy policy.
+          tosdr: en_1003
         - name: Blogger
           reason: owned by Google, with Google trackers and ads.
+          tosdr: en_217
     recommend:
       entries:
         - name: Plume
@@ -52,7 +54,7 @@ subsections:
     avoid:
       items:
         - name: Instagram
-          reason: owned by Meta, which builds an ad profile from what you view, like and follow, and the feed is designed to keep you scrolling.
+          reason: Meta builds an ad profile from what you view, like and follow.
           tosdr: en_219
     recommend:
       entries:
@@ -64,19 +66,11 @@ subsections:
           tags:
             - activitypub
           added: 2020-12-07
-  - title: Quora
-    avoid:
-      items:
-        - name: Quora
-          reason: the site is full of ads and third-party trackers, and hides answers until you sign in.
-          tosdr: en_314
-    recommend:
-      entries: []
   - title: YouTube
     avoid:
       items:
         - name: YouTube
-          reason: Google builds a detailed profile from everything you watch, and the recommendations have been [studied](https://arxiv.org/pdf/1908.08313.pdf) for [pushing viewers toward more extreme content](https://www.pcmag.com/news/does-youtubes-algorithm-lead-to-radicalization).
+          reason: Google builds a detailed profile from everything you watch.
           tosdr: en_274
     recommend:
       entries:
@@ -174,19 +168,11 @@ subsections:
                 - macos
               license: AGPL-3.0
               added: 2022-03-20
-  - title: TikTok
-    avoid:
-      items:
-        - name: TikTok
-          reason: collects extensive data about you and your device to drive a feed designed to be hard to put down.
-          tosdr: en_1448
-    recommend:
-      entries: []
   - title: Twitter
     avoid:
       items:
         - name: Twitter (X)
-          reason: profiles you from who you follow and what you like and repost, with [privacy-invasive defaults](https://www.eff.org/deeplinks/2017/05/how-opt-out-twitters-new-privacy-settings).
+          reason: profiles you from who you follow and what you like and repost.
           tosdr: en_195
     subsections:
       - title: Self-hosted
@@ -320,8 +306,9 @@ subsections:
     avoid:
       items:
         - name: Imgur
-          reason: the site is heavy with ads, cookies, scripts and trackers.
+          reason: 23 trackers in its Android app, and a site heavy with ads.
           tosdr: en_325
+          exodus: com.imgur.mobile
     recommend:
       entries:
         - name: rimgo
@@ -333,7 +320,9 @@ subsections:
     avoid:
       items:
         - name: IMDb
-          reason: owned by Amazon, with ads and third-party trackers on the site.
+          reason: owned by Amazon, with 8 trackers in its Android app.
+          tosdr: en_313
+          exodus: com.imdb.mobile
     recommend:
       entries:
         - name: libremdb
@@ -348,7 +337,9 @@ subsections:
     avoid:
       items:
         - name: Fandom
-          reason: wikis are loaded with ads, autoplaying video and trackers.
+          reason: wikis loaded with ads and autoplaying video, and 8 trackers in the app.
+          tosdr: en_2256
+          exodus: com.fandom.app
     recommend:
       entries:
         - name: BreezeWiki

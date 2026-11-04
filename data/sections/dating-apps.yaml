@@ -4,11 +4,18 @@ intro: Mainstream dating apps collect intimate data and profit from it. Tinder i
 avoid:
   items:
     - name: Tinder
+      reason: 8 trackers in its Android app, under a very poorly rated privacy policy.
       tosdr: en_462
+      exodus: com.tinder
     - name: Grindr
-      reason: shared users' HIV status with outside companies, and was fined by Norway's data protection authority for passing user data to advertisers.
+      reason: fined in Norway for sharing users' location and sexual orientation with advertisers.
+      source: https://techcrunch.com/2021/12/15/grindr-final-gdpr-fine/
     - name: Badoo
+      reason: 30 trackers in its Android app, most of them for advertising.
+      exodus: com.badoo.mobile
     - name: Lovoo
+      reason: 33 trackers in its Android app, most of them for advertising.
+      exodus: net.lovoo.android
 recommend:
   entries:
     - name: Alovoa
