@@ -59,6 +59,7 @@ Many independently run servers talk to each other, so there is no single point o
   - [Element](https://element.io/) - The flagship Matrix client, with end-to-end encryption on by default for private chats. `AGPL-3.0` `⚠️ website trackers`
 - [Session](https://getsession.org/) - Messenger that needs no phone number and routes messages through an onion network of community-run nodes. `GPL-3.0` [F-Droid](https://f-droid.org/packages/network.loki.messenger.fdroid/)
 - [SimpleX Chat](https://simplex.chat/) - Messenger with no user IDs at all, so its servers can't see who talks to whom. `AGPL-3.0` [F-Droid](https://f-droid.org/packages/chat.simplex.app/)
+- [Status](https://status.app/) - Peer-to-peer messenger that needs no phone number, bundled with a crypto wallet and web3 browser. `MPL-2.0` [F-Droid](https://f-droid.org/packages/app.status.mobile/)
 
 #### Centralized
 
@@ -267,6 +268,7 @@ The big platforms profile you from everything you read, watch and like, and thei
 
 **Use instead**
 
+- [Odysee](https://odysee.com/) - Video platform built on the LBRY protocol. `MIT` `⚠️ website trackers` [F-Droid](https://f-droid.org/packages/com.odysee.floss/)
 - [PeerTube](https://joinpeertube.org/en/) - Federated video hosting where anyone can run an instance and follow channels across others. `ActivityPub` `AGPL-3.0`
 
 ##### YouTube alternative frontends (web-based)
@@ -308,7 +310,7 @@ The big platforms profile you from everything you read, watch and like, and thei
 - [Mastodon](https://joinmastodon.org/) - Federated microblogging, the largest network in the fediverse. `ActivityPub` `AGPL-3.0` [F-Droid](https://f-droid.org/packages/org.joinmastodon.android/)
   - [Mastodon Apps](https://joinmastodon.org/apps) - Official directory of Mastodon apps for Android, iOS, web and desktop.
 - [Nostr](https://nostr.com/) - Open protocol where posts are signed with your own keys and spread across relays, so no single server controls your account.
-- [Pleroma](https://git.pleroma.social/pleroma/pleroma) - Lightweight federated social network server. `ActivityPub`
+- [Pleroma](https://pleroma.social/) - Lightweight federated social network server. `ActivityPub`
   - [Soapbox](https://gitlab.com/soapbox-pub/soapbox-fe) - Web frontend for Pleroma focused on custom branding and ease of use.
 
 ##### Alternative Frontends
@@ -407,6 +409,7 @@ Online translators keep the text you paste in, which often includes private mess
 - [LibreTranslate](https://libretranslate.com/) - Self-hosted machine translation API and web app with no ties to proprietary services. `self-host` `AGPL-3.0`
 - [Linguist](https://linguister.io) - Browser extension for translating pages and selected text, with a built-in offline translator and [custom translators](https://linguister.io/docs/CustomTranslator). `Browser` `BSD-3-Clause`
 - [Softcatala](https://www.softcatala.org/traductor/) - Online translator between Catalan and languages such as Spanish, English, French and Portuguese, run by a nonprofit. `⚠️ website trackers`
+- [TranslateLocally](https://github.com/XapaJIaMnu/translateLocally) - Desktop app for neural machine translation that runs entirely offline on your computer. `MIT`
 
 #### Alternative Google Translate frontends
 
@@ -425,7 +428,7 @@ These services build a profile from everything you read. A local or self-hosted 
 
 **Use instead**
 
-- [Capy Reader](https://github.com/jocmp/capyreader) - Small RSS reader, local or synced with Miniflux and FreshRSS. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.capyreader.app/) (Play Store version has trackers)
+- [Capy Reader](https://github.com/jocmp/capyreader) - Small RSS reader, local or synced with Miniflux and FreshRSS. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.capyreader.app/)
 - [Feeder](https://github.com/spacecowboy/Feeder) - RSS reader that fetches feeds directly on your device, with no account. `Android` `GPL-3.0`
 - [Fluent Reader](https://github.com/yang991178/fluent-reader) - Desktop RSS reader that keeps your feeds locally, with optional sync to self-hosted services. `Linux` `Windows` `macOS` `BSD-3-Clause`
 - [FreshRSS](https://freshrss.org/) - Self-hosted feed aggregator with a web interface, multi-user support and an API for mobile apps. `self-host` `AGPL-3.0`
@@ -453,7 +456,7 @@ A VPN doesn't make you anonymous; it moves the trust from your ISP to the VPN pr
 - [IVPN](https://ivpn.net) - No-logs VPN that needs no email to sign up and takes cash, Monero or Bitcoin. [F-Droid](https://f-droid.org/packages/net.ivpn.client/)
 - [Mullvad VPN](https://mullvad.net) - No-logs VPN with anonymous numbered accounts instead of email, payable in cash or cryptocurrency. `GPL-3.0` [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn/)
 - [nadanada](https://nadanada.me) - Pay-per-use WireGuard VPN with no account, payable in Bitcoin, Monero and other cryptocurrencies, formerly LNVPN.
-- [Proton VPN](https://protonvpn.com) - Swiss no-logs VPN with audited apps and a free tier with no data cap. `⚠️ telemetry opt-out` [F-Droid](https://f-droid.org/packages/ch.protonvpn.android/)
+- [Proton VPN](https://protonvpn.com) - Swiss no-logs VPN with audited apps and a free tier with no data cap. [F-Droid](https://f-droid.org/packages/ch.protonvpn.android/)
 - [SPN](https://safing.io/spn/) - Paid add-on to the Portmaster firewall that routes each app's connections over separate multi-hop paths. `Linux` `Windows` `GPL-3.0`
 
 ### Web Browser
@@ -501,7 +504,6 @@ Read what an add-on does before installing it. A badly chosen one can hurt your 
 
 - [ClearURLs](https://clearurls.xyz/) - Strips tracking parameters from links and URLs. `Browser` `LGPL-3.0`
 - [LibRedirect](https://libredirect.manerakai.com/) - Redirects YouTube, Reddit, Google Maps and other sites to privacy-friendly front ends, successor to Privacy Redirect. `Browser` `GPL-3.0`
-  - [Predirect](https://github.com/pritkr/predirect) - Similar extension built on Manifest V3 with minimal permissions, for Chromium browsers that no longer run older extensions. `Browser` `GPL-3.0`
 - [Privacy Badger](https://privacybadger.org/) - EFF extension that learns to block trackers by watching them follow you across sites. `Browser`
 - [uBlock Origin](https://github.com/gorhill/uBlock) - Light, efficient ad and tracker blocker, in full only on Firefox since Chrome dropped Manifest V2 extensions. `Browser` `GPL-3.0`
 
@@ -630,6 +632,7 @@ Authenticator apps generate the one-time codes that protect an account even afte
 - [Aegis](https://getaegis.app/) - Encrypted token vault that imports from most other authenticators and exports in plain or encrypted form. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.beemdevelopment.aegis/)
 - [ente Auth](https://ente.com/auth/) - Authenticator with end-to-end encrypted sync between your devices, from the makers of ente Photos. `AGPL-3.0` `⚠️ website trackers`
 - [FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus) - Fork of FreeOTP with backups, search and dark mode. `Android` `Apache-2.0` [F-Droid](https://f-droid.org/packages/org.liberty.android.freeotpplus/)
+- [Proton Authenticator](https://proton.me/authenticator) - Authenticator with end-to-end encrypted sync, from the makers of Proton Mail. [F-Droid](https://f-droid.org/packages/proton.android.authenticator.fdroid/)
 - [Stratum](https://github.com/stratumauth/app) - Authenticator with Wear OS support and encrypted backups. `Android` `GPL-3.0`
 
 ### Password Managers
@@ -705,7 +708,7 @@ Tools for checking what your devices and apps leak, and for cutting off what you
 - [NetGuard](https://netguard.me/) - Blocks internet access per app, no root needed. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/eu.faircode.netguard/)
 - [Orbot](https://orbot.app/) - Routes app traffic through Tor, for all apps or only the ones you choose. Made by the Guardian Project. `Android`
 - [Plexus](https://plexus.techlore.tech/) - Community database of which apps work on de-Googled Android. `Android` [F-Droid](https://f-droid.org/packages/tech.techlore.plexus/)
-- [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - Firewall and encrypted DNS client in one, no root needed. `Android` `Apache-2.0` [F-Droid](https://f-droid.org/packages/com.celzero.bravedns/) (Play Store version has trackers)
+- [RethinkDNS + Firewall](https://github.com/celzero/rethink-app) - Firewall and encrypted DNS client in one, no root needed. `Android` `Apache-2.0` [F-Droid](https://f-droid.org/packages/com.celzero.bravedns/)
 - [εxodus](https://reports.exodus-privacy.eu.org/en/) - Shows which trackers and permissions an Android app contains, before you install it. `AGPL-3.0`
   - [ClassyShark3xodus](https://f-droid.org/en/packages/com.oF2pks.classyshark3xodus/) - Checks the apps on your phone for known trackers, using the εxodus database. `Android` [F-Droid](https://f-droid.org/packages/com.oF2pks.classyshark3xodus/)
 
@@ -759,6 +762,7 @@ Upload-and-share services keep a readable copy of your files on their servers an
 
 - [Blaze](https://blaze.vercel.app/) - Peer-to-peer file sharing in the browser, between two or more devices at once. `MIT` `⚠️ website trackers` `💀 inactive`
 - [Croc](https://github.com/schollz/croc) - Sends files between two computers with end-to-end encryption, using a short code phrase. `CLI` `MIT`
+- [Destiny](https://leastauthority.com/community-matters/destiny/) - Magic Wormhole app for sending end-to-end encrypted files without revealing who you are, built with human rights organisations. `MIT`
 - [Gokapi](https://github.com/Forceu/Gokapi) - Lightweight self-hosted alternative to Firefox Send, where only you can upload and links expire. `self-host` `AGPL-3.0`
 - [Localsend](https://localsend.org/) - Shares files with nearby devices over your local network, with no internet connection or account needed. `Apache-2.0` [F-Droid](https://f-droid.org/packages/org.localsend.localsend_app/)
 - [Lufi](https://framagit.org/fiat-tux/hat-softwares/lufi) - File sharing server that encrypts uploads in your browser, so the server never sees the contents. `self-host`
@@ -909,6 +913,7 @@ Hosted form builders collect every answer your respondents give on the provider'
 **Use instead**
 
 - [CryptPad Forms](https://cryptpad.fr/form/) - End-to-end encrypted forms and polls, part of the CryptPad collaboration suite. `self-host` `AGPL-3.0`
+- [Formbricks](https://formbricks.com) - Self-hosted survey and form builder, so responses stay on your own server. `self-host` `⚠️ website trackers`
 - [FramaForms](https://framaforms.org/) - Online form and survey service run by the French nonprofit Framasoft.
 - [TypeBot](https://typebot.com) - Builder for conversational, chat-style forms that you can host yourself. `self-host` `⚠️ source-available`
 
@@ -1100,7 +1105,7 @@ Adobe's tools collect data through [Creative Cloud](https://tosdr.org/en/service
 
 #### InDesign
 
-- [Scribus](https://github.com/scribusproject/scribus) - Desktop publishing app for print-ready layouts, typesetting and interactive PDFs. `Linux` `macOS` `Windows`
+- [Scribus](https://www.scribus.net/) - Desktop publishing app for print-ready layouts, typesetting and interactive PDFs. `Linux` `macOS` `Windows`
 
 #### Photoshop / Illustrator
 
@@ -1113,10 +1118,6 @@ Adobe's tools collect data through [Creative Cloud](https://tosdr.org/en/service
 #### Figma
 
 - [Penpot](https://penpot.app/) - Design and prototyping platform for product teams that you can host yourself. `self-host` `MPL-2.0`
-
-#### Maya / 3ds Max / Cinema 4D
-
-- [Blender](https://www.blender.org/) - 3D creation suite for modelling, sculpting, animation, rendering and video editing, developed in the open by the Blender Foundation. `Linux` `macOS` `Windows`
 
 ### Creator Tools
 
@@ -1226,6 +1227,7 @@ Apps to replace the Google and manufacturer defaults on an Android phone, and th
 - [Accrescent](https://accrescent.app/) - App store that pins each app's signing key on first install and signs its repository metadata, still in alpha. `Android` `Apache-2.0`
 - [F-Droid](https://f-droid.org/) - Catalogue of open source Android apps, built from source and labelled when they contain trackers or ads. `Android`
   - [Droid-ify](https://droidify.app/) - F-Droid client with a clean interface that can browse any F-Droid repository. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/com.looker.droidify/)
+- [FossDroid](https://fossdroid.com/) - Website that lays out the F-Droid catalogue like an app store, sorted by new, trending and popular apps. `MIT`
 - [Obtainium](https://obtainium.imranr.dev/) - Installs and updates apps straight from their release pages, such as GitHub or GitLab, and tells you about new versions. `Android` `GPL-3.0` [F-Droid](https://f-droid.org/packages/dev.imranr.obtainium.fdroid/)
 
 #### Alternative Google Play Store clients
@@ -1475,7 +1477,7 @@ Remote desktop tools can see and control everything on a machine, so trust matte
 - [Aspia](https://aspia.org/) - Remote desktop and file transfer with a router you can host yourself, so connections don't depend on a vendor. `self-host` `GPL-3.0`
 - [MeshCentral](https://meshcentral.com/) - Self-hosted web server for managing and remotely controlling many devices from a browser. `self-host` `Apache-2.0`
 - [Remmina](https://remmina.org/) - Remote desktop client for Linux that connects over RDP, VNC, SPICE and SSH. `Linux`
-- [RustDesk](https://rustdesk.com/) - Remote desktop app that connects through its developers' public servers by default, which log your IP address, device and session details, or through a server you host. `self-host` `AGPL-3.0` `⚠️ website trackers` [F-Droid](https://f-droid.org/packages/com.carriez.flutter_hbb/)
+- [RustDesk](https://rustdesk.com/) - Remote desktop app that connects through its developers' public relay by default, or through a server you host. `self-host` `AGPL-3.0` `⚠️ website trackers` [F-Droid](https://f-droid.org/packages/com.carriez.flutter_hbb/)
 - [screego](https://screego.net/) - Self-hosted screen sharing over WebRTC, built for developers. `self-host` `GPL-3.0`
 - [Sunshine + Moonlight](https://app.lizardbyte.dev/Sunshine) - Low-latency desktop and game streaming, with Sunshine on the host and Moonlight clients connecting to it. `self-host` `GPL-3.0` `⚠️ website trackers`
 - [UltraVNC](https://uvnc.com/) - VNC server and viewer for Windows, with file transfer and optional encryption plugins. `Windows` `GPL-3.0` `⚠️ website trackers`
@@ -1648,7 +1650,7 @@ Mainstream map apps log where you go and what you search for. Apps built on Open
 
 - [CoMaps](https://www.comaps.app/) - Community-led fork of Organic Maps with offline maps and navigation. `Android` `iOS` `fork` [F-Droid](https://f-droid.org/packages/app.comaps.fdroid/)
 - [OpenStreetMap (OSM)](https://www.openstreetmap.org/) - Collaborative world map built by volunteers, and the open data behind most apps in this section. `GPL-2.0`
-  - [OsmAnd](https://osmand.net/) - Offline maps and navigation built on OpenStreetMap, with a large set of features. `Android` `iOS` `⚠️ telemetry opt-out` [F-Droid](https://f-droid.org/packages/net.osmand.plus/)
+  - [OsmAnd](https://osmand.net/) - Offline maps and navigation built on OpenStreetMap, with a large set of features. `Android` `iOS` [F-Droid](https://f-droid.org/packages/net.osmand.plus/)
 - [Organic Maps](https://organicmaps.app/) - Offline maps and navigation built on OpenStreetMap, popular with hikers and cyclists. `Android` `iOS` [F-Droid](https://f-droid.org/packages/app.organicmaps/)
 - [Pure Maps](https://rinigus.github.io/pure-maps/) - Maps and navigation for Linux phones, Sailfish OS and desktop, fully offline with OSM Scout Server. `Linux` `GPL-3.0`
 
