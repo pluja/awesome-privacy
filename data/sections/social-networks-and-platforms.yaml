@@ -80,16 +80,6 @@ subsections:
           tosdr: en_274
     recommend:
       entries:
-        - name: Odysee
-          url: https://odysee.com/
-          repo: https://github.com/OdyseeTeam/odysee-frontend
-          description: Video platform built on the LBRY protocol.
-          license: MIT
-          caveats:
-            - website-trackers
-          package_id: com.odysee.floss
-          added: 2020-12-09
-          fdroid: true
         - name: PeerTube
           url: https://joinpeertube.org/en/
           repo: https://github.com/Chocobozzz/PeerTube
@@ -229,7 +219,7 @@ subsections:
               description: Open protocol where posts are signed with your own keys and spread across relays, so no single server controls your account.
               added: 2022-12-15
             - name: Pleroma
-              url: https://pleroma.social/
+              url: https://git.pleroma.social/pleroma/pleroma
               repo: https://git.pleroma.social/pleroma/pleroma
               description: Lightweight federated social network server.
               tags:

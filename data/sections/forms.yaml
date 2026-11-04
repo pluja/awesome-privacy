@@ -30,12 +30,3 @@ recommend:
       url: https://framaforms.org/
       description: Online form and survey service run by the French nonprofit Framasoft.
       added: 2022-05-19
-    - name: Formbricks
-      url: https://formbricks.com
-      repo: https://github.com/formbricks/formbricks
-      description: Self-hosted survey and form builder, so responses stay on your own server.
-      caveats:
-        - website-trackers
-      added: 2026-07-04
-      tags:
-        - self-host

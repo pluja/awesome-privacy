@@ -101,3 +101,5 @@ recommend:
       tags:
         - no-account
       fdroid: true
+      caveats:
+        - play-store-trackers

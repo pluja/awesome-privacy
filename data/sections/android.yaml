@@ -35,12 +35,6 @@ subsections:
               package_id: com.looker.droidify
               added: 2021-10-30
               fdroid: true
-        - name: FossDroid
-          url: https://fossdroid.com/
-          repo: https://github.com/SnaKKo/Fossdroid-Core
-          description: Website that lays out the F-Droid catalogue like an app store, sorted by new, trending and popular apps.
-          license: MIT
-          added: 2021-05-29
         - name: Obtainium
           url: https://obtainium.imranr.dev/
           repo: https://github.com/ImranR98/Obtainium

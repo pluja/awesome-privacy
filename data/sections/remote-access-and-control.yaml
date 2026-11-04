@@ -43,7 +43,7 @@ recommend:
     - name: RustDesk
       url: https://rustdesk.com/
       repo: https://github.com/rustdesk/rustdesk
-      description: Remote desktop app that connects through its developers' public relay by default, or through a server you host.
+      description: Remote desktop app that connects through its developers' public servers by default, which log your IP address, device and session details, or through a server you host.
       license: AGPL-3.0
       tags:
         - self-host

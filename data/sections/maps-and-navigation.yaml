@@ -30,6 +30,8 @@ recommend:
           package_id: net.osmand.plus
           added: 2020-12-08
           fdroid: true
+          caveats:
+            - telemetry-opt-out
       added: 2020-12-08
     - name: Organic Maps
       url: https://organicmaps.app/

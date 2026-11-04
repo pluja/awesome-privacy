@@ -50,14 +50,6 @@ recommend:
       package_id: org.liberty.android.freeotpplus
       added: 2021-05-12
       fdroid: true
-    - name: Proton Authenticator
-      url: https://proton.me/authenticator
-      description: Authenticator with end-to-end encrypted sync, from the makers of Proton Mail.
-      tags:
-        - e2ee
-      package_id: proton.android.authenticator.fdroid
-      added: 2026-07-07
-      fdroid: true
     - name: Stratum
       url: https://github.com/stratumauth/app
       repo: https://github.com/stratumauth/app
