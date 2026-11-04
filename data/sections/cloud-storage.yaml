@@ -63,7 +63,7 @@ recommend:
     - name: Sync-in
       url: https://sync-in.com/
       repo: https://github.com/Sync-in/server
-      description: Self-hosted file storage, sharing and sync with WebDAV, desktop clients and Collabora or OnlyOffice editing.
+      description: Self-hosted file storage, sharing and sync with WebDAV, desktop clients and online document editing.
       license: AGPL-3.0
       tags:
         - self-host
