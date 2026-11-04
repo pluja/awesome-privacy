@@ -72,3 +72,15 @@ subsections:
           tags:
             - self-host
           added: 2023-08-16
+  - title: Maya / 3ds Max / Cinema 4D
+    recommend:
+      entries:
+        - name: Blender
+          url: https://www.blender.org/
+          repo: https://github.com/blender/blender
+          description: 3D creation suite for modelling, sculpting, animation, rendering and video editing, developed in the open by the Blender Foundation.
+          platforms:
+            - linux
+            - macos
+            - windows
+          added: 2026-11-04

@@ -503,6 +503,7 @@ Read what an add-on does before installing it. A badly chosen one can hurt your 
 
 - [ClearURLs](https://clearurls.xyz/) - Strips tracking parameters from links and URLs. `Browser` `LGPL-3.0`
 - [LibRedirect](https://libredirect.manerakai.com/) - Redirects YouTube, Reddit, Google Maps and other sites to privacy-friendly front ends, successor to Privacy Redirect. `Browser` `GPL-3.0`
+  - [Predirect](https://github.com/pritkr/predirect) - Similar extension built on Manifest V3 with minimal permissions, for Chromium browsers that no longer run older extensions. `Browser` `GPL-3.0`
 - [Privacy Badger](https://privacybadger.org/) - EFF extension that learns to block trackers by watching them follow you across sites. `Browser`
 - [uBlock Origin](https://github.com/gorhill/uBlock) - Light, efficient ad and tracker blocker, in full only on Firefox since Chrome dropped Manifest V2 extensions. `Browser` `GPL-3.0`
 
@@ -1116,6 +1117,10 @@ Adobe's tools collect data through [Creative Cloud](https://tosdr.org/en/service
 #### Figma
 
 - [Penpot](https://penpot.app/) - Design and prototyping platform for product teams that you can host yourself. `self-host` `MPL-2.0`
+
+#### Maya / 3ds Max / Cinema 4D
+
+- [Blender](https://www.blender.org/) - 3D creation suite for modelling, sculpting, animation, rendering and video editing, developed in the open by the Blender Foundation. `Linux` `macOS` `Windows`
 
 ### Creator Tools
 

@@ -181,6 +181,15 @@ subsections:
                 - browser
               license: GPL-3.0
               added: 2022-02-21
+              children:
+                - name: Predirect
+                  url: https://github.com/pritkr/predirect
+                  repo: https://github.com/pritkr/predirect
+                  description: Similar extension built on Manifest V3 with minimal permissions, for Chromium browsers that no longer run older extensions.
+                  platforms:
+                    - browser
+                  license: GPL-3.0
+                  added: 2026-11-04
             - name: Privacy Badger
               url: https://privacybadger.org/
               repo: https://github.com/EFForg/privacybadger
