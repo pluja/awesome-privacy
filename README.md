@@ -1124,7 +1124,8 @@ Mainstream photo editors push your work into their cloud and collect usage data 
 #### Web
 
 - **[miniPaint](https://github.com/viliusle/miniPaint)** - Photopea alternative that edits images entirely in your browser, with nothing sent to a server. <sub>Web</sub>
-
+- **[MiniToolDesk](https://minitooldesk.com/) - 100% client-side privacy-first developer toolbox with zero server uploads, hardware-accelerated Web Crypto, and an offline AI prompt sanitizer.
+  
 #### Desktop
 
 - **[Czkawka](https://github.com/qarmin/czkawka)** - Finds duplicate files, similar images and other clutter in your photo folders. <sub>Linux · macOS · Windows</sub>
