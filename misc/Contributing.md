@@ -32,13 +32,17 @@ Add your entry to the right section file:
   description: What it is, plus the privacy property that matters.
 ```
 
-Optional fields: `platforms` (only if it runs on some platforms, e.g. `[android]`), `tags` (`self-host`, `e2ee`, `p2p`, `no-account`, `tor`, `offline`...) and `package_id` for Android apps. Leave out `license`, `added` and `fdroid`: CI checks the license, stamps the date after merge, and links the F-Droid build when the app is on F-Droid. The full schema is in `schema/schema.ts`.
+Optional fields: `platforms` (only if it runs on some platforms, e.g. `[android]`), `tags` (`self-host`, `e2ee`, `p2p`, `no-account`, `anonymous-account`, `tor`, `offline`...) and `package_id` for Android apps. Leave out `license`, `added` and `fdroid`: CI checks the license, stamps the date after merge, and links the F-Droid build when the app is on F-Droid. The full schema is in `schema/schema.ts`.
+
+`no-account` means you sign up with nobody: there is nothing to register, or your identity is a key made on your own device (Briar, SimpleX, Nostr, a self-custody Bitcoin wallet). `anonymous-account` means the provider keeps an account for you but asks for no email, phone or name, like Mullvad's account numbers.
 
 The description is one plain sentence: what the project is and why it's better for privacy. No marketing words, no license or platform list (those are fields).
 
 To check your change locally: `npm ci && npm run validate`. To preview the README: `npm run build`, then discard the README change before committing.
 
 A new section needs a file in `data/sections/` and a line in `data/meta.yaml`, under the category it belongs to.
+
+Subsections that group projects the same way across the list (self-hosted, third-party, decentralized, alternative clients...) can set `term: self-hosted` instead of writing their own intro. The shared explanations are under `terms` in `data/meta.yaml`, so each is written once and shows in every subsection that uses it. When a subsection needs to say something specific, give it an `intro` instead of a `term`.
 
 ### Services to avoid
 
@@ -52,9 +56,10 @@ avoid:
       tosdr: en_123                     # its ToS;DR service id
       exodus: com.example.cloud         # Android package with an Exodus Privacy report
       source: https://example.org/report  # any other evidence
+      site: https://example.com/        # its homepage, where the website gets its logo
 ```
 
-The reason is one short plain sentence without links, and at least one of `tosdr`, `exodus` or `source` backs it up.
+The reason is one short plain sentence without links, and at least one of `tosdr`, `exodus` or `source` backs it up. `site` is optional; the website shows the logo in grey.
 
 ### Reporting a problem
 

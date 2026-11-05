@@ -1,0 +1,18 @@
+---
+import Base from "../layouts/Base.astro";
+import Search from "../components/Search.astro";
+---
+
+<Base title="Not found" noindex>
+  <div class="container page">
+    <h1 class="glitch">404</h1>
+    <p>That page isn't here. Search for the service you want to replace, or <a class="link" href="/#topics">browse all topics</a>.</p>
+    <Search hero />
+  </div>
+</Base>
+
+<style>
+  .page { max-width: 40rem; padding-top: 3rem; }
+  h1 { font-size: clamp(4rem, 16vw, 7rem); font-weight: 800; letter-spacing: -0.04em; }
+  p { margin: 0.5rem 0 1.5rem; color: var(--text-2); }
+</style>

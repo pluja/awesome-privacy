@@ -1,0 +1,155 @@
+---
+import Base from "../layouts/Base.astro";
+import CategoryIcon from "../components/CategoryIcon.astro";
+import Logo from "../components/Logo.astro";
+import Search from "../components/Search.astro";
+import { appendix, avoided, avoidedNames, categories, pages, plain, recent, sectionIntro, totalEntries, type Page } from "../lib/site.ts";
+
+const POPULAR = ["Gmail", "WhatsApp", "Google Chrome", "LastPass", "Spotify"];
+const popular = POPULAR.map((name) => avoided.find((a) => a.name === name)).filter((a) => !!a);
+const latest = recent.slice(0, 5);
+const thisYear = new Date().getUTCFullYear();
+const date = (iso: string) =>
+  new Date(iso).toLocaleDateString("en", { month: "short", day: "numeric", year: new Date(iso).getUTCFullYear() === thisYear ? undefined : "numeric", timeZone: "UTC" });
+const PROMISES = ["Public source code", "Maintained for 6+ months", "Private by default"];
+
+// Never cut: two of the services it replaces, or else its intro's first sentence when that is short.
+const BLURB_MAX = 80;
+const blurb = (page: Page) => {
+  const names = avoidedNames(page);
+  if (!names.length) {
+    const first = plain(sectionIntro(page.section) ?? "").match(/^.+?[.!?](?=\s|$)/)?.[0] ?? "";
+    return first.length <= BLURB_MAX ? first : "";
+  }
+  return `Instead of ${names.slice(0, 2).join(", ")}${names.length > 2 ? ` +${names.length - 2}` : ""}`;
+};
+const website = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Awesome Privacy",
+  url: Astro.site?.href,
+  description: "Private, open source alternatives to the apps and services you use every day.",
+};
+---
+
+<Base jsonLd={website}>
+  <section class="hero">
+    <div class="container grid">
+      <div class="intro">
+        <h1 class="glitch">Awesome Privacy</h1>
+        <p class="lede">Private, open source alternatives to the apps and services you use every day. {totalEntries} picks across {pages.length} topics, kept up by a community since 2020.</p>
+        <Search hero />
+        <p class="popular">
+          <span>Try</span>
+          {popular.map((a) => <a href={a.url}><Logo name={a.name} avoid={a.places[0].item} size={20} />{a.name}</a>)}
+        </p>
+        <ul class="promises" role="list" aria-label="Every pick has">
+          {PROMISES.map((p) => <li>{p}</li>)}
+          <li><a href="/about/#bar">How we choose →</a></li>
+        </ul>
+        {appendix.map((p) => <a class="primer" href={p.url}>New to this? Read <strong>{p.section.title}</strong> →</a>)}
+      </div>
+
+      <aside class="latest" aria-labelledby="latest-title">
+        <div class="latest-head">
+          <h2 id="latest-title" class="eyebrow">Recently added</h2>
+          <a href="/new/">All new →</a>
+        </div>
+        <ul role="list">
+          {
+            latest.map((p) => (
+              <li>
+                <a href={p.url}>
+                  <Logo name={p.item.name} size={28} />
+                  <span class="t">
+                    <span class="n">{plain(p.item.name)}</span>
+                    <span class="w">{p.page.section.title}</span>
+                  </span>
+                  <time datetime={p.item.added}>{date(p.item.added!)}</time>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="container topics" id="topics" aria-labelledby="topics-title">
+    <h2 id="topics-title" class="visually-hidden">All topics</h2>
+    {
+      categories.map((c) => (
+        <section class="cat" id={c.slug} aria-labelledby={`${c.slug}-t`}>
+          <h3 id={`${c.slug}-t`}><CategoryIcon category={c} />{c.title}</h3>
+          <ul role="list">
+            {c.pages.map((p) => (
+              <li>
+                <a href={p.url}>
+                  <span class="row"><span class="name">{p.section.title}</span><span class="n">{p.count}</span></span>
+                  {blurb(p) && <span class="instead">{blurb(p)}</span>}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </section>
+</Base>
+
+<style>
+  .hero { padding: clamp(1.5rem, 4.5vw, 2.75rem) 0 clamp(1.5rem, 3.5vw, 2.25rem); border-bottom: 1px solid var(--line); }
+  .grid { display: grid; grid-template-columns: minmax(0, 1fr) 21rem; gap: 3rem; align-items: center; }
+  h1 { font-size: clamp(2.4rem, 7.5vw, 4.25rem); font-weight: 800; line-height: 0.98; letter-spacing: -0.035em; text-transform: uppercase; }
+  .lede { margin: 1rem 0 1.5rem; max-width: 34rem; font-size: clamp(1rem, 2vw, 1.15rem); color: var(--text-2); }
+  .intro :global(.search) { max-width: 36rem; }
+  .popular { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; max-width: 36rem; margin-top: 1rem; font-size: 0.85rem; }
+  .popular > span { color: var(--text-3); margin-right: 0.15rem; }
+  .popular a { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.2rem 0.6rem 0.2rem 0.3rem; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--text-2); }
+  .promises { display: flex; flex-wrap: wrap; gap: 0.35rem 1.1rem; margin: 1.1rem 0 0; padding: 0; list-style: none; font-size: 0.85rem; color: var(--text-2); }
+  .promises li:not(:last-child)::before { content: "✓"; margin-right: 0.4rem; color: var(--accent); font-weight: 700; }
+  .promises a { color: var(--text-3); }
+  .promises a:hover { color: var(--accent); }
+  .popular a:hover { border-color: var(--line-strong); color: var(--text); }
+  .primer { display: inline-block; margin-top: 0.9rem; font-size: 0.9rem; color: var(--text-2); }
+  .primer strong { font-weight: 600; color: var(--text); }
+  .primer:hover strong { color: var(--accent); }
+
+  .latest { border: 1px solid var(--line); border-radius: 14px; background: var(--surface); padding: 0.9rem 0.6rem 0.5rem; }
+  .latest-head { display: flex; justify-content: space-between; align-items: baseline; padding: 0 0.5rem 0.4rem; }
+  .latest-head a { font-size: 0.8rem; color: var(--text-3); }
+  .latest-head a:hover { color: var(--accent); }
+  .latest ul { margin: 0; padding: 0; list-style: none; }
+  .latest li a { display: flex; align-items: center; gap: 0.65rem; padding: 0.45rem 0.5rem; border-radius: 8px; }
+  .latest li a:hover { background: var(--hover); }
+  .t { display: grid; min-width: 0; flex: 1; line-height: 1.3; }
+  .t .n { color: var(--text); font-weight: 600; font-size: 0.9rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .t .w { font-size: 0.78rem; color: var(--text-3); }
+  time { font-size: 0.75rem; color: var(--text-3); font-variant-numeric: tabular-nums; }
+
+  .topics { columns: 17rem auto; column-gap: 2.5rem; padding-top: 2.5rem; }
+  .cat { break-inside: avoid; margin-bottom: 2rem; scroll-margin-top: calc(var(--header) + 1rem); }
+  .cat h3 { display: flex; gap: 0.55rem; align-items: center; font-size: 0.95rem; font-weight: 650; padding: 0 0.5rem 0.5rem; border-bottom: 1px solid var(--line); margin-bottom: 0.3rem; }
+  .cat ul { margin: 0; padding: 0; list-style: none; }
+  .cat li a { display: grid; gap: 0.05rem; padding: 0.4rem 0.5rem; border-radius: 8px; }
+  .cat li a:hover { background: var(--hover); }
+  .cat li a:hover .name { color: var(--accent); }
+  .row { display: flex; justify-content: space-between; gap: 0.75rem; }
+  .name { font-weight: 550; font-size: 0.93rem; }
+  .n { font-size: 0.78rem; color: var(--text-3); font-variant-numeric: tabular-nums; }
+  .cat h3 :global(.icon) { color: var(--text-3); }
+  .instead { font-size: 0.8rem; color: var(--text-3); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; }
+
+  @media (max-width: 60rem) {
+    .grid { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
+    .latest { display: none; }
+  }
+</style>
+
+<script>
+  // The header search stays out of the way while the big one is on screen.
+  const hero = document.querySelector("form.search.hero");
+  if (hero) {
+    new IntersectionObserver(([e]) => document.documentElement.classList.toggle("past-hero", !e.isIntersecting), { rootMargin: "-64px 0px 0px" }).observe(hero);
+  }
+</script>

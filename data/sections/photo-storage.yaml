@@ -4,8 +4,10 @@ intro: Cloud photo services scan your library for faces, places and objects and 
 avoid:
   items:
     - name: Google Photos
-      reason: scans your photos for faces, places and objects, tied to your Google account.
+      reason: scans your photos, and in 2022 its scan got a father investigated by police over photos taken for a doctor.
       tosdr: en_217
+      source: https://gizmodo.com/google-csam-photodna-1849440471
+      site: https://photos.google.com/
       tools:
         - name: Google Photos Takeout Helper
           url: https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper
@@ -15,10 +17,12 @@ avoid:
           status: inactive
           added: 2021-06-07
     - name: Amazon Photos
-      reason: Amazon gathers data from your library, as its own list of examples shows.
+      reason: its privacy notice says Amazon uses the images you store with it to improve its services.
       source: https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ
+      site: https://www.amazon.com/photos
 subsections:
   - title: Self-hosted
+    term: self-hosted
     recommend:
       entries:
         - name: Ente
@@ -96,6 +100,7 @@ subsections:
           added: 2020-12-07
           fdroid: true
   - title: Third-party
+    term: third-party
     recommend:
       entries:
         - name: Cryptee
@@ -131,6 +136,7 @@ subsections:
           added: 2020-12-07
           fdroid: true
   - title: Local
+    term: local
     recommend:
       entries:
         - name: digiKam

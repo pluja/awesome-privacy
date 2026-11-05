@@ -4,17 +4,25 @@ intro: Your searches say more about you than almost anything else, and the big e
 avoid:
   items:
     - name: Google
-      reason: logs your searches and ties them to your Google account and ad profile.
+      reason: police can get the IP address of everyone who searched a term from Google, a practice Colorado upheld in 2023.
       tosdr: en_217
+      source: https://statecourtreport.org/our-work/analysis-opinion/colorado-supreme-court-upholds-controversial-google-keyword-warrant
+      site: https://www.google.com/
     - name: Bing
-      reason: logs your searches under Microsoft's very poorly rated privacy policy.
+      reason: in 2020 an unsecured Bing server exposed 6.5TB of logs with users' search queries and locations.
       tosdr: en_244
+      source: https://www.wizcase.com/blog/bing-leak-research/
+      site: https://www.bing.com/
     - name: Yahoo!
-      reason: logs your searches under a very poorly rated privacy policy.
+      reason: a 2013 breach hit all 3 billion Yahoo accounts, which Yahoo admitted only in 2017.
       tosdr: en_309
+      source: https://techcrunch.com/2017/10/03/yahoo-says-all-3b-accounts-were-impacted-by-2013-breach-not-1b-as-thought
+      site: https://www.yahoo.com/
     - name: Yandex
-      reason: Russian law gives the security services access to user data.
+      reason: in 2025 researchers found its Android apps, Yandex Search among them, secretly linked browsing to device IDs.
       tosdr: en_860
+      source: https://localmess.github.io/
+      site: https://yandex.com/
 recommend:
   entries:
     - name: Brave Search

@@ -1,0 +1,97 @@
+---
+import Base from "../../layouts/Base.astro";
+import PlatformFilter from "../../components/PlatformFilter.astro";
+import SectionBlock from "../../components/SectionBlock.astro";
+import TopicNav from "../../components/TopicNav.astro";
+import CategoryIcon from "../../components/CategoryIcon.astro";
+import { topicFeed } from "../../lib/feed.ts";
+import { editUrl, idOf, pageTitle, pages, placedEntries, platformGroups, sectionIntro, summary, type Page } from "../../lib/site.ts";
+
+export function getStaticPaths() {
+  return pages.map((page) => ({ params: { slug: page.slug }, props: { page } }));
+}
+
+const { page } = Astro.props as { page: Page };
+const { section, category } = page;
+const siblings = category?.pages ?? [];
+const at = siblings.indexOf(page);
+const [prev, next] = [siblings[at - 1], siblings[at + 1]];
+const description = summary(sectionIntro(section)) || `Private, open source picks for ${section.title.toLowerCase()}.`;
+const breadcrumbs = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Awesome Privacy", item: new URL("/", Astro.site).href },
+    { "@type": "ListItem", position: 2, name: section.title, item: new URL(page.url, Astro.site).href },
+  ],
+};
+const filterable = placedEntries.some((p) => p.page === page && platformGroups(p.item) !== "all");
+---
+
+<Base title={pageTitle(page)} description={description} jsonLd={breadcrumbs} image={`/og/${page.slug}.png`} feed={topicFeed(page)}>
+  <div class="container layout">
+    <aside class="side">
+      <TopicNav current={page} />
+    </aside>
+
+    <article class="content">
+      <header class="head">
+        {category && <a class="crumb" href={`/#${category.slug}`}><CategoryIcon category={category} size={14} />{category.title}</a>}
+        <h1>{section.title}</h1>
+        <div class="meta">
+          {page.count > 0 && <span>{page.count} {page.count === 1 ? "pick" : "picks"}</span>}
+          <a href={editUrl(page)} rel="noopener">Edit on GitHub</a>
+          <a href={topicFeed(page).href}>RSS</a>
+          {filterable && <PlatformFilter />}
+        </div>
+        {
+          (section.subsections?.length ?? 0) > 0 && (
+            <nav class="jump" aria-label="On this page">
+              {section.subsections!.map((s) => <a href={`#${idOf(s)}`}>{s.title}</a>)}
+            </nav>
+          )
+        }
+      </header>
+
+      <SectionBlock section={section} top />
+
+      {
+        category && (
+          <nav class="pager" aria-label={`More in ${category.title}`}>
+            {prev ? <a href={prev.url}><span>← Previous</span>{prev.section.title}</a> : <span />}
+            {next ? <a class="next" href={next.url}><span>Next →</span>{next.section.title}</a> : <span />}
+          </nav>
+        )
+      }
+    </article>
+  </div>
+</Base>
+
+<style>
+  .layout { display: grid; grid-template-columns: 15rem minmax(0, 1fr); gap: 3rem; padding-top: 1.75rem; }
+  .side { position: sticky; top: calc(var(--header) + 1rem); align-self: start; max-height: calc(100dvh - var(--header) - 2rem); overflow-y: auto; padding: 0 0.25rem 1rem 0; scrollbar-width: thin; }
+  .content { max-width: 52rem; min-width: 0; }
+
+  .head { display: grid; gap: 0.5rem; margin-bottom: 1.5rem; }
+  .crumb { display: flex; align-items: center; gap: 0.4rem; justify-self: start; font-size: 0.85rem; font-weight: 500; color: var(--text-3); }
+  .crumb:hover { color: var(--text); }
+  h1 { font-size: clamp(1.75rem, 4vw, 2.4rem); font-weight: 700; letter-spacing: -0.025em; }
+  .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem; font-size: 0.85rem; color: var(--text-3); }
+  .meta a:hover { color: var(--text); }
+  .meta :global(.filter) { margin-left: auto; }
+  .jump { display: none; gap: 0.4rem; overflow-x: auto; padding-bottom: 0.25rem; margin-top: 0.25rem; scrollbar-width: none; }
+  .jump a { flex: none; padding: 0.3rem 0.7rem; border: 1px solid var(--line); border-radius: 999px; font-size: 0.82rem; color: var(--text-2); background: var(--surface); }
+
+  .pager { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 3rem; }
+  .pager a { display: grid; gap: 0.2rem; padding: 0.85rem 1rem; border: 1px solid var(--line); border-radius: var(--radius); font-weight: 600; }
+  .pager a:hover { border-color: var(--line-strong); background: var(--surface); }
+  .pager span { font-size: 0.78rem; font-weight: 500; color: var(--text-3); }
+  .next { text-align: right; }
+
+  @media (max-width: 64rem) {
+    .layout { grid-template-columns: minmax(0, 1fr); padding-top: 1.25rem; }
+    .side { display: none; }
+    .jump { display: flex; }
+    .meta :global(.filter) { margin-left: 0; }
+  }
+</style>

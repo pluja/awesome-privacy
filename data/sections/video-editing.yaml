@@ -4,8 +4,9 @@ intro: Commercial video editors are closed source and often tied to an online ac
 avoid:
   items:
     - name: Adobe Premiere Pro
-      reason: tied to a Creative Cloud account, and Adobe has a long record of anti-user practices.
-      source: https://www.gnu.org/proprietary/malware-adobe.html
+      reason: its terms allow automated scanning of your Creative Cloud files and human review of flagged ones.
+      source: https://www.adobe.com/legal/terms.html
+      site: https://www.adobe.com/products/premiere.html
 recommend:
   entries:
     - name: Kdenlive

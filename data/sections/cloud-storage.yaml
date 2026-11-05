@@ -4,15 +4,21 @@ intro: Mainstream cloud drives can read everything you upload and scan it on the
 avoid:
   items:
     - name: Google Drive
-      reason: files are stored without end-to-end encryption, under a very poorly rated privacy policy.
+      reason: scans your files, and in 2022 locked a file holding only the digit 1 as copyright infringement.
       tosdr: en_217
+      source: https://www.bleepingcomputer.com/news/security/google-drive-flags-nearly-empty-files-for-copyright-infringement/
+      site: https://drive.google.com/
     - name: Dropbox
-      reason: no end-to-end encryption, and 4 trackers in its Android app.
+      reason: a 2012 breach exposed 68 million users' emails and passwords, which Dropbox only confirmed in 2016.
       tosdr: en_270
       exodus: com.dropbox.android
+      source: https://www.theregister.com/2016/08/31/dropbox_2012_credentials_file_is_real/
+      site: https://www.dropbox.com/
     - name: OneDrive
-      reason: files are stored without end-to-end encryption, under a very poorly rated privacy policy.
+      reason: collects and stores facial scans from your photos to group them by person, Microsoft says.
       tosdr: en_244
+      source: https://support.microsoft.com/en-us/onedrive/group-photos-by-people-in-microsoft-photos
+      site: https://onedrive.live.com/
 recommend:
   entries:
     - name: Nextcloud

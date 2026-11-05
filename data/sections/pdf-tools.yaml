@@ -7,10 +7,12 @@ avoid:
       reason: uploads your documents to its servers, and the Android app has 7 trackers.
       tosdr: en_7842
       exodus: com.ilovepdf.www
+      site: https://www.ilovepdf.com/
     - name: Smallpdf
       reason: uploads your documents to its servers, and the Android app has 3 trackers.
       tosdr: en_6244
       exodus: com.smallpdf.app.android
+      site: https://smallpdf.com/
 recommend:
   entries:
     - name: BentoPDF

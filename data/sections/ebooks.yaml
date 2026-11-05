@@ -4,11 +4,14 @@ intro: Commercial ebook platforms track your reading, tie your books to an accou
 avoid:
   items:
     - name: Amazon Kindle
-      reason: tracks your reading, and Amazon has remotely deleted books from customers' devices.
-      source: https://www.nytimes.com/2009/07/18/technology/18kindle.html
+      reason: in 2009 Amazon remotely deleted copies of 1984 that people had bought from their Kindles.
+      source: https://www.theregister.com/2009/07/18/amazon_removes_1984_from_kindle/
+      site: https://www.amazon.com/kindle
     - name: Google Play Books
-      reason: tied to your Google account, which records what you read.
+      reason: its privacy policy says the record of each book you buy, title included, can't be deleted.
       tosdr: en_217
+      source: https://books.google.com/googlebooks/privacy.html
+      site: https://play.google.com/books
 recommend:
   entries:
     - name: Calibre

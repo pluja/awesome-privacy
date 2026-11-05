@@ -4,8 +4,10 @@ intro: Bookmarks and read-later lists reveal a lot about what you read and care 
 avoid:
   items:
     - name: Evernote Web Clipper
-      reason: saves pages to Evernote without end-to-end encryption, under a poorly rated privacy policy.
+      reason: in 2016 Evernote changed its policy to let staff read users' notes, until users pushed back.
       tosdr: en_207
+      source: https://techcrunch.com/2016/12/14/evernotes-new-privacy-policy-allows-employees-to-read-your-notes/
+      site: https://evernote.com/
 recommend:
   entries:
     - name: 42links

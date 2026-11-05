@@ -105,8 +105,10 @@ subsections:
     avoid:
       items:
         - name: MS Windows
-          reason: collects usage data and pushes you into a Microsoft account.
+          reason: uploads your disk encryption recovery key to Microsoft by default, and Microsoft has given keys to the FBI.
           tosdr: en_244
+          source: https://techcrunch.com/2026/01/23/microsoft-gave-fbi-a-set-of-bitlocker-encryption-keys-to-unlock-suspects-laptops-reports
+          site: https://www.microsoft.com/windows
     notes: If you stay on Windows, [Win11Debloat](https://github.com/Raphire/Win11Debloat) or [W10Privacy](https://www.w10privacy.de/english-home/) can turn off many of its privacy-invasive settings.
     subsections:
       - title: "[GNU/Linux](https://www.linux.com/what-is-linux/)"

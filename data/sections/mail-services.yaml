@@ -8,21 +8,30 @@ callouts:
 avoid:
   items:
     - name: Gmail
-      reason: your mail is processed on Google's servers and tied to your Google account.
+      reason: in 2019 Google was found listing every purchase from your Gmail receipts, even after the emails were deleted.
       tosdr: en_217
+      source: https://www.cnbc.com/2019/07/05/google-gmail-purchase-history-cant-be-deleted.html
+      site: https://mail.google.com/
     - name: Outlook
-      reason: Microsoft can read your mail, and the Android app has 4 trackers.
+      reason: since 2023 the new Outlook app sends your other accounts' IMAP passwords and mail to Microsoft's servers.
       tosdr: en_244
       exodus: com.microsoft.office.outlook
+      source: https://www.heise.de/en/news/Microsoft-lays-hands-on-login-data-Beware-of-the-new-Outlook-9608798.html
+      site: https://outlook.live.com/
     - name: Yahoo! Mail
-      reason: 10 trackers in its Android app, under a very poorly rated privacy policy.
+      reason: in 2015 Yahoo secretly scanned all users' incoming mail for US intelligence, Reuters reported.
       tosdr: en_309
       exodus: com.yahoo.mobile.client.android.mail
+      source: https://finance.yahoo.com/news/exclusive-yahoo-secretly-scanned-customer-170557779.html
+      site: https://mail.yahoo.com/
     - name: Yandex Mail
-      reason: Russian law gives the security services access to user data.
+      reason: in 2019 Russia's FSB demanded that Yandex hand over the encryption keys for Yandex Mail.
       tosdr: en_860
+      source: https://www.themoscowtimes.com/2019/06/04/russias-yandex-pushes-back-against-pressure-to-share-encryption-keys-2-a65870
+      site: https://mail.yandex.com/
 subsections:
-  - title: Third-Party owned
+  - title: Third-party
+    term: third-party
     recommend:
       entries:
         - name: Forward Email
@@ -63,8 +72,11 @@ subsections:
         - name: Posteo
           url: https://posteo.de/en
           description: Ad-free email from Germany, funded only by its users, with optional encrypted storage and sign-up and payment that need no personal details.
+          tags:
+            - anonymous-account
           added: 2026-11-02
-  - title: Self-Hosted
+  - title: Self-hosted
+    term: self-hosted
     recommend:
       entries:
         - name: Docker Mailserver
@@ -108,6 +120,7 @@ subsections:
             - audited
           added: 2026-07-04
   - title: Clients
+    intro: Email is an open standard, so these apps work with most providers, including the ones above. Proton Mail needs its Bridge app for that, and Tuta only works in its own apps.
     subsections:
       - title: Android / iOS
         recommend:

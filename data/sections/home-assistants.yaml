@@ -4,14 +4,19 @@ intro: Smart speakers keep a microphone on in your home and send recordings to t
 avoid:
   items:
     - name: Google Home
-      reason: an always-listening microphone tied to your Google account.
+      reason: in 2026 Google agreed to pay $68 million over claims its Assistant recorded people without the wake word.
       tosdr: en_217
+      source: https://www.classaction.org/news/68m-google-assistant-settlement-ends-class-action-lawsuit-claiming-devices-start-recording-without-user-activation
+      site: https://home.google.com/
     - name: Alexa
-      reason: an always-listening microphone that sends your requests to Amazon.
+      reason: the FTC fined Amazon $25 million in 2023 for keeping children's Alexa voice recordings indefinitely.
       tosdr: en_190
+      source: https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-doj-charge-amazon-violating-childrens-privacy-law-keeping-kids-alexa-voice-recordings-forever
+      site: https://www.amazon.com/alexa
     - name: Siri
-      reason: Apple contractors regularly listened to Siri recordings, including private moments.
-      source: https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings
+      reason: in 2025 Apple settled claims that Siri recorded private conversations without consent for $95 million.
+      source: https://scott-scott.com/court-grants-final-approval-of-95m-apple-siri-settlement/
+      site: https://www.apple.com/siri/
 recommend:
   entries:
     - name: Home Assistant

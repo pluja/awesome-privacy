@@ -1,0 +1,66 @@
+---
+import Base from "../layouts/Base.astro";
+import Logo from "../components/Logo.astro";
+import { avoided, categories, placeLabel, sentence } from "../lib/site.ts";
+
+const letterOf = (name: string) => (/^[a-z]/i.test(name) ? name[0].toUpperCase() : "#");
+const groups = Map.groupBy(avoided, (a) => letterOf(a.name));
+---
+
+<Base title="Services to replace, A to Z" description="Find the service you use now and see private alternatives to it.">
+  <div class="container page">
+    <header class="head">
+      <h1>Services to replace, A to Z</h1>
+      <p>Find the service you use now, why it's worth leaving, and where to find alternatives. Looking for a topic instead? <a class="link" href="/#topics">Browse all {categories.length} categories</a>.</p>
+    </header>
+
+    <nav class="letters" aria-label="Jump to letter">
+      {[...groups.keys()].map((l) => <a href={`#letter-${l}`}>{l}</a>)}
+    </nav>
+
+    {
+      [...groups].map(([letter, items]) => (
+        <section id={`letter-${letter}`} aria-label={letter}>
+          <h2 aria-hidden="true">{letter}</h2>
+          <ul role="list">
+            {items.flatMap((a) =>
+              a.places.map((p, i) => (
+                <li class:list={{ more: i > 0 }}>
+                  <strong>{i === 0 && <a class="service" href={a.url}><Logo name={a.name} avoid={a.places[0].item} size={20} />{a.name}</a>}</strong>
+                  <span class="reason">{sentence(p.item.reason)}</span>
+                  <a class="place" href={p.url}>{placeLabel(p)}&nbsp;→</a>
+                </li>
+              )),
+            )}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+</Base>
+
+<style>
+  .page { max-width: 64rem; padding-top: 2rem; }
+  .head { display: grid; gap: 0.5rem; }
+  h1 { font-size: clamp(1.75rem, 4vw, 2.4rem); font-weight: 700; letter-spacing: -0.025em; }
+  .head p { color: var(--text-2); max-width: var(--measure); }
+  .letters { position: sticky; top: var(--header); z-index: 5; display: flex; flex-wrap: wrap; gap: 0.1rem; margin: 1.5rem 0 0.5rem; padding: 0.4rem 0; background: var(--bg); border-bottom: 1px solid var(--line); }
+  .letters a { display: grid; place-items: center; min-width: 2rem; height: 2rem; border-radius: 6px; font-size: 0.85rem; font-weight: 600; color: var(--text-2); }
+  .letters a:hover { background: var(--hover); color: var(--text); }
+  section { scroll-margin-top: calc(var(--header) + 3.5rem); }
+  h2 { margin: 1.5rem 0 0.25rem; font-size: 0.8rem; font-weight: 700; color: var(--text-3); }
+  ul { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+  li { display: grid; grid-template-columns: 13rem minmax(0, 1fr) 15rem; gap: 0.2rem 1.25rem; align-items: baseline; padding: 0.6rem 0; border-bottom: 1px solid var(--line); font-size: 0.92rem; }
+  li.more { border-top: 0; padding-top: 0; margin-top: -0.2rem; }
+  strong { padding-left: calc(20px + 0.55rem); text-indent: calc(-20px - 0.55rem); font-weight: 600; }
+  strong :global(.logo) { margin-right: 0.55rem; vertical-align: -0.3em; text-indent: 0; }
+  .reason { color: var(--text-2); }
+  .service { color: var(--text); }
+  .service:hover { color: var(--accent); }
+  .place { color: var(--accent); font-weight: 550; font-size: 0.88rem; }
+  .place:hover { text-decoration: underline; }
+  @media (max-width: 52rem) {
+    li { grid-template-columns: minmax(0, 1fr); }
+    li.more strong { display: none; }
+  }
+</style>

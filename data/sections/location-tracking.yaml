@@ -1,14 +1,17 @@
-title: Location tracking
+title: Location Tracking
 slug: location-tracking
 intro: Your location history shows where you live, work and sleep. These tools record it on your own device or server rather than a Google account.
 avoid:
   items:
     - name: Google location history
-      reason: records where you go, tied to your Google account.
+      reason: in 2022 Google paid $391.5 million to 40 US states for tracking people's location after they turned it off.
       tosdr: en_217
+      source: https://www.cnbc.com/2022/11/14/google-settles-with-40-states-over-location-tracking-practices.html
+      site: https://www.google.com/maps/timeline
     - name: Google Find Hub (formerly Find My Device)
       reason: reports your devices' locations to Google.
       tosdr: en_217
+      site: https://www.google.com/android/find
 subsections:
   - title: Tracking
     recommend:

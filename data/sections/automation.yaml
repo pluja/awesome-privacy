@@ -6,9 +6,12 @@ avoid:
     - name: IFTTT
       reason: your workflows run on its servers, holding tokens to all your connected accounts.
       tosdr: en_236
+      site: https://ifttt.com/
     - name: Zapier
-      reason: your workflows run on its servers, holding tokens to all your connected accounts.
+      reason: in 2025 an intruder got into its code repositories, where some customer data had been copied.
       tosdr: en_2131
+      source: https://threats.wiz.io/all-incidents/zapier-data-breach
+      site: https://zapier.com/
 recommend:
   entries:
     - name: Huginn

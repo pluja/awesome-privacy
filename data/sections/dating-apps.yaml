@@ -4,18 +4,25 @@ intro: Mainstream dating apps collect intimate data and profit from it. Tinder i
 avoid:
   items:
     - name: Tinder
-      reason: 8 trackers in its Android app, under a very poorly rated privacy policy.
+      reason: a 2020 Norwegian Consumer Council study found it shared user data with at least 45 Match Group firms.
       tosdr: en_462
       exodus: com.tinder
+      source: https://www.thelocal.no/20200114/norway-consumer-rights-group-accuses-tinder-grindr-of-illegally-sharing-data
+      site: https://tinder.com/
     - name: Grindr
-      reason: fined in Norway for sharing users' location and sexual orientation with advertisers.
+      reason: fined NOK 65 million in Norway in 2021 for sharing users' data with advertisers without valid consent.
       source: https://techcrunch.com/2021/12/15/grindr-final-gdpr-fine/
+      site: https://www.grindr.com/
     - name: Badoo
-      reason: 30 trackers in its Android app, most of them for advertising.
+      reason: settled for $40 million in 2024, with Bumble, over claims it scanned Illinois users' faces.
       exodus: com.badoo.mobile
+      source: https://idtechwire.com/illinoisan-bumble-badoo-users-may-get-payout-from-40-million-biometric-privacy-settlement/
+      site: https://badoo.com/
     - name: Lovoo
-      reason: 33 trackers in its Android app, most of them for advertising.
+      reason: in 2019 journalists used its Radar feature to locate users to within 30 to 50 meters.
       exodus: net.lovoo.android
+      source: https://netzpolitik.org/2019/sicherheitsluecke-dating-app-lovoo-gibt-standortdaten-preis/
+      site: https://www.lovoo.com/
 recommend:
   entries:
     - name: Alovoa

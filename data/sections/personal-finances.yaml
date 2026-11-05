@@ -89,10 +89,12 @@ subsections:
         - name: Tricount
           reason: 8 trackers in its Android app, from Facebook, Google and Huawei among others.
           exodus: com.tribab.tricount.android
+          site: https://tricount.com/
         - name: Splitwise
           reason: Google and Amazon trackers in its Android app, under a poorly rated privacy policy.
           tosdr: en_7468
           exodus: com.Splitwise.SplitwiseMobile
+          site: https://www.splitwise.com/
     recommend:
       entries:
         - name: Spliit
@@ -140,9 +142,6 @@ subsections:
               added: 2021-02-25
               fdroid: true
           added: 2021-02-25
-  - title: Others
-    recommend:
-      entries: []
   - title: Portfolio trackers
     recommend:
       entries:

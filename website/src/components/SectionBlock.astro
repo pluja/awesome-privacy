@@ -1,0 +1,75 @@
+---
+import AvoidList from "./AvoidList.astro";
+import EntryRow from "./EntryRow.astro";
+import { idOf, md, sectionIntro, sorted, type Section } from "../lib/site.ts";
+
+interface Props {
+  section: Section;
+  top?: boolean;
+  depth?: number;
+}
+
+const { section, top = false, depth = 0 } = Astro.props;
+const Heading = depth > 1 ? "h3" : "h2";
+const entries = sorted(section.recommend?.entries);
+const intro = sectionIntro(section);
+const CALLOUT_LABEL = { note: "Note", tip: "Tip", important: "Important", warning: "Warning", caution: "Caution" };
+---
+
+<section class:list={["block", { sub: !top }]} id={top ? undefined : idOf(section)}>
+  {!top && <Heading><a href={`#${idOf(section)}`}>{section.title}</a></Heading>}
+  {intro && <div class="prose intro" set:html={md(intro)} />}
+
+  {
+    section.callouts?.map((c) => (
+      <aside class:list={["callout", c.type]}>
+        <p class="eyebrow">{CALLOUT_LABEL[c.type]}</p>
+        <div class="prose" set:html={md(c.text)} />
+      </aside>
+    ))
+  }
+
+  {section.avoid && <AvoidList section={section} />}
+
+  {
+    (entries.length > 0 || section.recommend?.intro) && (
+      <div class="use">
+        {section.avoid && <p class="label">Use instead</p>}
+        {section.recommend?.intro && <div class="prose" set:html={md(section.recommend.intro)} />}
+        {entries.length > 0 && (
+          <ul class="entries" role="list">
+            {entries.map((e) => <EntryRow entry={e} section={section} />)}
+          </ul>
+        )}
+        <p class="filtered-out" hidden>Nothing here for this platform.</p>
+      </div>
+    )
+  }
+
+  {section.notes && <div class="prose notes" set:html={md(section.notes)} />}
+
+  {section.subsections?.map((s) => <Astro.self section={s} depth={depth + 1} />)}
+</section>
+
+<style>
+  .block { display: flex; flex-direction: column; gap: 1.25rem; }
+  .sub { margin-top: 1.75rem; scroll-margin-top: calc(var(--header) + 1rem); }
+  .sub h2 { font-size: 1.3rem; }
+  .sub h3 { font-size: 1.08rem; }
+  .sub :is(h2, h3) a:hover { color: var(--accent); }
+  .intro { font-size: 0.98rem; }
+
+  .use .label { font-size: 0.75rem; font-weight: 650; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-3); margin-bottom: 0.25rem; }
+  .use > .prose { margin-bottom: 0.75rem; font-size: 0.95rem; }
+  .entries { margin: 0; padding: 0; list-style: none; border-bottom: 1px solid var(--line); }
+  .filtered-out { padding: 1rem 0; color: var(--text-3); font-size: 0.9rem; }
+
+  .callout { padding: 0.75rem 1rem; border-radius: var(--radius); background: var(--subtle); border-left: 3px solid var(--line-strong); font-size: 0.92rem; }
+  .callout .eyebrow { margin-bottom: 0.3rem; }
+  .callout.warning, .callout.caution { border-left-color: var(--warn); }
+  .callout.warning .eyebrow, .callout.caution .eyebrow { color: var(--warn); }
+  .callout.tip, .callout.important { border-left-color: var(--accent); }
+  .callout.tip .eyebrow, .callout.important .eyebrow { color: var(--accent); }
+
+  .notes { font-size: 0.95rem; }
+</style>

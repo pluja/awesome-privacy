@@ -1,0 +1,147 @@
+/* Latin only; other scripts fall back to the system font. */
+@font-face {
+  font-family: "Inter Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("../../node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2") format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  color-scheme: light dark;
+
+  --bg: #fcfcfc;
+  --surface: #ffffff;
+  --subtle: #f4f4f5;
+  --hover: #efeff1;
+  --line: #e7e7ea;
+  --line-strong: #d4d4d8;
+  --text: #18181b;
+  --text-2: #4b4b53;
+  --text-3: #6b6b74;
+  --accent: #a21caf;
+  --accent-soft: #fbeafd;
+  --danger: #b42318;
+  --warn: #a15c07;
+  --logo-tile: #ffffff;
+
+  /* The logo's two offsets; only the wordmark and big display text use them. */
+  --magenta: #ff3dff;
+  --green: #36f236;
+
+  --font: "Inter Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+
+  --radius: 10px;
+  --header: 3.5rem;
+  --page: 80rem;
+  --measure: 44rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d0d0f;
+    --surface: #141417;
+    --subtle: #1a1a1e;
+    --hover: #222227;
+    --line: #26262c;
+    --line-strong: #34343b;
+    --text: #ececee;
+    --text-2: #b0b0b8;
+    --text-3: #8d8d97;
+    --accent: #ea8cf7;
+    --accent-soft: #2e1533;
+    --danger: #ff8d80;
+    --warn: #f5b74e;
+    --logo-tile: #f4f4f5;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: calc(var(--header) + 1rem); }
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--text);
+  font: 400 1rem/1.55 var(--font);
+  font-feature-settings: "cv11", "ss03";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main { flex: 1; }
+
+h1, h2, h3 { margin: 0; line-height: 1.2; letter-spacing: -0.015em; font-weight: 650; text-wrap: balance; }
+p { margin: 0; text-wrap: pretty; }
+
+a { color: inherit; text-decoration: none; }
+.prose a, a.link { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.2em; text-decoration-color: color-mix(in srgb, currentColor 40%, transparent); }
+.prose a:hover, a.link:hover { text-decoration-color: currentColor; }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+::selection { background: var(--accent); color: var(--bg); }
+
+code { font-family: var(--mono); font-size: 0.875em; }
+
+.container { width: min(100% - 2rem, var(--page)); margin-inline: auto; }
+
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip-path: inset(50%); white-space: nowrap;
+}
+
+.glitch { text-shadow: -0.035em 0.025em 0 var(--magenta), 0.035em -0.015em 0 var(--green); }
+
+.eyebrow { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-3); }
+
+.prose { color: var(--text-2); max-width: var(--measure); }
+.prose :where(p, ul) { margin: 0; }
+.prose > * + * { margin-top: 0.75em; }
+.prose ul { padding-left: 1.2em; }
+.prose li + li { margin-top: 0.35em; }
+.prose strong { color: var(--text); font-weight: 600; }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  height: 1.3rem;
+  padding: 0 0.45rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: 550;
+  line-height: 1;
+  white-space: nowrap;
+  color: var(--text-2);
+  vertical-align: 0.1em;
+}
+.badge.warn::before { content: ""; width: 0.4rem; height: 0.4rem; border-radius: 50%; background: var(--warn); }
+.badge.new { border-color: transparent; background: var(--accent-soft); color: var(--accent); }
+
+.kbd {
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.35rem;
+  height: 1.35rem;
+  padding: 0 0.3rem;
+  border: 1px solid var(--line-strong);
+  border-bottom-width: 2px;
+  border-radius: 5px;
+  font: 500 0.72rem/1 var(--font);
+  color: var(--text-3);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+.evidence { display: inline-flex; gap: 0.6rem; margin-left: 0.5rem; font-size: 0.8rem; }
+.evidence a { color: var(--text-3); font-weight: 550; text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 0.2em; }
+.evidence a:hover { color: var(--text); }

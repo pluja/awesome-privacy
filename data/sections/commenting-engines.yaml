@@ -4,8 +4,10 @@ intro: Embedded comment widgets load third-party trackers on every page that use
 avoid:
   items:
     - name: Disqus
-      reason: loads trackers on every site that embeds it, and logs commenters' IP, device and location.
+      reason: tracked visitors across sites for ad profiling without consent, Norway's regulator said in 2021.
       tosdr: en_239
+      source: https://www.datatilsynet.no/en/news/2021/intent-to-issue--25-million-fine-to-disqus-inc/
+      site: https://disqus.com/
 recommend:
   entries:
     - name: Comentario

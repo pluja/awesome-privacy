@@ -1,0 +1,135 @@
+---
+import { CAVEAT_MEANING, PLATFORM_LABEL, PLAY_STORE_TRACKERS, TAG_LABEL, fdroidUrl, warnings } from "../../../scripts/labels.ts";
+import Icon, { type IconName } from "./Icon.astro";
+import Logo from "./Logo.astro";
+import { idOf, isNew, mdInline, platformGroups, plain, reportUrl, sentence, sorted, type Entry, type Section } from "../lib/site.ts";
+
+interface Props {
+  entry: Entry;
+  section: Section;
+  child?: boolean;
+  where?: { label: string; url: string };
+  anchored?: boolean; // false where the row isn't on its own topic page, so its id could repeat
+}
+
+const { entry, section, child = false, where, anchored = true } = Astro.props;
+const fdroid = fdroidUrl(entry);
+const href = entry.url ?? entry.repo;
+type Link = { href: string; label: string; icon: IconName };
+const links = [
+  entry.url && entry.url !== entry.repo && { href: entry.url, label: "Website", icon: "website" },
+  entry.repo && { href: entry.repo, label: "Source", icon: "source" },
+  fdroid && { href: fdroid, label: "F-Droid", icon: "fdroid" },
+].filter((l): l is Link => !!l);
+const platforms = (entry.platforms ?? []).map((p) => PLATFORM_LABEL[p]).join(" · ");
+const facts = [
+  ...(entry.tags ?? []).map((t) => sentence(TAG_LABEL[t])),
+  ...(entry.license ? [entry.license] : []),
+  ...(fdroid && entry.caveats?.includes("play-store-trackers") ? [PLAY_STORE_TRACKERS] : []),
+];
+const children = sorted(entry.children);
+---
+
+<li class:list={["entry", { child, inactive: entry.status === "inactive" }]} id={anchored ? idOf(entry) : undefined} data-p={platformGroups(entry)}>
+  <Logo name={entry.name} size={child ? 24 : 32} />
+  <div class="main">
+    <p class="title">
+      {href ? <a class="name" href={href} rel="noopener">{plain(entry.name)}</a> : <span class="name" set:html={mdInline(entry.name)} />}
+      {isNew(entry) && <span class="badge new">New</span>}
+      {warnings(entry).map((w) => <span class="badge warn" title={sentence(CAVEAT_MEANING[w.key])}>{w.label}</span>)}
+    </p>
+    {entry.description && <p class="desc" set:html={mdInline(entry.description)} />}
+    {(where || facts.length > 0) && (
+      <p class="facts">
+        {where && <a class="where" href={where.url}>in {where.label}</a>}
+        {facts.join(" · ")}
+      </p>
+    )}
+  </div>
+  <div class="side">
+    {platforms && <p class="platforms">{platforms}</p>}
+    <p class="links">
+      {links.map((l) => <a href={l.href} rel="noopener"><Icon name={l.icon} />{l.label}</a>)}
+      <a class="report" href={reportUrl(entry, section)} rel="noopener" title="Report a problem" aria-label={`Report a problem with ${plain(entry.name)}`}>
+        <Icon name="report" />
+      </a>
+    </p>
+  </div>
+  {
+    children.length > 0 && (
+      <ul class="children" role="list">
+        {children.map((c) => <Astro.self entry={c} section={section} child anchored={anchored} />)}
+      </ul>
+    )
+  }
+</li>
+
+<style>
+  .entry {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) minmax(9rem, auto);
+    gap: 0.15rem 0.9rem;
+    padding: 0.95rem 0;
+    border-top: 1px solid var(--line);
+  }
+  .entry { position: relative; isolation: isolate; }
+  .entry:target::before {
+    content: "";
+    position: absolute;
+    inset: -1px -0.75rem 0;
+    z-index: -1;
+    border-radius: var(--radius);
+    background: linear-gradient(90deg, var(--accent-soft) 0%, color-mix(in srgb, var(--accent-soft) 60%, transparent) 45%, transparent 85%);
+  }
+  .entry > :global(.logo) { margin-top: 0.1rem; }
+
+  .title { display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem 0.45rem; line-height: 1.35; }
+  .name { font-weight: 620; font-size: 1rem; color: var(--text); }
+  a.name:hover { color: var(--accent); }
+  .desc { margin-top: 0.15rem; color: var(--text-2); font-size: 0.935rem; line-height: 1.5; max-width: 40rem; }
+  .desc :global(a) { color: inherit; text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 0.2em; }
+  .facts { margin-top: 0.3rem; font-size: 0.8rem; color: var(--text-3); }
+  .where { margin-right: 0.6rem; color: var(--text-2); font-weight: 550; }
+  .where:hover { color: var(--accent); }
+
+  .side { display: flex; flex-direction: column; align-items: flex-end; gap: 0.3rem; text-align: right; padding-top: 0.1rem; }
+  .platforms { font-size: 0.8rem; color: var(--text-3); line-height: 1.35; }
+  .links { display: flex; align-items: center; gap: 0.2rem; }
+  .links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    height: 1.75rem;
+    padding: 0 0.55rem;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    font-weight: 550;
+    color: var(--text-2);
+  }
+  .links a:hover { background: var(--hover); color: var(--text); }
+  .links a :global(.icon) { color: var(--text-3); }
+  .links a:hover :global(.icon) { color: inherit; }
+  .links .report { padding: 0 0.4rem; color: var(--text-3); }
+
+  .inactive .name, .inactive .desc { opacity: 0.75; }
+
+  .children {
+    grid-column: 2 / -1;
+    margin: 0.6rem 0 0;
+    padding: 0 0 0 0.9rem;
+    list-style: none;
+    border-left: 2px solid var(--line);
+  }
+  .child { padding: 0.6rem 0; }
+  .child:first-child { border-top: 0; padding-top: 0.2rem; }
+  .child:last-child { padding-bottom: 0.1rem; }
+  .child .name { font-size: 0.95rem; }
+
+  @media (max-width: 40rem) {
+    .entry { grid-template-columns: auto minmax(0, 1fr); }
+    .side { grid-column: 2; align-items: flex-start; gap: 0; text-align: left; margin-top: 0.2rem; }
+    .platforms { font-size: 0.78rem; }
+    .links { margin-left: -0.55rem; flex-wrap: wrap; }
+    .children { grid-column: 1 / -1; margin-left: 0.6rem; }
+  }
+</style>

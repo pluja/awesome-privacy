@@ -6,6 +6,7 @@ avoid:
     - name: Google Keep
       reason: notes are stored on Google's servers without end-to-end encryption.
       tosdr: en_217
+      site: https://keep.google.com/
       tools:
         - name: Keep To Markdown
           url: https://github.com/erikelisath/keep-to-markdown
@@ -13,14 +14,18 @@ avoid:
           description: Converts your Google Keep notes to Markdown files with a YAML header.
           added: 2024-11-08
     - name: Evernote
-      reason: notes are stored without end-to-end encryption, under a poorly rated privacy policy.
+      reason: in 2016 Evernote changed its policy to let staff read users' notes, until users pushed back.
       tosdr: en_207
+      source: https://techcrunch.com/2016/12/14/evernotes-new-privacy-policy-allows-employees-to-read-your-notes/
+      site: https://evernote.com/
     - name: Notion
       reason: no end-to-end encryption, so Notion can read everything in your workspace.
       tosdr: en_1817
+      site: https://www.notion.com/
     - name: OneNote
       reason: notes sync through Microsoft's servers without end-to-end encryption.
       tosdr: en_244
+      site: https://www.onenote.com/
 recommend:
   entries:
     - name: AppFlowy

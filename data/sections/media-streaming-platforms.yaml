@@ -4,23 +4,32 @@ intro: Streaming services log everything you watch and listen to, and their apps
 avoid:
   items:
     - name: Netflix
-      reason: logs what and how you watch, under a poorly rated privacy policy.
+      reason: in 2024 Dutch regulators fined Netflix €4.75 million for not telling users what it does with their data.
       tosdr: en_185
+      source: https://noyb.eu/en/noyb-win-dutch-authority-fines-netflix-eu475-million
+      site: https://www.netflix.com/
     - name: Amazon Prime Video
       reason: 3 trackers in its Android app, under a poorly rated privacy policy.
       tosdr: en_2444
       exodus: com.amazon.avod.thirdpartyclient
+      site: https://www.primevideo.com/
     - name: Disney Plus
-      reason: a very poorly rated privacy policy.
+      reason: in 2026 Disney paid California $2.75 million for sharing streaming viewers' data after they had opted out.
       tosdr: en_2745
+      source: https://oag.ca.gov/news/press-releases/california-wont-let-it-go-attorney-general-bonta-announces-275-million
+      site: https://www.disneyplus.com/
     - name: Spotify
-      reason: a very poorly rated privacy policy that covers your mood and friends, and 4 trackers.
+      reason: in 2023 Sweden fined Spotify 58 million kronor for not clearly explaining how it uses your data.
       tosdr: en_225
       exodus: com.spotify.music
+      source: https://www.imy.se/en/news/administrative-fee-against-spotify/
+      site: https://www.spotify.com/
     - name: SoundCloud
-      reason: 13 trackers in its Android app, under a very poorly rated privacy policy.
+      reason: a 2025 breach exposed the email addresses of about 28 million users, a fifth of its community.
       tosdr: en_276
       exodus: com.soundcloud.android
+      source: https://hackread.com/soundcloud-cyberattack-data-breach/
+      site: https://soundcloud.com/
 subsections:
   - title: Video and Audio
     recommend:
@@ -128,6 +137,7 @@ subsections:
               license: AGPL-3.0
               added: 2022-04-04
       - title: YouTube Music alternative clients
+        term: alternative-client
         recommend:
           entries:
             - name: SimpMusic
@@ -144,6 +154,7 @@ subsections:
               added: 2026-07-04
               fdroid: true
       - title: Deezer alternative clients
+        term: alternative-client
         recommend:
           entries:
             - name: dzr
@@ -158,19 +169,25 @@ subsections:
     avoid:
       items:
         - name: Spotify
-          reason: a very poorly rated privacy policy that covers your mood and friends, and 4 trackers.
+          reason: in 2023 Sweden fined Spotify 58 million kronor for not clearly explaining how it uses your data.
           tosdr: en_225
           exodus: com.spotify.music
+          source: https://www.imy.se/en/news/administrative-fee-against-spotify/
+          site: https://www.spotify.com/
         - name: iVoox
           reason: 13 trackers in its Android app, and more on its website.
           exodus: com.ivoox.app
+          site: https://www.ivoox.com/
         - name: Audible
           reason: 5 trackers in its Android app, under Amazon's poorly rated privacy policy.
           tosdr: en_190
           exodus: com.audible.application
+          site: https://www.audible.com/
         - name: Deezer
-          reason: 11 trackers in its Android app.
+          reason: a partner leaked a 2019 backup of 229 million users' names, birth dates, IPs and locations, published in 2022.
           exodus: deezer.android.app
+          source: https://haveibeenpwned.com/Breach/Deezer
+          site: https://www.deezer.com/
     recommend:
       entries:
         - name: AntennaPod

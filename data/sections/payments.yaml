@@ -7,11 +7,13 @@ callouts:
 avoid:
   items:
     - name: Visa / Mastercard
-      reason: card networks sell purchase data, grouped into audiences for advertisers.
-      source: https://pirg.org/edfund/resources/how-mastercard-sells-data/
+      reason: your card purchases feed Mastercard audience segments, like affluent shoppers, sold on data marketplaces.
+      source: https://www.americanbanker.com/news/mastercard-removes-some-ads-for-customer-transaction-data
     - name: PayPal
-      reason: requires identity verification and keeps a record of everyone you pay.
+      reason: fined $2 million by New York in 2025 after a 2022 breach exposed 35,000 customers' Social Security numbers.
       tosdr: en_230
+      source: https://therecord.media/paypal-penalty-millions-data-breach
+      site: https://www.paypal.com/
 recommend:
   entries:
     - name: Monero

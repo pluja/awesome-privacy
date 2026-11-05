@@ -24,8 +24,10 @@ subsections:
     avoid:
       items:
         - name: Minecraft
-          reason: requires a Microsoft account since 2022, under a very poorly rated privacy policy.
+          reason: since 2022 your chat, even on private servers, can be reported to Microsoft and get you banned online.
           tosdr: en_244
+          source: https://it.slashdot.org/story/22/06/24/1649223/microsoft-will-start-banning-players-from-all-private-minecraft-servers
+          site: https://www.minecraft.net/
     recommend:
       entries:
         - name: Cubyz

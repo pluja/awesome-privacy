@@ -1,0 +1,42 @@
+---
+import Base from "../layouts/Base.astro";
+import EntryRow from "../components/EntryRow.astro";
+import { placeLabel, recent } from "../lib/site.ts";
+
+const MONTHS = 12;
+const since = new Date();
+since.setUTCMonth(since.getUTCMonth() - MONTHS);
+const shown = recent.filter((p) => p.item.added! >= since.toISOString().slice(0, 10));
+const months = Map.groupBy(shown, (p) => p.item.added!.slice(0, 7));
+const monthName = (ym: string) => new Date(`${ym}-01T00:00:00Z`).toLocaleDateString("en", { month: "long", year: "numeric", timeZone: "UTC" });
+---
+
+<Base title="Recently added" description="Projects added to Awesome Privacy in the last year.">
+  <div class="container page">
+    <header class="head">
+      <h1>Recently added</h1>
+      <p>Everything added in the last {MONTHS} months, newest first. Follow along with the <a class="link" href="/feed.xml">RSS feed</a>.</p>
+    </header>
+    {
+      [...months].map(([ym, items]) => (
+        <section>
+          <h2>{monthName(ym)} <span>{items.length}</span></h2>
+          <ul class="entries" role="list">
+            {items.map((p) => <EntryRow entry={p.item} section={p.section} where={{ label: placeLabel(p), url: p.url }} />)}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+</Base>
+
+<style>
+  .page { max-width: 52rem; padding-top: 2rem; }
+  .head { display: grid; gap: 0.5rem; margin-bottom: 1rem; }
+  h1 { font-size: clamp(1.75rem, 4vw, 2.4rem); font-weight: 700; letter-spacing: -0.025em; }
+  .head p { color: var(--text-2); }
+  section { margin-top: 2rem; }
+  h2 { display: flex; align-items: baseline; gap: 0.5rem; font-size: 1rem; font-weight: 650; margin-bottom: 0.25rem; }
+  h2 span { font-size: 0.8rem; font-weight: 500; color: var(--text-3); }
+  .entries { margin: 0; padding: 0; list-style: none; border-bottom: 1px solid var(--line); }
+</style>

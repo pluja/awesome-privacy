@@ -6,8 +6,10 @@ subsections:
     avoid:
       items:
         - name: Google Play Store
-          reason: ties every app you install to your Google account.
+          reason: its data safety labels were false or misleading for nearly 80% of top apps, Mozilla found in 2023.
           tosdr: en_217
+          source: https://www.mozillafoundation.org/en/blog/mozilla-study-data-privacy-labels-for-most-top-apps-in-google-play-store-are-false-or-misleading/
+          site: https://play.google.com/
     recommend:
       entries:
         - name: Accrescent
@@ -47,6 +49,7 @@ subsections:
           added: 2023-02-28
           fdroid: true
   - title: Alternative Google Play Store clients
+    term: alternative-client
     recommend:
       entries:
         - name: Aurora Store
@@ -62,8 +65,9 @@ subsections:
     avoid:
       items:
         - name: ADB AppControl
-          reason: its privacy policy lets it collect device details and which apps you install or remove.
-          source: https://adbappcontrol.com/en/terms/
+          reason: its terms let it send your PC's IP, hardware details and the apps you remove to a remote server.
+          source: https://appcontrol.neocities.org/pages/terms_of_use
+          site: https://adbappcontrol.com/
     recommend:
       entries:
         - name: Universal Android Debloater Next Generation
@@ -139,11 +143,15 @@ subsections:
     avoid:
       items:
         - name: Gboard
-          reason: Google's keyboard, which sees everything you type, under a very poorly rated privacy policy.
+          reason: researchers showed in 2022 that the learning updates it sends Google can reveal the words you type.
           tosdr: en_217
+          source: https://arxiv.org/abs/2210.16947
+          site: https://www.google.com/
         - name: SwiftKey
-          reason: Microsoft's keyboard, with 4 trackers in its Android app.
+          reason: a 2016 sync bug showed users strangers' email addresses and phone numbers as text predictions.
           exodus: com.touchtype.swiftkey
+          source: https://www.engadget.com/2016-07-29-swiftkey-leaked-user-email-addresses-as-text-predictions.html
+          site: https://www.microsoft.com/en-us/swiftkey
     recommend:
       entries:
         - name: AnySoftKeyboard
@@ -212,11 +220,13 @@ subsections:
     avoid:
       items:
         - name: Google Photos
-          reason: scans your photos, and once got a father reported to police over pictures taken for a doctor.
-          source: https://petapixel.com/2022/08/22/google-flags-photos-of-fathers-sick-son-as-child-abuse-informs-police/
+          reason: scans your photos, and in 2022 its scan got a father investigated by police over photos taken for a doctor.
+          source: https://gizmodo.com/google-csam-photodna-1849440471
+          site: https://photos.google.com/
         - name: Amazon Photos
-          reason: Amazon gathers data from your library, as its own list of examples shows.
+          reason: its privacy notice says Amazon uses the images you store with it to improve its services.
           source: https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ
+          site: https://www.amazon.com/photos
     recommend:
       entries:
         - name: Aves

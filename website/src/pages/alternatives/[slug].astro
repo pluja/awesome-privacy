@@ -1,0 +1,102 @@
+---
+import Base from "../../layouts/Base.astro";
+import EntryRow from "../../components/EntryRow.astro";
+import Evidence from "../../components/Evidence.astro";
+import Logo from "../../components/Logo.astro";
+import PlatformFilter from "../../components/PlatformFilter.astro";
+import { avoided, picksFor, platformGroups, plain, reviewOf, sentence, summary, type Avoided } from "../../lib/site.ts";
+
+export function getStaticPaths() {
+  return avoided.map((a) => ({ params: { slug: a.slug }, props: { service: a } }));
+}
+
+const { service } = Astro.props as { service: Avoided };
+const POLICY_POINTS = 4;
+const places = service.places.map((place) => ({ place, groups: picksFor(place), review: reviewOf(place.item) }));
+const all = places.flatMap((p) => p.groups.flatMap((g) => g.entries));
+const names = [...new Set(all.map((e) => plain(e.name)))];
+const count = names.length;
+const description = summary(`${sentence(service.places[0].item.reason)} ${count} private, open source alternatives to ${service.name}: ${names.slice(0, 4).join(", ")}.`);
+const filterable = all.some((e) => platformGroups(e) !== "all");
+const breadcrumbs = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Awesome Privacy", item: new URL("/", Astro.site).href },
+    { "@type": "ListItem", position: 2, name: "A to Z", item: new URL("/replace/", Astro.site).href },
+    { "@type": "ListItem", position: 3, name: `Alternatives to ${service.name} that respect your privacy`, item: new URL(service.url, Astro.site).href },
+  ],
+};
+---
+
+<Base title={`${service.name} alternatives that respect your privacy`} description={description} jsonLd={breadcrumbs} image={`/og/alternatives/${service.slug}.png`}>
+  <div class="container page">
+    <header class="head">
+      <a class="crumb" href="/replace/">← All services, A to Z</a>
+      <h1><Logo name={service.name} avoid={service.places[0].item} size={32} /><span>Alternatives to {service.name} <span class="quiet">that respect your privacy</span></span></h1>
+      <div class="meta">
+        <span>{count} {count === 1 ? "pick" : "picks"}</span>
+        {filterable && <PlatformFilter />}
+      </div>
+    </header>
+
+    {
+      places.map(({ place, groups, review }) => (
+        <section class="place">
+          {places.length > 1 && <h2>For {place.path.at(-1)}</h2>}
+          <div class="why">
+            <p class="eyebrow">Why leave</p>
+            <p>
+              {sentence(place.item.reason)}
+              <Evidence item={place.item} />
+            </p>
+            {review && review.points.length > 0 && (
+              <>
+                <p class="eyebrow policy-head">What its terms allow, according to ToS;DR</p>
+                <ul class="policy" role="list">
+                  {review.points.slice(0, POLICY_POINTS).map((point) => <li>{point}</li>)}
+                </ul>
+              </>
+            )}
+          </div>
+          {groups.map((g) => (
+            <div class="use">
+              {g.path.length > 0 && <h3>{g.path.join(" › ")}</h3>}
+              <ul class="entries" role="list">
+                {g.entries.map((e) => <EntryRow entry={e} section={g.section} anchored={false} />)}
+              </ul>
+              <p class="filtered-out" hidden>Nothing here for this platform.</p>
+            </div>
+          ))}
+          <a class="more" href={place.url}>More about {place.path.join(" › ")} →</a>
+        </section>
+      ))
+    }
+  </div>
+</Base>
+
+<style>
+  .page { max-width: 52rem; padding-top: 2rem; }
+  .head { display: grid; gap: 0.6rem; margin-bottom: 1.5rem; }
+  .crumb { justify-self: start; font-size: 0.85rem; font-weight: 500; color: var(--text-3); }
+  .crumb:hover { color: var(--text); }
+  h1 { display: flex; align-items: center; gap: 0.75rem; text-wrap: balance; font-size: clamp(1.6rem, 4vw, 2.3rem); font-weight: 700; letter-spacing: -0.025em; }
+  h1 .quiet { color: var(--text-3); }
+  .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1rem; font-size: 0.85rem; color: var(--text-3); }
+  .meta :global(.filter) { margin-left: auto; }
+  .place { display: flex; flex-direction: column; gap: 1.25rem; }
+  .place + .place { margin-top: 3rem; }
+  h2 { font-size: 1.3rem; }
+  h3 { margin-bottom: 0.4rem; font-size: 1rem; color: var(--text-2); }
+  .why { padding: 0.85rem 1rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); font-size: 0.95rem; }
+  .why .eyebrow { margin-bottom: 0.3rem; color: var(--danger); }
+  .why .policy-head { margin-top: 0.9rem; color: var(--text-3); }
+  .policy { display: grid; gap: 0.2rem; margin: 0; padding: 0; list-style: none; color: var(--text-2); font-size: 0.9rem; }
+  .policy li { padding-left: 1.1rem; text-indent: -1.1rem; }
+  .policy li::before { content: "✕"; display: inline-block; width: 1.1rem; text-indent: 0; color: var(--danger); font-size: 0.8em; }
+  .entries { margin: 0; padding: 0; list-style: none; border-bottom: 1px solid var(--line); }
+  .filtered-out { padding: 1rem 0; color: var(--text-3); font-size: 0.9rem; }
+  .more { align-self: start; font-size: 0.9rem; font-weight: 550; color: var(--accent); }
+  .more:hover { text-decoration: underline; }
+  @media (max-width: 40rem) { .meta :global(.filter) { margin-left: 0; } }
+</style>

@@ -1,0 +1,271 @@
+---
+interface Props {
+  hero?: boolean;
+}
+const { hero = false } = Astro.props;
+const id = hero ? "hero" : "top";
+---
+
+<form class:list={["search", { hero }]} action="/replace/" method="get" role="search">
+  <svg class="icon" viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="9" cy="9" r="5.75" fill="none" stroke="currentColor" stroke-width="1.7"></circle><path d="m13.5 13.5 3.5 3.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path></svg>
+  <label class="visually-hidden" for={`q-${id}`}>Search apps, services and topics</label>
+  <input
+    id={`q-${id}`}
+    name="q"
+    type="search"
+    autocomplete="off"
+    spellcheck="false"
+    placeholder={hero ? "Gmail, WhatsApp, Chrome…" : "Search"}
+    role="combobox"
+    aria-autocomplete="list"
+    aria-controls={`r-${id}`}
+    aria-expanded="false"
+  />
+  {!hero && <span class="kbd hint" aria-hidden="true">/</span>}
+  <ul class="results" id={`r-${id}`} role="listbox" aria-label="Results" hidden></ul>
+</form>
+
+<script>
+  type Row = [kind: "s" | "a" | "e", name: string, url: string, context: string, logo: string];
+
+  const fold = (s: string) => s.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
+  const KIND_ORDER = { a: 0, s: 1, e: 2 };
+  const KIND_LABEL = { a: "Replace", s: "Topic", e: "App" };
+  const MAX = 8;
+  let index: Promise<{ row: Row; key: string; words: string[] }[]> | undefined;
+
+  const load = () =>
+    (index ??= fetch("/search.json")
+      .then((r) => r.json() as Promise<Row[]>)
+      .then((rows) => rows.map((row) => ({ row, key: fold(row[1]), words: fold(row[1]).split(/[^\p{L}\p{N}]+/u).filter(Boolean) }))));
+
+  // Edits (insert, delete, change, swap two neighbours) between a and b, given up if over max.
+  function distance(a: string, b: string, max: number) {
+    if (Math.abs(a.length - b.length) > max) return max + 1;
+    let [prev2, prev] = [[] as number[], Array.from({ length: b.length + 1 }, (_, j) => j)];
+    for (let i = 1; i <= a.length; i++) {
+      const row = [i];
+      for (let j = 1; j <= b.length; j++) {
+        row[j] = Math.min(prev[j] + 1, row[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+        if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) row[j] = Math.min(row[j], prev2[j - 2] + 1);
+      }
+      if (Math.min(...row) > max) return max + 1;
+      [prev2, prev] = [prev, row];
+    }
+    return prev[b.length];
+  }
+
+  // A typed word matches a name word with a typo or two, also while it is still being typed.
+  const typos = (w: string) => (w.length < 4 ? 0 : w.length < 8 ? 1 : 2);
+  const near = (w: string, word: string) =>
+    word.startsWith(w) || distance(w, word, typos(w)) <= typos(w) || distance(w, word.slice(0, w.length), typos(w)) <= typos(w);
+
+  // Lower is better; -1 means no match. Names match anywhere; otherwise every word has to appear
+  // in the name or description, or else be close to a word of the name.
+  function score([, , , context]: Row, key: string, q: string, names: string[]) {
+    if (key === q) return 0;
+    if (key.startsWith(q)) return 1;
+    if (key.includes(` ${q}`) || key.includes(`-${q}`)) return 2;
+    if (key.includes(q)) return 3;
+    const words = q.split(/\s+/).filter((w) => w.length > 2);
+    const text = `${key} ${fold(context)}`;
+    if (words.length && words.every((w) => text.includes(w))) return 4;
+    const typed = q.split(/\s+/).filter(Boolean);
+    if (typed.every((w) => w.length > 2) && typed.every((w) => names.some((word) => near(w, word)))) return 5;
+    return -1;
+  }
+
+  async function search(q: string) {
+    return (await load())
+      .map(({ row, key, words }) => ({ row, s: score(row, key, q, words) }))
+      .filter((h) => h.s >= 0)
+      .sort((x, y) => x.s - y.s || KIND_ORDER[x.row[0]] - KIND_ORDER[y.row[0]])
+      .slice(0, MAX);
+  }
+
+  function option(list: HTMLUListElement, [kind, name, url, context, logo]: Row, i: number) {
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.href = url;
+    a.id = `${list.id}-${i}`;
+    a.className = `hit ${kind}`;
+    a.setAttribute("role", "option");
+    const mark = logo ? Object.assign(document.createElement("img"), { src: logo, alt: "", width: 24, height: 24 }) : document.createElement("span");
+    mark.className = "mark";
+    if (!logo) mark.textContent = kind === "a" ? "⇄" : kind === "s" ? "#" : name[0]?.toUpperCase() ?? "";
+    const text = document.createElement("span");
+    text.className = "text";
+    const title = document.createElement("span");
+    title.className = "name";
+    title.textContent = kind === "a" ? `Alternatives to ${name}` : name;
+    const ctx = document.createElement("span");
+    ctx.className = "ctx";
+    ctx.textContent = context;
+    const tag = document.createElement("span");
+    tag.className = "kind";
+    tag.textContent = KIND_LABEL[kind];
+    text.append(title, ctx);
+    a.append(mark, text, tag);
+    li.append(a);
+    return li;
+  }
+
+  for (const form of document.querySelectorAll<HTMLFormElement>("form.search")) {
+    const input = form.querySelector("input")!;
+    const list = form.querySelector<HTMLUListElement>(".results")!;
+    let active = -1;
+
+    const options = () => [...list.querySelectorAll<HTMLAnchorElement>("a.hit")];
+    const close = () => {
+      list.hidden = true;
+      input.setAttribute("aria-expanded", "false");
+      input.removeAttribute("aria-activedescendant");
+      active = -1;
+    };
+    const highlight = (i: number) => {
+      const opts = options();
+      if (!opts.length) return;
+      active = (i + opts.length) % opts.length;
+      opts.forEach((o, n) => o.setAttribute("aria-selected", String(n === active)));
+      input.setAttribute("aria-activedescendant", opts[active].id);
+      opts[active].scrollIntoView({ block: "nearest" });
+    };
+
+    input.addEventListener("focus", load, { once: true });
+    input.addEventListener("input", async () => {
+      const raw = input.value.trim();
+      const q = fold(raw);
+      if (!q) return close();
+      const hits = await search(q);
+      if (fold(input.value.trim()) !== q) return;
+      list.replaceChildren(...hits.map((h, i) => option(list, h.row, i)));
+      if (!hits.length) {
+        const li = document.createElement("li");
+        li.className = "empty";
+        li.textContent = `Nothing for "${raw}" yet. `;
+        const az = Object.assign(document.createElement("a"), { href: "/replace/", textContent: "Browse A to Z" });
+        li.append(az);
+        list.append(li);
+      }
+      list.hidden = false;
+      input.setAttribute("aria-expanded", "true");
+      highlight(0);
+    });
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowDown") { e.preventDefault(); highlight(active + 1); }
+      else if (e.key === "ArrowUp") { e.preventDefault(); highlight(active - 1); }
+      else if (e.key === "Escape") { close(); input.blur(); }
+    });
+    form.addEventListener("submit", (e) => {
+      const target = options()[Math.max(active, 0)];
+      if (!target) return;
+      e.preventDefault();
+      location.href = target.href;
+    });
+    form.addEventListener("focusout", (e) => { if (!form.contains(e.relatedTarget as Node)) close(); });
+  }
+
+  // A query from the browser's search bar (see opensearch.xml) lands on /replace/?q=: an exact
+  // name goes straight to its page, anything else opens the results.
+  const query = location.pathname === "/replace/" ? new URLSearchParams(location.search).get("q")?.trim() : undefined;
+  if (query) {
+    const [top] = await search(fold(query));
+    if (top?.s === 0) location.replace(top.row[2]);
+    else {
+      const input = [...document.querySelectorAll<HTMLInputElement>("form.search input")].find((i) => i.checkVisibility({ visibilityProperty: true }));
+      if (input) {
+        input.value = query;
+        input.focus();
+        input.dispatchEvent(new Event("input"));
+      }
+    }
+  }
+
+  // "/" or Ctrl/Cmd+K jumps to the search box on show: the header one, or the big one while it hides.
+  document.addEventListener("keydown", (e) => {
+    const typing = e.target instanceof HTMLElement && (e.target.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName));
+    if ((e.key === "/" && !typing) || (e.key === "k" && (e.ctrlKey || e.metaKey))) {
+      e.preventDefault();
+      [...document.querySelectorAll<HTMLInputElement>("form.search input")].find((i) => i.checkVisibility({ visibilityProperty: true }))?.focus();
+    }
+  });
+</script>
+
+<style>
+  .search { position: relative; display: flex; align-items: center; }
+  .icon { position: absolute; left: 0.7rem; color: var(--text-3); pointer-events: none; }
+  input {
+    width: 100%;
+    height: 2.4rem;
+    padding: 0 2.5rem 0 2.3rem;
+    border: 1px solid var(--line-strong);
+    border-radius: 9px;
+    background: var(--surface);
+    color: var(--text);
+    font: inherit;
+    font-size: 0.92rem;
+    appearance: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  input::placeholder { color: var(--text-3); }
+  input::-webkit-search-cancel-button { display: none; }
+  input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent); }
+  .hint { position: absolute; right: 0.6rem; pointer-events: none; }
+  input:focus ~ .hint { display: none; }
+  @media (hover: none), (max-width: 40rem) { .hint { display: none; } }
+
+  .hero .icon { left: 1rem; width: 22px; height: 22px; }
+  .hero input {
+    height: 3.5rem;
+    padding: 0 1.25rem 0 3rem;
+    border: 1.5px solid var(--line-strong);
+    border-radius: 14px;
+    font-size: 1.1rem;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.06);
+  }
+  .hero input:hover { border-color: var(--text-3); }
+  .hero input:focus { border-color: var(--accent); box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 22%, transparent); }
+
+  .results {
+    position: absolute;
+    top: calc(100% + 0.4rem);
+    left: 0;
+    right: 0;
+    z-index: 40;
+    min-width: min(26rem, calc(100vw - 2rem));
+    margin: 0;
+    padding: 0.3rem;
+    list-style: none;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--surface);
+    box-shadow: 0 16px 48px rgb(0 0 0 / 0.16);
+    max-height: min(70vh, 32rem);
+    overflow-y: auto;
+  }
+  .results :global(.hit) { display: flex; align-items: center; gap: 0.7rem; padding: 0.5rem 0.6rem; border-radius: 8px; }
+  .results :global(.hit[aria-selected="true"]), .results :global(.hit:hover) { background: var(--hover); }
+  .results :global(.mark) {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    background: var(--subtle);
+    color: var(--text-3);
+    font-size: 0.75rem;
+    font-weight: 650;
+    object-fit: contain;
+  }
+  .results :global(img.mark) { background: var(--logo-tile); padding: 1px; }
+  .results :global(.a .mark) { color: var(--danger); }
+  .results :global(.a img.mark) { filter: grayscale(1); opacity: 0.8; }
+  .results :global(.a img.mark[src^="/brands/"]) { background: none; padding: 3px; filter: none; opacity: 1; }
+  .results :global(.text) { display: grid; min-width: 0; flex: 1; }
+  .results :global(.name) { font-weight: 560; font-size: 0.92rem; }
+  .results :global(.ctx) { font-size: 0.78rem; color: var(--text-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .results :global(.kind) { flex: none; font-size: 0.7rem; font-weight: 600; color: var(--text-3); }
+  .results :global(.empty) { padding: 0.75rem; font-size: 0.9rem; color: var(--text-3); }
+  .results :global(.empty a) { color: var(--accent); }
+</style>

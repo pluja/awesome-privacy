@@ -6,6 +6,7 @@ avoid:
     - name: Google Forms
       reason: responses are stored on Google's servers without end-to-end encryption.
       tosdr: en_217
+      site: https://www.google.com/forms/about/
 recommend:
   entries:
     - name: TypeBot
