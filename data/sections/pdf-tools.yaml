@@ -26,3 +26,13 @@ recommend:
       tags:
         - self-host
         - offline
+    - name: Wezzet
+      url: https://wezzet.com/pdf
+      repo: https://github.com/ezrakerney-afk/wezzet
+      description: Free browser-based PDF, image, video and file converters that process files on your device, with no account or upload.
+      license: MIT
+      added: 2026-11-05
+      platforms:
+        - web
+      tags:
+        - offline
