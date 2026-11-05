@@ -1,5 +1,6 @@
 # Awesome Privacy
-<p align="center"><img width="500" src="misc/logo.png"> </img></p>
+<p align="center"><a href="https://awesomeprivacy.org"><img width="500" src="misc/logo.png" alt="Awesome Privacy"></a></p>
+<h3 align="center"><a href="https://awesomeprivacy.org">awesomeprivacy.org</a></h3>
 <p align="center">
 	<img src="https://awesome.re/badge.svg" alt="Awesome">
 	<a href="https://codeberg.org/pluja/awesome-privacy"><img alt="Mirror" src="https://img.shields.io/badge/Mirror-Codeberg-blue"></img></a>
@@ -32,7 +33,7 @@
 [Cloud Storage](#cloud-storage) · [File Management and Sharing](#file-management-and-sharing) · [Download Manager](#download-manager) · [Notes and Tasks](#notes-and-tasks) · [Office](#office) · [PDF Tools](#pdf-tools) · [Calendar](#calendar) · [Bookmarking](#bookmarking) · [Forms](#forms) · [Databases](#databases)
 
 **🎬 Media & Creative**<br>
-[Media Streaming Platforms](#media-streaming-platforms) · [Music Recognition](#music-recognition) · [Photo Storage](#photo-storage) · [Photo Editing and Management](#photo-editing-and-management) · [Video Editing](#video-editing) · [Screen recording](#screen-recording) · [Design Tools](#design-tools) · [Creator Tools](#creator-tools) · [Fonts](#fonts) · [Games](#games) · [Ebooks](#ebooks)
+[Media Streaming Platforms](#media-streaming-platforms) · [Music Recognition](#music-recognition) · [Photo Storage](#photo-storage) · [Photo Editing and Management](#photo-editing-and-management) · [Video Editing](#video-editing) · [Screen Recording](#screen-recording) · [Design Tools](#design-tools) · [Creator Tools](#creator-tools) · [Fonts](#fonts) · [Games](#games) · [Ebooks](#ebooks)
 
 **📱 Mobile & OS**<br>
 [Android](#android-2) · [Operating Systems](#operating-systems) · [Home Assistants](#home-assistants)
@@ -44,7 +45,7 @@
 [Payments](#payments) · [Personal Finances](#personal-finances)
 
 **🧭 Everyday**<br>
-[Maps and Navigation](#maps-and-navigation) · [Fitness and Health](#fitness-and-health) · [Dating Apps](#dating-apps) · [Location tracking](#location-tracking) · [Utilities](#utilities)
+[Maps and Navigation](#maps-and-navigation) · [Fitness and Health](#fitness-and-health) · [Dating Apps](#dating-apps) · [Location Tracking](#location-tracking) · [Utilities](#utilities)
 
 ## 💬 Communication & Social
 
@@ -54,9 +55,9 @@ Mainstream messengers collect who you talk to, when and from where, even when th
 
 🚫 **Avoid**
 
-- **WhatsApp**: shares metadata such as who you talk to and when with Meta. <sub>[ToS;DR](https://tosdr.org/en/service/198)</sub>
-- **Facebook Messenger**: Meta's messenger, with 5 trackers in its Android app. <sub>[ToS;DR](https://tosdr.org/en/service/182) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.orca/latest/)</sub>
-- **Instagram DM**: messages live inside Meta's ad platform, under a very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/219)</sub>
+- **WhatsApp**: in 2021 Ireland fined it €225 million for not properly explaining what data it shares with Facebook. <sub>[ToS;DR](https://tosdr.org/en/service/198) · [Source](https://www.dataprotection.ie/en/news-media/press-releases/data-protection-commission-announces-decision-whatsapp-inquiry)</sub>
+- **Facebook Messenger**: chats have been encrypted since 2023, but Meta still sees who you message, when, and who your contacts are. <sub>[ToS;DR](https://tosdr.org/en/service/182) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.facebook.orca/latest/) · [Source](https://www.eff.org/deeplinks/2023/12/meta-announces-end-end-encryption-default-messenger)</sub>
+- **Instagram DM**: in 2026 Meta ended its opt-in end-to-end encryption for Instagram DMs, so Meta can read every message. <sub>[ToS;DR](https://tosdr.org/en/service/219) · [Source](https://www.helpnetsecurity.com/2026/03/16/instagram-end-to-end-encrypted-messaging-ending/)</sub>
 - **Google Chat**: messages aren't end-to-end encrypted and sit on Google's servers. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
 
 ✅ **Use instead**
@@ -83,6 +84,7 @@ One provider runs the servers, which is a single point of failure and control. T
 
 - **[Signal](https://signal.org/)** - Messenger with end-to-end encryption for everything by default, run by a nonprofit that keeps almost no user data. <sub>AGPL-3.0</sub>
 - **[Threema](https://threema.com/en)** - Paid messenger from Switzerland that works without a phone number or email. <sub>AGPL-3.0</sub>
+- **[Wire](https://wire.com/)** - End-to-end encrypted messaging, calls and file sharing, with public and audited code for both the apps and the server. `⚠️ website trackers` <sub>AGPL-3.0 · [F-Droid](https://f-droid.org/packages/com.wire/) (Play Store version has trackers)</sub>
 
 #### P2P
 
@@ -104,14 +106,16 @@ Free webmail is paid for with your data. And email itself was never built for pr
 
 🚫 **Avoid**
 
-- **Gmail**: your mail is processed on Google's servers and tied to your Google account. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
-- **Outlook**: Microsoft can read your mail, and the Android app has 4 trackers. <sub>[ToS;DR](https://tosdr.org/en/service/244) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.microsoft.office.outlook/latest/)</sub>
-- **Yahoo! Mail**: 10 trackers in its Android app, under a very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/309) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.yahoo.mobile.client.android.mail/latest/)</sub>
-- **Yandex Mail**: Russian law gives the security services access to user data. <sub>[ToS;DR](https://tosdr.org/en/service/860)</sub>
+- **Gmail**: in 2019 Google was found listing every purchase from your Gmail receipts, even after the emails were deleted. <sub>[ToS;DR](https://tosdr.org/en/service/217) · [Source](https://www.cnbc.com/2019/07/05/google-gmail-purchase-history-cant-be-deleted.html)</sub>
+- **Outlook**: since 2023 the new Outlook app sends your other accounts' IMAP passwords and mail to Microsoft's servers. <sub>[ToS;DR](https://tosdr.org/en/service/244) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.microsoft.office.outlook/latest/) · [Source](https://www.heise.de/en/news/Microsoft-lays-hands-on-login-data-Beware-of-the-new-Outlook-9608798.html)</sub>
+- **Yahoo! Mail**: in 2015 Yahoo secretly scanned all users' incoming mail for US intelligence, Reuters reported. <sub>[ToS;DR](https://tosdr.org/en/service/309) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.yahoo.mobile.client.android.mail/latest/) · [Source](https://finance.yahoo.com/news/exclusive-yahoo-secretly-scanned-customer-170557779.html)</sub>
+- **Yandex Mail**: in 2019 Russia's FSB demanded that Yandex hand over the encryption keys for Yandex Mail. <sub>[ToS;DR](https://tosdr.org/en/service/860) · [Source](https://www.themoscowtimes.com/2019/06/04/russias-yandex-pushes-back-against-pressure-to-share-encryption-keys-2-a65870)</sub>
 
 ✅ **Use instead**
 
-#### Third-Party owned
+#### Third-party
+
+A company or organization runs it for you: sign up and use it. It's the easiest way to start, but you trust them with your data, so look for end-to-end encryption and a good track record.
 
 - **[Forward Email](https://forwardemail.net)** - Email forwarding and hosting for your own domain, with its server code published. `⚠️ source-available`
 - **[mailbox.org](https://mailbox.org/)** - Paid email, calendar and office suite from Germany, with built-in PGP encryption and no ads.
@@ -121,7 +125,9 @@ Free webmail is paid for with your data. And email itself was never built for pr
 - **[Riseup](https://riseup.net/en/about-us)** - Email and other tools for activists, run by a collective that doesn't log your IP address.
 - **[Tuta](https://tuta.com/)** - Email and calendar from Germany, end-to-end encrypted between Tuta users, that stores everything encrypted, subject lines included. <sub>GPL-3.0</sub>
 
-#### Self-Hosted
+#### Self-hosted
+
+You install and run it yourself, on a computer at home or a rented server. Your data stays with you, but setup, updates and backups are up to you.
 
 - **[Docker Mailserver](https://docker-mailserver.github.io/docker-mailserver/latest/)** - Complete mail server (SMTP, IMAP, antispam, antivirus) in a single Docker container, configured with files. <sub>self-host · MIT</sub>
 - **[Mail-in-a-box](https://mailinabox.email/)** - Turns a fresh Ubuntu server into a complete mail server with one setup script. <sub>self-host · CC0-1.0</sub>
@@ -130,6 +136,8 @@ Free webmail is paid for with your data. And email itself was never built for pr
 - **[Stalwart](https://stalw.art/)** - All-in-one mail and collaboration server in Rust covering SMTP, IMAP and JMAP, with two independent security audits. <sub>self-host</sub>
 
 #### Clients
+
+Email is an open standard, so these apps work with most providers, including the ones above. Proton Mail needs its Bridge app for that, and Tuta only works in its own apps.
 
 ##### Android / iOS
 
@@ -175,11 +183,11 @@ The big meeting apps log who you call and when, and their apps ship with ad and 
 
 🚫 **Avoid**
 
-- **Zoom**: claimed end-to-end encryption that its meetings didn't have. <sub>[ToS;DR](https://tosdr.org/en/service/2198) · [Source](https://theintercept.com/2020/03/31/zoom-meeting-encryption/)</sub>
+- **Zoom**: paid $85 million in 2021 to settle claims it shared user data with Facebook, Google and LinkedIn. <sub>[ToS;DR](https://tosdr.org/en/service/2198) · [Source](https://www.cnbc.com/2021/08/01/zoom-reaches-85-million-settlement-over-user-privacy-and-hacker-zoombombing.html)</sub>
 - **Google Meet**: calls run through Google and are tied to your Google account. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
 - **Microsoft Teams**: meetings are tied to a Microsoft account, under a very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/244)</sub>
-- **WhatsApp**: shares metadata such as who you call and when with Meta. <sub>[ToS;DR](https://tosdr.org/en/service/198)</sub>
-- **Discord**: 3 trackers in its Android app, under a very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/536) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.discord/latest/)</sub>
+- **WhatsApp**: in 2021 Ireland fined it €225 million for not properly explaining what data it shares with Facebook. <sub>[ToS;DR](https://tosdr.org/en/service/198) · [Source](https://www.dataprotection.ie/en/news-media/press-releases/data-protection-commission-announces-decision-whatsapp-inquiry)</sub>
+- **Discord**: a 2025 breach at a support vendor exposed government ID photos of about 70,000 users. <sub>[ToS;DR](https://tosdr.org/en/service/536) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.discord/latest/) · [Source](https://discord.com/press-releases/update-on-security-incident-involving-third-party-customer-service)</sub>
 
 ✅ **Use instead**
 
@@ -193,6 +201,8 @@ The big meeting apps log who you call and when, and their apps ship with ad and 
 - **[Nextcloud Talk](https://nextcloud.com/talk/)** - Video calls and chat that run inside your own Nextcloud server. <sub>self-host · AGPL-3.0 · [F-Droid](https://f-droid.org/packages/com.nextcloud.talk2/)</sub>
 
 #### Alternative clients/modifications of Discord
+
+An unofficial app for a service you already use, usually without its ads or tracking. Your account stays with that service, and using an unofficial app can break its rules.
 
 > [!WARNING]
 > Discord still sees your IP and your messages, which are not end-to-end encrypted.\
@@ -215,10 +225,10 @@ Workplace chat holds your team's most sensitive conversations on someone else's 
 
 🚫 **Avoid**
 
-- **Slack**: messages aren't end-to-end encrypted, and workspace admins can export them. <sub>[ToS;DR](https://tosdr.org/en/service/206)</sub>
+- **Slack**: your messages feed its recommendation models unless a workspace owner emails Slack to opt out. <sub>[ToS;DR](https://tosdr.org/en/service/206) · [Source](https://slack.com/trust/data-management/privacy-principles)</sub>
 - **Google Meet**: calls run through Google and are tied to your Google account. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
 - **Microsoft Teams**: chats aren't end-to-end encrypted, under a very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/244)</sub>
-- **Discord**: messages aren't end-to-end encrypted, under a very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/536)</sub>
+- **Discord**: a 2025 breach at a support vendor exposed government ID photos of about 70,000 users. <sub>[ToS;DR](https://tosdr.org/en/service/536) · [Source](https://discord.com/press-releases/update-on-security-incident-involving-third-party-customer-service)</sub>
 
 ✅ **Use instead**
 
@@ -266,13 +276,11 @@ The big platforms profile you from everything you read, watch and like, and thei
 - **[Plume](https://joinplu.me/)** - Federated blogging engine where readers can follow and comment from any ActivityPub account. `💀 inactive` <sub>ActivityPub</sub>
 - **[WriteFreely](https://writefreely.org/)** - Minimal, distraction-free blogging platform that can federate posts over ActivityPub. <sub>ActivityPub · AGPL-3.0</sub>
 
-##### Alternative Medium frontends
-
 #### Instagram
 
 🚫 **Avoid**
 
-- **Instagram**: Meta builds an ad profile from what you view, like and follow. <sub>[ToS;DR](https://tosdr.org/en/service/219)</sub>
+- **Instagram**: Ireland fined Meta €405 million in 2022 for exposing children's emails and phone numbers on Instagram. <sub>[ToS;DR](https://tosdr.org/en/service/219) · [Source](https://www.dataprotection.ie/en/news-media/press-releases/data-protection-commission-announces-decision-instagram-inquiry)</sub>
 
 ✅ **Use instead**
 
@@ -282,20 +290,20 @@ The big platforms profile you from everything you read, watch and like, and thei
 
 🚫 **Avoid**
 
-- **YouTube**: Google builds a detailed profile from everything you watch. <sub>[ToS;DR](https://tosdr.org/en/service/274)</sub>
+- **YouTube**: Google paid a record $170 million in 2019 for collecting children's data on YouTube without parental consent. <sub>[ToS;DR](https://tosdr.org/en/service/274) · [Source](https://www.ftc.gov/news-events/news/press-releases/2019/09/google-youtube-will-pay-record-170-million-alleged-violations-childrens-privacy-law)</sub>
 
 ✅ **Use instead**
 
 - **[PeerTube](https://joinpeertube.org/en/)** - Federated video hosting where anyone can run an instance and follow channels across others. <sub>ActivityPub · AGPL-3.0</sub>
 
-##### YouTube alternative frontends (web-based)
+##### Frontends
 
 - **[Invidious](https://invidious.io/)** - YouTube frontend with no ads or Google scripts and subscriptions without an account; see the [public instances](https://docs.invidious.io/instances/). <sub>AGPL-3.0</sub>
 - **[Piped](https://github.com/TeamPiped/Piped)** - YouTube frontend that never connects your browser to Google, with feeds, playlists and SponsorBlock. <sub>AGPL-3.0</sub>
 - **[ViewTube](https://github.com/ViewTube/viewtube)** - YouTube frontend without ads or tracking, with its own accounts, subscriptions and SponsorBlock. <sub>AGPL-3.0</sub>
 - **[youtube-local](https://github.com/user234683/youtube-local)** - YouTube client that runs on your computer and opens in the browser, with local subscriptions and optional routing through Tor. <sub>Desktop · AGPL-3.0</sub>
 
-##### YouTube alternative clients (apps)
+##### Apps
 
 - **[FreeTube](https://freetubeapp.io/)** - Desktop YouTube app that keeps subscriptions, playlists and history on your computer, without Google's cookies or scripts. <sub>Desktop · AGPL-3.0</sub>
 - **[LibreTube](https://libretube.dev/)** - Android YouTube app that fetches videos through Piped instead of Google's servers. <sub>Android · GPL-3.0 · [F-Droid](https://f-droid.org/packages/com.github.libretube/)</sub>
@@ -307,16 +315,11 @@ The big platforms profile you from everything you read, watch and like, and thei
 
 🚫 **Avoid**
 
-- **Twitter (X)**: profiles you from who you follow and what you like and repost. <sub>[ToS;DR](https://tosdr.org/en/service/195)</sub>
+- **Twitter (X)**: paid $150 million in 2022 for using phone numbers given for account security to target ads. <sub>[ToS;DR](https://tosdr.org/en/service/195) · [Source](https://www.ftc.gov/news-events/news/press-releases/2022/05/ftc-charges-twitter-deceptively-using-account-security-data-sell-targeted-ads)</sub>
 
 ✅ **Use instead**
 
-##### Self-hosted
-
 ##### Decentralized
-
-> [!NOTE]
-> **Federated social networks** aren't a single website: they're thousands of communities run by different people and organizations, which can all follow and reply to each other.
 
 - **[Mastodon](https://joinmastodon.org/)** - Federated microblogging, the largest network in the fediverse. <sub>ActivityPub · AGPL-3.0 · [F-Droid](https://f-droid.org/packages/org.joinmastodon.android/)</sub>
   - **[Mastodon Apps](https://joinmastodon.org/apps)** - Official directory of Mastodon apps for Android, iOS, web and desktop.
@@ -324,7 +327,7 @@ The big platforms profile you from everything you read, watch and like, and thei
 - **[Pleroma](https://git.pleroma.social/pleroma/pleroma)** - Lightweight federated social network server. <sub>ActivityPub</sub>
   - **[Soapbox](https://gitlab.com/soapbox-pub/soapbox-fe)** - Web frontend for Pleroma focused on custom branding and ease of use.
 
-##### Alternative Frontends
+##### Frontends
 
 - **[Nitter](https://github.com/zedeus/nitter)** - Twitter frontend without JavaScript or ads that proxies every request; see the [instances list](https://github.com/zedeus/nitter/wiki/Instances). `💀 inactive` <sub>AGPL-3.0</sub>
 - **[Squawker](https://github.com/j-fbriere/squawker)** - Android Twitter client with no account, tracking or ads, keeping subscriptions on the device; the maintained fork of Fritter. <sub>Android · MIT · [F-Droid](https://f-droid.org/packages/org.ca.squawker/)</sub>
@@ -333,16 +336,16 @@ The big platforms profile you from everything you read, watch and like, and thei
 
 🚫 **Avoid**
 
-- **Reddit**: the official site and apps are full of trackers and ads. <sub>[ToS;DR](https://tosdr.org/en/service/194)</sub>
+- **Reddit**: sold Google the right to train AI on users' posts in a 2024 deal valued at about $60 million. <sub>[ToS;DR](https://tosdr.org/en/service/194) · [Source](https://www.cbsnews.com/news/google-reddit-60-million-deal-ai-training/)</sub>
 
 ✅ **Use instead**
 
-##### Reddit alternatives
+##### Alternatives
 
 - **[Lemmy](https://join-lemmy.org/)** - Federated link aggregator and discussion forum, organized into communities like subreddits. <sub>ActivityPub · AGPL-3.0</sub>
 - **[Mbin](https://joinmbin.org/)** - Federated link aggregator with microblogging, the community-run continuation of kbin. <sub>ActivityPub · AGPL-3.0</sub>
 
-##### Privacy respecting Reddit clients
+##### Apps and frontends
 
 - **[Redlib](https://github.com/redlib-org/redlib)** - Reddit frontend without JavaScript that proxies all requests, media included; see the [instances](https://github.com/redlib-org/redlib-instances). Formerly Libreddit. <sub>AGPL-3.0</sub>
 
@@ -350,13 +353,13 @@ The big platforms profile you from everything you read, watch and like, and thei
 
 🚫 **Avoid**
 
-- **Twitch**: owned by Amazon and funded by ads, so viewers are tracked for advertising. <sub>[ToS;DR](https://tosdr.org/en/service/200)</sub>
+- **Twitch**: a 2021 breach leaked 125GB of its data, including source code and three years of creator payouts. <sub>[ToS;DR](https://tosdr.org/en/service/200) · [Source](https://fortune.com/2021/10/06/twitch-data-leak-hack-source-code-creator-payouts-4chan/)</sub>
 
 ✅ **Use instead**
 
 - **[Owncast](https://owncast.online/)** - Self-hosted live streaming server with built-in chat, so you own the stream and your viewers' data. <sub>self-host · MIT</sub>
 
-##### Privacy respecting Twitch clients
+##### Apps
 
 - **[Twire](https://github.com/twireapp/Twire)** - Android Twitch client with built-in ad blocking, VODs with chat replay, and optional login. <sub>Android · GPL-3.0 · [F-Droid](https://f-droid.org/packages/com.perflyst.twire/)</sub>
 
@@ -364,7 +367,7 @@ The big platforms profile you from everything you read, watch and like, and thei
 
 🚫 **Avoid**
 
-- **Imgur**: 23 trackers in its Android app, and a site heavy with ads. <sub>[ToS;DR](https://tosdr.org/en/service/325) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.imgur.mobile/latest/)</sub>
+- **Imgur**: a 2014 hack stole about 1.7 million email addresses and passwords, which it only learned of in 2017. <sub>[ToS;DR](https://tosdr.org/en/service/325) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.imgur.mobile/latest/) · [Source](https://techcrunch.com/2017/11/27/imgur-says-1-7m-emails-and-passwords-were-breached-in-2014-hack/)</sub>
 
 ✅ **Use instead**
 
@@ -398,7 +401,7 @@ Embedded comment widgets load third-party trackers on every page that uses them,
 
 🚫 **Avoid**
 
-- **Disqus**: loads trackers on every site that embeds it, and logs commenters' IP, device and location. <sub>[ToS;DR](https://tosdr.org/en/service/239)</sub>
+- **Disqus**: tracked visitors across sites for ad profiling without consent, Norway's regulator said in 2021. <sub>[ToS;DR](https://tosdr.org/en/service/239) · [Source](https://www.datatilsynet.no/en/news/2021/intent-to-issue--25-million-fine-to-disqus-inc/)</sub>
 
 ✅ **Use instead**
 
@@ -417,7 +420,7 @@ Online translators keep the text you paste in, which often includes private mess
 🚫 **Avoid**
 
 - **Google Translate**: sends everything you translate to Google. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
-- **DeepL**: the free version stores your texts and may use them to train its models. <sub>[ToS;DR](https://tosdr.org/en/service/2073)</sub>
+- **DeepL**: the free version may train on your texts, and its terms forbid entering any personal data. <sub>[ToS;DR](https://tosdr.org/en/service/2073) · [Source](https://www.deepl.com/en/terms-of-use)</sub>
 - **Bing Translator**: sends everything you translate to Microsoft. <sub>[ToS;DR](https://tosdr.org/en/service/244)</sub>
 
 ✅ **Use instead**
@@ -430,6 +433,8 @@ Online translators keep the text you paste in, which often includes private mess
 - **[Softcatala](https://www.softcatala.org/traductor/)** - Online translator between Catalan and languages such as Spanish, English, French and Portuguese, run by a nonprofit. `⚠️ website trackers`
 
 #### Alternative Google Translate frontends
+
+A website that shows content from a service, like videos or articles, without its account, ads or scripts. The service still sees what you view, and only frontends that relay everything through their own server hide your IP address. Public instances get blocked often, so expect to switch or self-host.
 
 - **[Mozhi](https://codeberg.org/aryak/mozhi)** - Frontend that proxies Google Translate, DeepL, Yandex and other engines behind one interface. <sub>self-host</sub>
 - **[SimplyTranslate](https://simplytranslate.org/)** - Frontend that proxies your requests to Google Translate and other engines. <sub>self-host</sub>
@@ -466,7 +471,7 @@ A VPN doesn't make you anonymous; it moves the trust from your ISP to the VPN pr
 
 🚫 **Avoid**
 
-- **Free VPNs**: someone pays for the servers, usually you, through logs and data sold to advertisers. <sub>[Source](https://thenextweb.com/news/be-cautious-free-vpns-are-selling-your-data-to-3rd-parties)</sub>
+- **Free VPNs**: a 2017 study of 283 Android VPN apps found 75% used trackers and 38% contained malware. <sub>[Source](https://torrentfreak.com/researchers-issue-security-warning-over-android-vpn-apps-170125/)</sub>
 
 ✅ **Use instead**
 
@@ -486,8 +491,8 @@ Your browser sees everything you do online, and the big ones are built by ad and
 
 🚫 **Avoid**
 
-- **Google Chrome**: tied to your Google account, and Manifest V3 limits what content blockers can do. <sub>[ToS;DR](https://tosdr.org/en/service/217) · [Source](https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening)</sub>
-- **Microsoft Edge**: Microsoft's tracking in place of Google's, and 6 trackers in its Android app. <sub>[ToS;DR](https://tosdr.org/en/service/244) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.microsoft.emmx/latest/)</sub>
+- **Google Chrome**: Google agreed in 2024 to delete billions of records it collected from people browsing in Incognito. <sub>[ToS;DR](https://tosdr.org/en/service/217) · [Source](https://www.nbcnews.com/tech/tech-news/google-destroy-browsing-data-settle-consumer-privacy-lawsuit-rcna145881)</sub>
+- **Microsoft Edge**: in 2023 an on-by-default feature sent nearly every page address you visited to Microsoft's Bing. <sub>[ToS;DR](https://tosdr.org/en/service/244) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.microsoft.emmx/latest/) · [Source](https://9to5google.com/2023/04/26/microsoft-edge-bing-urls/)</sub>
 - **Opera**: 6 trackers in its Android app, and owned by a Chinese consortium since 2016. <sub>[Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.opera.browser/latest/) · [Source](https://en.wikipedia.org/wiki/Opera_(web_browser))</sub>
 
 ✅ **Use instead**
@@ -547,10 +552,10 @@ Your searches say more about you than almost anything else, and the big engines 
 
 🚫 **Avoid**
 
-- **Google**: logs your searches and ties them to your Google account and ad profile. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
-- **Bing**: logs your searches under Microsoft's very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/244)</sub>
-- **Yahoo!**: logs your searches under a very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/309)</sub>
-- **Yandex**: Russian law gives the security services access to user data. <sub>[ToS;DR](https://tosdr.org/en/service/860)</sub>
+- **Google**: police can get the IP address of everyone who searched a term from Google, a practice Colorado upheld in 2023. <sub>[ToS;DR](https://tosdr.org/en/service/217) · [Source](https://statecourtreport.org/our-work/analysis-opinion/colorado-supreme-court-upholds-controversial-google-keyword-warrant)</sub>
+- **Bing**: in 2020 an unsecured Bing server exposed 6.5TB of logs with users' search queries and locations. <sub>[ToS;DR](https://tosdr.org/en/service/244) · [Source](https://www.wizcase.com/blog/bing-leak-research/)</sub>
+- **Yahoo!**: a 2013 breach hit all 3 billion Yahoo accounts, which Yahoo admitted only in 2017. <sub>[ToS;DR](https://tosdr.org/en/service/309) · [Source](https://techcrunch.com/2017/10/03/yahoo-says-all-3b-accounts-were-impacted-by-2013-breach-not-1b-as-thought)</sub>
+- **Yandex**: in 2025 researchers found its Android apps, Yandex Search among them, secretly linked browsing to device IDs. <sub>[ToS;DR](https://tosdr.org/en/service/860) · [Source](https://localmess.github.io/)</sub>
 
 ✅ **Use instead**
 
@@ -607,8 +612,8 @@ Mainstream captchas tell humans from bots by profiling visitors. These make the 
 
 🚫 **Avoid**
 
-- **Google reCAPTCHA**: scores visitors using cookies and their browsing, for Google. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
-- **hCaptcha**: collects device and browsing data to score visitors, under a poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/2207)</sub>
+- **Google reCAPTCHA**: its own docs tell sites to run it in the background of their pages, not just on forms. <sub>[ToS;DR](https://tosdr.org/en/service/217) · [Source](https://developers.google.com/recaptcha/docs/v3)</sub>
+- **hCaptcha**: its privacy policy says it supplies the answers visitors give to its puzzles as AI training data. <sub>[ToS;DR](https://tosdr.org/en/service/2207) · [Source](https://www.hcaptcha.com/privacy)</sub>
 
 ✅ **Use instead**
 
@@ -656,7 +661,7 @@ Authenticator apps generate the one-time codes that protect an account even afte
 🚫 **Avoid**
 
 - **Authy**: needs your phone number, and a 2024 leak exposed 33 million of them. <sub>[Source](https://www.malwarebytes.com/blog/news/2024/07/authy-phone-numbers-accessed-by-cybercriminals-warns-twilio)</sub>
-- **Google Authenticator**: syncs your codes to your Google account, and only exports them as QR codes. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
+- **Google Authenticator**: since 2023 it can sync your codes to Google, where researchers found Google could read them. <sub>[ToS;DR](https://tosdr.org/en/service/217) · [Source](https://www.macrumors.com/2023/04/27/google-authenticator-cloud-sync-no-e2e/)</sub>
 - **Microsoft Authenticator**: 5 trackers in its Android app, and no way to export your tokens to another app. <sub>[Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.azure.authenticator/latest/)</sub>
 
 ✅ **Use instead**
@@ -675,7 +680,7 @@ A password manager lets you use a strong, different password for every account w
 
 🚫 **Avoid**
 
-- **LastPass**: a 2022 breach leaked customers' encrypted vaults and, unencrypted, the sites they saved. <sub>[Source](https://en.wikipedia.org/wiki/2022_LastPass_data_breach)</sub>
+- **LastPass**: the UK fined it £1.2 million in 2025 over a 2022 breach that leaked customers' encrypted vaults. <sub>[Source](https://www.bleepingcomputer.com/news/security/uk-fines-lastpass-over-2022-data-breach-impacting-16-million-users/)</sub>
 
 ✅ **Use instead**
 
@@ -698,7 +703,7 @@ Encryption keeps your files unreadable to anyone without the key, whether a lapt
 
 🚫 **Avoid**
 
-- **BitLocker**: with device encryption, Windows uploads your recovery key to your Microsoft account. <sub>[Source](https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/)</sub>
+- **BitLocker**: your recovery key is uploaded to Microsoft by default, and Microsoft has handed such keys to the FBI. <sub>[Source](https://techcrunch.com/2026/01/23/microsoft-gave-fbi-a-set-of-bitlocker-encryption-keys-to-unlock-suspects-laptops-reports)</sub>
 
 ✅ **Use instead**
 
@@ -770,9 +775,9 @@ Mainstream cloud drives can read everything you upload and scan it on their serv
 
 🚫 **Avoid**
 
-- **Google Drive**: files are stored without end-to-end encryption, under a very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
-- **Dropbox**: no end-to-end encryption, and 4 trackers in its Android app. <sub>[ToS;DR](https://tosdr.org/en/service/270) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.dropbox.android/latest/)</sub>
-- **OneDrive**: files are stored without end-to-end encryption, under a very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/244)</sub>
+- **Google Drive**: scans your files, and in 2022 locked a file holding only the digit 1 as copyright infringement. <sub>[ToS;DR](https://tosdr.org/en/service/217) · [Source](https://www.bleepingcomputer.com/news/security/google-drive-flags-nearly-empty-files-for-copyright-infringement/)</sub>
+- **Dropbox**: a 2012 breach exposed 68 million users' emails and passwords, which Dropbox only confirmed in 2016. <sub>[ToS;DR](https://tosdr.org/en/service/270) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.dropbox.android/latest/) · [Source](https://www.theregister.com/2016/08/31/dropbox_2012_credentials_file_is_real/)</sub>
+- **OneDrive**: collects and stores facial scans from your photos to group them by person, Microsoft says. <sub>[ToS;DR](https://tosdr.org/en/service/244) · [Source](https://support.microsoft.com/en-us/onedrive/group-photos-by-people-in-microsoft-photos)</sub>
 
 ✅ **Use instead**
 
@@ -800,7 +805,7 @@ Upload-and-share services keep a readable copy of your files on their servers an
 
 🚫 **Avoid**
 
-- **WeTransfer**: files aren't end-to-end encrypted, and the site carries trackers. <sub>[ToS;DR](https://tosdr.org/en/service/214)</sub>
+- **WeTransfer**: in 2025 it changed its terms to license your uploaded files for machine learning, then backed down. <sub>[ToS;DR](https://tosdr.org/en/service/214) · [Source](https://www.malwarebytes.com/blog/news/2025/07/wetransfer-walks-back-clause-that-said-it-would-train-ai-on-your-files)</sub>
 
 ✅ **Use instead**
 
@@ -841,7 +846,7 @@ Popular note apps store everything you write on their servers, usually readable 
 
 - **Google Keep**: notes are stored on Google's servers without end-to-end encryption. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
   - **[Keep To Markdown](https://github.com/erikelisath/keep-to-markdown)** - Converts your Google Keep notes to Markdown files with a YAML header.
-- **Evernote**: notes are stored without end-to-end encryption, under a poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/207)</sub>
+- **Evernote**: in 2016 Evernote changed its policy to let staff read users' notes, until users pushed back. <sub>[ToS;DR](https://tosdr.org/en/service/207) · [Source](https://techcrunch.com/2016/12/14/evernotes-new-privacy-policy-allows-employees-to-read-your-notes/)</sub>
 - **Notion**: no end-to-end encryption, so Notion can read everything in your workspace. <sub>[ToS;DR](https://tosdr.org/en/service/1817)</sub>
 - **OneNote**: notes sync through Microsoft's servers without end-to-end encryption. <sub>[ToS;DR](https://tosdr.org/en/service/244)</sub>
 
@@ -877,8 +882,8 @@ Cloud office suites keep your documents on the provider's servers in a form it c
 
 🚫 **Avoid**
 
-- **Microsoft Office**: documents saved to OneDrive aren't end-to-end encrypted, and the Android app has 6 trackers. <sub>[ToS;DR](https://tosdr.org/en/service/244) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.microsoft.office.officehubrow/latest/)</sub>
-- **Google Docs**: documents are stored on Google's servers without end-to-end encryption. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
+- **Microsoft Office**: in 2025 Austria's regulator ruled that Microsoft 365 Education illegally tracked pupils with cookies. <sub>[ToS;DR](https://tosdr.org/en/service/244) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.microsoft.office.officehubrow/latest/) · [Source](https://noyb.eu/en/noyb-win-microsoft-365-education-tracks-school-children)</sub>
+- **Google Docs**: files are scanned automatically, and a 2017 bug locked people out of their own docs as abusive content. <sub>[ToS;DR](https://tosdr.org/en/service/217) · [Source](https://9to5google.com/2017/11/02/google-explains-tuesdays-drive-and-docs-bug/)</sub>
 
 ✅ **Use instead**
 
@@ -887,7 +892,7 @@ Cloud office suites keep your documents on the provider's servers in a form it c
 - **[Etherpad](https://etherpad.org/)** - Self-hosted editor for writing documents together in real time. <sub>self-host · Apache-2.0</sub>
 - **[Fileverse](https://fileverse.io)** - End-to-end encrypted workspace and collaboration apps, as an alternative to Google Workspace.
   - **[dDocs](https://ddocs.new)** - End-to-end encrypted, decentralized alternative to Google Docs. <sub>AGPL-3.0</sub>
-    - **[dSheets](https://sheets.fileverse.io)** - Decentralized alternative to Excel and Google Sheets. <sub>AGPL-3.0</sub>
+  - **[dSheets](https://sheets.fileverse.io)** - Decentralized alternative to Excel and Google Sheets. <sub>AGPL-3.0</sub>
 - **[Grist](https://www.getgrist.com)** - Spreadsheet and database hybrid you can host yourself, as an Airtable alternative. `⚠️ website trackers` <sub>self-host · Apache-2.0</sub>
 - **[LibreOffice](https://www.libreoffice.org/)** - Full desktop office suite that works entirely offline and opens Microsoft Office formats. <sub>Desktop · GPL-3.0</sub>
 - **[OnlyOffice](https://www.onlyoffice.com/)** - Office suite built around Microsoft formats, with a document server you can host for real-time collaboration. `⚠️ website trackers` <sub>self-host · AGPL-3.0</sub>
@@ -933,7 +938,7 @@ Bookmarks and read-later lists reveal a lot about what you read and care about. 
 
 🚫 **Avoid**
 
-- **Evernote Web Clipper**: saves pages to Evernote without end-to-end encryption, under a poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/207)</sub>
+- **Evernote Web Clipper**: in 2016 Evernote changed its policy to let staff read users' notes, until users pushed back. <sub>[ToS;DR](https://tosdr.org/en/service/207) · [Source](https://techcrunch.com/2016/12/14/evernotes-new-privacy-policy-allows-employees-to-read-your-notes/)</sub>
 
 ✅ **Use instead**
 
@@ -998,11 +1003,11 @@ Streaming services log everything you watch and listen to, and their apps are fu
 
 🚫 **Avoid**
 
-- **Netflix**: logs what and how you watch, under a poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/185)</sub>
+- **Netflix**: in 2024 Dutch regulators fined Netflix €4.75 million for not telling users what it does with their data. <sub>[ToS;DR](https://tosdr.org/en/service/185) · [Source](https://noyb.eu/en/noyb-win-dutch-authority-fines-netflix-eu475-million)</sub>
 - **Amazon Prime Video**: 3 trackers in its Android app, under a poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/2444) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.amazon.avod.thirdpartyclient/latest/)</sub>
-- **Disney Plus**: a very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/2745)</sub>
-- **Spotify**: a very poorly rated privacy policy that covers your mood and friends, and 4 trackers. <sub>[ToS;DR](https://tosdr.org/en/service/225) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/)</sub>
-- **SoundCloud**: 13 trackers in its Android app, under a very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/276) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.soundcloud.android/latest/)</sub>
+- **Disney Plus**: in 2026 Disney paid California $2.75 million for sharing streaming viewers' data after they had opted out. <sub>[ToS;DR](https://tosdr.org/en/service/2745) · [Source](https://oag.ca.gov/news/press-releases/california-wont-let-it-go-attorney-general-bonta-announces-275-million)</sub>
+- **Spotify**: in 2023 Sweden fined Spotify 58 million kronor for not clearly explaining how it uses your data. <sub>[ToS;DR](https://tosdr.org/en/service/225) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/) · [Source](https://www.imy.se/en/news/administrative-fee-against-spotify/)</sub>
+- **SoundCloud**: a 2025 breach exposed the email addresses of about 28 million users, a fifth of its community. <sub>[ToS;DR](https://tosdr.org/en/service/276) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.soundcloud.android/latest/) · [Source](https://hackread.com/soundcloud-cyberattack-data-breach/)</sub>
 
 ✅ **Use instead**
 
@@ -1030,9 +1035,13 @@ These clients cut out Spotify's own apps and their tracking, but you still strea
 
 ##### YouTube Music alternative clients
 
+An unofficial app for a service you already use, usually without its ads or tracking. Your account stays with that service, and using an unofficial app can break its rules.
+
 - **[SimpMusic](https://simpmusic.org/)** - YouTube Music client with no ads and SponsorBlock built in, successor to the discontinued ViMusic and RiMusic. `⚠️ website trackers` <sub>Android · Desktop · GPL-3.0 · [F-Droid](https://f-droid.org/packages/com.maxrave.simpmusic/)</sub>
 
 ##### Deezer alternative clients
+
+An unofficial app for a service you already use, usually without its ads or tracking. Your account stays with that service, and using an unofficial app can break its rules.
 
 - **[dzr](https://github.com/yne/dzr)** - Command line Deezer player for Linux, BSD and Android with Termux. <sub>CLI · Unlicense</sub>
 
@@ -1040,10 +1049,10 @@ These clients cut out Spotify's own apps and their tracking, but you still strea
 
 🚫 **Avoid**
 
-- **Spotify**: a very poorly rated privacy policy that covers your mood and friends, and 4 trackers. <sub>[ToS;DR](https://tosdr.org/en/service/225) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/)</sub>
+- **Spotify**: in 2023 Sweden fined Spotify 58 million kronor for not clearly explaining how it uses your data. <sub>[ToS;DR](https://tosdr.org/en/service/225) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.spotify.music/latest/) · [Source](https://www.imy.se/en/news/administrative-fee-against-spotify/)</sub>
 - **iVoox**: 13 trackers in its Android app, and more on its website. <sub>[Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.ivoox.app/latest/)</sub>
 - **Audible**: 5 trackers in its Android app, under Amazon's poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/190) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.audible.application/latest/)</sub>
-- **Deezer**: 11 trackers in its Android app. <sub>[Exodus](https://reports.exodus-privacy.eu.org/en/reports/deezer.android.app/latest/)</sub>
+- **Deezer**: a partner leaked a 2019 backup of 229 million users' names, birth dates, IPs and locations, published in 2022. <sub>[Exodus](https://reports.exodus-privacy.eu.org/en/reports/deezer.android.app/latest/) · [Source](https://haveibeenpwned.com/Breach/Deezer)</sub>
 
 ✅ **Use instead**
 
@@ -1067,6 +1076,8 @@ Song recognition apps listen through your microphone and tend to bundle a lot of
 
 #### Shazam alternative clients
 
+An unofficial app for a service you already use, usually without its ads or tracking. Your account stays with that service, and using an unofficial app can break its rules.
+
 - **[Audile](https://github.com/AudileTeam/Audile)** - Music recognition app that queries Shazam, AudD or ACRCloud and keeps your history on the device. <sub>Android · GPL-3.0</sub>
 - **[SongID Telegram Bot](https://github.com/smcclennon/SongID)** - Telegram bot that identifies the music in audio and video files you send it. <sub>Apache-2.0</sub>
 - **[SongRec](https://github.com/marin-m/SongRec)** - Shazam client for Linux written in Rust, no account needed. <sub>Linux · GPL-3.0</sub>
@@ -1079,13 +1090,15 @@ Cloud photo services scan your library for faces, places and objects and tie it 
 
 🚫 **Avoid**
 
-- **Google Photos**: scans your photos for faces, places and objects, tied to your Google account. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
+- **Google Photos**: scans your photos, and in 2022 its scan got a father investigated by police over photos taken for a doctor. <sub>[ToS;DR](https://tosdr.org/en/service/217) · [Source](https://gizmodo.com/google-csam-photodna-1849440471)</sub>
   - **[Google Photos Takeout Helper](https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper)** - Script that sorts the messy Google Takeout archive into one chronological folder, to help you move out of Google Photos. `💀 inactive` <sub>Apache-2.0</sub>
-- **Amazon Photos**: Amazon gathers data from your library, as its own list of examples shows. <sub>[Source](https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ)</sub>
+- **Amazon Photos**: its privacy notice says Amazon uses the images you store with it to improve its services. <sub>[Source](https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ)</sub>
 
 ✅ **Use instead**
 
 #### Self-hosted
+
+You install and run it yourself, on a computer at home or a rented server. Your data stays with you, but setup, updates and backups are up to you.
 
 - **[Ente](https://ente.com/)** - End-to-end encrypted photo and video backup whose cryptography was [independently audited](https://ente.com/blog/cryptography-audit/). `⚠️ website trackers` <sub>self-host · AGPL-3.0</sub>
 - **[Immich](https://immich.app/)** - Self-hosted photo and video backup straight from your phone, the closest match to Google Photos. <sub>self-host · AGPL-3.0 · [F-Droid](https://f-droid.org/packages/app.alextran.immich/)</sub>
@@ -1098,11 +1111,15 @@ Cloud photo services scan your library for faces, places and objects and tie it 
 
 #### Third-party
 
+A company or organization runs it for you: sign up and use it. It's the easiest way to start, but you trust them with your data, so look for end-to-end encryption and a good track record.
+
 - **[Cryptee](https://crypt.ee/)** - Encrypted storage for your photos, documents and notes, based in Estonia.
 - **[Ente](https://ente.com/)** - End-to-end encrypted photo and video backup whose cryptography was [independently audited](https://ente.com/blog/cryptography-audit/). `⚠️ website trackers` <sub>self-host · AGPL-3.0</sub>
 - **[Stingle Photos](https://stingle.org/)** - End-to-end encrypted photo backup and sync for your phone. <sub>Android · iOS · GPL-3.0 · [F-Droid](https://f-droid.org/packages/org.stingle.photos/)</sub>
 
 #### Local
+
+Works on your own device without a server, so nothing leaves it. Backing up your files is up to you.
 
 - **[digiKam](https://www.digikam.org/)** - Photo manager for large collections, with tagging, face recognition and editing, all on your own files. <sub>Linux · macOS · Windows</sub>
 - **[ImageGlass](https://imageglass.org/)** - Lightweight image viewer with a clean interface. `⚠️ website trackers` <sub>Windows</sub>
@@ -1116,7 +1133,7 @@ Mainstream photo editors push your work into their cloud and collect usage data 
 
 🚫 **Avoid**
 
-- **Adobe Photoshop and Lightroom**: tied to a Creative Cloud account, and Adobe has a long record of anti-user practices. <sub>[Source](https://www.gnu.org/proprietary/malware-adobe.html)</sub>
+- **Adobe Photoshop and Lightroom**: its 2024 terms say Adobe may access your cloud content through both automated and manual review. <sub>[Source](https://www.theregister.com/2024/06/06/adobe_users_upset_over_content/)</sub>
 - **VSCO**: 14 trackers in its Android app, under a very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/2986) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.vsco.cam/latest/)</sub>
 
 ✅ **Use instead**
@@ -1152,7 +1169,7 @@ Commercial video editors are closed source and often tied to an online account, 
 
 🚫 **Avoid**
 
-- **Adobe Premiere Pro**: tied to a Creative Cloud account, and Adobe has a long record of anti-user practices. <sub>[Source](https://www.gnu.org/proprietary/malware-adobe.html)</sub>
+- **Adobe Premiere Pro**: its terms allow automated scanning of your Creative Cloud files and human review of flagged ones. <sub>[Source](https://www.adobe.com/legal/terms.html)</sub>
 
 ✅ **Use instead**
 
@@ -1163,7 +1180,7 @@ Commercial video editors are closed source and often tied to an online account, 
 
 ---
 
-### Screen recording
+### Screen Recording
 
 Many screen recorders upload your recordings to their own cloud and ask you to sign in first. These record locally, with no account.
 
@@ -1215,7 +1232,7 @@ Loading fonts from Google's servers hands every visitor's IP address to Google, 
 
 🚫 **Avoid**
 
-- **Google Fonts (loaded from Google)**: every page that loads them sends the visitor's IP address to Google. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
+- **Google Fonts (loaded from Google)**: a German court ruled in 2022 that a site broke the GDPR by sending visitors' IP addresses to Google this way. <sub>[ToS;DR](https://tosdr.org/en/service/217) · [Source](https://www.activemind.legal/guides/ruling-google-fonts/)</sub>
 
 ✅ **Use instead**
 
@@ -1248,7 +1265,7 @@ Minecraft needs a Microsoft account, and Microsoft has [forced](https://github.c
 
 🚫 **Avoid**
 
-- **Minecraft**: requires a Microsoft account since 2022, under a very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/244)</sub>
+- **Minecraft**: since 2022 your chat, even on private servers, can be reported to Microsoft and get you banned online. <sub>[ToS;DR](https://tosdr.org/en/service/244) · [Source](https://it.slashdot.org/story/22/06/24/1649223/microsoft-will-start-banning-players-from-all-private-minecraft-servers)</sub>
 
 ✅ **Use instead**
 
@@ -1287,8 +1304,8 @@ Commercial ebook platforms track your reading, tie your books to an account that
 
 🚫 **Avoid**
 
-- **Amazon Kindle**: tracks your reading, and Amazon has remotely deleted books from customers' devices. <sub>[Source](https://www.nytimes.com/2009/07/18/technology/18kindle.html)</sub>
-- **Google Play Books**: tied to your Google account, which records what you read. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
+- **Amazon Kindle**: in 2009 Amazon remotely deleted copies of 1984 that people had bought from their Kindles. <sub>[Source](https://www.theregister.com/2009/07/18/amazon_removes_1984_from_kindle/)</sub>
+- **Google Play Books**: its privacy policy says the record of each book you buy, title included, can't be deleted. <sub>[ToS;DR](https://tosdr.org/en/service/217) · [Source](https://books.google.com/googlebooks/privacy.html)</sub>
 
 ✅ **Use instead**
 
@@ -1308,7 +1325,7 @@ Apps to replace the Google and manufacturer defaults on an Android phone, and th
 
 🚫 **Avoid**
 
-- **Google Play Store**: ties every app you install to your Google account. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
+- **Google Play Store**: its data safety labels were false or misleading for nearly 80% of top apps, Mozilla found in 2023. <sub>[ToS;DR](https://tosdr.org/en/service/217) · [Source](https://www.mozillafoundation.org/en/blog/mozilla-study-data-privacy-labels-for-most-top-apps-in-google-play-store-are-false-or-misleading/)</sub>
 
 ✅ **Use instead**
 
@@ -1319,13 +1336,15 @@ Apps to replace the Google and manufacturer defaults on an Android phone, and th
 
 #### Alternative Google Play Store clients
 
+An unofficial app for a service you already use, usually without its ads or tracking. Your account stays with that service, and using an unofficial app can break its rules.
+
 - **[Aurora Store](https://auroraoss.com/)** - Google Play client that can download apps anonymously, without a Google account. `⚠️ website trackers` <sub>Android</sub>
 
 #### Android Debloat Tools
 
 🚫 **Avoid**
 
-- **ADB AppControl**: its privacy policy lets it collect device details and which apps you install or remove. <sub>[Source](https://adbappcontrol.com/en/terms/)</sub>
+- **ADB AppControl**: its terms let it send your PC's IP, hardware details and the apps you remove to a remote server. <sub>[Source](https://appcontrol.neocities.org/pages/terms_of_use)</sub>
 
 ✅ **Use instead**
 
@@ -1358,8 +1377,8 @@ Preinstalled file managers and those from the Play Store may carry ads or tracke
 
 🚫 **Avoid**
 
-- **Gboard**: Google's keyboard, which sees everything you type, under a very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
-- **SwiftKey**: Microsoft's keyboard, with 4 trackers in its Android app. <sub>[Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.touchtype.swiftkey/latest/)</sub>
+- **Gboard**: researchers showed in 2022 that the learning updates it sends Google can reveal the words you type. <sub>[ToS;DR](https://tosdr.org/en/service/217) · [Source](https://arxiv.org/abs/2210.16947)</sub>
+- **SwiftKey**: a 2016 sync bug showed users strangers' email addresses and phone numbers as text predictions. <sub>[Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.touchtype.swiftkey/latest/) · [Source](https://www.engadget.com/2016-07-29-swiftkey-leaked-user-email-addresses-as-text-predictions.html)</sub>
 
 ✅ **Use instead**
 
@@ -1379,8 +1398,8 @@ Your photos show where you've been and who you were with, including friends and 
 
 🚫 **Avoid**
 
-- **Google Photos**: scans your photos, and once got a father reported to police over pictures taken for a doctor. <sub>[Source](https://petapixel.com/2022/08/22/google-flags-photos-of-fathers-sick-son-as-child-abuse-informs-police/)</sub>
-- **Amazon Photos**: Amazon gathers data from your library, as its own list of examples shows. <sub>[Source](https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ)</sub>
+- **Google Photos**: scans your photos, and in 2022 its scan got a father investigated by police over photos taken for a doctor. <sub>[Source](https://gizmodo.com/google-csam-photodna-1849440471)</sub>
+- **Amazon Photos**: its privacy notice says Amazon uses the images you store with it to improve its services. <sub>[Source](https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ)</sub>
 
 ✅ **Use instead**
 
@@ -1468,7 +1487,7 @@ See also [Media Streaming Platforms](#media-streaming-platforms).
 
 🚫 **Avoid**
 
-- **MS Windows**: collects usage data and pushes you into a Microsoft account. <sub>[ToS;DR](https://tosdr.org/en/service/244)</sub>
+- **MS Windows**: uploads your disk encryption recovery key to Microsoft by default, and Microsoft has given keys to the FBI. <sub>[ToS;DR](https://tosdr.org/en/service/244) · [Source](https://techcrunch.com/2026/01/23/microsoft-gave-fbi-a-set-of-bitlocker-encryption-keys-to-unlock-suspects-laptops-reports)</sub>
 
 ✅ **Use instead**
 
@@ -1509,9 +1528,9 @@ Smart speakers keep a microphone on in your home and send recordings to their ma
 
 🚫 **Avoid**
 
-- **Google Home**: an always-listening microphone tied to your Google account. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
-- **Alexa**: an always-listening microphone that sends your requests to Amazon. <sub>[ToS;DR](https://tosdr.org/en/service/190)</sub>
-- **Siri**: Apple contractors regularly listened to Siri recordings, including private moments. <sub>[Source](https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings)</sub>
+- **Google Home**: in 2026 Google agreed to pay $68 million over claims its Assistant recorded people without the wake word. <sub>[ToS;DR](https://tosdr.org/en/service/217) · [Source](https://www.classaction.org/news/68m-google-assistant-settlement-ends-class-action-lawsuit-claiming-devices-start-recording-without-user-activation)</sub>
+- **Alexa**: the FTC fined Amazon $25 million in 2023 for keeping children's Alexa voice recordings indefinitely. <sub>[ToS;DR](https://tosdr.org/en/service/190) · [Source](https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-doj-charge-amazon-violating-childrens-privacy-law-keeping-kids-alexa-voice-recordings-forever)</sub>
+- **Siri**: in 2025 Apple settled claims that Siri recorded private conversations without consent for $95 million. <sub>[Source](https://scott-scott.com/court-grants-final-approval-of-95m-apple-siri-settlement/)</sub>
 
 ✅ **Use instead**
 
@@ -1643,7 +1662,7 @@ Cloud automation services hold access tokens for every account you connect and r
 🚫 **Avoid**
 
 - **IFTTT**: your workflows run on its servers, holding tokens to all your connected accounts. <sub>[ToS;DR](https://tosdr.org/en/service/236)</sub>
-- **Zapier**: your workflows run on its servers, holding tokens to all your connected accounts. <sub>[ToS;DR](https://tosdr.org/en/service/2131)</sub>
+- **Zapier**: in 2025 an intruder got into its code repositories, where some customer data had been copied. <sub>[ToS;DR](https://tosdr.org/en/service/2131) · [Source](https://threats.wiz.io/all-incidents/zapier-data-breach)</sub>
 
 ✅ **Use instead**
 
@@ -1662,8 +1681,8 @@ Cards, PayPal and bank transfers tie every purchase to your name and leave a rec
 
 🚫 **Avoid**
 
-- **Visa / Mastercard**: card networks sell purchase data, grouped into audiences for advertisers. <sub>[Source](https://pirg.org/edfund/resources/how-mastercard-sells-data/)</sub>
-- **PayPal**: requires identity verification and keeps a record of everyone you pay. <sub>[ToS;DR](https://tosdr.org/en/service/230)</sub>
+- **Visa / Mastercard**: your card purchases feed Mastercard audience segments, like affluent shoppers, sold on data marketplaces. <sub>[Source](https://www.americanbanker.com/news/mastercard-removes-some-ads-for-customer-transaction-data)</sub>
+- **PayPal**: fined $2 million by New York in 2025 after a 2022 breach exposed 35,000 customers' Social Security numbers. <sub>[ToS;DR](https://tosdr.org/en/service/230) · [Source](https://therecord.media/paypal-penalty-millions-data-breach)</sub>
 
 ✅ **Use instead**
 
@@ -1721,8 +1740,6 @@ Your transactions reveal where you live, shop and travel. These tools keep your 
 - **[Spliit](https://spliit.app)** - Splitwise alternative for sharing expenses with friends and family, no account needed. <sub>MIT</sub>
 - **[SplitPro](https://splitpro.app)** - Splitwise alternative for sharing expenses with friends, which you can self-host. <sub>MIT</sub>
 
-#### Others
-
 #### Portfolio trackers
 
 - **[Ghostfolio](https://ghostfol.io)** - Wealth management app for tracking stocks, ETFs and crypto, which you can self-host. <sub>AGPL-3.0</sub>
@@ -1739,7 +1756,7 @@ Mainstream map apps log where you go and what you search for. Apps built on Open
 
 🚫 **Avoid**
 
-- **Google Maps**: saves your searches and the places you go to your Google account. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
+- **Google Maps**: a 2018 AP investigation found it saved your location whenever you opened Maps, even with Location History off. <sub>[ToS;DR](https://tosdr.org/en/service/217) · [Source](https://www.deseret.com/2018/8/13/20651153/ap-exclusive-google-tracks-your-movements-like-it-or-not/)</sub>
 - **Yandex Maps**: 11 trackers in its Android app, from a company bound by Russian surveillance law. <sub>[Exodus](https://reports.exodus-privacy.eu.org/en/reports/ru.yandex.yandexmaps/latest/)</sub>
 - **Sygic**: 8 trackers in its Android app. <sub>[Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.sygic.aura/latest/)</sub>
 - **Bing Maps**: under Microsoft's very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/244)</sub>
@@ -1797,10 +1814,10 @@ Mainstream dating apps collect intimate data and profit from it. Tinder in parti
 
 🚫 **Avoid**
 
-- **Tinder**: 8 trackers in its Android app, under a very poorly rated privacy policy. <sub>[ToS;DR](https://tosdr.org/en/service/462) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.tinder/latest/)</sub>
-- **Grindr**: fined in Norway for sharing users' location and sexual orientation with advertisers. <sub>[Source](https://techcrunch.com/2021/12/15/grindr-final-gdpr-fine/)</sub>
-- **Badoo**: 30 trackers in its Android app, most of them for advertising. <sub>[Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.badoo.mobile/latest/)</sub>
-- **Lovoo**: 33 trackers in its Android app, most of them for advertising. <sub>[Exodus](https://reports.exodus-privacy.eu.org/en/reports/net.lovoo.android/latest/)</sub>
+- **Tinder**: a 2020 Norwegian Consumer Council study found it shared user data with at least 45 Match Group firms. <sub>[ToS;DR](https://tosdr.org/en/service/462) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.tinder/latest/) · [Source](https://www.thelocal.no/20200114/norway-consumer-rights-group-accuses-tinder-grindr-of-illegally-sharing-data)</sub>
+- **Grindr**: fined NOK 65 million in Norway in 2021 for sharing users' data with advertisers without valid consent. <sub>[Source](https://techcrunch.com/2021/12/15/grindr-final-gdpr-fine/)</sub>
+- **Badoo**: settled for $40 million in 2024, with Bumble, over claims it scanned Illinois users' faces. <sub>[Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.badoo.mobile/latest/) · [Source](https://idtechwire.com/illinoisan-bumble-badoo-users-may-get-payout-from-40-million-biometric-privacy-settlement/)</sub>
+- **Lovoo**: in 2019 journalists used its Radar feature to locate users to within 30 to 50 meters. <sub>[Exodus](https://reports.exodus-privacy.eu.org/en/reports/net.lovoo.android/latest/) · [Source](https://netzpolitik.org/2019/sicherheitsluecke-dating-app-lovoo-gibt-standortdaten-preis/)</sub>
 
 ✅ **Use instead**
 
@@ -1808,13 +1825,13 @@ Mainstream dating apps collect intimate data and profit from it. Tinder in parti
 
 ---
 
-### Location tracking
+### Location Tracking
 
 Your location history shows where you live, work and sleep. These tools record it on your own device or server rather than a Google account.
 
 🚫 **Avoid**
 
-- **Google location history**: records where you go, tied to your Google account. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
+- **Google location history**: in 2022 Google paid $391.5 million to 40 US states for tracking people's location after they turned it off. <sub>[ToS;DR](https://tosdr.org/en/service/217) · [Source](https://www.cnbc.com/2022/11/14/google-settles-with-40-states-over-location-tracking-practices.html)</sub>
 - **Google Find Hub (formerly Find My Device)**: reports your devices' locations to Google. <sub>[ToS;DR](https://tosdr.org/en/service/217)</sub>
 
 ✅ **Use instead**
@@ -1868,6 +1885,7 @@ Tags point out a trade-off:
 - `⚠️ source-available`: the code is public, but the license isn't an open source one.
 - `⚠️ website trackers`: the project's website loads third-party trackers. That says nothing about the app itself.
 - `⚠️ telemetry opt-out`: the app sends usage data by default, but a setting turns it off.
-- `⚠️ closed server` and `⚠️ account required`: the server code isn't public, or an account is needed to use it.
+- `⚠️ closed server`: the server code isn't public.
+- `⚠️ account required`: an account is needed to use it.
 
 🚫 **Avoid** lists name mainstream services and the main privacy problem with each. The links lead to the evidence: [ToS;DR](https://tosdr.org) grades privacy policies, [Exodus Privacy](https://exodus-privacy.eu.org) lists the trackers in Android apps, and Source points to a report.

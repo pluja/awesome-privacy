@@ -158,6 +158,7 @@ subsections:
             - play-store-trackers
           package_id: com.wire
           fdroid: true
+          added: 2026-11-05
   - title: P2P
     intro: Messages go straight from one device to another, with no server to control or fail. You lose some features and delivery can be slower, but it's the strongest option for sensitive chats.
     recommend:
