@@ -27,6 +27,10 @@ subsections:
   - title: Email verification required, accepting crypto
     recommend:
       entries:
+        - name: SMSPing
+          url: https://smsping.net/?utm_source=awesome-privacy-pluja&utm_medium=directory&utm_campaign=backlinks
+          description: Temporary virtual numbers for receiving SMS verification codes in 150+ countries, paid mainly in USDT (also TRX, ETH and BNB).
+          added: 2026-11-06
         - name: SmsPVA
           url: https://smspva.com/
           description: Temporary virtual numbers in many countries for receiving verification codes.
