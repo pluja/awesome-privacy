@@ -194,3 +194,13 @@ subsections:
           tags:
             - p2p
           added: 2020-12-07
+        - name: BOOFF
+          url: https://atonfux-official.github.io/BOOFF/
+          repo: https://github.com/atonfux-official/BOOFF
+          description: Ephemeral, serverless P2P messenger running in volatile RAM (0x00) with real-time 165.2Hz audio DSP scrambler and zero phone numbers.
+          license: MIT
+          tags:
+            - p2p
+            - e2ee
+            - no-account
+          added: 2026-11-07
