@@ -15,6 +15,15 @@ subsections:
           tags:
             - tor
           added: 2022-11-23
+        - name: PikaSim
+          url: https://pikasim.com
+          description: Data eSIMs and real carrier numbers for calls and SMS, bought without an account, email or ID and paid in Monero or Bitcoin.
+          tags:
+            - no-account
+            - no-kyc
+            - tor
+          caveats:
+            - closed-source
   - title: Email verification required, accepting monero
     recommend:
       entries:
