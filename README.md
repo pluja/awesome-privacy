@@ -911,6 +911,7 @@ Most online PDF tools upload your document to their server before working on it,
 ✅ **Use instead**
 
 - **[BentoPDF](https://bentopdf.com/)** - Browser-based PDF toolkit to merge, split, compress, sign and redact, with files processed on your device. <sub>Web · self-host · AGPL-3.0</sub>
+- **[EditPDFKit](https://www.editpdfkit.com/)** - Free in-browser PDF and conversion suite with 140+ tools running 100% client-side with zero cloud uploads. <sub>Web</sub>
 
 ---
 
