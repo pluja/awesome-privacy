@@ -140,3 +140,9 @@ recommend:
       added: 2025-06-17
       tags:
         - e2ee
+    - name: anon.li Drop
+      url: https://anon.li/drop
+      repo: https://github.com/anondotli/anon.li
+      description: File sharing service that encrypts files and their names in the browser before upload, keeping the key in the link.
+      tags:
+        - e2ee

@@ -183,3 +183,7 @@ subsections:
           tags:
             - self-host
           added: 2021-05-29
+        - name: anon.li Alias
+          url: https://anon.li/alias
+          repo: https://github.com/anondotli/anon.li
+          description: Email alias and forwarding service with replies through the alias and optional PGP encryption of forwarded mail.
