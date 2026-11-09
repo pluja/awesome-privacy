@@ -27,6 +27,11 @@ subsections:
   - title: Email verification required, accepting crypto
     recommend:
       entries:
+        - name: Tiger SMS
+          url: https://tiger-sms.com
+          description: Temporary virtual numbers for anonymous SMS verification.
+          caveats:
+            - website-trackers
         - name: SmsPVA
           url: https://smspva.com/
           description: Temporary virtual numbers in many countries for receiving verification codes.
