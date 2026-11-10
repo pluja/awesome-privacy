@@ -28,6 +28,14 @@ avoid:
       site: https://www.onenote.com/
 recommend:
   entries:
+    - name: AFFiNE
+      url: https://affine.pro
+      repo: https://github.com/toeverything/AFFiNE
+      description: Local-first knowledge base that keeps docs, a whiteboard and databases on your device, as an alternative to Notion and Miro.
+      tags:
+        - offline
+      caveats:
+        - source-available
     - name: AppFlowy
       url: https://appflowy.com/
       repo: https://github.com/AppFlowy-IO/AppFlowy
