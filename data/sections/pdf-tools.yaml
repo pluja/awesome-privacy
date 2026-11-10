@@ -26,3 +26,13 @@ recommend:
       tags:
         - self-host
         - offline
+    - name: AntsPDF
+      url: https://antspdf.com/
+      description: In-browser PDF suite to merge, split, compress, convert, and sign documents locally in the browser sandbox.
+      platforms:
+        - web
+      tags:
+        - offline
+        - no-account
+      caveats:
+        - closed-source
