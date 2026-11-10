@@ -208,6 +208,19 @@ subsections:
               repo: https://github.com/silverstein/minutes
               description: Records and transcribes meetings and voice memos on your device, with search over the history for local AI tools.
               added: 2026-11-04
+            - name: OneMira
+              url: https://onemira.com/products/c1
+              repo: https://github.com/onemira-space/onemira-mcp
+              description: Standalone voice recorder with local meeting transcription, speaker separation and Markdown notes via MCP on your computer.
+              platforms:
+                - macos
+                - windows
+                - cli
+              tags:
+                - offline
+              caveats:
+                - closed-source
+                - website-trackers
             - name: OpenWhispr
               url: https://openwhispr.com/
               repo: https://github.com/OpenWhispr/openwhispr
