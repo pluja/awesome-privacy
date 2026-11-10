@@ -50,6 +50,10 @@ subsections:
             - linux
           license: GPL-3.0
           added: 2026-09-30
+        - name: Paperweight
+          url: https://www.paperweight.email/
+          repo: https://github.com/wslyvh/paperweight
+          description: Paperweight scans your inbox to map your digital footprint, then helps you take back control and delete your data.
   - title: Android
     recommend:
       entries:
