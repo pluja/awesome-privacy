@@ -26,3 +26,13 @@ recommend:
       tags:
         - self-host
         - offline
+    - name: Digital Vault PRO
+      url: https://vault-pro.rashid-salimov96.workers.dev/en/tools/pdf-compress/
+      repo: https://github.com/Rasr20/digital-vault-pro
+      description: Browser-based PDF compression, merge, and split utility processing documents locally with no server uploads.
+      added: 2026-11-12
+      platforms:
+        - web
+      tags:
+        - no-account
+        - offline
