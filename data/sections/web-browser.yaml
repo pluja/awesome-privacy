@@ -218,6 +218,12 @@ subsections:
       - title: Useful Tools
         recommend:
           entries:
+            - name: Fauve Houdini
+              url: https://bebop-cow.github.io/fauve/houdini.html
+              repo: https://github.com/bebop-cow/fauve
+              description: Fills data broker opt-out forms locally in your browser, with no server, account or tracking.
+              platforms:
+                - browser
             - name: SingleFile
               url: https://github.com/gildas-lormeau/SingleFile
               repo: https://github.com/gildas-lormeau/SingleFile
