@@ -58,6 +58,17 @@ subsections:
             - desktop
           license: BSD-3-Clause
           added: 2026-07-04
+        - name: Gem Wallet
+          url: https://gemwallet.com
+          repo: https://github.com/gemwalletcom/wallet
+          description: Non-custodial mobile wallet for Bitcoin, Ethereum and other networks, with no analytics or ad tracking in the app.
+          platforms:
+            - android
+            - ios
+          package_id: com.gemwallet.android
+          tags:
+            - no-account
+            - audited
   - title: Payment Processors
     recommend:
       entries:
