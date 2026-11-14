@@ -53,6 +53,12 @@ recommend:
       description: Lightweight, cookie-free web analytics, as a hosted service or on your own server.
       license: AGPL-3.0
       added: 2020-12-08
+    - name: Pug
+      url: https://pug.sh
+      repo: https://github.com/pug-sh/pug
+      description: Self-hosted product analytics with funnels, retention and user flows, cookie-free by default.
+      tags:
+        - self-host
     - name: Rybbit
       url: https://rybbit.com
       repo: https://github.com/rybbit-io/rybbit
