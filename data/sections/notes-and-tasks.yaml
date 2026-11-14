@@ -38,6 +38,7 @@ recommend:
         - source-available
         - telemetry-opt-out
         - website-trackers
+      added: 2026-11-14
     - name: AppFlowy
       url: https://appflowy.com/
       repo: https://github.com/AppFlowy-IO/AppFlowy
