@@ -56,3 +56,11 @@ recommend:
       added: 2026-02-16
       tags:
         - e2ee
+    - name: SilentSuite
+      url: https://silentsuite.io
+      repo: https://github.com/silent-suite/silentsuite
+      description: Calendar, contacts and tasks sync that is end-to-end encrypted, so the server can't read your events.
+      package_id: io.silentsuite.android
+      tags:
+        - e2ee
+        - self-host
