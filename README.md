@@ -749,6 +749,7 @@ Tools for checking what your devices and apps leak, and for cutting off what you
 
 #### Android
 
+- **[CleanSlate](https://cleanslate.devshield.tech/)** - Remotely wipe an Android device if it is lost or stolen, before a thief can access your data. <sub>Android · MIT · [F-Droid](https://f-droid.org/packages/com.destructo.botox/) · [GitHub](https://github.com/devshield-tech/botox-android)</sub>
 - **[NetGuard](https://netguard.me/)** - Blocks internet access per app, no root needed. <sub>Android · GPL-3.0 · [F-Droid](https://f-droid.org/packages/eu.faircode.netguard/)</sub>
 - **[Orbot](https://orbot.app/)** - Routes app traffic through Tor, for all apps or only the ones you choose. Made by the Guardian Project. <sub>Android</sub>
 - **[Plexus](https://plexus.techlore.tech/)** - Community database of which apps work on de-Googled Android. <sub>Android · [F-Droid](https://f-droid.org/packages/tech.techlore.plexus/)</sub>
