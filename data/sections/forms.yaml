@@ -31,3 +31,9 @@ recommend:
       url: https://framaforms.org/
       description: Online form and survey service run by the French nonprofit Framasoft.
       added: 2022-05-19
+    - name: Palform
+      url: https://palform.app
+      repo: https://github.com/palform/palform
+      description: Simple end-to-end encrypted form builder hosted in the EU, free with unlimited responses.
+      tags:
+        - e2ee
