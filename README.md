@@ -1373,6 +1373,7 @@ Preinstalled file managers and those from the Play Store may carry ads or tracke
 - **[Fossify File Manager](https://www.fossify.org/apps/file-manager/)** - File manager with no ads or tracking that works without internet access. <sub>Android · GPL-3.0 · [F-Droid](https://f-droid.org/packages/org.fossify.filemanager/)</sub>
 - **[Ghost Commander](https://f-droid.org/packages/com.ghostsq.commander/)** - Dual-panel file manager. <sub>Android · [F-Droid](https://f-droid.org/packages/com.ghostsq.commander/)</sub>
 - **[Material Files](https://github.com/zhanghai/MaterialFiles)** - Material Design file manager with root, archive, FTP, SFTP, SMB and WebDAV support. <sub>Android · GPL-3.0 · [F-Droid](https://f-droid.org/packages/me.zhanghai.android.files/)</sub>
+- [TacitVault](https://tacitvault.app) — Open-source Android zero-knowledge local file locker utilizing hardware-backed Android Keystore and AES-256-GCM encryption with zero internet access.
 
 #### Android Keyboard
 
