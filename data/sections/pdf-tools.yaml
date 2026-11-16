@@ -26,3 +26,12 @@ recommend:
       tags:
         - self-host
         - offline
+    - name: FileTools Kit
+      url: https://www.filetoolskit.com/
+      repo: https://github.com/Sourendas/OmniCraft-Studio
+      description: In-browser PDF and document suite to merge, split, and compress files locally on your device with zero server uploads.
+      platforms:
+        - web
+      tags:
+        - no-account
+        - offline
