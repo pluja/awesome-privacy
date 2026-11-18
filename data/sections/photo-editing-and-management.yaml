@@ -16,6 +16,14 @@ subsections:
   - title: Web
     recommend:
       entries:
+        - name: ImagineHero
+          url: https://imaginehero.com/
+          description: In-browser Photopea and Photoshop alternative with layers and PSD support; images are processed on your device.
+          platforms:
+            - web
+          caveats:
+            - closed-source
+            - website-trackers
         - name: miniPaint
           url: https://github.com/viliusle/miniPaint
           repo: https://github.com/viliusle/miniPaint
