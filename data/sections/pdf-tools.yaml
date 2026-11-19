@@ -26,3 +26,13 @@ recommend:
       tags:
         - self-host
         - offline
+    - name: PDFCraft
+      url: https://pdf-craft-vert.vercel.app/
+      repo: https://github.com/Vishnu-cod/pdf-craft
+      description: Zero-cloud, client-side PDF utility suite to compress under 100KB/200KB, e-sign, merge, convert, and scan ATS resumes without server uploads.
+      license: MIT
+      added: 2026-11-20
+      platforms:
+        - web
+      tags:
+        - offline
