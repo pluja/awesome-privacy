@@ -1546,6 +1546,7 @@ Smart speakers keep a microphone on in your home and send recordings to their ma
 
 Many developer tools phone home with usage data and sometimes snippets of your code. These run locally and keep your work on your machine.
 
+- **[Affi-Chain](https://www.affichain.com/)** - In-memory client-side developer utility suite and precision calculators that process all payloads locally without network transmission. <sub>Web</sub>
 - **[Beekeeper Studio](https://www.beekeeperstudio.io)** - Desktop SQL editor and database manager for Postgres, MySQL, SQLite and many other databases. <sub>Linux · macOS · Windows</sub>
 - **[CrowdSec](https://www.crowdsec.net/)** - Collaborative intrusion prevention for servers, like fail2ban with crowd-sourced blocklists. `⚠️ website trackers` <sub>MIT</sub>
 - **[Hetty](https://hetty.xyz/)** - HTTP toolkit for security research, as an alternative to Burp Suite Pro. <sub>MIT</sub>
