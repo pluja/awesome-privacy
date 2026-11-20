@@ -245,6 +245,14 @@ subsections:
               description: Self-hosted OpenAI-compatible server for streaming transcription, translation and speech generation.
               license: MIT
               added: 2026-03-21
+            - name: TuxTalk
+              url: https://tuxtalk.app/
+              repo: https://github.com/ronb1964/TuxTalk
+              description: Hold-to-talk dictation for Linux that types into any app, with speech recognition running on your computer and nothing sent online.
+              platforms:
+                - linux
+              tags:
+                - offline
   - title: Image Generation
     recommend:
       entries:
