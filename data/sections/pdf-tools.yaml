@@ -26,3 +26,12 @@ recommend:
       tags:
         - self-host
         - offline
+    - name: PDFCraft
+      url: https://pdf-craft-vert.vercel.app/
+      repo: https://github.com/Vishnu-cod/pdf-craft
+      description: 100% in-browser, open-source PDF suite that processes all files locally via WebAssembly with zero cloud uploads.
+      license: MIT
+      platforms:
+        - web
+      tags:
+        - offline
