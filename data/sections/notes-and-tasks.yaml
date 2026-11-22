@@ -150,7 +150,6 @@ recommend:
         - name: Outsmart Notes
           url: https://outsmartnotes.com
             description: Fast, private online notepad that stores notes locally, works offline, and offers wiki links and reminders.
-              added: 2026-11-22
                 tags:
                   - offline
                     caveats:
