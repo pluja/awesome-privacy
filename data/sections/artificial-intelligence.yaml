@@ -34,6 +34,11 @@ subsections:
           tags:
             - self-host
           added: 2023-04-21
+        - name: NoRelay
+          url: https://darkgyft2126-cell.github.io/norelay/
+          repo: https://github.com/darkgyft2126-cell/norelay
+          description: Private AI chat in a single HTML file. No server, no account — the browser talks straight to OpenRouter, OpenAI, or Anthropic with your own key, or to Ollama on your own machine. Keys and chats stay in your browser.
+          added: 2026-11-23
         - name: ollama
           url: https://ollama.com/
           repo: https://github.com/ollama/ollama
