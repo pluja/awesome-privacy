@@ -831,6 +831,7 @@ Upload-and-share services keep a readable copy of your files on their servers an
 
 A download manager sees every file you fetch and every site you fetch it from. These resume and speed up downloads without ads or bundled extras, and their code is open to inspect.
 
+- **[AB Download Manager](https://abdownloadmanager.com/)** - Download manager with queues, scheduling and a browser extension that hands downloads to the app. <sub>Desktop · Android · Apache-2.0</sub>
 - **[axel](https://github.com/axel-download-accelerator/axel)** - Lightweight download accelerator for HTTP, HTTPS, FTP and FTPS. <sub>CLI · GPL-2.0</sub>
 - **[Motrix](https://motrix.app)** - Full-featured download manager for HTTP, FTP, BitTorrent and magnet links. <sub>Desktop</sub>
 - **[Persepolis Download Manager](https://persepolisdm.github.io)** - Graphical front end for aria2 with download scheduling and video grabbing. <sub>Desktop · GPL-3.0</sub>

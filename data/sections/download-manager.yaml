@@ -11,6 +11,7 @@ recommend:
       platforms:
         - desktop
         - android
+      added: 2026-11-24
     - name: Persepolis Download Manager
       url: https://persepolisdm.github.io
       repo: https://github.com/persepolisdm/persepolis

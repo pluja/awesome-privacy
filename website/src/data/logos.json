@@ -11,7 +11,12 @@
  },
  "42links": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
+ },
+ "ab-download-manager": {
+  "source": "https://abdownloadmanager.com/assets/app_icon_simple-DyQVbx7O.svg",
+  "checked": "2026-11-24",
+  "hash": "8334c1067bb2469c"
  },
  "accrescent": {
   "source": "https://accrescent.app/static/2C7Ae6DZ.svg",
@@ -45,7 +50,7 @@
  },
  "age": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "aider": {
   "source": "https://avatars.githubusercontent.com/u/172139148?v=4&s=128",
@@ -124,7 +129,7 @@
  },
  "aspia": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "atlasos": {
   "source": "https://atlasos.net/favicon.svg",
@@ -143,7 +148,7 @@
  },
  "aves": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "avoid-adb-appcontrol": {
   "source": "https://adbappcontrol.com/favicon.ico",
@@ -247,11 +252,11 @@
  },
  "avoid-microsoft-teams": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "avoid-minecraft": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "avoid-ms-windows": {
   "source": "https://www.microsoft.com/apple-touch-icon.png",
@@ -260,11 +265,11 @@
  },
  "avoid-musixmatch": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "avoid-onedrive": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "avoid-onenote": {
   "source": "https://res.cdn.office.net/files/fabric-cdn-prod_20251117.001/assets/brand-icons/product/svg/onenote_16x1.svg",
@@ -303,7 +308,7 @@
  },
  "avoid-sygic": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "avoid-tricount": {
   "source": "https://framerusercontent.com/images/FqUm9s4OGJg3xx19tqitkx7ea8.png",
@@ -397,7 +402,7 @@
  },
  "bluemoon": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "brave": {
   "source": "https://brave.com/static-assets/images/cropped-brave_appicon_release-192x192.png",
@@ -461,11 +466,11 @@
  },
  "capy-reader": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "cash": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "castopod": {
   "source": "https://avatars.githubusercontent.com/u/61631504?v=4&s=128",
@@ -504,7 +509,7 @@
  },
  "codeberg": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "collabora-office": {
   "source": "https://www.collaboraonline.com/wp-content/uploads/2023/06/collabora-symbols-600.png",
@@ -528,7 +533,7 @@
  },
  "conversations": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "coollabs-fonts": {
   "source": "https://fonts.coollabs.io/android-launchericon-512-512.png",
@@ -537,11 +542,11 @@
  },
  "croc": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "cromite": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "crowdsec": {
   "source": "https://avatars.githubusercontent.com/u/63284097?v=4&s=128",
@@ -580,7 +585,7 @@
  },
  "cryptsetup": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "cubyz": {
   "source": "https://avatars.githubusercontent.com/u/42113569?v=4&s=128",
@@ -589,7 +594,7 @@
  },
  "czkawka": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "darktable": {
   "source": "https://avatars.githubusercontent.com/u/1561544?v=4&s=128",
@@ -633,7 +638,7 @@
  },
  "disgus": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "dnscrypt-proxy": {
   "source": "https://avatars.githubusercontent.com/u/34526273?v=4&s=128",
@@ -672,7 +677,7 @@
  },
  "dzr": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "element": {
   "source": "https://element.io/assets-32bb636196f91ed59d7a49190e26b42c/5ef25c0d30ee3108da4c25e9/5f0e1775cd41ebe29c04cac1_webclip.png",
@@ -691,7 +696,7 @@
  },
  "eos": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "espeak-ng": {
   "source": "https://avatars.githubusercontent.com/u/16214005?v=4&s=128",
@@ -720,7 +725,7 @@
  },
  "ezbookkeeping": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "f-droid": {
   "source": "https://f-droid.org/assets/android-chrome-512x512.png?v=8j6PKzW9Mk",
@@ -749,7 +754,7 @@
  },
  "feeder": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "filen": {
   "source": "https://filen.io/android-chrome-512x512.png",
@@ -788,7 +793,7 @@
  },
  "fitotrack": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "fittrackee": {
   "source": "https://codeberg.org/avatars/93857fe7730e9d877a52d8e933b38c5c0af6913df000041c19be165b595c0c6d",
@@ -812,7 +817,7 @@
  },
  "fluent-reader": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "forgejo": {
   "source": "https://forgejo.org/favicon.svg",
@@ -856,11 +861,11 @@
  },
  "freedomchat": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "freeotpplus": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "freetube": {
   "source": "https://avatars.githubusercontent.com/u/35975737?v=4&s=128",
@@ -944,7 +949,7 @@
  },
  "gnu-emacs": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "gnucash": {
   "source": "https://gnucash.org/android-chrome-256x256.png?v=gAXA7A9nAq",
@@ -963,11 +968,11 @@
  },
  "gokapi": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "google-photos-takeout-helper": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "gpslogger": {
   "source": "https://gpslogger.app/images/favicon.png",
@@ -981,7 +986,7 @@
  },
  "grimoire": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "grist": {
   "source": "https://www.getgrist.com/wp-content/uploads/2023/03/cropped-Grist-Favicon-192x192.png",
@@ -1000,7 +1005,7 @@
  },
  "hetty": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "home-assistant": {
   "source": "https://www.home-assistant.io/images/favicon.svg",
@@ -1029,7 +1034,7 @@
  },
  "imagepipe": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "immich": {
   "source": "https://avatars.githubusercontent.com/u/109746326?v=4&s=128",
@@ -1038,7 +1043,7 @@
  },
  "indic-keyboard": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "inkscape": {
   "source": "https://media.inkscape.org/static/images/inkscape-favicon.png",
@@ -1067,7 +1072,7 @@
  },
  "ironfox": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "isso": {
   "source": "https://avatars.githubusercontent.com/u/101195030?v=4&s=128",
@@ -1106,7 +1111,7 @@
  },
  "joplin": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "justdeleteme": {
   "source": "https://justdeleteme.xyz/assets/icons/apple-touch-icon-precomposed.png",
@@ -1135,7 +1140,7 @@
  },
  "keep-to-markdown": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "keepassdx": {
   "source": "https://avatars.githubusercontent.com/u/22522604?v=4&s=128",
@@ -1164,7 +1169,7 @@
  },
  "kobuddy": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "kodi": {
   "source": "https://kodi.tv/images/kodi-logo.svg",
@@ -1178,7 +1183,7 @@
  },
  "kokoro-fastapi": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "komga": {
   "source": "https://komga.org/img/favicon.ico",
@@ -1242,7 +1247,7 @@
  },
  "libremdb": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "libreoffice": {
   "source": "https://avatars.githubusercontent.com/u/5824056?v=4&s=128",
@@ -1291,11 +1296,11 @@
  },
  "linkace": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "linkding": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "linkstack": {
   "source": "https://linkstack.org/wp-content/uploads/2023/04/linkstack-1.svg",
@@ -1334,7 +1339,7 @@
  },
  "losslesscut": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "luanti": {
   "source": "https://avatars.githubusercontent.com/u/181835281?v=4&s=128",
@@ -1343,7 +1348,7 @@
  },
  "lufi": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "magic-wormhole": {
   "source": "https://avatars.githubusercontent.com/u/59107264?v=4&s=128",
@@ -1372,7 +1377,7 @@
  },
  "mailfence": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "marginalia": {
   "source": "https://marginalia-search.com/favicon.ico",
@@ -1391,11 +1396,11 @@
  },
  "mat2": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "material-files": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "matomo": {
   "source": "https://m-img.org/spai/q_lossless+ret_img+to_webp/matomo.org/wp-content/uploads/2026/04/favicon-matomo-2026-450x450.png",
@@ -1424,7 +1429,7 @@
  },
  "medtimer": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "memos": {
   "source": "https://avatars.githubusercontent.com/u/95764151?v=4&s=128",
@@ -1438,7 +1443,7 @@
  },
  "metadata-cleaner": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "mineclonia": {
   "source": "https://content.luanti.org/favicon-128.png",
@@ -1452,7 +1457,7 @@
  },
  "minipaint": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "mint-cinnamon": {
   "source": "https://avatars.githubusercontent.com/u/107184?v=4&s=128",
@@ -1491,11 +1496,11 @@
  },
  "monerosms": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "moneybuster": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "moonshine": {
   "source": "https://moonshine.ai/assets/favicon.png",
@@ -1509,15 +1514,15 @@
  },
  "mox": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "mozhi": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "mucke": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "mullvad-browser": {
   "source": "https://mullvad.net/favicon.svg",
@@ -1551,7 +1556,7 @@
  },
  "ncspot": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "neomutt": {
   "source": "https://neomutt.org/favicon.ico",
@@ -1585,7 +1590,7 @@
  },
  "newsflash": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "nextcloud": {
   "source": "https://nextcloud.com/c/uploads/2022/03/favicon.png",
@@ -1624,7 +1629,7 @@
  },
  "nitter": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "no-chat-reports": {
   "source": "https://avatars.githubusercontent.com/u/78029114?v=4&s=128",
@@ -1633,11 +1638,11 @@
  },
  "no-telemetry": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "nopaste": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "nostr": {
   "source": "https://nostr.com/icon-512.png",
@@ -1646,7 +1651,7 @@
  },
  "notally": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "notesnook": {
   "source": "https://avatars.githubusercontent.com/u/63662537?v=4&s=128",
@@ -1690,7 +1695,7 @@
  },
  "olauncher": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "ollama": {
   "source": "https://ollama.com/public/apple-touch-icon.png",
@@ -1754,7 +1759,7 @@
  },
  "opensnitch": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "openstreetmap-osm": {
   "source": "https://www.openstreetmap.org/assets/osm_logo-cc7d94392992162133be3baa21a37eb84f19f9b91178f704005378fbeecabb4e.svg",
@@ -1828,7 +1833,7 @@
  },
  "pairdrop": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "paperless-ngx": {
   "source": "https://avatars.githubusercontent.com/u/99562962?v=4&s=128",
@@ -1872,7 +1877,7 @@
  },
  "periodical": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "persepolis-download-manager": {
   "source": "https://persepolisdm.github.io/img/android-icon-192x192.png",
@@ -1881,7 +1886,7 @@
  },
  "photok": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "photoprism": {
   "source": "https://www.photoprism.app/static/icons/logo/1024.png",
@@ -1895,7 +1900,7 @@
  },
  "pie-launcher": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "pigallery2": {
   "source": "https://bpatrik.github.io/pigallery2/assets/images/favicon.png",
@@ -1959,7 +1964,7 @@
  },
  "pokete": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "poppy": {
   "source": "https://poppy.usenostr.org/icons/apple-touch-icon.png",
@@ -1978,7 +1983,7 @@
  },
  "predirect": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "prism-launcher": {
   "source": "https://prismlauncher.org/img/favicon.png",
@@ -2012,7 +2017,7 @@
  },
  "proexpense": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "proton-calendar": {
   "source": "https://proton.me/favicons/android-chrome-512x512.png",
@@ -2041,11 +2046,11 @@
  },
  "psst": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "pure-maps": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "pureos": {
   "source": "https://www.pureos.net/images/favicon-192x192.png",
@@ -2054,7 +2059,7 @@
  },
  "qrcp": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "qubes-os": {
   "source": "https://www.qubes-os.org/android-chrome-512x512.png?v=bOv986l09r",
@@ -2073,7 +2078,7 @@
  },
  "qview": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "qwant": {
   "source": "https://www.qwant.com/favicon-196.69970297d0b12b8adfb68c211676f759.png",
@@ -2087,7 +2092,7 @@
  },
  "rapidraw": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "rawtherapee": {
   "source": "https://avatars.githubusercontent.com/u/196224878?v=4&s=128",
@@ -2156,7 +2161,7 @@
  },
  "riseup": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "rocketchat": {
   "source": "https://cdn.prod.website-files.com/611a19b9853b7414a0f6b3f6/6132017f51d1acdee170210c_webclip%20256px.png",
@@ -2170,7 +2175,7 @@
  },
  "runnerup": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "rustdesk": {
   "source": "https://rustdesk.com/_astro/apple-touch-icon.DNoXgPv7.png",
@@ -2189,7 +2194,7 @@
  },
  "scrambled-exif": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "screego": {
   "source": "https://screego.net/apple-touch-icon.png",
@@ -2233,7 +2238,7 @@
  },
  "send": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "session": {
   "source": "https://getsession.org/android-chrome-256x256.png",
@@ -2242,7 +2247,7 @@
  },
  "shimmy": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "shiori": {
   "source": "https://avatars.githubusercontent.com/u/41993376?v=4&s=128",
@@ -2266,7 +2271,7 @@
  },
  "shynet": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "signal": {
   "source": "https://signal.org/assets/images/favicon/favicon.svg",
@@ -2275,7 +2280,7 @@
  },
  "simple-keyboard": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "simplelogin": {
   "source": "https://avatars.githubusercontent.com/u/51910064?v=4&s=128",
@@ -2299,7 +2304,7 @@
  },
  "singlefile": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "siyuan": {
   "source": "https://avatars.githubusercontent.com/u/70468694?v=4&s=128",
@@ -2313,7 +2318,7 @@
  },
  "smspva": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "snapdrop": {
   "source": "https://snapdrop.me/images/android-chrome-512x512.png",
@@ -2327,7 +2332,7 @@
  },
  "soapbox": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "social-stream-ninja": {
   "source": "https://socialstream.ninja/icons/favicon.ico",
@@ -2341,11 +2346,11 @@
  },
  "songid-telegram-bot": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "songrec": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "sonic-robo-blast-2": {
   "source": "https://avatars.githubusercontent.com/u/2997763?v=4&s=128",
@@ -2384,7 +2389,7 @@
  },
  "squawker": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "stalwart": {
   "source": "https://stalw.art/favicon.svg",
@@ -2508,7 +2513,7 @@
  },
  "tinfoil-chat": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "tinylist": {
   "source": "https://tinylist.app/icons/icon-512x512.png",
@@ -2572,7 +2577,7 @@
  },
  "ublock-origin": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "ubuntu-touch": {
   "source": "https://ubports.com/web/image/website/10/favicon?unique=daa2d71",
@@ -2606,7 +2611,7 @@
  },
  "vaultwarden": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "vdoninja": {
   "source": "https://vdo.ninja/media/favicon-32x32.png",
@@ -2615,7 +2620,7 @@
  },
  "velvetyne": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "vencord": {
   "source": "https://vencord.dev/assets/favicon.png",
@@ -2669,7 +2674,7 @@
  },
  "webcord": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "wger": {
   "source": "https://avatars.githubusercontent.com/u/17430347?v=4&s=128",
@@ -2718,7 +2723,7 @@
  },
  "yanknote": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "yattee": {
   "source": "https://avatars.githubusercontent.com/u/93869658?v=4&s=128",
@@ -2727,7 +2732,7 @@
  },
  "yopass": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "yourls": {
   "source": "https://yourls.org/assets/images/favicon.svg",
@@ -2736,7 +2741,7 @@
  },
  "youtube-local": {
   "source": null,
-  "checked": "2026-11-14"
+  "checked": "2026-11-24"
  },
  "zen-browser": {
   "source": "https://avatars.githubusercontent.com/u/165225155?v=4&s=128",
