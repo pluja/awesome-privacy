@@ -26,3 +26,13 @@ recommend:
       tags:
         - self-host
         - offline
+    - name: PDF Sovereign
+      url: https://gmitch12967-crypto.github.io/
+      repo: https://github.com/gmitch12967-crypto/gmitch12967-crypto.github.io
+      description: Zero-cloud, client-side browser PDF utility for merging, splitting, watermarking, and converting documents locally with no server uploads.
+      license: MIT
+      added: 2026-11-24
+      platforms:
+        - web
+      tags:
+        - offline
