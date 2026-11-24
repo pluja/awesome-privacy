@@ -6,7 +6,11 @@ recommend:
     - name: AB Download Manager
       url: https://abdownloadmanager.com/
       repo: https://github.com/amir1376/ab-download-manager
-      description: Multi platform download manager with seamless browser extension support.
+      description: Download manager with queues, scheduling and a browser extension that hands downloads to the app.
+      license: Apache-2.0
+      platforms:
+        - desktop
+        - android
     - name: Persepolis Download Manager
       url: https://persepolisdm.github.io
       repo: https://github.com/persepolisdm/persepolis
