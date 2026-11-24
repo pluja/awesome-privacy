@@ -3,6 +3,14 @@ slug: download-manager
 intro: A download manager sees every file you fetch and every site you fetch it from. These resume and speed up downloads without ads or bundled extras, and their code is open to inspect.
 recommend:
   entries:
+    - name: AB Download Manager
+      url: https://abdownloadmanager.com/
+      repo: https://github.com/amir1376/ab-download-manager
+      description: Download manager with queues, scheduling and a browser extension that hands downloads to the app.
+      license: Apache-2.0
+      platforms:
+        - desktop
+        - android
     - name: Persepolis Download Manager
       url: https://persepolisdm.github.io
       repo: https://github.com/persepolisdm/persepolis
