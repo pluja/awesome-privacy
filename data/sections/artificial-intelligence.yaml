@@ -191,6 +191,13 @@ subsections:
       - title: Apps and services
         recommend:
           entries:
+            - name: Amical
+              url: https://amical.ai/
+              repo: https://github.com/amicalhq/amical
+              description: Desktop dictation and note-taking app that can transcribe fully offline with local Whisper or Parakeet models and no account, with cloud processing as an option.
+              platforms:
+                - macos
+                - windows
             - name: FUTO Voice Input
               url: https://voiceinput.futo.org/
               repo: https://gitlab.futo.org/alex/voiceinput
