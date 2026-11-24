@@ -912,6 +912,7 @@ Most online PDF tools upload your document to their server before working on it,
 ✅ **Use instead**
 
 - **[BentoPDF](https://bentopdf.com/)** - Browser-based PDF toolkit to merge, split, compress, sign and redact, with files processed on your device. <sub>Web · self-host · AGPL-3.0</sub>
+- **[PDF Sovereign](https://gmitch12967-crypto.github.io/)** - Browser-sandboxed, zero-telemetry offline PDF toolkit to merge, split, compress, sign and extract text locally without cloud uploads. <sub>Web · Client-side · Zero-telemetry</sub>
 
 ---
 
