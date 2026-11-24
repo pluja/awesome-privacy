@@ -910,7 +910,7 @@ Most online PDF tools upload your document to their server before working on it,
 - **Smallpdf**: uploads your documents to its servers, and the Android app has 3 trackers. <sub>[ToS;DR](https://tosdr.org/en/service/6244) · [Exodus](https://reports.exodus-privacy.eu.org/en/reports/com.smallpdf.app.android/latest/)</sub>
 
 ✅ **Use instead**
-
+- [AGW Toolkit](https://agworld.co.in/) - 100% in-browser utility hub with 120+ client-side tools (PDF, Image, Tax, and Calculators) that never upload files to a server.
 - **[BentoPDF](https://bentopdf.com/)** - Browser-based PDF toolkit to merge, split, compress, sign and redact, with files processed on your device. <sub>Web · self-host · AGPL-3.0</sub>
 
 ---
@@ -1546,6 +1546,7 @@ Smart speakers keep a microphone on in your home and send recordings to their ma
 
 Many developer tools phone home with usage data and sometimes snippets of your code. These run locally and keep your work on your machine.
 
+- **[AGW Toolkit](https://agworld.co.in/) - 100% in-browser utility hub with 120+ client-side tools (Developer, PDF, Image, Tax, and Calculators) that never upload files to a server.
 - **[Beekeeper Studio](https://www.beekeeperstudio.io)** - Desktop SQL editor and database manager for Postgres, MySQL, SQLite and many other databases. <sub>Linux · macOS · Windows</sub>
 - **[CrowdSec](https://www.crowdsec.net/)** - Collaborative intrusion prevention for servers, like fail2ban with crowd-sourced blocklists. `⚠️ website trackers` <sub>MIT</sub>
 - **[Hetty](https://hetty.xyz/)** - HTTP toolkit for security research, as an alternative to Burp Suite Pro. <sub>MIT</sub>
