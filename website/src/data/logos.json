@@ -1708,11 +1708,6 @@
   "checked": "2026-11-04",
   "hash": "142b71164af71059"
  },
- "onlinesim": {
-  "source": "https://onlinesim.io/favicon.svg",
-  "checked": "2026-11-04",
-  "hash": "04e33f0f1ce77567"
- },
  "onlyoffice": {
   "source": "https://static-site.onlyoffice.com/public/images/favicons/favicon325.png",
   "checked": "2026-11-04",
@@ -2316,10 +2311,6 @@
   "source": "https://avatars.githubusercontent.com/u/63019215?v=4&s=128",
   "checked": "2026-11-04",
   "hash": "2f88f82d17c87742"
- },
- "smspva": {
-  "source": null,
-  "checked": "2026-11-24"
  },
  "snapdrop": {
   "source": "https://snapdrop.me/images/android-chrome-512x512.png",

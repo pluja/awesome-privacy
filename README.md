@@ -160,20 +160,10 @@ An alias service gives you a different address for each website, forwarded to yo
 
 ### Online Phone Providers
 
-Many sites demand a phone number for verification, which ties your account to your real identity. These paid services give you a number to receive (and sometimes send) SMS without handing over your own.
-
-#### No email verification, accepting monero
+Many sites ask for a phone number, which ties your account to your identity. These paid services give you a number to receive SMS so you don't have to share your own. Numbers can be recycled and the provider sees every message, so don't use them for two-factor codes or account recovery.
 
 - **[Crypton](https://crypton.sh/)** - Rents real SIM cards hosted in the cloud, with incoming SMS encrypted under a key you choose.
 - **[MoneroSMS](https://monerosms.com/)** - Virtual numbers for sending and receiving SMS, paid in Monero, with a web app, a CLI and Tor support.
-
-#### Email verification required, accepting monero
-
-- **[Onlinesim](https://onlinesim.io/)** - Temporary virtual numbers for receiving verification codes. `⚠️ website trackers`
-
-#### Email verification required, accepting crypto
-
-- **[SmsPVA](https://smspva.com/)** - Temporary virtual numbers in many countries for receiving verification codes. `⚠️ website trackers`
 
 ---
 
