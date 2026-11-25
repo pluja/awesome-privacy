@@ -500,7 +500,6 @@ Your browser sees everything you do online, and the big ones are built by ad and
 #### Android / iOS
 
 - **[Brave](https://brave.com/)** - Chromium-based browser that blocks ads and trackers out of the box. `⚠️ telemetry opt-out` <sub>MPL-2.0</sub>
-- **[Cromite](https://github.com/uazo/cromite)** - Chromium fork, successor to Bromite, with built-in ad blocking and anti-fingerprinting measures. <sub>Android · Linux · Windows · GPL-3.0</sub>
 - **[Firefox](https://www.firefox.com/en-US/mobile/)** - Mozilla's browser, with its own engine on Android and Enhanced Tracking Protection on by default. `⚠️ website trackers` `⚠️ telemetry opt-out`
   - **[IronFox](https://gitlab.com/ironfox-oss/IronFox)** - Hardened Firefox for Android with proprietary blobs removed, a fork of the discontinued Mull. <sub>Android</sub>
 - **[Privacy Browser](https://www.stoutner.com/privacy-browser-android/)** - Browser that keeps JavaScript, cookies and other tracking features off until you allow them per site. <sub>Android</sub>
