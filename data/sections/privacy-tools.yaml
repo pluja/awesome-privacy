@@ -50,6 +50,19 @@ subsections:
             - linux
           license: GPL-3.0
           added: 2026-09-30
+        - name: Wiretap
+          url: https://github.com/aixisstudio/Wiretap
+          repo: https://github.com/aixisstudio/Wiretap
+          description: Local-first, open-source outbound firewall and network monitor for Windows, macOS and Linux - per-process traffic graph, packet capture, block rules and SIEM export. No telemetry, no cloud account.
+          platforms:
+            - windows
+            - macos
+            - linux
+          license: AGPL-3.0
+          tags:
+            - no-account
+            - offline
+          added: 2026-11-25
   - title: Android
     recommend:
       entries:
