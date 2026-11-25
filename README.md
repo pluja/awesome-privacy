@@ -1641,6 +1641,7 @@ Cloud AI services see everything you type, tie it to your account and payment de
 
 ##### Apps and services
 
+- **[Amical](https://amical.ai/)** - Desktop dictation app that transcribes offline with open Whisper or Parakeet models and no account, with an optional paid cloud service. `⚠️ closed server` <sub>macOS · Windows · MIT</sub>
 - **[FUTO Voice Input](https://voiceinput.futo.org/)** - Voice input for Android that works with other keyboards and runs entirely on the device. `⚠️ source-available` <sub>Android</sub>
 - **[Minutes](https://useminutes.app/)** - Records and transcribes meetings and voice memos on your device, with search over the history for local AI tools.
 - **[OpenWhispr](https://openwhispr.com/)** - Desktop dictation app that can transcribe fully offline with local models, with cloud processing as an option. `⚠️ website trackers` <sub>Linux · macOS · Windows · MIT</sub>

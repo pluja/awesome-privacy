@@ -203,6 +203,7 @@ subsections:
                 - offline
               caveats:
                 - closed-server
+              added: 2026-11-25
             - name: FUTO Voice Input
               url: https://voiceinput.futo.org/
               repo: https://gitlab.futo.org/alex/voiceinput
