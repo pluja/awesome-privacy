@@ -31,16 +31,6 @@ subsections:
           added: 2021-01-12
           caveats:
             - telemetry-opt-out
-        - name: Cromite
-          url: https://github.com/uazo/cromite
-          repo: https://github.com/uazo/cromite
-          description: Chromium fork, successor to Bromite, with built-in ad blocking and anti-fingerprinting measures.
-          platforms:
-            - android
-            - linux
-            - windows
-          license: GPL-3.0
-          added: 2024-06-17
         - name: Firefox
           url: https://www.firefox.com/en-US/mobile/
           repo: https://github.com/mozilla-firefox/firefox
