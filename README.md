@@ -1130,6 +1130,7 @@ Mainstream photo editors push your work into their cloud and collect usage data 
 ✅ **Use instead**
 
 #### Web
+- **[Dopic](https://dopic.app/)** - Browser-based photo studio (passport photos, image compression, WebP/PNG/JPG conversion, EXIF stripping, crop & resize) that runs core edits locally in your browser with no sign-up required. `⚠️ closed source` <sub>Web</sub>
 
 - **[miniPaint](https://github.com/viliusle/miniPaint)** - Photopea alternative that edits images entirely in your browser, with nothing sent to a server. <sub>Web</sub>
 
