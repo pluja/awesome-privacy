@@ -26,3 +26,12 @@ recommend:
       tags:
         - self-host
         - offline
+    - name: PDFCraft
+      url: https://pdf-craft-vert.vercel.app/
+      repo: https://github.com/Vishnu-cod/pdf-craft
+      description: Client-side PDF toolkit to compress under exact KB caps, e-sign, redact PII, and convert documents inside local browser memory.
+      platforms:
+        - web
+      tags:
+        - no-account
+        - offline
