@@ -26,3 +26,12 @@ recommend:
       tags:
         - self-host
         - offline
+
+    - name: FreeAppsHub
+      url: https://free-apps-hub.pages.dev/
+      description: Free in-browser PDF tools (merge, split, compress) that run fully client-side — files are never uploaded, no account, no tracking.
+      added: 2026-11-27
+      platforms:
+        - web
+      tags:
+        - no-upload
