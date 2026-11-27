@@ -1539,6 +1539,7 @@ Many developer tools phone home with usage data and sometimes snippets of your c
 - **[Beekeeper Studio](https://www.beekeeperstudio.io)** - Desktop SQL editor and database manager for Postgres, MySQL, SQLite and many other databases. <sub>Linux · macOS · Windows</sub>
 - **[CrowdSec](https://www.crowdsec.net/)** - Collaborative intrusion prevention for servers, like fail2ban with crowd-sourced blocklists. `⚠️ website trackers` <sub>MIT</sub>
 - **[Hetty](https://hetty.xyz/)** - HTTP toolkit for security research, as an alternative to Burp Suite Pro. <sub>MIT</sub>
+- **[VibeShield CLI](https://github.com/zColdWater/vibeshield-cli)** - Zero-dependency, read-only web and AI-app security auditor checking TLS, CSP headers, and leaked client-bundle secrets locally with no telemetry or signup ([web scanner](https://shipbastion.com/)). <sub>MIT</sub>
 
 #### IDEs
 
